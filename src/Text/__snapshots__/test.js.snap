@@ -1,0 +1,5 @@
+exports[`Text Renders a plain Text component 1`] = `
+<span>
+  Howdy!
+</span>
+`;
