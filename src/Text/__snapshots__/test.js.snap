@@ -1,21 +1,35 @@
-exports[`Text Renders Text with some color 1`] = `
-<p
+exports[`Text Text component 1`] = `
+<span
   style={
     Object {
-      "color": "#329ced"
-    }
-  }>
-  Howdy! (In Color)
-</p>
-`;
-
-exports[`Text Renders a plain Text component 1`] = `
-<p
-  style={
-    Object {
-      "color": undefined
+      "color": undefined,
+      "fontSize": "1rem"
     }
   }>
   Howdy!
-</p>
+</span>
+`;
+
+exports[`Text Text w/ Color 1`] = `
+<span
+  style={
+    Object {
+      "color": "#329ced",
+      "fontSize": "1rem"
+    }
+  }>
+  Howdy! (In Color)
+</span>
+`;
+
+exports[`Text Text w/ Size 1`] = `
+<span
+  style={
+    Object {
+      "color": undefined,
+      "fontSize": "2rem"
+    }
+  }>
+  Big Howdy!
+</span>
 `;

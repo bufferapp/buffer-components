@@ -8,6 +8,12 @@ storiesOf('Text')
   .add('Default', () => (
     <Text>{text}</Text>
   ))
-  .add('Text with color', () => (
+  .add('Color', () => (
     <Text color={"#329ced"}>{text}</Text>
+  ))
+  .add('Large', () => (
+    <Text size={2}>{text}</Text>
+  ))
+  .add('Small', () => (
+    <Text size={0.75}>{text}</Text>
   ));
