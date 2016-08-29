@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
-import Text from './index.js';
+import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';
 
