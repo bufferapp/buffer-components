@@ -1,5 +1,21 @@
+exports[`Text Renders Text with some color 1`] = `
+<p
+  style={
+    Object {
+      "color": "#329ced"
+    }
+  }>
+  Howdy! (In Color)
+</p>
+`;
+
 exports[`Text Renders a plain Text component 1`] = `
-<span>
+<p
+  style={
+    Object {
+      "color": undefined
+    }
+  }>
   Howdy!
-</span>
+</p>
 `;

@@ -7,4 +7,7 @@ const text = 'The quick brown fox jumps over the lazy dog';
 storiesOf('Text')
   .add('Default', () => (
     <Text>{text}</Text>
+  ))
+  .add('Text with color', () => (
+    <Text color={"#329ced"}>{text}</Text>
   ));

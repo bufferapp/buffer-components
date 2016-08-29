@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/bufferapp/buffer-components#readme",
   "dependencies": {
-    "react": "15.3.1"
+    "react": "15.3.1",
+    "reactcss": "1.0.6"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.5.2",
@@ -38,8 +39,9 @@
   },
   "jest": {
     "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react/",
-      "<rootDir>/node_modules/react-test-renderer/"
+      "react",
+      "react-test-renderer",
+      "reactcss"
     ],
     "testRegex": "src/.*test\\.js$"
   }

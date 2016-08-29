@@ -11,4 +11,12 @@ describe('Text', () => {
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('Renders Text with some color', () => {
+    const component = renderer.create(
+      <Text color={"#329ced"}>Howdy! (In Color)</Text>
+    );
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });
