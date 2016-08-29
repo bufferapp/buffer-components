@@ -1,0 +1,6 @@
+npm-debug.log*
+*.map
+
+node_modules
+.npm
+/coverage

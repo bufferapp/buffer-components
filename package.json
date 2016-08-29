@@ -1,0 +1,37 @@
+{
+  "name": "@bufferapp/components",
+  "version": "0.0.1",
+  "description": "A shared set of UI Components",
+  "main": "index.js",
+  "scripts": {
+    "start": "start-storybook -p 9001",
+    "lint": "./node_modules/eslint/bin/eslint.js --ignore-pattern coverage .",
+    "test": "./node_modules/mocha/bin/mocha",
+    "test-watch": "./node_modules/mocha/bin/mocha -w",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bufferapp/buffer-components.git"
+  },
+  "author": "Harrison Harnisch <hharnisc@gmail.com> (https://hharnisc.github.io)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/bufferapp/buffer-components/issues"
+  },
+  "homepage": "https://github.com/bufferapp/buffer-components#readme",
+  "dependencies": {
+    "react": "15.3.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.5.2",
+    "chai": "^3.5.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.3",
+    "eslint-plugin-react": "^5.1.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  }
+}
