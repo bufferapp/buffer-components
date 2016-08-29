@@ -41,6 +41,6 @@
       "<rootDir>/node_modules/react/",
       "<rootDir>/node_modules/react-test-renderer/"
     ],
-    "testRegex": "src/.*test\\.js"
+    "testRegex": "src/.*test\\.js$"
   }
 }
