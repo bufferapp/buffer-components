@@ -3,7 +3,7 @@ exports[`Text Text component 1`] = `
   style={
     Object {
       "color": undefined,
-      "fontSize": "1rem"
+      "fontSize": 14
     }
   }>
   Howdy!
@@ -15,7 +15,7 @@ exports[`Text Text w/ Color 1`] = `
   style={
     Object {
       "color": "#329ced",
-      "fontSize": "1rem"
+      "fontSize": 14
     }
   }>
   Howdy! (In Color)
@@ -27,7 +27,7 @@ exports[`Text Text w/ Size 1`] = `
   style={
     Object {
       "color": undefined,
-      "fontSize": "2rem"
+      "fontSize": 36
     }
   }>
   Big Howdy!

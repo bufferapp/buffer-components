@@ -18,7 +18,7 @@ describe('Text', () => {
 
   it('Text w/ Size', () => {
     renderAndCheckSnapshot(
-      <Text size={2}>Big Howdy!</Text>
+      <Text size={36}>Big Howdy!</Text>
     );
   });
 });

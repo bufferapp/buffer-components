@@ -12,8 +12,8 @@ storiesOf('Text')
     <Text color={"#329ced"}>{text}</Text>
   ))
   .add('Large', () => (
-    <Text size={2}>{text}</Text>
+    <Text size={36}>{text}</Text>
   ))
   .add('Small', () => (
-    <Text size={0.75}>{text}</Text>
+    <Text size={10}>{text}</Text>
   ));

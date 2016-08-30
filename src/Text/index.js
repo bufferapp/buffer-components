@@ -6,7 +6,7 @@ const Text = ({ children, color, size }) => {
     default: {
       Text: {
         color,
-        fontSize: `${size}rem`,
+        fontSize: size,
       },
     },
   });
@@ -22,7 +22,7 @@ Text.propTypes = {
 };
 
 Text.defaultProps = {
-  size: 1,
+  size: 14,
 };
 
 export default Text;
