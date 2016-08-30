@@ -43,7 +43,8 @@
     "unmockedModulePathPatterns": [
       "react",
       "react-test-renderer",
-      "reactcss"
+      "reactcss",
+      "../testHelpers"
     ],
     "testRegex": "src/.*test\\.js$"
   }

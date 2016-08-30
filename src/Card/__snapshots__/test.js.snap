@@ -1,0 +1,54 @@
+exports[`Card Borderless Card 1`] = `
+<div
+  style={
+    Object {
+      "MozBorderRadius": 2,
+      "OBorderRadius": 2,
+      "WebkitBorderRadius": 2,
+      "backgroundColor": "#fff",
+      "border": 0,
+      "borderRadius": 2,
+      "msBorderRadius": 2,
+      "padding": 16
+    }
+  }>
+  Some Contents
+</div>
+`;
+
+exports[`Card Card component 1`] = `
+<div
+  style={
+    Object {
+      "MozBorderRadius": 2,
+      "OBorderRadius": 2,
+      "WebkitBorderRadius": 2,
+      "backgroundColor": "#fff",
+      "border": "1px solid #ced7df",
+      "borderRadius": 2,
+      "msBorderRadius": 2,
+      "padding": 16
+    }
+  }>
+  Some Contents
+</div>
+`;
+
+exports[`Card Empty Card 1`] = `
+<div
+  style={
+    Object {
+      "MozBorderRadius": 2,
+      "OBorderRadius": 2,
+      "WebkitBorderRadius": 2,
+      "backgroundColor": "#fff",
+      "border": "1px solid #ced7df",
+      "borderRadius": 2,
+      "borderStyle": "dashed",
+      "msBorderRadius": 2,
+      "padding": 16
+    }
+  }>
+  Some Contents
+</div>
+`;
