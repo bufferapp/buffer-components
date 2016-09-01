@@ -5,10 +5,10 @@ const Card = ({ children, empty, noBorder }) => {
   const style = reactCSS({
     default: {
       Card: {
+        padding: 16,
         backgroundColor: '#fff',
         border: '1px solid #ced7df',
         borderRadius: 2,
-        padding: 16,
       },
     },
     empty: {
