@@ -23,15 +23,10 @@ const VectorGraphic = ({ children, height, width, viewWidth, viewHeight }) => {
 
 VectorGraphic.propTypes = {
   children: PropTypes.node.isRequired,
-  height: PropTypes.number,
-  width: PropTypes.number,
+  height: PropTypes.number.isRequired,
+  width: PropTypes.number.isRequired,
   viewHeight: PropTypes.number,
   viewWidth: PropTypes.number,
-};
-
-VectorGraphic.defaultProps = {
-  height: 20,
-  width: 20,
 };
 
 export default VectorGraphic;

@@ -6,26 +6,9 @@ import VectorGraphic from './index';
 describe('VectorGraphic', () => {
   it('VectorGraphic component', () => {
     renderAndCheckSnapshot(
-      <VectorGraphic>
-        <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
-      </VectorGraphic>
-    );
-  });
-
-  it('VectorGraphic w/ height', () => {
-    renderAndCheckSnapshot(
       <VectorGraphic
-        height={10}
-      >
-        <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
-      </VectorGraphic>
-    );
-  });
-
-  it('VectorGraphic w/ width', () => {
-    renderAndCheckSnapshot(
-      <VectorGraphic
-        width={10}
+        height={20}
+        width={20}
       >
         <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
       </VectorGraphic>
@@ -35,6 +18,8 @@ describe('VectorGraphic', () => {
   it('VectorGraphic w/ viewHeight', () => {
     renderAndCheckSnapshot(
       <VectorGraphic
+        height={20}
+        width={20}
         viewHeight={10}
       >
         <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
@@ -45,6 +30,8 @@ describe('VectorGraphic', () => {
   it('VectorGraphic w/ viewWidth', () => {
     renderAndCheckSnapshot(
       <VectorGraphic
+        height={20}
+        width={20}
         viewWidth={10}
       >
         <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
