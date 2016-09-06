@@ -15,14 +15,14 @@ const getGraphic = (type, width, height) => {
           </g>
         </g>
       );
-      viewWidth = 17;
-      viewHeight = 17;
+      viewWidth = 16;
+      viewHeight = 16;
       break;
     default:
       graphic = (
         <g>
-          <circle cx="100" cy="100" r="80" fill="red" />
-          <text x="100" y="120" fontSize="60" textAnchor="middle" fill="white">ICON</text>
+          <rect width="100%" height="100%" fill="grey" />
+          <circle cx="100" cy="100" r="80" fill="white" />
         </g>
       );
       viewWidth = 200;

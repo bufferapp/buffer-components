@@ -2,7 +2,7 @@ exports[`Icon Icon (buffer) 1`] = `
 <svg
   height={50}
   version="1.1"
-  viewBox="0 0 17 17"
+  viewBox="0 0 16 16"
   width={50}
   xmlns="http://www.w3.org/2000/svg">
   <g
@@ -27,19 +27,15 @@ exports[`Icon Icon component 1`] = `
   width={50}
   xmlns="http://www.w3.org/2000/svg">
   <g>
+    <rect
+      fill="grey"
+      height="100%"
+      width="100%" />
     <circle
       cx="100"
       cy="100"
-      fill="red"
-      r="80" />
-    <text
       fill="white"
-      fontSize="60"
-      textAnchor="middle"
-      x="100"
-      y="120">
-      ICON
-    </text>
+      r="80" />
   </g>
 </svg>
 `;
