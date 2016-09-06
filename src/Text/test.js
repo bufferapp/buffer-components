@@ -21,4 +21,10 @@ describe('Text', () => {
       <Text size={36}>Big Howdy!</Text>
     );
   });
+
+  it('Text w/ Weight', () => {
+    renderAndCheckSnapshot(
+      <Text weight={600}>Big Howdy!</Text>
+    );
+  });
 });

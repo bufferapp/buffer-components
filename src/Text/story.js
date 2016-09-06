@@ -16,4 +16,10 @@ storiesOf('Text')
   ))
   .add('Small', () => (
     <Text size={10}>{text}</Text>
+  ))
+  .add('Bold', () => (
+    <Text weight={800}>{text}</Text>
+  ))
+  .add('Thin', () => (
+    <Text weight={200}>{text}</Text>
   ));
