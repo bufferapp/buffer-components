@@ -1,7 +1,9 @@
 import React, { PropTypes } from 'react';
 import reactCSS from 'reactcss';
+import Icon from '../Icon';
+import Text from '../Text';
 
-const NavBar = ({ children }) => {
+const NavBar = ({ title, subtitle }) => {
   const styles = reactCSS({
     default: {
       NavBar: {
@@ -12,10 +14,13 @@ const NavBar = ({ children }) => {
         padding: '0 16px',
         width: '100%',
         height: 64,
-        lineHeight: 64,
         backgroundColor: '#fff',
         borderBottom: '1px solid #ced7df',
         boxSizing: 'border-box',
+      },
+      AppIcon: {
+        marginRight: 8,
+        display: 'flex',
       },
     },
   });
@@ -23,13 +28,28 @@ const NavBar = ({ children }) => {
     <div
       style={styles.NavBar}
     >
-      {children}
+      <div
+        style={styles.AppIcon}
+      >
+        <Icon
+          type={'buffer'}
+          height={15}
+          width={15}
+        />
+      </div>
+      <Text color={"#323b43"} weight={600}>{title}</Text>
+      <Text color={"#323b43"}>{subtitle ? `\u00a0${subtitle}` : ''}</Text>
     </div>
   );
 };
 
 NavBar.propTypes = {
-  children: PropTypes.node,
+  subtitle: PropTypes.string,
+  title: PropTypes.string,
+};
+
+NavBar.defaultProps = {
+  title: 'Buffer',
 };
 
 export default NavBar;
