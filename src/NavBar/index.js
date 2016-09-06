@@ -6,16 +6,16 @@ const NavBar = ({ children }) => {
     default: {
       NavBar: {
         alignItems: 'center',
-        backgroundColor: '#fff',
-        borderBottom: '1px solid #ced7df',
-        boxSizing: 'border-box',
-        display: 'flex',
         flexDirection: 'row',
-        height: 64,
-        lineHeight: 64,
+        display: 'flex',
         marginBottom: 32,
         padding: '0 16px',
         width: '100%',
+        height: 64,
+        lineHeight: 64,
+        backgroundColor: '#fff',
+        borderBottom: '1px solid #ced7df',
+        boxSizing: 'border-box',
       },
     },
   });

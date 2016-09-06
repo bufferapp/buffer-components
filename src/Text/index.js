@@ -5,8 +5,8 @@ const Text = ({ children, color, size }) => {
   const styles = reactCSS({
     default: {
       Text: {
-        color,
         fontSize: size,
+        color,
       },
     },
   });
