@@ -42,6 +42,13 @@ npm run test-watch
 
 Note - *does not run all tests the first time*
 
+Update Test Snapshots
+
+```sh
+npm run test-update
+```
+
+Note: only commit these if you have manually inspected them with a story
 
 ## FAQ
 
