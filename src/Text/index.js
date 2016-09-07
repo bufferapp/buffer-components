@@ -7,7 +7,6 @@ const Text = ({ children, color, size, weight }) => {
       Text: {
         fontSize: size,
         color,
-        fontFamily: '"Open Sans", sans-serif',
         fontWeight: weight,
       },
     },

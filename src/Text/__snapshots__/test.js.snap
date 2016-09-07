@@ -3,7 +3,6 @@ exports[`Text Text component 1`] = `
   style={
     Object {
       "color": undefined,
-      "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": 14,
       "fontWeight": 400
     }
@@ -17,7 +16,6 @@ exports[`Text Text w/ Color 1`] = `
   style={
     Object {
       "color": "#329ced",
-      "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": 14,
       "fontWeight": 400
     }
@@ -31,7 +29,6 @@ exports[`Text Text w/ Size 1`] = `
   style={
     Object {
       "color": undefined,
-      "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": 36,
       "fontWeight": 400
     }
@@ -45,7 +42,6 @@ exports[`Text Text w/ Weight 1`] = `
   style={
     Object {
       "color": undefined,
-      "fontFamily": "\"Open Sans\", sans-serif",
       "fontSize": 14,
       "fontWeight": 600
     }
