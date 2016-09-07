@@ -1,7 +1,7 @@
-export { default as Card } from './Card';
-export { default as Icon } from './Icon';
-export { default as Image } from './Image';
-export { default as NavBar } from './NavBar';
-export { default as Text } from './Text';
-export { default as VectorGraphic } from './VectorGraphic';
-export { default as Video } from './Video';
+export Card from './Card';
+export Icon from './Icon';
+export Image from './Image';
+export NavBar from './NavBar';
+export Text from './Text';
+export VectorGraphic from './VectorGraphic';
+export Video from './Video';
