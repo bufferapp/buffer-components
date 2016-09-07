@@ -2,7 +2,7 @@
   "name": "@bufferapp/components",
   "version": "0.0.1",
   "description": "A shared set of UI Components",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
