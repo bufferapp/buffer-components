@@ -2,6 +2,15 @@ exports[`Video Video component 1`] = `
 <video
   controls={true}
   height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3
+    }
+  }
   width={undefined}>
   \"Your Browser Does Not Support Video\"
 </video>
@@ -11,6 +20,15 @@ exports[`Video Video with height 1`] = `
 <video
   controls={true}
   height="50px"
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3
+    }
+  }
   width={undefined}>
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
@@ -23,6 +41,15 @@ exports[`Video Video with source 1`] = `
 <video
   controls={true}
   height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3
+    }
+  }
   width={undefined}>
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
@@ -35,6 +62,15 @@ exports[`Video Video with width 1`] = `
 <video
   controls={true}
   height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3
+    }
+  }
   width="50px">
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
@@ -47,6 +83,15 @@ exports[`Video Video without controls 1`] = `
 <video
   controls={false}
   height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3
+    }
+  }
   width={undefined}>
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
