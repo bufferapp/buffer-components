@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import reactCSS from 'reactcss';
 import Icon from '../Icon';
 import Text from '../Text';
+import { TextColors } from '../shared/colors';
 
 const NavBar = ({ title, subtitle }) => {
   const styles = reactCSS({
@@ -37,8 +38,8 @@ const NavBar = ({ title, subtitle }) => {
           width={15}
         />
       </div>
-      <Text color={"#323b43"} weight={600}>{title}</Text>
-      <Text color={"#323b43"}>{subtitle ? `\u00a0${subtitle}` : ''}</Text>
+      <Text color={TextColors.primary} weight={600}>{title}</Text>
+      <Text color={TextColors.primary}>{subtitle ? `\u00a0${subtitle}` : ''}</Text>
     </div>
   );
 };
