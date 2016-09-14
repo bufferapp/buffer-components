@@ -65,6 +65,16 @@ src/ # root
 
 ## FAQ
 
+**What is a component**
+
+In the current implementation components are all [functional and stateless](https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.ukhlhrqlw).
+
+This means that UI is a function of state since we're using pure functions to build our views.
+
+```
+UI = f(state)
+```
+
 **How do I determine the scope of a component**
 
 TODO
@@ -184,7 +194,42 @@ At this point it's a good idea to generate a PR on github :)
 
 **How do I write tests for a component?**
 
-TODO
+Since components are [functional and stateless](https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.ukhlhrqlw) we can use snapshot testing to get complete coverage.
+
+So to write a test you can render a component with a given set of properties and check it against a know good state (the snapshot)
+
+So tests end up looking like this.
+
+```js
+jest.unmock('./index');
+import React from 'react';
+import { renderAndCheckSnapshot } from '../testHelpers';
+import NewComponent from './index';
+
+describe('NewComponent', () => {
+  it('NewComponent component', () => {
+    renderAndCheckSnapshot(<NewComponent />);
+  });
+
+  it('NewComponent width=100', () => {
+    renderAndCheckSnapshot(<NewComponent width={100}/>);
+  });
+});
+```
+
+The first time the test is run it generates a new snapshot. The **second** time it's checked against the snapshot.
+
+If you're curious here's what the `renderAndCheckSnapshot` function does:
+
+```js
+import renderer from 'react-test-renderer';
+
+export const renderAndCheckSnapshot = (component) => {
+  const renderedComponent = renderer.create(component);
+  const tree = renderedComponent.toJSON();
+  expect(tree).toMatchSnapshot();
+};
+```
 
 **How do determine what a component does?**
 
