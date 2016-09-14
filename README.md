@@ -198,7 +198,7 @@ Since components are [functional and stateless](https://medium.com/@housecor/rea
 
 So to write a test you can render a component with a given set of properties and check it against a know good state (the snapshot)
 
-So tests end up looking like this.
+So tests end up looking like this:
 
 ```js
 jest.unmock('./index');
@@ -217,6 +217,8 @@ describe('NewComponent', () => {
 });
 ```
 
+You're verifying that each property change has the expected outcome in HTML.
+
 The first time the test is run it generates a new snapshot. The **second** time it's checked against the snapshot.
 
 If you're curious here's what the `renderAndCheckSnapshot` function does:
@@ -229,6 +231,74 @@ export const renderAndCheckSnapshot = (component) => {
   const tree = renderedComponent.toJSON();
   expect(tree).toMatchSnapshot();
 };
+```
+
+**How Do I Update A Snapshot**
+
+Let's say you've got a **component** that starts like this
+
+```js
+import React from 'react';
+
+const NewComponent = () => <div>NewComponent</div>;
+
+export default NewComponent;
+```
+
+and a **test** that looks like this
+
+```js
+jest.unmock('./index');
+import React from 'react';
+import { renderAndCheckSnapshot } from '../testHelpers';
+import NewComponent from './index';
+
+describe('NewComponent', () => {
+  it('NewComponent component', () => {
+    renderAndCheckSnapshot(<NewComponent />);
+  });
+});
+```
+
+Now you want to add `height` property to the component
+
+```js
+import React, { PropTypes } from 'react';
+
+const NewComponent = ({ height }) => <div style={{ height }}>NewComponent</div>;
+
+NewComponent.propTypes = {
+  height: PropTypes.number
+};
+
+export default NewComponent;
+```
+
+_Next time you run tests they'll fail because the output changed._
+
+So after verifying that the output looks the way you want it to in Storybook (http://localhost:9001) and add a new test for the `height` property
+
+```js
+jest.unmock('./index');
+import React from 'react';
+import { renderAndCheckSnapshot } from '../testHelpers';
+import NewComponent from './index';
+
+describe('NewComponent', () => {
+  it('NewComponent component', () => {
+    renderAndCheckSnapshot(<NewComponent />);
+  });
+
+  it('NewComponent component', () => {
+    renderAndCheckSnapshot(<NewComponent height={100}/>);
+  });
+});
+```
+
+you can update the snapshots
+
+```
+npm run test-update
 ```
 
 **How do determine what a component does?**
