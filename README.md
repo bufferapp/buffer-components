@@ -77,7 +77,7 @@ UI = f(state)
 
 **How do I determine the scope of a component**
 
-TODO
+This is a tough question, it really depends. But as a general rule, a component should be simple enough to be reusable across multiple applications and be not much longer than 150 lines of code. This is a good one to seek advice if you're not sure.
 
 **What's the development workflow look like?**
 
@@ -303,4 +303,10 @@ npm run test-update
 
 **How do determine what a component does?**
 
-TODO
+There's a pattern you can follow
+
+1. Look at the Component.propTypes section
+  - This is essentially the API of the component
+2. Look at the render function
+3. Look at any helper functions
+4. Ask one of the contributors :)
