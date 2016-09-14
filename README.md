@@ -8,6 +8,7 @@ Demo: https://bufferapp.github.io/buffer-components/
 
 - [Quick Start](#quick-start)
 - [Test](#test)
+- [Component Anatomy](#component-anatomy)
 - [FAQ](#faq)
 
 ## Quick Start
@@ -50,20 +51,34 @@ npm run test-update
 
 Note: only commit these if you have manually inspected them with a story
 
+## Component Anatomy
+
+```
+src/ # root
++-- MyComponent/ # component root
+  `-- index.js # component logic
+  `-- story.js # storybook entry
+  `-- test.js  # component tests
+  +-- __snapshots__/  # jest snapshot location
+    `-- test.js.snap # actual component snapshot
+```
+
 ## FAQ
 
-- How do I determine the scope of a component
+**How do I determine the scope of a component**
 
 TODO
 
-- What's the development workflow look like?
+**What's the development workflow look like?**
+
+Note: this is *a way* to do this, but not necessarily *the way* to build components.
+
+1. Create a folder structure
+
+**How do I write tests for a component?**
 
 TODO
 
-- How do I write tests for a component
-
-TODO
-
-- How do determine what a component does?
+**How do determine what a component does?**
 
 TODO
