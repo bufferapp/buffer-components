@@ -71,9 +71,116 @@ TODO
 
 **What's the development workflow look like?**
 
-Note: this is *a way* to do this, but not necessarily *the way* to build components.
+Note: this is *a way* to do this, but not necessarily *the way* to build components. For this workflow let's create a component called `NewComponent`.
 
-1. Create a folder structure
+1. Create a branch with the name of the new component
+
+Note: also make sure you're up to date
+
+```
+git checkout master
+git pull -r
+git checkout -b task/add-newcomponent
+```
+
+2. Install dependencies and start the storybook
+
+```
+npm i && npm start
+```
+
+open http://localhost:9001 in your browser
+
+3. Create a `NewComponent` folder under `src` (see [Component Anatomy](#component-anatomy))
+```
+src/
++-- NewComponent/
+```
+
+4. Create a story for the `NewComponent`
+
+```
+src/
++-- NewComponent/
+ `-- story.js
+```
+
+populate **story.js** with a default story
+
+```js
+// story.js
+import React from 'react';
+import { storiesOf } from '@kadira/storybook';
+import NewComponent from './index';
+
+storiesOf('Card')
+  .add('Default', () => (
+    <NewComponent />
+  ));
+```
+
+Now when you look at Storybook you should see a broken story (red screen)
+
+5. Implement your component
+
+```
+src/
++-- NewComponent/
+ `-- story.js
+ `-- index.js
+```
+
+populate **index.js** with the new component
+
+```js
+import React from 'react';
+
+const NewComponent = () => <div>NewComponent</div>;
+
+export default NewComponent;
+```
+6. Write a snapshot test
+
+```
+src/
++-- NewComponent/
+ `-- story.js
+ `-- index.js
+ `-- test.js
+```
+
+populate **test.js** with a test
+
+```js
+jest.unmock('./index');
+import React from 'react';
+import { renderAndCheckSnapshot } from '../testHelpers';
+import NewComponent from './index';
+
+describe('NewComponent', () => {
+  it('NewComponent component', () => {
+    renderAndCheckSnapshot(<NewComponent />);
+  });
+});
+```
+
+7. Run the test for the first time
+
+It's important to note that this creates a snapshot of the component. All tests ran in the future will be tested against this snapshot to ensure they haven't changed.
+
+```sh
+npm t
+```
+
+8. Commit it!
+
+```sh
+git add .
+git commit -m "Add NewComponent"
+git push -u origin task/add-newcomponent
+```
+
+At this point it's a good idea to generate a PR on github :)
 
 **How do I write tests for a component?**
 
