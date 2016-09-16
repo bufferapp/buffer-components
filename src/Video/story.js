@@ -47,7 +47,7 @@ storiesOf('Video')
       height={"100px"}
     />
   ))
-  .add('Border Radius: 3px', () => (
+  .add('Border Radius: 10px', () => (
     <Video
       sources={[
         {
@@ -55,7 +55,7 @@ storiesOf('Video')
           type: 'mp4',
         },
       ]}
-      borderRadius={3}
+      borderRadius={10}
     />
   ))
   .add('No Video', () => (

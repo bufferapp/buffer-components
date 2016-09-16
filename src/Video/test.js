@@ -62,4 +62,8 @@ describe('Video', () => {
       />
     );
   });
+
+  it('Video with borderRadius', () => {
+    renderAndCheckSnapshot(<Video borderRadius={5} />);
+  });
 });

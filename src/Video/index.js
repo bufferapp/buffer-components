@@ -1,11 +1,11 @@
 import React, { PropTypes } from 'react';
 import reactCSS from 'reactcss';
 
-const Video = ({ sources, controls, width, height }) => {
+const Video = ({ borderRadius, sources, controls, width, height }) => {
   const styles = reactCSS({
     default: {
       Video: {
-        borderRadius: 3,
+        borderRadius,
       },
     },
   });
@@ -42,6 +42,7 @@ Video.propTypes = {
 };
 
 Video.defaultProps = {
+  borderRadius: 3,
   controls: true,
   sources: [],
 };

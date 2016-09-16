@@ -16,6 +16,24 @@ exports[`Video Video component 1`] = `
 </video>
 `;
 
+exports[`Video Video with borderRadius 1`] = `
+<video
+  controls={true}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 5,
+      "OBorderRadius": 5,
+      "WebkitBorderRadius": 5,
+      "borderRadius": 5,
+      "msBorderRadius": 5
+    }
+  }
+  width={undefined}>
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
 exports[`Video Video with height 1`] = `
 <video
   controls={true}
