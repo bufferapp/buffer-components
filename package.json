@@ -45,6 +45,7 @@
     "jest-cli": "^14.1.0",
     "postcss-custom-properties": "5.0.1",
     "postcss-hexrgba": "0.2.1",
+    "postcss-import": "9.0.0",
     "postcss-loader": "1.2.1",
     "react-addons-test-utils": "15.4.1",
     "react-dom": "^15.3.1",

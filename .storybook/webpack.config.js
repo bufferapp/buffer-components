@@ -1,3 +1,4 @@
+const PostCSSImport = require('postcss-import');
 const PostCSSCustomProperties = require('postcss-custom-properties');
 const PostCSShexrgba = require('postcss-hexrgba');
 
@@ -20,6 +21,7 @@ module.exports = {
     ],
   },
   postcss: [
+    PostCSSImport,
     PostCSSCustomProperties,
     PostCSShexrgba,
   ],
