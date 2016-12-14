@@ -10,7 +10,7 @@ const Button = (props) => {
     classNames.push(styles[`Button--type-${props.type}`]);
   }
   return (
-    <button className={classNames.join(' ')}>
+    <button className={classNames.join(' ')} {...props}>
       {props.children}
     </button>
   );
