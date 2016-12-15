@@ -1,4 +1,6 @@
+@import '../layout.css';
 @import '../variables.css';
+@import '../typography.css';
 
 .Button {
   display: inline-block;

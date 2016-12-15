@@ -1,0 +1,97 @@
+@import "./variables.css";
+
+/* Body */
+body {
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--shuttle-gray);
+}
+
+/* Code */
+code {
+  padding: 2px 4px;
+  color: var(--torch-red);
+  background-color: rgba(var(--torch-red), 0.1);
+  border-radius: var(--border-radius-level-2);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  color: var(--outer-space);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 32px 0;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0 0 16px 0;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ordered/Unordered Lists */
+ol,
+ul {
+  margin: 32px 16px 32px 34px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.List--style-none {
+  list-style: none;
+}
+
+.List--margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+/* Paragraphs */
+p {
+  margin: 16px 0;
+}
+
+.Paragraph--order-first {
+  margin-top: 0;
+}
+
+.Paragraph--order-last {
+  margin-bottom: 0;
+}
