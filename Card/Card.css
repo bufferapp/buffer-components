@@ -1,0 +1,36 @@
+@import '../layout.css';
+@import '../variables.css';
+
+/* Card */
+.Card {
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: var(--white);
+  border: 1px solid var(--geyser);
+  border-radius: var(--border-radius-level-1);
+}
+
+.Card .Card {
+  border-radius: var(--border-radius-level-2);
+}
+
+.Card .Card .Card {
+  border-radius: var(--border-radius-level-3);
+}
+
+/* Card - Modifiers */
+.Card--double-padding {
+  padding: 32px;
+}
+
+.Card--empty {
+  border-style: dashed;
+}
+
+.Card--no-border {
+  border: 0;
+}
+
+.Card--no-padding {
+  padding: 0;
+}

@@ -1,43 +1,27 @@
 import React, { PropTypes } from 'react';
-import reactCSS from 'reactcss';
+import { classNames, cleanProps } from '../lib/utils';
+import styles from './Card.css';
 
-const Card = ({ children, empty, noBorder }) => {
-  const style = reactCSS({
-    default: {
-      Card: {
-        padding: 16,
-        backgroundColor: '#fff',
-        border: '1px solid #ced7df',
-        borderRadius: 2,
-      },
-    },
-    empty: {
-      Card: {
-        borderStyle: 'dashed',
-      },
-    },
-    noBorder: {
-      Card: {
-        border: 0,
-      },
-    },
-  }, {
-    empty,
-    noBorder,
+const Card = (props) => {
+  const classes = classNames(styles, 'Card', {
+    'Card--double-padding': props.doublePadding,
+    'Card--empty': props.empty,
+    'Card--no-border': props.noBorder,
+    'Card--no-padding': props.noPadding,
   });
   return (
-    <div
-      style={style.Card}
-    >
-      {children}
+    <div className={classes} {...cleanProps(props, Card.propTypes)}>
+      {props.children}
     </div>
   );
 };
 
 Card.propTypes = {
   children: PropTypes.node,
+  doublePadding: PropTypes.bool,
   empty: PropTypes.bool,
   noBorder: PropTypes.bool,
+  noPadding: PropTypes.bool,
 };
 
 export default Card;

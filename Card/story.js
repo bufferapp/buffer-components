@@ -6,9 +6,15 @@ storiesOf('Card')
   .add('Default', () => (
     <Card>A Regular Old Card</Card>
   ))
-  .add('Empty', () => (
+  .add('doublePadding', () => (
+    <Card doublePadding>A Card With Extra Padding</Card>
+  ))
+  .add('empty', () => (
     <Card empty>An Empty Old Card</Card>
   ))
-  .add('No Border', () => (
+  .add('noBorder', () => (
     <Card noBorder>A Borderless Old Card</Card>
+  ))
+  .add('noPadding', () => (
+    <Card noPadding>A Card With No Padding</Card>
   ));
