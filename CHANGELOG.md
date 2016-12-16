@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.2
+## 0.0.3
 
 - Switch to CSS Modules for `Button` and `Card`
 - Moved react and react-dom to `peerDependencies`
