@@ -23,9 +23,8 @@
     "url": "https://github.com/bufferapp/buffer-components/issues"
   },
   "homepage": "https://github.com/bufferapp/buffer-components#readme",
-  "dependencies": {
-    "react": "15.4.1",
-    "reactcss": "1.0.6"
+  "peerDependencies": {
+    "react": ">= 0.14.0"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.5.2",
@@ -47,6 +46,7 @@
     "postcss-hexrgba": "0.2.1",
     "postcss-import": "9.0.0",
     "postcss-loader": "1.2.1",
+    "react": "15.4.1",
     "react-addons-test-utils": "15.4.1",
     "react-dom": "15.4.1",
     "react-test-renderer": "15.4.1",
