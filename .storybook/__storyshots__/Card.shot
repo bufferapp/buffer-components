@@ -1,0 +1,34 @@
+exports[`Default`] = `
+<div
+  className="">
+  A Regular Old Card
+</div>
+`;
+
+exports[`doublePadding`] = `
+<div
+  className=" ">
+  A Card With Extra Padding
+</div>
+`;
+
+exports[`empty`] = `
+<div
+  className=" ">
+  An Empty Old Card
+</div>
+`;
+
+exports[`noBorder`] = `
+<div
+  className=" ">
+  A Borderless Old Card
+</div>
+`;
+
+exports[`noPadding`] = `
+<div
+  className=" ">
+  A Card With No Padding
+</div>
+`;

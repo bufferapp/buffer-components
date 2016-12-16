@@ -1,0 +1,122 @@
+exports[`Border Radius: 10px`] = `
+<video
+  controls={true}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 10,
+      "OBorderRadius": 10,
+      "WebkitBorderRadius": 10,
+      "borderRadius": 10,
+      "msBorderRadius": 10,
+    }
+  }
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Default`] = `
+<video
+  controls={true}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3,
+    }
+  }
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`No Controls`] = `
+<video
+  controls={false}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3,
+    }
+  }
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`No Video`] = `
+<video
+  controls={true}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3,
+    }
+  }
+  width={undefined}>
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`W=100%`] = `
+<video
+  controls={true}
+  height={undefined}
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3,
+    }
+  }
+  width="100%">
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`W=200px H=100px`] = `
+<video
+  controls={true}
+  height="100px"
+  style={
+    Object {
+      "MozBorderRadius": 3,
+      "OBorderRadius": 3,
+      "WebkitBorderRadius": 3,
+      "borderRadius": 3,
+      "msBorderRadius": 3,
+    }
+  }
+  width="200px">
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;

@@ -1,0 +1,48 @@
+exports[`Default`] = `
+<button
+  className="">
+  Button text
+</button>
+`;
+
+exports[`borderless`] = `
+<button
+  className=" ">
+  Button text
+</button>
+`;
+
+exports[`error`] = `
+<button
+  className=" ">
+  An error button
+</button>
+`;
+
+exports[`inApp`] = `
+<button
+  className=" ">
+  Button text
+</button>
+`;
+
+exports[`secondary`] = `
+<button
+  className=" ">
+  Button text
+</button>
+`;
+
+exports[`small`] = `
+<button
+  className=" ">
+  Button text
+</button>
+`;
+
+exports[`tertiary`] = `
+<button
+  className=" ">
+  Button text
+</button>
+`;
