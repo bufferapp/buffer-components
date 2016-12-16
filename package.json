@@ -8,7 +8,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "./node_modules/eslint/bin/eslint.js . --ignore-pattern coverage .storybook node_modules",
     "test": "npm run lint && storyshots --loaders=.storybook/loaders.js",
-    "test-watch": "./node_modules/jest-cli/bin/jest.js --watch",
+    "test-watch": "storyshots --loaders=.storybook/loaders.js -w",
     "test-update": "npm run lint && ./node_modules/jest-cli/bin/jest.js --coverage -u"
   },
   "repository": {
