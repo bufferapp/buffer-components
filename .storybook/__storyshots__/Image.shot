@@ -1,0 +1,23 @@
+exports[`Default`] = `
+<img
+  alt="Image"
+  height={undefined}
+  src="https://buffer.com/images/app/buffer-logo@2x.png"
+  width={undefined} />
+`;
+
+exports[`W=100%`] = `
+<img
+  alt="Image"
+  height={undefined}
+  src="https://buffer.com/images/app/buffer-logo@2x.png"
+  width="100%" />
+`;
+
+exports[`W=200px H=40px`] = `
+<img
+  alt="Image"
+  height="40px"
+  src="https://buffer.com/images/app/buffer-logo@2x.png"
+  width="200px" />
+`;

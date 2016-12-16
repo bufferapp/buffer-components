@@ -105,8 +105,6 @@ Run Test and watch for changes
 npm run test-watch
 ```
 
-Note - *does not run all tests the first time*
-
 Update Test Snapshots
 
 ```sh
@@ -122,9 +120,6 @@ src/ # root
 +-- MyComponent/ # component root
   `-- index.js # component logic
   `-- story.js # storybook entry
-  `-- test.js  # component tests
-  +-- __snapshots__/  # jest snapshot location
-    `-- test.js.snap # actual component snapshot
 ```
 
 ## FAQ
@@ -213,32 +208,8 @@ const NewComponent = () => <div>NewComponent</div>;
 
 export default NewComponent;
 ```
-6. Write a snapshot test
 
-```
-src/
-+-- NewComponent/
- `-- story.js
- `-- index.js
- `-- test.js
-```
-
-populate **test.js** with a test
-
-```js
-jest.unmock('./index');
-import React from 'react';
-import { renderAndCheckSnapshot } from '../testHelpers';
-import NewComponent from './index';
-
-describe('NewComponent', () => {
-  it('NewComponent component', () => {
-    renderAndCheckSnapshot(<NewComponent />);
-  });
-});
-```
-
-7. Run the test for the first time
+6. Run the test for the first time
 
 It's important to note that this creates a snapshot of the component. All tests ran in the future will be tested against this snapshot to ensure they haven't changed.
 
@@ -246,7 +217,7 @@ It's important to note that this creates a snapshot of the component. All tests 
 npm t
 ```
 
-8. Commit it!
+7. Commit it!
 
 ```sh
 git add .
@@ -258,108 +229,15 @@ At this point it's a good idea to generate a PR on github :)
 
 **How do I write tests for a component?**
 
+This automatically happens when you write stories. They are tested with jest snapshots under the hood.
+
 Since components are [functional and stateless](https://medium.com/@housecor/react-stateless-functional-components-nine-wins-you-might-have-overlooked-997b0d933dbc#.ukhlhrqlw) we can use snapshot testing to get complete coverage.
-
-So to write a test you can render a component with a given set of properties and check it against a know good state (the snapshot)
-
-So tests end up looking like this:
-
-```js
-jest.unmock('./index');
-import React from 'react';
-import { renderAndCheckSnapshot } from '../testHelpers';
-import NewComponent from './index';
-
-describe('NewComponent', () => {
-  it('NewComponent component', () => {
-    renderAndCheckSnapshot(<NewComponent />);
-  });
-
-  it('NewComponent width=100', () => {
-    renderAndCheckSnapshot(<NewComponent width={100}/>);
-  });
-});
-```
 
 You're verifying that each property change has the expected outcome in HTML.
 
 The first time the test is run it generates a new snapshot. The **second** time it's checked against the snapshot.
 
-If you're curious here's what the `renderAndCheckSnapshot` function does:
-
-```js
-import renderer from 'react-test-renderer';
-
-export const renderAndCheckSnapshot = (component) => {
-  const renderedComponent = renderer.create(component);
-  const tree = renderedComponent.toJSON();
-  expect(tree).toMatchSnapshot();
-};
-```
-
 **How Do I Update A Snapshot**
-
-Let's say you've got a **component** that starts like this
-
-```js
-import React from 'react';
-
-const NewComponent = () => <div>NewComponent</div>;
-
-export default NewComponent;
-```
-
-and a **test** that looks like this
-
-```js
-jest.unmock('./index');
-import React from 'react';
-import { renderAndCheckSnapshot } from '../testHelpers';
-import NewComponent from './index';
-
-describe('NewComponent', () => {
-  it('NewComponent component', () => {
-    renderAndCheckSnapshot(<NewComponent />);
-  });
-});
-```
-
-Now you want to add `height` property to the component
-
-```js
-import React, { PropTypes } from 'react';
-
-const NewComponent = ({ height }) => <div style={{ height }}>NewComponent</div>;
-
-NewComponent.propTypes = {
-  height: PropTypes.number
-};
-
-export default NewComponent;
-```
-
-_Next time you run tests they'll fail because the output changed._
-
-So after verifying that the output looks the way you want it to in Storybook (http://localhost:9001) and add a new test for the `height` property
-
-```js
-jest.unmock('./index');
-import React from 'react';
-import { renderAndCheckSnapshot } from '../testHelpers';
-import NewComponent from './index';
-
-describe('NewComponent', () => {
-  it('NewComponent component', () => {
-    renderAndCheckSnapshot(<NewComponent />);
-  });
-
-  it('NewComponent component', () => {
-    renderAndCheckSnapshot(<NewComponent height={100}/>);
-  });
-});
-```
-
-you can update the snapshots
 
 ```
 npm run test-update
