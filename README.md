@@ -1,8 +1,72 @@
 # Buffer Components
 
-A shared set of UI Components
+A shared set of UI Components using React and CSS Modules.
 
 Demo: https://bufferapp.github.io/buffer-components/
+
+## Usage
+
+Install the package and save the exact version:
+
+```sh
+npm install @bufferapp/components -SE
+```
+
+Now in your code you can import a specific component:
+
+```js
+import Button from '@bufferapp/components/Button';
+```
+
+### Requirements
+
+For the component library you're required to use a few plugins and a valid Webpack config.
+
+First, you'll need React installed (0.14 or newer):
+
+```sh
+npm i react react-dom -SE
+```
+
+In addition to your Babel configuration (not documented), you'll need some Webpack plugins:
+
+```sh
+npm i css-loader \
+      style-loader \
+      postcss-loader \
+      postcss-import \
+      postcss-custom-properties \
+      postcss-hexrgba -SDE
+```
+
+Your Webpack config should use the proper config, here is an example:
+
+```js
+const PostCSSImport = require('postcss-import');
+const PostCSSCustomProperties = require('postcss-custom-properties');
+const PostCSShexrgba = require('postcss-hexrgba');
+
+module.exports = {
+  module: {
+    loaders: [
+      {
+        test: /\.css$/,
+        loaders: [
+          'style-loader',
+          `css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:5]`,
+          'postcss-loader',
+        ],
+      },
+    ],
+  },
+  postcss: [
+    PostCSSImport,
+    PostCSSCustomProperties,
+    PostCSShexrgba,
+  ],
+};
+```
+
 
 ## Table Of Contents
 
