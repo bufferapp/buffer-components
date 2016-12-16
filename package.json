@@ -6,7 +6,6 @@
   "scripts": {
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "rm -rf ./lib && node_modules/babel-cli/bin/babel.js ./src --ignore story.js,test.js,testHelpers/* --out-dir ./lib",
     "lint": "./node_modules/eslint/bin/eslint.js src/ ",
     "test": "npm run lint && ./node_modules/jest-cli/bin/jest.js --coverage",
     "test-watch": "./node_modules/jest-cli/bin/jest.js --watch",
@@ -59,9 +58,5 @@
       "../testHelpers"
     ],
     "testRegex": "src/.*test\\.js$"
-  },
-  "files": [
-    "lib",
-    "src"
-  ]
+  }
 }
