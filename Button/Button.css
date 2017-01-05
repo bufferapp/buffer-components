@@ -2,149 +2,181 @@
 @import '../variables.css';
 @import '../typography.css';
 
-.Button {
+button {
   display: inline-block;
-  padding: 8px 24px;
+  padding: 0 24px;
+  height: 32px;
   font-family: var(--font-family);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
+  font-size: 12px;
+  font-weight: 400;
   color: var(--white);
   background-color: var(--curious-blue);
   border: 1px solid transparent;
   border-radius: 256px;
-  cursor: pointer;
+  cursor: default;
   outline: none;
   transition: background-color var(--transition-animation-time) var(--transition-animation-type);
 }
 
-.Button:active {
-  background-color: var(--tory-blue);
+button:focus {
+  box-shadow: 0 0 4px rgba(var(--curious-blue), 1);
 }
 
-.Button:hover {
+button:hover {
   color: var(--white);
   text-decoration: none;
   background-color: var(--denim);
 }
 
-.Button [class*=" bi-"]:before,
-.Button [class^=bi-]:before {
+button:active {
+  background-color: var(--tory-blue);
+}
+
+button:disabled {
+  color: var(--white);
+  background: var(--curious-blue);
+}
+
+button:disabled,
+.button-borderless:disabled,
+.button-large:disabled,
+.button-secondary:disabled,
+.button-small:disabled,
+.button-tertiary:disabled,
+.button-warning:disabled {
+  cursor: not-allowed;
+  opacity: .3;
+}
+
+button [class*=" bi-"]:before,
+button [class^=bi-]:before {
   vertical-align: baseline;
 }
 
-.Button .bi {
+button .bi {
   color: var(--white);
 }
 
-/* Button - Modifiers */
-.Button--state-error {
-  color: var(--torch-red);
-  background-color: transparent;
-  border-color: var(--torch-red);
-}
-
-.Button--state-error:active {
-  color: var(--torch-red);
-  background-color: rgba(var(--torch-red), 0.1);
-}
-
-.Button--state-error:hover {
-  color: var(--torch-red);
-  background-color: transparent;
-}
-
-.Button--state-error:hover i.bi {
-  color: var(--white);
-}
-
-.Button--state-error i.bi {
-  color: var(--torch-red);
-}
-
-.Button--type-borderless {
+.button-borderless {
   color: var(--curious-blue);
   background-color: transparent;
   border: 0;
 }
 
-.Button--type-borderless:hover {
+.button-borderless:hover {
   color: var(--denim);
   background-color: transparent;
 }
 
-.Button--type-borderless:active {
+.button-borderless:active {
   color: var(--denim);
   background-color: transparent;
 }
 
-.Button--type-in-app {
-  padding: 4px 16px;
+.button-borderless:disabled {
+  color: var(--curious-blue);
+  background-color: transparent;
 }
 
-.Button--type-secondary {
+.button-borderless i.bi {
+  color: var(--curious-blue);
+}
+
+.button-large {
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 40px;
+  font-size: var(--font-size);
+}
+
+.button-secondary {
   color: var(--curious-blue);
   background-color: transparent;
   border-color: var(--curious-blue);
 }
 
-.Button--type-secondary:active {
-  color: var(--curious-blue);
-  background-color: rgba(var(--curious-blue), 0.1);
-  border-color: var(--curious-blue);
-}
-
-.Button--type-secondary:hover {
+.button-secondary:hover {
   color: var(--denim);
   background-color: transparent;
   border-color: var(--denim);
 }
 
-.Button--type-secondary i.bi {
+.button-secondary:active {
+  background-color: rgba(var(--curious-blue), .1);
+}
+
+.button-secondary:disabled {
+  color: var(--curious-blue);
+  background-color: transparent;
+}
+
+.button-secondary i.bi {
   color: var(--curious-blue);
 }
 
-.Button--type-small {
-  padding: 2px 10px;
-  font-size: 11px;
+.button-small {
+  padding: 0 20px;
+  height: 26px;
+  font-size: 12px;
 }
 
-.Button--type-tertiary {
+.button-tertiary {
   color: var(--nevada);
   background-color: transparent;
   border-color: var(--geyser);
 }
 
-.Button--type-tertiary i.bi {
+.button-tertiary:hover {
+  color: var(--outer-space);
+  background-color: transparent;
+}
+
+.button-tertiary:hover i.bi {
+  color: var(--outer-space);
+}
+
+.button-tertiary:active {
+  background-color: rgba(var(--outer-space), .1);
+}
+
+.button-tertiary:active i.bi {
+  color: var(--outer-space);
+}
+
+.button-tertiary:disabled {
+  color: var(--nevada);
+  background-color: transparent;
+}
+
+.button-tertiary i.bi {
   color: var(--nevada);
 }
 
-.Button--type-tertiary:active {
-  color: var(--outer-space);
-  background-color: rgba(var(--outer-space), 0.1);
-  border-color: var(--outer-space);
-}
-
-.Button--type-tertiary:active i.bi {
-  color: var(--outer-space);
-}
-
-.Button--type-tertiary:hover {
+.button-warning {
   color: var(--outer-space);
   background-color: transparent;
-  border-color: var(--outer-space);
+  border-color: var(--torch-red);
 }
 
-.Button--type-tertiary:hover i.bi {
+.button-warning:hover {
+  color: var(--white);
+  background-color: var(--torch-red);
+}
+
+.button-warning:active {
+  color: var(--white);
+  background-color: #b21414;
+}
+
+.button-warning:hover i.bi {
+  color: var(--white);
+}
+
+.button-warning:disabled {
   color: var(--outer-space);
+  background-color: transparent;
 }
 
-/* ButtonIcon */
-.ButtonIcon {
-  align-self: center;
-  width: 16px;
-  height: 16px;
-  font-size: 16px;
-  line-height: 12px;
-  background-color: transparent;
-  border: 0;
+.button-warning i.bi {
+  color: var(--torch-red);
 }
