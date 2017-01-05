@@ -4,6 +4,9 @@ A shared set of UI Components using React and CSS Modules.
 
 Demo: https://bufferapp.github.io/buffer-components/
 
+To use this in your project start at the [usage](#usage) section. If you'd like to add to this
+library skip to [component development](#component-development).
+
 ## Usage
 
 Install the package and save the exact version:
@@ -68,7 +71,7 @@ module.exports = {
 ```
 
 
-## Table Of Contents
+## Component Development
 
 - [Quick Start](#quick-start)
 - [Test](#test)
