@@ -7,42 +7,115 @@ exports[`Default`] = `
 
 exports[`borderless`] = `
 <button
-  className=" ">
+  className="">
   Button text
 </button>
 `;
 
-exports[`error`] = `
-<button
-  className=" ">
-  An error button
-</button>
+exports[`disabled`] = `
+<div>
+  <p>
+    Default
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Borderless
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Large
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Secondary
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Small
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Tertiary
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Warning
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+</div>
 `;
 
-exports[`inApp`] = `
+exports[`large`] = `
 <button
-  className=" ">
+  className="">
   Button text
 </button>
 `;
 
 exports[`secondary`] = `
 <button
-  className=" ">
+  className="">
   Button text
 </button>
 `;
 
 exports[`small`] = `
 <button
-  className=" ">
+  className="">
   Button text
 </button>
 `;
 
 exports[`tertiary`] = `
 <button
-  className=" ">
+  className="">
+  Button text
+</button>
+`;
+
+exports[`warning`] = `
+<button
+  className="">
   Button text
 </button>
 `;
