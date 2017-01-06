@@ -1,15 +1,8 @@
 :root {
-  /*
-    See http://bufferapp.github.io/buffer-style/colors.html to see how, when, and where we
-    should use the below palettes.
-  */
-
-  /* Blue Palette */
   --curious-blue: #168eea;
   --denim: #137ac9;
   --tory-blue: #0f63a4;
 
-  /* Brand Palette */
   --appdotnet: #4a484c;
   --facebook: #3b5998;
   --googleplus: #dd4b39;
@@ -17,36 +10,28 @@
   --pinterest: #bd081c;
   --twitter: #55acee;
 
-  /* Gray Palette */
   --outer-space: #323b43;
   --shuttle-gray: #59626a;
   --nevada: #666c72;
   --geyser: #ced7df;
+  --mystic: #e6ebef;
   --aqua-haze: #f4f7f9;
 
-  /* Shade Palette */
   --white: #fff;
 
-  /* State Palette */
   --shamrock: #2fd566;
   --saffron: #f1cb3a;
   --torch-red: #ff1e1e;
 
-  /* Font */
   --font-family: "Open Sans", sans-serif;
   --font-size: 14px;
   --font-weight: 400;
   --line-height: 1.5;
 
-  /* Border Radii */
-  --border-radius-level-1: 4px;
-  --border-radius-level-2: 2px;
-  --border-radius-level-3: 1px;
+  --border-radius: 2px;
 
-  /* Box Shadows */
-  --box-shadow-level-1: 0 1px 2px rgba(var(--outer-space), 0.5);
+  --box-shadow-level-1: 0 1px 2px rgba(var(--outer-space), .3);
 
-  /* Animation */
-  --transition-animation-time: 0.1s;
+  --transition-animation-time: 0.25s;
   --transition-animation-type: linear;
 }
