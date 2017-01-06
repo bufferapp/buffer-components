@@ -38,13 +38,12 @@ button:disabled {
 }
 
 button:disabled,
-.button-borderless:disabled,
-.button-large:disabled,
-.button-secondary:disabled,
-.button-small:disabled,
-.button-tertiary:disabled,
-.button-warning:disabled {
-  cursor: not-allowed;
+.borderless:disabled,
+.large:disabled,
+.secondary:disabled,
+.small:disabled,
+.tertiary:disabled,
+.warning:disabled {
   opacity: .3;
 }
 
@@ -57,126 +56,126 @@ button .bi {
   color: var(--white);
 }
 
-.button-borderless {
+.borderless {
   color: var(--curious-blue);
   background-color: transparent;
   border: 0;
 }
 
-.button-borderless:hover {
+.borderless:hover {
   color: var(--denim);
   background-color: transparent;
 }
 
-.button-borderless:active {
+.borderless:active {
   color: var(--denim);
   background-color: transparent;
 }
 
-.button-borderless:disabled {
+.borderless:disabled {
   color: var(--curious-blue);
   background-color: transparent;
 }
 
-.button-borderless i.bi {
+.borderless i.bi {
   color: var(--curious-blue);
 }
 
-.button-large {
+.large {
   padding-right: 30px;
   padding-left: 30px;
   height: 40px;
   font-size: var(--font-size);
 }
 
-.button-secondary {
+.secondary {
   color: var(--curious-blue);
   background-color: transparent;
   border-color: var(--curious-blue);
 }
 
-.button-secondary:hover {
+.secondary:hover {
   color: var(--denim);
   background-color: transparent;
   border-color: var(--denim);
 }
 
-.button-secondary:active {
+.secondary:active {
   background-color: rgba(var(--curious-blue), .1);
 }
 
-.button-secondary:disabled {
+.secondary:disabled {
   color: var(--curious-blue);
   background-color: transparent;
 }
 
-.button-secondary i.bi {
+.secondary i.bi {
   color: var(--curious-blue);
 }
 
-.button-small {
+.small {
   padding: 0 20px;
   height: 26px;
   font-size: 12px;
 }
 
-.button-tertiary {
+.tertiary {
   color: var(--nevada);
   background-color: transparent;
   border-color: var(--geyser);
 }
 
-.button-tertiary:hover {
+.tertiary:hover {
   color: var(--outer-space);
   background-color: transparent;
 }
 
-.button-tertiary:hover i.bi {
+.tertiary:hover i.bi {
   color: var(--outer-space);
 }
 
-.button-tertiary:active {
+.tertiary:active {
   background-color: rgba(var(--outer-space), .1);
 }
 
-.button-tertiary:active i.bi {
+.tertiary:active i.bi {
   color: var(--outer-space);
 }
 
-.button-tertiary:disabled {
+.tertiary:disabled {
   color: var(--nevada);
   background-color: transparent;
 }
 
-.button-tertiary i.bi {
+.tertiary i.bi {
   color: var(--nevada);
 }
 
-.button-warning {
+.warning {
   color: var(--outer-space);
   background-color: transparent;
   border-color: var(--torch-red);
 }
 
-.button-warning:hover {
+.warning:hover {
   color: var(--white);
   background-color: var(--torch-red);
 }
 
-.button-warning:active {
+.warning:active {
   color: var(--white);
   background-color: #b21414;
 }
 
-.button-warning:hover i.bi {
+.warning:hover i.bi {
   color: var(--white);
 }
 
-.button-warning:disabled {
+.warning:disabled {
   color: var(--outer-space);
   background-color: transparent;
 }
 
-.button-warning i.bi {
+.warning i.bi {
   color: var(--torch-red);
 }

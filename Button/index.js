@@ -4,12 +4,12 @@ import styles from './button.css';
 
 const Button = (props) => {
   const classes = classNames(styles, {
-    'button-borderless': props.borderless,
-    'button-large': props.large,
-    'button-secondary': props.secondary,
-    'button-small': props.small,
-    'button-tertiary': props.tertiary,
-    'button-warning': props.warning,
+    borderless: props.borderless,
+    large: props.large,
+    secondary: props.secondary,
+    small: props.small,
+    tertiary: props.tertiary,
+    warning: props.warning,
   });
   return (
     <button className={classes} {...cleanProps(props, Button.propTypes)}>
