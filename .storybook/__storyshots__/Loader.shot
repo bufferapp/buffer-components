@@ -1,0 +1,18 @@
+exports[`Default`] = `
+<div
+  className="">
+  <div
+    className={undefined}>
+    <i
+      className="bi bi-buffer-top undefined" />
+    <i
+      className="bi bi-buffer-middle undefined" />
+    <i
+      className="bi bi-buffer-bottom undefined" />
+  </div>
+  <p
+    className={undefined}>
+    Some neat loading text!
+  </p>
+</div>
+`;
