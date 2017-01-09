@@ -1,21 +1,18 @@
 @import "./variables.css";
 
-/* Body */
 body {
   font-size: var(--font-size);
   line-height: var(--line-height);
   color: var(--shuttle-gray);
 }
 
-/* Code */
 code {
   padding: 2px 4px;
   color: var(--torch-red);
-  background-color: rgba(var(--torch-red), 0.1);
-  border-radius: var(--border-radius-level-2);
+  background-color: rgba(var(--torch-red), .1);
+  border-radius: var(--border-radius);
 }
 
-/* Headings */
 h1,
 h2,
 h3,
@@ -56,7 +53,15 @@ h6 {
   line-height: var(--line-height);
 }
 
-/* Links */
+.HeadingCouple h1,
+.HeadingCouple h2,
+.HeadingCouple h3,
+.HeadingCouple h4,
+.HeadingCouple h5,
+.HeadingCouple h6 {
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -65,7 +70,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Ordered/Unordered Lists */
 ol,
 ul {
   margin: 32px 16px 32px 34px;
@@ -75,23 +79,22 @@ li {
   margin-bottom: 8px;
 }
 
-.List--style-none {
+.no-list-style {
   list-style: none;
 }
 
-.List--margin-bottom-0 {
+.no-margin-bottom {
   margin-bottom: 0;
 }
 
-/* Paragraphs */
 p {
   margin: 16px 0;
 }
 
-.Paragraph--order-first {
+.first-p {
   margin-top: 0;
 }
 
-.Paragraph--order-last {
+.last-p {
   margin-bottom: 0;
 }

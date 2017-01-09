@@ -1,34 +1,86 @@
 exports[`Default`] = `
 <div
   className="">
-  A Regular Old Card
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
 </div>
 `;
 
 exports[`doublePadding`] = `
 <div
   className=" ">
-  A Card With Extra Padding
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
 </div>
 `;
 
 exports[`empty`] = `
 <div
   className=" ">
-  An Empty Old Card
+  Nothing to see here! 👻
+</div>
+`;
+
+exports[`failed`] = `
+<div
+  className=" ">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
 </div>
 `;
 
 exports[`noBorder`] = `
 <div
   className=" ">
-  A Borderless Old Card
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
 </div>
 `;
 
 exports[`noPadding`] = `
 <div
   className=" ">
-  A Card With No Padding
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
 </div>
 `;

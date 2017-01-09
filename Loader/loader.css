@@ -1,0 +1,55 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.loader {
+  text-align: center;
+}
+
+.icon {
+  position: relative;
+  margin: 0 auto;
+  width: 21px;
+  height: 21px;
+}
+
+.top {
+  -webkit-animation: fadein 2s -0.5s infinite ease-in-out;
+          animation: fadein 2s -0.5s infinite ease-in-out;
+}
+
+.middle {
+  -webkit-animation: fadein 2s -0.25s infinite ease-in-out;
+          animation: fadein 2s -0.25s infinite ease-in-out;
+}
+
+.bottom {
+  -webkit-animation: fadein 2s infinite ease-in-out;
+          animation: fadein 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes fadein {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadein {
+  0%   { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.top,
+.middle,
+.bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 21px;
+  line-height: 18px;
+}
+
+.content {
+  margin-top: 10px;
+  width: 100%;
+}

@@ -1,36 +1,69 @@
 @import '../layout.css';
 @import '../variables.css';
 
-/* Card */
-.Card {
+.card {
   margin-bottom: 16px;
   padding: 16px;
+  color: var(--outer-space);
   background-color: var(--white);
-  border: 1px solid var(--geyser);
-  border-radius: var(--border-radius-level-1);
+  border: 1px solid var(--mystic);
+  border-radius: var(--border-radius);
+  transition: box-shadow var(--transition-animation-time) var(--transition-animation-type);
 }
 
-.Card .Card {
-  border-radius: var(--border-radius-level-2);
+.card:hover{
+  box-shadow: var(--box-shadow-level-1);
 }
 
-.Card .Card .Card {
-  border-radius: var(--border-radius-level-3);
+.card a {
+  color: var(--curious-blue);
 }
 
-/* Card - Modifiers */
-.Card--double-padding {
-  padding: 32px;
+.card a:hover {
+  color: var(--denim);
 }
 
-.Card--empty {
+.card a:active {
+  color: var(--tory-blue);
+}
+
+.card ul {
+  margin-top: 16px;
+}
+
+.card ul:nth-child(1) {
+  margin-top: 0;
+}
+
+.card ul li h4 {
+  margin-bottom: 0;
+}
+
+.card ul li.last {
+  margin-bottom: 0;
+}
+
+.double-padding {
+  padding: 40px;
+}
+
+.empty {
+  border-color: var(--geyser);
   border-style: dashed;
 }
 
-.Card--no-border {
+.empty:hover {
+  border-color: transparent;
+}
+
+.failed {
+  border-color: var(--torch-red);
+}
+
+.no-border {
   border: 0;
 }
 
-.Card--no-padding {
+.no-padding {
   padding: 0;
 }

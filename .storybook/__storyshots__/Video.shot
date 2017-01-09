@@ -15,7 +15,7 @@ exports[`Border Radius: 10px`] = `
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
     type="video/mp4" />
-  \"Your Browser Does Not Support Video\"
+  "Your Browser Does Not Support Video"
 </video>
 `;
 
@@ -57,7 +57,7 @@ exports[`No Controls`] = `
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
     type="video/mp4" />
-  \"Your Browser Does Not Support Video\"
+  "Your Browser Does Not Support Video"
 </video>
 `;
 
@@ -75,7 +75,7 @@ exports[`No Video`] = `
     }
   }
   width={undefined}>
-  \"Your Browser Does Not Support Video\"
+  "Your Browser Does Not Support Video"
 </video>
 `;
 
@@ -96,7 +96,7 @@ exports[`W=100%`] = `
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
     type="video/mp4" />
-  \"Your Browser Does Not Support Video\"
+  "Your Browser Does Not Support Video"
 </video>
 `;
 
@@ -117,6 +117,6 @@ exports[`W=200px H=100px`] = `
   <source
     src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
     type="video/mp4" />
-  \"Your Browser Does Not Support Video\"
+  "Your Browser Does Not Support Video"
 </video>
 `;
