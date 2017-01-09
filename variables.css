@@ -1,5 +1,7 @@
 :root {
   --curious-blue: #168eea;
+  --curious-blue-light: rgba(22, 142, 234, .3);
+  --curious-blue-ultra-light: rgba(22, 142, 234, .1);
   --denim: #137ac9;
   --tory-blue: #0f63a4;
 
@@ -11,6 +13,8 @@
   --twitter: #55acee;
 
   --outer-space: #323b43;
+  --outer-space-light: rgba(50, 59, 67, 0.3);
+  --outer-space-ultra-light: rgba(50, 59, 67, 0.1);
   --shuttle-gray: #59626a;
   --nevada: #666c72;
   --geyser: #ced7df;
@@ -30,7 +34,7 @@
 
   --border-radius: 2px;
 
-  --box-shadow-level-1: 0 1px 2px rgba(var(--outer-space), .3);
+  --box-shadow-level-1: 0 1px 2px var(--outer-space-light);
 
   --transition-animation-time: 0.25s;
   --transition-animation-type: linear;

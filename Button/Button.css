@@ -19,7 +19,7 @@ button {
 }
 
 button:focus {
-  box-shadow: 0 0 4px rgba(var(--curious-blue), 1);
+  box-shadow: 0 0 4px var(--curious-blue);
 }
 
 button:hover {
@@ -101,7 +101,7 @@ button .bi {
 }
 
 .secondary:active {
-  background-color: rgba(var(--curious-blue), .1);
+  background-color: var(--curious-blue-ultra-light);
 }
 
 .secondary:disabled {
@@ -135,7 +135,7 @@ button .bi {
 }
 
 .tertiary:active {
-  background-color: rgba(var(--outer-space), .1);
+  background-color: var(--outer-space-ultra-light);
 }
 
 .tertiary:active i.bi {
