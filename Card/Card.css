@@ -57,7 +57,7 @@
 }
 
 .failed {
-  border-color: #ff8e8e;
+  border-color: var(--torch-red);
 }
 
 .no-border {
