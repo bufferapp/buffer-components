@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- Fixed incompatible CSS value issue with button states
+- Added four color subclasses appended with `-light` and `-ultra-light`
+- Updated the border color of the failed `Card` configuration border
+
 ## 0.1.0
 
 - Added `Loader`
