@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 (January 10, 2017)
+
+- Removed the `margin-bottom` property from the `Card` component
+
 ## 0.1.1 (January 9, 2017)
 
 - Fixed incompatible CSS value issue with button states
