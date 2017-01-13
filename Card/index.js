@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { classNames, cleanProps } from '../lib/utils';
-import styles from './card.css';
+import styles from './style.css';
 
 const Card = (props) => {
   const classes = classNames(styles, 'card', {
