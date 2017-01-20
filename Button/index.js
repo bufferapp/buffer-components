@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { classNames, cleanProps } from '../lib/utils';
-import styles from './button.css';
+import styles from './style.css';
 
 const Button = (props) => {
   const classes = classNames(styles, {

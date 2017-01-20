@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { classNames, cleanProps } from '../lib/utils';
-import styles from './loader.css';
+import styles from './style.css';
 
 const Loader = (props) => {
   const classes = classNames(styles, 'loader');
