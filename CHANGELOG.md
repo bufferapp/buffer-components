@@ -1,12 +1,16 @@
 # Changelog
 
-## 0.1.1
+## 0.1.2 (January 10, 2017)
+
+- Removed the `margin-bottom` property from the `Card` component
+
+## 0.1.1 (January 9, 2017)
 
 - Fixed incompatible CSS value issue with button states
 - Added four color subclasses appended with `-light` and `-ultra-light`
 - Updated the border color of the failed `Card` configuration border
 
-## 0.1.0
+## 0.1.0 (January 6, 2017)
 
 - Added `Loader`
 - Removed `.Button` class and applied its styles directly on the `button` node
@@ -17,11 +21,11 @@
 - Simplified CSS class names
 - Added `failed` configuration
 
-## 0.0.4
+## 0.0.4 (December 17, 2016)
 
 - Remove `.babelrc` from npm package to fix issues
 
-## 0.0.3
+## 0.0.3 (December 16, 2016)
 
 - Switch to CSS Modules for `Button` and `Card`
 - Moved react and react-dom to `peerDependencies`

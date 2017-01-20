@@ -2,8 +2,7 @@
 @import '../variables.css';
 
 .card {
-  margin-bottom: 16px;
-  padding: 16px;
+  padding: 20px;
   color: var(--outer-space);
   background-color: var(--white);
   border: 1px solid var(--mystic);
@@ -28,7 +27,7 @@
 }
 
 .card ul {
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .card ul:nth-child(1) {
