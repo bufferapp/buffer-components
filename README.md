@@ -123,6 +123,7 @@ src/ # root
 +-- MyComponent/ # component root
   `-- index.js # component logic
   `-- story.js # storybook entry
+  `-- style.css # component style
 ```
 
 ## FAQ
@@ -212,7 +213,34 @@ const NewComponent = () => <div>NewComponent</div>;
 export default NewComponent;
 ```
 
-6. Run the test for the first time
+6. Style the component
+
+```
+src/
++-- NewComponent/
+ `-- story.js
+ `-- index.js
+ `-- style.css
+```
+
+populate **style.css** with the component style
+
+```js
+import React from 'react';
+import styles from './style.css';
+import { classNames } from '../lib/utils';
+
+const NewComponent = () => {
+  const classes = classNames(styles, 'new-component');
+  return (
+    <div classNames={classes}>NewComponent</div>
+  );
+};
+
+export default NewComponent;
+```
+
+7. Run the test for the first time
 
 It's important to note that this creates a snapshot of the component. All tests ran in the future will be tested against this snapshot to ensure they haven't changed.
 
@@ -220,7 +248,7 @@ It's important to note that this creates a snapshot of the component. All tests 
 npm t
 ```
 
-7. Commit it!
+8. Commit it!
 
 ```sh
 git add .
