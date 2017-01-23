@@ -1,6 +1,5 @@
 @import '../layout.css';
 @import '../variables.css';
-@import '../typography.css';
 
 button {
   display: inline-block;
