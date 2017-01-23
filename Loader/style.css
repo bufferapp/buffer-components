@@ -52,4 +52,7 @@
 .content {
   margin-top: 10px;
   width: 100%;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--shuttle-gray);
 }
