@@ -9,7 +9,7 @@
   padding: 1em;
   width: 100%;
   background-color: var(--white);
-  border-bottom: 1px solid #ced7df;
+  border-bottom: 1px solid var(--outer-space-light);
   box-sizing: border-box;
 }
 
