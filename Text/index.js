@@ -1,31 +1,23 @@
 import React, { PropTypes } from 'react';
-import reactCSS from 'reactcss';
+import { classNames } from '../lib/utils';
+import styles from './style.css';
 
-const Text = ({ children, color, size, weight }) => {
-  const styles = reactCSS({
-    default: {
-      Text: {
-        fontSize: size,
-        color,
-        fontWeight: weight,
-      },
-    },
+const Text = ({ children, size, weight }) => {
+  const classes = classNames(styles, 'text', {
+    small: size === 'small',
+    large: size === 'large',
+    thin: weight === 'thin',
+    bold: weight === 'bold',
   });
   return (
-    <span style={styles.Text}>{children}</span>
+    <span className={classes}>{children}</span>
   );
 };
 
 Text.propTypes = {
   children: PropTypes.string,
-  color: PropTypes.string,
-  size: PropTypes.number,
-  weight: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-};
-
-Text.defaultProps = {
-  size: 14,
-  weight: 400,
+  size: PropTypes.oneOf(['large', 'small']),
+  weight: PropTypes.oneOf(['bold', 'thin']),
 };
 
 export default Text;

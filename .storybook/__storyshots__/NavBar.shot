@@ -41,23 +41,11 @@ exports[`Default`] = `
     </svg>
   </div>
   <span
-    style={
-      Object {
-        "color": "#323b43",
-        "fontSize": 14,
-        "fontWeight": 600,
-      }
-    }>
+    className=" ">
     Buffer
   </span>
   <span
-    style={
-      Object {
-        "color": "#323b43",
-        "fontSize": 14,
-        "fontWeight": 400,
-      }
-    }>
+    className="">
     
   </span>
 </div>
@@ -106,23 +94,11 @@ exports[`Subtitle`] = `
     </svg>
   </div>
   <span
-    style={
-      Object {
-        "color": "#323b43",
-        "fontSize": 14,
-        "fontWeight": 600,
-      }
-    }>
+    className=" ">
     Buffer
   </span>
   <span
-    style={
-      Object {
-        "color": "#323b43",
-        "fontSize": 14,
-        "fontWeight": 400,
-      }
-    }>
+    className="">
      NavBar
   </span>
 </div>
