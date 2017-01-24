@@ -1,26 +1,8 @@
 exports[`Default`] = `
 <div
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#fff",
-      "borderBottom": "1px solid #ced7df",
-      "boxSizing": "border-box",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": 64,
-      "marginBottom": 32,
-      "padding": "0 16px",
-      "width": "100%",
-    }
-  }>
+  className="">
   <div
-    style={
-      Object {
-        "display": "flex",
-        "marginRight": 8,
-      }
-    }>
+    className="">
     <svg
       height={15}
       version="1.1"
@@ -53,27 +35,9 @@ exports[`Default`] = `
 
 exports[`Subtitle`] = `
 <div
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#fff",
-      "borderBottom": "1px solid #ced7df",
-      "boxSizing": "border-box",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": 64,
-      "marginBottom": 32,
-      "padding": "0 16px",
-      "width": "100%",
-    }
-  }>
+  className="">
   <div
-    style={
-      Object {
-        "display": "flex",
-        "marginRight": 8,
-      }
-    }>
+    className="">
     <svg
       height={15}
       version="1.1"
