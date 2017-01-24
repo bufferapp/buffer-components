@@ -1,0 +1,19 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.navbar {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 100%;
+  background-color: var(--white);
+  border-bottom: 1px solid #ced7df;
+  box-sizing: border-box;
+}
+
+.app-icon {
+  margin-right: 0.5em;
+  display: flex;
+}
