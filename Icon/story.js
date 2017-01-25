@@ -3,22 +3,25 @@ import { storiesOf } from '@kadira/storybook';
 import Icon from './index';
 
 storiesOf('Icon')
-  .add('Default', () => (
-    <Icon
-      height={50}
-      width={50}
-    />
-  ))
   .add('buffer', () => (
     <Icon
-      height={50}
-      width={50}
       type={'buffer'}
     />
   ))
-  .add('Large', () => (
+  .add('circle-twitter', () => (
     <Icon
-      height={100}
-      width={100}
+      type={'circle-twitter'}
+    />
+  ))
+  .add('small', () => (
+    <Icon
+      type={'buffer'}
+      size={'small'}
+    />
+  ))
+  .add('large', () => (
+    <Icon
+      type={'buffer'}
+      size={'large'}
     />
   ));
