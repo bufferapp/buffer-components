@@ -2,8 +2,6 @@
 @import '../variables.css';
 
 .navbar {
-  align-items: center;
-  flex-direction: row;
   display: flex;
   margin-bottom: 2em;
   padding: 1em;
@@ -15,5 +13,8 @@
 
 .app-icon {
   margin-right: 0.5em;
-  display: flex;
+}
+
+.app-icon::before {
+  line-height: normal;
 }
