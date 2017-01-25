@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import { classNames, cleanProps } from '../lib/utils';
+import Icon from '../Icon';
 import styles from './style.css';
 
 const Loader = (props) => {
@@ -7,9 +8,9 @@ const Loader = (props) => {
   return (
     <div className={classes} {...cleanProps(props, Loader.propTypes)}>
       <div className={styles.icon}>
-        <i className={`bi bi-buffer-top ${styles.top}`}></i>
-        <i className={`bi bi-buffer-middle ${styles.middle}`}></i>
-        <i className={`bi bi-buffer-bottom ${styles.bottom}`}></i>
+        <Icon type={'buffer-top'} className={styles.top} />
+        <Icon type={'buffer-middle'} className={styles.middle} />
+        <Icon type={'buffer-bottom'} className={styles.bottom} />
       </div>
       <p className={styles.content}>{props.children}</p>
     </div>
