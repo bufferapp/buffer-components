@@ -4,11 +4,11 @@ exports[`Default`] = `
   <div
     className={undefined}>
     <i
-      className="bi bi-buffer-top undefined" />
+      className=" undefined bi bi-buffer-top" />
     <i
-      className="bi bi-buffer-middle undefined" />
+      className=" undefined bi bi-buffer-middle" />
     <i
-      className="bi bi-buffer-bottom undefined" />
+      className=" undefined bi bi-buffer-bottom" />
   </div>
   <p
     className={undefined}>
