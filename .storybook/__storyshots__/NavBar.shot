@@ -1,11 +1,8 @@
 exports[`Default`] = `
 <div
-  className="">
-  <div
-    className="">
-    <i
-      className=" undefined bi bi-buffer" />
-  </div>
+  className={undefined}>
+  <i
+    className=" undefined bi bi-buffer" />
   <span
     className=" ">
     Buffer
@@ -19,12 +16,9 @@ exports[`Default`] = `
 
 exports[`Subtitle`] = `
 <div
-  className="">
-  <div
-    className="">
-    <i
-      className=" undefined bi bi-buffer" />
-  </div>
+  className={undefined}>
+  <i
+    className=" undefined bi bi-buffer" />
   <span
     className=" ">
     Buffer
