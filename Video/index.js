@@ -1,17 +1,15 @@
 import React, { PropTypes } from 'react';
-import reactCSS from 'reactcss';
+import { classNames } from '../lib/utils';
+import styles from './style.css';
 
-const Video = ({ borderRadius, sources, controls, width, height }) => {
-  const styles = reactCSS({
-    default: {
-      Video: {
-        borderRadius,
-      },
-    },
+
+const Video = ({ sources, controls, width, height, border }) => {
+  const classes = classNames(styles, undefined, {
+    rounded: border === 'rounded',
   });
   return (
     <video
-      style={styles.Video}
+      className={classes}
       controls={controls}
       width={width}
       height={height}
@@ -29,7 +27,7 @@ const Video = ({ borderRadius, sources, controls, width, height }) => {
 };
 
 Video.propTypes = {
-  borderRadius: PropTypes.number,
+  border: PropTypes.oneOf(['rounded']),
   controls: PropTypes.bool,
   height: PropTypes.string,
   sources: PropTypes.arrayOf(
@@ -42,7 +40,6 @@ Video.propTypes = {
 };
 
 Video.defaultProps = {
-  borderRadius: 3,
   controls: true,
   sources: [],
 };
