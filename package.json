@@ -16,7 +16,7 @@
     "url": "git+https://github.com/bufferapp/buffer-components.git"
   },
   "author": "Harrison Harnisch <hharnisc@gmail.com> (https://hharnisc.github.io)",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bufferapp/buffer-components/issues"
   },
