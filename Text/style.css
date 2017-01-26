@@ -1,0 +1,25 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.text {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: var(--shuttle-gray);
+}
+
+.small {
+  font-size: var(--font-size-small);
+}
+
+.large {
+  font-size: var(--font-size-large);
+}
+
+.thin {
+  font-weight: var(--font-weight-thin);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}

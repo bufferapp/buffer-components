@@ -2,7 +2,7 @@ const PostCSSImport = require('postcss-import');
 const PostCSSCustomProperties = require('postcss-custom-properties');
 const PostCSShexrgba = require('postcss-hexrgba');
 
-const classNameFormat = '[local]';
+const classNameFormat = '[name]_[local]_[hash:base64:5]';
 
 // NOTE: If using this in an environment, a more unique name
 // format like '[name]_[local]_[hash:base64:5]' is appropriate

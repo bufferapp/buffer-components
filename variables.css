@@ -28,8 +28,12 @@
   --torch-red: #ff1e1e;
 
   --font-family: "Open Sans", sans-serif;
-  --font-size: 14px;
+  --font-size: 1em;
+  --font-size-large: 2em;
+  --font-size-small: 0.9em;
+  --font-weight-bold: 600;
   --font-weight: 400;
+  --font-weight-thin: 300;
   --line-height: 1.5;
 
   --border-radius: 2px;

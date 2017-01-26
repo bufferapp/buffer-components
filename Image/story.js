@@ -4,18 +4,30 @@ import Image from './index';
 
 storiesOf('Image')
   .add('Default', () => (
-    <Image src={'https://buffer.com/images/app/buffer-logo@2x.png'} />
+    <Image src={'http://lorempixel.com/400/400/cats/'} />
   ))
   .add('W=100%', () => (
     <Image
-      src={'https://buffer.com/images/app/buffer-logo@2x.png'}
+      src={'http://lorempixel.com/400/400/cats/'}
       width={"100%"}
     />
   ))
-  .add('W=200px H=40px', () => (
+  .add('W=40px H=40px', () => (
     <Image
-      src={'https://buffer.com/images/app/buffer-logo@2x.png'}
-      width={"200px"}
+      src={'http://lorempixel.com/400/400/cats/'}
+      width={"40px"}
       height={"40px"}
+    />
+  ))
+  .add('border: circle', () => (
+    <Image
+      src={'http://lorempixel.com/400/400/cats/'}
+      border={'circle'}
+    />
+  ))
+  .add('border: rounded', () => (
+    <Image
+      src={'http://lorempixel.com/400/400/cats/'}
+      border={'rounded'}
     />
   ));

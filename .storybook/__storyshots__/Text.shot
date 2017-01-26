@@ -1,77 +1,34 @@
 exports[`Bold`] = `
 <span
-  style={
-    Object {
-      "color": undefined,
-      "fontSize": 14,
-      "fontWeight": 800,
-    }
-  }>
-  The quick brown fox jumps over the lazy dog
-</span>
-`;
-
-exports[`Color`] = `
-<span
-  style={
-    Object {
-      "color": "#329ced",
-      "fontSize": 14,
-      "fontWeight": 400,
-    }
-  }>
+  className=" ">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
 
 exports[`Default`] = `
 <span
-  style={
-    Object {
-      "color": undefined,
-      "fontSize": 14,
-      "fontWeight": 400,
-    }
-  }>
+  className="">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
 
 exports[`Large`] = `
 <span
-  style={
-    Object {
-      "color": undefined,
-      "fontSize": 36,
-      "fontWeight": 400,
-    }
-  }>
+  className=" ">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
 
 exports[`Small`] = `
 <span
-  style={
-    Object {
-      "color": undefined,
-      "fontSize": 10,
-      "fontWeight": 400,
-    }
-  }>
+  className=" ">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
 
 exports[`Thin`] = `
 <span
-  style={
-    Object {
-      "color": undefined,
-      "fontSize": 14,
-      "fontWeight": 200,
-    }
-  }>
+  className=" ">
   The quick brown fox jumps over the lazy dog
 </span>
 `;

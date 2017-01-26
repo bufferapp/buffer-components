@@ -1,0 +1,10 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.circle {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: var(--border-radius);
+}

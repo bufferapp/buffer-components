@@ -1,0 +1,14 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.icon {
+  font-size: var(--font-size);
+}
+
+.small {
+  font-size: var(--font-size-small);
+}
+
+.large {
+  font-size: var(--font-size-large);
+}
