@@ -1,5 +1,7 @@
 # Buffer Components
 
+[![Build Status](https://travis-ci.org/bufferapp/buffer-components.svg?branch=master)](https://travis-ci.org/bufferapp/buffer-components)
+
 A shared set of UI Components using React and CSS Modules.
 
 Demo: https://bufferapp.github.io/buffer-components/
