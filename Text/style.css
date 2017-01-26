@@ -5,7 +5,7 @@
   font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
-  color: var(--outer-space);
+  color: var(--shuttle-gray);
 }
 
 .small {
