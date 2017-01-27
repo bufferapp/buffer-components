@@ -1,5 +1,8 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import {
+  storiesOf,
+  action,
+} from '@kadira/storybook';
 import Button from './index';
 
 storiesOf('Button')
@@ -41,4 +44,11 @@ storiesOf('Button')
   ))
   .add('warning', () => (
     <Button warning>Button text</Button>
+  ))
+  .add('onClick event', () => (
+    <Button
+      onClick={action('button-click')}
+    >
+      Click Me
+    </Button>
   ));

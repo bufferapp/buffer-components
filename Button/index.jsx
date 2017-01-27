@@ -6,6 +6,7 @@ const Button = ({
   borderless,
   children,
   large,
+  onClick,
   secondary,
   small,
   tertiary,
@@ -20,7 +21,10 @@ const Button = ({
     warning,
   });
   return (
-    <button className={classes}>
+    <button
+      className={classes}
+      onClick={onClick}
+    >
       {children}
     </button>
   );
@@ -30,6 +34,7 @@ Button.propTypes = {
   children: PropTypes.node,
   borderless: PropTypes.bool,
   large: PropTypes.bool,
+  onClick: PropTypes.func,
   secondary: PropTypes.bool,
   small: PropTypes.bool,
   tertiary: PropTypes.bool,

@@ -1,13 +1,15 @@
 exports[`Snapshots Button Default 1`] = `
 <button
-  className="">
+  className=""
+  onClick={undefined}>
   Button text
 </button>
 `;
 
 exports[`Snapshots Button borderless 1`] = `
 <button
-  className="borderless">
+  className="borderless"
+  onClick={undefined}>
   Button text
 </button>
 `;
@@ -18,7 +20,8 @@ exports[`Snapshots Button disabled 1`] = `
     Default
   </p>
   <button
-    className="">
+    className=""
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -27,7 +30,8 @@ exports[`Snapshots Button disabled 1`] = `
     Borderless
   </p>
   <button
-    className="borderless">
+    className="borderless"
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -36,7 +40,8 @@ exports[`Snapshots Button disabled 1`] = `
     Large
   </p>
   <button
-    className="large">
+    className="large"
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -45,7 +50,8 @@ exports[`Snapshots Button disabled 1`] = `
     Secondary
   </p>
   <button
-    className="secondary">
+    className="secondary"
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -54,7 +60,8 @@ exports[`Snapshots Button disabled 1`] = `
     Small
   </p>
   <button
-    className="small">
+    className="small"
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -63,7 +70,8 @@ exports[`Snapshots Button disabled 1`] = `
     Tertiary
   </p>
   <button
-    className="tertiary">
+    className="tertiary"
+    onClick={undefined}>
     Button text
   </button>
   <br />
@@ -72,7 +80,8 @@ exports[`Snapshots Button disabled 1`] = `
     Warning
   </p>
   <button
-    className="warning">
+    className="warning"
+    onClick={undefined}>
     Button text
   </button>
 </div>
@@ -80,35 +89,48 @@ exports[`Snapshots Button disabled 1`] = `
 
 exports[`Snapshots Button large 1`] = `
 <button
-  className="large">
+  className="large"
+  onClick={undefined}>
   Button text
+</button>
+`;
+
+exports[`Snapshots Button onClick event 1`] = `
+<button
+  className=""
+  onClick={[Function]}>
+  Click Me
 </button>
 `;
 
 exports[`Snapshots Button secondary 1`] = `
 <button
-  className="secondary">
+  className="secondary"
+  onClick={undefined}>
   Button text
 </button>
 `;
 
 exports[`Snapshots Button small 1`] = `
 <button
-  className="small">
+  className="small"
+  onClick={undefined}>
   Button text
 </button>
 `;
 
 exports[`Snapshots Button tertiary 1`] = `
 <button
-  className="tertiary">
+  className="tertiary"
+  onClick={undefined}>
   Button text
 </button>
 `;
 
 exports[`Snapshots Button warning 1`] = `
 <button
-  className="warning">
+  className="warning"
+  onClick={undefined}>
   Button text
 </button>
 `;
