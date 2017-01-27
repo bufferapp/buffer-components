@@ -4,6 +4,9 @@
   "plugins": [
     "react"
   ],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "consistent-return": 0,
     "func-names": 0,
