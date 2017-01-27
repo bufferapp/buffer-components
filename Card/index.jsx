@@ -1,18 +1,25 @@
 import React, { PropTypes } from 'react';
-import { classNames, cleanProps } from '../lib/utils';
+import { classNames } from '../lib/utils';
 import styles from './style.css';
 
-const Card = (props) => {
+const Card = ({
+  children,
+  doublePadding,
+  empty,
+  failed,
+  noBorder,
+  noPadding,
+}) => {
   const classes = classNames(styles, 'card', {
-    'double-padding': props.doublePadding,
-    empty: props.empty,
-    failed: props.failed,
-    'no-border': props.noBorder,
-    'no-padding': props.noPadding,
+    'double-padding': doublePadding,
+    empty,
+    failed,
+    'no-border': noBorder,
+    'no-padding': noPadding,
   });
   return (
-    <div className={classes} {...cleanProps(props, Card.propTypes)}>
-      {props.children}
+    <div className={classes}>
+      {children}
     </div>
   );
 };
