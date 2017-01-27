@@ -36,7 +36,8 @@
   --font-weight-thin: 300;
   --line-height: 1.5;
 
-  --border-radius: 2px;
+  --border-width: 0.063em;
+  --border-radius: calc(var(--border-width) * 2);
 
   --box-shadow-level-1: 0 1px 2px var(--outer-space-light);
 
