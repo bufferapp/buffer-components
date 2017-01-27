@@ -1,0 +1,6 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.link {
+  font-size: var(--font-size);
+}
