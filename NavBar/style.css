@@ -7,7 +7,7 @@
   padding: 1em;
   width: 100%;
   background-color: var(--white);
-  border-bottom: 1px solid var(--geyser);
+  border-bottom: var(--border-width) solid var(--geyser);
   box-sizing: border-box;
 }
 
