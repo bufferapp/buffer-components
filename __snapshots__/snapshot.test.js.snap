@@ -1,0 +1,434 @@
+exports[`Snapshots Button Default 1`] = `
+<button
+  className="">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button borderless 1`] = `
+<button
+  className="borderless">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button disabled 1`] = `
+<div>
+  <p>
+    Default
+  </p>
+  <button
+    className=""
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Borderless
+  </p>
+  <button
+    className="borderless"
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Large
+  </p>
+  <button
+    className="large"
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Secondary
+  </p>
+  <button
+    className="secondary"
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Small
+  </p>
+  <button
+    className="small"
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Tertiary
+  </p>
+  <button
+    className="tertiary"
+    disabled={true}>
+    Button text
+  </button>
+  <br />
+  <br />
+  <p>
+    Warning
+  </p>
+  <button
+    className="warning"
+    disabled={true}>
+    Button text
+  </button>
+</div>
+`;
+
+exports[`Snapshots Button large 1`] = `
+<button
+  className="large">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button secondary 1`] = `
+<button
+  className="secondary">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button small 1`] = `
+<button
+  className="small">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button tertiary 1`] = `
+<button
+  className="tertiary">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Button warning 1`] = `
+<button
+  className="warning">
+  Button text
+</button>
+`;
+
+exports[`Snapshots Card Default 1`] = `
+<div
+  className="card">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card doublePadding 1`] = `
+<div
+  className="card double-padding">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card empty 1`] = `
+<div
+  className="card empty">
+  Nothing to see here! 👻
+</div>
+`;
+
+exports[`Snapshots Card failed 1`] = `
+<div
+  className="card failed">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card noBorder 1`] = `
+<div
+  className="card no-border">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card noPadding 1`] = `
+<div
+  className="card no-padding">
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Icon buffer 1`] = `
+<i
+  className="icon undefined bi bi-buffer" />
+`;
+
+exports[`Snapshots Icon circle-twitter 1`] = `
+<i
+  className="icon undefined bi bi-circle-twitter" />
+`;
+
+exports[`Snapshots Icon large 1`] = `
+<i
+  className="icon large undefined bi bi-buffer" />
+`;
+
+exports[`Snapshots Icon small 1`] = `
+<i
+  className="icon small undefined bi bi-buffer" />
+`;
+
+exports[`Snapshots Image Default 1`] = `
+<img
+  alt="Image"
+  className=""
+  height={undefined}
+  src="http://lorempixel.com/400/400/cats/"
+  width={undefined} />
+`;
+
+exports[`Snapshots Image W=40px H=40px 1`] = `
+<img
+  alt="Image"
+  className=""
+  height="40px"
+  src="http://lorempixel.com/400/400/cats/"
+  width="40px" />
+`;
+
+exports[`Snapshots Image W=100% 1`] = `
+<img
+  alt="Image"
+  className=""
+  height={undefined}
+  src="http://lorempixel.com/400/400/cats/"
+  width="100%" />
+`;
+
+exports[`Snapshots Image border: circle 1`] = `
+<img
+  alt="Image"
+  className="circle"
+  height={undefined}
+  src="http://lorempixel.com/400/400/cats/"
+  width={undefined} />
+`;
+
+exports[`Snapshots Image border: rounded 1`] = `
+<img
+  alt="Image"
+  className="rounded"
+  height={undefined}
+  src="http://lorempixel.com/400/400/cats/"
+  width={undefined} />
+`;
+
+exports[`Snapshots Loader Default 1`] = `
+<div
+  className="loader">
+  <div
+    className="icon">
+    <i
+      className="icon top bi bi-buffer-top" />
+    <i
+      className="icon middle bi bi-buffer-middle" />
+    <i
+      className="icon bottom bi bi-buffer-bottom" />
+  </div>
+  <p
+    className="content">
+    Some neat loading text!
+  </p>
+</div>
+`;
+
+exports[`Snapshots NavBar Default 1`] = `
+<div
+  className="navbar">
+  <i
+    className="icon app-icon bi bi-buffer" />
+  <span
+    className="text bold">
+    Buffer
+  </span>
+  <span
+    className="text">
+    
+  </span>
+</div>
+`;
+
+exports[`Snapshots NavBar Subtitle 1`] = `
+<div
+  className="navbar">
+  <i
+    className="icon app-icon bi bi-buffer" />
+  <span
+    className="text bold">
+    Buffer
+  </span>
+  <span
+    className="text">
+     NavBar
+  </span>
+</div>
+`;
+
+exports[`Snapshots Text Bold 1`] = `
+<span
+  className="text bold">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Default 1`] = `
+<span
+  className="text">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Large 1`] = `
+<span
+  className="text large">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Small 1`] = `
+<span
+  className="text small">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Thin 1`] = `
+<span
+  className="text thin">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Video Default 1`] = `
+<video
+  className=""
+  controls={true}
+  height={undefined}
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Snapshots Video No Controls 1`] = `
+<video
+  className=""
+  controls={false}
+  height={undefined}
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Snapshots Video No Video 1`] = `
+<video
+  className=""
+  controls={true}
+  height={undefined}
+  width={undefined}>
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Snapshots Video W=100% 1`] = `
+<video
+  className=""
+  controls={true}
+  height={undefined}
+  width="100%">
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Snapshots Video W=200px H=100px 1`] = `
+<video
+  className=""
+  controls={true}
+  height="100px"
+  width="200px">
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
+
+exports[`Snapshots Video rounded border 1`] = `
+<video
+  className="rounded"
+  controls={true}
+  height={undefined}
+  width={undefined}>
+  <source
+    src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
+    type="video/mp4" />
+  \"Your Browser Does Not Support Video\"
+</video>
+`;
