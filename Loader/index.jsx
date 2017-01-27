@@ -1,18 +1,18 @@
 import React, { PropTypes } from 'react';
-import { classNames, cleanProps } from '../lib/utils';
+import { classNames } from '../lib/utils';
 import Icon from '../Icon';
 import styles from './style.css';
 
-const Loader = (props) => {
+const Loader = ({ children }) => {
   const classes = classNames(styles, 'loader');
   return (
-    <div className={classes} {...cleanProps(props, Loader.propTypes)}>
+    <div className={classes}>
       <div className={styles.icon}>
         <Icon type={'buffer-top'} className={styles.top} />
         <Icon type={'buffer-middle'} className={styles.middle} />
         <Icon type={'buffer-bottom'} className={styles.bottom} />
       </div>
-      <p className={styles.content}>{props.children}</p>
+      <p className={styles.content}>{children}</p>
     </div>
   );
 };
