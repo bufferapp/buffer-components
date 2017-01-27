@@ -18,8 +18,7 @@ exports[`Snapshots Button disabled 1`] = `
     Default
   </p>
   <button
-    className=""
-    disabled={true}>
+    className="">
     Button text
   </button>
   <br />
@@ -28,8 +27,7 @@ exports[`Snapshots Button disabled 1`] = `
     Borderless
   </p>
   <button
-    className="borderless"
-    disabled={true}>
+    className="borderless">
     Button text
   </button>
   <br />
@@ -38,8 +36,7 @@ exports[`Snapshots Button disabled 1`] = `
     Large
   </p>
   <button
-    className="large"
-    disabled={true}>
+    className="large">
     Button text
   </button>
   <br />
@@ -48,8 +45,7 @@ exports[`Snapshots Button disabled 1`] = `
     Secondary
   </p>
   <button
-    className="secondary"
-    disabled={true}>
+    className="secondary">
     Button text
   </button>
   <br />
@@ -58,8 +54,7 @@ exports[`Snapshots Button disabled 1`] = `
     Small
   </p>
   <button
-    className="small"
-    disabled={true}>
+    className="small">
     Button text
   </button>
   <br />
@@ -68,8 +63,7 @@ exports[`Snapshots Button disabled 1`] = `
     Tertiary
   </p>
   <button
-    className="tertiary"
-    disabled={true}>
+    className="tertiary">
     Button text
   </button>
   <br />
@@ -78,8 +72,7 @@ exports[`Snapshots Button disabled 1`] = `
     Warning
   </p>
   <button
-    className="warning"
-    disabled={true}>
+    className="warning">
     Button text
   </button>
 </div>

@@ -1,19 +1,27 @@
 import React, { PropTypes } from 'react';
-import { classNames, cleanProps } from '../lib/utils';
+import { classNames } from '../lib/utils';
 import styles from './style.css';
 
-const Button = (props) => {
+const Button = ({
+  borderless,
+  children,
+  large,
+  secondary,
+  small,
+  tertiary,
+  warning,
+}) => {
   const classes = classNames(styles, {
-    borderless: props.borderless,
-    large: props.large,
-    secondary: props.secondary,
-    small: props.small,
-    tertiary: props.tertiary,
-    warning: props.warning,
+    borderless,
+    large,
+    secondary,
+    small,
+    tertiary,
+    warning,
   });
   return (
-    <button className={classes} {...cleanProps(props, Button.propTypes)}>
-      {props.children}
+    <button className={classes}>
+      {children}
     </button>
   );
 };
