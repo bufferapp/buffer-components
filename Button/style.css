@@ -10,7 +10,7 @@ button {
   font-weight: 400;
   color: var(--white);
   background-color: var(--curious-blue);
-  border: 1px solid transparent;
+  border: var(--border-width) solid transparent;
   border-radius: 256px;
   cursor: default;
   outline: none;
