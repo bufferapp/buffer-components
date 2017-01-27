@@ -7,13 +7,21 @@
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "./node_modules/eslint/bin/eslint.js . --ignore-pattern coverage .storybook node_modules",
-    "test": "npm run lint && jest",
+    "test": "npm run lint && jest --coverage",
     "test-watch": "jest --watch",
     "test-update": "jest -u"
   },
   "jest": {
     "moduleNameMapper": {
       "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "coverageThreshold": {
+      "global": {
+        "branches": 93,
+        "functions": 100,
+        "lines": 99,
+        "statements": 99
+      }
     }
   },
   "repository": {
