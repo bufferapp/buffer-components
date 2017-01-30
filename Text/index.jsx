@@ -15,7 +15,7 @@ const Text = ({ children, size, weight }) => {
 };
 
 Text.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.node,
   size: PropTypes.oneOf(['large', 'small']),
   weight: PropTypes.oneOf(['bold', 'thin']),
 };
