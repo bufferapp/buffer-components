@@ -10,7 +10,7 @@ button {
   color: var(--white);
   background-color: var(--curious-blue);
   border: var(--border-width) solid transparent;
-  border-radius: calc(var(--border-width) * 256);
+  border-radius: 2em;
   cursor: default;
   outline: none;
   transition: background-color var(--transition-animation-time) var(--transition-animation-type);
