@@ -287,6 +287,66 @@ exports[`Snapshots Image border: rounded 1`] = `
   width={undefined} />
 `;
 
+exports[`Snapshots Link Default 1`] = `
+<div>
+  <a
+    className="link"
+    href="https://twitter.com">
+    Twitter
+  </a>
+  <br />
+  <a
+    className="link"
+    href="https://buffer.com">
+    Buffer
+  </a>
+</div>
+`;
+
+exports[`Snapshots LinkifiedText default 1`] = `
+<span
+  className="text">
+  a 
+  <a
+    className="link"
+    href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html">
+    blog.twitter.com/2011/05/twitte…
+  </a>
+   b
+</span>
+`;
+
+exports[`Snapshots LinkifiedText empty string 1`] = `
+<span
+  className="text" />
+`;
+
+exports[`Snapshots LinkifiedText no links 1`] = `
+<span
+  className="text">
+  a b
+</span>
+`;
+
+exports[`Snapshots LinkifiedText two links 1`] = `
+<span
+  className="text">
+  a 
+  <a
+    className="link"
+    href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html">
+    blog.twitter.com/2011/05/twitte…
+  </a>
+   b 
+  <a
+    className="link"
+    href="https://buffer.com">
+    buffer.com
+  </a>
+   c
+</span>
+`;
+
 exports[`Snapshots Loader Default 1`] = `
 <div
   className="loader">
