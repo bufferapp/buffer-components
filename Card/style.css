@@ -7,7 +7,7 @@
   line-height: var(--line-height);
   color: var(--outer-space);
   background-color: var(--white);
-  border: 1px solid var(--mystic);
+  border: var(--border-width) solid var(--mystic);
   border-radius: var(--border-radius);
   transition: box-shadow var(--transition-animation-time) var(--transition-animation-type);
 }
