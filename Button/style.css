@@ -11,7 +11,7 @@ button {
   background-color: var(--curious-blue);
   border: var(--border-width) solid transparent;
   border-radius: 2em;
-  cursor: default;
+  cursor: pointer;
   outline: none;
   transition: background-color var(--transition-animation-time) var(--transition-animation-type);
 }
