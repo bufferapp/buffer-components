@@ -2,8 +2,8 @@
 @import '../variables.css';
 
 .card {
-  padding: 20px;
-  font-size: var(--font-size);
+  padding: 1.5em;
+  font-size: 0.875em;
   line-height: var(--line-height);
   color: var(--outer-space);
   background-color: var(--white);
@@ -16,7 +16,8 @@
   box-shadow: var(--box-shadow-level-1);
 }
 
-.card a {
+.card a:link,
+.card a:visited {
   color: var(--curious-blue);
 }
 
@@ -28,24 +29,8 @@
   color: var(--tory-blue);
 }
 
-.card ul {
-  margin-top: 20px;
-}
-
-.card ul:nth-child(1) {
-  margin-top: 0;
-}
-
-.card ul li h4 {
-  margin-bottom: 0;
-}
-
-.card ul li.last {
-  margin-bottom: 0;
-}
-
 .double-padding {
-  padding: 40px;
+  padding: 3em;
 }
 
 .empty {
