@@ -8,8 +8,8 @@
 .icon {
   position: relative;
   margin: 0 auto;
-  width: 21px;
-  height: 21px;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .top {
@@ -45,12 +45,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 21px;
-  line-height: 18px;
+  font-size: 1.5em;
 }
 
 .content {
-  margin-top: 10px;
+  margin-top: 1em;
   width: 100%;
   font-size: var(--font-size);
   line-height: var(--line-height);
