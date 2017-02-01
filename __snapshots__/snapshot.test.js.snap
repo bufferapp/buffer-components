@@ -246,45 +246,78 @@ exports[`Snapshots Image Default 1`] = `
 <img
   alt="Image"
   className=""
-  height={undefined}
   src="http://lorempixel.com/400/400/cats/"
-  width={undefined} />
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image W=10em H=10em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": "10em",
+      "width": "10em",
+    }
+  } />
 `;
 
 exports[`Snapshots Image W=40px H=40px 1`] = `
 <img
   alt="Image"
   className=""
-  height="40px"
   src="http://lorempixel.com/400/400/cats/"
-  width="40px" />
+  style={
+    Object {
+      "height": "40px",
+      "width": "40px",
+    }
+  } />
 `;
 
 exports[`Snapshots Image W=100% 1`] = `
 <img
   alt="Image"
   className=""
-  height={undefined}
   src="http://lorempixel.com/400/400/cats/"
-  width="100%" />
+  style={
+    Object {
+      "height": undefined,
+      "width": "100%",
+    }
+  } />
 `;
 
 exports[`Snapshots Image border: circle 1`] = `
 <img
   alt="Image"
   className="circle"
-  height={undefined}
   src="http://lorempixel.com/400/400/cats/"
-  width={undefined} />
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  } />
 `;
 
 exports[`Snapshots Image border: rounded 1`] = `
 <img
   alt="Image"
   className="rounded"
-  height={undefined}
   src="http://lorempixel.com/400/400/cats/"
-  width={undefined} />
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  } />
 `;
 
 exports[`Snapshots Link Default 1`] = `

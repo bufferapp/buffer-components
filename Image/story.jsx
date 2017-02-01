@@ -9,14 +9,21 @@ storiesOf('Image')
   .add('W=100%', () => (
     <Image
       src={'http://lorempixel.com/400/400/cats/'}
-      width={"100%"}
+      width={'100%'}
     />
   ))
   .add('W=40px H=40px', () => (
     <Image
       src={'http://lorempixel.com/400/400/cats/'}
-      width={"40px"}
-      height={"40px"}
+      width={'40px'}
+      height={'40px'}
+    />
+  ))
+  .add('W=10em H=10em', () => (
+    <Image
+      src={'http://lorempixel.com/400/400/cats/'}
+      width={'10em'}
+      height={'10em'}
     />
   ))
   .add('border: circle', () => (

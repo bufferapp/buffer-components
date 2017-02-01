@@ -9,13 +9,17 @@ const Image = ({ src, alt, width, height, border }) => {
     rounded: border === 'rounded',
   });
 
+  const inlineStyle = {
+    height,
+    width,
+  };
+
   return (
     <img
       src={src}
       alt={alt}
       className={classes}
-      width={width}
-      height={height}
+      style={inlineStyle}
     />
   );
 };
@@ -24,9 +28,15 @@ const Image = ({ src, alt, width, height, border }) => {
 Image.propTypes = {
   alt: PropTypes.string,
   border: PropTypes.oneOf(['circle', 'rounded']),
-  height: PropTypes.string,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
   src: PropTypes.string.isRequired,
-  width: PropTypes.string,
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
 };
 
 Image.defaultProps = {
