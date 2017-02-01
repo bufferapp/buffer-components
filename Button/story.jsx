@@ -28,6 +28,13 @@ storiesOf('Button')
       <Button disabled tertiary>Button text</Button><br /><br />
       <p>Warning</p>
       <Button disabled warning>Button text</Button>
+      <p>Click Events Should Not Fire</p>
+      <Button
+        disabled
+        onClick={action('button-click--should-not-happen')}
+      >
+        No Events :(
+      </Button>
     </div>
   ))
   .add('large', () => (

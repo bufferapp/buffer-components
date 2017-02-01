@@ -5,6 +5,7 @@ import styles from './style.css';
 const Button = ({
   borderless,
   children,
+  disabled,
   fillContainer,
   large,
   onClick,
@@ -26,6 +27,7 @@ const Button = ({
     <button
       className={classes}
       onClick={onClick}
+      disabled={disabled}
     >
       {children}
     </button>
@@ -35,6 +37,7 @@ const Button = ({
 Button.propTypes = {
   children: PropTypes.node,
   borderless: PropTypes.bool,
+  disabled: PropTypes.bool,
   fillContainer: PropTypes.bool,
   large: PropTypes.bool,
   onClick: PropTypes.func,
