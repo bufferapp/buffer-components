@@ -45,6 +45,11 @@ storiesOf('Button')
   .add('warning', () => (
     <Button warning>Button text</Button>
   ))
+  .add('fillContainer', () => (
+    <div style={{ boxSizing: 'border-box' }}>
+      <Button fillContainer>Max WIDTH</Button>
+    </div>
+  ))
   .add('onClick event', () => (
     <Button
       onClick={action('button-click')}

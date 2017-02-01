@@ -87,6 +87,21 @@ exports[`Snapshots Button disabled 1`] = `
 </div>
 `;
 
+exports[`Snapshots Button fillContainer 1`] = `
+<div
+  style={
+    Object {
+      "boxSizing": "border-box",
+    }
+  }>
+  <button
+    className="fill-container"
+    onClick={undefined}>
+    Max WIDTH
+  </button>
+</div>
+`;
+
 exports[`Snapshots Button large 1`] = `
 <button
   className="large"

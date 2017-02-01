@@ -173,3 +173,7 @@ button .bi {
 .warning i.bi {
   color: var(--torch-red);
 }
+
+.fill-container {
+  width: 100%;
+}
