@@ -471,6 +471,15 @@ exports[`Snapshots NavBar Subtitle 1`] = `
 </div>
 `;
 
+exports[`Snapshots ScheduleTag Default 1`] = `
+<span
+  className="scheduleTag">
+  08:52am (GMC)
+  <span
+    className="arrow" />
+</span>
+`;
+
 exports[`Snapshots Text Bold 1`] = `
 <span
   className="text bold">

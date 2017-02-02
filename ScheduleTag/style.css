@@ -1,0 +1,25 @@
+@import '../layout.css';
+@import '../variables.css';
+
+.scheduleTag {
+    position: relative;
+    background-color: var(--curious-blue);
+    font-size: 11px;
+    color: var(--white);
+    height: 24px;
+    padding-left: 8px;
+    padding-right: 2px;
+    display: inline-block;
+    line-height: 24px;
+    border-radius: 2px 0 0 2px;
+}
+
+.arrow {
+    position: absolute;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid var(--curious-blue);
+}
