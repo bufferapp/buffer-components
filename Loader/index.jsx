@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import { classNames } from '../lib/utils';
 import Icon from '../Icon';
+import Text from '../Text';
 import styles from './style.css';
 
 const Loader = ({ children }) => {
@@ -12,7 +13,7 @@ const Loader = ({ children }) => {
         <Icon type={'buffer-middle'} className={styles.middle} />
         <Icon type={'buffer-bottom'} className={styles.bottom} />
       </div>
-      <p className={styles.content}>{children}</p>
+      <Text>{children}</Text>
     </div>
   );
 };
