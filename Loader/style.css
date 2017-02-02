@@ -7,7 +7,7 @@
 
 .icon {
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   width: 1.5em;
   height: 1.5em;
 }
@@ -46,12 +46,4 @@
   top: 0;
   left: 0;
   font-size: 1.5em;
-}
-
-.content {
-  margin-top: 1em;
-  width: 100%;
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  color: var(--shuttle-gray);
 }
