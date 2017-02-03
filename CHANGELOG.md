@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.11 (February 3, 2017)
+
+- Added `hovered` prop to `Card` component
+- Removed `layout.css` file and references
+
 ## 0.1.3 (January 10, 2017)
 
 - Removed component dependency on `typography.css`
