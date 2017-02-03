@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.12 (February 3, 2017)
+
+- Make `noStyle` button cursor = pointer
+
 ## 0.1.11 (February 3, 2017)
 
 - Added `hovered` prop to `Card` component
