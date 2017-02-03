@@ -67,8 +67,10 @@ storiesOf('Button')
     </Button>
   ))
   .add('noStyle', () => (
-    <Button noStyle>
-      <Icon type={'x'} size={'small'} />
-      <Text size={'small'}>Delete Post</Text>
+    <Button
+      onClick={action('button-click')}
+      noStyle
+    >
+      <Text size={'small'}>Use this as an a11y friendly click target</Text>
     </Button>
   ));

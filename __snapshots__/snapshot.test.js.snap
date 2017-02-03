@@ -134,12 +134,10 @@ exports[`Snapshots Button noStyle 1`] = `
 <button
   className="no-style"
   disabled={undefined}
-  onClick={undefined}>
-  <i
-    className="icon small undefined bi bi-x" />
+  onClick={[Function]}>
   <span
     className="text small">
-    Delete Post
+    Use this as an a11y friendly click target
   </span>
 </button>
 `;
