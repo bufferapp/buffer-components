@@ -16,19 +16,6 @@
   box-shadow: var(--box-shadow-level-1);
 }
 
-.card a:link,
-.card a:visited {
-  color: var(--curious-blue);
-}
-
-.card a:hover {
-  color: var(--denim);
-}
-
-.card a:active {
-  color: var(--tory-blue);
-}
-
 .double-padding {
   padding: 3em;
 }
