@@ -13,8 +13,10 @@ const Button = ({
   small,
   tertiary,
   warning,
+  noStyle,
 }) => {
   const classes = classNames(styles, {
+    button: !noStyle,
     borderless,
     large,
     secondary,
@@ -22,6 +24,7 @@ const Button = ({
     tertiary,
     warning,
     'fill-container': fillContainer,
+    'no-style': noStyle,
   });
   return (
     <button
@@ -40,6 +43,7 @@ Button.propTypes = {
   disabled: PropTypes.bool,
   fillContainer: PropTypes.bool,
   large: PropTypes.bool,
+  noStyle: PropTypes.bool,
   onClick: PropTypes.func,
   secondary: PropTypes.bool,
   small: PropTypes.bool,
