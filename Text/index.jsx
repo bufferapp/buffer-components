@@ -4,6 +4,7 @@ import styles from './style.css';
 
 const Text = ({ children, size, weight }) => {
   const classes = classNames(styles, 'text', {
+    extraSmall: size === 'extra-small',
     small: size === 'small',
     large: size === 'large',
     thin: weight === 'thin',

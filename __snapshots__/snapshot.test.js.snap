@@ -485,6 +485,13 @@ exports[`Snapshots Text Default 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text ExtraSmall 1`] = `
+<span
+  className="text extraSmall">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
 exports[`Snapshots Text Large 1`] = `
 <span
   className="text large">

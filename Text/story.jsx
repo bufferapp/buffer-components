@@ -14,6 +14,9 @@ storiesOf('Text')
   .add('Small', () => (
     <Text size={'small'}>{text}</Text>
   ))
+  .add('ExtraSmall', () => (
+    <Text size={'extra-small'}>{text}</Text>
+  ))
   .add('Bold', () => (
     <Text weight={'bold'}>{text}</Text>
   ))
