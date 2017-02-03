@@ -22,4 +22,8 @@ storiesOf('Text')
   ))
   .add('Thin', () => (
     <Text weight={'thin'}>{text}</Text>
+  ))
+  .add('White', () => (
+    <Text color={'white'}>{text}</Text>
   ));
+

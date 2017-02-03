@@ -27,3 +27,7 @@
 .bold {
   font-weight: var(--font-weight-bold);
 }
+
+.white {
+  color: var(--white);
+}

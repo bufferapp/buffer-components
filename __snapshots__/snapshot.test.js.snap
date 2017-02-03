@@ -527,6 +527,13 @@ exports[`Snapshots Text Thin 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text White 1`] = `
+<span
+  className="text white">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
 exports[`Snapshots Video Default 1`] = `
 <video
   className=""
