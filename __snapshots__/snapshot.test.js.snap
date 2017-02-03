@@ -189,16 +189,20 @@ exports[`Snapshots Button warning 1`] = `
 </button>
 `;
 
-exports[`Snapshots Card Default 1`] = `
+exports[`Snapshots Card default 1`] = `
 <div
-  className="card">
+  className="card"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -207,14 +211,38 @@ exports[`Snapshots Card Default 1`] = `
 
 exports[`Snapshots Card doublePadding 1`] = `
 <div
-  className="card double-padding">
+  className="card double-padding"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card empty + hovered 1`] = `
+<div
+  className="card empty hovered"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -223,21 +251,47 @@ exports[`Snapshots Card doublePadding 1`] = `
 
 exports[`Snapshots Card empty 1`] = `
 <div
-  className="card empty">
+  className="card empty"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   Nothing to see here! 👻
 </div>
 `;
 
 exports[`Snapshots Card failed 1`] = `
 <div
-  className="card failed">
+  className="card failed"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card hovered 1`] = `
+<div
+  className="card hovered"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -246,14 +300,18 @@ exports[`Snapshots Card failed 1`] = `
 
 exports[`Snapshots Card noBorder 1`] = `
 <div
-  className="card no-border">
+  className="card no-border"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -262,14 +320,38 @@ exports[`Snapshots Card noBorder 1`] = `
 
 exports[`Snapshots Card noPadding 1`] = `
 <div
-  className="card no-padding">
+  className="card no-padding"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
+<div
+  className="card"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>

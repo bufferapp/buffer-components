@@ -12,21 +12,8 @@
   transition: box-shadow var(--transition-animation-time) var(--transition-animation-type);
 }
 
-.card:hover{
+.hovered {
   box-shadow: var(--box-shadow-level-1);
-}
-
-.card a:link,
-.card a:visited {
-  color: var(--curious-blue);
-}
-
-.card a:hover {
-  color: var(--denim);
-}
-
-.card a:active {
-  color: var(--tory-blue);
 }
 
 .double-padding {
@@ -38,7 +25,7 @@
   border-style: dashed;
 }
 
-.empty:hover {
+.empty.hovered {
   border-color: transparent;
 }
 

@@ -4,3 +4,16 @@
 .link {
   font-size: var(--font-size);
 }
+
+.link:link,
+.link:visited {
+  color: var(--curious-blue);
+}
+
+.link:hover {
+  color: var(--denim);
+}
+
+.link:active {
+  color: var(--tory-blue);
+}
