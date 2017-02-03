@@ -1,6 +1,6 @@
 exports[`Snapshots Button Default 1`] = `
 <button
-  className=""
+  className="button"
   disabled={undefined}
   onClick={undefined}>
   Button text
@@ -9,7 +9,7 @@ exports[`Snapshots Button Default 1`] = `
 
 exports[`Snapshots Button borderless 1`] = `
 <button
-  className="borderless"
+  className="button borderless"
   disabled={undefined}
   onClick={undefined}>
   Button text
@@ -22,7 +22,7 @@ exports[`Snapshots Button disabled 1`] = `
     Default
   </p>
   <button
-    className=""
+    className="button"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -33,7 +33,7 @@ exports[`Snapshots Button disabled 1`] = `
     Borderless
   </p>
   <button
-    className="borderless"
+    className="button borderless"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -44,7 +44,7 @@ exports[`Snapshots Button disabled 1`] = `
     Large
   </p>
   <button
-    className="large"
+    className="button large"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -55,7 +55,7 @@ exports[`Snapshots Button disabled 1`] = `
     Secondary
   </p>
   <button
-    className="secondary"
+    className="button secondary"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -66,7 +66,7 @@ exports[`Snapshots Button disabled 1`] = `
     Small
   </p>
   <button
-    className="small"
+    className="button small"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -77,7 +77,7 @@ exports[`Snapshots Button disabled 1`] = `
     Tertiary
   </p>
   <button
-    className="tertiary"
+    className="button tertiary"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -88,7 +88,7 @@ exports[`Snapshots Button disabled 1`] = `
     Warning
   </p>
   <button
-    className="warning"
+    className="button warning"
     disabled={true}
     onClick={undefined}>
     Button text
@@ -97,7 +97,7 @@ exports[`Snapshots Button disabled 1`] = `
     Click Events Should Not Fire
   </p>
   <button
-    className=""
+    className="button"
     disabled={true}
     onClick={[Function]}>
     No Events :(
@@ -113,7 +113,7 @@ exports[`Snapshots Button fillContainer 1`] = `
     }
   }>
   <button
-    className="fill-container"
+    className="button fill-container"
     disabled={undefined}
     onClick={undefined}>
     Max WIDTH
@@ -123,16 +123,30 @@ exports[`Snapshots Button fillContainer 1`] = `
 
 exports[`Snapshots Button large 1`] = `
 <button
-  className="large"
+  className="button large"
   disabled={undefined}
   onClick={undefined}>
   Button text
 </button>
 `;
 
+exports[`Snapshots Button noStyle 1`] = `
+<button
+  className="no-style"
+  disabled={undefined}
+  onClick={undefined}>
+  <i
+    className="icon small undefined bi bi-x" />
+  <span
+    className="text small">
+    Delete Post
+  </span>
+</button>
+`;
+
 exports[`Snapshots Button onClick event 1`] = `
 <button
-  className=""
+  className="button"
   disabled={undefined}
   onClick={[Function]}>
   Click Me
@@ -141,7 +155,7 @@ exports[`Snapshots Button onClick event 1`] = `
 
 exports[`Snapshots Button secondary 1`] = `
 <button
-  className="secondary"
+  className="button secondary"
   disabled={undefined}
   onClick={undefined}>
   Button text
@@ -150,7 +164,7 @@ exports[`Snapshots Button secondary 1`] = `
 
 exports[`Snapshots Button small 1`] = `
 <button
-  className="small"
+  className="button small"
   disabled={undefined}
   onClick={undefined}>
   Button text
@@ -159,7 +173,7 @@ exports[`Snapshots Button small 1`] = `
 
 exports[`Snapshots Button tertiary 1`] = `
 <button
-  className="tertiary"
+  className="button tertiary"
   disabled={undefined}
   onClick={undefined}>
   Button text
@@ -168,7 +182,7 @@ exports[`Snapshots Button tertiary 1`] = `
 
 exports[`Snapshots Button warning 1`] = `
 <button
-  className="warning"
+  className="button warning"
   disabled={undefined}
   onClick={undefined}>
   Button text

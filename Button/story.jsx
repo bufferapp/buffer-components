@@ -4,6 +4,8 @@ import {
   action,
 } from '@kadira/storybook';
 import Button from './index';
+import Icon from '../Icon';
+import Text from '../Text';
 
 storiesOf('Button')
   .add('Default', () => (
@@ -62,5 +64,11 @@ storiesOf('Button')
       onClick={action('button-click')}
     >
       Click Me
+    </Button>
+  ))
+  .add('noStyle', () => (
+    <Button noStyle>
+      <Icon type={'x'} size={'small'} />
+      <Text size={'small'}>Delete Post</Text>
     </Button>
   ));
