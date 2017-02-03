@@ -3,6 +3,14 @@ import Icon from '../Icon';
 import Text from '../Text';
 import styles from './style.css';
 
+const renderText = (children) => {
+  if (children) {
+    return (
+      <Text>{children}</Text>
+    );
+  }
+};
+
 const Loader = ({ children }) =>
   <div className={styles.loader}>
     <div className={styles.icon}>
@@ -10,7 +18,7 @@ const Loader = ({ children }) =>
       <Icon type={'buffer-middle'} className={styles.middle} />
       <Icon type={'buffer-bottom'} className={styles.bottom} />
     </div>
-    <Text>{children}</Text>
+    { renderText(children) }
   </div>;
 
 Loader.propTypes = {
