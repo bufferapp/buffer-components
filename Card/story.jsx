@@ -21,4 +21,10 @@ storiesOf('Card')
   ))
   .add('noPadding', () => (
     <Card noPadding>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
+  .add('hovered', () => (
+    <Card hovered>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
+  .add('empty + hovered', () => (
+    <Card empty hovered>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ));

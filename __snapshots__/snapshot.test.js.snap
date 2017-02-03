@@ -194,11 +194,13 @@ exports[`Snapshots Card Default 1`] = `
   className="card">
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -210,11 +212,31 @@ exports[`Snapshots Card doublePadding 1`] = `
   className="card double-padding">
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card empty + hovered 1`] = `
+<div
+  className="card empty hovered">
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -233,11 +255,31 @@ exports[`Snapshots Card failed 1`] = `
   className="card failed">
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card hovered 1`] = `
+<div
+  className="card hovered">
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -249,11 +291,13 @@ exports[`Snapshots Card noBorder 1`] = `
   className="card no-border">
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>
@@ -265,11 +309,13 @@ exports[`Snapshots Card noPadding 1`] = `
   className="card no-padding">
   What is a Product Designer? An awesome story by 
   <a
+    className="link"
     href="#">
     @jgadapee
   </a>
    over on Medium! 
   <a
+    className="link"
     href="#">
     http://buff.ly/1LTbUqv
   </a>

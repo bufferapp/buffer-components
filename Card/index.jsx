@@ -7,6 +7,7 @@ const Card = ({
   doublePadding,
   empty,
   failed,
+  hovered,
   noBorder,
   noPadding,
 }) => {
@@ -14,6 +15,7 @@ const Card = ({
     'double-padding': doublePadding,
     empty,
     failed,
+    hovered,
     'no-border': noBorder,
     'no-padding': noPadding,
   });
@@ -29,6 +31,7 @@ Card.propTypes = {
   doublePadding: PropTypes.bool,
   empty: PropTypes.bool,
   failed: PropTypes.bool,
+  hovered: PropTypes.bool,
   noBorder: PropTypes.bool,
   noPadding: PropTypes.bool,
 };
