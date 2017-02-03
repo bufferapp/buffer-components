@@ -420,7 +420,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
 </span>
 `;
 
-exports[`Snapshots Loader Default 1`] = `
+exports[`Snapshots Loader default 1`] = `
 <div
   className="loader">
   <div
@@ -432,10 +432,25 @@ exports[`Snapshots Loader Default 1`] = `
     <i
       className="icon bottom bi bi-buffer-bottom" />
   </div>
-  <p
-    className="content">
+</div>
+`;
+
+exports[`Snapshots Loader withText 1`] = `
+<div
+  className="loader">
+  <div
+    className="icon">
+    <i
+      className="icon top bi bi-buffer-top" />
+    <i
+      className="icon middle bi bi-buffer-middle" />
+    <i
+      className="icon bottom bi bi-buffer-bottom" />
+  </div>
+  <span
+    className="text">
     Some neat loading text!
-  </p>
+  </span>
 </div>
 `;
 
