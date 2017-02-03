@@ -10,6 +10,8 @@ const Card = ({
   hovered,
   noBorder,
   noPadding,
+  onMouseEnter,
+  onMouseLeave,
 }) => {
   const classes = classNames(styles, 'card', {
     'double-padding': doublePadding,
@@ -20,7 +22,11 @@ const Card = ({
     'no-padding': noPadding,
   });
   return (
-    <div className={classes}>
+    <div
+      className={classes}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+    >
       {children}
     </div>
   );
@@ -34,6 +40,8 @@ Card.propTypes = {
   hovered: PropTypes.bool,
   noBorder: PropTypes.bool,
   noPadding: PropTypes.bool,
+  onMouseEnter: PropTypes.func,
+  onMouseLeave: PropTypes.func,
 };
 
 export default Card;
