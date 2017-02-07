@@ -1,8 +1,9 @@
 import React, { PropTypes } from 'react';
 import ListItem from '../ListItem';
+import style from './style.css';
 
 const List = ({ items }) =>
-  <ul>
+  <ul className={style.ul}>
     {items.map(item => <ListItem>{item}</ListItem>)}
   </ul>;
 
