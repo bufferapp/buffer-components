@@ -1,7 +1,6 @@
-@import '../layout.css';
 @import '../variables.css';
 
-button {
+.button {
   display: inline-block;
   padding: 0.5em 2em;
   font-family: var(--font-family);
@@ -16,26 +15,26 @@ button {
   transition: background-color var(--transition-animation-time) var(--transition-animation-type);
 }
 
-button:focus {
+.button:focus {
   box-shadow: 0 0 0.25em var(--curious-blue);
 }
 
-button:hover {
+.button:hover {
   color: var(--white);
   text-decoration: none;
   background-color: var(--denim);
 }
 
-button:active {
+.button:active {
   background-color: var(--tory-blue);
 }
 
-button:disabled {
+.button:disabled {
   color: var(--white);
   background: var(--curious-blue);
 }
 
-button:disabled,
+.button:disabled,
 .borderless:disabled,
 .large:disabled,
 .secondary:disabled,
@@ -45,12 +44,12 @@ button:disabled,
   opacity: .3;
 }
 
-button [class*=" bi-"]:before,
-button [class^=bi-]:before {
+.button [class*=" bi-"]:before,
+.button [class^=bi-]:before {
   vertical-align: baseline;
 }
 
-button .bi {
+.button .bi {
   color: var(--white);
 }
 
@@ -176,4 +175,12 @@ button .bi {
 
 .fill-container {
   width: 100%;
+}
+
+.no-style {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: inherit;
 }

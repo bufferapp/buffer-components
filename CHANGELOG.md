@@ -1,9 +1,18 @@
 # Changelog
 
-## 0.1.13 (January 10, 2017)
+## 0.1.13 (February 7, 2017)
 
 - Added `withText` config to `Loader` to display with `Text`
 - Updated default config of `Loader` to display without text
+
+## 0.1.12 (February 3, 2017)
+
+- Make `noStyle` button cursor = pointer
+
+## 0.1.11 (February 3, 2017)
+
+- Added `hovered` prop to `Card` component
+- Removed `layout.css` file and references
 
 ## 0.1.3 (January 10, 2017)
 

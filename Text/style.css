@@ -1,4 +1,3 @@
-@import '../layout.css';
 @import '../variables.css';
 
 .text {
@@ -12,6 +11,10 @@
   font-size: var(--font-size-small);
 }
 
+.extraSmall {
+   font-size: var(--font-size-extra-small);
+}
+
 .large {
   font-size: var(--font-size-large);
 }
@@ -22,4 +25,8 @@
 
 .bold {
   font-weight: var(--font-weight-bold);
+}
+
+.white {
+  color: var(--white);
 }
