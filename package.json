@@ -64,5 +64,8 @@
     "react-test-renderer": "15.4.2",
     "storyshots": "^3.2.1",
     "style-loader": "0.13.1"
+  },
+  "dependencies": {
+    "uuid": "^3.0.1"
   }
 }
