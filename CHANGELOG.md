@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.13 (January 10, 2017)
+
+- Added `withText` config to `Loader` to display with `Text`
+- Updated default config of `Loader` to display without text
+
 ## 0.1.3 (January 10, 2017)
 
 - Removed component dependency on `typography.css`
