@@ -4,5 +4,5 @@ import List from './index';
 
 storiesOf('List')
   .add('default', () => (
-    <List />
+    <List items={['apples', 'bananas', 'oranges']} />
   ));
