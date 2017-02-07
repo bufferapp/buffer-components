@@ -514,6 +514,31 @@ exports[`Snapshots LinkifiedText two links 1`] = `
 </span>
 `;
 
+exports[`Snapshots List default 1`] = `
+<ul
+  className="ul">
+  <li
+    className="li">
+    apples
+  </li>
+  <li
+    className="li">
+    bananas
+  </li>
+  <li
+    className="li">
+    oranges
+  </li>
+</ul>
+`;
+
+exports[`Snapshots ListItem default 1`] = `
+<li
+  className="li">
+  Bananas
+</li>
+`;
+
 exports[`Snapshots Loader default 1`] = `
 <div
   className="loader">
