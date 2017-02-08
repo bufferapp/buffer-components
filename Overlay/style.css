@@ -1,0 +1,12 @@
+@import '../variables.css';
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--outer-space);
+  overflow-x: hidden;
+  z-index: 25;
+}
