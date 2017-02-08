@@ -384,6 +384,41 @@ exports[`Snapshots Image Default 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image MH=10em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": "10em",
+      "maxWidth": undefined,
+      "objectFit": undefined,
+      "width": "14em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image MW=10em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": "14em",
+      "maxHeight": undefined,
+      "maxWidth": "10em",
+      "objectFit": undefined,
       "width": undefined,
     }
   } />
@@ -397,6 +432,9 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
   style={
     Object {
       "height": "10em",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "10em",
     }
   } />
@@ -410,6 +448,9 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
   style={
     Object {
       "height": "40px",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "40px",
     }
   } />
@@ -423,6 +464,9 @@ exports[`Snapshots Image W=100% 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "100%",
     }
   } />
@@ -436,6 +480,9 @@ exports[`Snapshots Image border: circle 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": undefined,
     }
   } />
@@ -449,7 +496,58 @@ exports[`Snapshots Image border: rounded 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image small image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/50/50/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image tall image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/1000/cats/"
+  style={
+    Object {
+      "height": "10em",
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image wide image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/1000/400/cats/"
+  style={
+    Object {
+      "height": "10em",
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
     }
   } />
 `;
