@@ -38,22 +38,22 @@
     "react": ">= 0.14.0"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.35.3",
-    "@kadira/storybook-deployer": "^1.1.0",
-    "babel-cli": "^6.22.2",
-    "babel-eslint": "^7.1.1",
-    "babel-jest": "^18.0.0",
-    "babel-preset-es2015": "^6.22.0",
-    "babel-preset-react": "^6.22.0",
-    "babel-preset-stage-1": "^6.22.0",
+    "@kadira/storybook": "2.35.3",
+    "@kadira/storybook-deployer": "1.1.0",
+    "babel-cli": "6.22.2",
+    "babel-eslint": "7.1.1",
+    "babel-jest": "18.0.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "babel-preset-stage-1": "6.22.0",
     "css-loader": "0.26.1",
-    "eslint": "^3.14.1",
-    "eslint-config-airbnb": "^14.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^3.0.2",
-    "eslint-plugin-react": "^6.9.0",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^18.1.0",
+    "eslint": "3.14.1",
+    "eslint-config-airbnb": "14.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.2",
+    "eslint-plugin-react": "6.9.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "18.1.0",
     "postcss-custom-properties": "5.0.1",
     "postcss-hexrgba": "0.2.1",
     "postcss-import": "9.1.0",
@@ -62,10 +62,10 @@
     "react-addons-test-utils": "15.4.2",
     "react-dom": "15.4.2",
     "react-test-renderer": "15.4.2",
-    "storyshots": "^3.2.1",
+    "storyshots": "3.2.1",
     "style-loader": "0.13.1"
   },
   "dependencies": {
-    "uuid": "^3.0.1"
+    "uuid": "3.0.1"
   }
 }
