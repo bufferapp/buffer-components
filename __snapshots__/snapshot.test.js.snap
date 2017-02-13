@@ -2339,6 +2339,12 @@ exports[`Snapshots NavBar Subtitle 1`] = `
 </div>
 `;
 
+exports[`Snapshots Overlay default 1`] = `
+<div
+  className="overlay"
+  onClick={undefined} />
+`;
+
 exports[`Snapshots Text Bold 1`] = `
 <span
   className="text bold">
