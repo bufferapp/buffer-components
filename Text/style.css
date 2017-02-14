@@ -30,3 +30,7 @@
 .white {
   color: var(--white);
 }
+
+.gray {
+  color: var(--outer-space-light);
+}

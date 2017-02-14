@@ -28,6 +28,10 @@
   border-color: transparent;
 }
 
+.faded {
+  opacity: 0.5;
+}
+
 .failed {
   border-color: var(--torch-red);
 }
