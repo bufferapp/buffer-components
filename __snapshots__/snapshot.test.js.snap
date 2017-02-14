@@ -256,6 +256,26 @@ exports[`Snapshots Card empty 1`] = `
 </div>
 `;
 
+exports[`Snapshots Card faded 1`] = `
+<div
+  className="card faded"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
 exports[`Snapshots Card failed 1`] = `
 <div
   className="card failed"
@@ -720,6 +740,13 @@ exports[`Snapshots Text Default 1`] = `
 exports[`Snapshots Text ExtraSmall 1`] = `
 <span
   className="text extraSmall">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Gray 1`] = `
+<span
+  className="text gray">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
