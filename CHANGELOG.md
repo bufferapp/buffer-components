@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.16 (February 13, 2017)
+
+- Add `--black` as a color variable
+- Make transition speed 100ms (as per google's rail model)
+
 ## 0.1.13 (February 7, 2017)
 
 - Added `withText` config to `Loader` to display with `Text`
