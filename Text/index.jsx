@@ -10,6 +10,7 @@ const Text = ({ children, size, weight, color }) => {
     thin: weight === 'thin',
     bold: weight === 'bold',
     white: color === 'white',
+    gray: color === 'gray',
   });
   return (
     <span className={classes}>{children}</span>
@@ -20,7 +21,7 @@ Text.propTypes = {
   children: PropTypes.node,
   size: PropTypes.oneOf(['large', 'small', 'extra-small']),
   weight: PropTypes.oneOf(['bold', 'thin']),
-  color: PropTypes.oneOf(['white']),
+  color: PropTypes.oneOf(['white', 'gray']),
 };
 
 export default Text;

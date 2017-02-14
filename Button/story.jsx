@@ -4,7 +4,6 @@ import {
   action,
 } from '@kadira/storybook';
 import Button from './index';
-import Icon from '../Icon';
 import Text from '../Text';
 
 storiesOf('Button')

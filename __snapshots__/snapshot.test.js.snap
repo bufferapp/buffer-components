@@ -256,6 +256,26 @@ exports[`Snapshots Card empty 1`] = `
 </div>
 `;
 
+exports[`Snapshots Card faded 1`] = `
+<div
+  className="card faded"
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}>
+  What is a Product Designer? An awesome story by 
+  <a
+    className="link"
+    href="#">
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    className="link"
+    href="#">
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
 exports[`Snapshots Card failed 1`] = `
 <div
   className="card failed"
@@ -384,6 +404,41 @@ exports[`Snapshots Image Default 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image MH=10em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": "10em",
+      "maxWidth": undefined,
+      "objectFit": undefined,
+      "width": "14em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image MW=10em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": "14em",
+      "maxHeight": undefined,
+      "maxWidth": "10em",
+      "objectFit": undefined,
       "width": undefined,
     }
   } />
@@ -397,6 +452,9 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
   style={
     Object {
       "height": "10em",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "10em",
     }
   } />
@@ -410,6 +468,9 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
   style={
     Object {
       "height": "40px",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "40px",
     }
   } />
@@ -423,6 +484,9 @@ exports[`Snapshots Image W=100% 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": "100%",
     }
   } />
@@ -436,6 +500,9 @@ exports[`Snapshots Image border: circle 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": undefined,
     }
   } />
@@ -449,7 +516,58 @@ exports[`Snapshots Image border: rounded 1`] = `
   style={
     Object {
       "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "objectFit": undefined,
       "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image small image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/50/50/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image tall image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/400/1000/cats/"
+  style={
+    Object {
+      "height": "10em",
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
+    }
+  } />
+`;
+
+exports[`Snapshots Image wide image 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/1000/400/cats/"
+  style={
+    Object {
+      "height": "10em",
+      "maxHeight": "10em",
+      "maxWidth": "10em",
+      "objectFit": "contain",
+      "width": "10em",
     }
   } />
 `;
@@ -622,6 +740,13 @@ exports[`Snapshots Text Default 1`] = `
 exports[`Snapshots Text ExtraSmall 1`] = `
 <span
   className="text extraSmall">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text Gray 1`] = `
+<span
+  className="text gray">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
