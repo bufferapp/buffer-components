@@ -19,6 +19,9 @@ storiesOf('Card')
   .add('failed', () => (
     <Card failed>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ))
+  .add('faded', () => (
+    <Card faded>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
   .add('noBorder', () => (
     <Card noBorder>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ))

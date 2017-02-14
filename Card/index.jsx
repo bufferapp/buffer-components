@@ -6,6 +6,7 @@ const Card = ({
   children,
   doublePadding,
   empty,
+  faded,
   failed,
   hovered,
   noBorder,
@@ -16,6 +17,7 @@ const Card = ({
   const classes = classNames(styles, 'card', {
     'double-padding': doublePadding,
     empty,
+    faded,
     failed,
     hovered,
     'no-border': noBorder,
@@ -36,6 +38,7 @@ Card.propTypes = {
   children: PropTypes.node,
   doublePadding: PropTypes.bool,
   empty: PropTypes.bool,
+  faded: PropTypes.bool,
   failed: PropTypes.bool,
   hovered: PropTypes.bool,
   noBorder: PropTypes.bool,
