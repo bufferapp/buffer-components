@@ -42,6 +42,6 @@
 
   --box-shadow-level-1: 0 1px 2px var(--outer-space-light);
 
-  --transition-animation-time: 0.25s;
+  --transition-animation-time: 0.1s;
   --transition-animation-type: linear;
 }
