@@ -1,48 +1,6 @@
-:root {
-  --curious-blue: #168eea;
-  --curious-blue-light: rgba(22, 142, 234, .3);
-  --curious-blue-ultra-light: rgba(22, 142, 234, .1);
-  --denim: #137ac9;
-  --tory-blue: #0f63a4;
-
-  --appdotnet: #4a484c;
-  --facebook: #3b5998;
-  --googleplus: #dd4b39;
-  --linkedin: #007bb6;
-  --pinterest: #bd081c;
-  --twitter: #55acee;
-
-  --outer-space: #323b43;
-  --outer-space-light: rgba(50, 59, 67, 0.3);
-  --outer-space-ultra-light: rgba(50, 59, 67, 0.1);
-  --shuttle-gray: #59626a;
-  --nevada: #666c72;
-  --geyser: #ced7df;
-  --mystic: #e6ebef;
-  --aqua-haze: #f4f7f9;
-
-  --white: #fff;
-  --black: #000;
-
-  --shamrock: #2fd566;
-  --saffron: #f1cb3a;
-  --torch-red: #ff1e1e;
-
-  --font-family: "Open Sans", sans-serif;
-  --font-size: 1em;
-  --font-size-large: 2em;
-  --font-size-small: 0.9em;
-  --font-size-extra-small: 0.7em;
-  --font-weight-bold: 600;
-  --font-weight: 400;
-  --font-weight-thin: 300;
-  --line-height: 1.5;
-
-  --border-width: 0.063em;
-  --border-radius: calc(var(--border-width) * 2);
-
-  --box-shadow-level-1: 0 1px 2px var(--outer-space-light);
-
-  --transition-animation-time: 0.1s;
-  --transition-animation-type: linear;
-}
+@import './variables-animation.css';
+@import './variables-border.css';
+@import './variables-colors.css';
+@import './variables-drop-shadows.css';
+@import './variables-font.css';
+@import './variables-z-index.css';

@@ -1,0 +1,4 @@
+:root {
+  --border-width: 0.063em;
+  --border-radius: calc(var(--border-width) * 2);
+}
