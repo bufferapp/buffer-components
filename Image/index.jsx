@@ -3,7 +3,17 @@ import { classNames } from '../lib/utils';
 import styles from './style.css';
 
 
-const Image = ({ src, alt, width, height, maxWidth, maxHeight, border, objectFit }) => {
+const Image = ({ src,
+  alt,
+  width,
+  height,
+  maxHeight,
+  maxWidth,
+  minHeight,
+  minWidth,
+  border,
+  objectFit,
+}) => {
   const classes = classNames(styles, undefined, {
     circle: border === 'circle',
     rounded: border === 'rounded',
@@ -12,8 +22,10 @@ const Image = ({ src, alt, width, height, maxWidth, maxHeight, border, objectFit
   const inlineStyle = {
     height,
     width,
-    maxWidth,
     maxHeight,
+    maxWidth,
+    minHeight,
+    minWidth,
     objectFit,
   };
 
@@ -40,6 +52,14 @@ Image.propTypes = {
     PropTypes.number,
   ]),
   maxWidth: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  minHeight: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  minWidth: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]),

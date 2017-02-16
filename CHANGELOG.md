@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.18 (February 16, 2017)
+
+- Add minHeight and minWidth to Image
+
 ## 0.1.16 (February 13, 2017)
 
 - Add `--black` as a color variable

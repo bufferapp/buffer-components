@@ -406,6 +406,8 @@ exports[`Snapshots Image Default 1`] = `
       "height": undefined,
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": undefined,
     }
@@ -422,6 +424,8 @@ exports[`Snapshots Image MH=10em 1`] = `
       "height": undefined,
       "maxHeight": "10em",
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": "14em",
     }
@@ -438,6 +442,44 @@ exports[`Snapshots Image MW=10em 1`] = `
       "height": "14em",
       "maxHeight": undefined,
       "maxWidth": "10em",
+      "minHeight": undefined,
+      "minWidth": undefined,
+      "objectFit": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image MinH=14em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/100/100/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "minHeight": "14em",
+      "minWidth": undefined,
+      "objectFit": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
+exports[`Snapshots Image MinW=14em 1`] = `
+<img
+  alt="Image"
+  className=""
+  src="http://lorempixel.com/100/100/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": "14em",
       "objectFit": undefined,
       "width": undefined,
     }
@@ -454,6 +496,8 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
       "height": "10em",
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": "10em",
     }
@@ -470,6 +514,8 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
       "height": "40px",
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": "40px",
     }
@@ -486,6 +532,8 @@ exports[`Snapshots Image W=100% 1`] = `
       "height": undefined,
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": "100%",
     }
@@ -502,6 +550,8 @@ exports[`Snapshots Image border: circle 1`] = `
       "height": undefined,
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": undefined,
     }
@@ -518,6 +568,8 @@ exports[`Snapshots Image border: rounded 1`] = `
       "height": undefined,
       "maxHeight": undefined,
       "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": undefined,
       "width": undefined,
     }
@@ -534,6 +586,8 @@ exports[`Snapshots Image small image 1`] = `
       "height": undefined,
       "maxHeight": "10em",
       "maxWidth": "10em",
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": "contain",
       "width": "10em",
     }
@@ -550,6 +604,8 @@ exports[`Snapshots Image tall image 1`] = `
       "height": "10em",
       "maxHeight": "10em",
       "maxWidth": "10em",
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": "contain",
       "width": "10em",
     }
@@ -566,6 +622,8 @@ exports[`Snapshots Image wide image 1`] = `
       "height": "10em",
       "maxHeight": "10em",
       "maxWidth": "10em",
+      "minHeight": undefined,
+      "minWidth": undefined,
       "objectFit": "contain",
       "width": "10em",
     }

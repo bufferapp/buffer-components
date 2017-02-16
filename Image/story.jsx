@@ -19,6 +19,18 @@ storiesOf('Image')
       maxWidth={'10em'}
     />
   ))
+  .add('MinW=14em', () => (
+    <Image
+      src={'http://lorempixel.com/100/100/cats/'}
+      minWidth={'14em'}
+    />
+  ))
+  .add('MinH=14em', () => (
+    <Image
+      src={'http://lorempixel.com/100/100/cats/'}
+      minHeight={'14em'}
+    />
+  ))
   .add('MH=10em', () => (
     <Image
       src={'http://lorempixel.com/400/400/cats/'}
