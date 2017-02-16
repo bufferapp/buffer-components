@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.19 (February 16, 2017)
+
+Bring these back:
+
+- Add `--black` as a color variable
+- Make transition speed 100ms (as per google's rail model)
+
 ## 0.1.18 (February 16, 2017)
 
 - Add minHeight and minWidth to Image
