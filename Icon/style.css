@@ -1,13 +1,16 @@
 @import '../variables.css';
 
 .icon {
-  font-size: var(--font-size);
+  width: 1em;
+  height: 1em;
 }
 
 .small {
-  font-size: var(--font-size-small);
+  width: 0.75em;
+  height: 0.75em;
 }
 
 .large {
-  font-size: var(--font-size-large);
+  width: 2em;
+  height: 2em;
 }
