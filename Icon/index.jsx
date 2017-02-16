@@ -2,19 +2,34 @@ import React, { PropTypes } from 'react';
 import { classNames } from '../lib/utils';
 import styles from './style.css';
 
-const Icon = ({ type, size, className }) => {
+const Icon = ({
+  children,
+  size,
+}) => {
   const classes = classNames(styles, 'icon', {
-    small: size === 'small',
     large: size === 'large',
+    small: size === 'small',
   });
-  return <i className={`${classes} ${className} bi bi-${type}`}></i>;
+  return (
+    <svg
+      className={classes}
+      width="100%"
+      height="100%"
+      viewBox="0 0 16 16"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      {children}
+    </svg>
+  );
 };
 
 
 Icon.propTypes = {
-  className: PropTypes.string,
+  children: PropTypes.node,
   size: PropTypes.oneOf(['small', 'large']),
-  type: PropTypes.string.isRequired,
 };
 
 export default Icon;
+export AddMedia from './Icons/AddMedia';
