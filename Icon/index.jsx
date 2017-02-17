@@ -10,8 +10,6 @@ const Icon = ({
   const classes = classNames(styles, 'icon', {
     large: size === 'large',
     small: size === 'small',
-  });
-  const colors = classNames({
     curiousBlue: color === 'curious-blue',
     curiousBlueLight: color === 'curious-blue-light',
     curiousBlueUltraLight: color === 'curious-blue-ultra-light',
@@ -46,11 +44,7 @@ const Icon = ({
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-        <g className={colors}>
-          {children}
-        </g>
-      </g>
+      {children}
     </svg>
   );
 };
