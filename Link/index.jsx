@@ -19,7 +19,7 @@ const Link = ({
 }
 
 Link.propTypes = {
-  children: PropTypes.string,
+  children: PropTypes.node,
   href: PropTypes.string,
   unstyled: PropTypes.bool,
 };
