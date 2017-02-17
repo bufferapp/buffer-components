@@ -646,6 +646,22 @@ exports[`Snapshots Link Default 1`] = `
 </div>
 `;
 
+exports[`Snapshots Link unstyled 1`] = `
+<div>
+  <a
+    className="link unstyled"
+    href="https://twitter.com">
+    Twitter
+  </a>
+  <br />
+  <a
+    className="link unstyled"
+    href="https://buffer.com">
+    Buffer
+  </a>
+</div>
+`;
+
 exports[`Snapshots LinkifiedText default 1`] = `
 <span
   className="text">
