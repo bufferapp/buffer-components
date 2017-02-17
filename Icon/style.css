@@ -1,5 +1,97 @@
 @import '../variables.css';
 
+.curious-blue {
+  fill: var(--curious-blue);
+}
+
+.curious-blue-light {
+  fill: var(--curious-blue-light);
+}
+
+.curious-blue-ultra-light {
+  fill: var(--curious-blue-ultra-light);
+}
+
+.denim {
+  fill: var(--denim);
+}
+
+.tory-blue {
+  fill: var(--tory-blue);
+}
+
+.appdotnet {
+  fill: var(--appdotnet);
+}
+
+.facebook {
+  fill: var(--facebook);
+}
+
+.googleplus {
+  fill: var(--googleplus);
+}
+
+.linkedin {
+  fill: var(--linkedin);
+}
+
+.pinterest {
+  fill: var(--pinterest);
+}
+
+.twitter {
+  fill: var(--twitter);
+}
+
+.outer-space {
+  fill: var(--outer-space);
+}
+
+.outer-space-light {
+  fill: var(--outer-space-light);
+}
+
+.outer-space-ultra-light {
+  fill: var(--outer-space-ultra-light);
+}
+
+.shuttle-gray {
+  fill: var(--shuttle-gray);
+}
+
+.nevada {
+  fill: var(--nevada);
+}
+
+.geyser {
+  fill: var(--geyser);
+}
+
+.mystic {
+  fill: var(--mystic);
+}
+
+.aqua-haze {
+  fill: var(--aqua-haze);
+}
+
+.white {
+  fill: var(--white);
+}
+
+.shamrock {
+  fill: var(--shamrock);
+}
+
+.saffron {
+  fill: var(--saffron);
+}
+
+.torch-red {
+  fill: var(--torch-red);
+}
+
 .icon {
   width: 1em;
   height: 1em;

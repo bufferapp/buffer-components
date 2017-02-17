@@ -33,3 +33,4 @@ Icon.propTypes = {
 
 export default Icon;
 export AddMediaIcon from './Icons/AddMediaIcon';
+export AnalyticsIcon from './Icons/AnalyticsIcon';
