@@ -16,3 +16,7 @@
 .link:active {
   color: var(--tory-blue);
 }
+
+.unstyled {
+  text-decoration: none;
+}

@@ -9,4 +9,11 @@ storiesOf('Link')
       <br />
       <Link href={'https://buffer.com'}>Buffer</Link>
     </div>
+  ))
+  .add('unstyled', () => (
+    <div>
+      <Link href={'https://twitter.com'} unstyled>Twitter</Link>
+      <br />
+      <Link href={'https://buffer.com'} unstyled>Buffer</Link>
+    </div>
   ));
