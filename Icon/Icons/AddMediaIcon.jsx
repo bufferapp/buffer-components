@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import Icon from '../../Icon';
 
-const AddMedia = ({ size }) =>
+const AddMediaIcon = ({ size }) =>
   <Icon size={size}>
     <g id="buffer-web" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g id="add-media" fill="#000000">
@@ -15,8 +15,8 @@ const AddMedia = ({ size }) =>
     </g>
   </Icon>;
 
-AddMedia.propTypes = {
+AddMediaIcon.propTypes = {
   size: PropTypes.oneOf(['small', 'large']),
 };
 
-export default AddMedia;
+export default AddMediaIcon;

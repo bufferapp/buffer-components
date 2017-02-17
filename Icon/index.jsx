@@ -32,4 +32,4 @@ Icon.propTypes = {
 };
 
 export default Icon;
-export AddMedia from './Icons/AddMedia';
+export AddMediaIcon from './Icons/AddMediaIcon';
