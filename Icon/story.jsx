@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import AddMediaIcon from './Icons/AddMediaIcon';
 import AnalyticsIcon from './Icons/AnalyticsIcon';
+import ArrowDownIcon from './Icons/ArrowDownIcon';
 
 storiesOf('Icon')
   .add('addMedia', () => (
@@ -9,4 +10,7 @@ storiesOf('Icon')
   ))
   .add('analytics', () => (
     <AnalyticsIcon />
+  ))
+  .add('arrowDown', () => (
+    <ArrowDownIcon />
   ));
