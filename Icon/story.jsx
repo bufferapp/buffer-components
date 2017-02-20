@@ -3,6 +3,7 @@ import { storiesOf } from '@kadira/storybook';
 import AddMediaIcon from './Icons/AddMediaIcon';
 import AnalyticsIcon from './Icons/AnalyticsIcon';
 import ArrowDownIcon from './Icons/ArrowDownIcon';
+import ArrowLeftIcon from './Icons/ArrowLeftIcon';
 
 storiesOf('Icon')
   .add('addMedia', () => (
@@ -13,4 +14,7 @@ storiesOf('Icon')
   ))
   .add('arrowDown', () => (
     <ArrowDownIcon />
+  ))
+  .add('arrowLeft', () => (
+    <ArrowLeftIcon />
   ));
