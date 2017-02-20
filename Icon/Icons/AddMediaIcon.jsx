@@ -12,7 +12,7 @@ const AddMediaIcon = ({ color, size }) =>
   </Icon>;
 
 AddMediaIcon.propTypes = {
-  ...Icon.PropTypes,
+  ...Icon.propTypes,
 };
 
 export default AddMediaIcon;

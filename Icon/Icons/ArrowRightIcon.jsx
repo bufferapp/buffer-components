@@ -7,7 +7,7 @@ const ArrowRightIcon = ({ color, size }) =>
   </Icon>;
 
 ArrowRightIcon.propTypes = {
-  ...Icon.PropTypes,
+  ...Icon.propTypes,
 };
 
 export default ArrowRightIcon;

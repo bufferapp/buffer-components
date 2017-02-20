@@ -10,7 +10,7 @@ const AnalyticsIcon = ({ color, size }) =>
   </Icon>;
 
 AnalyticsIcon.propTypes = {
-  ...Icon.PropTypes,
+  ...Icon.propTypes,
 };
 
 export default AnalyticsIcon;

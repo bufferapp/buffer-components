@@ -7,7 +7,7 @@ const ArrowSolidDownIcon = ({ color, size }) =>
   </Icon>;
 
 ArrowSolidDownIcon.propTypes = {
-  ...Icon.PropTypes,
+  ...Icon.propTypes,
 };
 
 export default ArrowSolidDownIcon;
