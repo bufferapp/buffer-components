@@ -5,6 +5,8 @@ import AnalyticsIcon from './Icons/AnalyticsIcon';
 import ArrowDownIcon from './Icons/ArrowDownIcon';
 import ArrowLeftIcon from './Icons/ArrowLeftIcon';
 import ArrowLongDownIcon from './Icons/ArrowLongDownIcon';
+import ArrowLongLeftIcon from './Icons/ArrowLongLeftIcon';
+import ArrowLongRightIcon from './Icons/ArrowLongRightIcon';
 
 storiesOf('Icon')
   .add('addMedia', () => (
@@ -21,4 +23,10 @@ storiesOf('Icon')
   ))
   .add('arrowLongDown', () => (
     <ArrowLongDownIcon />
+  ))
+  .add('arrowLongLeft', () => (
+    <ArrowLongLeftIcon />
+  ))
+  .add('arrowLongRight', () => (
+    <ArrowLongRightIcon />
   ));
