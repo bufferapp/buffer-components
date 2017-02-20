@@ -7,26 +7,34 @@ import ArrowLeftIcon from './Icons/ArrowLeftIcon';
 import ArrowLongDownIcon from './Icons/ArrowLongDownIcon';
 import ArrowLongLeftIcon from './Icons/ArrowLongLeftIcon';
 import ArrowLongRightIcon from './Icons/ArrowLongRightIcon';
+import ArrowLongUpIcon from './Icons/ArrowLongUpIcon';
+import ArrowRightIcon from './Icons/ArrowRightIcon';
 
 storiesOf('Icon')
-  .add('addMedia', () => (
+  .add('addMediaIcon', () => (
     <AddMediaIcon />
   ))
-  .add('analytics', () => (
+  .add('analyticsIcon', () => (
     <AnalyticsIcon />
   ))
-  .add('arrowDown', () => (
+  .add('arrowDownIcon', () => (
     <ArrowDownIcon />
   ))
-  .add('arrowLeft', () => (
+  .add('arrowLeftIcon', () => (
     <ArrowLeftIcon />
   ))
-  .add('arrowLongDown', () => (
+  .add('arrowLongDownIcon', () => (
     <ArrowLongDownIcon />
   ))
-  .add('arrowLongLeft', () => (
+  .add('arrowLongLeftIcon', () => (
     <ArrowLongLeftIcon />
   ))
-  .add('arrowLongRight', () => (
+  .add('arrowLongRightIcon', () => (
     <ArrowLongRightIcon />
+  ))
+  .add('arrowLongUpIcon', () => (
+    <ArrowLongUpIcon />
+  ))
+  .add('arrowRightIcon', () => (
+    <ArrowRightIcon />
   ));
