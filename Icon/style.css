@@ -1,14 +1,14 @@
 @import '../variables.css';
 
-.curious-blue {
+.curiousBlue {
   fill: var(--curious-blue);
 }
 
-.curious-blue-light {
+.curiousBlueLight {
   fill: var(--curious-blue-light);
 }
 
-.curious-blue-ultra-light {
+.curiousBlueUltraLight {
   fill: var(--curious-blue-ultra-light);
 }
 
@@ -16,7 +16,7 @@
   fill: var(--denim);
 }
 
-.tory-blue {
+.toryBlue {
   fill: var(--tory-blue);
 }
 
@@ -44,19 +44,19 @@
   fill: var(--twitter);
 }
 
-.outer-space {
+.outerSpace {
   fill: var(--outer-space);
 }
 
-.outer-space-light {
+.outerSpaceLight {
   fill: var(--outer-space-light);
 }
 
-.outer-space-ultra-light {
+.outerSpaceUltraLight {
   fill: var(--outer-space-ultra-light);
 }
 
-.shuttle-gray {
+.shuttleGray {
   fill: var(--shuttle-gray);
 }
 
@@ -72,7 +72,7 @@
   fill: var(--mystic);
 }
 
-.aqua-haze {
+.aquaHaze {
   fill: var(--aqua-haze);
 }
 
@@ -88,7 +88,7 @@
   fill: var(--saffron);
 }
 
-.torch-red {
+.torchRed {
   fill: var(--torch-red);
 }
 

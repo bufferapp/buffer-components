@@ -10,29 +10,29 @@ const Icon = ({
   const classes = classNames(styles, 'icon', {
     large: size === 'large',
     small: size === 'small',
-    curiousBlue: color === 'curious-blue',
-    curiousBlueLight: color === 'curious-blue-light',
-    curiousBlueUltraLight: color === 'curious-blue-ultra-light',
+    curiousBlue: color === 'curiousBlue',
+    curiousBlueLight: color === 'curiousBlueLight',
+    curiousBlueUltraLight: color === 'curiousBlueUltraLight',
     denim: color === 'denim',
-    toryBlue: color === 'tory-blue',
+    toryBlue: color === 'toryBlue',
     appdotnet: color === 'appdotnet',
     facebook: color === 'facebook',
     googleplus: color === 'googleplus',
     linkedin: color === 'linkedin',
     pinterest: color === 'pinterest',
     twitter: color === 'twitter',
-    outerSpace: color === 'outer-space',
-    outerSpaceLight: color === 'outer-space-light',
-    outerSpaceUltraLight: color === 'outer-space-ultra-light',
-    shuttleGray: color === 'shuttle-gray',
+    outerSpace: color === 'outerSpace',
+    outerSpaceLight: color === 'outerSpaceLight',
+    outerSpaceUltraLight: color === 'outerSpaceUltraLight',
+    shuttleGray: color === 'shuttleGray',
     nevada: color === 'nevada',
     geyser: color === 'geyser',
     mystic: color === 'mystic',
-    aquaHaze: color === 'aqua-haze',
+    aquaHaze: color === 'aquaHaze',
     white: color === 'white',
     shamrock: color === 'shamrock',
     saffron: color === 'saffron',
-    torchRed: color === 'torch-red',
+    torchRed: color === 'torchRed',
   });
   return (
     <svg
@@ -44,37 +44,43 @@ const Icon = ({
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      {children}
+      <g className={color}>
+        {children}
+      </g>
     </svg>
   );
+};
+
+Icon.defaultProps = {
+  color: 'outerSpace',
 };
 
 Icon.propTypes = {
   children: PropTypes.node,
   color: PropTypes.oneOf([
-    'curious-blue',
-    'curious-blue-light',
-    'curious-blue-ultra-light',
+    'curiousBlue',
+    'curiousBlueLight',
+    'curiousBlueUltraLight',
     'denim',
-    'tory-blue',
+    'toryBlue',
     'appdotnet',
     'facebook',
     'googleplus',
     'linkedin',
     'pinterest',
     'twitter',
-    'outer-space',
-    'outer-space-light',
-    'outer-space-ultra-light',
-    'shuttle-gray',
+    'outerSpace',
+    'outerSpaceLight',
+    'outerSpaceUltraLight',
+    'shuttleGray',
     'nevada',
     'geyser',
     'mystic',
-    'aqua-haze',
+    'aquaHaze',
     'white',
     'shamrock',
     'saffron',
-    'torch-red',
+    'torchRed',
   ]),
   size: PropTypes.oneOf(['small', 'large']),
 };

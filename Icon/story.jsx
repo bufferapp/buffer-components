@@ -5,7 +5,7 @@ import AnalyticsIcon from './Icons/AnalyticsIcon';
 
 storiesOf('Icon')
   .add('addMedia', () => (
-    <AddMediaIcon color={'curious-blue'} size={'large'} />
+    <AddMediaIcon size={'large'} />
   ))
   .add('analytics', () => (
     <AnalyticsIcon />
