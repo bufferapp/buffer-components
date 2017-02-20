@@ -14,6 +14,7 @@ import ArrowSolidLeftIcon from './Icons/ArrowSolidLeftIcon';
 import ArrowSolidRightIcon from './Icons/ArrowSolidRightIcon';
 import ArrowSolidUpIcon from './Icons/ArrowSolidUpIcon';
 import ArrowUpIcon from './Icons/ArrowUpIcon';
+import AwesomeIcon from './Icons/AwesomeIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -57,4 +58,7 @@ storiesOf('Icon')
   ))
   .add('arrowUpIcon', () => (
     <ArrowUpIcon />
+  ))
+  .add('awesomeIcon', () => (
+    <AwesomeIcon />
   ));
