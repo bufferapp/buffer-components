@@ -12,6 +12,7 @@ import ArrowRightIcon from './Icons/ArrowRightIcon';
 import ArrowSolidDownIcon from './Icons/ArrowSolidDownIcon';
 import ArrowSolidLeftIcon from './Icons/ArrowSolidLeftIcon';
 import ArrowSolidRightIcon from './Icons/ArrowSolidRightIcon';
+import ArrowSolidUpIcon from './Icons/ArrowSolidUpIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -49,4 +50,7 @@ storiesOf('Icon')
   ))
   .add('arrowSolidRightIcon', () => (
     <ArrowSolidRightIcon />
+  ))
+  .add('arrowSolidUpIcon', () => (
+    <ArrowSolidUpIcon />
   ));
