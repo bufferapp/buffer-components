@@ -13,10 +13,12 @@ const Image = ({ src,
   minWidth,
   border,
   objectFit,
+  verticalAlignBottom,
 }) => {
   const classes = classNames(styles, undefined, {
     circle: border === 'circle',
     rounded: border === 'rounded',
+    verticalAlignBottom,
   });
 
   const inlineStyle = {
@@ -71,6 +73,7 @@ Image.propTypes = {
     'scale-down',
   ]),
   src: PropTypes.string.isRequired,
+  verticalAlignBottom: PropTypes.bool,
   width: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
