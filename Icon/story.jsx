@@ -15,6 +15,12 @@ import ArrowSolidRightIcon from './Icons/ArrowSolidRightIcon';
 import ArrowSolidUpIcon from './Icons/ArrowSolidUpIcon';
 import ArrowUpIcon from './Icons/ArrowUpIcon';
 import AwesomeIcon from './Icons/AwesomeIcon';
+import BufferBottomIcon from './Icons/BufferBottomIcon';
+import BufferMiddleIcon from './Icons/BufferMiddleIcon';
+import BufferTopIcon from './Icons/BufferTopIcon';
+import BufferIcon from './Icons/BufferIcon';
+import CalendarIcon from './Icons/CalendarIcon';
+import CheckmarkIcon from './Icons/CheckmarkIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -61,4 +67,25 @@ storiesOf('Icon')
   ))
   .add('awesomeIcon', () => (
     <AwesomeIcon />
+  ))
+  .add('bufferBottomIcon', () => (
+    <BufferBottomIcon />
+  ))
+  .add('bufferMiddleIcon', () => (
+    <BufferMiddleIcon />
+  ))
+  .add('bufferTopIcon', () => (
+    <BufferTopIcon />
+  ))
+  .add('bufferIcon', () => (
+    <BufferIcon />
+  ))
+  .add('calendarIcon', () => (
+    <CalendarIcon />
+  ))
+  .add('checkmarkIcon', () => (
+    <CheckmarkIcon />
+  ))
+  .add('checkmarkIcon', () => (
+    <CheckmarkIcon />
   ));
