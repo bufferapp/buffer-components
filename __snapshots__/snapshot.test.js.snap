@@ -612,6 +612,24 @@ exports[`Snapshots Image tall image 1`] = `
   } />
 `;
 
+exports[`Snapshots Image verticalAlignBottom 1`] = `
+<img
+  alt="Image"
+  className="verticalAlignBottom"
+  src="http://lorempixel.com/400/400/cats/"
+  style={
+    Object {
+      "height": undefined,
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
+      "objectFit": undefined,
+      "width": undefined,
+    }
+  } />
+`;
+
 exports[`Snapshots Image wide image 1`] = `
 <img
   alt="Image"
