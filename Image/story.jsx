@@ -6,6 +6,12 @@ storiesOf('Image')
   .add('Default', () => (
     <Image src={'http://lorempixel.com/400/400/cats/'} />
   ))
+  .add('verticalAlignBottom', () => (
+    <Image
+      src={'http://lorempixel.com/400/400/cats/'}
+      verticalAlignBottom
+    />
+  ))
   .add('W=100%', () => (
     <Image
       src={'http://lorempixel.com/400/400/cats/'}

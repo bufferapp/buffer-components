@@ -7,3 +7,7 @@
 .rounded {
   border-radius: var(--border-radius);
 }
+
+.verticalAlignBottom {
+  vertical-align: bottom;
+}
