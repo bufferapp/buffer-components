@@ -21,6 +21,23 @@ import BufferTopIcon from './Icons/BufferTopIcon';
 import BufferIcon from './Icons/BufferIcon';
 import CalendarIcon from './Icons/CalendarIcon';
 import CheckmarkIcon from './Icons/CheckmarkIcon';
+import CircleAppdotnetIcon from './Icons/CircleAppdotnetIcon';
+import CircleCheckmarkIcon from './Icons/CircleCheckmarkIcon';
+import CircleFacebookIcon from './Icons/CircleFacebookIcon';
+import CircleGooglePlusIcon from './Icons/CircleGooglePlusIcon';
+import CircleInstagramIcon from './Icons/CircleInstagramIcon';
+import CircleLinkedInIcon from './Icons/CircleLinkedInIcon';
+import CircleMinusIcon from './Icons/CircleMinusIcon';
+import CirclePinterestIcon from './Icons/CirclePinterestIcon';
+import CirclePlayIcon from './Icons/CirclePlayIcon';
+import CirclePlusIcon from './Icons/CirclePlusIcon';
+import CircleTwitterIcon from './Icons/CircleTwitterIcon';
+import CircleXIcon from './Icons/CircleXIcon';
+import ClickIcon from './Icons/ClickIcon';
+import ClockIcon from './Icons/ClockIcon';
+import CommentIcon from './Icons/CommentIcon';
+import ContentLibraryIcon from './Icons/ContentLibraryIcon';
+import ContentIcon from './Icons/ContentIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -88,4 +105,55 @@ storiesOf('Icon')
   ))
   .add('checkmarkIcon', () => (
     <CheckmarkIcon />
+  ))
+  .add('circleAppdotnetIcon', () => (
+    <CircleAppdotnetIcon />
+  ))
+  .add('circleCheckmarkIcon', () => (
+    <CircleCheckmarkIcon />
+  ))
+  .add('circleFacebookIcon', () => (
+    <CircleFacebookIcon />
+  ))
+  .add('circleGooglePlusIcon', () => (
+    <CircleGooglePlusIcon />
+  ))
+  .add('circleInstagramIcon', () => (
+    <CircleInstagramIcon />
+  ))
+  .add('circleLinkedInIcon', () => (
+    <CircleLinkedInIcon />
+  ))
+  .add('circleMinusIcon', () => (
+    <CircleMinusIcon />
+  ))
+  .add('circlePinterestIcon', () => (
+    <CirclePinterestIcon />
+  ))
+  .add('circlePlayIcon', () => (
+    <CirclePlayIcon />
+  ))
+  .add('circlePlusIcon', () => (
+    <CirclePlusIcon />
+  ))
+  .add('circleTwitterIcon', () => (
+    <CircleTwitterIcon />
+  ))
+  .add('circleXIcon', () => (
+    <CircleXIcon />
+  ))
+  .add('clickIcon', () => (
+    <ClickIcon />
+  ))
+  .add('clockIcon', () => (
+    <ClockIcon />
+  ))
+  .add('commentIcon', () => (
+    <CommentIcon />
+  ))
+  .add('contentLibraryIcon', () => (
+    <ContentLibraryIcon />
+  ))
+  .add('contentIcon', () => (
+    <ContentIcon />
   ));
