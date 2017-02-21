@@ -35,10 +35,44 @@ import CircleTwitterIcon from './Icons/CircleTwitterIcon';
 import CircleXIcon from './Icons/CircleXIcon';
 import ClickIcon from './Icons/ClickIcon';
 import ClockIcon from './Icons/ClockIcon';
+import CloseIcon from './Icons/CloseIcon';
 import CommentIcon from './Icons/CommentIcon';
 import ContentLibraryIcon from './Icons/ContentLibraryIcon';
 import ContentIcon from './Icons/ContentIcon';
 import DragIcon from './Icons/DragIcon';
+import EditIcon from './Icons/EditIcon';
+import ExclamationIcon from './Icons/ExclamationIcon';
+import ExportIcon from './Icons/ExportIcon';
+import FacebookIcon from './Icons/FacebookIcon';
+import GifIcon from './Icons/GifIcon';
+import GoogleIcon from './Icons/GoogleIcon';
+import ImageIcon from './Icons/ImageIcon';
+import InstagramIcon from './Icons/InstagramIcon';
+import LikeIcon from './Icons/LikeIcon';
+import LinkIcon from './Icons/LinkIcon';
+import LinkedInIcon from './Icons/LinkedInIcon';
+import LockIcon from './Icons/LockIcon';
+import MoreIcon from './Icons/MoreIcon';
+import PabloIcon from './Icons/PabloIcon';
+import PersonIcon from './Icons/PersonIcon';
+import PersonsIcon from './Icons/PersonsIcon';
+import PinterestIcon from './Icons/PinterestIcon';
+import PlusIcon from './Icons/PlusIcon';
+import PricingIcon from './Icons/PricingIcon';
+import ProfileGroupIcon from './Icons/ProfileGroupIcon';
+import QuestionIcon from './Icons/QuestionIcon';
+import QueueIcon from './Icons/QueueIcon';
+import RefreshIcon from './Icons/RefreshIcon';
+import RespondIcon from './Icons/RespondIcon';
+import RetweetIcon from './Icons/RetweetIcon';
+import SearchIcon from './Icons/SearchIcon';
+import SettingsIcon from './Icons/SettingsIcon';
+import ShuffleIcon from './Icons/ShuffleIcon';
+import SupportIcon from './Icons/SupportIcon';
+import TwitterIcon from './Icons/TwitterIcon';
+import VideoIcon from './Icons/VideoIcon';
+import ViewIcon from './Icons/ViewIcon';
+import WarningIcon from './Icons/WarningIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -149,6 +183,9 @@ storiesOf('Icon')
   .add('clockIcon', () => (
     <ClockIcon />
   ))
+  .add('closeIcon', () => (
+    <CloseIcon />
+  ))
   .add('commentIcon', () => (
     <CommentIcon />
   ))
@@ -160,4 +197,103 @@ storiesOf('Icon')
   ))
   .add('dragIcon', () => (
     <DragIcon />
+  ))
+  .add('editIcon', () => (
+    <EditIcon />
+  ))
+  .add('exclamationIcon', () => (
+    <ExclamationIcon />
+  ))
+  .add('exportIcon', () => (
+    <ExportIcon />
+  ))
+  .add('facebookIcon', () => (
+    <FacebookIcon />
+  ))
+  .add('gifIcon', () => (
+    <GifIcon />
+  ))
+  .add('googleIcon', () => (
+    <GoogleIcon />
+  ))
+  .add('imageIcon', () => (
+    <ImageIcon />
+  ))
+  .add('instagramIcon', () => (
+    <InstagramIcon />
+  ))
+  .add('likeIcon', () => (
+    <LikeIcon />
+  ))
+  .add('linkIcon', () => (
+    <LinkIcon />
+  ))
+  .add('linkedInIcon', () => (
+    <LinkedInIcon />
+  ))
+  .add('lockIcon', () => (
+    <LockIcon />
+  ))
+  .add('moreIcon', () => (
+    <MoreIcon />
+  ))
+  .add('pabloIcon', () => (
+    <PabloIcon />
+  ))
+  .add('personIcon', () => (
+    <PersonIcon />
+  ))
+  .add('personsIcon', () => (
+    <PersonsIcon />
+  ))
+  .add('pinterestIcon', () => (
+    <PinterestIcon />
+  ))
+  .add('plusIcon', () => (
+    <PlusIcon />
+  ))
+  .add('pricingIcon', () => (
+    <PricingIcon />
+  ))
+  .add('profileGroupIcon', () => (
+    <ProfileGroupIcon />
+  ))
+  .add('questionIcon', () => (
+    <QuestionIcon />
+  ))
+  .add('queueIcon', () => (
+    <QueueIcon />
+  ))
+  .add('refreshIcon', () => (
+    <RefreshIcon />
+  ))
+  .add('respondIcon', () => (
+    <RespondIcon />
+  ))
+  .add('retweetIcon', () => (
+    <RetweetIcon />
+  ))
+  .add('searchIcon', () => (
+    <SearchIcon />
+  ))
+  .add('settingsIcon', () => (
+    <SettingsIcon />
+  ))
+  .add('shuffleIcon', () => (
+    <ShuffleIcon />
+  ))
+  .add('supportIcon', () => (
+    <SupportIcon />
+  ))
+  .add('twitterIcon', () => (
+    <TwitterIcon />
+  ))
+  .add('videoIcon', () => (
+    <VideoIcon />
+  ))
+  .add('viewIcon', () => (
+    <ViewIcon />
+  ))
+  .add('warningIcon', () => (
+    <WarningIcon />
   ));
