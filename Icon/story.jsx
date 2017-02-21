@@ -38,6 +38,7 @@ import ClockIcon from './Icons/ClockIcon';
 import CommentIcon from './Icons/CommentIcon';
 import ContentLibraryIcon from './Icons/ContentLibraryIcon';
 import ContentIcon from './Icons/ContentIcon';
+import DragIcon from './Icons/DragIcon';
 
 storiesOf('Icon')
   .add('addMediaIcon', () => (
@@ -156,4 +157,7 @@ storiesOf('Icon')
   ))
   .add('contentIcon', () => (
     <ContentIcon />
+  ))
+  .add('dragIcon', () => (
+    <DragIcon />
   ));
