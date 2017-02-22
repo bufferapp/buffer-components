@@ -1,8 +1,12 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf, action } from '@kadira/storybook';
 import Overlay from './index';
+import Image from '../Image';
 
 storiesOf('Overlay')
   .add('default', () => (
-    <Overlay />
+    <div style={{ textAlign: 'center' }}>
+      <Image src={'http://lorempixel.com/400/400/cats/'} />
+      <Overlay onClick={action('overlay-click')} />
+    </div>
   ));

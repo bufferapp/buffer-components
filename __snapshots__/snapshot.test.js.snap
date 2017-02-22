@@ -2341,8 +2341,30 @@ exports[`Snapshots NavBar Subtitle 1`] = `
 
 exports[`Snapshots Overlay default 1`] = `
 <div
-  className="overlay"
-  onClick={undefined} />
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }>
+  <img
+    alt="Image"
+    className=""
+    src="http://lorempixel.com/400/400/cats/"
+    style={
+      Object {
+        "height": undefined,
+        "maxHeight": undefined,
+        "maxWidth": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "objectFit": undefined,
+        "width": undefined,
+      }
+    } />
+  <div
+    className="overlay"
+    onClick={[Function]} />
+</div>
 `;
 
 exports[`Snapshots Text Bold 1`] = `
