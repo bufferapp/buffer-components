@@ -52,7 +52,7 @@ const Icon = ({
 };
 
 Icon.defaultProps = {
-  color: 'outerSpace',
+  color: 'shuttleGray',
 };
 
 Icon.propTypes = {

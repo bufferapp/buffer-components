@@ -34,3 +34,11 @@
 .gray {
   color: var(--outer-space-light);
 }
+
+.torchRed {
+  color: var(--torch-red);
+}
+
+.black {
+  color: var(--black);
+}

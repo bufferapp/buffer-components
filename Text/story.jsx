@@ -28,5 +28,10 @@ storiesOf('Text')
   ))
   .add('Gray', () => (
     <Text color={'gray'}>{text}</Text>
+  ))
+  .add('torchRed', () => (
+    <Text color={'torchRed'}>{text}</Text>
+  ))
+  .add('black', () => (
+    <Text color={'black'}>{text}</Text>
   ));
-

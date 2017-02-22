@@ -2,6 +2,7 @@
 export Button from './Button';
 export Card from './Card';
 export Icon from './Icon';
+export * from './Icon/Icons';
 export Image from './Image';
 export Link from './Link';
 export LinkifiedText from './LinkifiedText';

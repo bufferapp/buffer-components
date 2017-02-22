@@ -378,7 +378,7 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
 
 exports[`Snapshots Icon addMediaIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -386,7 +386,7 @@ exports[`Snapshots Icon addMediaIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       transform="translate(0.000000, 0.500000)">
       <ellipse
@@ -407,7 +407,7 @@ exports[`Snapshots Icon addMediaIcon 1`] = `
 
 exports[`Snapshots Icon analyticsIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -415,7 +415,7 @@ exports[`Snapshots Icon analyticsIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M2,1 L2,14 L15,14 C15.5522847,14 16,14.4477153 16,15 C16,15.5522847 15.5522847,16 15,16 L1,16 C0.44771525,16 0,15.5522847 0,15 L0,1 C0,0.44771525 0.44771525,0 1,0 C1.55228475,0 2,0.44771525 2,1 Z" />
     <path
@@ -430,7 +430,7 @@ exports[`Snapshots Icon analyticsIcon 1`] = `
 
 exports[`Snapshots Icon arrowDownIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -438,7 +438,7 @@ exports[`Snapshots Icon arrowDownIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
       transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) " />
@@ -448,7 +448,7 @@ exports[`Snapshots Icon arrowDownIcon 1`] = `
 
 exports[`Snapshots Icon arrowLeftIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -456,7 +456,7 @@ exports[`Snapshots Icon arrowLeftIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M4.92576783,3.81434559 C4.53597948,3.42533817 4.5351389,2.79705307 4.92999649,2.40496826 L4.92999649,2.40496826 C5.32212026,2.01559807 5.95539281,2.01782576 6.34493101,2.41042843 L11.2950684,7.3995081 C11.6843914,7.79189385 11.6846066,8.4258744 11.2950684,8.81602474 L6.34493101,13.7739411 C5.95560803,14.1638759 5.32485408,14.1648267 4.92999649,13.7699585 L4.92999649,13.7699585 C4.53787272,13.3778242 4.53276646,12.7496688 4.93637278,12.3492951 L8.860413,8.45668374 C9.05900809,8.25967927 9.06487811,7.94516326 8.860413,7.74110779 L4.92576783,3.81434559 Z"
       transform="translate(8.109997, 8.089966) scale(-1, 1) translate(-8.109997, -8.089966) " />
@@ -466,7 +466,7 @@ exports[`Snapshots Icon arrowLeftIcon 1`] = `
 
 exports[`Snapshots Icon arrowLongDownIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -474,7 +474,7 @@ exports[`Snapshots Icon arrowLongDownIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M9.14049638,4.2860102 L12.0353395,6.89310549 C12.4537988,7.26996987 13.0967448,7.23809282 13.4772842,6.81536904 C13.855189,6.39557201 13.8172589,5.74519856 13.4038537,5.37288597 L8.83967284,1.26238536 C8.63426816,1.07739793 8.37477499,0.990893877 8.11877778,1.0007568 C7.86278056,0.990893877 7.60328739,1.07739793 7.3978827,1.26238536 L2.83370181,5.37288597 C2.42029668,5.74519856 2.38236657,6.39557201 2.76027134,6.81536904 C3.14081078,7.23809282 3.78375672,7.26996987 4.20221602,6.89310549 L7.09528397,4.28760894 L7.09528397,13.9628717 C7.09528397,14.5341657 7.55312036,14.9879169 8.11789018,14.9879169 C8.68659746,14.9879169 9.14049638,14.5289885 9.14049638,13.9628717 L9.14049638,4.2860102 Z"
       transform="translate(8.118778, 7.993958) scale(1, -1) translate(-8.118778, -7.993958) " />
@@ -484,7 +484,7 @@ exports[`Snapshots Icon arrowLongDownIcon 1`] = `
 
 exports[`Snapshots Icon arrowLongLeftIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -492,7 +492,7 @@ exports[`Snapshots Icon arrowLongLeftIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M9.14049638,4.2860102 L12.0353395,6.89310549 C12.4537988,7.26996987 13.0967448,7.23809282 13.4772842,6.81536904 C13.855189,6.39557201 13.8172589,5.74519856 13.4038537,5.37288597 L8.83967284,1.26238536 C8.63426816,1.07739793 8.37477499,0.990893877 8.11877778,1.0007568 C7.86278056,0.990893877 7.60328739,1.07739793 7.3978827,1.26238536 L2.83370181,5.37288597 C2.42029668,5.74519856 2.38236657,6.39557201 2.76027134,6.81536904 C3.14081078,7.23809282 3.78375672,7.26996987 4.20221602,6.89310549 L7.09528397,4.28760894 L7.09528397,13.9628717 C7.09528397,14.5341657 7.55312036,14.9879169 8.11789018,14.9879169 C8.68659746,14.9879169 9.14049638,14.5289885 9.14049638,13.9628717 L9.14049638,4.2860102 Z"
       transform="translate(8.118778, 7.993958) scale(-1, -1) rotate(90.000000) translate(-8.118778, -7.993958) " />
@@ -502,7 +502,7 @@ exports[`Snapshots Icon arrowLongLeftIcon 1`] = `
 
 exports[`Snapshots Icon arrowLongRightIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -510,7 +510,7 @@ exports[`Snapshots Icon arrowLongRightIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M9.14049638,4.2860102 L12.0353395,6.89310549 C12.4537988,7.26996987 13.0967448,7.23809282 13.4772842,6.81536904 C13.855189,6.39557201 13.8172589,5.74519856 13.4038537,5.37288597 L8.83967284,1.26238536 C8.63426816,1.07739793 8.37477499,0.990893877 8.11877778,1.0007568 C7.86278056,0.990893877 7.60328739,1.07739793 7.3978827,1.26238536 L2.83370181,5.37288597 C2.42029668,5.74519856 2.38236657,6.39557201 2.76027134,6.81536904 C3.14081078,7.23809282 3.78375672,7.26996987 4.20221602,6.89310549 L7.09528397,4.28760894 L7.09528397,13.9628717 C7.09528397,14.5341657 7.55312036,14.9879169 8.11789018,14.9879169 C8.68659746,14.9879169 9.14049638,14.5289885 9.14049638,13.9628717 L9.14049638,4.2860102 Z"
       transform="translate(8.118778, 7.993958) scale(1, -1) rotate(90.000000) translate(-8.118778, -7.993958) " />
@@ -520,7 +520,7 @@ exports[`Snapshots Icon arrowLongRightIcon 1`] = `
 
 exports[`Snapshots Icon arrowLongUpIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -528,7 +528,7 @@ exports[`Snapshots Icon arrowLongUpIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M9.14049638,4.2860102 L12.0353395,6.89310549 C12.4537988,7.26996987 13.0967448,7.23809282 13.4772842,6.81536904 C13.855189,6.39557201 13.8172589,5.74519856 13.4038537,5.37288597 L8.83967284,1.26238536 C8.63426816,1.07739793 8.37477499,0.990893877 8.11877778,1.0007568 C7.86278056,0.990893877 7.60328739,1.07739793 7.3978827,1.26238536 L2.83370181,5.37288597 C2.42029668,5.74519856 2.38236657,6.39557201 2.76027134,6.81536904 C3.14081078,7.23809282 3.78375672,7.26996987 4.20221602,6.89310549 L7.09528397,4.28760894 L7.09528397,13.9628717 C7.09528397,14.5341657 7.55312036,14.9879169 8.11789018,14.9879169 C8.68659746,14.9879169 9.14049638,14.5289885 9.14049638,13.9628717 L9.14049638,4.2860102 Z" />
   </g>
@@ -537,7 +537,7 @@ exports[`Snapshots Icon arrowLongUpIcon 1`] = `
 
 exports[`Snapshots Icon arrowRightIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -545,7 +545,7 @@ exports[`Snapshots Icon arrowRightIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M4.70577424,3.81434559 C4.31598589,3.42533817 4.31514531,2.79705307 4.7100029,2.40496826 L4.7100029,2.40496826 C5.10212667,2.01559807 5.73539922,2.01782576 6.12493742,2.41042843 L11.0750748,7.3995081 C11.4643978,7.79189385 11.464613,8.4258744 11.0750748,8.81602474 L6.12493742,13.7739411 C5.73561443,14.1638759 5.10486049,14.1648267 4.7100029,13.7699585 L4.7100029,13.7699585 C4.31787913,13.3778242 4.31277287,12.7496688 4.71637919,12.3492951 L8.64041941,8.45668374 C8.8390145,8.25967927 8.84488452,7.94516326 8.64041941,7.74110779 L4.70577424,3.81434559 Z" />
   </g>
@@ -554,7 +554,7 @@ exports[`Snapshots Icon arrowRightIcon 1`] = `
 
 exports[`Snapshots Icon arrowSolidDownIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -562,7 +562,7 @@ exports[`Snapshots Icon arrowSolidDownIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <polygon
       points="0 0 16 0 8 8" />
   </g>
@@ -571,7 +571,7 @@ exports[`Snapshots Icon arrowSolidDownIcon 1`] = `
 
 exports[`Snapshots Icon arrowSolidLeftIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -579,7 +579,7 @@ exports[`Snapshots Icon arrowSolidLeftIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <polygon
       points="16 0 16 16 8 8" />
   </g>
@@ -588,7 +588,7 @@ exports[`Snapshots Icon arrowSolidLeftIcon 1`] = `
 
 exports[`Snapshots Icon arrowSolidRightIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -596,7 +596,7 @@ exports[`Snapshots Icon arrowSolidRightIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <polygon
       points="0 0 0 16 8 8" />
   </g>
@@ -605,7 +605,7 @@ exports[`Snapshots Icon arrowSolidRightIcon 1`] = `
 
 exports[`Snapshots Icon arrowSolidUpIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -613,7 +613,7 @@ exports[`Snapshots Icon arrowSolidUpIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <polygon
       points="0 16 16 16 8 8" />
   </g>
@@ -622,7 +622,7 @@ exports[`Snapshots Icon arrowSolidUpIcon 1`] = `
 
 exports[`Snapshots Icon arrowUpIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -630,7 +630,7 @@ exports[`Snapshots Icon arrowUpIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M4.90573685,3.83437656 C4.5159485,3.44536915 4.51510793,2.81708404 4.90996552,2.42499924 L4.90996552,2.42499924 C5.30208929,2.03562905 5.93536183,2.03785674 6.32490003,2.4304594 L11.2750374,7.41953907 C11.6643604,7.81192483 11.6645756,8.44590538 11.2750374,8.83605572 L6.32490003,13.7939721 C5.93557705,14.1839068 5.3048231,14.1848577 4.90996552,13.7899895 L4.90996552,13.7899895 C4.51784174,13.3978552 4.51273549,12.7696997 4.9163418,12.369326 L8.84038203,8.47671472 C9.03897712,8.27971024 9.04484713,7.96519423 8.84038203,7.76113877 L4.90573685,3.83437656 Z"
       transform="translate(8.089966, 8.109997) scale(-1, -1) rotate(-270.000000) translate(-8.089966, -8.109997) " />
@@ -640,7 +640,7 @@ exports[`Snapshots Icon arrowUpIcon 1`] = `
 
 exports[`Snapshots Icon awesomeIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -648,7 +648,7 @@ exports[`Snapshots Icon awesomeIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8.00003076,12.8453201 L4.8023779,14.5264257 C3.82877852,15.0382772 3.19173216,14.5657514 3.37619612,13.490244 L3.98689347,9.92960521 L1.39993797,7.40794682 C0.612279521,6.64016959 0.864820138,5.88828399 1.94469094,5.73136958 L5.51977551,5.21187939 L7.11860194,1.97230321 C7.60540163,0.985939291 8.39852667,0.993774264 8.88145957,1.97230321 L10.480286,5.21187939 L14.0553706,5.73136958 C15.1438878,5.88954039 15.3815254,6.64626827 14.6001235,7.40794682 L12.013168,9.92960521 L12.6238654,13.490244 C12.8098063,14.5743628 12.1635494,15.0342114 11.1976836,14.5264257 L8.00003076,12.8453201 Z" />
   </g>
@@ -657,7 +657,7 @@ exports[`Snapshots Icon awesomeIcon 1`] = `
 
 exports[`Snapshots Icon bufferBottomIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -665,7 +665,7 @@ exports[`Snapshots Icon bufferBottomIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14.8975838,11.6596673 L13.3049713,10.9257049 C13.1684163,10.8627595 12.9449081,10.8627595 12.8082985,10.9257049 L8.24833642,13.0271856 C8.11178147,13.090131 7.88821853,13.090131 7.75166358,13.0271856 L3.19170155,10.9257049 C3.0550919,10.8627595 2.83158366,10.8627595 2.6950287,10.9257049 L1.10241622,11.6596673 C0.965861261,11.7226127 0.965861261,11.8255895 1.10241622,11.8885349 L7.75166358,14.9528456 C7.88821853,15.015791 8.11178147,15.015791 8.24833642,14.9528456 L14.8975838,11.8885349 C15.0341387,11.8255895 15.0341387,11.7226127 14.8975838,11.6596673" />
   </g>
@@ -674,7 +674,7 @@ exports[`Snapshots Icon bufferBottomIcon 1`] = `
 
 exports[`Snapshots Icon bufferIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -682,7 +682,7 @@ exports[`Snapshots Icon bufferIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14.8975838,11.6596673 C15.0341387,11.7226127 15.0341387,11.8255895 14.8975838,11.8885349 L8.24833642,14.9528456 C8.11178147,15.015791 7.88821853,15.015791 7.75166358,14.9528456 L1.10241622,11.8885349 C0.965861261,11.8255895 0.965861261,11.7226127 1.10241622,11.6596673 L2.6950287,10.9257049 C2.83158366,10.8627595 3.0550919,10.8627595 3.19170155,10.9257049 L7.75166358,13.0271856 C7.88821853,13.090131 8.11178147,13.090131 8.24833642,13.0271856 L12.8082985,10.9257049 C12.9449081,10.8627595 13.1684163,10.8627595 13.3049713,10.9257049 L14.8975838,11.6596673 Z M14.8975838,7.88556618 C15.0341387,7.94851162 15.0341387,8.05154307 14.8975838,8.1144885 L8.24833642,11.1787445 C8.11178147,11.2416899 7.88821853,11.2416899 7.75166358,11.1787445 L1.10241622,8.1144885 C0.965861261,8.05154307 0.965861261,7.94851162 1.10241622,7.88556618 L2.6950287,7.1516585 C2.83158366,7.08871306 3.0550919,7.08871306 3.19170155,7.1516585 L7.75166358,9.25308448 C7.88821853,9.31602991 8.11178147,9.31602991 8.24833642,9.25308448 L12.8082985,7.1516585 C12.9449081,7.08871306 13.1684163,7.08871306 13.3049713,7.1516585 L14.8975838,7.88556618 Z M1.10241622,4.34038738 C0.965861261,4.27744195 0.965861261,4.17446518 1.10241622,4.11151975 L7.75166358,1.04720908 C7.88821853,0.984263641 8.11178147,0.984263641 8.24833642,1.04720908 L14.8975838,4.11151975 C15.0341387,4.17446518 15.0341387,4.27744195 14.8975838,4.34038738 L8.24833642,7.40469806 C8.11178147,7.46764349 7.88821853,7.46764349 7.75166358,7.40469806 L1.10241622,4.34038738 Z" />
   </g>
@@ -691,7 +691,7 @@ exports[`Snapshots Icon bufferIcon 1`] = `
 
 exports[`Snapshots Icon bufferMiddleIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -699,7 +699,7 @@ exports[`Snapshots Icon bufferMiddleIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14.8975838,7.88556618 L13.3049713,7.1516585 C13.1684163,7.08871306 12.9449081,7.08871306 12.8082985,7.1516585 L8.24833642,9.25308448 C8.11178147,9.31602991 7.88821853,9.31602991 7.75166358,9.25308448 L3.19170155,7.1516585 C3.0550919,7.08871306 2.83158366,7.08871306 2.6950287,7.1516585 L1.10241622,7.88556618 C0.965861261,7.94851162 0.965861261,8.05154307 1.10241622,8.1144885 L7.75166358,11.1787445 C7.88821853,11.2416899 8.11178147,11.2416899 8.24833642,11.1787445 L14.8975838,8.1144885 C15.0341387,8.05154307 15.0341387,7.94851162 14.8975838,7.88556618" />
   </g>
@@ -708,7 +708,7 @@ exports[`Snapshots Icon bufferMiddleIcon 1`] = `
 
 exports[`Snapshots Icon bufferTopIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -716,7 +716,7 @@ exports[`Snapshots Icon bufferTopIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M1.10241622,4.34038738 L7.75166358,7.40469806 C7.88821853,7.46764349 8.11178147,7.46764349 8.24833642,7.40469806 L14.8975838,4.34038738 C15.0341387,4.27744195 15.0341387,4.17446518 14.8975838,4.11151975 L8.24833642,1.04720908 C8.11178147,0.984263641 7.88821853,0.984263641 7.75166358,1.04720908 L1.10241622,4.11151975 C0.965861261,4.17446518 0.965861261,4.27744195 1.10241622,4.34038738" />
   </g>
@@ -725,7 +725,7 @@ exports[`Snapshots Icon bufferTopIcon 1`] = `
 
 exports[`Snapshots Icon calendarIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -733,7 +733,7 @@ exports[`Snapshots Icon calendarIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0,2.99188419 C0,1.89179693 0.894705057,1 2,1 L2,2.49755925 C2,3.05119199 2.44386482,3.5 3,3.5 C3.55228475,3.5 4,3.0530501 4,2.49755925 L4,1 L12,1 L12,2.49755925 C12,3.05119199 12.4438648,3.5 13,3.5 C13.5522847,3.5 14.0018163,3.0471957 14.0035508,2.49689974 C14.0035508,2.49689974 14.0106489,1.17132023 14,1 C14.258891,0.86101765 14.0132088,0.993687199 14.0132088,0.993687199 C15.1104833,0.997173663 16,1.89339733 16,2.99188419 L16,14.0081158 C16,15.1082031 15.1054862,16 14.0059397,16 L1.99406028,16 C0.892771196,16 0,15.1066027 0,14.0081158 L0,2.99188419 Z M2,5.25964642 L2,13.4903342 C2,13.7775269 2.22401312,14 2.50034732,14 L13.4996527,14 C13.7709994,14 14,13.7718148 14,13.4903342 L14,5.25964642 C14,5.11379325 13.887786,5 13.7493629,5 L2.25063705,5 C2.10374069,5 2,5.11624766 2,5.25964642 Z M2.5,0.495388985 C2.5,0.221793203 2.73193359,0 3,0 C3.27614237,0 3.5,0.215752602 3.5,0.495388985 L3.5,2.50461102 C3.5,2.7782068 3.26806641,3 3,3 C2.72385763,3 2.5,2.7842474 2.5,2.50461102 L2.5,0.495388985 Z M12.5,0.495388985 C12.5,0.221793203 12.7319336,0 13,0 C13.2761424,0 13.5,0.215752602 13.5,0.495388985 L13.5,2.50461102 C13.5,2.7782068 13.2680664,3 13,3 C12.7238576,3 12.5,2.7842474 12.5,2.50461102 L12.5,0.495388985 Z M3.5,6.12149811 C3.5,6.05439656 3.55747223,6 3.62722683,6 L12.3727732,6 C12.4430386,6 12.5,6.05615234 12.5,6.12359619 L12.5,10.8764038 C12.5,10.9446641 12.4434547,11 12.3669128,11 L8.5,11 L8.5,13 L3.62359619,13 C3.5553359,13 3.5,12.9394846 3.5,12.8785019 L3.5,6.12149811 Z M4.5,7 L4.5,8 L5.5,8 L5.5,7 L4.5,7 Z M6.5,7 L6.5,8 L7.5,8 L7.5,7 L6.5,7 Z M8.5,7 L8.5,8 L9.5,8 L9.5,7 L8.5,7 Z M10.5,7 L10.5,8 L11.5,8 L11.5,7 L10.5,7 Z M4.5,9 L4.5,10 L5.5,10 L5.5,9 L4.5,9 Z M6.5,9 L6.5,10 L7.5,10 L7.5,9 L6.5,9 Z M8.5,9 L8.5,10 L9.5,10 L9.5,9 L8.5,9 Z M10.5,9 L10.5,10 L11.5,10 L11.5,9 L10.5,9 Z M4.5,11 L4.5,12 L5.5,12 L5.5,11 L4.5,11 Z M6.5,11 L6.5,12 L7.5,12 L7.5,11 L6.5,11 Z" />
   </g>
@@ -742,7 +742,7 @@ exports[`Snapshots Icon calendarIcon 1`] = `
 
 exports[`Snapshots Icon checkmarkIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -750,7 +750,7 @@ exports[`Snapshots Icon checkmarkIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M5,12 C5,11.4477153 5.44335318,11 6.0093689,11 L9,11 L9,2.99754465 C9,2.44661595 9.44386482,2 10,2 L10,2 C10.5522847,2 11,2.44483697 11,2.9955775 L11,12.0044225 C11,12.5542648 10.5490248,13 10.009222,13 L5.99077797,13 C5.44358641,13 5,12.5561352 5,12 L5,12 Z"
       transform="translate(8.000000, 7.500000) rotate(-315.000000) translate(-8.000000, -7.500000) " />
@@ -760,7 +760,7 @@ exports[`Snapshots Icon checkmarkIcon 1`] = `
 
 exports[`Snapshots Icon circleAppdotnetIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -768,7 +768,7 @@ exports[`Snapshots Icon circleAppdotnetIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <circle
       cx="8"
       cy="8"
@@ -782,7 +782,7 @@ exports[`Snapshots Icon circleAppdotnetIcon 1`] = `
 
 exports[`Snapshots Icon circleCheckmarkIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -790,7 +790,7 @@ exports[`Snapshots Icon circleCheckmarkIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,15.976 C3.59497684,15.976 0.024,12.4050232 0.024,8 C0.024,3.59497684 3.59497684,0.024 8,0.024 C12.4050232,0.024 15.976,3.59497684 15.976,8 C15.976,12.4050232 12.4050232,15.976 8,15.976 Z M4.84201948,7.87755339 C4.44877253,8.27080035 4.45446122,8.90420869 4.84864429,9.29839176 L6.24960824,10.6993557 C6.64984179,11.0995893 7.28084969,11.0955774 7.67251796,10.7039092 L11.2039092,7.17251796 C11.6034584,6.7729687 11.5965048,6.14675734 11.2059805,5.75623305 C10.8127336,5.36298609 10.1823522,5.36564781 9.79190308,5.75609692 L6.96333983,8.58466017 L6.25623305,7.87755339 C5.86298609,7.48430644 5.23254378,7.4870291 4.84201948,7.87755339 Z" />
   </g>
@@ -799,7 +799,7 @@ exports[`Snapshots Icon circleCheckmarkIcon 1`] = `
 
 exports[`Snapshots Icon circleFacebookIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -807,7 +807,7 @@ exports[`Snapshots Icon circleFacebookIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -819,7 +819,7 @@ exports[`Snapshots Icon circleFacebookIcon 1`] = `
 
 exports[`Snapshots Icon circleGooglePlusIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -827,7 +827,7 @@ exports[`Snapshots Icon circleGooglePlusIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -839,7 +839,7 @@ exports[`Snapshots Icon circleGooglePlusIcon 1`] = `
 
 exports[`Snapshots Icon circleInstagramIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -847,7 +847,7 @@ exports[`Snapshots Icon circleInstagramIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <circle
       cx="8"
       cy="8"
@@ -871,7 +871,7 @@ exports[`Snapshots Icon circleInstagramIcon 1`] = `
 
 exports[`Snapshots Icon circleLinkedInIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -879,7 +879,7 @@ exports[`Snapshots Icon circleLinkedInIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -891,7 +891,7 @@ exports[`Snapshots Icon circleLinkedInIcon 1`] = `
 
 exports[`Snapshots Icon circleMinusIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -899,7 +899,7 @@ exports[`Snapshots Icon circleMinusIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,16 C12.418278,16 16,12.418278 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,12.418278 3.581722,16 8,16 Z M4,8 C4,7.44771525 4.45303631,7 4.99703014,7 L11.0029699,7 C11.5536144,7 12,7.44386482 12,8 L12,8 C12,8.55228475 11.5469637,9 11.0029699,9 L4.99703014,9 C4.4463856,9 4,8.55613518 4,8 L4,8 Z" />
   </g>
@@ -908,7 +908,7 @@ exports[`Snapshots Icon circleMinusIcon 1`] = `
 
 exports[`Snapshots Icon circlePinterestIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -916,7 +916,7 @@ exports[`Snapshots Icon circlePinterestIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -928,7 +928,7 @@ exports[`Snapshots Icon circlePinterestIcon 1`] = `
 
 exports[`Snapshots Icon circlePlayIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -936,7 +936,7 @@ exports[`Snapshots Icon circlePlayIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -948,7 +948,7 @@ exports[`Snapshots Icon circlePlayIcon 1`] = `
 
 exports[`Snapshots Icon circlePlusIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -956,7 +956,7 @@ exports[`Snapshots Icon circlePlusIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -968,7 +968,7 @@ exports[`Snapshots Icon circlePlusIcon 1`] = `
 
 exports[`Snapshots Icon circleTwitterIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -976,7 +976,7 @@ exports[`Snapshots Icon circleTwitterIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <path
@@ -988,7 +988,7 @@ exports[`Snapshots Icon circleTwitterIcon 1`] = `
 
 exports[`Snapshots Icon circleXIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -996,7 +996,7 @@ exports[`Snapshots Icon circleXIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       fillRule="evenodd">
       <g
@@ -1011,7 +1011,7 @@ exports[`Snapshots Icon circleXIcon 1`] = `
 
 exports[`Snapshots Icon clickIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1019,7 +1019,7 @@ exports[`Snapshots Icon clickIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M5.21779631,11.9494755 C2.27366981,11.5661698 0,9.04860692 0,6 C0,2.6862915 2.6862915,0 6,0 C9.23196141,0 11.8670799,2.5553881 11.9951265,5.75593513 L9.77085735,4.66233163 C9.22052002,3.11100668 7.74000477,2 6,2 C3.790861,2 2,3.790861 2,6 C2,7.80949838 3.20152328,9.33836596 4.85026989,9.83230278 L5.21779631,11.9494755 Z M6.17748666,5.97617662 C6.07946348,5.43704916 6.40439725,5.20219862 6.88743329,5.44371665 L15.1125667,9.55628335 C15.6026826,9.80134129 15.5703705,10.1022927 15.0248191,10.2321859 L10.9892238,11.193042 C10.8571041,11.224499 10.6925623,11.3492105 10.6246923,11.4664406 L8.50439239,15.1287768 C8.22582416,15.6099401 7.91912055,15.555163 7.82251334,15.0238234 L6.17748666,5.97617662 Z" />
   </g>
@@ -1028,7 +1028,7 @@ exports[`Snapshots Icon clickIcon 1`] = `
 
 exports[`Snapshots Icon clockIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1036,7 +1036,7 @@ exports[`Snapshots Icon clockIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z" />
     <rect
@@ -1058,7 +1058,7 @@ exports[`Snapshots Icon clockIcon 1`] = `
 
 exports[`Snapshots Icon closeIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1066,7 +1066,7 @@ exports[`Snapshots Icon closeIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M7,9 L1.00292933,9 C0.449026756,9 -8.8817842e-16,8.55613518 -8.8817842e-16,8 L-8.8817842e-16,8 C-8.8817842e-16,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z"
       transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000)" />
@@ -1076,7 +1076,7 @@ exports[`Snapshots Icon closeIcon 1`] = `
 
 exports[`Snapshots Icon commentIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1084,7 +1084,7 @@ exports[`Snapshots Icon commentIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0,2.0085302 C0,0.899249601 0.894513756,0 1.99406028,0 L14.0059397,0 C15.1072288,0 16,0.901950359 16,2.0085302 L16,9.9914698 C16,11.1007504 15.1132936,12 14.0018986,12 L8,12 L4,16 L4,12 L2,12 C0.8954305,12 0,11.0980496 0,9.9914698 L0,2.0085302 Z" />
   </g>
@@ -1093,7 +1093,7 @@ exports[`Snapshots Icon commentIcon 1`] = `
 
 exports[`Snapshots Icon contentIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1101,7 +1101,7 @@ exports[`Snapshots Icon contentIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0,3.00247329 C0,2.44882258 0.444630861,2 1.00087166,2 L14.9991283,2 C15.5518945,2 16,2.45576096 16,3.00247329 L16,12.9975267 C16,13.5511774 15.5553691,14 14.9991283,14 L1.00087166,14 C0.448105505,14 0,13.544239 0,12.9975267 L0,3.00247329 Z M2,4.50043583 L2,11.4995642 C2,11.7692032 2.22401312,12 2.50034732,12 L13.4996527,12 C13.7709994,12 14,11.7759472 14,11.4995642 L14,4.50043583 C14,4.23079681 13.7759869,4 13.4996527,4 L2.50034732,4 C2.22900057,4 2,4.22405275 2,4.50043583 Z M3,5.74523926 C3,5.60979736 3.11230469,5.5 3.24719238,5.5 L12.7528076,5.5 C12.8893282,5.5 13,5.60752869 13,5.74523926 L13,7.25476074 C13,7.39020264 12.8876953,7.5 12.7528076,7.5 L3.24719238,7.5 C3.1106718,7.5 3,7.39247131 3,7.25476074 L3,5.74523926 Z M3,8.74523926 C3,8.60979736 3.10742188,8.5 3.24884939,8.5 L5.25115061,8.5 C5.38858633,8.5 5.5,8.60752869 5.5,8.74523926 L5.5,10.2547607 C5.5,10.3902026 5.39257812,10.5 5.25115061,10.5 L3.24884939,10.5 C3.11141367,10.5 3,10.3924713 3,10.2547607 L3,8.74523926 Z" />
   </g>
@@ -1110,7 +1110,7 @@ exports[`Snapshots Icon contentIcon 1`] = `
 
 exports[`Snapshots Icon contentLibraryIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1118,7 +1118,7 @@ exports[`Snapshots Icon contentLibraryIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M1.6,3.2 L1.6,14.4 L12.8,14.4 L12.8,16 L0,16 L0,3.2 L1.6,3.2 Z M3.2,0 L16,0 L16,12.8 L3.2,12.8 L3.2,0 Z" />
   </g>
@@ -1156,7 +1156,7 @@ exports[`Snapshots Icon curiousBlue 1`] = `
 
 exports[`Snapshots Icon dragIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1164,7 +1164,7 @@ exports[`Snapshots Icon dragIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14,13 C12.8954305,13 12,12.1045695 12,11 C12,9.8954305 12.8954305,9 14,9 C15.1045695,9 16,9.8954305 16,11 C16,12.1045695 15.1045695,13 14,13 Z M8,13 C6.8954305,13 6,12.1045695 6,11 C6,9.8954305 6.8954305,9 8,9 C9.1045695,9 10,9.8954305 10,11 C10,12.1045695 9.1045695,13 8,13 Z M14,7 C12.8954305,7 12,6.1045695 12,5 C12,3.8954305 12.8954305,3 14,3 C15.1045695,3 16,3.8954305 16,5 C16,6.1045695 15.1045695,7 14,7 Z M8,7 C6.8954305,7 6,6.1045695 6,5 C6,3.8954305 6.8954305,3 8,3 C9.1045695,3 10,3.8954305 10,5 C10,6.1045695 9.1045695,7 8,7 Z M2,7 C0.8954305,7 0,6.1045695 0,5 C0,3.8954305 0.8954305,3 2,3 C3.1045695,3 4,3.8954305 4,5 C4,6.1045695 3.1045695,7 2,7 Z M2,13 C0.8954305,13 0,12.1045695 0,11 C0,9.8954305 0.8954305,9 2,9 C3.1045695,9 4,9.8954305 4,11 C4,12.1045695 3.1045695,13 2,13 Z"
       transform="translate(8.000000, 8.000000) rotate(90.000000) translate(-8.000000, -8.000000)" />
@@ -1174,7 +1174,7 @@ exports[`Snapshots Icon dragIcon 1`] = `
 
 exports[`Snapshots Icon editIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1182,7 +1182,7 @@ exports[`Snapshots Icon editIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0,12.8353339 L3.16356812,15.998902 L0,15.998902 L0,12.8353339 Z M1.05452271,11.7808112 L10.5452271,2.29010681 L13.7087952,5.45367493 L4.21809083,14.9443793 L1.05452271,11.7808112 Z M11.5997498,1.2355841 L12.2903301,0.545003751 C13.0737267,-0.238392873 14.3489904,-0.2332661 15.1240254,0.541768884 L15.4571331,0.874876608 C16.2387432,1.65648666 16.2395801,2.92288997 15.4538982,3.70857187 L14.7633179,4.39915222 L11.5997498,1.2355841 Z" />
   </g>
@@ -1191,7 +1191,7 @@ exports[`Snapshots Icon editIcon 1`] = `
 
 exports[`Snapshots Icon exclamationIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1199,7 +1199,7 @@ exports[`Snapshots Icon exclamationIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <circle
       cx="2"
       cy="11.5"
@@ -1212,7 +1212,7 @@ exports[`Snapshots Icon exclamationIcon 1`] = `
 
 exports[`Snapshots Icon exportIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1220,7 +1220,7 @@ exports[`Snapshots Icon exportIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0,7.99703014 C0,7.4463856 0.443353176,7 1.0093689,7 L2.9906311,7 C3.54809015,7 4,7.44386482 4,8 L4,8 C4,8.55228475 3.55613518,9 3,9 L2.24523926,9 C2.10979736,9 2,9.11539841 2,9.25021791 L2,12.7497821 C2,12.8879736 2.10374069,13 2.25063705,13 L13.7493629,13 C13.887786,13 14,12.8846016 14,12.7497821 L14,9.25021791 C14,9.11202638 13.8924713,9 13.7547607,9 L13,9 C12.4477153,9 12,8.55613518 12,8 L12,8 C12,7.44771525 12.4433532,7 13.0093689,7 L14.9906311,7 C15.5480902,7 16,7.45303631 16,7.99703014 L16,14.0029699 C16,14.5536144 15.5553691,15 14.9991283,15 L1.00087166,15 C0.448105505,15 0,14.5469637 0,14.0029699 L0,7.99703014 Z M7,5 L4.99895656,5 C4.44724809,5 4.31387329,4.68612671 4.70591205,4.29408795 L7.64502668,1.35497332 C7.84107303,1.15892697 8.15192032,1.15192032 8.35497332,1.35497332 L11.2940879,4.29408795 C11.6839524,4.68395241 11.5573397,5 11.0010434,5 L9,5 L9,10.009222 C9,10.5564136 8.55613518,11 8,11 L8,11 C7.44771525,11 7,10.5490248 7,10.009222 L7,5 Z" />
   </g>
@@ -1229,7 +1229,7 @@ exports[`Snapshots Icon exportIcon 1`] = `
 
 exports[`Snapshots Icon facebookIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1237,7 +1237,7 @@ exports[`Snapshots Icon facebookIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M6.36466699,16 L6.36466699,8.70169121 L4,8.70169121 L4,5.85735974 L6.36466699,5.85735974 L6.36466699,3.75977121 C6.36466699,1.32549518 7.79607203,0 9.8868861,0 C10.8883393,0 11.7490588,0.0774635455 12,0.1120644 L12,2.65600395 L10.5498305,2.65671009 C9.41281051,2.65671009 9.19266757,3.21787946 9.19266757,4.0413798 L9.19266757,5.85735974 L11.9044098,5.85735974 L11.5512837,8.70169121 L9.19266757,8.70169121 L9.19266757,16 L6.36466699,16 Z" />
   </g>
@@ -1246,7 +1246,7 @@ exports[`Snapshots Icon facebookIcon 1`] = `
 
 exports[`Snapshots Icon gifIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1254,7 +1254,7 @@ exports[`Snapshots Icon gifIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M3.15491775,7.6017025 L5.87242145,7.6017025 L5.87242145,11.1531987 C5.43199623,11.2968835 5.0173468,11.3976176 4.6284607,11.4554039 C4.23957461,11.5131902 3.84210462,11.5420829 3.43603882,11.5420829 C2.40213282,11.5420829 1.61265903,11.238319 1.06759379,10.6307821 C0.522528537,10.0232451 0.25,9.15099765 0.25,8.01401341 C0.25,6.90826499 0.566258044,6.04616899 1.19878362,5.42769954 C1.8313092,4.80923009 2.70824199,4.5 3.82960832,4.5 C4.53241452,4.5 5.21022188,4.64055913 5.86305075,4.92168161 L5.38045957,6.08364871 C4.88068628,5.83376206 4.36061749,5.70882061 3.82023762,5.70882061 C3.19239742,5.70882061 2.68950808,5.91965931 2.31155453,6.34134302 C1.93360098,6.76302674 1.74462704,7.32994857 1.74462704,8.04212551 C1.74462704,8.78553829 1.89689943,9.353241 2.20144878,9.74525068 C2.50599813,10.1372604 2.94875939,10.3332623 3.52974584,10.3332623 C3.8327334,10.3332623 4.14040172,10.3020269 4.45276003,10.2395552 L4.45276003,8.81052311 L3.15491775,8.81052311 L3.15491775,7.6017025 Z M8.03601252,11.4483758 L8.03601252,4.59839238 L9.48847139,4.59839238 L9.48847139,11.4483758 L8.03601252,11.4483758 Z M13.1748016,11.4483758 L11.7457695,11.4483758 L11.7457695,4.59839238 L15.6720938,4.59839238 L15.6720938,5.78847158 L13.1748016,5.78847158 L13.1748016,7.55484899 L15.4987358,7.55484899 L15.4987358,8.74024284 L13.1748016,8.74024284 L13.1748016,11.4483758 Z" />
   </g>
@@ -1263,7 +1263,7 @@ exports[`Snapshots Icon gifIcon 1`] = `
 
 exports[`Snapshots Icon googleIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1271,7 +1271,7 @@ exports[`Snapshots Icon googleIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M5.44217687,7.71428571 L5.44217687,9.6 L8.52866861,9.6 C8.404276,10.4092857 7.595724,11.9728571 5.44217687,11.9728571 C3.5840622,11.9728571 2.06802721,10.4171429 2.06802721,8.5 C2.06802721,6.58285714 3.5840622,5.02714286 5.44217687,5.02714286 C6.49951409,5.02714286 7.20699708,5.48285714 7.61127308,5.87571429 L9.08843537,4.43785714 C8.13994169,3.54214286 6.91156463,3 5.44217687,3 C2.43343052,3 0,5.45928571 0,8.5 C0,11.5407143 2.43343052,14 5.44217687,14 C8.58309038,14 10.6666667,11.7685714 10.6666667,8.62571429 C10.6666667,8.26428571 10.627794,7.98928571 10.5811467,7.71428571 L5.44217687,7.71428571 L5.44217687,7.71428571 Z M16,7.88888889 L14.8148148,7.88888889 L14.8148148,6.66666667 L13.6296296,6.66666667 L13.6296296,7.88888889 L12.4444444,7.88888889 L12.4444444,9.11111111 L13.6296296,9.11111111 L13.6296296,10.3333333 L14.8148148,10.3333333 L14.8148148,9.11111111 L16,9.11111111" />
   </g>
@@ -1280,7 +1280,7 @@ exports[`Snapshots Icon googleIcon 1`] = `
 
 exports[`Snapshots Icon imageIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1288,7 +1288,7 @@ exports[`Snapshots Icon imageIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14,10.8181818 L14,3.50964952 C14,3.22765279 13.7759869,3 13.4996527,3 L2.50034732,3 C2.22900057,3 2,3.22817786 2,3.50964952 L2,12.1818182 L4.75824553,9.67432225 C5.16790521,9.30190435 5.79525757,9.32806396 6.1639905,9.73776722 L7.06880734,10.7431193 L9.82559204,7.73571777 C10.1980573,7.32939207 10.8035382,7.33113256 11.174408,7.73571777 L14,10.8181818 Z M0,3.00585866 C0,1.89805351 0.894513756,1 1.99406028,1 L14.0059397,1 C15.1072288,1 16,1.89706013 16,3.00585866 L16,12.9941413 C16,14.1019465 15.1054862,15 14.0059397,15 L1.99406028,15 C0.892771196,15 0,14.1029399 0,12.9941413 L0,3.00585866 Z M4.5,7 C5.32842712,7 6,6.32842712 6,5.5 C6,4.67157288 5.32842712,4 4.5,4 C3.67157288,4 3,4.67157288 3,5.5 C3,6.32842712 3.67157288,7 4.5,7 Z" />
   </g>
@@ -1297,7 +1297,7 @@ exports[`Snapshots Icon imageIcon 1`] = `
 
 exports[`Snapshots Icon instagramIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1305,7 +1305,7 @@ exports[`Snapshots Icon instagramIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M7.99749206,0.00504761905 C5.82549206,0.00504761905 5.55314286,0.0142539683 4.70012698,0.0531746032 C3.84888889,0.092 3.26752381,0.227206349 2.7588254,0.424920635 C2.23292063,0.629269841 1.78692063,0.902730159 1.34228571,1.34733333 C0.89768254,1.79196825 0.624222222,2.23796825 0.419873016,2.76387302 C0.22215873,3.27257143 0.086952381,3.85393651 0.0481269841,4.7051746 C0.00920634921,5.55819048 0,5.83053968 0,8.00253968 C0,10.1745079 0.00920634921,10.4468571 0.0481269841,11.299873 C0.086952381,12.1511111 0.22215873,12.7324762 0.419873016,13.2411746 C0.624222222,13.7670794 0.89768254,14.2130794 1.34228571,14.6577143 C1.78692063,15.1023175 2.23292063,15.3757778 2.7588254,15.5801587 C3.26752381,15.7778413 3.84888889,15.9130476 4.70012698,15.951873 C5.55314286,15.9907937 5.82549206,16 7.99749206,16 C10.1694603,16 10.4418095,15.9907937 11.2948254,15.951873 C12.1460635,15.9130476 12.7274286,15.7778413 13.236127,15.5801587 C13.7620317,15.3757778 14.2080317,15.1023175 14.6526667,14.6577143 C15.0972698,14.2130794 15.3707302,13.7670794 15.5751111,13.2411746 C15.7727937,12.7324762 15.908,12.1511111 15.9468254,11.299873 C15.985746,10.4468571 15.9949524,10.1745079 15.9949524,8.00253968 C15.9949524,5.83053968 15.985746,5.55819048 15.9468254,4.7051746 C15.908,3.85393651 15.7727937,3.27257143 15.5751111,2.76387302 C15.3707302,2.23796825 15.0972698,1.79196825 14.6526667,1.34733333 C14.2080317,0.902730159 13.7620317,0.629269841 13.236127,0.424920635 C12.7274286,0.227206349 12.1460635,0.092 11.2948254,0.0531746032 C10.4418095,0.0142539683 10.1694603,0.00504761905 7.99749206,0.00504761905 L7.99749206,0.00504761905 Z M7.99749206,1.44603175 C10.1328889,1.44603175 10.3858413,1.45419048 11.2291429,1.49266667 C12.0088889,1.52822222 12.4323492,1.65850794 12.7141587,1.76803175 C13.0874603,1.91311111 13.353873,2.0864127 13.6337143,2.36628571 C13.9135873,2.64612698 14.0868889,2.91253968 14.2319683,3.28584127 C14.3414921,3.56765079 14.4717778,3.99111111 14.5073333,4.77085714 C14.5458095,5.61415873 14.5539683,5.86711111 14.5539683,8.00253968 C14.5539683,10.1379365 14.5458095,10.3908889 14.5073333,11.2341905 C14.4717778,12.0139365 14.3414921,12.4373968 14.2319683,12.7192063 C14.0868889,13.0925079 13.9135873,13.3589206 13.6337143,13.6387619 C13.353873,13.9186349 13.0874603,14.0919365 12.7141587,14.2370159 C12.4323492,14.3465397 12.0088889,14.4768254 11.2291429,14.512381 C10.3859683,14.5508571 10.1330476,14.5590159 7.99749206,14.5590159 C5.86190476,14.5590159 5.60901587,14.5508571 4.76580952,14.512381 C3.98606349,14.4768254 3.56260317,14.3465397 3.28079365,14.2370159 C2.90749206,14.0919365 2.64107937,13.9186349 2.3612381,13.6387619 C2.08139683,13.3589206 1.90806349,13.0925079 1.76298413,12.7192063 C1.65346032,12.4373968 1.5231746,12.0139365 1.48761905,11.2341905 C1.44914286,10.3908889 1.44098413,10.1379365 1.44098413,8.00253968 C1.44098413,5.86711111 1.44914286,5.61415873 1.48761905,4.77085714 C1.5231746,3.99111111 1.65346032,3.56765079 1.76298413,3.28584127 C1.90806349,2.91253968 2.08136508,2.64612698 2.3612381,2.36628571 C2.64107937,2.0864127 2.90749206,1.91311111 3.28079365,1.76803175 C3.56260317,1.65850794 3.98606349,1.52822222 4.76580952,1.49266667 C5.60911111,1.45419048 5.86206349,1.44603175 7.99749206,1.44603175 L7.99749206,1.44603175 Z" />
     <path
@@ -1318,7 +1318,7 @@ exports[`Snapshots Icon instagramIcon 1`] = `
 
 exports[`Snapshots Icon large 1`] = `
 <svg
-  className="icon large outerSpace"
+  className="icon large shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1326,7 +1326,7 @@ exports[`Snapshots Icon large 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       transform="translate(0.000000, 0.500000)">
       <ellipse
@@ -1347,7 +1347,7 @@ exports[`Snapshots Icon large 1`] = `
 
 exports[`Snapshots Icon likeIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1355,7 +1355,7 @@ exports[`Snapshots Icon likeIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,3.625 C7.40444444,2.1095 5.736,1 4,1 C1.73955556,1 0,2.6905 0,4.9375 C0,8.025375 3.37155556,10.41325 8,15 C12.6284444,10.41325 16,8.025375 16,4.9375 C16,2.6905 14.2604444,1 12,1 C10.2622222,1 8.59555556,2.1095 8,3.625 Z" />
   </g>
@@ -1364,7 +1364,7 @@ exports[`Snapshots Icon likeIcon 1`] = `
 
 exports[`Snapshots Icon linkIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1372,7 +1372,7 @@ exports[`Snapshots Icon linkIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M9.75995661,8.74004339 L11.8548563,6.64514375 L12.7902875,5.70971251 C13.1833733,5.31662673 13.1822509,4.68225089 12.7902875,4.29028749 L11.7097125,3.20971251 C11.3166267,2.81662673 10.6822509,2.81774911 10.2902875,3.20971251 L9.35485625,4.14514375 L7.25997338,6.24002662 C6.6393869,5.45249932 6.69075004,4.30924996 7.41942501,3.58057499 L9.58057499,1.41942501 C10.3645018,0.635498224 11.6332535,0.633253455 12.419425,1.41942501 L14.580575,3.58057499 C15.3645018,4.36450178 15.3667465,5.63325346 14.580575,6.41942501 L12.419425,8.58057499 C11.6926854,9.30731459 10.5492765,9.3622592 9.75995661,8.74004339 Z M6.24004339,7.25995661 L4.14514375,9.35485625 L3.20971251,10.2902875 C2.81662673,10.6833733 2.81774911,11.3177491 3.20971251,11.7097125 L4.29028749,12.7902875 C4.68337327,13.1833733 5.31774911,13.1822509 5.70971251,12.7902875 L6.64514375,11.8548563 L8.74002662,9.75997338 C9.3606131,10.5475007 9.30924996,11.69075 8.58057499,12.419425 L6.41942501,14.580575 C5.63549822,15.3645018 4.36674654,15.3667465 3.58057499,14.580575 L1.41942501,12.419425 C0.635498224,11.6354982 0.633253455,10.3667465 1.41942501,9.58057499 L3.58057499,7.41942501 C4.30731459,6.69268541 5.45072355,6.6377408 6.24004339,7.25995661 Z M10.1426411,4.85735893 C10.340005,4.65999504 10.65625,4.65625 10.8497515,4.84975147 L11.1502485,5.15024853 C11.3434109,5.34341093 11.3395145,5.66048551 11.1426411,5.85735893 L5.85735893,11.1426411 C5.65999504,11.340005 5.34375,11.34375 5.15024853,11.1502485 L4.84975147,10.8497515 C4.65658907,10.6565891 4.66048551,10.3395145 4.85735893,10.1426411 L10.1426411,4.85735893 Z" />
   </g>
@@ -1381,7 +1381,7 @@ exports[`Snapshots Icon linkIcon 1`] = `
 
 exports[`Snapshots Icon linkedInIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1389,7 +1389,7 @@ exports[`Snapshots Icon linkedInIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M1.92370086,0 C2.98428222,0 3.84491792,0.862830482 3.84491792,1.92597201 C3.84491792,2.98973561 2.98428222,3.8525661 1.92370086,3.8525661 C0.858772849,3.8525661 0,2.98973561 0,1.92597201 C0,0.862830482 0.858772849,0 1.92370086,0 L1.92370086,0 Z M0.263282493,5.3125972 L3.58225637,5.3125972 L3.58225637,16 L0.263282493,16 L0.263282493,5.3125972 Z M5.6618155,5.3125972 L8.8398339,5.3125972 L8.8398339,6.77387247 L8.88578414,6.77387247 C9.32790003,5.93343701 10.4095937,5.04758942 12.0221989,5.04758942 C15.3796717,5.04758942 16,7.26034215 16,10.1387247 L16,16 L12.6847518,16 L12.6847518,10.8024883 C12.6847518,9.56329705 12.6636395,7.9688958 10.9622385,7.9688958 C9.23662048,7.9688958 8.97333799,9.31944012 8.97333799,10.7141524 L8.97333799,16 L5.6618155,16 L5.6618155,5.3125972" />
   </g>
@@ -1398,7 +1398,7 @@ exports[`Snapshots Icon linkedInIcon 1`] = `
 
 exports[`Snapshots Icon lockIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1406,7 +1406,7 @@ exports[`Snapshots Icon lockIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M13,7 L13.9931545,7 C14.5492199,7 15,7.4463114 15,7.99754465 L15,15.0026639 C15,15.5534774 14.5500512,16 13.9931545,16 L2.00684547,16 C1.45078007,16 1,15.5468246 1,15.0026639 L1,7.99754465 C1,7.44661595 1.44994876,7 2.00684547,7 L3,7 L3,4.99668583 C3,2.23709245 5.24419519,0 8,0 C10.7614237,0 13,2.24157855 13,4.99668583 L13,7 Z M11,7 L11,4.99668583 C11,3.34461797 9.6553241,2 8,2 C6.34618032,2 5,3.34424456 5,4.99668583 L5,7 L11,7 Z" />
   </g>
@@ -1415,7 +1415,7 @@ exports[`Snapshots Icon lockIcon 1`] = `
 
 exports[`Snapshots Icon moreIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1423,7 +1423,7 @@ exports[`Snapshots Icon moreIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M2,4 C0.8954305,4 0,3.1045695 0,2 C0,0.8954305 0.8954305,0 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 Z M2,3 C2.55228475,3 3,2.55228475 3,2 C3,1.44771525 2.55228475,1 2,1 C1.44771525,1 1,1.44771525 1,2 C1,2.55228475 1.44771525,3 2,3 Z" />
     <path
@@ -1436,7 +1436,7 @@ exports[`Snapshots Icon moreIcon 1`] = `
 
 exports[`Snapshots Icon pabloIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1444,7 +1444,7 @@ exports[`Snapshots Icon pabloIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14.787916,4.17370169 C15.3982182,5.31031723 15.7450655,6.61399751 15.7450655,8 C15.7450655,12.418278 12.2204125,16 7.87253276,16 C3.52465298,16 0,12.418278 0,8 C0,3.581722 3.52465298,0 7.87253276,0 C9.60276488,0 11.2026283,0.567212195 12.5018784,1.52863538 L11.4646748,3.13728606 C10.4643144,2.3729689 9.22047903,1.92 7.87253276,1.92 C4.56814412,1.92 1.88940786,4.64210872 1.88940786,8 C1.88940786,11.3578913 4.56814412,14.08 7.87253276,14.08 C11.1769214,14.08 13.8556577,11.3578913 13.8556577,8 C13.8556577,7.16773624 13.6910998,6.37452934 13.3932441,5.6521455 C11.9318042,7.19211745 10.494696,8.68395438 10.494696,8.68395438 L9.39047904,7.75227814 C9.39047904,7.75227814 12.9307127,2.88115286 14.2016372,1.23370858 C14.3041259,1.10085696 15.8980477,1.51489069 16,2.85769757 C15.7014598,3.19169966 15.2741911,3.65411706 14.787916,4.17370169 Z M4.76500248,10.9456533 C7.4803179,11.1729897 6.50908212,8.25761877 9.02106348,8.23016715 L10.1092911,9.14849535 C10.380777,12.4621247 6.37049434,13.2016816 4.76500248,10.9456533 Z" />
   </g>
@@ -1453,7 +1453,7 @@ exports[`Snapshots Icon pabloIcon 1`] = `
 
 exports[`Snapshots Icon personIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1461,7 +1461,7 @@ exports[`Snapshots Icon personIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,10 C6.34314575,10 5,8.209139 5,6 C5,3.790861 6.34314575,2 8,2 C9.65685425,2 11,3.790861 11,6 C11,8.209139 9.65685425,10 8,10 Z M2,12.5 C2,11.6715729 2.67955446,11 3.49554521,11 L12.5044548,11 C13.3304216,11 14,11.6657972 14,12.5 L14,14 L2,14 L2,12.5 Z" />
   </g>
@@ -1470,7 +1470,7 @@ exports[`Snapshots Icon personIcon 1`] = `
 
 exports[`Snapshots Icon personsIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1478,7 +1478,7 @@ exports[`Snapshots Icon personsIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M7.5,2.22760761 C7.18722107,2.08020563 6.85063542,2 6.5,2 C4.84314575,2 3.5,3.790861 3.5,6 C3.5,8.209139 4.84314575,10 6.5,10 C6.85063542,10 7.18722107,9.91979437 7.5,9.77239239 C6.33480763,9.22327718 5.5,7.7416251 5.5,6 C5.5,4.2583749 6.33480763,2.77672282 7.5,2.22760761 Z M7.5,11 L1.99554521,11 C1.17955446,11 0.5,11.6715729 0.5,12.5 L0.5,14 L7.5,14 L2.5,14 L2.5,12.5 C2.5,11.6715729 3.17955446,11 3.99554521,11 L7.5,11 Z" />
     <path
@@ -1489,7 +1489,7 @@ exports[`Snapshots Icon personsIcon 1`] = `
 
 exports[`Snapshots Icon pinterestIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1497,7 +1497,7 @@ exports[`Snapshots Icon pinterestIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M7.7248357,0 C3.33186737,0 1,2.81015219 1,5.87249753 C1,7.29461784 1.79409827,9.06639971 3.06559767,9.6301856 C3.2591705,9.7161211 3.36141721,9.67846053 3.4053137,9.50107822 C3.43936025,9.36594924 3.61173428,8.70785883 3.68839255,8.40065471 C3.71376686,8.30257393 3.7012403,8.21837347 3.61719458,8.12141536 C3.19867899,7.63703306 2.86153251,6.74165043 2.86153251,5.90821894 C2.86153251,3.76881274 4.56118331,1.69860401 7.45631764,1.69860401 C9.95809656,1.69860401 11.7075324,3.32188689 11.7075324,5.64500319 C11.7075324,8.27011848 10.3191184,10.0879299 8.50897696,10.0879299 C7.50952875,10.0879299 6.7613612,9.3016507 7.00118595,8.33390671 C7.28918977,7.18132994 7.844641,5.93536721 7.844641,5.10479343 C7.844641,4.35842011 7.4249477,3.73717378 6.55643952,3.73717378 C5.53547133,3.73717378 4.71439278,4.74461956 4.71439278,6.09437851 C4.71439278,6.95352942 5.01952694,7.53405334 5.01952694,7.53405334 C5.01952694,7.53405334 4.01129944,11.6006806 3.82704123,12.3575662 C3.51259245,13.642006 3.86804698,15.7232373 3.89941691,15.9050083 C3.91536954,16.0025787 4.02907216,16.0355445 4.09331093,15.9534873 C4.19245277,15.8274418 5.40838563,14.089136 5.75227718,12.8321506 C5.87433085,12.3785908 6.38470788,10.5256703 6.38470788,10.5256703 C6.71832123,11.129158 7.68618537,11.6394638 8.7176459,11.6394638 C11.7870814,11.6394638 14,8.94729433 14,5.60458696 C14,2.3985395 11.256148,0 7.7248357,0" />
   </g>
@@ -1506,7 +1506,7 @@ exports[`Snapshots Icon pinterestIcon 1`] = `
 
 exports[`Snapshots Icon plusIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1514,7 +1514,7 @@ exports[`Snapshots Icon plusIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M7,9 L1.00292933,9 C0.449026756,9 0,8.55613518 0,8 L0,8 C0,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z" />
   </g>
@@ -1523,7 +1523,7 @@ exports[`Snapshots Icon plusIcon 1`] = `
 
 exports[`Snapshots Icon pricingIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1531,7 +1531,7 @@ exports[`Snapshots Icon pricingIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M0.709946632,8.70994663 C0.317853934,8.31785393 0.323517799,7.6764822 0.709946632,7.29005337 L7.29005337,0.709946632 C7.68214607,0.317853934 8.45303631,-1.36510312e-15 8.99703014,-1.3349054e-15 L15.0029699,-1.00150877e-15 C15.5536144,-9.70941855e-16 16,0.453036308 16,0.997030139 L16,7.00296986 C16,7.5536144 15.6764822,8.3235178 15.2900534,8.70994663 L8.70994663,15.2900534 C8.31785393,15.6821461 7.6764822,15.6764822 7.29005337,15.2900534 L0.709946632,8.70994663 Z M2.75,8 L8,13.25 L14,7.25 L14,2 L8.75,2 L2.75,8 Z M11.5,6 C10.6715729,6 10,5.32842712 10,4.5 C10,3.67157288 10.6715729,3 11.5,3 C12.3284271,3 13,3.67157288 13,4.5 C13,5.32842712 12.3284271,6 11.5,6 Z" />
   </g>
@@ -1540,7 +1540,7 @@ exports[`Snapshots Icon pricingIcon 1`] = `
 
 exports[`Snapshots Icon profileGroupIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1548,7 +1548,7 @@ exports[`Snapshots Icon profileGroupIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M14,12.5 C12.8954305,12.5 12,11.6045695 12,10.5 C12,9.3954305 12.8954305,8.5 14,8.5 C15.1045695,8.5 16,9.3954305 16,10.5 C16,11.6045695 15.1045695,12.5 14,12.5 Z M8,12.5 C6.8954305,12.5 6,11.6045695 6,10.5 C6,9.3954305 6.8954305,8.5 8,8.5 C9.1045695,8.5 10,9.3954305 10,10.5 C10,11.6045695 9.1045695,12.5 8,12.5 Z M14,7.5 C12.8954305,7.5 12,6.6045695 12,5.5 C12,4.3954305 12.8954305,3.5 14,3.5 C15.1045695,3.5 16,4.3954305 16,5.5 C16,6.6045695 15.1045695,7.5 14,7.5 Z M8,7.5 C6.8954305,7.5 6,6.6045695 6,5.5 C6,4.3954305 6.8954305,3.5 8,3.5 C9.1045695,3.5 10,4.3954305 10,5.5 C10,6.6045695 9.1045695,7.5 8,7.5 Z M2,7.5 C0.8954305,7.5 0,6.6045695 0,5.5 C0,4.3954305 0.8954305,3.5 2,3.5 C3.1045695,3.5 4,4.3954305 4,5.5 C4,6.6045695 3.1045695,7.5 2,7.5 Z M2,12.5 C0.8954305,12.5 0,11.6045695 0,10.5 C0,9.3954305 0.8954305,8.5 2,8.5 C3.1045695,8.5 4,9.3954305 4,10.5 C4,11.6045695 3.1045695,12.5 2,12.5 Z" />
   </g>
@@ -1557,7 +1557,7 @@ exports[`Snapshots Icon profileGroupIcon 1`] = `
 
 exports[`Snapshots Icon questionIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1565,7 +1565,7 @@ exports[`Snapshots Icon questionIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 Z" />
     <path
@@ -1576,7 +1576,7 @@ exports[`Snapshots Icon questionIcon 1`] = `
 
 exports[`Snapshots Icon queueIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1584,7 +1584,7 @@ exports[`Snapshots Icon queueIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M4,8 C4,7.44771525 4.45576096,7 5.00247329,7 L14.9975267,7 C15.5511774,7 16,7.44386482 16,8 C16,8.55228475 15.544239,9 14.9975267,9 L5.00247329,9 C4.44882258,9 4,8.55613518 4,8 Z M4,12 C4,11.4477153 4.45576096,11 5.00247329,11 L14.9975267,11 C15.5511774,11 16,11.4438648 16,12 C16,12.5522847 15.544239,13 14.9975267,13 L5.00247329,13 C4.44882258,13 4,12.5561352 4,12 Z M4,4 C4,3.44771525 4.45576096,3 5.00247329,3 L14.9975267,3 C15.5511774,3 16,3.44386482 16,4 C16,4.55228475 15.544239,5 14.9975267,5 L5.00247329,5 C4.44882258,5 4,4.55613518 4,4 Z M0,4 C0,3.44771525 0.443864822,3 1,3 C1.55228475,3 2,3.44386482 2,4 C2,4.55228475 1.55613518,5 1,5 C0.44771525,5 0,4.55613518 0,4 Z M0,8 C0,7.44771525 0.443864822,7 1,7 C1.55228475,7 2,7.44386482 2,8 C2,8.55228475 1.55613518,9 1,9 C0.44771525,9 0,8.55613518 0,8 Z M0,12 C0,11.4477153 0.443864822,11 1,11 C1.55228475,11 2,11.4438648 2,12 C2,12.5522847 1.55613518,13 1,13 C0.44771525,13 0,12.5561352 0,12 Z" />
   </g>
@@ -1593,7 +1593,7 @@ exports[`Snapshots Icon queueIcon 1`] = `
 
 exports[`Snapshots Icon refreshIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1601,7 +1601,7 @@ exports[`Snapshots Icon refreshIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M1.67363116,11 C2.7970951,13.3649473 5.20760404,15 8,15 C11.1710206,15 13.8495721,12.8914889 14.7101213,10 L12.5839563,10 C11.8123997,11.7659048 10.050319,13 8,13 C6.36418217,13 4.91184014,12.2144467 3.99963381,11 L1.67363116,11 Z M1.28987868,6 C2.15042787,3.10851105 4.82897936,1 8,1 C10.792396,1 13.2029049,2.63505267 14.3263688,5 L12.0003662,5 C11.0881599,3.7855533 9.63581783,3 8,3 C5.94968096,3 4.18760031,4.23409522 3.41604369,6 L1.28987868,6 Z M0.316626728,6.37995207 C0.141758615,6.17011034 0.21484375,6 0.497698784,6 L4.50230122,6 C4.77717266,6 4.85110044,6.17867947 4.68337327,6.37995207 L2.81662673,8.62004793 C2.64175861,8.82988966 2.35110044,8.82132053 2.18337327,8.62004793 L0.316626728,6.37995207 Z M11.3166267,9.62004793 L13.1833733,7.37995207 C13.3511004,7.17867947 13.6417586,7.17011034 13.8166267,7.37995207 L15.6833733,9.62004793 C15.8511004,9.82132053 15.7771727,10 15.5023012,10 L11.4976988,10 C11.2148438,10 11.1417586,9.82988966 11.3166267,9.62004793 Z" />
   </g>
@@ -1610,7 +1610,7 @@ exports[`Snapshots Icon refreshIcon 1`] = `
 
 exports[`Snapshots Icon respondIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1618,7 +1618,7 @@ exports[`Snapshots Icon respondIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       transform="translate(8.066952, 8.472268) rotate(-45.000000) translate(-8.066952, -8.472268) translate(0.066952, 1.972268)">
       <path
@@ -1632,7 +1632,7 @@ exports[`Snapshots Icon respondIcon 1`] = `
 
 exports[`Snapshots Icon retweetIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1640,7 +1640,7 @@ exports[`Snapshots Icon retweetIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M2.00001778,4 C2.00462751,2.89464321 2.90478822,2 4.0085302,2 L11.9914698,2 C13.1007504,2 14,2.90195036 14,4.0085302 L14,6 L12,6 L12,5 C12,4.44386482 11.5543453,4 11.0046024,4 L2.00001651,4 Z M13.9999822,12 C13.9953725,13.1053568 13.0952118,14 11.9914698,14 L4.0085302,14 C2.8992496,14 2,13.0980496 2,11.9914698 L2,10 L4,10 L4,11 C4,11.5561352 4.44902676,12 5.00292933,12 L9.99707067,12 C10.5621186,12 11.4472481,12 11.9989566,12 L13.9999848,12 Z M2.4001155,6.79984599 C2.73142256,6.35810325 3.26622999,6.35497332 3.5998845,6.79984599 L5.4001155,9.20015401 C5.73142256,9.64189675 5.54902482,10 5.00922203,10 L0.990777969,10 C0.443586406,10 0.266229987,9.64502668 0.599884495,9.20015401 L2.4001155,6.79984599 Z M12.4001155,9.20015401 L10.5998845,6.79984599 C10.26623,6.35497332 10.4435864,6 10.990778,6 L15.009222,6 C15.5490248,6 15.7314226,6.35810325 15.4001155,6.79984599 L13.5998845,9.20015401 C13.26623,9.64502668 12.7314226,9.64189675 12.4001155,9.20015401 Z" />
   </g>
@@ -1649,7 +1649,7 @@ exports[`Snapshots Icon retweetIcon 1`] = `
 
 exports[`Snapshots Icon searchIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1657,7 +1657,7 @@ exports[`Snapshots Icon searchIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M12.6063847,11.1921711 L15.7047831,14.2905695 C16.0964514,14.6822378 16.1001014,15.3136075 15.7068544,15.7068544 C15.3163301,16.0973787 14.6901188,16.1043323 14.2905695,15.7047831 L11.1921711,12.6063847 C10.0235906,13.4815965 8.5723351,14 7,14 C3.13400675,14 0,10.8659932 0,7 C0,3.13400675 3.13400675,0 7,0 C10.8659932,0 14,3.13400675 14,7 C14,8.5723351 13.4815965,10.0235906 12.6063847,11.1921711 Z M7,12 C9.76142375,12 12,9.76142375 12,7 C12,4.23857625 9.76142375,2 7,2 C4.23857625,2 2,4.23857625 2,7 C2,9.76142375 4.23857625,12 7,12 Z" />
   </g>
@@ -1666,7 +1666,7 @@ exports[`Snapshots Icon searchIcon 1`] = `
 
 exports[`Snapshots Icon settingsIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1674,7 +1674,7 @@ exports[`Snapshots Icon settingsIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M11.4765344,12.8907479 C10.7536018,13.4055629 9.91165661,13.7640946 9,13.9170416 L9,14.9991283 C9,15.5518945 8.55613518,16 8,16 C7.44771525,16 7,15.5553691 7,14.9991283 L7,13.9170416 C6.08834339,13.7640946 5.24639817,13.4055629 4.52346564,12.8907479 L3.75797567,13.6562379 C3.36711097,14.0471026 2.73639271,14.0501012 2.34314575,13.6568542 C1.95262146,13.26633 1.95044047,12.635346 2.34376211,12.2420243 L3.10925208,11.4765344 C2.59443708,10.7536018 2.23590544,9.91165661 2.08295844,9 L1.00087166,9 C0.448105505,9 0,8.55613518 0,8 C0,7.44771525 0.444630861,7 1.00087166,7 L2.08295844,7 C2.23590544,6.08834339 2.59443708,5.24639817 3.10925208,4.52346564 L2.34376211,3.75797567 C1.95044047,3.36465403 1.95262146,2.73367004 2.34314575,2.34314575 C2.73639271,1.9498988 3.36711097,1.95289741 3.75797567,2.34376211 L4.52346564,3.10925208 C5.24639817,2.59443708 6.08834339,2.23590544 7,2.08295844 L7,1.00087166 C7,0.448105505 7.44386482,-7.10542736e-15 8,-7.10542736e-15 C8.55228475,-7.10542736e-15 9,0.444630861 9,1.00087166 L9,2.08295844 C9.91165661,2.23590544 10.7536018,2.59443708 11.4765344,3.10925208 L12.2420243,2.34376211 C12.632889,1.95289741 13.2636073,1.9498988 13.6568542,2.34314575 C14.0473785,2.73367004 14.0495595,3.36465403 13.6562379,3.75797567 L12.8907479,4.52346564 C13.4055629,5.24639817 13.7640946,6.08834339 13.9170416,7 L14.9991283,7 C15.5518945,7 16,7.44386482 16,8 C16,8.55228475 15.5553691,9 14.9991283,9 L13.9170416,9 C13.7640946,9.91165661 13.4055629,10.7536018 12.8907479,11.4765344 L13.6562379,12.2420243 C14.0495595,12.635346 14.0473785,13.26633 13.6568542,13.6568542 C13.2636073,14.0501012 12.632889,14.0471026 12.2420243,13.6562379 L11.4765344,12.8907479 Z M8,11 C9.65685425,11 11,9.65685425 11,8 C11,6.34314575 9.65685425,5 8,5 C6.34314575,5 5,6.34314575 5,8 C5,9.65685425 6.34314575,11 8,11 Z" />
   </g>
@@ -1712,7 +1712,7 @@ exports[`Snapshots Icon shamrock 1`] = `
 
 exports[`Snapshots Icon shuffleIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1720,7 +1720,7 @@ exports[`Snapshots Icon shuffleIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M3.51755737,5.92913038 L2.588427,5 L1.0093689,5 C0.443353176,5 0,4.55228475 0,4 C0,3.44386482 0.451909848,3 1.0093689,3 L2.9906311,3 C3.29535431,3 3.56452536,3.12976452 3.74810423,3.3357497 C3.76859185,3.35325619 3.78855782,3.3717037 3.8079451,3.39109098 L5.20890904,4.79205492 C5.22623618,4.80938206 5.2428074,4.82713998 5.25862399,4.84529061 L11.0483785,10.6350451 C11.4313539,11.0180205 11.4369476,11.6563851 11.0466664,12.0466663 C10.6536643,12.4396685 10.0243809,12.437714 9.6350452,12.0483783 L3.55162121,5.96495435 C3.53991375,5.95324689 3.52855897,5.94130077 3.51755737,5.92913038 Z M13,9.99077797 C13,9.44358641 13.3210526,9.32105255 13.7109581,9.71095812 L15.6440798,11.6440798 C15.8406491,11.8406491 15.838707,12.161293 15.6440798,12.3559202 L13.7109581,14.2890419 C13.3183068,14.6816932 13,14.5490248 13,14.009222 L13,9.99077797 Z" />
     <path
@@ -1736,7 +1736,7 @@ exports[`Snapshots Icon shuffleIcon 1`] = `
 
 exports[`Snapshots Icon small 1`] = `
 <svg
-  className="icon small outerSpace"
+  className="icon small shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1744,7 +1744,7 @@ exports[`Snapshots Icon small 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <g
       transform="translate(0.000000, 0.500000)">
       <ellipse
@@ -1765,7 +1765,7 @@ exports[`Snapshots Icon small 1`] = `
 
 exports[`Snapshots Icon supportIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1773,7 +1773,7 @@ exports[`Snapshots Icon supportIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M15.6779554,2.42770277 C15.8852289,2.9116277 16,3.44468369 16,4.00457656 C16,6.21624313 14.209139,8.00915312 12,8.00915312 C11.4417517,8.00915312 10.9102135,7.89466322 10.427534,7.68785764 L2.54993413,15.5654575 C1.96757782,16.1478138 1.02469502,16.1491172 0.434824591,15.5592467 C-0.150961847,14.9734603 -0.146964313,14.0197153 0.428613784,13.4441372 L8.31287775,5.55987323 C8.11138988,5.08169812 8,4.55616047 8,4.00457656 C8,1.79291 9.790861,2.22044605e-16 12,2.22044605e-16 C12.559976,2.22044605e-16 13.0930765,0.115199686 13.5769462,0.323218319 C13.524899,0.363059242 13.4748722,0.406790595 13.427256,0.454406852 L12.7044065,1.17725634 C12.1303527,1.75131015 12.1248734,2.70653695 12.7106598,3.29232339 C13.3005302,3.88219382 14.243394,3.88090952 14.8257268,3.29857669 L15.5485763,2.5757272 C15.5955069,2.5287966 15.6386374,2.47931841 15.6779554,2.42770277 Z" />
   </g>
@@ -1782,7 +1782,7 @@ exports[`Snapshots Icon supportIcon 1`] = `
 
 exports[`Snapshots Icon twitterIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1790,7 +1790,7 @@ exports[`Snapshots Icon twitterIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M16,2.65527066 C15.4074074,2.93447293 14.7777778,3.13390313 14.1111111,3.21367521 C14.7962963,2.77492877 15.3148148,2.07692308 15.5555556,1.25925926 C14.9259259,1.65811966 14.2222222,1.95726496 13.4814815,2.11680912 C12.8703704,1.43874644 12.0185185,1 11.0740741,1 C9.25925926,1 7.7962963,2.57549858 7.7962963,4.52991453 C7.7962963,4.80911681 7.81481481,5.08831909 7.87037037,5.34757835 C5.14814815,5.18803419 2.74074074,3.85185185 1.11111111,1.71794872 C0.833333333,2.23646724 0.666666667,2.77492877 0.666666667,3.43304843 C0.666666667,4.64957265 1.24074074,5.72649573 2.12962963,6.36467236 C1.59259259,6.34472934 1.09259259,6.18518519 0.648148148,5.92592593 L0.648148148,5.96581197 C0.648148148,7.68091168 1.77777778,9.11680912 3.27777778,9.43589744 C3,9.51566952 2.7037037,9.55555556 2.40740741,9.55555556 C2.2037037,9.55555556 2,9.53561254 1.7962963,9.4957265 C2.2037037,10.8917379 3.42592593,11.9287749 4.85185185,11.9487179 C3.74074074,12.9059829 2.31481481,13.6239316 0.777777778,13.6239316 C0.518518519,13.6239316 0.259259259,13.6039886 0,13.5641026 C1.44444444,14.5612536 3.18518519,15 5.03703704,15 C11.0740741,15 14.3703704,9.61538462 14.3703704,4.94871795 L14.3703704,4.49002849 C15,3.99145299 15.5555556,3.37321937 16,2.65527066 L16,2.65527066 Z" />
   </g>
@@ -1799,7 +1799,7 @@ exports[`Snapshots Icon twitterIcon 1`] = `
 
 exports[`Snapshots Icon videoIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1807,7 +1807,7 @@ exports[`Snapshots Icon videoIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M12,4.33333333 L12,2.0085302 C12,0.901950359 11.1007504,2.09620418e-14 9.9914698,1.84120759e-14 L2.0085302,6.12422144e-17 C0.901950359,-2.4825153e-15 0,0.899249601 0,2.0085302 L0,9.9914698 C0,11.0980496 0.899249601,12 2.0085302,12 L9.9914698,12 C11.0980496,12 12,11.1007504 12,9.9914698 L12,7.66666667 L14.4704221,9.72535177 C15.3117237,10.4264364 16,10.1047419 16,9.00038502 L16,2.99961498 C16,1.88743329 15.3151847,1.57067945 14.4704221,2.27464823 L12,4.33333333 Z" />
   </g>
@@ -1816,7 +1816,7 @@ exports[`Snapshots Icon videoIcon 1`] = `
 
 exports[`Snapshots Icon viewIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1824,7 +1824,7 @@ exports[`Snapshots Icon viewIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M8,4 C12,4 15.2603759,7.33048993 15.2603759,7.33048993 C15.668859,7.70025013 15.6803939,8.30065012 15.2603759,8.66951007 C15.2603759,8.66951007 12,12 8,12 C4,12 0.739624113,8.66951007 0.739624113,8.66951007 C0.331140995,8.29974987 0.319606066,7.69934988 0.739624113,7.33048993 C0.739624113,7.33048993 4,4 8,4 Z M8,10 C9.1045695,10 10,9.1045695 10,8 C10,6.8954305 9.1045695,6 8,6 C6.8954305,6 6,6.8954305 6,8 C6,9.1045695 6.8954305,10 8,10 Z" />
   </g>
@@ -1833,7 +1833,7 @@ exports[`Snapshots Icon viewIcon 1`] = `
 
 exports[`Snapshots Icon warningIcon 1`] = `
 <svg
-  className="icon outerSpace"
+  className="icon shuttleGray"
   height="100%"
   version="1.1"
   viewBox="0 0 16 16"
@@ -1841,7 +1841,7 @@ exports[`Snapshots Icon warningIcon 1`] = `
   xmlns="http://www.w3.org/2000/svg"
   xmlnsXlink="http://www.w3.org/1999/xlink">
   <g
-    className="outerSpace">
+    className="shuttleGray">
     <path
       d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z" />
   </g>
@@ -2207,7 +2207,7 @@ exports[`Snapshots Loader default 1`] = `
   <div
     className="icon">
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2215,10 +2215,10 @@ exports[`Snapshots Loader default 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2226,10 +2226,10 @@ exports[`Snapshots Loader default 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2237,7 +2237,7 @@ exports[`Snapshots Loader default 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
   </div>
 </div>
@@ -2249,7 +2249,7 @@ exports[`Snapshots Loader withText 1`] = `
   <div
     className="icon">
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2257,10 +2257,10 @@ exports[`Snapshots Loader withText 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2268,10 +2268,10 @@ exports[`Snapshots Loader withText 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
     <svg
-      className="icon outerSpace"
+      className="icon shuttleGray"
       height="100%"
       version="1.1"
       viewBox="0 0 16 16"
@@ -2279,7 +2279,7 @@ exports[`Snapshots Loader withText 1`] = `
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink">
       <g
-        className="outerSpace" />
+        className="shuttleGray" />
     </svg>
   </div>
   <span
@@ -2293,7 +2293,7 @@ exports[`Snapshots NavBar Default 1`] = `
 <div
   className="navbar">
   <svg
-    className="icon outerSpace"
+    className="icon shuttleGray"
     height="100%"
     version="1.1"
     viewBox="0 0 16 16"
@@ -2301,7 +2301,7 @@ exports[`Snapshots NavBar Default 1`] = `
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink">
     <g
-      className="outerSpace" />
+      className="shuttleGray" />
   </svg>
   <span
     className="text bold">
@@ -2318,7 +2318,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
 <div
   className="navbar">
   <svg
-    className="icon outerSpace"
+    className="icon shuttleGray"
     height="100%"
     version="1.1"
     viewBox="0 0 16 16"
@@ -2326,7 +2326,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink">
     <g
-      className="outerSpace" />
+      className="shuttleGray" />
   </svg>
   <span
     className="text bold">
@@ -2419,6 +2419,20 @@ exports[`Snapshots Text Thin 1`] = `
 exports[`Snapshots Text White 1`] = `
 <span
   className="text white">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text black 1`] = `
+<span
+  className="text black">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text torchRed 1`] = `
+<span
+  className="text torchRed">
   The quick brown fox jumps over the lazy dog
 </span>
 `;
