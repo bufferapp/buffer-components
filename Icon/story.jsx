@@ -75,6 +75,18 @@ import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
 
 storiesOf('Icon')
+  .add('large', () => (
+    <AddMediaIcon size={'large'} />
+  ))
+  .add('small', () => (
+    <AddMediaIcon size={'small'} />
+  ))
+  .add('curiousBlue', () => (
+    <AddMediaIcon color={'curiousBlue'} />
+  ))
+  .add('shamrock', () => (
+    <AddMediaIcon color={'shamrock'} />
+  ))
   .add('addMediaIcon', () => (
     <AddMediaIcon />
   ))
@@ -134,9 +146,6 @@ storiesOf('Icon')
   ))
   .add('calendarIcon', () => (
     <CalendarIcon />
-  ))
-  .add('checkmarkIcon', () => (
-    <CheckmarkIcon />
   ))
   .add('checkmarkIcon', () => (
     <CheckmarkIcon />
