@@ -1,13 +1,108 @@
 @import '../variables.css';
 
+.curiousBlue {
+  fill: var(--curious-blue);
+}
+
+.curiousBlueLight {
+  fill: var(--curious-blue-light);
+}
+
+.curiousBlueUltraLight {
+  fill: var(--curious-blue-ultra-light);
+}
+
+.denim {
+  fill: var(--denim);
+}
+
+.toryBlue {
+  fill: var(--tory-blue);
+}
+
+.appdotnet {
+  fill: var(--appdotnet);
+}
+
+.facebook {
+  fill: var(--facebook);
+}
+
+.googleplus {
+  fill: var(--googleplus);
+}
+
+.linkedin {
+  fill: var(--linkedin);
+}
+
+.pinterest {
+  fill: var(--pinterest);
+}
+
+.twitter {
+  fill: var(--twitter);
+}
+
+.outerSpace {
+  fill: var(--outer-space);
+}
+
+.outerSpaceLight {
+  fill: var(--outer-space-light);
+}
+
+.outerSpaceUltraLight {
+  fill: var(--outer-space-ultra-light);
+}
+
+.shuttleGray {
+  fill: var(--shuttle-gray);
+}
+
+.nevada {
+  fill: var(--nevada);
+}
+
+.geyser {
+  fill: var(--geyser);
+}
+
+.mystic {
+  fill: var(--mystic);
+}
+
+.aquaHaze {
+  fill: var(--aqua-haze);
+}
+
+.white {
+  fill: var(--white);
+}
+
+.shamrock {
+  fill: var(--shamrock);
+}
+
+.saffron {
+  fill: var(--saffron);
+}
+
+.torchRed {
+  fill: var(--torch-red);
+}
+
 .icon {
-  font-size: var(--font-size);
+  width: 1em;
+  height: 1em;
 }
 
 .small {
-  font-size: var(--font-size-small);
+  width: 0.75em;
+  height: 0.75em;
 }
 
 .large {
-  font-size: var(--font-size-large);
+  width: 2em;
+  height: 2em;
 }
