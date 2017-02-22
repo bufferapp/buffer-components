@@ -93,16 +93,16 @@
 }
 
 .icon {
-  width: 1em;
-  height: 1em;
+  width: 1rem;
+  height: 1rem;
 }
 
 .small {
-  width: 0.75em;
-  height: 0.75em;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .large {
-  width: 2em;
-  height: 2em;
+  width: 2rem;
+  height: 2rem;
 }

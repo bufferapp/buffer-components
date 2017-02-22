@@ -1,8 +1,8 @@
 @import '../variables.css';
 
 .card {
-  padding: 1.5em;
-  font-size: 0.875em;
+  padding: 1.5rem;
+  font-size: 0.875rem;
   line-height: var(--line-height);
   color: var(--outer-space);
   background-color: var(--white);
@@ -16,7 +16,7 @@
 }
 
 .double-padding {
-  padding: 3em;
+  padding: 3rem;
 }
 
 .empty {

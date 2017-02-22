@@ -2,8 +2,8 @@
 
 .navbar {
   display: flex;
-  margin-bottom: 2em;
-  padding: 1em;
+  margin-bottom: 2rem;
+  padding: 1rem;
   width: 100%;
   background-color: var(--white);
   border-bottom: var(--border-width) solid var(--geyser);
@@ -11,7 +11,7 @@
 }
 
 .app-icon {
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
   color: var(--shuttle-gray);
 }
 

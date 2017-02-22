@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.25 (February 22, 2017)
+
+- use `rem` over `em` since it's relative to the root font size
+
+## 0.1.24 (February 22, 2017)
+
+- consistency tweaks to Links and Icons
+
 ## 0.1.23 (February 22, 2017)
 
 - Add and Use svg `Icons`
