@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.23 (February 22, 2017)
+
+- Add and Use svg `Icons`
+- Add Overlay component
+
 ## 0.1.19 (February 16, 2017)
 
 Bring these back:
