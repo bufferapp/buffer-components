@@ -1,17 +1,21 @@
 # Changelog
 
+## 0.2.0 (February 23, 2017)
+
+- Remove our icon font dependancy in replace of our new `Icon` component
+
 ## 0.1.25 (February 22, 2017)
 
-- use `rem` over `em` since it's relative to the root font size
+- Use `rem` over `em` since it's relative to the root font size
 
 ## 0.1.24 (February 22, 2017)
 
-- consistency tweaks to Links and Icons
+- Consistency tweaks to Links and Icons
 
 ## 0.1.23 (February 22, 2017)
 
 - Add and Use svg `Icons`
-- Add Overlay component
+- Add `Overlay` component
 
 ## 0.1.19 (February 16, 2017)
 
