@@ -7,21 +7,21 @@
 .icon {
   position: relative;
   margin: 0 auto 1rem auto;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
 }
 
-.top {
+.top svg {
   -webkit-animation: fadein 2s -0.5s infinite ease-in-out;
           animation: fadein 2s -0.5s infinite ease-in-out;
 }
 
-.middle {
+.middle svg {
   -webkit-animation: fadein 2s -0.25s infinite ease-in-out;
           animation: fadein 2s -0.25s infinite ease-in-out;
 }
 
-.bottom {
+.bottom svg {
   -webkit-animation: fadein 2s infinite ease-in-out;
           animation: fadein 2s infinite ease-in-out;
 }
@@ -44,5 +44,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 1.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+.top svg,
+.middle svg,
+.bottom svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

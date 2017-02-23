@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import Icon from '../Icon';
+import { BufferTopIcon, BufferMiddleIcon, BufferBottomIcon } from '../Icon/Icons';
 import Text from '../Text';
 import styles from './style.css';
 
@@ -14,9 +14,15 @@ const renderText = (children) => {
 const Loader = ({ children }) =>
   <div className={styles.loader}>
     <div className={styles.icon}>
-      <Icon type={'buffer-top'} className={styles.top} />
-      <Icon type={'buffer-middle'} className={styles.middle} />
-      <Icon type={'buffer-bottom'} className={styles.bottom} />
+      <div className={styles.top}>
+        <BufferTopIcon />
+      </div>
+      <div className={styles.middle}>
+        <BufferMiddleIcon />
+      </div>
+      <div className={styles.bottom}>
+        <BufferBottomIcon />
+      </div>
     </div>
     { renderText(children) }
   </div>;
