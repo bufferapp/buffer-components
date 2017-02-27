@@ -11,7 +11,7 @@ storiesOf('MultipleImages')
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
       ]}
-      width={'50em'}
-      height={'25em'}
+      width={'20em'}
+      height={'20em'}
     />
   ));
