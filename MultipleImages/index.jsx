@@ -34,6 +34,11 @@ const MultipleImages = ({ urls,
   );
 };
 
+MultipleImages.defaultProps = {
+  height: '20rem',
+  width: '20rem',
+};
+
 MultipleImages.propTypes = {
   height: PropTypes.oneOfType([
     PropTypes.string,

@@ -9,4 +9,5 @@
 .imageWrapper {
   flex-grow: 1;
   flex-basis: 50%;
+  height: 50%;
 }

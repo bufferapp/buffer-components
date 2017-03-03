@@ -11,7 +11,22 @@ storiesOf('MultipleImages')
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
       ]}
-      width={'20em'}
-      height={'20em'}
+    />
+  ))
+  .add('twoImages', () => (
+    <MultipleImages
+      urls={[
+        'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+      ]}
+    />
+  ))
+  .add('threeImages', () => (
+    <MultipleImages
+      urls={[
+        'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+      ]}
     />
   ));
