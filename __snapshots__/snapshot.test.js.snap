@@ -2466,6 +2466,13 @@ exports[`Snapshots Text black 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text blue 1`] = `
+<span
+  className="text blue">
+  The quick brown fox jumps over the lazy dog
+</span>
+`;
+
 exports[`Snapshots Text torchRed 1`] = `
 <span
   className="text torchRed">
