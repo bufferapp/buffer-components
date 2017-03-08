@@ -2325,6 +2325,230 @@ exports[`Snapshots Loader withText 1`] = `
 </div>
 `;
 
+exports[`Snapshots MultipleImages Default 1`] = `
+<div
+  className="multipleImages"
+  style={
+    Object {
+      "height": "20rem",
+      "width": "20rem",
+    }
+  }>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+</div>
+`;
+
+exports[`Snapshots MultipleImages threeImages 1`] = `
+<div
+  className="multipleImages"
+  style={
+    Object {
+      "height": "20rem",
+      "width": "20rem",
+    }
+  }>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+</div>
+`;
+
+exports[`Snapshots MultipleImages twoImages 1`] = `
+<div
+  className="multipleImages"
+  style={
+    Object {
+      "height": "20rem",
+      "width": "20rem",
+    }
+  }>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={
+      Object {
+        "height": "100%",
+      }
+    }>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={
+      Object {
+        "height": "100%",
+      }
+    }>
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      } />
+  </div>
+</div>
+`;
+
 exports[`Snapshots NavBar Default 1`] = `
 <div
   className="navbar">
