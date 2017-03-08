@@ -49,7 +49,7 @@ Bring these back:
 
 ## 0.1.11 (February 3, 2017)
 
-- Adde `hovered` prop to `Card` component
+- Added `hovered` prop to `Card` component
 - Remove `layout.css` file and references
 
 ## 0.1.3 (January 10, 2017)
