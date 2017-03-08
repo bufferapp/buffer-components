@@ -88,8 +88,8 @@
   fill: var(--saffron);
 }
 
-.torchRed {
-  fill: var(--torch-red);
+.red {
+  fill: var(--red);
 }
 
 .icon {

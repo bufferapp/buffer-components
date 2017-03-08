@@ -32,7 +32,7 @@ const Icon = ({
     white: color === 'white',
     shamrock: color === 'shamrock',
     saffron: color === 'saffron',
-    torchRed: color === 'torchRed',
+    red: color === 'red',
   });
   return (
     <svg
@@ -80,7 +80,7 @@ Icon.propTypes = {
     'white',
     'shamrock',
     'saffron',
-    'torchRed',
+    'red',
   ]),
   size: PropTypes.oneOf(['small', 'large']),
 };

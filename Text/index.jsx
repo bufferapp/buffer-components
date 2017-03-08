@@ -11,7 +11,7 @@ const Text = ({ children, size, weight, color }) => {
     bold: weight === 'bold',
     white: color === 'white',
     gray: color === 'gray',
-    torchRed: color === 'torchRed',
+    red: color === 'red',
     black: color === 'black',
     blue: color === 'blue',
   });
@@ -24,7 +24,7 @@ Text.propTypes = {
   children: PropTypes.node,
   size: PropTypes.oneOf(['large', 'small', 'extra-small']),
   weight: PropTypes.oneOf(['bold', 'thin']),
-  color: PropTypes.oneOf(['white', 'gray', 'torchRed', 'black', 'blue']),
+  color: PropTypes.oneOf(['white', 'gray', 'red', 'black', 'blue']),
 };
 
 export default Text;

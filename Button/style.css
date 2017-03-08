@@ -147,12 +147,12 @@
 .warning {
   color: var(--outer-space);
   background-color: transparent;
-  border-color: var(--torch-red);
+  border-color: var(--red);
 }
 
 .warning:hover {
   color: var(--white);
-  background-color: var(--torch-red);
+  background-color: var(--red);
 }
 
 .warning:active {
@@ -170,7 +170,7 @@
 }
 
 .warning i.bi {
-  color: var(--torch-red);
+  color: var(--red);
 }
 
 .fill-container {
