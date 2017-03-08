@@ -3,6 +3,12 @@ import uuid from 'uuid';
 import styles from './style.css';
 import Image from '../Image';
 
+const getUrlAmount = (urls) => {
+  if (urls.length <= 2) {
+    return { height: '100%' };
+  }
+};
+
 const MultipleImages = ({ urls,
   width,
   height,
@@ -18,7 +24,9 @@ const MultipleImages = ({ urls,
         urls.map(url =>
           <div
             className={styles.imageWrapper}
+            height={height}
             key={uuid()}
+            style={getUrlAmount(urls)}
           >
             <Image
               height={'100%'}

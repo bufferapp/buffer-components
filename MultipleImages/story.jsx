@@ -15,6 +15,7 @@ storiesOf('MultipleImages')
   ))
   .add('twoImages', () => (
     <MultipleImages
+      imageWrapperHeight={'100%'}
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
