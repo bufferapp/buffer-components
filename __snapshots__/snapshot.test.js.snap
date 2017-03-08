@@ -2724,11 +2724,13 @@ exports[`Snapshots MultipleImages Default 1`] = `
       "height": "20rem",
       "width": "20rem",
     }
-  }>
+  }
+>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2743,12 +2745,14 @@ exports[`Snapshots MultipleImages Default 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2763,12 +2767,14 @@ exports[`Snapshots MultipleImages Default 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2783,12 +2789,14 @@ exports[`Snapshots MultipleImages Default 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2803,7 +2811,8 @@ exports[`Snapshots MultipleImages Default 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
 </div>
 `;
@@ -2816,11 +2825,13 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
       "height": "20rem",
       "width": "20rem",
     }
-  }>
+  }
+>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2835,12 +2846,14 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2855,12 +2868,14 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
     height="20rem"
-    style={undefined}>
+    style={undefined}
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2875,7 +2890,8 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
 </div>
 `;
@@ -2888,7 +2904,8 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
       "height": "20rem",
       "width": "20rem",
     }
-  }>
+  }
+>
   <div
     className="imageWrapper"
     height="20rem"
@@ -2896,7 +2913,8 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
       Object {
         "height": "100%",
       }
-    }>
+    }
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2911,7 +2929,8 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
   <div
     className="imageWrapper"
@@ -2920,7 +2939,8 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
       Object {
         "height": "100%",
       }
-    }>
+    }
+  >
     <img
       alt="Image"
       className="verticalAlignBottom"
@@ -2935,7 +2955,8 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
           "objectFit": "cover",
           "width": "100%",
         }
-      } />
+      }
+    />
   </div>
 </div>
 `;
