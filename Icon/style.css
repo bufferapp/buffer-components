@@ -1,19 +1,19 @@
 @import '../variables.css';
 
-.curiousBlue {
-  fill: var(--curious-blue);
+.lochmara {
+  fill: var(--lochmara);
 }
 
-.curiousBlueLight {
-  fill: var(--curious-blue-light);
+.lochmaraLight {
+  fill: var(--lochmara-light);
 }
 
-.curiousBlueUltraLight {
-  fill: var(--curious-blue-ultra-light);
+.lochmaraUltraLight {
+  fill: var(--lochmara-ultra-light);
 }
 
-.denim {
-  fill: var(--denim);
+.lochmaraHover {
+  fill: var(--lochmara-hover);
 }
 
 .toryBlue {

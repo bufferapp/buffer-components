@@ -7,7 +7,7 @@
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--white);
-  background-color: var(--curious-blue);
+  background-color: var(--lochmara);
   border: var(--border-width) solid transparent;
   border-radius: 2rem;
   cursor: pointer;
@@ -16,13 +16,13 @@
 }
 
 .button:focus {
-  box-shadow: 0 0 0.25rem var(--curious-blue);
+  box-shadow: 0 0 0.25rem var(--lochmara);
 }
 
 .button:hover {
   color: var(--white);
   text-decoration: none;
-  background-color: var(--denim);
+  background-color: var(--lochmara-hover);
 }
 
 .button:active {
@@ -31,7 +31,7 @@
 
 .button:disabled {
   color: var(--white);
-  background: var(--curious-blue);
+  background: var(--lochmara);
 }
 
 .button:disabled,
@@ -54,28 +54,28 @@
 }
 
 .borderless {
-  color: var(--curious-blue);
+  color: var(--lochmara);
   background-color: transparent;
   border: 0;
 }
 
 .borderless:hover {
-  color: var(--denim);
+  color: var(--lochmara-hover);
   background-color: transparent;
 }
 
 .borderless:active {
-  color: var(--denim);
+  color: var(--lochmara-hover);
   background-color: transparent;
 }
 
 .borderless:disabled {
-  color: var(--curious-blue);
+  color: var(--lochmara);
   background-color: transparent;
 }
 
 .borderless i.bi {
-  color: var(--curious-blue);
+  color: var(--lochmara);
 }
 
 .large {
@@ -84,28 +84,28 @@
 }
 
 .secondary {
-  color: var(--curious-blue);
+  color: var(--lochmara);
   background-color: transparent;
-  border-color: var(--curious-blue);
+  border-color: var(--lochmara);
 }
 
 .secondary:hover {
-  color: var(--denim);
+  color: var(--lochmara-hover);
   background-color: transparent;
-  border-color: var(--denim);
+  border-color: var(--lochmara-hover);
 }
 
 .secondary:active {
-  background-color: var(--curious-blue-ultra-light);
+  background-color: var(--lochmara-ultra-light);
 }
 
 .secondary:disabled {
-  color: var(--curious-blue);
+  color: var(--lochmara);
   background-color: transparent;
 }
 
 .secondary i.bi {
-  color: var(--curious-blue);
+  color: var(--lochmara);
 }
 
 .small {
