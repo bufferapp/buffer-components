@@ -34,4 +34,7 @@ storiesOf('Text')
   ))
   .add('black', () => (
     <Text color={'black'}>{text}</Text>
+  ))
+  .add('blue', () => (
+    <Text color={'blue'}>{text}</Text>
   ));

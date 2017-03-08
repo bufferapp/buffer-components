@@ -42,3 +42,7 @@
 .black {
   color: var(--black);
 }
+
+.blue {
+  color: var(--curious-blue);
+}
