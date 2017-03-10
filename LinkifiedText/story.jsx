@@ -1,9 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import LinkifiedText from './index';
 
-
 storiesOf('LinkifiedText')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <LinkifiedText
       links={[{

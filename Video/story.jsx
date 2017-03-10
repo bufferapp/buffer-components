@@ -1,8 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import Video from './index';
 
 storiesOf('Video')
+  .addDecorator(checkA11y)
   .add('Default', () => (
     <Video
       sources={[

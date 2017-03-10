@@ -3,10 +3,12 @@ import {
   storiesOf,
   action,
 } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import Button from './index';
 import Text from '../Text';
 
 storiesOf('Button')
+  .addDecorator(checkA11y)
   .add('Default', () => (
     <Button>Button text</Button>
   ))

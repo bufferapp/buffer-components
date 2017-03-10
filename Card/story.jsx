@@ -3,10 +3,12 @@ import {
   storiesOf,
   action,
 } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import Card from './index';
 import Link from '../Link';
 
 storiesOf('Card')
+  .addDecorator(checkA11y)
   .add('default', () => (
     <Card>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ))
