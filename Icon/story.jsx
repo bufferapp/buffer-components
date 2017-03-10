@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import AddMediaIcon from './Icons/AddMediaIcon';
 import AnalyticsIcon from './Icons/AnalyticsIcon';
 import ArrowDownIcon from './Icons/ArrowDownIcon';
@@ -75,6 +76,7 @@ import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
 
 storiesOf('Icon')
+  .addDecorator(checkA11y)
   .add('large', () => (
     <AddMediaIcon size={'large'} />
   ))

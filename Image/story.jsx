@@ -1,8 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import Image from './index';
 
 storiesOf('Image')
+  .addDecorator(checkA11y)
   .add('Default', () => (
     <Image src={'http://lorempixel.com/400/400/cats/'} />
   ))

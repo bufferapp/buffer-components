@@ -1,10 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
+import { checkA11y } from 'storybook-addon-a11y';
 import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';
 
 storiesOf('Text')
+  .addDecorator(checkA11y)
   .add('Default', () => (
     <Text>{text}</Text>
   ))
