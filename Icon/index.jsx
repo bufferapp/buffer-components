@@ -10,10 +10,10 @@ const Icon = ({
   const classes = classNames(styles, 'icon', {
     large: size === 'large',
     small: size === 'small',
-    curiousBlue: color === 'curiousBlue',
-    curiousBlueLight: color === 'curiousBlueLight',
-    curiousBlueUltraLight: color === 'curiousBlueUltraLight',
-    denim: color === 'denim',
+    lochmara: color === 'lochmara',
+    lochmaraLight: color === 'lochmaraLight',
+    lochmaraUltraLight: color === 'lochmaraUltraLight',
+    lochmaraHover: color === 'lochmaraHover',
     toryBlue: color === 'toryBlue',
     appdotnet: color === 'appdotnet',
     facebook: color === 'facebook',
@@ -32,7 +32,7 @@ const Icon = ({
     white: color === 'white',
     shamrock: color === 'shamrock',
     saffron: color === 'saffron',
-    torchRed: color === 'torchRed',
+    red: color === 'red',
   });
   return (
     <svg
@@ -58,10 +58,10 @@ Icon.defaultProps = {
 Icon.propTypes = {
   children: PropTypes.node,
   color: PropTypes.oneOf([
-    'curiousBlue',
-    'curiousBlueLight',
-    'curiousBlueUltraLight',
-    'denim',
+    'lochmara',
+    'lochmaraLight',
+    'lochmaraUltraLight',
+    'lochmaraHover',
     'toryBlue',
     'appdotnet',
     'facebook',
@@ -80,7 +80,7 @@ Icon.propTypes = {
     'white',
     'shamrock',
     'saffron',
-    'torchRed',
+    'red',
   ]),
   size: PropTypes.oneOf(['small', 'large']),
 };

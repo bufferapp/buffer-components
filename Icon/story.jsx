@@ -83,8 +83,8 @@ storiesOf('Icon')
   .add('small', () => (
     <AddMediaIcon size={'small'} />
   ))
-  .add('curiousBlue', () => (
-    <AddMediaIcon color={'curiousBlue'} />
+  .add('lochmara', () => (
+    <AddMediaIcon color={'lochmara'} />
   ))
   .add('shamrock', () => (
     <AddMediaIcon color={'shamrock'} />

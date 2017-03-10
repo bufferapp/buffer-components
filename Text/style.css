@@ -35,8 +35,8 @@
   color: var(--outer-space-light);
 }
 
-.torchRed {
-  color: var(--torch-red);
+.red {
+  color: var(--red);
 }
 
 .black {
@@ -44,5 +44,5 @@
 }
 
 .blue {
-  color: var(--curious-blue);
+  color: var(--lochmara);
 }
