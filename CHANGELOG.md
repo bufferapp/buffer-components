@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 (March 8, 2017)
+
+- Add blue color config to Text component
+
 ## 0.2.1 (February 23, 2017)
 
 - Add guide to our `CHANGELOG`
