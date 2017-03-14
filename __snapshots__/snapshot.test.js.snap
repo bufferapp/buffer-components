@@ -2716,7 +2716,7 @@ exports[`Snapshots Loader withText 1`] = `
 </div>
 `;
 
-exports[`Snapshots MultipleImages Default 1`] = `
+exports[`Snapshots MultipleImages fourImages 1`] = `
 <div
   className="multipleImages"
   style={
@@ -2796,6 +2796,45 @@ exports[`Snapshots MultipleImages Default 1`] = `
     className="imageWrapper"
     height="20rem"
     style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Snapshots MultipleImages oneImage 1`] = `
+<div
+  className="multipleImages"
+  style={
+    Object {
+      "height": "20rem",
+      "width": "20rem",
+    }
+  }
+>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={
+      Object {
+        "height": "100%",
+      }
+    }
   >
     <img
       alt="Image"
@@ -2940,6 +2979,107 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
         "height": "100%",
       }
     }
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Snapshots MultipleImages width=30rm,height=30rem 1`] = `
+<div
+  className="multipleImages"
+  style={
+    Object {
+      "height": "30rem",
+      "width": "30rem",
+    }
+  }
+>
+  <div
+    className="imageWrapper"
+    height="30rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="30rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="30rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="30rem"
+    style={undefined}
   >
     <img
       alt="Image"

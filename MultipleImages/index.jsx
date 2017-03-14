@@ -43,8 +43,8 @@ const MultipleImages = ({ urls,
 };
 
 MultipleImages.defaultProps = {
-  height: '20rem',
-  width: '20rem',
+  height: '100%',
+  width: '100%',
 };
 
 MultipleImages.propTypes = {

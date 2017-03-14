@@ -3,10 +3,23 @@ import { storiesOf } from '@kadira/storybook';
 import MultipleImages from './index';
 
 storiesOf('MultipleImages')
-  .add('Default', () => (
+  .add('fourImages', () => (
     <MultipleImages
+      width={'20rem'}
+      height={'20rem'}
       urls={[
         'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+        'http://lorempixel.com/400/400/cats/',
+      ]}
+    />
+  ))
+  .add('threeImages', () => (
+    <MultipleImages
+      width={'20rem'}
+      height={'20rem'}
+      urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
@@ -15,16 +28,29 @@ storiesOf('MultipleImages')
   ))
   .add('twoImages', () => (
     <MultipleImages
-      imageWrapperHeight={'100%'}
+      width={'20rem'}
+      height={'20rem'}
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
       ]}
     />
   ))
-  .add('threeImages', () => (
+  .add('oneImage', () => (
     <MultipleImages
+      width={'20rem'}
+      height={'20rem'}
       urls={[
+        'http://lorempixel.com/400/400/cats/',
+      ]}
+    />
+  ))
+  .add('width=30rm,height=30rem', () => (
+    <MultipleImages
+      width={'30rem'}
+      height={'30rem'}
+      urls={[
+        'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
