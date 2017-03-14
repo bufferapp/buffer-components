@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (March 14, 2017)
+
+- Add a11y addon
+
 ## 0.2.2 (March 8, 2017)
 
 - Add blue color config to Text component
