@@ -1,0 +1,13 @@
+@import '../variables.css';
+
+.multipleImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imageWrapper {
+  flex-grow: 1;
+  flex-basis: 50%;
+  height: 50%;
+}
