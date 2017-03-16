@@ -1,31 +1,54 @@
 @import '../variables.css';
 
-.lochmara {
-  fill: var(--lochmara);
+.icon {
+  width: 1rem;
+  height: 1rem;
 }
 
-.lochmaraLight {
-  fill: var(--lochmara-light);
+.large {
+  width: 2rem;
+  height: 2rem;
 }
 
-.lochmaraUltraLight {
-  fill: var(--lochmara-ultra-light);
-}
-
-.lochmaraHover {
-  fill: var(--lochmara-hover);
-}
-
-.toryBlue {
-  fill: var(--tory-blue);
+.small {
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 .appdotnet {
   fill: var(--appdotnet);
 }
 
+.aquaHaze {
+  fill: var(--aqua-haze);
+}
+
+.black {
+  fill: var(--black);
+}
+
+.curiousBlue {
+  fill: var(--curious-blue);
+}
+
+.curiousBlueLight {
+  fill: var(--curious-blue-light);
+}
+
+.curiousBlueUltraLight {
+  fill: var(--curious-blue-ultra-light);
+}
+
+.denim {
+  fill: var(--denim);
+}
+
 .facebook {
   fill: var(--facebook);
+}
+
+.geyser {
+  fill: var(--geyser);
 }
 
 .googleplus {
@@ -36,12 +59,12 @@
   fill: var(--linkedin);
 }
 
-.pinterest {
-  fill: var(--pinterest);
+.mystic {
+  fill: var(--mystic);
 }
 
-.twitter {
-  fill: var(--twitter);
+.nevada {
+  fill: var(--nevada);
 }
 
 .outerSpace {
@@ -56,53 +79,34 @@
   fill: var(--outer-space-ultra-light);
 }
 
-.shuttleGray {
-  fill: var(--shuttle-gray);
-}
-
-.nevada {
-  fill: var(--nevada);
-}
-
-.geyser {
-  fill: var(--geyser);
-}
-
-.mystic {
-  fill: var(--mystic);
-}
-
-.aquaHaze {
-  fill: var(--aqua-haze);
-}
-
-.white {
-  fill: var(--white);
-}
-
-.shamrock {
-  fill: var(--shamrock);
+.pinterest {
+  fill: var(--pinterest);
 }
 
 .saffron {
   fill: var(--saffron);
 }
 
-.red {
-  fill: var(--red);
+.shamrock {
+  fill: var(--shamrock);
 }
 
-.icon {
-  width: 1rem;
-  height: 1rem;
+.shuttleGray {
+  fill: var(--shuttle-gray);
 }
 
-.small {
-  width: 0.75rem;
-  height: 0.75rem;
+.torchRed {
+  fill: var(--torch-red);
 }
 
-.large {
-  width: 2rem;
-  height: 2rem;
+.toryBlue {
+  fill: var(--tory-blue);
+}
+
+.twitter {
+  fill: var(--twitter);
+}
+
+.white {
+  fill: var(--white);
 }
