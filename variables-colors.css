@@ -1,8 +1,8 @@
 :root {
-  --lochmara: #007acc;
-  --lochmara-hover: #006eb8;
-  --lochmara-light: rgba(0, 122, 204, .3);
-  --lochmara-ultra-light: rgba(0, 122, 204, .1);
+  --curious-blue: #168eea;
+  --curious-blue-light: rgba(22, 142, 234, .3);
+  --curious-blue-ultra-light: rgba(22, 142, 234, .1);
+  --denim: #137ac9;
   --tory-blue: #0f63a4;
 
   --appdotnet: #4a484c;
@@ -25,7 +25,7 @@
   --black: #000;
   --white: #fff;
 
-  --red: #ee0000;
   --shamrock: #2fd566;
   --saffron: #f1cb3a;
+  --torch-red: #ff1e1e;
   }
