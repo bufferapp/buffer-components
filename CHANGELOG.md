@@ -1,12 +1,16 @@
 # Changelog
 
+## 0.4.0 (March 16, 2017)
+
+- Add `MultipleImages` component
+
 ## 0.3.0 (March 14, 2017)
 
 - Add a11y addon
 
 ## 0.2.2 (March 8, 2017)
 
-- Add blue color config to Text component
+- Add blue color config to `Text` component
 
 ## 0.2.1 (February 23, 2017)
 
