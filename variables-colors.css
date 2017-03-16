@@ -12,20 +12,20 @@
   --pinterest: #bd081c;
   --twitter: #55acee;
 
+  --aqua-haze: #f4f7f9;
+  --geyser: #ced7df;
+  --mystic: #e6ebef;
+  --nevada: #666c72;
   --outer-space: #323b43;
   --outer-space-ultra-dark: rgba(50, 59, 67, 0.8);
   --outer-space-light: rgba(50, 59, 67, 0.3);
   --outer-space-ultra-light: rgba(50, 59, 67, 0.1);
   --shuttle-gray: #59626a;
-  --nevada: #666c72;
-  --geyser: #ced7df;
-  --mystic: #e6ebef;
-  --aqua-haze: #f4f7f9;
 
-  --white: #fff;
   --black: #000;
+  --white: #fff;
 
+  --red: #ee0000;
   --shamrock: #2fd566;
   --saffron: #f1cb3a;
-  --red: #ee0000;
   }
