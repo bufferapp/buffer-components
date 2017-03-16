@@ -6,11 +6,11 @@
 
 .link:link,
 .link:visited {
-  color: var(--lochmara);
+  color: var(--curious-blue);
 }
 
 .link:hover {
-  color: var(--lochmara-hover);
+  color: var(--denim);
 }
 
 .link:active {
