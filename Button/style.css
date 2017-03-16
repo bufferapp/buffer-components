@@ -7,7 +7,7 @@
   font-size: 0.75rem;
   font-weight: 400;
   color: var(--white);
-  background-color: var(--lochmara);
+  background-color: var(--curious-blue);
   border: var(--border-width) solid transparent;
   border-radius: 2rem;
   cursor: pointer;
@@ -16,13 +16,13 @@
 }
 
 .button:focus {
-  box-shadow: 0 0 0.25rem var(--lochmara);
+  box-shadow: 0 0 0.25rem var(--curious-blue);
 }
 
 .button:hover {
   color: var(--white);
   text-decoration: none;
-  background-color: var(--lochmara-hover);
+  background-color: var(--denim);
 }
 
 .button:active {
@@ -31,7 +31,7 @@
 
 .button:disabled {
   color: var(--white);
-  background: var(--lochmara);
+  background: var(--curious-blue);
 }
 
 .button:disabled,
@@ -54,28 +54,28 @@
 }
 
 .borderless {
-  color: var(--lochmara);
+  color: var(--curious-blue);
   background-color: transparent;
   border: 0;
 }
 
 .borderless:hover {
-  color: var(--lochmara-hover);
+  color: var(--denim);
   background-color: transparent;
 }
 
 .borderless:active {
-  color: var(--lochmara-hover);
+  color: var(--denim);
   background-color: transparent;
 }
 
 .borderless:disabled {
-  color: var(--lochmara);
+  color: var(--curious-blue);
   background-color: transparent;
 }
 
 .borderless i.bi {
-  color: var(--lochmara);
+  color: var(--curious-blue);
 }
 
 .large {
@@ -84,28 +84,28 @@
 }
 
 .secondary {
-  color: var(--lochmara);
+  color: var(--curious-blue);
   background-color: transparent;
-  border-color: var(--lochmara);
+  border-color: var(--curious-blue);
 }
 
 .secondary:hover {
-  color: var(--lochmara-hover);
+  color: var(--denim);
   background-color: transparent;
-  border-color: var(--lochmara-hover);
+  border-color: var(--denim);
 }
 
 .secondary:active {
-  background-color: var(--lochmara-ultra-light);
+  background-color: var(--curious-blue-ultra-light);
 }
 
 .secondary:disabled {
-  color: var(--lochmara);
+  color: var(--curious-blue);
   background-color: transparent;
 }
 
 .secondary i.bi {
-  color: var(--lochmara);
+  color: var(--curious-blue);
 }
 
 .small {
@@ -147,12 +147,12 @@
 .warning {
   color: var(--outer-space);
   background-color: transparent;
-  border-color: var(--red);
+  border-color: var(--torch-red);
 }
 
 .warning:hover {
   color: var(--white);
-  background-color: var(--red);
+  background-color: var(--torch-red);
 }
 
 .warning:active {
@@ -170,7 +170,7 @@
 }
 
 .warning i.bi {
-  color: var(--red);
+  color: var(--torch-red);
 }
 
 .fill-container {

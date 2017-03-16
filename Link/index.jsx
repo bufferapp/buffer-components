@@ -5,7 +5,7 @@ import styles from './style.css';
 const Link = ({
   children,
   href,
-  unstyled
+  unstyled,
 }) => {
   const classes = classNames(styles, 'link', {
     unstyled,
@@ -16,7 +16,7 @@ const Link = ({
       {children}
     </a>
   );
-}
+};
 
 Link.propTypes = {
   children: PropTypes.node,

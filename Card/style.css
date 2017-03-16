@@ -33,7 +33,7 @@
 }
 
 .failed {
-  border-color: var(--red);
+  border-color: var(--torch-red);
 }
 
 .no-border {
