@@ -45,7 +45,7 @@ storiesOf('MultipleImages')
       ]}
     />
   ))
-  .add('width=30rm,height=30rem', () => (
+  .add('width=30rem,height=30rem', () => (
     <MultipleImages
       width={'30rem'}
       height={'30rem'}
