@@ -10,14 +10,14 @@ storiesOf('Text')
   .add('Default', () => (
     <Text>{text}</Text>
   ))
+  .add('ExtraSmall', () => (
+    <Text size={'extra-small'}>{text}</Text>
+  ))
   .add('Large', () => (
     <Text size={'large'}>{text}</Text>
   ))
   .add('Small', () => (
     <Text size={'small'}>{text}</Text>
-  ))
-  .add('ExtraSmall', () => (
-    <Text size={'extra-small'}>{text}</Text>
   ))
   .add('Bold', () => (
     <Text weight={'bold'}>{text}</Text>
@@ -25,8 +25,11 @@ storiesOf('Text')
   .add('Thin', () => (
     <Text weight={'thin'}>{text}</Text>
   ))
-  .add('White', () => (
-    <Text color={'white'}>{text}</Text>
+  .add('black', () => (
+    <Text color={'black'}>{text}</Text>
+  ))
+  .add('blue', () => (
+    <Text color={'blue'}>{text}</Text>
   ))
   .add('Gray', () => (
     <Text color={'gray'}>{text}</Text>
@@ -34,9 +37,6 @@ storiesOf('Text')
   .add('Red', () => (
     <Text color={'red'}>{text}</Text>
   ))
-  .add('black', () => (
-    <Text color={'black'}>{text}</Text>
-  ))
-  .add('blue', () => (
-    <Text color={'blue'}>{text}</Text>
+  .add('White', () => (
+    <Text color={'white'}>{text}</Text>
   ));

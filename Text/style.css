@@ -36,7 +36,7 @@
 }
 
 .red {
-  color: var(--torchRed);
+  color: var(--torch-red);
 }
 
 .black {
