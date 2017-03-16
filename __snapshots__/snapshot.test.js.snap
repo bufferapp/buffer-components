@@ -3000,7 +3000,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
 </div>
 `;
 
-exports[`Snapshots MultipleImages width=30rm,height=30rem 1`] = `
+exports[`Snapshots MultipleImages width=30rem,height=30rem 1`] = `
 <div
   className="multipleImages"
   style={
