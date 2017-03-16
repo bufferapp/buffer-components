@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1 (March 16, 2017)
+
+- Revert color `lochmara` to `curious-blue`
+- Revert color `lochmara-hover` to `denim`
+- Revert color `red` to `torch-red`
+
 ## 0.4.0 (March 16, 2017)
 
 - Add `MultipleImages` component
