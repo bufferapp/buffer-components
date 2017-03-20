@@ -10,8 +10,8 @@ const getImageWrapperHeight = (arrayOfImageUrls) => {
 };
 
 const MultipleImages = ({ urls,
-  width,
   height,
+  width,
 }) => {
   const inlineStyle = {
     height,
