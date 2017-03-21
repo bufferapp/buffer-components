@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react';
 import uuid from 'uuid';
-import styles from './style.css';
+import { classNames } from '../lib/utils';
 import Image from '../Image';
+import styles from './style.css';
 
 const getImageWrapperHeight = (arrayOfImageUrls) => {
   if (arrayOfImageUrls.length <= 2) {
@@ -9,17 +10,22 @@ const getImageWrapperHeight = (arrayOfImageUrls) => {
   }
 };
 
-const MultipleImages = ({ height,
+const MultipleImages = ({ border,
+  height,
   urls,
   width,
 }) => {
+  const classes = classNames(styles, 'multipleImages', {
+    rounded: border === 'rounded',
+  });
+
   const inlineStyle = {
     height,
     width,
   };
 
   return (
-    <div className={styles.multipleImages} style={inlineStyle}>
+    <div className={classes} style={inlineStyle}>
       {
         urls.map(url =>
           <div
@@ -48,6 +54,7 @@ MultipleImages.defaultProps = {
 };
 
 MultipleImages.propTypes = {
+  border: PropTypes.string,
   height: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
