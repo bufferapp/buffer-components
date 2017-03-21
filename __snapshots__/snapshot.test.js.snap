@@ -2960,6 +2960,107 @@ exports[`Snapshots Loader withText 1`] = `
 </span>
 `;
 
+exports[`Snapshots MultipleImages border=rounded 1`] = `
+<div
+  className="multipleImages rounded"
+  style={
+    Object {
+      "height": "20rem",
+      "width": "20rem",
+    }
+  }
+>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="imageWrapper"
+    height="20rem"
+    style={undefined}
+  >
+    <img
+      alt="Image"
+      className="verticalAlignBottom"
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": "cover",
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
 exports[`Snapshots MultipleImages fourImages 1`] = `
 <div
   className="multipleImages"
@@ -3244,7 +3345,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
 </div>
 `;
 
-exports[`Snapshots MultipleImages width=30rem,height=30rem 1`] = `
+exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
 <div
   className="multipleImages"
   style={
