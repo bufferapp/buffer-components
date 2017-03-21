@@ -11,10 +11,8 @@
 }
 
 .app-icon {
+  display: flex;
+  align-items: center;
   margin-right: 0.5rem;
   color: var(--shuttle-gray);
-}
-
-.app-icon::before {
-  line-height: normal;
 }
