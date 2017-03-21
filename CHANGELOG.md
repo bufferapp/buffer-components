@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.3 (March 21, 2017)
+
+- Update `MultipleImages` to have a `rounded` flag to set a border-radius on itself
+
+## 0.4.2 (March 20, 2017)
+
+- Add export of `MultipleImages` component to `index.js`
+
 ## 0.4.1 (March 16, 2017)
 
 - Revert color `lochmara` to `curious-blue`
