@@ -2,6 +2,7 @@
 
 .button {
   display: inline-block;
+  margin: 0;
   padding: 0.5rem 2rem;
   font-family: var(--font-family);
   font-size: 0.75rem;

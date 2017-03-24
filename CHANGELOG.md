@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.3 (March 24, 2017)
+
+- Set `Button`'s `margin` property to `0`
+
 ## 0.4.3 (March 21, 2017)
 
 - Update `MultipleImages` to have a `rounded` flag to set a border-radius on itself
