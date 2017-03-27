@@ -1837,6 +1837,44 @@ exports[`Snapshots Icon moreIcon 1`] = `
 </span>
 `;
 
+exports[`Snapshots Icon newTabIcon 1`] = `
+<span>
+  <svg
+    className="icon shuttleGray"
+    height="100%"
+    version="1.1"
+    viewBox="0 0 16 16"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <g
+      className="shuttleGray"
+    >
+      <path
+        d="M10.0030683,3 L1.32719676,3 C0.598808254,3 0,3.5951808 0,4.32937352 L0,12.3372931 C0,13.0703241 0.594206228,13.6666667 1.32719676,13.6666667 L12.0061366,13.6666667 C12.7345251,13.6666667 13.3333333,13.0714859 13.3333333,12.3372931 L13.3333333,6.33135343 L13.3333333,8.33333333 L12,8.33333333 L12,12.3333333 L1.33333333,12.3333333 L1.33333333,4.33333333 L8,4.33333333 L8,3 L10.0030683,3 Z"
+      />
+      <rect
+        height="6.66666667"
+        id="Rectangle-5"
+        rx="0.666666667"
+        width="1.33333333"
+        x="12"
+        y="0.333333333"
+      />
+      <rect
+        height="1.33333333"
+        id="Rectangle-6"
+        rx="0.666666667"
+        width="6.66666667"
+        x="9.33333333"
+        y="3"
+      />
+    </g>
+  </svg>
+</span>
+`;
+
 exports[`Snapshots Icon pabloIcon 1`] = `
 <span>
   <svg
