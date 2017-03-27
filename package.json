@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "A shared set of UI Components",
   "main": "index.js",
   "scripts": {
@@ -40,18 +40,18 @@
   "devDependencies": {
     "@kadira/storybook": "2.35.3",
     "@kadira/storybook-deployer": "1.2.0",
-    "babel-cli": "6.23.0",
-    "babel-eslint": "7.1.1",
+    "babel-cli": "6.24.0",
+    "babel-eslint": "7.2.1",
     "babel-jest": "19.0.0",
-    "babel-preset-es2015": "6.22.0",
+    "babel-preset-es2015": "6.24.0",
     "babel-preset-react": "6.23.0",
     "babel-preset-stage-1": "6.22.0",
-    "css-loader": "0.26.2",
-    "eslint": "3.17.1",
+    "css-loader": "0.27.3",
+    "eslint": "3.18.0",
     "eslint-config-airbnb": "14.1.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
-    "eslint-plugin-react": "6.10.0",
+    "eslint-plugin-react": "6.10.3",
     "identity-obj-proxy": "3.0.0",
     "jest": "19.0.2",
     "postcss-custom-properties": "5.0.2",
@@ -64,7 +64,7 @@
     "react-test-renderer": "15.4.2",
     "storybook-addon-a11y": "0.0.4",
     "storyshots": "3.2.2",
-    "style-loader": "0.13.2"
+    "style-loader": "0.16.0"
   },
   "dependencies": {
     "uuid": "3.0.1"

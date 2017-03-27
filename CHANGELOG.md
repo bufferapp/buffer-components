@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.4.3 (March 24, 2017)
+## 0.4.5 (March 24, 2017)
+
+- Add `newTabIcon` config to `Icon` 
+
+## 0.4.4 (March 24, 2017)
 
 - Set `Button`'s `margin` property to `0`
 

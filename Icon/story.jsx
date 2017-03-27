@@ -54,6 +54,7 @@ import LinkIcon from './Icons/LinkIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
 import LockIcon from './Icons/LockIcon';
 import MoreIcon from './Icons/MoreIcon';
+import NewTabIcon from './Icons/NewTabIcon';
 import PabloIcon from './Icons/PabloIcon';
 import PersonIcon from './Icons/PersonIcon';
 import PersonsIcon from './Icons/PersonsIcon';
@@ -247,6 +248,9 @@ storiesOf('Icon')
   ))
   .add('moreIcon', () => (
     <MoreIcon />
+  ))
+  .add('newTabIcon', () => (
+    <NewTabIcon />
   ))
   .add('pabloIcon', () => (
     <PabloIcon />
