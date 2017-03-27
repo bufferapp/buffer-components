@@ -1862,6 +1862,14 @@ exports[`Snapshots Icon newTabIcon 1`] = `
         x="12"
         y="0.333333333"
       />
+      <rect
+        height="1.33333333"
+        id="Rectangle-6"
+        rx="0.666666667"
+        width="6.66666667"
+        x="9.33333333"
+        y="3"
+      />
     </g>
   </svg>
 </span>
