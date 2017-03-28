@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.6 (March 28, 2017)
+
+- Reduce `font-size-small` value from `0.9rem` to `0.8rem`
+
 ## 0.4.5 (March 24, 2017)
 
 - Add `newTabIcon` config to `Icon` 
