@@ -3614,6 +3614,14 @@ exports[`Snapshots Overlay default 1`] = `
 </span>
 `;
 
+exports[`Snapshots Popover default 1`] = `
+<span>
+  <div>
+    Popover
+  </div>
+</span>
+`;
+
 exports[`Snapshots Text Black 1`] = `
 <span>
   <span
