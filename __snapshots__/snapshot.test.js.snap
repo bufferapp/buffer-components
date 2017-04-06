@@ -3726,31 +3726,19 @@ exports[`Snapshots Text Thin 1`] = `
 
 exports[`Snapshots Text White 1`] = `
 <span>
-  <span
-    className="text white"
+  <div
+    style={
+      Object {
+        "backgroundColor": "black",
+      }
+    }
   >
-    The quick brown fox jumps over the lazy dog
-  </span>
-</span>
-`;
-
-exports[`Snapshots Text black 1`] = `
-<span>
-  <span
-    className="text black"
-  >
-    The quick brown fox jumps over the lazy dog
-  </span>
-</span>
-`;
-
-exports[`Snapshots Text blue 1`] = `
-<span>
-  <span
-    className="text blue"
-  >
-    The quick brown fox jumps over the lazy dog
-  </span>
+    <span
+      className="text white"
+    >
+      The quick brown fox jumps over the lazy dog
+    </span>
+  </div>
 </span>
 `;
 
