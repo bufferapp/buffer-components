@@ -17,6 +17,12 @@ storiesOf('LinkifiedText')
       {'a http://t.co/0JG5Mcq b'}
     </LinkifiedText>
   ))
+  .add('empty string', () => (
+    <LinkifiedText>{''}</LinkifiedText>
+  ))
+  .add('no links', () => (
+    <LinkifiedText>{'a b'}</LinkifiedText>
+  ))
   .add('two links', () => (
     <LinkifiedText
       links={[
@@ -36,10 +42,4 @@ storiesOf('LinkifiedText')
     >
       {'a http://t.co/0JG5Mcq b https://buffer.com c'}
     </LinkifiedText>
-  ))
-  .add('no links', () => (
-    <LinkifiedText>{'a b'}</LinkifiedText>
-  ))
-  .add('empty string', () => (
-    <LinkifiedText>{''}</LinkifiedText>
   ));
