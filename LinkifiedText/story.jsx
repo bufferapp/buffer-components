@@ -23,6 +23,19 @@ storiesOf('LinkifiedText')
   .add('no links', () => (
     <LinkifiedText>{'a b'}</LinkifiedText>
   ))
+  .add('size: small', () => (
+    <LinkifiedText
+      links={[{
+        rawString: 'http://t.co/0JG5Mcq',
+        displayString: 'blog.twitter.com/2011/05/twitte…',
+        url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
+        indices: [2, 21],
+      }]}
+      size={'small'}
+    >
+      {'a http://t.co/0JG5Mcq b'}
+    </LinkifiedText>
+  ))
   .add('two links', () => (
     <LinkifiedText
       links={[
