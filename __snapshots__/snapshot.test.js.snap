@@ -3630,7 +3630,7 @@ exports[`Snapshots Popover default 1`] = `
     </div>
     <div
       className="overlay"
-      onClick={undefined}
+      onClick={[Function]}
     />
   </span>
 </span>

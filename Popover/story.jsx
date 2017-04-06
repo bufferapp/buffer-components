@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf, action } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import Popover from './index';
 import Card from '../Card';
@@ -7,7 +7,7 @@ import Card from '../Card';
 storiesOf('Popover')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <Popover>
+    <Popover onOverlayClick={action('overlay-click')}>
       <Card>Popover</Card>
     </Popover>
   ));
