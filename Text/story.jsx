@@ -10,33 +10,38 @@ storiesOf('Text')
   .add('Default', () => (
     <Text>{text}</Text>
   ))
-  .add('ExtraSmall', () => (
-    <Text size={'extra-small'}>{text}</Text>
+  .add('Black', () => (
+    <Text color={'black'}>{text}</Text>
   ))
-  .add('Large', () => (
-    <Text size={'large'}>{text}</Text>
-  ))
-  .add('Small', () => (
-    <Text size={'small'}>{text}</Text>
+  .add('Blue', () => (
+    <Text color={'blue'}>{text}</Text>
   ))
   .add('Bold', () => (
     <Text weight={'bold'}>{text}</Text>
   ))
-  .add('Thin', () => (
-    <Text weight={'thin'}>{text}</Text>
-  ))
-  .add('black', () => (
-    <Text color={'black'}>{text}</Text>
-  ))
-  .add('blue', () => (
-    <Text color={'blue'}>{text}</Text>
+  .add('ExtraSmall', () => (
+    <Text size={'extra-small'}>{text}</Text>
   ))
   .add('Gray', () => (
     <Text color={'gray'}>{text}</Text>
   ))
+  .add('Large', () => (
+    <Text size={'large'}>{text}</Text>
+  ))
+  .add('Mini', () => (
+    <Text size={'mini'}>{text}</Text>
+  ))
   .add('Red', () => (
     <Text color={'red'}>{text}</Text>
   ))
+  .add('Small', () => (
+    <Text size={'small'}>{text}</Text>
+  ))
+  .add('Thin', () => (
+    <Text weight={'thin'}>{text}</Text>
+  ))
   .add('White', () => (
-    <Text color={'white'}>{text}</Text>
+    <div style={{ backgroundColor: 'black' }}>
+      <Text color={'white'}>{text}</Text>
+    </div>
   ));

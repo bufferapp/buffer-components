@@ -7,42 +7,46 @@
   color: var(--shuttle-gray);
 }
 
-.small {
-  font-size: var(--font-size-small);
-}
-
-.extraSmall {
-   font-size: var(--font-size-extra-small);
-}
-
-.large {
-  font-size: var(--font-size-large);
-}
-
-.thin {
-  font-weight: var(--font-weight-thin);
-}
-
-.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-.white {
-  color: var(--white);
-}
-
-.gray {
-  color: var(--outer-space-light);
-}
-
-.red {
-  color: var(--torch-red);
-}
-
 .black {
   color: var(--black);
 }
 
 .blue {
   color: var(--curious-blue);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.extraSmall {
+   font-size: var(--font-size-extra-small);
+}
+
+.gray {
+  color: var(--outer-space-light);
+}
+
+.large {
+  font-size: var(--font-size-large);
+}
+
+.mini {
+  font-size: var(--font-size-mini);
+}
+
+.red {
+  color: var(--torch-red);
+}
+
+.small {
+  font-size: var(--font-size-small);
+}
+
+.thin {
+  font-weight: var(--font-weight-thin);
+}
+
+.white {
+  color: var(--white);
 }
