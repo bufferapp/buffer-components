@@ -41,5 +41,7 @@ storiesOf('Text')
     <Text weight={'thin'}>{text}</Text>
   ))
   .add('White', () => (
-    <Text color={'white'}>{text}</Text>
+    <div style={{ backgroundColor: 'black' }}>
+      <Text color={'white'}>{text}</Text>
+    </div>
   ));
