@@ -11,6 +11,14 @@ storiesOf('Popover')
       <Card>Popover</Card>
     </Popover>
   ))
+  .add('left = 10rem', () => (
+    <Popover
+      onOverlayClick={action('overlay-click')}
+      left={'10rem'}
+    >
+      <Card>Popover</Card>
+    </Popover>
+  ))
   .add('transparent Overlay', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
