@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.8 (April 6, 2017)
+
+- Add `mini` config to `Text`
+
 ## 0.4.7 (April 6, 2017)
 
 - Remove `font-size` set on `Link`
