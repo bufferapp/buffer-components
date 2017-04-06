@@ -2783,6 +2783,23 @@ exports[`Snapshots LinkifiedText no links 1`] = `
 </span>
 `;
 
+exports[`Snapshots LinkifiedText size: small 1`] = `
+<span>
+  <span
+    className="text small"
+  >
+    a 
+    <a
+      className="link"
+      href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+    >
+      blog.twitter.com/2011/05/twitte…
+    </a>
+     b
+  </span>
+</span>
+`;
+
 exports[`Snapshots LinkifiedText two links 1`] = `
 <span>
   <span
@@ -3597,6 +3614,26 @@ exports[`Snapshots Overlay default 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text Black 1`] = `
+<span>
+  <span
+    className="text black"
+  >
+    The quick brown fox jumps over the lazy dog
+  </span>
+</span>
+`;
+
+exports[`Snapshots Text Blue 1`] = `
+<span>
+  <span
+    className="text blue"
+  >
+    The quick brown fox jumps over the lazy dog
+  </span>
+</span>
+`;
+
 exports[`Snapshots Text Bold 1`] = `
 <span>
   <span
@@ -3647,6 +3684,16 @@ exports[`Snapshots Text Large 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text Mini 1`] = `
+<span>
+  <span
+    className="text mini"
+  >
+    The quick brown fox jumps over the lazy dog
+  </span>
+</span>
+`;
+
 exports[`Snapshots Text Red 1`] = `
 <span>
   <span
@@ -3679,31 +3726,19 @@ exports[`Snapshots Text Thin 1`] = `
 
 exports[`Snapshots Text White 1`] = `
 <span>
-  <span
-    className="text white"
+  <div
+    style={
+      Object {
+        "backgroundColor": "black",
+      }
+    }
   >
-    The quick brown fox jumps over the lazy dog
-  </span>
-</span>
-`;
-
-exports[`Snapshots Text black 1`] = `
-<span>
-  <span
-    className="text black"
-  >
-    The quick brown fox jumps over the lazy dog
-  </span>
-</span>
-`;
-
-exports[`Snapshots Text blue 1`] = `
-<span>
-  <span
-    className="text blue"
-  >
-    The quick brown fox jumps over the lazy dog
-  </span>
+    <span
+      className="text white"
+    >
+      The quick brown fox jumps over the lazy dog
+    </span>
+  </div>
 </span>
 `;
 
