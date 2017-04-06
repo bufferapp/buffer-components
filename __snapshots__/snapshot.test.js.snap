@@ -3684,6 +3684,33 @@ exports[`Snapshots Popover default 1`] = `
 </span>
 `;
 
+exports[`Snapshots Popover transparent Overlay 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
 exports[`Snapshots Text Black 1`] = `
 <span>
   <span

@@ -10,4 +10,12 @@ storiesOf('Popover')
     <Popover onOverlayClick={action('overlay-click')}>
       <Card>Popover</Card>
     </Popover>
+  ))
+  .add('transparent Overlay', () => (
+    <Popover
+      onOverlayClick={action('overlay-click')}
+      transparentOverlay
+    >
+      <Card>Popover</Card>
+    </Popover>
   ));
