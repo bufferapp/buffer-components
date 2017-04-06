@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.9 (April 6, 2017)
+
+- Add `Popover` component
+
 ## 0.4.8 (April 6, 2017)
 
 - Add `mini` config to `Text`
@@ -15,7 +19,7 @@
 
 ## 0.4.5 (March 24, 2017)
 
-- Add `newTabIcon` config to `Icon` 
+- Add `newTabIcon` config to `Icon`
 
 ## 0.4.4 (March 24, 2017)
 
