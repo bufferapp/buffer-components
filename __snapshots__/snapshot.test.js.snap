@@ -3616,17 +3616,23 @@ exports[`Snapshots Overlay default 1`] = `
 
 exports[`Snapshots Popover default 1`] = `
 <span>
-  <div
-    className="popover"
-  >
+  <span>
     <div
-      className="card"
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      className="popover"
     >
-      Popover
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
     </div>
-  </div>
+    <div
+      className="overlay"
+      onClick={undefined}
+    />
+  </span>
 </span>
 `;
 
