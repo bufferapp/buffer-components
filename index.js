@@ -11,4 +11,5 @@ export ListItem from './ListItem';
 export NavBar from './NavBar';
 export MultipleImages from './MultipleImages';
 export Overlay from './Overlay';
+export Popover from './Popover';
 export Text from './Text';
