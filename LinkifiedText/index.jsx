@@ -36,8 +36,8 @@ const calulateLinkifiedText = (links, curString, calculatedElements = []) => {
   );
 };
 
-const LinkifiedText = ({ children, links }) =>
-  <Text>{calulateLinkifiedText(links, children)}</Text>;
+const LinkifiedText = ({ children, links, size }) =>
+  <Text size={size}>{calulateLinkifiedText(links, children)}</Text>;
 
 LinkifiedText.propTypes = {
   children: PropTypes.string,
@@ -49,6 +49,7 @@ LinkifiedText.propTypes = {
       indices: PropTypes.arrayOf(React.PropTypes.number),
     }),
   ),
+  size: PropTypes.string,
 };
 
 LinkifiedText.defaultProps = {

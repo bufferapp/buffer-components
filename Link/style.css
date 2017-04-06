@@ -1,9 +1,5 @@
 @import '../variables.css';
 
-.link {
-  font-size: var(--font-size);
-}
-
 .link:link,
 .link:visited {
   color: var(--curious-blue);
