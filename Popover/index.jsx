@@ -5,6 +5,7 @@ import Overlay from '../Overlay';
 const Popover = ({
   children,
   left,
+  top,
   onOverlayClick,
   transparentOverlay,
 }) =>
@@ -13,6 +14,7 @@ const Popover = ({
       className={styles.popover}
       style={{
         left,
+        top,
       }}
     >
       {children}
@@ -26,6 +28,7 @@ const Popover = ({
 Popover.propTypes = {
   children: PropTypes.node,
   left: PropTypes.string,
+  top: PropTypes.string,
   onOverlayClick: PropTypes.func,
   transparentOverlay: PropTypes.bool,
 };
