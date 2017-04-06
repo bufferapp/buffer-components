@@ -1,5 +1,12 @@
 @import '../variables.css';
 
+.text {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: var(--shuttle-gray);
+}
+
 .black {
   color: var(--black);
 }
@@ -24,19 +31,16 @@
   font-size: var(--font-size-large);
 }
 
+.mini {
+  font-size: var(--font-size-mini);
+}
+
 .red {
   color: var(--torch-red);
 }
 
 .small {
   font-size: var(--font-size-small);
-}
-
-.text {
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  font-weight: var(--font-weight);
-  color: var(--shuttle-gray);
 }
 
 .thin {
