@@ -28,6 +28,9 @@ storiesOf('Text')
   .add('Large', () => (
     <Text size={'large'}>{text}</Text>
   ))
+  .add('Mini', () => (
+    <Text size={'mini'}>{text}</Text>
+  ))
   .add('Red', () => (
     <Text color={'red'}>{text}</Text>
   ))

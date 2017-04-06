@@ -10,6 +10,7 @@ const Text = ({ children, size, weight, color }) => {
     extraSmall: size === 'extra-small',
     gray: color === 'gray',
     large: size === 'large',
+    mini: size === 'mini',
     red: color === 'red',
     small: size === 'small',
     thin: weight === 'thin',
