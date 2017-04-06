@@ -3609,6 +3609,49 @@ exports[`Snapshots Overlay default 1`] = `
     <div
       className="overlay"
       onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Overlay transparent=true 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      alt="Image"
+      className=""
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": undefined,
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": undefined,
+          "width": undefined,
+        }
+      }
+    />
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
     />
   </div>
 </span>
@@ -3631,6 +3674,11 @@ exports[`Snapshots Popover default 1`] = `
     <div
       className="overlay"
       onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
     />
   </span>
 </span>

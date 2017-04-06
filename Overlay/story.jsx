@@ -11,4 +11,10 @@ storiesOf('Overlay')
       <Image src={'http://lorempixel.com/400/400/cats/'} />
       <Overlay onClick={action('overlay-click')} />
     </div>
+  ))
+  .add('transparent=true', () => (
+    <div style={{ textAlign: 'center' }}>
+      <Image src={'http://lorempixel.com/400/400/cats/'} />
+      <Overlay onClick={action('overlay-click')} transparent />
+    </div>
   ));
