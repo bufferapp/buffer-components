@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.7 (April 6, 2017)
+
+- Remove `font-size` set on `Link`
+- Add `size` config to `LinkifiedText`
+
 ## 0.4.6 (March 28, 2017)
 
 - Reduce `font-size-small` value from `0.9rem` to `0.8rem`
