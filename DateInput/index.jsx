@@ -1,29 +1,28 @@
 import React, { PropTypes } from 'react';
 import styles from './style.css'; // 'react-day-picker' uses global BEM-like classes
-import DatePicker from 'react-day-picker';
+import DayPicker from 'react-day-picker';
+
+const inThePast = (day) => {
+  let now = new Date();
+  return day < now;
+};
 
 const DateInput = ({
-  datePickerDayModifiers,
-  value,
   onChange,
+  scheduledAt,
 }) =>
   <span>
-    <DatePicker
+    <DayPicker
+      disabledDays={inThePast}
       fromMonth={new Date()}
-      modifiers={datePickerDayModifiers}
       onDayClick={onChange}
-      //firstDayOfWeek={firstDayOfWeek}
+      selectedDays={scheduledAt}
     />
   </span>;
 
 DateInput.propTypes = {
-  value: PropTypes.string,
   onChange: PropTypes.func.isRequired,
-  datePickerDayModifiers: PropTypes.shape({
-    isToday: PropTypes.bool,
-    disabled: PropTypes.bool,
-    selected: PropTypes.bool,
-  }),
+  scheduledAt: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default DateInput;
