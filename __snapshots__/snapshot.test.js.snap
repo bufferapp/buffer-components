@@ -2414,6 +2414,20 @@ exports[`Snapshots Icon warningIcon 1`] = `
 </span>
 `;
 
+exports[`Snapshots IdTag Default 1`] = `
+<span>
+  <span
+    className="label"
+  >
+    <span
+      className="text white"
+    >
+      GIF
+    </span>
+  </span>
+</span>
+`;
+
 exports[`Snapshots Image Default 1`] = `
 <span>
   <img
