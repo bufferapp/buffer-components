@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.10 (April 10, 2017)
+
+- Add `cursor: default;` to disabled Button component
+
 ## 0.4.9 (April 6, 2017)
 
 - Add `Popover` component
