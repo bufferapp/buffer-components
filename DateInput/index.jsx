@@ -3,13 +3,14 @@ import styles from './style.css'; // 'react-day-picker' uses global BEM-like cla
 import DayPicker from 'react-day-picker';
 
 const inThePast = (day) => {
-  let now = new Date();
-  return day < now;
+  const now = new Date();
+  const isToday = day.toDateString() === now.toDateString();
+  return (day < now) && !isToday;
 };
 
 const DateInput = ({
   onChange,
-  scheduledAt,
+  selectedDay,
 }) =>
   <span>
     <DayPicker
@@ -19,13 +20,13 @@ const DateInput = ({
         if (disabled) return;
         onChange(day);
       }}
-      selectedDays={scheduledAt}
+      selectedDays={selectedDay}
     />
   </span>;
 
 DateInput.propTypes = {
   onChange: PropTypes.func.isRequired,
-  scheduledAt: PropTypes.instanceOf(Date).isRequired,
+  selectedDay: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default DateInput;
