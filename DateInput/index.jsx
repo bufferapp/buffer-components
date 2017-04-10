@@ -15,7 +15,10 @@ const DateInput = ({
     <DayPicker
       disabledDays={inThePast}
       fromMonth={new Date()}
-      onDayClick={onChange}
+      onDayClick={ (day, { disabled }) => {
+        if (disabled) return;
+        onChange(day);
+      }}
       selectedDays={scheduledAt}
     />
   </span>;
