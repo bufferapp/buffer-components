@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.4.10 (April 11, 2017)
+## 0.4.11 (April 11, 2017)
 
 - Add `Input`, `InputEmail` and `InputPassword` components
 
