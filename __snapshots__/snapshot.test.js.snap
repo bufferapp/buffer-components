@@ -2920,6 +2920,75 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
 </span>
 `;
 
+exports[`Snapshots InputPassword default 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword with error 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Password
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+    <div
+      className="error"
+    >
+      <span
+        className="text red"
+      >
+        invalid password
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword with label 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Password
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
 exports[`Snapshots Link Default 1`] = `
 <span>
   <div>
