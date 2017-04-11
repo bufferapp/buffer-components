@@ -22,7 +22,7 @@ const renderError = ({ error, touched }) => (
 
 /* eslint-enable react/prop-types */
 
-const InputText = ({ input, label, meta, placeholder }) =>
+const Input = ({ input, label, meta, placeholder, type }) =>
   <div>
     {renderLabel({ label })}
     <input
@@ -30,11 +30,12 @@ const InputText = ({ input, label, meta, placeholder }) =>
       value={input.value}
       onChange={input.onChange}
       placeholder={placeholder}
+      type={type}
     />
     {renderError(meta)}
   </div>;
 
-InputText.propTypes = {
+Input.propTypes = {
   input: PropTypes.shape({
     value: PropTypes.string,
   }),
@@ -44,11 +45,17 @@ InputText.propTypes = {
     touched: PropTypes.bool,
   }),
   placeholder: PropTypes.string,
+  type: PropTypes.oneOf([
+    'text',
+    'password',
+    'email',
+  ]),
 };
 
-InputText.defaultProps = {
+Input.defaultProps = {
   input: {},
   meta: {},
+  type: 'text',
 };
 
-export default InputText;
+export default Input;

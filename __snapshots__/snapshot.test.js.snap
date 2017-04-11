@@ -2708,20 +2708,21 @@ exports[`Snapshots Image wide image 1`] = `
 </span>
 `;
 
-exports[`Snapshots InputText default 1`] = `
+exports[`Snapshots Input default 1`] = `
 <span>
   <div>
     <input
       className="input"
       onChange={[Function]}
       placeholder={undefined}
+      type="text"
       value="user123"
     />
   </div>
 </span>
 `;
 
-exports[`Snapshots InputText with error 1`] = `
+exports[`Snapshots Input with error 1`] = `
 <span>
   <div>
     <div
@@ -2737,6 +2738,7 @@ exports[`Snapshots InputText with error 1`] = `
       className="input"
       onChange={[Function]}
       placeholder={undefined}
+      type="text"
       value="user123"
     />
     <div
@@ -2752,7 +2754,7 @@ exports[`Snapshots InputText with error 1`] = `
 </span>
 `;
 
-exports[`Snapshots InputText with label 1`] = `
+exports[`Snapshots Input with label 1`] = `
 <span>
   <div>
     <div
@@ -2768,13 +2770,14 @@ exports[`Snapshots InputText with label 1`] = `
       className="input"
       onChange={[Function]}
       placeholder={undefined}
+      type="text"
       value="user123"
     />
   </div>
 </span>
 `;
 
-exports[`Snapshots InputText with placeholder 1`] = `
+exports[`Snapshots Input with placeholder 1`] = `
 <span>
   <div>
     <div
@@ -2790,7 +2793,36 @@ exports[`Snapshots InputText with placeholder 1`] = `
       className="input"
       onChange={undefined}
       placeholder="ex: kitteh1234"
+      type="text"
       value={undefined}
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with type = email 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with type = password 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="user123"
     />
   </div>
 </span>

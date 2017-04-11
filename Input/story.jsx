@@ -1,23 +1,23 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
-import InputText from './index';
+import Input from './index';
 
 const input = {
   value: 'user123',
   onChange: action('on-change'),
 };
 
-storiesOf('InputText')
+storiesOf('Input')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <InputText input={input} />
+    <Input input={input} />
   ))
   .add('with label', () => (
-    <InputText input={input} label={'Username'} />
+    <Input input={input} label={'Username'} />
   ))
   .add('with error', () => (
-    <InputText
+    <Input
       label={'Username'}
       input={input}
       meta={{
@@ -27,8 +27,23 @@ storiesOf('InputText')
     />
   ))
   .add('with placeholder', () => (
-    <InputText
+    <Input
       label={'Username'}
       placeholder={'ex: kitteh1234'}
+    />
+  ))
+  .add('with type = password', () => (
+    <Input
+      input={input}
+      type={'password'}
+    />
+  ))
+  .add('with type = email', () => (
+    <Input
+      input={{
+        value: 'test@test.com',
+        onChange: action('on-change'),
+      }}
+      type={'email'}
     />
   ));
