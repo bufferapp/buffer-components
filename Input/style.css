@@ -15,10 +15,14 @@
   border-color: var(--curious-blue);
 }
 
+.input.input-error {
+  border-color: var(--torch-red);
+}
+
 .label {
   margin-bottom: 1rem;
 }
 
-.error {
+.error-label {
   margin-top: 1rem;
 }

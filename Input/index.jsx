@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import { classNames } from '../lib/utils';
 import styles from './style.css';
 import Text from '../Text';
 
@@ -14,7 +15,7 @@ const renderLabel = ({ label }) => (
 
 const renderError = ({ error, touched }) => (
   error && touched ? (
-    <div className={styles.error}>
+    <div className={styles['error-label']}>
       <Text color={'red'}>{ error }</Text>
     </div>
   ) : null
@@ -26,7 +27,9 @@ const Input = ({ input, label, meta, placeholder, type }) =>
   <div>
     {renderLabel({ label })}
     <input
-      className={styles.input}
+      className={classNames(styles, 'input', {
+        'input-error': meta.error && meta.touched,
+      })}
       value={input.value}
       onChange={input.onChange}
       placeholder={placeholder}

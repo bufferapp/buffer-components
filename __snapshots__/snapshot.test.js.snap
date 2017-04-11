@@ -2735,14 +2735,14 @@ exports[`Snapshots Input with error 1`] = `
       </span>
     </div>
     <input
-      className="input"
+      className="input input-error"
       onChange={[Function]}
       placeholder={undefined}
       type="text"
       value="user123"
     />
     <div
-      className="error"
+      className="error-label"
     >
       <span
         className="text red"
@@ -2855,14 +2855,14 @@ exports[`Snapshots InputEmail with error 1`] = `
       </span>
     </div>
     <input
-      className="input"
+      className="input input-error"
       onChange={[Function]}
       placeholder={undefined}
       type="email"
       value="test@test.com"
     />
     <div
-      className="error"
+      className="error-label"
     >
       <span
         className="text red"
@@ -2947,14 +2947,14 @@ exports[`Snapshots InputPassword with error 1`] = `
       </span>
     </div>
     <input
-      className="input"
+      className="input input-error"
       onChange={[Function]}
       placeholder={undefined}
       type="password"
       value="password"
     />
     <div
-      className="error"
+      className="error-label"
     >
       <span
         className="text red"
