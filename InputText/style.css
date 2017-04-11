@@ -14,3 +14,7 @@
 .input:focus {
   border-color: var(--curious-blue);
 }
+
+.label {
+  margin-bottom: 1rem;
+}

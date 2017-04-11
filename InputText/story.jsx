@@ -12,4 +12,7 @@ storiesOf('InputText')
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputText input={input} />
+  ))
+  .add('with label', () => (
+    <InputText input={input} label={'Username'} />
   ));
