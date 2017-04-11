@@ -2708,6 +2708,14 @@ exports[`Snapshots Image wide image 1`] = `
 </span>
 `;
 
+exports[`Snapshots InputText default 1`] = `
+<span>
+  <div>
+    InputText
+  </div>
+</span>
+`;
+
 exports[`Snapshots Link Default 1`] = `
 <span>
   <div>
