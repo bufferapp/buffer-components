@@ -1,10 +1,11 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf, action } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import InputText from './index';
 
 const input = {
   value: 'hi',
+  onChange: action('on-change'),
 };
 
 storiesOf('InputText')

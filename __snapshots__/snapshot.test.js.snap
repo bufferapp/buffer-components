@@ -2711,6 +2711,7 @@ exports[`Snapshots Image wide image 1`] = `
 exports[`Snapshots InputText default 1`] = `
 <span>
   <input
+    onChange={[Function]}
     value="hi"
   />
 </span>
