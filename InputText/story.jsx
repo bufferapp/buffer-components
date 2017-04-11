@@ -15,4 +15,14 @@ storiesOf('InputText')
   ))
   .add('with label', () => (
     <InputText input={input} label={'Username'} />
+  ))
+  .add('with error', () => (
+    <InputText
+      label={'Username'}
+      input={input}
+      meta={{
+        error: 'unknown user',
+        touched: true,
+      }}
+    />
   ));

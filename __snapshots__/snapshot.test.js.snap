@@ -2720,6 +2720,36 @@ exports[`Snapshots InputText default 1`] = `
 </span>
 `;
 
+exports[`Snapshots InputText with error 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Username
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      value="hi"
+    />
+    <div
+      className="error"
+    >
+      <span
+        className="text red"
+      >
+        unknown user
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
 exports[`Snapshots InputText with label 1`] = `
 <span>
   <div>

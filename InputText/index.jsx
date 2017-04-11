@@ -12,9 +12,17 @@ const renderLabel = ({ label }) => (
   ) : null
 );
 
+const renderError = ({ error, touched }) => (
+  error && touched ? (
+    <div className={styles.error}>
+      <Text color={'red'}>{ error }</Text>
+    </div>
+  ) : null
+);
+
 /* eslint-enable react/prop-types */
 
-const InputText = ({ input, label }) =>
+const InputText = ({ input, label, meta = {} }) =>
   <div>
     {renderLabel({ label })}
     <input
@@ -22,6 +30,7 @@ const InputText = ({ input, label }) =>
       value={input.value}
       onChange={input.onChange}
     />
+    {renderError(meta)}
   </div>;
 
 InputText.propTypes = {
@@ -29,6 +38,10 @@ InputText.propTypes = {
     value: PropTypes.string,
   }),
   label: PropTypes.string,
+  meta: PropTypes.shape({
+    error: PropTypes.string,
+    touched: PropTypes.bool,
+  }),
 };
 
 export default InputText;
