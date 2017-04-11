@@ -2710,9 +2710,9 @@ exports[`Snapshots Image wide image 1`] = `
 
 exports[`Snapshots InputText default 1`] = `
 <span>
-  <div>
-    InputText
-  </div>
+  <input
+    value="hi"
+  />
 </span>
 `;
 
