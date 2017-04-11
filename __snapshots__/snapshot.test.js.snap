@@ -2414,6 +2414,20 @@ exports[`Snapshots Icon warningIcon 1`] = `
 </span>
 `;
 
+exports[`Snapshots IdTag Default 1`] = `
+<span>
+  <span
+    className="label"
+  >
+    <span
+      className="text white"
+    >
+      GIF
+    </span>
+  </span>
+</span>
+`;
+
 exports[`Snapshots Image Default 1`] = `
 <span>
   <img
@@ -3609,8 +3623,216 @@ exports[`Snapshots Overlay default 1`] = `
     <div
       className="overlay"
       onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
     />
   </div>
+</span>
+`;
+
+exports[`Snapshots Overlay transparent=true 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    <img
+      alt="Image"
+      className=""
+      src="http://lorempixel.com/400/400/cats/"
+      style={
+        Object {
+          "height": undefined,
+          "maxHeight": undefined,
+          "maxWidth": undefined,
+          "minHeight": undefined,
+          "minWidth": undefined,
+          "objectFit": undefined,
+          "width": undefined,
+        }
+      }
+    />
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Popover default 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "left": undefined,
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover left = 10rem 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "left": "10rem",
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover top = 10rem 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "left": undefined,
+          "top": "10rem",
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "left": "10rem",
+          "top": "10rem",
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover transparent Overlay 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "left": undefined,
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    />
+  </span>
 </span>
 `;
 
