@@ -1,0 +1,16 @@
+@import '../variables.css';
+
+.input {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--geyser);
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.input:focus {
+  border-color: var(--curious-blue);
+}
