@@ -35,7 +35,7 @@ const Input = ({ input, label, meta, placeholder, type }) =>
     {renderError(meta)}
   </div>;
 
-Input.propTypes = {
+Input.commonPropTypes = {
   input: PropTypes.shape({
     value: PropTypes.string,
   }),
@@ -45,6 +45,10 @@ Input.propTypes = {
     touched: PropTypes.bool,
   }),
   placeholder: PropTypes.string,
+};
+
+Input.propTypes = {
+  ...Input.commonPropTypes,
   type: PropTypes.oneOf([
     'text',
     'password',
