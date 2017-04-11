@@ -4,7 +4,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import InputText from './index';
 
 const input = {
-  value: 'hi',
+  value: 'user123',
   onChange: action('on-change'),
 };
 
@@ -24,5 +24,11 @@ storiesOf('InputText')
         error: 'unknown user',
         touched: true,
       }}
+    />
+  ))
+  .add('with placeholder', () => (
+    <InputText
+      label={'Username'}
+      placeholder={'ex: kitteh1234'}
     />
   ));

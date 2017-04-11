@@ -22,13 +22,14 @@ const renderError = ({ error, touched }) => (
 
 /* eslint-enable react/prop-types */
 
-const InputText = ({ input, label, meta = {} }) =>
+const InputText = ({ input, label, meta, placeholder }) =>
   <div>
     {renderLabel({ label })}
     <input
       className={styles.input}
       value={input.value}
       onChange={input.onChange}
+      placeholder={placeholder}
     />
     {renderError(meta)}
   </div>;
@@ -42,6 +43,12 @@ InputText.propTypes = {
     error: PropTypes.string,
     touched: PropTypes.bool,
   }),
+  placeholder: PropTypes.string,
+};
+
+InputText.defaultProps = {
+  input: {},
+  meta: {},
 };
 
 export default InputText;

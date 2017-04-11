@@ -2714,7 +2714,8 @@ exports[`Snapshots InputText default 1`] = `
     <input
       className="input"
       onChange={[Function]}
-      value="hi"
+      placeholder={undefined}
+      value="user123"
     />
   </div>
 </span>
@@ -2735,7 +2736,8 @@ exports[`Snapshots InputText with error 1`] = `
     <input
       className="input"
       onChange={[Function]}
-      value="hi"
+      placeholder={undefined}
+      value="user123"
     />
     <div
       className="error"
@@ -2765,7 +2767,30 @@ exports[`Snapshots InputText with label 1`] = `
     <input
       className="input"
       onChange={[Function]}
-      value="hi"
+      placeholder={undefined}
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputText with placeholder 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Username
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={undefined}
+      placeholder="ex: kitteh1234"
+      value={undefined}
     />
   </div>
 </span>
