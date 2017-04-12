@@ -2414,6 +2414,20 @@ exports[`Snapshots Icon warningIcon 1`] = `
 </span>
 `;
 
+exports[`Snapshots IdTag Default 1`] = `
+<span>
+  <span
+    className="label"
+  >
+    <span
+      className="text white"
+    >
+      GIF
+    </span>
+  </span>
+</span>
+`;
+
 exports[`Snapshots Image Default 1`] = `
 <span>
   <img
@@ -2705,6 +2719,287 @@ exports[`Snapshots Image wide image 1`] = `
       }
     }
   />
+</span>
+`;
+
+exports[`Snapshots Input default 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="text"
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with error 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Username
+      </span>
+    </div>
+    <input
+      className="input input-error"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="text"
+      value="user123"
+    />
+    <div
+      className="error-label"
+    >
+      <span
+        className="text red"
+      >
+        unknown user
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with label 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Username
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="text"
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with placeholder 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Username
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={undefined}
+      placeholder="ex: kitteh1234"
+      type="text"
+      value={undefined}
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with type = email 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with type = password 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail default 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail with error 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Email
+      </span>
+    </div>
+    <input
+      className="input input-error"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
+    />
+    <div
+      className="error-label"
+    >
+      <span
+        className="text red"
+      >
+        unknown email address
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail with label 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Email
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail with placeholder 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Email
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={undefined}
+      placeholder="ex: test@test.com"
+      type="email"
+      value={undefined}
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword default 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword with error 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Password
+      </span>
+    </div>
+    <input
+      className="input input-error"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+    <div
+      className="error-label"
+    >
+      <span
+        className="text red"
+      >
+        invalid password
+      </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword with label 1`] = `
+<span>
+  <div>
+    <div
+      className="label"
+    >
+      <span
+        className="text"
+      >
+        Password
+      </span>
+    </div>
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+  </div>
 </span>
 `;
 
