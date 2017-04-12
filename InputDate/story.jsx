@@ -33,4 +33,16 @@ storiesOf('InputDate')
       }}
       allowSelectPastDays
     />
+  ))
+  .add('with error', () => (
+    <InputDate
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      meta={{
+        error: 'a date must be selected',
+        touched: true,
+      }}
+    />
   ));
