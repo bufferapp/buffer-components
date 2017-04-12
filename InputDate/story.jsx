@@ -24,4 +24,13 @@ storiesOf('InputDate')
         onChange: action('on-change'),
       }}
     />
+  ))
+  .add('with past dates selectable', () => (
+    <InputDate
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      allowSelectPastDays
+    />
   ));

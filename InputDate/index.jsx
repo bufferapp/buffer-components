@@ -8,9 +8,9 @@ const inThePast = (day) => {
   return (day < now) && !isToday;
 };
 
-const InputDate = ({ input: { value, onChange } }) =>
+const InputDate = ({ input: { value, onChange }, allowSelectPastDays }) =>
   <DayPicker
-    disabledDays={inThePast}
+    disabledDays={allowSelectPastDays ? undefined : inThePast}
     fromMonth={new Date()}
     onDayClick={(day, { disabled }) => {
       if (disabled) return;
@@ -24,6 +24,7 @@ InputDate.propTypes = {
     value: PropTypes.date,
     onChange: PropTypes.func,
   }),
+  allowSelectPastDays: PropTypes.bool,
 };
 
 export default InputDate;
