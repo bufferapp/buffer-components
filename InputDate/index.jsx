@@ -8,23 +8,21 @@ const inThePast = (day) => {
   return (day < now) && !isToday;
 };
 
-const InputDate = ({ input }) =>
-  <span>
-    <DayPicker
-      disabledDays={inThePast}
-      fromMonth={new Date()}
-      onDayClick={(day, { disabled }) => {
-        if (disabled) return;
-        input.onChange(day);
-      }}
-      selectedDays={input.value}
-    />
-  </span>;
+const InputDate = ({ input: { value, onChange } }) =>
+  <DayPicker
+    disabledDays={inThePast}
+    fromMonth={new Date()}
+    onDayClick={(day, { disabled }) => {
+      if (disabled) return;
+      onChange(day);
+    }}
+    selectedDays={!value ? null : new Date(value)}
+  />;
 
 InputDate.propTypes = {
   input: PropTypes.shape({
-    value: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired,
+    value: PropTypes.date,
+    onChange: PropTypes.func,
   }),
 };
 
