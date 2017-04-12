@@ -1,8 +1,17 @@
 # Changelog
 
+## 0.4.12 (April 12, 2017)
+
+- Add `cursor: default;` to disabled Button component
+
+## 0.4.11 (April 11, 2017)
+
+- Add `Input`, `InputEmail` and `InputPassword` components
+
 ## 0.4.10 (April 11, 2017)
 
 - Add `IdTag` component
+
 
 ## 0.4.9 (April 6, 2017)
 

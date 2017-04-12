@@ -33,6 +33,7 @@
 .button:disabled {
   color: var(--white);
   background: var(--curious-blue);
+  cursor: default;
 }
 
 .button:disabled,
