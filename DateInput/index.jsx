@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
-import styles from './style.css'; // 'react-day-picker' uses global BEM-like classes
 import DayPicker from 'react-day-picker';
+import './style.css'; // 'react-day-picker' uses global BEM-like classes
 
 const inThePast = (day) => {
   const now = new Date();
@@ -16,7 +16,7 @@ const DateInput = ({
     <DayPicker
       disabledDays={inThePast}
       fromMonth={new Date()}
-      onDayClick={ (day, { disabled }) => {
+      onDayClick={(day, { disabled }) => {
         if (disabled) return;
         onChange(day);
       }}
