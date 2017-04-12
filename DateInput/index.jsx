@@ -10,7 +10,7 @@ const inThePast = (day) => {
 
 const DateInput = ({
   onChange,
-  selectedDay,
+  value,
 }) =>
   <span>
     <DayPicker
@@ -20,13 +20,13 @@ const DateInput = ({
         if (disabled) return;
         onChange(day);
       }}
-      selectedDays={selectedDay}
+      selectedDays={value}
     />
   </span>;
 
 DateInput.propTypes = {
   onChange: PropTypes.func.isRequired,
-  selectedDay: PropTypes.instanceOf(Date).isRequired,
+  value: PropTypes.instanceOf(Date).isRequired,
 };
 
 export default DateInput;
