@@ -8,7 +8,7 @@ const inThePast = (day) => {
   return (day < now) && !isToday;
 };
 
-const DateInput = ({ input }) =>
+const InputDate = ({ input }) =>
   <span>
     <DayPicker
       disabledDays={inThePast}
@@ -21,11 +21,11 @@ const DateInput = ({ input }) =>
     />
   </span>;
 
-DateInput.propTypes = {
+InputDate.propTypes = {
   input: PropTypes.shape({
     value: PropTypes.string.isRequired,
     onChange: PropTypes.func.isRequired,
   }),
 };
 
-export default DateInput;
+export default InputDate;

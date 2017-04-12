@@ -4,7 +4,7 @@ import {
   action,
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
-import DateInput from './index';
+import InputDate from './index';
 
 const input = {
   value: new Date(),
@@ -12,10 +12,10 @@ const input = {
 };
 
 
-storiesOf('DateInput')
+storiesOf('InputDate')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <DateInput
+    <InputDate
       input={input}
     />
   ));
