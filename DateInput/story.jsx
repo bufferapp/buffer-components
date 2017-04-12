@@ -14,6 +14,5 @@ storiesOf('DateInput')
     <DateInput
       onChange={action('change-event')}
       value={value}
-    >
-    </DateInput>
+    />
   ));
