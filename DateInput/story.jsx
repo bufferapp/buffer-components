@@ -6,13 +6,16 @@ import {
 import { checkA11y } from 'storybook-addon-a11y';
 import DateInput from './index';
 
-const value = new Date();
+const input = {
+  value: new Date(),
+  onChange: action('change-event'),
+};
+
 
 storiesOf('DateInput')
   .addDecorator(checkA11y)
   .add('default', () => (
     <DateInput
-      onChange={action('change-event')}
-      value={value}
+      input={input}
     />
   ));
