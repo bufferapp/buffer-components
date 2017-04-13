@@ -3191,10 +3191,10 @@ exports[`Snapshots InputDate default 1`] = `
               11
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Wed Apr 12 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3211,7 +3211,7 @@ exports[`Snapshots InputDate default 1`] = `
               aria-disabled="false"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3915,10 +3915,10 @@ exports[`Snapshots InputDate with day selected 1`] = `
               11
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Wed Apr 12 2017"
-              aria-selected="true"
-              className="DayPicker-Day DayPicker-Day--selected DayPicker-Day--today"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3934,8 +3934,8 @@ exports[`Snapshots InputDate with day selected 1`] = `
             <div
               aria-disabled="false"
               aria-label="Thu Apr 13 2017"
-              aria-selected="false"
-              className="DayPicker-Day"
+              aria-selected="true"
+              className="DayPicker-Day DayPicker-Day--selected DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4639,10 +4639,10 @@ exports[`Snapshots InputDate with error 1`] = `
               11
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Wed Apr 12 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4659,7 +4659,7 @@ exports[`Snapshots InputDate with error 1`] = `
               aria-disabled="false"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -5375,7 +5375,7 @@ exports[`Snapshots InputDate with past dates selectable 1`] = `
               aria-disabled="false"
               aria-label="Wed Apr 12 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -5392,7 +5392,7 @@ exports[`Snapshots InputDate with past dates selectable 1`] = `
               aria-disabled="false"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
