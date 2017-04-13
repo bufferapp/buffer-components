@@ -13,4 +13,35 @@ storiesOf('InputTime')
   ))
   .add('with 24 hour selection', () => (
     <InputTime select24Hours />
+  ))
+  .add('with value set', () => (
+    <InputTime
+      input={{
+        value: {
+          hours: 10,
+          minutes: 32,
+        },
+      }}
+    />
+  ))
+  .add('with afternoon value set', () => (
+    <InputTime
+      input={{
+        value: {
+          hours: 12,
+          minutes: 32,
+        },
+      }}
+    />
+  ))
+  .add('with afternoon value set and 24 hour selection', () => (
+    <InputTime
+      input={{
+        value: {
+          hours: 16,
+          minutes: 33,
+        },
+      }}
+      select24Hours
+    />
   ));
