@@ -5908,6 +5908,14 @@ exports[`Snapshots InputPassword with label 1`] = `
 </span>
 `;
 
+exports[`Snapshots InputTime default 1`] = `
+<span>
+  <div>
+    InputTime
+  </div>
+</span>
+`;
+
 exports[`Snapshots Link Default 1`] = `
 <span>
   <div>
