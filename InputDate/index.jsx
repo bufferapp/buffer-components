@@ -28,8 +28,9 @@ const InputDate = ({ input: { value, onChange }, allowSelectPastDays, meta }) =>
       disabledDays={allowSelectPastDays ? undefined : inThePast}
       fromMonth={new Date()}
       onDayClick={(day, { disabled }) => {
-        if (disabled) return;
-        onChange(day);
+        if (!disabled) {
+          onChange(day);
+        }
       }}
       selectedDays={!value ? null : new Date(value)}
     />
