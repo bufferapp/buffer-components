@@ -4,3 +4,5 @@ node_js:
   - "6"
 notifications:
   slack: buffer:1BH6SijgzfGrsX3b2I8PHyET
+  on_success: never
+  on_failure: always
