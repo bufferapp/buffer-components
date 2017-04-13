@@ -10,4 +10,7 @@ storiesOf('InputTime')
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputTime />
+  ))
+  .add('with 24 hour selection', () => (
+    <InputTime select24Hours />
   ));
