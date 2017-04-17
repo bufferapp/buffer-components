@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.15 (April 17, 2017)
+
+- Add `InputTime` component
+
 ## 0.4.14 (April 17, 2017)
 
 - Add `newTab` and `unstyled` config to `LinkifiedText` component
