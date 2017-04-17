@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import styles from './style.css';
 
 // generate array of numbers (inclusive)
 const genArray = (start, end) => [...Array(end + 1).keys()].slice(start);
@@ -26,6 +27,7 @@ const InputTime = ({
 }) =>
   <div>
     <select
+      className={styles['select-with-margin']}
       value={value.hours}
       onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
     >
@@ -36,6 +38,7 @@ const InputTime = ({
       }
     </select>
     <select
+      className={!select24Hours ? styles['select-with-margin'] : undefined}
       value={value.minutes}
       onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
     >

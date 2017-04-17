@@ -5930,6 +5930,7 @@ exports[`Snapshots InputTime default 1`] = `
 <span>
   <div>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={0}
     >
@@ -5995,6 +5996,7 @@ exports[`Snapshots InputTime default 1`] = `
       </option>
     </select>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={0}
     >
@@ -6322,6 +6324,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
 <span>
   <div>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={0}
     >
@@ -6447,6 +6450,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
       </option>
     </select>
     <select
+      className={undefined}
       onChange={[Function]}
       value={0}
     >
@@ -6759,6 +6763,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
 <span>
   <div>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={12}
     >
@@ -6824,6 +6829,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       </option>
     </select>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={32}
     >
@@ -7151,6 +7157,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
 <span>
   <div>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={16}
     >
@@ -7276,6 +7283,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
       </option>
     </select>
     <select
+      className={undefined}
       onChange={[Function]}
       value={33}
     >
@@ -7588,6 +7596,7 @@ exports[`Snapshots InputTime with value set 1`] = `
 <span>
   <div>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={10}
     >
@@ -7653,6 +7662,7 @@ exports[`Snapshots InputTime with value set 1`] = `
       </option>
     </select>
     <select
+      className="select-with-margin"
       onChange={[Function]}
       value={32}
     >
