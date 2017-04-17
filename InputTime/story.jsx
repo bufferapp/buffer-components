@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   storiesOf,
+  action,
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import InputTime from './index';
@@ -21,6 +22,7 @@ storiesOf('InputTime')
           hours: 10,
           minutes: 32,
         },
+        onChange: action('on-change'),
       }}
     />
   ))
@@ -31,6 +33,7 @@ storiesOf('InputTime')
           hours: 12,
           minutes: 32,
         },
+        onChange: action('on-change'),
       }}
     />
   ))
@@ -41,6 +44,7 @@ storiesOf('InputTime')
           hours: 16,
           minutes: 33,
         },
+        onChange: action('on-change'),
       }}
       select24Hours
     />

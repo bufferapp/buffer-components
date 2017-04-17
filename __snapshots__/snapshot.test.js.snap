@@ -5930,6 +5930,7 @@ exports[`Snapshots InputTime default 1`] = `
 <span>
   <div>
     <select
+      onChange={[Function]}
       value={0}
     >
       <option
@@ -5994,6 +5995,7 @@ exports[`Snapshots InputTime default 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value={0}
     >
       <option
@@ -6298,6 +6300,7 @@ exports[`Snapshots InputTime default 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value="am"
     >
       <option
@@ -6319,6 +6322,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
 <span>
   <div>
     <select
+      onChange={[Function]}
       value={0}
     >
       <option
@@ -6443,6 +6447,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value={0}
     >
       <option
@@ -6754,6 +6759,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
 <span>
   <div>
     <select
+      onChange={[Function]}
       value={12}
     >
       <option
@@ -6818,6 +6824,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value={32}
     >
       <option
@@ -7122,6 +7129,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value="pm"
     >
       <option
@@ -7143,6 +7151,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
 <span>
   <div>
     <select
+      onChange={[Function]}
       value={16}
     >
       <option
@@ -7267,6 +7276,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
       </option>
     </select>
     <select
+      onChange={[Function]}
       value={33}
     >
       <option
@@ -7578,6 +7588,7 @@ exports[`Snapshots InputTime with value set 1`] = `
 <span>
   <div>
     <select
+      onChange={[Function]}
       value={10}
     >
       <option
@@ -7642,6 +7653,7 @@ exports[`Snapshots InputTime with value set 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value={32}
     >
       <option
@@ -7946,6 +7958,7 @@ exports[`Snapshots InputTime with value set 1`] = `
       </option>
     </select>
     <select
+      onChange={[Function]}
       value="am"
     >
       <option
