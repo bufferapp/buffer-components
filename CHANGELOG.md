@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.14 (April 17, 2017)
+
+- Add `newTab` and `unstyled` config to `LinkifiedText` component
+
 ## 0.4.13 (April 17, 2017)
 
 - Add `newTab` config to `Link` component
