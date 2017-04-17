@@ -5,6 +5,7 @@ import styles from './style.css';
 const Link = ({
   children,
   href,
+  newTab,
   unstyled,
 }) => {
   const classes = classNames(styles, 'link', {
@@ -12,7 +13,7 @@ const Link = ({
   });
 
   return (
-    <a className={classes} href={href}>
+    <a className={classes} href={href} target={newTab ? '_blank' : '_self'}>
       {children}
     </a>
   );
@@ -21,6 +22,7 @@ const Link = ({
 Link.propTypes = {
   children: PropTypes.node,
   href: PropTypes.string,
+  newTab: PropTypes.bool,
   unstyled: PropTypes.bool,
 };
 
