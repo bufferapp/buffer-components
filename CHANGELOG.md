@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.13 (April 17, 2017)
+
+- Add `newTab` config to `Link` component
+
 ## 0.4.12 (April 12, 2017)
 
 - Add `cursor: default;` to `disabled` config of `Button` component
