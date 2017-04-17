@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import uuid from 'uuid';
 import ListItem from '../ListItem';
 import style from './style.css';

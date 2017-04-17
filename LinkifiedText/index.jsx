@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import Text from '../Text';
 import Link from '../Link';
 
@@ -56,7 +57,7 @@ LinkifiedText.propTypes = {
       rawString: PropTypes.string,
       displayString: PropTypes.string,
       expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(React.PropTypes.number),
+      indices: PropTypes.arrayOf(PropTypes.number),
     }),
   ),
   newTab: PropTypes.bool,
