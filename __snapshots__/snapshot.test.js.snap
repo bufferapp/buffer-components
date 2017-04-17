@@ -6018,6 +6018,24 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
 </span>
 `;
 
+exports[`Snapshots LinkifiedText newTab 1`] = `
+<span>
+  <span
+    className="text"
+  >
+    a 
+    <a
+      className="link"
+      href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      target="_blank"
+    >
+      blog.twitter.com/2011/05/twitte…
+    </a>
+     b
+  </span>
+</span>
+`;
+
 exports[`Snapshots LinkifiedText no links 1`] = `
 <span>
   <span
@@ -6068,6 +6086,24 @@ exports[`Snapshots LinkifiedText two links 1`] = `
       buffer.com
     </a>
      c
+  </span>
+</span>
+`;
+
+exports[`Snapshots LinkifiedText unstyled 1`] = `
+<span>
+  <span
+    className="text"
+  >
+    a 
+    <a
+      className="link unstyled"
+      href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      target="_self"
+    >
+      blog.twitter.com/2011/05/twitte…
+    </a>
+     b
   </span>
 </span>
 `;
