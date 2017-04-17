@@ -18,4 +18,11 @@ storiesOf('Link')
       <br />
       <Link href={'https://buffer.com'} unstyled>Buffer</Link>
     </div>
+  ))
+  .add('newTab', () => (
+    <div>
+      <Link href={'https://twitter.com'} newTab>Twitter</Link>
+      <br />
+      <Link href={'https://buffer.com'} newTab>Buffer</Link>
+    </div>
   ));
