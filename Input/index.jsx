@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { classNames } from '../lib/utils';
 import styles from './style.css';
 import Text from '../Text';
