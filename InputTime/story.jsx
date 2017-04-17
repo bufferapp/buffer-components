@@ -10,10 +10,21 @@ import InputTime from './index';
 storiesOf('InputTime')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <InputTime />
+    <InputTime
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+    />
   ))
   .add('with 24 hour selection', () => (
-    <InputTime select24Hours />
+    <InputTime
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      select24Hours
+    />
   ))
   .add('with value set', () => (
     <InputTime
