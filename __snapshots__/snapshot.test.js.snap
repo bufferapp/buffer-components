@@ -242,6 +242,7 @@ exports[`Snapshots Card default 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -249,6 +250,7 @@ exports[`Snapshots Card default 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -267,6 +269,7 @@ exports[`Snapshots Card doublePadding 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -274,6 +277,7 @@ exports[`Snapshots Card doublePadding 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -292,6 +296,7 @@ exports[`Snapshots Card empty + hovered 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -299,6 +304,7 @@ exports[`Snapshots Card empty + hovered 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -329,6 +335,7 @@ exports[`Snapshots Card faded 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -336,6 +343,7 @@ exports[`Snapshots Card faded 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -354,6 +362,7 @@ exports[`Snapshots Card failed 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -361,6 +370,7 @@ exports[`Snapshots Card failed 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -379,6 +389,7 @@ exports[`Snapshots Card hovered 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -386,6 +397,7 @@ exports[`Snapshots Card hovered 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -404,6 +416,7 @@ exports[`Snapshots Card noBorder 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -411,6 +424,7 @@ exports[`Snapshots Card noBorder 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -429,6 +443,7 @@ exports[`Snapshots Card noPadding 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -436,6 +451,7 @@ exports[`Snapshots Card noPadding 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -454,6 +470,7 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       @jgadapee
     </a>
@@ -461,6 +478,7 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
     <a
       className="link"
       href="#"
+      target="_self"
     >
       http://buff.ly/1LTbUqv
     </a>
@@ -3208,10 +3226,10 @@ exports[`Snapshots InputDate default 1`] = `
               12
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3225,10 +3243,10 @@ exports[`Snapshots InputDate default 1`] = `
               13
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Fri Apr 14 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3242,10 +3260,10 @@ exports[`Snapshots InputDate default 1`] = `
               14
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sat Apr 15 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3264,10 +3282,10 @@ exports[`Snapshots InputDate default 1`] = `
             role="gridcell"
           >
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sun Apr 16 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3284,7 +3302,7 @@ exports[`Snapshots InputDate default 1`] = `
               aria-disabled="false"
               aria-label="Mon Apr 17 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3932,10 +3950,10 @@ exports[`Snapshots InputDate with day selected 1`] = `
               12
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Thu Apr 13 2017"
-              aria-selected="true"
-              className="DayPicker-Day DayPicker-Day--selected DayPicker-Day--today"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3949,10 +3967,10 @@ exports[`Snapshots InputDate with day selected 1`] = `
               13
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Fri Apr 14 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3966,10 +3984,10 @@ exports[`Snapshots InputDate with day selected 1`] = `
               14
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sat Apr 15 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -3988,10 +4006,10 @@ exports[`Snapshots InputDate with day selected 1`] = `
             role="gridcell"
           >
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sun Apr 16 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4007,8 +4025,8 @@ exports[`Snapshots InputDate with day selected 1`] = `
             <div
               aria-disabled="false"
               aria-label="Mon Apr 17 2017"
-              aria-selected="false"
-              className="DayPicker-Day"
+              aria-selected="true"
+              className="DayPicker-Day DayPicker-Day--selected DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4656,10 +4674,10 @@ exports[`Snapshots InputDate with error 1`] = `
               12
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4673,10 +4691,10 @@ exports[`Snapshots InputDate with error 1`] = `
               13
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Fri Apr 14 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4690,10 +4708,10 @@ exports[`Snapshots InputDate with error 1`] = `
               14
             </div>
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sat Apr 15 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4712,10 +4730,10 @@ exports[`Snapshots InputDate with error 1`] = `
             role="gridcell"
           >
             <div
-              aria-disabled="false"
+              aria-disabled="true"
               aria-label="Sun Apr 16 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--disabled"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -4732,7 +4750,7 @@ exports[`Snapshots InputDate with error 1`] = `
               aria-disabled="false"
               aria-label="Mon Apr 17 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -5392,7 +5410,7 @@ exports[`Snapshots InputDate with past dates selectable 1`] = `
               aria-disabled="false"
               aria-label="Thu Apr 13 2017"
               aria-selected="false"
-              className="DayPicker-Day DayPicker-Day--today"
+              className="DayPicker-Day"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -5465,7 +5483,7 @@ exports[`Snapshots InputDate with past dates selectable 1`] = `
               aria-disabled="false"
               aria-label="Mon Apr 17 2017"
               aria-selected="false"
-              className="DayPicker-Day"
+              className="DayPicker-Day DayPicker-Day--today"
               onClick={[Function]}
               onFocus={undefined}
               onKeyDown={[Function]}
@@ -5914,6 +5932,7 @@ exports[`Snapshots Link Default 1`] = `
     <a
       className="link"
       href="https://twitter.com"
+      target="_self"
     >
       Twitter
     </a>
@@ -5921,6 +5940,29 @@ exports[`Snapshots Link Default 1`] = `
     <a
       className="link"
       href="https://buffer.com"
+      target="_self"
+    >
+      Buffer
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Link newTab 1`] = `
+<span>
+  <div>
+    <a
+      className="link"
+      href="https://twitter.com"
+      target="_blank"
+    >
+      Twitter
+    </a>
+    <br />
+    <a
+      className="link"
+      href="https://buffer.com"
+      target="_blank"
     >
       Buffer
     </a>
@@ -5934,6 +5976,7 @@ exports[`Snapshots Link unstyled 1`] = `
     <a
       className="link unstyled"
       href="https://twitter.com"
+      target="_self"
     >
       Twitter
     </a>
@@ -5941,6 +5984,7 @@ exports[`Snapshots Link unstyled 1`] = `
     <a
       className="link unstyled"
       href="https://buffer.com"
+      target="_self"
     >
       Buffer
     </a>
@@ -5957,6 +6001,7 @@ exports[`Snapshots LinkifiedText default 1`] = `
     <a
       className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      target="_self"
     >
       blog.twitter.com/2011/05/twitte…
     </a>
@@ -5992,6 +6037,7 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
     <a
       className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      target="_self"
     >
       blog.twitter.com/2011/05/twitte…
     </a>
@@ -6009,6 +6055,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     <a
       className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      target="_self"
     >
       blog.twitter.com/2011/05/twitte…
     </a>
@@ -6016,6 +6063,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     <a
       className="link"
       href="https://buffer.com"
+      target="_self"
     >
       buffer.com
     </a>
