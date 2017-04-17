@@ -7,7 +7,6 @@ const linkDataToElement = (options, link, key) =>
   <Link href={link.url} key={key} unstyled={options.unstyled} newTab={options.newTab}>{link.displayString}</Link>;
 
 const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
-  options = options || {};
   // nothing left to calculate, return all the caluculated pairs
   if (curString.length === 0) {
     calculatedElements.reverse();
