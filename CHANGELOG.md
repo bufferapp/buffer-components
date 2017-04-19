@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.16 (April 19, 2017)
+
+- Bugfix on `InputDate` and `InputTime` components
+
 ## 0.4.15 (April 17, 2017)
 
 - Add `InputTime` component
