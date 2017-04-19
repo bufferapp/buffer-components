@@ -41,7 +41,7 @@ storiesOf('InputTime')
     <InputTime
       input={{
         value: {
-          hours: 12,
+          hours: 11,
           minutes: 32,
         },
         onChange: action('on-change'),

@@ -6007,62 +6007,62 @@ exports[`Snapshots InputTime default 1`] = `
       value={0}
     >
       <option
-        value={1}
+        value={0}
       >
         01
       </option>
       <option
-        value={2}
+        value={1}
       >
         02
       </option>
       <option
-        value={3}
+        value={2}
       >
         03
       </option>
       <option
-        value={4}
+        value={3}
       >
         04
       </option>
       <option
-        value={5}
+        value={4}
       >
         05
       </option>
       <option
-        value={6}
+        value={5}
       >
         06
       </option>
       <option
-        value={7}
+        value={6}
       >
         07
       </option>
       <option
-        value={8}
+        value={7}
       >
         08
       </option>
       <option
-        value={9}
+        value={8}
       >
         09
       </option>
       <option
-        value={10}
+        value={9}
       >
         10
       </option>
       <option
-        value={11}
+        value={10}
       >
         11
       </option>
       <option
-        value={12}
+        value={11}
       >
         12
       </option>
@@ -6837,65 +6837,65 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
     <select
       className="select-with-margin"
       onChange={[Function]}
-      value={12}
+      value={11}
     >
       <option
-        value={1}
+        value={0}
       >
         01
       </option>
       <option
-        value={2}
+        value={1}
       >
         02
       </option>
       <option
-        value={3}
+        value={2}
       >
         03
       </option>
       <option
-        value={4}
+        value={3}
       >
         04
       </option>
       <option
-        value={5}
+        value={4}
       >
         05
       </option>
       <option
-        value={6}
+        value={5}
       >
         06
       </option>
       <option
-        value={7}
+        value={6}
       >
         07
       </option>
       <option
-        value={8}
+        value={7}
       >
         08
       </option>
       <option
-        value={9}
+        value={8}
       >
         09
       </option>
       <option
-        value={10}
+        value={9}
       >
         10
       </option>
       <option
-        value={11}
+        value={10}
       >
         11
       </option>
       <option
-        value={12}
+        value={11}
       >
         12
       </option>
@@ -7673,62 +7673,62 @@ exports[`Snapshots InputTime with value set 1`] = `
       value={10}
     >
       <option
-        value={1}
+        value={0}
       >
         01
       </option>
       <option
-        value={2}
+        value={1}
       >
         02
       </option>
       <option
-        value={3}
+        value={2}
       >
         03
       </option>
       <option
-        value={4}
+        value={3}
       >
         04
       </option>
       <option
-        value={5}
+        value={4}
       >
         05
       </option>
       <option
-        value={6}
+        value={5}
       >
         06
       </option>
       <option
-        value={7}
+        value={6}
       >
         07
       </option>
       <option
-        value={8}
+        value={7}
       >
         08
       </option>
       <option
-        value={9}
+        value={8}
       >
         09
       </option>
       <option
-        value={10}
+        value={9}
       >
         10
       </option>
       <option
-        value={11}
+        value={10}
       >
         11
       </option>
       <option
-        value={12}
+        value={11}
       >
         12
       </option>

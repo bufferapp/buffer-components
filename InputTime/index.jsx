@@ -9,8 +9,13 @@ const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 
 const renderAmPm = ({ value, onChange }) =>
   <select
-    value={value.hours < 12 ? 'am' : 'pm'}
-    onChange={e => onChange({ ...value, hours: e.target.value === 'am' ? value.hours - 12 : value.hours + 12 })}
+    value={value.hours < 11 ? 'am' : 'pm'}
+    onChange={e => onChange({
+      ...value,
+      hours: e.target.value === 'am' && value.hours - 12 >= 0
+      ? value.hours - 12
+      : value.hours + 12,
+    })}
   >
     <option value="am">am</option>
     <option value="pm">pm</option>
@@ -35,9 +40,12 @@ const InputTime = ({
         value={value.hours}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
       >
-        {genArray(select24Hours ? 0 : 1, select24Hours ? 23 : 12).map(hour =>
-          <option key={select24Hours ? hour + 12 : hour} value={hour}>
-            {leftPadTimeUnit(hour)}
+        {genArray(0, select24Hours ? 23 : 11).map(hour =>
+          <option
+            key={!select24Hours && value.hours > 11 ? hour + 12 : hour}
+            value={!select24Hours && value.hours > 11 ? hour + 12 : hour}
+          >
+            {leftPadTimeUnit(select24Hours ? hour : hour + 1)}
           </option>)
         }
       </select>
