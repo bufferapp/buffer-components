@@ -4,12 +4,6 @@ import DayPicker from 'react-day-picker';
 import styles from './style.css';
 import Text from '../Text';
 
-const inThePast = (day) => {
-  const now = new Date();
-  const isToday = day.toDateString() === now.toDateString();
-  return (day < now) && !isToday;
-};
-
 /* eslint-disable react/prop-types */
 
 const renderError = ({ error, touched }) => (
@@ -23,31 +17,68 @@ const renderError = ({ error, touched }) => (
 /* eslint-enable react/prop-types */
 
 
-const InputDate = ({ input: { value, onChange }, allowSelectPastDays, meta }) =>
+const InputDate = ({
+  disableBefore,
+  input: {
+    value,
+    onChange,
+  },
+  initialMonthYear,
+  meta: {
+    error,
+    touched,
+  },
+}) =>
   <div>
     <DayPicker
-      disabledDays={allowSelectPastDays ? undefined : inThePast}
-      fromMonth={new Date()}
+      disabledDays={{
+        before:
+          disableBefore ?
+          new Date(disableBefore.year, disableBefore.month, disableBefore.day) :
+          undefined,
+      }}
+      initialMonth={new Date(initialMonthYear.year, initialMonthYear.month)}
       onDayClick={(day, { disabled }) => {
         if (!disabled) {
-          onChange(day);
+          onChange({
+            day: day.getDate(),
+            month: day.getMonth(),
+            year: day.getFullYear(),
+          });
         }
       }}
-      selectedDays={!value ? null : new Date(value)}
+      selectedDays={!value ? null : new Date(value.year, value.month, value.day)}
     />
-    {renderError(meta)}
+    {renderError({
+      error,
+      touched,
+    })}
   </div>;
 
 InputDate.propTypes = {
   input: PropTypes.shape({
-    value: PropTypes.date,
+    value: PropTypes.oneOfType([
+      PropTypes.shape({
+        day: PropTypes.number,
+        month: PropTypes.number,
+        year: PropTypes.number,
+      }),
+      PropTypes.string,
+    ]),
     onChange: PropTypes.func,
+  }).isRequired,
+  initialMonthYear: PropTypes.shape({
+    month: PropTypes.number,
+    year: PropTypes.number,
+  }).isRequired,
+  disableBefore: PropTypes.shape({
+    month: PropTypes.number,
+    year: PropTypes.number,
   }),
   meta: PropTypes.shape({
     error: PropTypes.string,
     touched: PropTypes.bool,
   }),
-  allowSelectPastDays: PropTypes.bool,
 };
 
 InputDate.defaultProps = {
