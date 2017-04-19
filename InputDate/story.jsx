@@ -15,23 +15,43 @@ storiesOf('InputDate')
         value: '',
         onChange: action('on-change'),
       }}
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
+      }}
     />
   ))
   .add('with day selected', () => (
     <InputDate
       input={{
-        value: new Date(),
+        value: {
+          day: 21,
+          month: 7,
+          year: 2015,
+        },
         onChange: action('on-change'),
+      }}
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
       }}
     />
   ))
-  .add('with past dates selectable', () => (
+  .add('with disabled days', () => (
     <InputDate
       input={{
         value: '',
         onChange: action('on-change'),
       }}
-      allowSelectPastDays
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
+      }}
+      disableBefore={{
+        day: 21,
+        month: 7,
+        year: 2015,
+      }}
     />
   ))
   .add('with error', () => (
@@ -39,6 +59,10 @@ storiesOf('InputDate')
       input={{
         value: '',
         onChange: action('on-change'),
+      }}
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
       }}
       meta={{
         error: 'a date must be selected',

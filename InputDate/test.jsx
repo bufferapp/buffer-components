@@ -11,6 +11,10 @@ describe('InputDate', () => {
           value: '',
           onChange,
         }}
+        initialMonthYear={{
+          month: 21,
+          year: 7,
+        }}
       />,
     );
     wrapper
@@ -29,6 +33,15 @@ describe('InputDate', () => {
         input={{
           value: '',
           onChange,
+        }}
+        disableBefore={{
+          day: 21,
+          month: 7,
+          year: 2015,
+        }}
+        initialMonthYear={{
+          month: 21,
+          year: 7,
         }}
       />,
     );

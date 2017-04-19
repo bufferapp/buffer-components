@@ -10,13 +10,28 @@ const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 const renderAmPm = ({ value, onChange }) =>
   <select
     value={value.hours < 12 ? 'am' : 'pm'}
-    onChange={e => onChange({ ...value, hours: e.target.value === 'am' ? value.hours - 12 : value.hours + 12 })}
+    onChange={e => onChange({
+      ...value,
+      hours: e.target.value === 'am'
+      ? value.hours - 12
+      : value.hours + 12,
+    })}
   >
     <option value="am">am</option>
     <option value="pm">pm</option>
   </select>;
 
 /* eslint-enable react/prop-types */
+
+const displayHour = (hour, select24Hours) => {
+  if (select24Hours) {
+    return hour;
+  } else if (hour === 0) {
+    return 12;
+  }
+  const modHour = hour % 12;
+  return modHour === 0 ? 12 : modHour;
+};
 
 const InputTime = ({
   select24Hours,
@@ -35,9 +50,15 @@ const InputTime = ({
         value={value.hours}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
       >
-        {genArray(select24Hours ? 0 : 1, select24Hours ? 23 : 12).map(hour =>
-          <option key={select24Hours ? hour + 12 : hour} value={hour}>
-            {leftPadTimeUnit(hour)}
+        {genArray(
+          select24Hours || value.hours < 12 ? 0 : 12,
+          select24Hours || value.hours > 11 ? 23 : 11,
+        ).map(hour =>
+          <option
+            key={hour}
+            value={hour}
+          >
+            {leftPadTimeUnit(displayHour(hour, select24Hours))}
           </option>)
         }
       </select>
