@@ -6009,62 +6009,62 @@ exports[`Snapshots InputTime default 1`] = `
       <option
         value={0}
       >
-        01
+        12
       </option>
       <option
         value={1}
       >
-        02
+        01
       </option>
       <option
         value={2}
       >
-        03
+        02
       </option>
       <option
         value={3}
       >
-        04
+        03
       </option>
       <option
         value={4}
       >
-        05
+        04
       </option>
       <option
         value={5}
       >
-        06
+        05
       </option>
       <option
         value={6}
       >
-        07
+        06
       </option>
       <option
         value={7}
       >
-        08
+        07
       </option>
       <option
         value={8}
       >
-        09
+        08
       </option>
       <option
         value={9}
       >
-        10
+        09
       </option>
       <option
         value={10}
       >
-        11
+        10
       </option>
       <option
         value={11}
       >
-        12
+        11
       </option>
     </select>
     <select
@@ -6842,62 +6842,62 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       <option
         value={0}
       >
-        01
+        12
       </option>
       <option
         value={1}
       >
-        02
+        01
       </option>
       <option
         value={2}
       >
-        03
+        02
       </option>
       <option
         value={3}
       >
-        04
+        03
       </option>
       <option
         value={4}
       >
-        05
+        04
       </option>
       <option
         value={5}
       >
-        06
+        05
       </option>
       <option
         value={6}
       >
-        07
+        06
       </option>
       <option
         value={7}
       >
-        08
+        07
       </option>
       <option
         value={8}
       >
-        09
+        08
       </option>
       <option
         value={9}
       >
-        10
+        09
       </option>
       <option
         value={10}
       >
-        11
+        10
       </option>
       <option
         value={11}
       >
-        12
+        11
       </option>
     </select>
     <select
@@ -7208,7 +7208,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
     </select>
     <select
       onChange={[Function]}
-      value="pm"
+      value="am"
     >
       <option
         value="am"
@@ -7675,62 +7675,62 @@ exports[`Snapshots InputTime with value set 1`] = `
       <option
         value={0}
       >
-        01
+        12
       </option>
       <option
         value={1}
       >
-        02
+        01
       </option>
       <option
         value={2}
       >
-        03
+        02
       </option>
       <option
         value={3}
       >
-        04
+        03
       </option>
       <option
         value={4}
       >
-        05
+        04
       </option>
       <option
         value={5}
       >
-        06
+        05
       </option>
       <option
         value={6}
       >
-        07
+        06
       </option>
       <option
         value={7}
       >
-        08
+        07
       </option>
       <option
         value={8}
       >
-        09
+        08
       </option>
       <option
         value={9}
       >
-        10
+        09
       </option>
       <option
         value={10}
       >
-        11
+        10
       </option>
       <option
         value={11}
       >
-        12
+        11
       </option>
     </select>
     <select
