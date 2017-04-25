@@ -9073,14 +9073,86 @@ exports[`Snapshots Overlay transparent=true 1`] = `
 </span>
 `;
 
-exports[`Snapshots Popover default 1`] = `
+exports[`Snapshots Popover bottom = 10rem 1`] = `
 <span>
   <span>
     <div
       className="popover"
       style={
         Object {
+          "bottom": "10rem",
           "left": undefined,
+          "right": undefined,
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "bottom": "10rem",
+          "left": undefined,
+          "right": "10rem",
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover default 1`] = `
+<span>
+  <span>
+    <div
+      className="popover center"
+      style={
+        Object {
+          "bottom": undefined,
+          "left": undefined,
+          "right": undefined,
           "top": undefined,
         }
       }
@@ -9113,7 +9185,44 @@ exports[`Snapshots Popover left = 10rem 1`] = `
       className="popover"
       style={
         Object {
+          "bottom": undefined,
           "left": "10rem",
+          "right": undefined,
+          "top": undefined,
+        }
+      }
+    >
+      <div
+        className="card"
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        Popover
+      </div>
+    </div>
+    <div
+      className="overlay"
+      onClick={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    />
+  </span>
+</span>
+`;
+
+exports[`Snapshots Popover right = 10rem 1`] = `
+<span>
+  <span>
+    <div
+      className="popover"
+      style={
+        Object {
+          "bottom": undefined,
+          "left": undefined,
+          "right": "10rem",
           "top": undefined,
         }
       }
@@ -9146,7 +9255,9 @@ exports[`Snapshots Popover top = 10rem 1`] = `
       className="popover"
       style={
         Object {
+          "bottom": undefined,
           "left": undefined,
+          "right": undefined,
           "top": "10rem",
         }
       }
@@ -9179,7 +9290,9 @@ exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
       className="popover"
       style={
         Object {
+          "bottom": undefined,
           "left": "10rem",
+          "right": undefined,
           "top": "10rem",
         }
       }
@@ -9209,10 +9322,12 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
 <span>
   <span>
     <div
-      className="popover"
+      className="popover center"
       style={
         Object {
+          "bottom": undefined,
           "left": undefined,
+          "right": undefined,
           "top": undefined,
         }
       }
