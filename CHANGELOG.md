@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.17 (April 25, 2017)
+
+- Add `bottom` and `right` configurations to `Popover`
+
 ## 0.4.16 (April 19, 2017)
 
 - Bugfix on `InputDate` and `InputTime` components
