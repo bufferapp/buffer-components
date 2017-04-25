@@ -43,4 +43,29 @@ storiesOf('Popover')
     >
       <Card>Popover</Card>
     </Popover>
+  ))
+  .add('right = 10rem', () => (
+    <Popover
+      onOverlayClick={action('overlay-click')}
+      right={'10rem'}
+    >
+      <Card>Popover</Card>
+    </Popover>
+  ))
+  .add('bottom = 10rem', () => (
+    <Popover
+      onOverlayClick={action('overlay-click')}
+      bottom={'10rem'}
+    >
+      <Card>Popover</Card>
+    </Popover>
+  ))
+  .add('bottom = 10rem right = 10rem', () => (
+    <Popover
+      onOverlayClick={action('overlay-click')}
+      bottom={'10rem'}
+      right={'10rem'}
+    >
+      <Card>Popover</Card>
+    </Popover>
   ));
