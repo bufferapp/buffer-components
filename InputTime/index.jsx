@@ -7,9 +7,10 @@ const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 
 /* eslint-disable react/prop-types */
 
-const renderAmPm = ({ value, onChange }) =>
+const renderAmPm = ({ value, onChange, submitting }) =>
   <select
     value={value.hours < 12 ? 'am' : 'pm'}
+    disabled={submitting}
     onChange={e => onChange({
       ...value,
       hours: e.target.value === 'am'
@@ -39,6 +40,9 @@ const InputTime = ({
     value,
     onChange,
   },
+  meta: {
+    submitting,
+  }
 }) => {
   if (!value) {
     value = { hours: 0, minutes: 0 };
@@ -47,6 +51,7 @@ const InputTime = ({
     <div>
       <select
         className={styles['select-with-margin']}
+        disabled={submitting}
         value={value.hours}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
       >
@@ -64,13 +69,14 @@ const InputTime = ({
       </select>
       <select
         className={!select24Hours ? styles['select-with-margin'] : undefined}
+        disabled={submitting}
         value={value.minutes}
         onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
       >
         {genArray(0, 59).map(min =>
           <option key={min} value={min}>{leftPadTimeUnit(min)}</option>)}
       </select>
-      { select24Hours ? null : renderAmPm({ value, onChange }) }
+      { select24Hours ? null : renderAmPm({ value, onChange, submitting }) }
     </div>
   );
 };
@@ -87,6 +93,10 @@ InputTime.propTypes = {
     ]),
     onChange: PropTypes.func.isRequired,
   }).isRequired,
+};
+
+InputTime.defaultProps = {
+  meta: {},
 };
 
 export default InputTime;

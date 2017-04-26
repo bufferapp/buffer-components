@@ -59,4 +59,18 @@ storiesOf('InputTime')
       }}
       select24Hours
     />
+  ))
+  .add('with form submitting', () => (
+    <InputTime
+      input={{
+        value: {
+          hours: 16,
+          minutes: 33,
+        },
+        onChange: action('on-change'),
+      }}
+      meta={{
+        submitting: true,
+      }}
+    />
   ));
