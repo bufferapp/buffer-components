@@ -43,3 +43,7 @@
 .no-padding {
   padding: 0;
 }
+
+.offWhite {
+  background-color: var(--off-white);
+}
