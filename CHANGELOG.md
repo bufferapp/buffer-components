@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.19 (April 26, 2017)
+
+- All Input-* handle submitting state
+
 ## 0.4.18 (April 26, 2017)
 
 - Add `color` and `reducedPadding` configurations to `Card`
