@@ -5891,6 +5891,748 @@ exports[`Snapshots InputDate with error 1`] = `
 </span>
 `;
 
+exports[`Snapshots InputDate with submitting 1`] = `
+<span>
+  <div>
+    <div
+      className="DayPicker disabled"
+      lang="en"
+      onBlur={undefined}
+      onFocus={undefined}
+      onKeyDown={[Function]}
+      role="application"
+      tabIndex={0}
+    >
+      <div
+        className="DayPicker-NavBar"
+      >
+        <span
+          aria-label="Previous Month"
+          className="DayPicker-NavButton DayPicker-NavButton--prev"
+          onClick={[Function]}
+          role="button"
+        />
+        <span
+          aria-label="Next Month"
+          className="DayPicker-NavButton DayPicker-NavButton--next"
+          onClick={[Function]}
+          role="button"
+        />
+      </div>
+      <div
+        className="DayPicker-Month"
+        role="grid"
+      >
+        <div
+          className="DayPicker-Caption"
+          onClick={undefined}
+          role="heading"
+        >
+          August 2015
+        </div>
+        <div
+          className="DayPicker-Weekdays"
+          role="rowgroup"
+        >
+          <div
+            className="DayPicker-WeekdaysRow"
+            role="row"
+          >
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Sunday"
+              >
+                Su
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Monday"
+              >
+                Mo
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Tuesday"
+              >
+                Tu
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Wednesday"
+              >
+                We
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Thursday"
+              >
+                Th
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Friday"
+              >
+                Fr
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Saturday"
+              >
+                Sa
+              </abbr>
+            </div>
+          </div>
+        </div>
+        <div
+          className="DayPicker-Body"
+          role="rowgroup"
+        >
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled="true"
+              aria-label="Sat Aug 01 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={0}
+            >
+              1
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled="true"
+              aria-label="Sun Aug 02 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              2
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Mon Aug 03 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              3
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Tue Aug 04 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              4
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Wed Aug 05 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              5
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Thu Aug 06 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              6
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Fri Aug 07 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              7
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Sat Aug 08 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              8
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled="true"
+              aria-label="Sun Aug 09 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              9
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Mon Aug 10 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              10
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Tue Aug 11 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              11
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Wed Aug 12 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              12
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Thu Aug 13 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              13
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Fri Aug 14 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              14
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Sat Aug 15 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              15
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled="true"
+              aria-label="Sun Aug 16 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              16
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Mon Aug 17 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              17
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Tue Aug 18 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              18
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Wed Aug 19 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              19
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Thu Aug 20 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              20
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Fri Aug 21 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              21
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Sat Aug 22 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              22
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled="true"
+              aria-label="Sun Aug 23 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              23
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Mon Aug 24 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              24
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Tue Aug 25 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              25
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Wed Aug 26 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              26
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Thu Aug 27 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              27
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Fri Aug 28 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              28
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Sat Aug 29 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              29
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="gridcell"
+          >
+            <div
+              aria-disabled="true"
+              aria-label="Sun Aug 30 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              30
+            </div>
+            <div
+              aria-disabled="true"
+              aria-label="Mon Aug 31 2015"
+              aria-selected="false"
+              className="DayPicker-Day DayPicker-Day--disabled"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              tabIndex={-1}
+            >
+              31
+            </div>
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+              role="gridcell"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
 exports[`Snapshots InputEmail default 1`] = `
 <span>
   <div>

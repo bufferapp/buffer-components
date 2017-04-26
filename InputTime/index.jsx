@@ -93,6 +93,9 @@ InputTime.propTypes = {
     ]),
     onChange: PropTypes.func.isRequired,
   }).isRequired,
+  meta: PropTypes.shape({
+    submitting: PropTypes.bool,
+  }),
 };
 
 InputTime.defaultProps = {
