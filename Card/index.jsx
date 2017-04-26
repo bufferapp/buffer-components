@@ -15,6 +15,7 @@ const Card = ({
   noPadding,
   onMouseEnter,
   onMouseLeave,
+  reducedPadding,
 }) => {
   const classes = classNames(styles, 'card', {
     'double-padding': doublePadding,
@@ -22,6 +23,7 @@ const Card = ({
     faded,
     failed,
     hovered,
+    'reduced-padding': reducedPadding,
     'no-border': noBorder,
     'no-padding': noPadding,
     offWhite: color === 'off-white',
@@ -49,6 +51,7 @@ Card.propTypes = {
   noPadding: PropTypes.bool,
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,
+  reducedPadding: PropTypes.bool,
 };
 
 export default Card;

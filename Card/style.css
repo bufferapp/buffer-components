@@ -36,6 +36,10 @@
   border-color: var(--torch-red);
 }
 
+.reduced-padding {
+  padding: 1rem;
+}
+
 .no-border {
   border: 0;
 }
