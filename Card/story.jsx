@@ -43,4 +43,10 @@ storiesOf('Card')
     >
       What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link>
     </Card>
+  ))
+  .add('off-white background color', () => (
+    <Card color={'off-white'}>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
+  .add('reducedPadding', () => (
+    <Card reducedPadding>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ));

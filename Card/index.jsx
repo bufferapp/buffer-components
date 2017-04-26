@@ -5,6 +5,7 @@ import styles from './style.css';
 
 const Card = ({
   children,
+  color,
   doublePadding,
   empty,
   faded,
@@ -14,6 +15,7 @@ const Card = ({
   noPadding,
   onMouseEnter,
   onMouseLeave,
+  reducedPadding,
 }) => {
   const classes = classNames(styles, 'card', {
     'double-padding': doublePadding,
@@ -21,8 +23,10 @@ const Card = ({
     faded,
     failed,
     hovered,
+    'reduced-padding': reducedPadding,
     'no-border': noBorder,
     'no-padding': noPadding,
+    offWhite: color === 'off-white',
   });
   return (
     <div
@@ -37,6 +41,7 @@ const Card = ({
 
 Card.propTypes = {
   children: PropTypes.node,
+  color: PropTypes.oneOf(['off-white']),
   doublePadding: PropTypes.bool,
   empty: PropTypes.bool,
   faded: PropTypes.bool,
@@ -46,6 +51,7 @@ Card.propTypes = {
   noPadding: PropTypes.bool,
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,
+  reducedPadding: PropTypes.bool,
 };
 
 export default Card;
