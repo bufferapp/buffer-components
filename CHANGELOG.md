@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.18 (April 26, 2017)
+
+- Add `color` and `reducedPadding` configurations to `Card`
+
 ## 0.4.17 (April 25, 2017)
 
 - Add `bottom` and `right` configurations to `Popover`
