@@ -459,12 +459,66 @@ exports[`Snapshots Card noPadding 1`] = `
 </span>
 `;
 
+exports[`Snapshots Card off-white background color 1`] = `
+<span>
+  <div
+    className="card offWhite"
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+  >
+    What is a Product Designer? An awesome story by 
+    <a
+      className="link"
+      href="#"
+      target="_self"
+    >
+      @jgadapee
+    </a>
+     over on Medium! 
+    <a
+      className="link"
+      href="#"
+      target="_self"
+    >
+      http://buff.ly/1LTbUqv
+    </a>
+  </div>
+</span>
+`;
+
 exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
 <span>
   <div
     className="card"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+  >
+    What is a Product Designer? An awesome story by 
+    <a
+      className="link"
+      href="#"
+      target="_self"
+    >
+      @jgadapee
+    </a>
+     over on Medium! 
+    <a
+      className="link"
+      href="#"
+      target="_self"
+    >
+      http://buff.ly/1LTbUqv
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Card reducedPadding 1`] = `
+<span>
+  <div
+    className="card reduced-padding"
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
   >
     What is a Product Designer? An awesome story by 
     <a
