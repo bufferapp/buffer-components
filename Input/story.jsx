@@ -46,4 +46,12 @@ storiesOf('Input')
       }}
       type={'email'}
     />
+  ))
+  .add('with submitting = true', () => (
+      <Input
+        input={input}
+        meta={{
+          submitting: true
+        }}
+      />
   ));

@@ -69,4 +69,19 @@ storiesOf('InputDate')
         touched: true,
       }}
     />
+  ))
+  .add('with submitting', () => (
+    <InputDate
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
+      }}
+      meta={{
+        submitting: true,
+      }}
+    />
   ));

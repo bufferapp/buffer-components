@@ -14,6 +14,16 @@ const renderError = ({ error, touched }) => (
   ) : null
 );
 
+const disabledDays = ({ disableBefore, submitting }) => {
+  if (submitting) {
+    return () => true;
+  } else if (disableBefore) {
+    return {
+      before: new Date(disableBefore.year, disableBefore.month, disableBefore.day),
+    };
+  }
+};
+
 /* eslint-enable react/prop-types */
 
 
@@ -27,16 +37,13 @@ const InputDate = ({
   meta: {
     error,
     touched,
+    submitting,
   },
 }) =>
   <div>
     <DayPicker
-      disabledDays={{
-        before:
-          disableBefore ?
-          new Date(disableBefore.year, disableBefore.month, disableBefore.day) :
-          undefined,
-      }}
+      className={submitting ? 'disabled' : undefined}
+      disabledDays={disabledDays({ disableBefore, submitting })}
       initialMonth={new Date(initialMonthYear.year, initialMonthYear.month)}
       onDayClick={(day, { disabled }) => {
         if (!disabled) {
@@ -78,6 +85,7 @@ InputDate.propTypes = {
   meta: PropTypes.shape({
     error: PropTypes.string,
     touched: PropTypes.bool,
+    submitting: PropTypes.bool,
   }),
 };
 

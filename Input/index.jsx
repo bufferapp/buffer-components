@@ -31,6 +31,7 @@ const Input = ({ input, label, meta, placeholder, type }) =>
       className={classNames(styles, 'input', {
         'input-error': meta.error && meta.touched,
       })}
+      disabled={meta.submitting}
       value={input.value}
       onChange={input.onChange}
       placeholder={placeholder}
@@ -47,6 +48,7 @@ Input.commonPropTypes = {
   meta: PropTypes.shape({
     error: PropTypes.string,
     touched: PropTypes.bool,
+    submitting: PropTypes.bool,
   }),
   placeholder: PropTypes.string,
 };
