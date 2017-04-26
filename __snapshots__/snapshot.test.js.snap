@@ -2799,6 +2799,7 @@ exports[`Snapshots Input default 1`] = `
   <div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="text"
@@ -2822,6 +2823,7 @@ exports[`Snapshots Input with error 1`] = `
     </div>
     <input
       className="input input-error"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="text"
@@ -2854,6 +2856,7 @@ exports[`Snapshots Input with label 1`] = `
     </div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="text"
@@ -2877,10 +2880,26 @@ exports[`Snapshots Input with placeholder 1`] = `
     </div>
     <input
       className="input"
+      disabled={undefined}
       onChange={undefined}
       placeholder="ex: kitteh1234"
       type="text"
       value={undefined}
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input with submitting = true 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      disabled={true}
+      onChange={[Function]}
+      placeholder={undefined}
+      type="text"
+      value="user123"
     />
   </div>
 </span>
@@ -2891,6 +2910,7 @@ exports[`Snapshots Input with type = email 1`] = `
   <div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="email"
@@ -2905,6 +2925,7 @@ exports[`Snapshots Input with type = password 1`] = `
   <div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="password"
@@ -6638,6 +6659,7 @@ exports[`Snapshots InputEmail default 1`] = `
   <div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="email"
@@ -6661,6 +6683,7 @@ exports[`Snapshots InputEmail with error 1`] = `
     </div>
     <input
       className="input input-error"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="email"
@@ -6693,6 +6716,7 @@ exports[`Snapshots InputEmail with label 1`] = `
     </div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="email"
@@ -6716,10 +6740,26 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
     </div>
     <input
       className="input"
+      disabled={undefined}
       onChange={undefined}
       placeholder="ex: test@test.com"
       type="email"
       value={undefined}
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail with submitting = true 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      disabled={true}
+      onChange={[Function]}
+      placeholder={undefined}
+      type="email"
+      value="test@test.com"
     />
   </div>
 </span>
@@ -6730,6 +6770,7 @@ exports[`Snapshots InputPassword default 1`] = `
   <div>
     <input
       className="input"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="password"
@@ -6753,6 +6794,7 @@ exports[`Snapshots InputPassword with error 1`] = `
     </div>
     <input
       className="input input-error"
+      disabled={undefined}
       onChange={[Function]}
       placeholder={undefined}
       type="password"
@@ -6785,6 +6827,22 @@ exports[`Snapshots InputPassword with label 1`] = `
     </div>
     <input
       className="input"
+      disabled={undefined}
+      onChange={[Function]}
+      placeholder={undefined}
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword with submitting = true 1`] = `
+<span>
+  <div>
+    <input
+      className="input"
+      disabled={true}
       onChange={[Function]}
       placeholder={undefined}
       type="password"

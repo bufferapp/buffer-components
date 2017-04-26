@@ -25,4 +25,12 @@ storiesOf('InputPassword')
         touched: true,
       }}
     />
+  ))
+  .add('with submitting = true', () => (
+    <InputPassword
+      input={input}
+      meta={{
+        submitting: true
+      }}
+    />
   ));

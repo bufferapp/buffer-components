@@ -31,4 +31,12 @@ storiesOf('InputEmail')
       label={'Email'}
       placeholder={'ex: test@test.com'}
     />
+  ))
+  .add('with submitting = true', () => (
+    <InputEmail
+      input={input}
+      meta={{
+        submitting: true
+      }}
+    />
   ));
