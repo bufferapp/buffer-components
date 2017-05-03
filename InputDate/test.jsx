@@ -1,8 +1,25 @@
 import React from 'react';
+import a11yTestHelper from "../lib/a11yTestHelper";
 import { mount } from 'enzyme';
 import InputDate from './index';
 
 describe('InputDate', () => {
+  it('should pass accessibility audit', done => {
+    const onChange = jest.fn();
+    a11yTestHelper.testComponent(<InputDate
+      input={{
+        value: '',
+        onChange,
+      }}
+      initialMonthYear={{
+        month: 21,
+        year: 7,
+      }}
+    />, function (results) {
+      expect(results.violations.length).toBe(0);
+      done();
+    });
+  });
   it('should trigger onChange when active day is clicked', () => {
     const onChange = jest.fn();
     const wrapper = mount(
