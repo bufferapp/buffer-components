@@ -1,2 +1,3 @@
-export const borderWidth = '0.063rem';
-export const borderRadius = borderWidth * 2;
+const borderNum = 0.063;
+export const borderWidth = `${borderNum}rem`;
+export const borderRadius = `${borderNum * 2}rem`;
