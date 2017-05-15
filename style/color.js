@@ -24,6 +24,7 @@ export const shuttleGray = '#59626a';
 export const black = '#000';
 export const white = '#fff';
 export const offWhite = '#fcfcfc';
+export const transparent = 'transparent';
 
 export const shamrock = '#2fd566';
 export const saffron = '#f1cb3a';
