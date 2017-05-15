@@ -29,3 +29,35 @@ export const transparent = 'transparent';
 export const shamrock = '#2fd566';
 export const saffron = '#f1cb3a';
 export const torchRed = '#ff1e1e';
+
+const colors = {
+  curiousBlue,
+  curiousBlueLight,
+  curiousBlueUltraLight,
+  denim,
+  toryBlue,
+  appdotnet,
+  facebook,
+  googleplus,
+  linkedin,
+  pinterest,
+  twitter,
+  aquaHaze,
+  geyser,
+  mystic,
+  nevada,
+  outerSpace,
+  outerSpaceUltraDark,
+  outerSpaceLight,
+  outerSpaceUltraLight,
+  shuttleGray,
+  black,
+  white,
+  offWhite,
+  transparent,
+  shamrock,
+  saffron,
+  torchRed,
+};
+
+export default colors;
