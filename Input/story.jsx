@@ -48,10 +48,10 @@ storiesOf('Input')
     />
   ))
   .add('with submitting = true', () => (
-      <Input
-        input={input}
-        meta={{
-          submitting: true
-        }}
-      />
+    <Input
+      input={input}
+      meta={{
+        submitting: true,
+      }}
+    />
   ));
