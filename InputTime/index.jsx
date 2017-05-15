@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import styles from './style.css';
 
 // generate array of numbers (inclusive)
 const genArray = (start, end) => [...Array(end + 1).keys()].slice(start);
@@ -24,6 +23,10 @@ const renderAmPm = ({ value, onChange, submitting }) =>
 
 /* eslint-enable react/prop-types */
 
+const marginRight = {
+  marginRight: '0.5rem',
+};
+
 const displayHour = (hour, select24Hours) => {
   if (select24Hours) {
     return hour;
@@ -42,7 +45,7 @@ const InputTime = ({
   },
   meta: {
     submitting,
-  }
+  },
 }) => {
   if (!value) {
     value = { hours: 0, minutes: 0 };
@@ -50,7 +53,7 @@ const InputTime = ({
   return (
     <div>
       <select
-        className={styles['select-with-margin']}
+        style={marginRight}
         disabled={submitting}
         value={value.hours}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
@@ -68,7 +71,7 @@ const InputTime = ({
         }
       </select>
       <select
-        className={!select24Hours ? styles['select-with-margin'] : undefined}
+        style={!select24Hours ? marginRight : undefined}
         disabled={submitting}
         value={value.minutes}
         onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
