@@ -35,6 +35,10 @@
   font-size: var(--font-size-mini);
 }
 
+.outerSpace {
+  color: var(--outer-space);
+}
+
 .red {
   color: var(--torch-red);
 }
