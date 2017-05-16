@@ -1,16 +1,20 @@
 # Changelog
 
+## 0.4.20 (May 16, 2017)
+
+- Add `outerSpace` config to `Text` component
+
 ## 0.4.19 (April 26, 2017)
 
 - All Input-* handle submitting state
 
 ## 0.4.18 (April 26, 2017)
 
-- Add `color` and `reducedPadding` configurations to `Card`
+- Add `color` and `reducedPadding` configs to `Card` component
 
 ## 0.4.17 (April 25, 2017)
 
-- Add `bottom` and `right` configurations to `Popover`
+- Add `bottom` and `right` configs to `Popover` component
 
 ## 0.4.16 (April 19, 2017)
 
@@ -22,7 +26,7 @@
 
 ## 0.4.14 (April 17, 2017)
 
-- Add `newTab` and `unstyled` config to `LinkifiedText` component
+- Add `newTab` and `unstyled` configs to `LinkifiedText` component
 
 ## 0.4.13 (April 17, 2017)
 
@@ -46,12 +50,12 @@
 
 ## 0.4.8 (April 6, 2017)
 
-- Add `mini` config to `Text`
+- Add `mini` config to `Text` component
 
 ## 0.4.7 (April 6, 2017)
 
 - Remove `font-size` set on `Link`
-- Add `size` config to `LinkifiedText`
+- Add `size` config to `LinkifiedText` component
 
 ## 0.4.6 (March 28, 2017)
 
@@ -59,15 +63,15 @@
 
 ## 0.4.5 (March 24, 2017)
 
-- Add `newTabIcon` config to `Icon`
+- Add `newTabIcon` config to `Icon` component
 
 ## 0.4.4 (March 24, 2017)
 
-- Set `Button`'s `margin` property to `0`
+- Set `Button` component's `margin` property to `0`
 
 ## 0.4.3 (March 21, 2017)
 
-- Update `MultipleImages` to have a `rounded` flag to set a border-radius on itself
+- Update `MultipleImages` component to have a `rounded` flag to set a `border-radius` on itself
 
 ## 0.4.2 (March 20, 2017)
 
@@ -106,11 +110,11 @@
 
 ## 0.1.24 (February 22, 2017)
 
-- Consistency tweaks to `Link` and `Icon`
+- Consistency tweaks to `Link` and `Icon` components
 
 ## 0.1.23 (February 22, 2017)
 
-- Add and use SVG `Icons`
+- Add and use SVG `Icons` components
 - Add `Overlay` component
 
 ## 0.1.19 (February 16, 2017)
@@ -149,7 +153,7 @@ Bring these back:
 
 ## 0.1.2 (January 10, 2017)
 
-- Remove `margin-bottom` property from the `Card` component
+- Remove `margin-bottom` property from `Card` component
 
 ## 0.1.1 (January 9, 2017)
 
