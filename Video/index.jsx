@@ -1,16 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import { calculateStyles } from '../lib/utils';
+import { borderRadius } from '../style/border';
 
 
 const Video = ({ sources, controls, width, height, border }) => {
-  const classes = classNames(styles, undefined, {
+  const style = calculateStyles({
+    default: {},
+    rounded: {
+      borderRadius,
+    },
+  }, {
     rounded: border === 'rounded',
   });
   return (
     <video
-      className={classes}
+      style={style}
       controls={controls}
       width={width}
       height={height}
@@ -22,7 +27,7 @@ const Video = ({ sources, controls, width, height, border }) => {
           type={`video/${source.type}`}
         />)
       }
-      "Your Browser Does Not Support Video"
+      {'Your Browser Does Not Support Video'}
     </video>
   );
 };
@@ -35,7 +40,7 @@ Video.propTypes = {
     PropTypes.shape({
       src: PropTypes.string.isRequired,
       type: PropTypes.string.isRequired,
-    })
+    }),
   ),
   width: PropTypes.string,
 };

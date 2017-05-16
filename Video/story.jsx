@@ -34,7 +34,7 @@ storiesOf('Video')
           type: 'mp4',
         },
       ]}
-      width={"100%"}
+      width={'100%'}
     />
   ))
   .add('W=200px H=100px', () => (
@@ -45,8 +45,8 @@ storiesOf('Video')
           type: 'mp4',
         },
       ]}
-      width={"200px"}
-      height={"100px"}
+      width={'200px'}
+      height={'100px'}
     />
   ))
   .add('rounded border', () => (
