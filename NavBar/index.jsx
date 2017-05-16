@@ -2,11 +2,39 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import BufferIcon from '../Icon/Icons/BufferIcon';
 import Text from '../Text';
-import styles from './style.css';
+import {
+  white,
+  geyser,
+  shuttleGray,
+} from '../style/color';
+import {
+  borderWidth,
+} from '../style/border';
+
+const navbarStyle = {
+  display: 'flex',
+  marginBottom: '2rem',
+  padding: '1rem',
+  width: '100%',
+  backgroundColor: white,
+  borderBottom: `${borderWidth} solid ${geyser}`,
+  boxSizing: 'border-box',
+};
+
+const appIconStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  marginRight: '0.5rem',
+  color: shuttleGray,
+};
 
 const NavBar = ({ title, subtitle }) =>
-  <div className={styles.navbar}>
-    <span className={styles['app-icon']}>
+  <div
+    style={navbarStyle}
+  >
+    <span
+      style={appIconStyle}
+    >
       <BufferIcon />
     </span>
     <Text weight={'bold'}>{title}</Text>
