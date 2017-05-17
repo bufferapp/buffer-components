@@ -1,0 +1,28 @@
+@import '../variables.css';
+
+.selectWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.select {
+  z-index: var(--tooltip);
+  height: 2rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: var(--font-size-small);
+  background: transparent;
+  border: var(--border-width) solid var(--mystic);
+  border-radius: var(--border-radius);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.icon {
+  z-index: 0;
+  display: flex;
+  margin-left: -1.5rem;
+  align-items: center;
+}
