@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.24 (May 18, 2017)
+
+- Replace `height` CSS property on `SectionHeader` component with `padding-top` and `padding-bottom` properties
+
 ## 0.4.23 (May 17, 2017)
 
 - Add `Select` component
