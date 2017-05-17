@@ -1,13 +1,19 @@
 import React, { PropTypes } from 'react';
 
-const Select = ({ children }) => (
-  <div>
-    {children}
-  </div>
+const Select = ({ options }) => (
+  <select>
+    {
+      options.map(option =>
+        <option>
+          {option}
+        </option>,
+        )
+    }
+  </select>
 );
 
 Select.propTypes = {
-  children: PropTypes.node,
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Select;
