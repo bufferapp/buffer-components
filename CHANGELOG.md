@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.21 (May 17, 2017)
+
+- Add `SectionHeader` component
+
 ## 0.4.20 (May 16, 2017)
 
 - Add `outerSpace` config to `Text` component
