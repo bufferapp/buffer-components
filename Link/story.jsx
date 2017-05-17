@@ -1,11 +1,14 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import {
+  storiesOf,
+  action,
+} from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import Link from './index';
 
 storiesOf('Link')
   .addDecorator(checkA11y)
-  .add('Default', () => (
+  .add('default', () => (
     <div>
       <Link href={'https://twitter.com'}>Twitter</Link>
       <br />
@@ -24,5 +27,31 @@ storiesOf('Link')
       <Link href={'https://twitter.com'} newTab>Twitter</Link>
       <br />
       <Link href={'https://buffer.com'} newTab>Buffer</Link>
+    </div>
+  ))
+  .add('hovered', () => (
+    <div>
+      <Link href={'https://twitter.com'} hovered>Twitter</Link>
+      <br />
+      <Link href={'https://buffer.com'} hovered>Buffer</Link>
+    </div>
+  ))
+  .add('onMouseEnter + onMouseLeave', () => (
+    <div>
+      <Link
+        href={'https://twitter.com'}
+        onMouseEnter={action('on-mouse-enter')}
+        onMouseLeave={action('on-mouse-leave')}
+      >
+        Twitter
+      </Link>
+      <br />
+      <Link
+        href={'https://buffer.com'}
+        onMouseEnter={action('on-mouse-enter')}
+        onMouseLeave={action('on-mouse-leave')}
+      >
+        Buffer
+      </Link>
     </div>
   ));
