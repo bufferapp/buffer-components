@@ -12,6 +12,7 @@ import {
 import {
   geyser,
   torchRed,
+  curiousBlue,
 } from '../style/color';
 import Text from '../Text';
 
@@ -43,13 +44,16 @@ const renderError = ({ error, touched }) => (
 
 /* eslint-enable react/prop-types */
 
-const Input = ({ input, label, meta, placeholder, type }) => {
-  /*
-  TODO: implement focus
-  .input:focus {
-    border-color: var(--curious-blue);
-  }
-  */
+const Input = ({
+  input,
+  label,
+  meta,
+  placeholder,
+  type,
+  focused,
+  onFocus,
+  onBlur,
+}) => {
   const style = calculateStyles({
     default: {
       fontFamily,
@@ -61,10 +65,14 @@ const Input = ({ input, label, meta, placeholder, type }) => {
       boxSizing: 'border-box',
       outline: 0,
     },
+    focused: {
+      borderColor: curiousBlue,
+    },
     error: {
       borderColor: torchRed,
     },
   }, {
+    focused,
     error: meta.error && meta.touched,
   });
   return (
@@ -77,6 +85,8 @@ const Input = ({ input, label, meta, placeholder, type }) => {
         onChange={input.onChange}
         placeholder={placeholder}
         type={type}
+        onFocus={onFocus}
+        onBlur={onBlur}
       />
       {renderError(meta)}
     </div>
@@ -94,6 +104,9 @@ Input.commonPropTypes = {
     submitting: PropTypes.bool,
   }),
   placeholder: PropTypes.string,
+  focused: PropTypes.bool,
+  onFocus: PropTypes.func,
+  onBlur: PropTypes.func,
 };
 
 Input.propTypes = {
