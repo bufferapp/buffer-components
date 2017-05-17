@@ -100,4 +100,15 @@ storiesOf('Button')
     >
       Mouse Enter + Mouse Leave
     </Button>
+  ))
+  .add('focused', () => (
+    <Button secondary focused>Focused Button</Button>
+  ))
+  .add('onFocus + onBlur', () => (
+    <Button
+      onFocus={action('on-focus')}
+      onBlur={action('on-blur')}
+    >
+      Focus Me!
+    </Button>
   ));

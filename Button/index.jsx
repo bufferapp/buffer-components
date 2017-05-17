@@ -28,12 +28,15 @@ const Button = ({
   borderless,
   children,
   disabled,
+  focused,
   hovered,
   fillContainer,
   large,
   onClick,
   onMouseEnter,
   onMouseLeave,
+  onFocus,
+  onBlur,
   secondary,
   small,
   tertiary,
@@ -116,6 +119,9 @@ const Button = ({
       background: 'none',
       padding: 0,
     },
+    focused: {
+      boxShadow: `0 0 0.25rem ${curiousBlue}`,
+    },
   }, {
     disabled,
     hovered,
@@ -131,6 +137,7 @@ const Button = ({
     warningHovered: warning && hovered,
     fillContainer,
     noStyle,
+    focused,
   });
   return (
     <button
@@ -138,6 +145,8 @@ const Button = ({
       onClick={onClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onFocus={onFocus}
+      onBlur={onBlur}
       disabled={disabled}
     >
       {children}
@@ -150,12 +159,15 @@ Button.propTypes = {
   borderless: PropTypes.bool,
   disabled: PropTypes.bool,
   fillContainer: PropTypes.bool,
+  focused: PropTypes.bool,
   hovered: PropTypes.bool,
   large: PropTypes.bool,
   noStyle: PropTypes.bool,
   onClick: PropTypes.func,
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,
+  onFocus: PropTypes.func,
+  onBlur: PropTypes.func,
   secondary: PropTypes.bool,
   small: PropTypes.bool,
   tertiary: PropTypes.bool,
