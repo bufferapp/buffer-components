@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.23 (May 17, 2017)
+
+- Add `Select` component
+
 ## 0.4.22 (May 17, 2017)
 
 - Update `SectionHeader` component CSS `flex-direction` property add `align-items` property with `center` value
