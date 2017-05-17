@@ -18,4 +18,5 @@ export NavBar from './NavBar';
 export MultipleImages from './MultipleImages';
 export Overlay from './Overlay';
 export Popover from './Popover';
+export SectionHeader from './SectionHeader';
 export Text from './Text';
