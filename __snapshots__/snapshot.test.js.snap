@@ -10625,6 +10625,16 @@ exports[`Snapshots SectionHeader default 1`] = `
 </span>
 `;
 
+exports[`Snapshots SectionHeader with content 1`] = `
+<span>
+  <div
+    className="sectionHeader"
+  >
+    A section title
+  </div>
+</span>
+`;
+
 exports[`Snapshots Text Black 1`] = `
 <span>
   <span

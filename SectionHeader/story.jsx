@@ -10,4 +10,9 @@ storiesOf('SectionHeader')
   .addDecorator(checkA11y)
   .add('default', () => (
     <SectionHeader />
+  ))
+  .add('with content', () => (
+    <SectionHeader>
+      A section title
+    </SectionHeader>
   ));
