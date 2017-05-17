@@ -31,6 +31,9 @@ storiesOf('Text')
   .add('Mini', () => (
     <Text size={'mini'}>{text}</Text>
   ))
+  .add('OuterSpace', () => (
+    <Text color={'outerSpace'}>{text}</Text>
+  ))
   .add('Red', () => (
     <Text color={'red'}>{text}</Text>
   ))
