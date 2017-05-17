@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react';
+import style from './style.css';
 
 const Select = ({ options }) => (
-  <select>
+  <select className={style.select}>
     {
       options.map(option =>
         <option>
