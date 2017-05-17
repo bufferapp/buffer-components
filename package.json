@@ -70,6 +70,7 @@
   "dependencies": {
     "prop-types": "15.5.8",
     "react-day-picker": "5.2.3",
+    "react-keyframes": "0.2.2",
     "uuid": "3.0.1"
   }
 }
