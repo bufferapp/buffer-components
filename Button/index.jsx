@@ -14,6 +14,7 @@ import {
   outerSpace,
   transparent,
   torchRed,
+  denim,
 } from '../style/color';
 import {
   borderWidth,
@@ -27,9 +28,12 @@ const Button = ({
   borderless,
   children,
   disabled,
+  hovered,
   fillContainer,
   large,
   onClick,
+  onMouseEnter,
+  onMouseLeave,
   secondary,
   small,
   tertiary,
@@ -52,6 +56,11 @@ const Button = ({
       outline: 'none',
       transition: `background-color ${transitionAnimationTime} ${transitionAnimationType}`,
     },
+    hovered: {
+      color: white,
+      textDecoration: 'none',
+      backgroundColor: denim,
+    },
     disabled: {
       opacity: 0.3,
     },
@@ -59,6 +68,10 @@ const Button = ({
       color: curiousBlue,
       backgroundColor: transparent,
       border: 0,
+    },
+    borderlessHovered: {
+      color: denim,
+      backgroundColor: transparent,
     },
     large: {
       padding: '0.5rem 2rem',
@@ -69,6 +82,11 @@ const Button = ({
       backgroundColor: transparent,
       borderColor: curiousBlue,
     },
+    secondaryHovered: {
+      color: denim,
+      backgroundColor: transparent,
+      borderColor: denim,
+    },
     small: {
       padding: '0.25rem 2rem',
     },
@@ -77,10 +95,18 @@ const Button = ({
       backgroundColor: transparent,
       borderColor: geyser,
     },
+    tertiaryHovered: {
+      color: outerSpace,
+      backgroundColor: transparent,
+    },
     warning: {
       color: outerSpace,
       backgroundColor: transparent,
       borderColor: torchRed,
+    },
+    warningHovered: {
+      color: white,
+      backgroundColor: torchRed,
     },
     fillContainer: {
       width: '100%',
@@ -92,12 +118,17 @@ const Button = ({
     },
   }, {
     disabled,
+    hovered,
     borderless,
+    borderlessHovered: borderless && hovered,
     large,
     secondary,
+    secondaryHovered: secondary && hovered,
     small,
     tertiary,
+    tertiaryHovered: tertiary && hovered,
     warning,
+    warningHovered: warning && hovered,
     fillContainer,
     noStyle,
   });
@@ -105,6 +136,8 @@ const Button = ({
     <button
       style={style}
       onClick={onClick}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       disabled={disabled}
     >
       {children}
@@ -117,9 +150,12 @@ Button.propTypes = {
   borderless: PropTypes.bool,
   disabled: PropTypes.bool,
   fillContainer: PropTypes.bool,
+  hovered: PropTypes.bool,
   large: PropTypes.bool,
   noStyle: PropTypes.bool,
   onClick: PropTypes.func,
+  onMouseEnter: PropTypes.func,
+  onMouseLeave: PropTypes.func,
   secondary: PropTypes.bool,
   small: PropTypes.bool,
   tertiary: PropTypes.bool,

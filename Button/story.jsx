@@ -40,6 +40,24 @@ storiesOf('Button')
       </Button>
     </div>
   ))
+  .add('hovered', () => (
+    <div>
+      <p>Default</p>
+      <Button hovered>Button text</Button><br /><br />
+      <p>Borderless</p>
+      <Button hovered borderless>Button text</Button><br /><br />
+      <p>Large</p>
+      <Button hovered large>Button text</Button><br /><br />
+      <p>Secondary</p>
+      <Button hovered secondary>Button text</Button><br /><br />
+      <p>Small</p>
+      <Button hovered small>Button text</Button><br /><br />
+      <p>Tertiary</p>
+      <Button hovered tertiary>Button text</Button><br /><br />
+      <p>Warning</p>
+      <Button hovered warning>Button text</Button>
+    </div>
+  ))
   .add('large', () => (
     <Button large>Button text</Button>
   ))
@@ -73,5 +91,13 @@ storiesOf('Button')
       noStyle
     >
       <Text size={'small'}>Use this as an a11y friendly click target</Text>
+    </Button>
+  ))
+  .add('onMouseEnter + onMouseLeave', () => (
+    <Button
+      onMouseEnter={action('on-mouse-enter')}
+      onMouseLeave={action('on-mouse-leave')}
+    >
+      Mouse Enter + Mouse Leave
     </Button>
   ));
