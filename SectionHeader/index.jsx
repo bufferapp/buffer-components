@@ -8,7 +8,7 @@ const SectionHeader = ({ children }) => (
 );
 
 SectionHeader.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
 };
 
 export default SectionHeader;

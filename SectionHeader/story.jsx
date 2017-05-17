@@ -9,9 +9,5 @@ import Text from '../Text';
 storiesOf('SectionHeader')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <SectionHeader>
-      <Text color={'outerSpace'}>
-        A section header
-      </Text>
-    </SectionHeader>
+    <SectionHeader />
   ));
