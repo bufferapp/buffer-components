@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './style.css';
 import {
   outerSpaceUltraDark,
 } from '../style/color';
@@ -11,7 +10,6 @@ import {
 const Overlay = ({ onClick, transparent }) =>
   // eslint-disable-next-line jsx-a11y/no-static-element-interactions
   <div
-    className={styles.overlay}
     onClick={onClick}
     style={{
       position: 'absolute',
