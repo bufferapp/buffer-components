@@ -33,24 +33,15 @@ First, you'll need React installed (0.14 or newer):
 npm i react react-dom -SE
 ```
 
-In addition to your Babel configuration (not documented), you'll need some Webpack plugins:
+In addition to your Babel configuration (not documented), you'll need the style-loader Webpack plugin:
 
 ```sh
-npm i css-loader \
-      style-loader \
-      postcss-loader \
-      postcss-import \
-      postcss-custom-properties \
-      postcss-hexrgba -SDE
+npm i style-loader -SDE
 ```
 
 Your Webpack config should use the proper config, here is an example:
 
 ```js
-const PostCSSImport = require('postcss-import');
-const PostCSSCustomProperties = require('postcss-custom-properties');
-const PostCSShexrgba = require('postcss-hexrgba');
-
 module.exports = {
   module: {
     loaders: [
@@ -58,17 +49,10 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style-loader',
-          `css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:5]`,
-          'postcss-loader',
         ],
       },
     ],
   },
-  postcss: [
-    PostCSSImport,
-    PostCSSCustomProperties,
-    PostCSShexrgba,
-  ],
 };
 ```
 
@@ -123,9 +107,8 @@ Note: only commit these if you have manually inspected them with a story
 ```
 src/ # root
 +-- MyComponent/ # component root
-  `-- index.js # component logic
+  `-- index.js # component display logic
   `-- story.js # storybook entry
-  `-- style.css # component style
 ```
 
 ## Versioning
@@ -134,7 +117,7 @@ src/ # root
 major.minor.patch
 ```
 
-### Considered patche release
+### Considered patch release
 
 Can upgrade without changes to the codebase
 
