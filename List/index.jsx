@@ -10,11 +10,21 @@ const style = {
 
 const List = ({ items }) =>
   <ul style={style}>
-    {items.map((item, i) => <ListItem key={item.id ? item.id : i}>{item}</ListItem>)}
+    {items.map((item, i) =>
+      <ListItem key={item.id ? item.id : i}>
+        {item.component ? item.component : item}
+      </ListItem>)
+    }
   </ul>;
 
 List.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.node),
+  items: PropTypes.oneOf([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.arrayOf(PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+      component: PropTypes.node,
+    })),
+  ]),
 };
 
 export default List;
