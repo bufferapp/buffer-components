@@ -18,7 +18,7 @@ const List = ({ items }) =>
   </ul>;
 
 List.propTypes = {
-  items: PropTypes.oneOf([
+  items: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.arrayOf(PropTypes.shape({
       id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
