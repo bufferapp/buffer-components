@@ -2,8 +2,9 @@
 
 .sectionHeader {
   display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   flex-direction: row;
   align-items: center;
-  height: 3rem;
   border-bottom: var(--border-width) solid var(--mystic);
 }
