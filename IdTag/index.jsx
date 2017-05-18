@@ -9,13 +9,11 @@ import {
 } from '../style/border';
 
 const style = {
-  position: 'absolute',
   padding: '0.1rem 0.4rem 0.1rem 0.4rem',
   backgroundColor: black,
   borderRadius,
   opacity: '0.65',
   letterSpacing: '0.1rem',
-  zIndex: 2, // TODO: bring this into the zindex style
 };
 
 const IdTag = ({
@@ -28,7 +26,7 @@ const IdTag = ({
   </span>;
 
 IdTag.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string.isRequired,
 };
 
 export default IdTag;
