@@ -160,8 +160,3 @@
   background: repeating-linear-gradient(45deg, #eff1f1, #eff1f1 4px,
     rgba(22, 142, 234, 0.2) 4px, rgba(22, 142, 234, 0.2) 8px);
 }
-
-.error-label {
-  margin-top: 1rem;
-  text-align: center;
-}

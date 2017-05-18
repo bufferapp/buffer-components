@@ -1,15 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import DayPicker from 'react-day-picker';
-import styles from './style.css';
+import './style.css';
 import Text from '../Text';
 
 /* eslint-disable react/prop-types */
 
 const renderError = ({ error, touched }) => (
   error && touched ? (
-    <div className={styles['error-label']}>
-      <Text color={'red'}>{ error }</Text>
+    <div
+      style={{
+        marginTop: '1rem',
+        textAlign: 'center',
+      }}
+    >
+      <Text color={'torchRed'}>{ error }</Text>
     </div>
   ) : null
 );
