@@ -218,40 +218,28 @@ populate **index.js** with the new component
 
 ```js
 import React from 'react';
+import { calculateStyles } from '../lib/utils';
 
-const NewComponent = () => <div>NewComponent</div>;
-
-export default NewComponent;
-```
-
-6. Style the component
-
-```
-src/
-+-- NewComponent/
- `-- story.js
- `-- index.js
- `-- style.css
-```
-
-populate **style.css** with the component style
-
-```js
-import React from 'react';
-import styles from './style.css';
-import { classNames } from '../lib/utils';
-
-const NewComponent = () => {
-  const classes = classNames(styles, 'new-component');
-  return (
-    <div classNames={classes}>NewComponent</div>
-  );
-};
+const NewComponent = ({ hovered }) =>
+  <div
+    style={calculateStyles({
+      default:{
+        background: 'green',
+      },
+      hovered: {
+        background: 'red',
+      }
+    },{
+      hovered, // key matches above style key and is activated when value is true
+    })}
+  >
+    NewComponent
+  </div>;
 
 export default NewComponent;
 ```
 
-7. Run the test for the first time
+6. Run the test for the first time
 
 It's important to note that this creates a snapshot of the component. All tests ran in the future will be tested against this snapshot to ensure they haven't changed.
 
@@ -259,7 +247,7 @@ It's important to note that this creates a snapshot of the component. All tests 
 npm t
 ```
 
-8. Commit it!
+7. Commit it!
 
 ```sh
 git add .
