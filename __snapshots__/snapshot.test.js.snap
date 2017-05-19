@@ -13198,7 +13198,16 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
 exports[`Snapshots SectionHeader default 1`] = `
 <span>
   <div
-    className="sectionHeader"
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottom": "0.063rem solid #e6ebef",
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": "1rem",
+        "paddingTop": "1rem",
+      }
+    }
   />
 </span>
 `;
@@ -13206,7 +13215,16 @@ exports[`Snapshots SectionHeader default 1`] = `
 exports[`Snapshots SectionHeader with content 1`] = `
 <span>
   <div
-    className="sectionHeader"
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottom": "0.063rem solid #e6ebef",
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": "1rem",
+        "paddingTop": "1rem",
+      }
+    }
   >
     A section title
   </div>
@@ -13216,10 +13234,30 @@ exports[`Snapshots SectionHeader with content 1`] = `
 exports[`Snapshots Select default 1`] = `
 <span>
   <div
-    className="selectWrapper"
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
   >
     <select
-      className="select"
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "appearance": "none",
+          "background": "transparent",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.8rem",
+          "height": "2rem",
+          "paddingLeft": "0.5rem",
+          "paddingRight": "0.5rem",
+          "zIndex": 4000,
+        }
+      }
     >
       <option>
         London
@@ -13233,9 +13271,19 @@ exports[`Snapshots Select default 1`] = `
       <option>
         Tokyo
       </option>
+      <option>
+        Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+      </option>
     </select>
     <span
-      className="icon"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "marginLeft": "-1.5rem",
+          "zIndex": 0,
+        }
+      }
     >
       <svg
         height="100%"

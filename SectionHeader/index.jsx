@@ -1,8 +1,23 @@
-import React, { PropTypes } from 'react';
-import style from './style.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import {
+  mystic,
+} from '../style/color';
+import {
+  borderWidth,
+} from '../style/border';
+
+const sectionHeaderStyle = {
+  display: 'flex',
+  paddingTop: '1rem',
+  paddingBottom: '1rem',
+  flexDirection: 'row',
+  alignItems: 'center',
+  borderBottom: `${borderWidth} solid ${mystic}`,
+};
 
 const SectionHeader = ({ children }) => (
-  <div className={style.sectionHeader}>
+  <div style={sectionHeaderStyle}>
     {children}
   </div>
 );
