@@ -10,6 +10,7 @@ const options = [
   'New York',
   'San Francisco',
   'Tokyo',
+  'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', // http://www.fun-with-words.com/longest_place_names.html
 ];
 
 storiesOf('Select')

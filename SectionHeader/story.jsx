@@ -4,7 +4,6 @@ import {
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import SectionHeader from './index';
-import Text from '../Text';
 
 storiesOf('SectionHeader')
   .addDecorator(checkA11y)
