@@ -330,6 +330,48 @@ exports[`Snapshots Button disabled 1`] = `
     >
       No Events :(
     </button>
+    <p>
+      No Style
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={[Function]}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Use this as an a11y friendly click target
+      </span>
+    </button>
   </div>
 </span>
 `;
@@ -644,6 +686,79 @@ exports[`Snapshots Button hovered 1`] = `
     >
       Button text
     </button>
+    <p>
+      Disabled
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={[Function]}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      No Events :(
+    </button>
+    <p>
+      No Style
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Use this as an a11y friendly click target
+      </span>
+    </button>
   </div>
 </span>
 `;
@@ -692,19 +807,19 @@ exports[`Snapshots Button noStyle 1`] = `
     style={
       Object {
         "background": "none",
-        "backgroundColor": "#168eea",
+        "backgroundColor": "unset",
         "border": "none",
-        "borderRadius": "2rem",
-        "color": "#fff",
+        "borderRadius": "unset",
+        "color": "unset",
         "cursor": "pointer",
-        "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
-        "fontSize": "0.8rem",
-        "fontWeight": 400,
-        "margin": "0",
+        "display": "unset",
+        "fontFamily": "unset",
+        "fontSize": "unset",
+        "fontWeight": "unset",
+        "margin": "unset",
         "outline": "none",
         "padding": 0,
-        "transition": "background-color 0.1s linear",
+        "transition": "unset",
       }
     }
   >
@@ -972,6 +1087,8 @@ exports[`Snapshots Card default 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -986,6 +1103,8 @@ exports[`Snapshots Card default 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1022,6 +1141,8 @@ exports[`Snapshots Card doublePadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1036,6 +1157,8 @@ exports[`Snapshots Card doublePadding 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1075,6 +1198,8 @@ exports[`Snapshots Card empty + hovered 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1089,6 +1214,8 @@ exports[`Snapshots Card empty + hovered 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1151,6 +1278,8 @@ exports[`Snapshots Card faded 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1165,6 +1294,8 @@ exports[`Snapshots Card faded 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1202,6 +1333,8 @@ exports[`Snapshots Card failed 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1216,6 +1349,8 @@ exports[`Snapshots Card failed 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1253,6 +1388,8 @@ exports[`Snapshots Card hovered 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1267,6 +1404,8 @@ exports[`Snapshots Card hovered 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1303,6 +1442,8 @@ exports[`Snapshots Card noBorder 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1317,6 +1458,8 @@ exports[`Snapshots Card noBorder 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1353,6 +1496,8 @@ exports[`Snapshots Card noPadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1367,6 +1512,8 @@ exports[`Snapshots Card noPadding 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1403,6 +1550,8 @@ exports[`Snapshots Card off-white background color 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1417,6 +1566,8 @@ exports[`Snapshots Card off-white background color 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1453,6 +1604,8 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1467,6 +1620,8 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1503,6 +1658,8 @@ exports[`Snapshots Card reducedPadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -1517,6 +1674,8 @@ exports[`Snapshots Card reducedPadding 1`] = `
      over on Medium! 
     <a
       href="#"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11346,6 +11505,8 @@ exports[`Snapshots Link default 1`] = `
   <div>
     <a
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11360,6 +11521,8 @@ exports[`Snapshots Link default 1`] = `
     <br />
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11375,11 +11538,34 @@ exports[`Snapshots Link default 1`] = `
 </span>
 `;
 
+exports[`Snapshots Link focused 1`] = `
+<span>
+  <a
+    href="https://twitter.com"
+    onBlur={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "boxShadow": "0 0 0.25rem #168eea",
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
 exports[`Snapshots Link hovered 1`] = `
 <span>
   <div>
     <a
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11394,6 +11580,8 @@ exports[`Snapshots Link hovered 1`] = `
     <br />
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11414,6 +11602,8 @@ exports[`Snapshots Link newTab 1`] = `
   <div>
     <a
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11428,6 +11618,8 @@ exports[`Snapshots Link newTab 1`] = `
     <br />
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11443,11 +11635,33 @@ exports[`Snapshots Link newTab 1`] = `
 </span>
 `;
 
+exports[`Snapshots Link onFocus + onBlur 1`] = `
+<span>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
 exports[`Snapshots Link onMouseEnter + onMouseLeave 1`] = `
 <span>
   <div>
     <a
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       style={
@@ -11462,6 +11676,8 @@ exports[`Snapshots Link onMouseEnter + onMouseLeave 1`] = `
     <br />
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       style={
@@ -11482,6 +11698,8 @@ exports[`Snapshots Link unstyled 1`] = `
   <div>
     <a
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11497,6 +11715,8 @@ exports[`Snapshots Link unstyled 1`] = `
     <br />
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11528,6 +11748,8 @@ exports[`Snapshots LinkifiedText default 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11574,6 +11796,8 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11622,6 +11846,8 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11653,6 +11879,8 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11667,6 +11895,8 @@ exports[`Snapshots LinkifiedText two links 1`] = `
      b 
     <a
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={
@@ -11698,6 +11928,8 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={undefined}
+      onFocus={undefined}
       onMouseEnter={undefined}
       onMouseLeave={undefined}
       style={

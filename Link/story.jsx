@@ -54,4 +54,21 @@ storiesOf('Link')
         Buffer
       </Link>
     </div>
+  ))
+  .add('focused', () => (
+    <Link
+      href={'https://twitter.com'}
+      focused
+    >
+      Twitter
+    </Link>
+  ))
+  .add('onFocus + onBlur', () => (
+    <Link
+      href={'https://twitter.com'}
+      onFocus={action('on-focus')}
+      onBlur={action('on-blur')}
+    >
+      Twitter
+    </Link>
   ));

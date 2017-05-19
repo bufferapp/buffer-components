@@ -8,14 +8,21 @@ import {
   denim,
 } from '../style/color';
 
+import {
+  focusedStyle,
+} from '../style/focused';
+
 const Link = ({
   children,
   hovered,
   href,
+  focused,
   newTab,
   unstyled,
   onMouseEnter,
   onMouseLeave,
+  onFocus,
+  onBlur,
 }) => {
   const style = calculateStyles({
     default: {
@@ -27,9 +34,11 @@ const Link = ({
     unstyled: {
       textDecoration: 'none',
     },
+    focused: focusedStyle,
   }, {
     hovered,
     unstyled,
+    focused,
   });
 
   return (
@@ -39,6 +48,8 @@ const Link = ({
       target={newTab ? '_blank' : '_self'}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onFocus={onFocus}
+      onBlur={onBlur}
     >
       {children}
     </a>
@@ -49,10 +60,13 @@ Link.propTypes = {
   children: PropTypes.node,
   hovered: PropTypes.bool,
   href: PropTypes.string,
+  focused: PropTypes.bool,
   newTab: PropTypes.bool,
   unstyled: PropTypes.bool,
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,
+  onFocus: PropTypes.func,
+  onBlur: PropTypes.func,
 };
 
 export default Link;

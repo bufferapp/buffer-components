@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0 (May 19, 2017)
+
+- Migrate to Inline Styles
+
 ## 0.4.24 (May 18, 2017)
 
 - Replace `height` CSS property on `SectionHeader` component with `padding-top` and `padding-bottom` properties

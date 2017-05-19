@@ -38,6 +38,14 @@ storiesOf('Button')
       >
         No Events :(
       </Button>
+      <p>No Style</p>
+      <Button
+        disabled
+        onClick={action('button-click--should-not-happen')}
+        noStyle
+      >
+        <Text size={'small'}>Use this as an a11y friendly click target</Text>
+      </Button>
     </div>
   ))
   .add('hovered', () => (
@@ -56,6 +64,21 @@ storiesOf('Button')
       <Button hovered tertiary>Button text</Button><br /><br />
       <p>Warning</p>
       <Button hovered warning>Button text</Button>
+      <p>Disabled</p>
+      <Button
+        disabled
+        hovered
+        onClick={action('button-click--should-not-happen')}
+      >
+        No Events :(
+      </Button>
+      <p>No Style</p>
+      <Button
+        noStyle
+        hovered
+      >
+        <Text size={'small'}>Use this as an a11y friendly click target</Text>
+      </Button>
     </div>
   ))
   .add('large', () => (
