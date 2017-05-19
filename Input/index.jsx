@@ -1,14 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import { calculateStyles } from '../lib/utils';
+import {
+  fontFamily,
+  fontSize,
+} from '../style/font';
+import {
+  borderRadius,
+  borderWidth,
+} from '../style/border';
+import {
+  geyser,
+  torchRed,
+  curiousBlue,
+} from '../style/color';
 import Text from '../Text';
 
 /* eslint-disable react/prop-types */
 
+const labelStyle = {
+  marginBottom: '1rem',
+};
+
+const errorStyle = {
+  marginTop: '1rem',
+};
+
 const renderLabel = ({ label }) => (
   label ? (
-    <div className={styles.label}>
+    <div style={labelStyle}>
       <Text>{label}</Text>
     </div>
   ) : null
@@ -16,29 +36,62 @@ const renderLabel = ({ label }) => (
 
 const renderError = ({ error, touched }) => (
   error && touched ? (
-    <div className={styles['error-label']}>
-      <Text color={'red'}>{ error }</Text>
+    <div style={errorStyle}>
+      <Text color={'torchRed'}>{ error }</Text>
     </div>
   ) : null
 );
 
 /* eslint-enable react/prop-types */
 
-const Input = ({ input, label, meta, placeholder, type }) =>
-  <div>
-    {renderLabel({ label })}
-    <input
-      className={classNames(styles, 'input', {
-        'input-error': meta.error && meta.touched,
-      })}
-      disabled={meta.submitting}
-      value={input.value}
-      onChange={input.onChange}
-      placeholder={placeholder}
-      type={type}
-    />
-    {renderError(meta)}
-  </div>;
+const Input = ({
+  input,
+  label,
+  meta,
+  placeholder,
+  type,
+  focused,
+  onFocus,
+  onBlur,
+}) => {
+  const style = calculateStyles({
+    default: {
+      fontFamily,
+      fontSize,
+      padding: '0.5rem',
+      borderRadius,
+      border: `${borderWidth} solid ${geyser}`,
+      width: '100%',
+      boxSizing: 'border-box',
+      outline: 0,
+    },
+    focused: {
+      borderColor: curiousBlue,
+    },
+    error: {
+      borderColor: torchRed,
+    },
+  }, {
+    focused,
+    error: meta.error && meta.touched,
+  });
+  return (
+    <div>
+      {renderLabel({ label })}
+      <input
+        style={style}
+        disabled={meta.submitting}
+        value={input.value}
+        onChange={input.onChange}
+        placeholder={placeholder}
+        type={type}
+        onFocus={onFocus}
+        onBlur={onBlur}
+      />
+      {renderError(meta)}
+    </div>
+  );
+};
 
 Input.commonPropTypes = {
   input: PropTypes.shape({
@@ -51,6 +104,9 @@ Input.commonPropTypes = {
     submitting: PropTypes.bool,
   }),
   placeholder: PropTypes.string,
+  focused: PropTypes.bool,
+  onFocus: PropTypes.func,
+  onBlur: PropTypes.func,
 };
 
 Input.propTypes = {

@@ -48,10 +48,20 @@ storiesOf('Input')
     />
   ))
   .add('with submitting = true', () => (
-      <Input
-        input={input}
-        meta={{
-          submitting: true
-        }}
-      />
+    <Input
+      input={input}
+      meta={{
+        submitting: true,
+      }}
+    />
+  ))
+  .add('focused', () => (
+    <Input input={input} focused />
+  ))
+  .add('onFocus + onBlur', () => (
+    <Input
+      input={input}
+      onFocus={action('on-focus')}
+      onBlur={action('on-blur')}
+    />
   ));

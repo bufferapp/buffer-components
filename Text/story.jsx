@@ -7,44 +7,44 @@ const text = 'The quick brown fox jumps over the lazy dog';
 
 storiesOf('Text')
   .addDecorator(checkA11y)
-  .add('Default', () => (
+  .add('default', () => (
     <Text>{text}</Text>
   ))
-  .add('Black', () => (
+  .add('black', () => (
     <Text color={'black'}>{text}</Text>
   ))
-  .add('Blue', () => (
-    <Text color={'blue'}>{text}</Text>
+  .add('curiousBlue', () => (
+    <Text color={'curiousBlue'}>{text}</Text>
   ))
-  .add('Bold', () => (
-    <Text weight={'bold'}>{text}</Text>
+  .add('shuttleGray', () => (
+    <Text color={'shuttleGray'}>{text}</Text>
   ))
-  .add('ExtraSmall', () => (
-    <Text size={'extra-small'}>{text}</Text>
+  .add('torchRed', () => (
+    <Text color={'torchRed'}>{text}</Text>
   ))
-  .add('Gray', () => (
-    <Text color={'gray'}>{text}</Text>
-  ))
-  .add('Large', () => (
-    <Text size={'large'}>{text}</Text>
-  ))
-  .add('Mini', () => (
-    <Text size={'mini'}>{text}</Text>
-  ))
-  .add('OuterSpace', () => (
+  .add('outerSpace', () => (
     <Text color={'outerSpace'}>{text}</Text>
   ))
-  .add('Red', () => (
-    <Text color={'red'}>{text}</Text>
-  ))
-  .add('Small', () => (
-    <Text size={'small'}>{text}</Text>
-  ))
-  .add('Thin', () => (
-    <Text weight={'thin'}>{text}</Text>
-  ))
-  .add('White', () => (
+  .add('white', () => (
     <div style={{ backgroundColor: 'black' }}>
       <Text color={'white'}>{text}</Text>
     </div>
+  ))
+  .add('bold', () => (
+    <Text weight={'bold'}>{text}</Text>
+  ))
+  .add('extra small', () => (
+    <Text size={'extra-small'}>{text}</Text>
+  ))
+  .add('large', () => (
+    <Text size={'large'}>{text}</Text>
+  ))
+  .add('mini', () => (
+    <Text size={'mini'}>{text}</Text>
+  ))
+  .add('small', () => (
+    <Text size={'small'}>{text}</Text>
+  ))
+  .add('thin', () => (
+    <Text weight={'thin'}>{text}</Text>
   ));

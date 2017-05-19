@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './style.css';
 import Overlay from '../Overlay';
-import { classNames } from '../lib/utils';
+import {
+  calculateStyles,
+} from '../lib/utils';
+import {
+  modal,
+} from '../style/zIndex';
 
 const Popover = ({
   children,
@@ -15,19 +19,23 @@ const Popover = ({
 }) =>
   <span>
     <div
-      className={classNames(
-        styles,
-        'popover',
-        {
-          center: !(left || top || bottom || right),
+      style={calculateStyles({
+        default: {
+          position: 'absolute',
+          left,
+          top,
+          bottom,
+          right,
+          zIndex: modal,
         },
-      )}
-      style={{
-        left,
-        top,
-        bottom,
-        right,
-      }}
+        center: {
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+        },
+      }, {
+        center: !(left || top || bottom || right),
+      })}
     >
       {children}
     </div>

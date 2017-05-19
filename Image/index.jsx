@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
-
+import { calculateStyles } from '../lib/utils';
+import {
+  borderRadius,
+} from '../style/border';
 
 const Image = ({ src,
   alt,
@@ -16,28 +17,36 @@ const Image = ({ src,
   objectFit,
   verticalAlignBottom,
 }) => {
-  const classes = classNames(styles, undefined, {
+  const style = calculateStyles({
+    default: {
+      height,
+      width,
+      maxHeight,
+      maxWidth,
+      minHeight,
+      minWidth,
+      objectFit,
+    },
+    circle: {
+      borderRadius: '50%',
+    },
+    rounded: {
+      borderRadius,
+    },
+    verticalAlignBottom: {
+      verticalAlign: 'bottom',
+    },
+  }, {
     circle: border === 'circle',
     rounded: border === 'rounded',
     verticalAlignBottom,
   });
 
-  const inlineStyle = {
-    height,
-    width,
-    maxHeight,
-    maxWidth,
-    minHeight,
-    minWidth,
-    objectFit,
-  };
-
   return (
     <img
       src={src}
       alt={alt}
-      className={classes}
-      style={inlineStyle}
+      style={style}
     />
   );
 };

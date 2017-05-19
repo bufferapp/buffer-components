@@ -1,44 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import { calculateStyles } from '../lib/utils';
+import colors from '../style/color';
 
 const Icon = ({
   children,
   color,
   size,
 }) => {
-  const classes = classNames(styles, 'icon', {
-    large: size === 'large',
+  const style = calculateStyles({
+    default: {
+      width: '1rem',
+      height: '1rem',
+    },
+    color: {
+      fill: colors[color],
+    },
+    small: {
+      width: '0.75rem',
+      height: '0.75rem',
+    },
+    large: {
+      width: '2rem',
+      height: '2rem',
+    },
+  }, {
+    color,
     small: size === 'small',
-    appdotnet: color === 'appdotnet',
-    aquaHaze: color === 'aquaHaze',
-    black: color === 'black',
-    curiousBlue: color === 'curiousBlue',
-    curiousBlueLight: color === 'curiousBlueLight',
-    curiousBlueUltraLight: color === 'curiousBlueUltraLight',
-    denim: color === 'denim',
-    facebook: color === 'facebook',
-    geyser: color === 'geyser',
-    googleplus: color === 'googleplus',
-    linkedin: color === 'linkedin',
-    mystic: color === 'mystic',
-    nevada: color === 'nevada',
-    outerSpace: color === 'outerSpace',
-    outerSpaceLight: color === 'outerSpaceLight',
-    outerSpaceUltraLight: color === 'outerSpaceUltraLight',
-    pinterest: color === 'pinterest',
-    saffron: color === 'saffron',
-    shamrock: color === 'shamrock',
-    shuttleGray: color === 'shuttleGray',
-    torchRed: color === 'torchRed',
-    toryBlue: color === 'toryBlue',
-    twitter: color === 'twitter',
-    white: color === 'white',
+    large: size === 'large',
   });
   return (
     <svg
-      className={classes}
+      style={style}
       width="100%"
       height="100%"
       viewBox="0 0 16 16"

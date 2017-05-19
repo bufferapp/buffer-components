@@ -36,7 +36,17 @@ storiesOf('InputEmail')
     <InputEmail
       input={input}
       meta={{
-        submitting: true
+        submitting: true,
       }}
+    />
+  ))
+  .add('focused', () => (
+    <InputEmail input={input} focused />
+  ))
+  .add('onFocus + onBlur', () => (
+    <InputEmail
+      input={input}
+      onFocus={action('on-focus')}
+      onBlur={action('on-blur')}
     />
   ));
