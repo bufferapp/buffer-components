@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.1 (May 19, 2017)
+
+- Fix `Button` noStyle
+- Make `Link` focusable/blurable
+
 ## 0.5.0 (May 19, 2017)
 
 - Migrate to Inline Styles
