@@ -1,72 +1,32 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {
-  calculateStyles,
-} from '../lib/utils';
-import {
-  curiousBlue,
-  denim,
-} from '../style/color';
+import LinkStateless from '../LinkStateless';
+import PseudoClassComponent from '../PseudoClassComponent';
 
-import {
-  focusedStyle,
-} from '../style/focused';
-
-const Link = ({
-  children,
-  hovered,
-  href,
-  focused,
-  newTab,
-  unstyled,
-  onMouseEnter,
-  onMouseLeave,
-  onFocus,
-  onBlur,
-}) => {
-  const style = calculateStyles({
-    default: {
-      color: curiousBlue,
-    },
-    hovered: {
-      color: denim,
-    },
-    unstyled: {
-      textDecoration: 'none',
-    },
-    focused: focusedStyle,
-  }, {
-    hovered,
-    unstyled,
-    focused,
-  });
-
-  return (
-    <a
-      style={style}
-      href={href}
-      target={newTab ? '_blank' : '_self'}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-      onFocus={onFocus}
-      onBlur={onBlur}
-    >
-      {children}
-    </a>
-  );
-};
-
-Link.propTypes = {
-  children: PropTypes.node,
-  hovered: PropTypes.bool,
-  href: PropTypes.string,
-  focused: PropTypes.bool,
-  newTab: PropTypes.bool,
-  unstyled: PropTypes.bool,
-  onMouseEnter: PropTypes.func,
-  onMouseLeave: PropTypes.func,
-  onFocus: PropTypes.func,
-  onBlur: PropTypes.func,
-};
+class Link extends PseudoClassComponent {
+  render() {
+    const { children, ...rest } = this.props;
+    let hoveredChildren = children;
+    // string as children isn't clonable
+    if (React.isValidElement(children)) {
+      hoveredChildren = React.cloneElement(
+        children,
+        { hovered: this.state.hovered },
+      );
+    }
+    return (
+      <LinkStateless
+        {...rest}
+        hovered={this.state.hovered}
+        focused={this.state.focused}
+        onMouseEnter={() => this.handleMouseEnter()}
+        onMouseLeave={() => this.handleMouseLeave()}
+        onFocus={() => this.handleFocus()}
+        onBlur={() => this.handleBlur()}
+      >
+        {hoveredChildren}
+      </LinkStateless>
+    );
+  }
+}
 
 export default Link;

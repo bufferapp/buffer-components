@@ -1,6 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshots Button Default 1`] = `
+exports[`Snapshots Button default 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Click Me
+  </button>
+</span>
+`;
+
+exports[`Snapshots Button warning button 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "2rem",
+        "color": "#323b43",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Warning
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless Default 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -32,7 +97,7 @@ exports[`Snapshots Button Default 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button borderless 1`] = `
+exports[`Snapshots ButtonStateless borderless 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -64,7 +129,7 @@ exports[`Snapshots Button borderless 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button disabled 1`] = `
+exports[`Snapshots ButtonStateless disabled 1`] = `
 <span>
   <div>
     <p>
@@ -376,7 +441,7 @@ exports[`Snapshots Button disabled 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button fillContainer 1`] = `
+exports[`Snapshots ButtonStateless fillContainer 1`] = `
 <span>
   <div
     style={
@@ -417,7 +482,7 @@ exports[`Snapshots Button fillContainer 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button focused 1`] = `
+exports[`Snapshots ButtonStateless focused 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -451,7 +516,7 @@ exports[`Snapshots Button focused 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button hovered 1`] = `
+exports[`Snapshots ButtonStateless hovered 1`] = `
 <span>
   <div>
     <p>
@@ -763,7 +828,7 @@ exports[`Snapshots Button hovered 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button large 1`] = `
+exports[`Snapshots ButtonStateless large 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -795,7 +860,7 @@ exports[`Snapshots Button large 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button noStyle 1`] = `
+exports[`Snapshots ButtonStateless noStyle 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -839,7 +904,7 @@ exports[`Snapshots Button noStyle 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button onClick event 1`] = `
+exports[`Snapshots ButtonStateless onClick event 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -871,7 +936,7 @@ exports[`Snapshots Button onClick event 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button onFocus + onBlur 1`] = `
+exports[`Snapshots ButtonStateless onFocus + onBlur 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -903,7 +968,7 @@ exports[`Snapshots Button onFocus + onBlur 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button onMouseEnter + onMouseLeave 1`] = `
+exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -935,7 +1000,7 @@ exports[`Snapshots Button onMouseEnter + onMouseLeave 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button secondary 1`] = `
+exports[`Snapshots ButtonStateless secondary 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -968,7 +1033,7 @@ exports[`Snapshots Button secondary 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button small 1`] = `
+exports[`Snapshots ButtonStateless small 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -1000,7 +1065,7 @@ exports[`Snapshots Button small 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button tertiary 1`] = `
+exports[`Snapshots ButtonStateless tertiary 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -1033,7 +1098,7 @@ exports[`Snapshots Button tertiary 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button warning 1`] = `
+exports[`Snapshots ButtonStateless warning 1`] = `
 <span>
   <button
     disabled={undefined}
@@ -1087,10 +1152,10 @@ exports[`Snapshots Card default 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1103,10 +1168,10 @@ exports[`Snapshots Card default 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1141,10 +1206,10 @@ exports[`Snapshots Card doublePadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1157,10 +1222,10 @@ exports[`Snapshots Card doublePadding 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1198,10 +1263,10 @@ exports[`Snapshots Card empty + hovered 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1214,10 +1279,10 @@ exports[`Snapshots Card empty + hovered 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1278,10 +1343,10 @@ exports[`Snapshots Card faded 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1294,10 +1359,10 @@ exports[`Snapshots Card faded 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1333,10 +1398,10 @@ exports[`Snapshots Card failed 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1349,10 +1414,10 @@ exports[`Snapshots Card failed 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1388,10 +1453,10 @@ exports[`Snapshots Card hovered 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1404,10 +1469,10 @@ exports[`Snapshots Card hovered 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1442,10 +1507,10 @@ exports[`Snapshots Card noBorder 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1458,10 +1523,10 @@ exports[`Snapshots Card noBorder 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1496,10 +1561,10 @@ exports[`Snapshots Card noPadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1512,10 +1577,10 @@ exports[`Snapshots Card noPadding 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1550,10 +1615,10 @@ exports[`Snapshots Card off-white background color 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1566,10 +1631,10 @@ exports[`Snapshots Card off-white background color 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1604,10 +1669,10 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1620,10 +1685,10 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1658,10 +1723,10 @@ exports[`Snapshots Card reducedPadding 1`] = `
     What is a Product Designer? An awesome story by 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -1674,10 +1739,10 @@ exports[`Snapshots Card reducedPadding 1`] = `
      over on Medium! 
     <a
       href="#"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11502,6 +11567,47 @@ exports[`Snapshots InputTime with value set 1`] = `
 
 exports[`Snapshots Link default 1`] = `
 <span>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
+exports[`Snapshots Link unstyled 1`] = `
+<span>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
+exports[`Snapshots LinkStateless default 1`] = `
+<span>
   <div>
     <a
       href="https://twitter.com"
@@ -11538,7 +11644,7 @@ exports[`Snapshots Link default 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link focused 1`] = `
+exports[`Snapshots LinkStateless focused 1`] = `
 <span>
   <a
     href="https://twitter.com"
@@ -11559,7 +11665,7 @@ exports[`Snapshots Link focused 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link hovered 1`] = `
+exports[`Snapshots LinkStateless hovered 1`] = `
 <span>
   <div>
     <a
@@ -11597,7 +11703,7 @@ exports[`Snapshots Link hovered 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link newTab 1`] = `
+exports[`Snapshots LinkStateless newTab 1`] = `
 <span>
   <div>
     <a
@@ -11635,7 +11741,7 @@ exports[`Snapshots Link newTab 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link onFocus + onBlur 1`] = `
+exports[`Snapshots LinkStateless onFocus + onBlur 1`] = `
 <span>
   <a
     href="https://twitter.com"
@@ -11655,7 +11761,7 @@ exports[`Snapshots Link onFocus + onBlur 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link onMouseEnter + onMouseLeave 1`] = `
+exports[`Snapshots LinkStateless onMouseEnter + onMouseLeave 1`] = `
 <span>
   <div>
     <a
@@ -11693,7 +11799,7 @@ exports[`Snapshots Link onMouseEnter + onMouseLeave 1`] = `
 </span>
 `;
 
-exports[`Snapshots Link unstyled 1`] = `
+exports[`Snapshots LinkStateless unstyled 1`] = `
 <span>
   <div>
     <a
@@ -11748,10 +11854,10 @@ exports[`Snapshots LinkifiedText default 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11796,10 +11902,10 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11846,10 +11952,10 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11879,10 +11985,10 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11895,10 +12001,10 @@ exports[`Snapshots LinkifiedText two links 1`] = `
      b 
     <a
       href="https://buffer.com"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
@@ -11928,10 +12034,10 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
     a 
     <a
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
-      onBlur={undefined}
-      onFocus={undefined}
-      onMouseEnter={undefined}
-      onMouseLeave={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
       style={
         Object {
           "color": "#168eea",
