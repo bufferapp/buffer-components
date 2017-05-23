@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.2 (May 23, 2017)
+
+- `Button` manages own focus and hover state
+- `Link` manages own focus and hover state
+
 ## 0.5.1 (May 19, 2017)
 
 - Fix `Button` noStyle
