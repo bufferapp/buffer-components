@@ -31,4 +31,24 @@ describe('Button', () => {
     expect(button.props().focused)
       .toBe(false);
   });
+
+  it('should toggle focused prop when focus and blur are triggered', () => {
+    /* eslint-disable react/prop-types */
+    const HoverableFocusableThing = ({ hovered, focused }) =>
+      <div>{hovered} - {focused}</div>;
+    /* eslint-enable react/prop-types */
+    const wrapper = mount(
+      <Button>
+        <HoverableFocusableThing />
+      </Button>,
+    );
+    const button = wrapper
+      .find(ButtonStateless);
+    button.simulate('focus');
+    expect(button.props().focused)
+      .toBe(true);
+    button.simulate('blur');
+    expect(button.props().focused)
+      .toBe(false);
+  });
 });
