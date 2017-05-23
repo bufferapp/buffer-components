@@ -8,13 +8,13 @@ describe('Link', () => {
     const wrapper = mount(
       <Link href={'localhost:8000'}>A Link</Link>,
     );
-    const button = wrapper
+    const link = wrapper
       .find(LinkStateless);
-    button.simulate('mouseEnter');
-    expect(button.props().hovered)
+    link.simulate('mouseEnter');
+    expect(link.props().hovered)
       .toBe(true);
-    button.simulate('mouseLeave');
-    expect(button.props().hovered)
+    link.simulate('mouseLeave');
+    expect(link.props().hovered)
       .toBe(false);
   });
 
@@ -22,13 +22,33 @@ describe('Link', () => {
     const wrapper = mount(
       <Link href={'localhost:8000'}>A Link</Link>,
     );
-    const button = wrapper
+    const link = wrapper
       .find(LinkStateless);
-    button.simulate('focus');
-    expect(button.props().focused)
+    link.simulate('focus');
+    expect(link.props().focused)
       .toBe(true);
-    button.simulate('blur');
-    expect(button.props().focused)
+    link.simulate('blur');
+    expect(link.props().focused)
+      .toBe(false);
+  });
+
+  it('should toggle focused prop when focus and blur are triggered', () => {
+    /* eslint-disable react/prop-types */
+    const HoverableFocusableThing = ({ hovered, focused }) =>
+      <div>{hovered} - {focused}</div>;
+    /* eslint-enable react/prop-types */
+    const wrapper = mount(
+      <Link>
+        <HoverableFocusableThing />
+      </Link>,
+    );
+    const link = wrapper
+      .find(LinkStateless);
+    link.simulate('focus');
+    expect(link.props().focused)
+      .toBe(true);
+    link.simulate('blur');
+    expect(link.props().focused)
       .toBe(false);
   });
 });
