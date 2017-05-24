@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.5 (May 24, 2017)
+
+- Add `iconHovered` state to `ButtonStateless` `icon` config
+
 ## 0.5.4 (May 24, 2017)
 
 - Remove `lineHeight` from `ButtonStateless` and replace with `icon` config
