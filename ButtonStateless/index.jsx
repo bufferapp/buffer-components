@@ -79,9 +79,13 @@ const Button = ({
     },
     icon: {
       padding: 0,
-      background: 'transparent',
+      background: transparent,
       border: 0,
       lineHeight: 0,
+    },
+    iconHovered: {
+      backgroundColor: transparent,
+      border: 0,
     },
     large: {
       padding: '0.5rem 2rem',
@@ -145,6 +149,7 @@ const Button = ({
     borderless,
     borderlessHovered: borderless && hovered && !disabled,
     icon,
+    iconHovered: icon && hovered,
     large,
     secondary,
     secondaryHovered: secondary && hovered && !disabled,
