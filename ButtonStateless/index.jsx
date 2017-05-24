@@ -78,6 +78,9 @@ const Button = ({
       backgroundColor: transparent,
     },
     icon: {
+      padding: 0,
+      background: 'transparent',
+      border: 0,
       lineHeight: 0,
     },
     large: {
