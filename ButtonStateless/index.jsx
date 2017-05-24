@@ -149,7 +149,7 @@ const Button = ({
     borderless,
     borderlessHovered: borderless && hovered && !disabled,
     icon,
-    iconHovered: icon && hovered && !disabled,
+    iconHovered: icon && hovered,
     large,
     secondary,
     secondaryHovered: secondary && hovered && !disabled,
