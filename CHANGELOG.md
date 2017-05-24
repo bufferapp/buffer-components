@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.6 (May 24, 2017)
+
+- Replace `backgroundColor` with `background` on `icon` config hover state
+
 ## 0.5.5 (May 24, 2017)
 
 - Add `iconHovered` state to `ButtonStateless` `icon` config
