@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.4 (May 24, 2017)
+
+- Remove `lineHeight` from `ButtonStateless` and replace with `icon` config
+
 ## 0.5.3 (May 24, 2017)
 
 - Apply `lineHeight: 0` to `ButtonStateless`
