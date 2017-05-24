@@ -199,6 +199,64 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
     <br />
     <br />
     <p>
+      Icon
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "background": "transparent",
+          "backgroundColor": "#168eea",
+          "border": 0,
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "lineHeight": 0,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": 0,
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      <svg
+        height="100%"
+        style={
+          Object {
+            "fill": "#59626a",
+            "height": "1rem",
+            "width": "1rem",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M7,9 L1.00292933,9 C0.449026756,9 -8.8817842e-16,8.55613518 -8.8817842e-16,8 L-8.8817842e-16,8 C-8.8817842e-16,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z"
+            transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000)"
+          />
+        </g>
+      </svg>
+    </button>
+    <br />
+    <br />
+    <p>
       Large
     </p>
     <button
@@ -825,6 +883,63 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
       </span>
     </button>
   </div>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless icon 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "background": "transparent",
+        "backgroundColor": "#168eea",
+        "border": 0,
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "margin": "0",
+        "outline": "none",
+        "padding": 0,
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      style={
+        Object {
+          "fill": "#59626a",
+          "height": "1rem",
+          "width": "1rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <g
+        className="shuttleGray"
+      >
+        <path
+          d="M7,9 L1.00292933,9 C0.449026756,9 -8.8817842e-16,8.55613518 -8.8817842e-16,8 L-8.8817842e-16,8 C-8.8817842e-16,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z"
+          transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000)"
+        />
+      </g>
+    </svg>
+  </button>
 </span>
 `;
 
