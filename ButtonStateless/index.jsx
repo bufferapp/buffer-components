@@ -84,7 +84,7 @@ const Button = ({
       lineHeight: 0,
     },
     iconHovered: {
-      backgroundColor: transparent,
+      background: transparent,
       border: 0,
     },
     large: {
