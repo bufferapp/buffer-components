@@ -51,6 +51,7 @@ const Button = ({
       fontFamily,
       fontSize: fontSizeSmall,
       fontWeight,
+      lineHeight: '0',
       color: white,
       backgroundColor: curiousBlue,
       border: `${borderWidth} solid ${transparent}`,
