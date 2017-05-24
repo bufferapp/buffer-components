@@ -210,8 +210,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
       onMouseLeave={undefined}
       style={
         Object {
-          "background": "transparent",
-          "backgroundColor": "#168eea",
+          "backgroundColor": "transparent",
           "border": 0,
           "borderRadius": "2rem",
           "color": "#fff",
@@ -897,8 +896,7 @@ exports[`Snapshots ButtonStateless icon 1`] = `
     onMouseLeave={undefined}
     style={
       Object {
-        "background": "transparent",
-        "backgroundColor": "#168eea",
+        "backgroundColor": "transparent",
         "border": 0,
         "borderRadius": "2rem",
         "color": "#fff",

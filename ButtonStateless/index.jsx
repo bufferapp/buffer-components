@@ -79,12 +79,12 @@ const Button = ({
     },
     icon: {
       padding: 0,
-      background: transparent,
+      backgroundColor: transparent,
       border: 0,
       lineHeight: 0,
     },
     iconHovered: {
-      background: transparent,
+      backgroundColor: transparent,
       border: 0,
     },
     large: {

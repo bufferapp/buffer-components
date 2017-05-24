@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.7 (May 24, 2017)
+
+- Replace `background` with `backgroundColor` on all `icon` config states
+
 ## 0.5.6 (May 24, 2017)
 
 - Replace `backgroundColor` with `background` on `icon` config hover state
