@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.8 (May 25, 2017)
+
+- Remove `icon` config from `Button`
+
 ## 0.5.7 (May 24, 2017)
 
 - Replace `background` with `backgroundColor` on all `icon` config states
