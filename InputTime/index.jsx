@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import { calculateStyles } from '../lib/utils';
 
 // generate array of numbers (inclusive)
 const genArray = (start, end) => [...Array(end + 1).keys()].slice(start);
@@ -7,7 +8,7 @@ const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 /* eslint-disable react/prop-types */
 
 const renderAmPm = ({ value, onChange, submitting }) =>
-  <select
+  (<select
     value={value.hours < 12 ? 'am' : 'pm'}
     disabled={submitting}
     onChange={e => onChange({
@@ -19,7 +20,7 @@ const renderAmPm = ({ value, onChange, submitting }) =>
   >
     <option value="am">am</option>
     <option value="pm">pm</option>
-  </select>;
+  </select>);
 
 /* eslint-enable react/prop-types */
 
@@ -47,11 +48,16 @@ const InputTime = ({
     submitting,
   },
 }) => {
+  const style = calculateStyles({
+    default: {
+      display: 'inline-flex',
+    },
+  });
   if (!value) {
     value = { hours: 0, minutes: 0 };
   }
   return (
-    <div>
+    <div style={style}>
       <select
         style={marginRight}
         disabled={submitting}
@@ -62,12 +68,12 @@ const InputTime = ({
           select24Hours || value.hours < 12 ? 0 : 12,
           select24Hours || value.hours > 11 ? 23 : 11,
         ).map(hour =>
-          <option
+          (<option
             key={hour}
             value={hour}
           >
             {leftPadTimeUnit(displayHour(hour, select24Hours))}
-          </option>)
+          </option>))
         }
       </select>
       <select

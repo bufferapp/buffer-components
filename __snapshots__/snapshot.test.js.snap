@@ -9380,7 +9380,13 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
 
 exports[`Snapshots InputTime default 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={undefined}
       onChange={[Function]}
@@ -9785,7 +9791,13 @@ exports[`Snapshots InputTime default 1`] = `
 
 exports[`Snapshots InputTime with 24 hour selection 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={undefined}
       onChange={[Function]}
@@ -10230,7 +10242,13 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
 
 exports[`Snapshots InputTime with afternoon value set 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={undefined}
       onChange={[Function]}
@@ -10635,7 +10653,13 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
 
 exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={undefined}
       onChange={[Function]}
@@ -11080,7 +11104,13 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
 
 exports[`Snapshots InputTime with form submitting 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={true}
       onChange={[Function]}
@@ -11485,7 +11515,13 @@ exports[`Snapshots InputTime with form submitting 1`] = `
 
 exports[`Snapshots InputTime with value set 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+      }
+    }
+  >
     <select
       disabled={undefined}
       onChange={[Function]}
