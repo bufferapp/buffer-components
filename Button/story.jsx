@@ -5,6 +5,7 @@ import {
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import Button from './index';
+import CloseIcon from '../Icon/Icons/CloseIcon';
 
 storiesOf('Button')
   .addDecorator(checkA11y)
@@ -13,4 +14,10 @@ storiesOf('Button')
   ))
   .add('warning button', () => (
     <Button onClick={action('on-click')} warning>Warning</Button>
+  ))
+  .add('with icon and text', () => (
+    <Button onClick={action('on-click')} noStyle><CloseIcon />Close</Button>
+  ))
+  .add('with icon only', () => (
+    <Button onClick={action('on-click')} noStyle><CloseIcon /></Button>
   ));

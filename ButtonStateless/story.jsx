@@ -5,7 +5,6 @@ import {
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
 import Button from './index';
-import CloseIcon from '../Icon/Icons/CloseIcon';
 import Text from '../Text';
 
 storiesOf('ButtonStateless')
@@ -22,8 +21,6 @@ storiesOf('ButtonStateless')
       <Button disabled>Button text</Button><br /><br />
       <p>Borderless</p>
       <Button disabled borderless>Button text</Button><br /><br />
-      <p>Icon</p>
-      <Button disabled icon><CloseIcon /></Button><br /><br />
       <p>Large</p>
       <Button disabled large>Button text</Button><br /><br />
       <p>Secondary</p>
@@ -83,9 +80,6 @@ storiesOf('ButtonStateless')
         <Text size={'small'}>Use this as an a11y friendly click target</Text>
       </Button>
     </div>
-  ))
-  .add('icon', () => (
-    <Button icon><CloseIcon /></Button>
   ))
   .add('large', () => (
     <Button large>Button text</Button>
