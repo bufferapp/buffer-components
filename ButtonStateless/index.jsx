@@ -31,7 +31,6 @@ const Button = ({
   focused,
   hovered,
   fillContainer,
-  icon,
   large,
   onClick,
   onMouseEnter,
@@ -76,16 +75,6 @@ const Button = ({
     borderlessHovered: {
       color: denim,
       backgroundColor: transparent,
-    },
-    icon: {
-      padding: 0,
-      backgroundColor: transparent,
-      border: 0,
-      lineHeight: 0,
-    },
-    iconHovered: {
-      backgroundColor: transparent,
-      border: 0,
     },
     large: {
       padding: '0.5rem 2rem',
@@ -148,8 +137,6 @@ const Button = ({
     hovered: hovered && !noStyle && !disabled,
     borderless,
     borderlessHovered: borderless && hovered && !disabled,
-    icon,
-    iconHovered: icon && hovered,
     large,
     secondary,
     secondaryHovered: secondary && hovered && !disabled,
@@ -184,7 +171,6 @@ Button.propTypes = {
   fillContainer: PropTypes.bool,
   focused: PropTypes.bool,
   hovered: PropTypes.bool,
-  icon: PropTypes.bool,
   large: PropTypes.bool,
   noStyle: PropTypes.bool,
   onClick: PropTypes.func,
