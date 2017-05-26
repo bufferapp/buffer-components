@@ -9384,6 +9384,7 @@ exports[`Snapshots InputTime default 1`] = `
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -9392,6 +9393,7 @@ exports[`Snapshots InputTime default 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -9463,6 +9465,7 @@ exports[`Snapshots InputTime default 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -9769,40 +9772,47 @@ exports[`Snapshots InputTime default 1`] = `
         59
       </option>
     </select>
-    <div
+    <select
+      disabled={undefined}
+      onChange={[Function]}
       style={
         Object {
           "display": "inline-flex",
+          "marginRight": "0.25rem",
         }
       }
+      value="AM"
     >
-      <select
-        disabled={undefined}
-        onChange={[Function]}
+      <option
         value="AM"
       >
-        <option
-          value="AM"
-        >
-          AM
-        </option>
-        <option
-          value="PM"
-        >
-          PM
-        </option>
-      </select>
-    </div>
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
   </div>
 </span>
 `;
 
-exports[`Snapshots InputTime minimal 1`] = `
+exports[`Snapshots InputTime noStyle 1`] = `
 <span>
   <div
     style={
       Object {
+        "-moz-appearance": "none",
+        "-webkit-appearance": "none",
+        "background": "transparent",
+        "border": 0,
         "display": "inline-flex",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": "0.25rem",
+        "marginTop": 0,
+        "padding": 0,
       }
     }
   >
@@ -9815,6 +9825,7 @@ exports[`Snapshots InputTime minimal 1`] = `
           "-webkit-appearance": "none",
           "background": "transparent",
           "border": 0,
+          "display": "inline-flex",
           "marginBottom": 0,
           "marginLeft": 0,
           "marginRight": "0.25rem",
@@ -9894,6 +9905,7 @@ exports[`Snapshots InputTime minimal 1`] = `
           "-webkit-appearance": "none",
           "background": "transparent",
           "border": 0,
+          "display": "inline-flex",
           "marginBottom": 0,
           "marginLeft": 0,
           "marginRight": "0.25rem",
@@ -10204,43 +10216,516 @@ exports[`Snapshots InputTime minimal 1`] = `
         59
       </option>
     </select>
-    <div
+    <select
+      disabled={undefined}
+      onChange={[Function]}
       style={
         Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
           "display": "inline-flex",
+          "margin": 0,
+          "marginRight": "0.25rem",
+          "padding": 0,
         }
       }
+      value="AM"
     >
-      <select
-        disabled={undefined}
-        onChange={[Function]}
-        style={
-          Object {
-            "-moz-appearance": "none",
-            "-webkit-appearance": "none",
-            "background": "transparent",
-            "border": 0,
-            "marginBottom": 0,
-            "marginLeft": 0,
-            "marginRight": "0.25rem",
-            "marginTop": 0,
-            "padding": 0,
-          }
-        }
+      <option
         value="AM"
       >
-        <option
-          value="AM"
-        >
-          AM
-        </option>
-        <option
-          value="PM"
-        >
-          PM
-        </option>
-      </select>
-    </div>
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputTime noStyle with 24 hour selection 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "-moz-appearance": "none",
+        "-webkit-appearance": "none",
+        "background": "transparent",
+        "border": 0,
+        "display": "inline-flex",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": "0.25rem",
+        "marginTop": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+    </select>
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+      <option
+        value={24}
+      >
+        24
+      </option>
+      <option
+        value={25}
+      >
+        25
+      </option>
+      <option
+        value={26}
+      >
+        26
+      </option>
+      <option
+        value={27}
+      >
+        27
+      </option>
+      <option
+        value={28}
+      >
+        28
+      </option>
+      <option
+        value={29}
+      >
+        29
+      </option>
+      <option
+        value={30}
+      >
+        30
+      </option>
+      <option
+        value={31}
+      >
+        31
+      </option>
+      <option
+        value={32}
+      >
+        32
+      </option>
+      <option
+        value={33}
+      >
+        33
+      </option>
+      <option
+        value={34}
+      >
+        34
+      </option>
+      <option
+        value={35}
+      >
+        35
+      </option>
+      <option
+        value={36}
+      >
+        36
+      </option>
+      <option
+        value={37}
+      >
+        37
+      </option>
+      <option
+        value={38}
+      >
+        38
+      </option>
+      <option
+        value={39}
+      >
+        39
+      </option>
+      <option
+        value={40}
+      >
+        40
+      </option>
+      <option
+        value={41}
+      >
+        41
+      </option>
+      <option
+        value={42}
+      >
+        42
+      </option>
+      <option
+        value={43}
+      >
+        43
+      </option>
+      <option
+        value={44}
+      >
+        44
+      </option>
+      <option
+        value={45}
+      >
+        45
+      </option>
+      <option
+        value={46}
+      >
+        46
+      </option>
+      <option
+        value={47}
+      >
+        47
+      </option>
+      <option
+        value={48}
+      >
+        48
+      </option>
+      <option
+        value={49}
+      >
+        49
+      </option>
+      <option
+        value={50}
+      >
+        50
+      </option>
+      <option
+        value={51}
+      >
+        51
+      </option>
+      <option
+        value={52}
+      >
+        52
+      </option>
+      <option
+        value={53}
+      >
+        53
+      </option>
+      <option
+        value={54}
+      >
+        54
+      </option>
+      <option
+        value={55}
+      >
+        55
+      </option>
+      <option
+        value={56}
+      >
+        56
+      </option>
+      <option
+        value={57}
+      >
+        57
+      </option>
+      <option
+        value={58}
+      >
+        58
+      </option>
+      <option
+        value={59}
+      >
+        59
+      </option>
+    </select>
   </div>
 </span>
 `;
@@ -10251,6 +10736,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -10259,6 +10745,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -10388,7 +10875,12 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
     <select
       disabled={undefined}
       onChange={[Function]}
-      style={undefined}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={0}
     >
       <option
@@ -10702,6 +11194,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -10710,6 +11203,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -10781,6 +11275,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11087,30 +11582,28 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
         59
       </option>
     </select>
-    <div
+    <select
+      disabled={undefined}
+      onChange={[Function]}
       style={
         Object {
           "display": "inline-flex",
+          "marginRight": "0.25rem",
         }
       }
+      value="AM"
     >
-      <select
-        disabled={undefined}
-        onChange={[Function]}
+      <option
         value="AM"
       >
-        <option
-          value="AM"
-        >
-          AM
-        </option>
-        <option
-          value="PM"
-        >
-          PM
-        </option>
-      </select>
-    </div>
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
   </div>
 </span>
 `;
@@ -11121,6 +11614,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -11129,6 +11623,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11258,7 +11753,12 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
     <select
       disabled={undefined}
       onChange={[Function]}
-      style={undefined}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={33}
     >
       <option
@@ -11572,6 +12072,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -11580,6 +12081,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11651,6 +12153,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11957,30 +12460,28 @@ exports[`Snapshots InputTime with form submitting 1`] = `
         59
       </option>
     </select>
-    <div
+    <select
+      disabled={true}
+      onChange={[Function]}
       style={
         Object {
           "display": "inline-flex",
+          "marginRight": "0.25rem",
         }
       }
+      value="PM"
     >
-      <select
-        disabled={true}
-        onChange={[Function]}
+      <option
+        value="AM"
+      >
+        AM
+      </option>
+      <option
         value="PM"
       >
-        <option
-          value="AM"
-        >
-          AM
-        </option>
-        <option
-          value="PM"
-        >
-          PM
-        </option>
-      </select>
-    </div>
+        PM
+      </option>
+    </select>
   </div>
 </span>
 `;
@@ -11991,6 +12492,7 @@ exports[`Snapshots InputTime with value set 1`] = `
     style={
       Object {
         "display": "inline-flex",
+        "marginRight": "0.25rem",
       }
     }
   >
@@ -11999,6 +12501,7 @@ exports[`Snapshots InputTime with value set 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -12070,6 +12573,7 @@ exports[`Snapshots InputTime with value set 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -12376,30 +12880,28 @@ exports[`Snapshots InputTime with value set 1`] = `
         59
       </option>
     </select>
-    <div
+    <select
+      disabled={undefined}
+      onChange={[Function]}
       style={
         Object {
           "display": "inline-flex",
+          "marginRight": "0.25rem",
         }
       }
+      value="AM"
     >
-      <select
-        disabled={undefined}
-        onChange={[Function]}
+      <option
         value="AM"
       >
-        <option
-          value="AM"
-        >
-          AM
-        </option>
-        <option
-          value="PM"
-        >
-          PM
-        </option>
-      </select>
-    </div>
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
   </div>
 </span>
 `;
