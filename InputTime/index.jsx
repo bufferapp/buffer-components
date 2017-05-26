@@ -10,7 +10,7 @@ const style = calculateStyles({
     display: 'inline-flex',
   },
 });
-const minimalStyle = calculateStyles({
+const noStyle = calculateStyles({
   default: {
     border: 0,
     background: 'transparent',
@@ -53,7 +53,7 @@ const renderAmPm = ({
           ? value.hours - 12
           : value.hours + 12,
         })}
-        style={minimalStyle}
+        style={noStyle}
         value={value.hours < 12 ? 'AM' : 'PM'}
       >
         <option value="AM">AM</option>
@@ -112,7 +112,7 @@ const InputTime = ({
         <select
           disabled={submitting}
           onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
-          style={minimalStyle}
+          style={noStyle}
           value={value.hours}
         >
           {genArray(
@@ -150,7 +150,7 @@ const InputTime = ({
         <select
           disabled={submitting}
           onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
-          style={!select24Hours ? minimalStyle : minimalNoMarginRightStyle}
+          style={!select24Hours ? noStyle : minimalNoMarginRightStyle}
           value={value.minutes}
         >
           {genArray(0, 59).map(min =>
