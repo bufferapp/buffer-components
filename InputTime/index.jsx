@@ -24,6 +24,17 @@ const minimalStyle = calculateStyles({
   },
 });
 
+const minimalNoMarginRightStyle = calculateStyles({
+  default: {
+    border: 0,
+    background: 'transparent',
+    margin: 0,
+    padding: 0,
+    '-webkit-appearance': 'none',
+    '-moz-appearance': 'none',
+  },
+});
+
 /* eslint-disable react/prop-types */
 
 const renderAmPm = ({
@@ -139,7 +150,7 @@ const InputTime = ({
         <select
           disabled={submitting}
           onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
-          style={!select24Hours ? minimalStyle : undefined}
+          style={!select24Hours ? minimalStyle : minimalNoMarginRightStyle}
           value={value.minutes}
         >
           {genArray(0, 59).map(min =>
