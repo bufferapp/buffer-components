@@ -53,7 +53,7 @@ describe('InputTime', () => {
     wrapper
       .find('select')
       .last()
-      .simulate('change', { target: { value: 'pm' } });
+      .simulate('change', { target: { value: 'PM' } });
     expect(onChange)
       .toBeCalledWith({
         hours: 12,
@@ -77,7 +77,7 @@ describe('InputTime', () => {
     wrapper
       .find('select')
       .last()
-      .simulate('change', { target: { value: 'am' } });
+      .simulate('change', { target: { value: 'AM' } });
     expect(onChange)
       .toBeCalledWith({
         hours: 2,

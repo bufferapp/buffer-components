@@ -9779,15 +9779,15 @@ exports[`Snapshots InputTime default 1`] = `
       <select
         disabled={undefined}
         onChange={[Function]}
-        value="am"
+        value="AM"
       >
         <option
-          value="am"
+          value="AM"
         >
           AM
         </option>
         <option
-          value="pm"
+          value="PM"
         >
           PM
         </option>
@@ -10227,15 +10227,15 @@ exports[`Snapshots InputTime minimal 1`] = `
             "padding": 0,
           }
         }
-        value="am"
+        value="AM"
       >
         <option
-          value="am"
+          value="AM"
         >
           AM
         </option>
         <option
-          value="pm"
+          value="PM"
         >
           PM
         </option>
@@ -11097,15 +11097,15 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       <select
         disabled={undefined}
         onChange={[Function]}
-        value="am"
+        value="AM"
       >
         <option
-          value="am"
+          value="AM"
         >
           AM
         </option>
         <option
-          value="pm"
+          value="PM"
         >
           PM
         </option>
@@ -11967,15 +11967,15 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       <select
         disabled={true}
         onChange={[Function]}
-        value="pm"
+        value="PM"
       >
         <option
-          value="am"
+          value="AM"
         >
           AM
         </option>
         <option
-          value="pm"
+          value="PM"
         >
           PM
         </option>
@@ -12386,15 +12386,15 @@ exports[`Snapshots InputTime with value set 1`] = `
       <select
         disabled={undefined}
         onChange={[Function]}
-        value="am"
+        value="AM"
       >
         <option
-          value="am"
+          value="AM"
         >
           AM
         </option>
         <option
-          value="pm"
+          value="PM"
         >
           PM
         </option>

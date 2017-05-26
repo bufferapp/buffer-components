@@ -38,28 +38,28 @@ const renderAmPm = ({
         disabled={submitting}
         onChange={e => onChange({
           ...value,
-          hours: e.target.value === 'am'
+          hours: e.target.value === 'AM'
           ? value.hours - 12
           : value.hours + 12,
         })}
         style={minimalStyle}
-        value={value.hours < 12 ? 'am' : 'pm'}
+        value={value.hours < 12 ? 'AM' : 'PM'}
       >
-        <option value="am">AM</option>
-        <option value="pm">PM</option>
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
       </select> :
       <select
         disabled={submitting}
         onChange={e => onChange({
           ...value,
-          hours: e.target.value === 'am'
+          hours: e.target.value === 'AM'
           ? value.hours - 12
           : value.hours + 12,
         })}
-        value={value.hours < 12 ? 'am' : 'pm'}
+        value={value.hours < 12 ? 'AM' : 'PM'}
       >
-        <option value="am">AM</option>
-        <option value="pm">PM</option>
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
       </select>
     }
   </div>
