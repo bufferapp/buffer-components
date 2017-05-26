@@ -39,7 +39,6 @@ const displayHour = (hour, select24Hours) => {
 };
 
 const InputTime = ({
-  select24Hours,
   input: {
     value,
     onChange,
@@ -47,6 +46,7 @@ const InputTime = ({
   meta: {
     submitting,
   },
+  select24Hours,
 }) => {
   const style = calculateStyles({
     default: {
@@ -59,10 +59,10 @@ const InputTime = ({
   return (
     <div style={style}>
       <select
-        style={marginRight}
         disabled={submitting}
-        value={value.hours}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
+        style={marginRight}
+        value={value.hours}
       >
         {genArray(
           select24Hours || value.hours < 12 ? 0 : 12,
@@ -77,10 +77,10 @@ const InputTime = ({
         }
       </select>
       <select
-        style={!select24Hours ? marginRight : undefined}
         disabled={submitting}
-        value={value.minutes}
         onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
+        style={!select24Hours ? marginRight : undefined}
+        value={value.minutes}
       >
         {genArray(0, 59).map(min =>
           <option key={min} value={min}>{leftPadTimeUnit(min)}</option>)}
@@ -91,8 +91,8 @@ const InputTime = ({
 };
 
 InputTime.propTypes = {
-  select24Hours: PropTypes.bool,
   input: PropTypes.shape({
+    onChange: PropTypes.func.isRequired,
     value: PropTypes.oneOfType([
       PropTypes.shape({
         hours: PropTypes.number.isRequired,
@@ -100,11 +100,11 @@ InputTime.propTypes = {
       }),
       PropTypes.string,
     ]),
-    onChange: PropTypes.func.isRequired,
   }).isRequired,
   meta: PropTypes.shape({
     submitting: PropTypes.bool,
   }),
+  select24Hours: PropTypes.bool,
 };
 
 InputTime.defaultProps = {
