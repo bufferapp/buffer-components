@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.10 (May 26, 2017)
+
+- Add `noStyle` config to `InputTimes`
+
 ## 0.5.9 (May 25, 2017)
 
 - Fix a slight browser UI bug that occurs when a `select` element is the child of a `div`
