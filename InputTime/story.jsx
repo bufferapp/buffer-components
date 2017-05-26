@@ -17,22 +17,22 @@ storiesOf('InputTime')
       }}
     />
   ))
-  .add('minimal', () => (
+  .add('noStyle', () => (
     <InputTime
       input={{
         onChange: action('on-change'),
         value: '',
       }}
-      minimal
+      noStyle
     />
   ))
-  .add('minimal with 24 hour selection', () => (
+  .add('noStyle with 24 hour selection', () => (
     <InputTime
       input={{
         onChange: action('on-change'),
         value: '',
       }}
-      minimal
+      noStyle
       select24Hours
     />
   ))
