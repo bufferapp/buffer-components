@@ -17,6 +17,15 @@ storiesOf('InputTime')
       }}
     />
   ))
+  .add('minimal', () => (
+    <InputTime
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      minimal
+    />
+  ))
   .add('with 24 hour selection', () => (
     <InputTime
       input={{
