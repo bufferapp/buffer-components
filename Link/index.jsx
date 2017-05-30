@@ -1,30 +1,32 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import LinkStateless from '../LinkStateless';
+import PseudoClassComponent from '../PseudoClassComponent';
 
-const Link = ({
-  children,
-  href,
-  newTab,
-  unstyled,
-}) => {
-  const classes = classNames(styles, 'link', {
-    unstyled,
-  });
-
-  return (
-    <a className={classes} href={href} target={newTab ? '_blank' : '_self'}>
-      {children}
-    </a>
-  );
-};
-
-Link.propTypes = {
-  children: PropTypes.node,
-  href: PropTypes.string,
-  newTab: PropTypes.bool,
-  unstyled: PropTypes.bool,
-};
+class Link extends PseudoClassComponent {
+  render() {
+    const { children, ...rest } = this.props;
+    let hoveredChildren = children;
+    // string as children isn't clonable
+    if (React.isValidElement(children)) {
+      hoveredChildren = React.cloneElement(
+        children,
+        { hovered: this.state.hovered },
+      );
+    }
+    return (
+      <LinkStateless
+        {...rest}
+        hovered={this.state.hovered}
+        focused={this.state.focused}
+        onMouseEnter={() => this.handleMouseEnter()}
+        onMouseLeave={() => this.handleMouseLeave()}
+        onFocus={() => this.handleFocus()}
+        onBlur={() => this.handleBlur()}
+      >
+        {hoveredChildren}
+      </LinkStateless>
+    );
+  }
+}
 
 export default Link;

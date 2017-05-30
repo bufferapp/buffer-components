@@ -1,14 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import uuid from 'uuid';
-import { classNames } from '../lib/utils';
+import {
+  calculateStyles,
+} from '../lib/utils';
+import {
+  borderRadius,
+} from '../style/border';
 import Image from '../Image';
-import styles from './style.css';
 
 const getImageWrapperHeight = (arrayOfImageUrls) => {
   if (arrayOfImageUrls.length <= 2) {
-    return { height: '100%' };
+    return '100%';
   }
+  return '50%';
 };
 
 const MultipleImages = ({ border,
@@ -16,24 +21,34 @@ const MultipleImages = ({ border,
   urls,
   width,
 }) => {
-  const classes = classNames(styles, 'multipleImages', {
+  const multipleImagesStyle = calculateStyles({
+    default: {
+      height,
+      width,
+      display: 'flex',
+      flexDirection: 'row',
+      flexWrap: 'wrap',
+      overflow: 'hidden',
+    },
+    rounded: {
+      borderRadius,
+    },
+  }, {
     rounded: border === 'rounded',
   });
-
-  const inlineStyle = {
-    height,
-    width,
+  const imageStyle = {
+    flexGrow: 1,
+    flexBasis: '50%',
+    height: getImageWrapperHeight(urls),
   };
-
   return (
-    <div className={classes} style={inlineStyle}>
+    <div style={multipleImagesStyle}>
       {
         urls.map(url =>
           <div
-            className={styles.imageWrapper}
+            style={imageStyle}
             height={height}
             key={uuid()}
-            style={getImageWrapperHeight(urls)}
           >
             <Image
               height={'100%'}

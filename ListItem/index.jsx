@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import style from './style.css';
+
+const style = {
+  listStyle: 'none',
+};
 
 const ListItem = ({ children }) =>
-  <li className={style.li}>{children}</li>;
+  <li style={style}>{children}</li>;
 
 ListItem.propTypes = {
   children: PropTypes.node,

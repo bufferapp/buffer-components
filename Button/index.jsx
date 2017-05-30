@@ -1,55 +1,32 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import ButtonStateless from '../ButtonStateless';
+import PseudoClassComponent from '../PseudoClassComponent';
 
-const Button = ({
-  borderless,
-  children,
-  disabled,
-  fillContainer,
-  large,
-  onClick,
-  secondary,
-  small,
-  tertiary,
-  warning,
-  noStyle,
-}) => {
-  const classes = classNames(styles, {
-    button: !noStyle,
-    borderless,
-    large,
-    secondary,
-    small,
-    tertiary,
-    warning,
-    'fill-container': fillContainer,
-    'no-style': noStyle,
-  });
-  return (
-    <button
-      className={classes}
-      onClick={onClick}
-      disabled={disabled}
-    >
-      {children}
-    </button>
-  );
-};
-
-Button.propTypes = {
-  children: PropTypes.node,
-  borderless: PropTypes.bool,
-  disabled: PropTypes.bool,
-  fillContainer: PropTypes.bool,
-  large: PropTypes.bool,
-  noStyle: PropTypes.bool,
-  onClick: PropTypes.func,
-  secondary: PropTypes.bool,
-  small: PropTypes.bool,
-  tertiary: PropTypes.bool,
-  warning: PropTypes.bool,
-};
+class Button extends PseudoClassComponent {
+  render() {
+    const { children, ...rest } = this.props;
+    let hoveredChildren = children;
+    // string as children isn't clonable
+    if (React.isValidElement(children)) {
+      hoveredChildren = React.cloneElement(
+        children,
+        { hovered: this.state.hovered },
+      );
+    }
+    return (
+      <ButtonStateless
+        {...rest}
+        hovered={this.state.hovered}
+        focused={this.state.focused}
+        onMouseEnter={() => this.handleMouseEnter()}
+        onMouseLeave={() => this.handleMouseLeave()}
+        onFocus={() => this.handleFocus()}
+        onBlur={() => this.handleBlur()}
+      >
+        {hoveredChildren}
+      </ButtonStateless>
+    );
+  }
+}
 
 export default Button;
