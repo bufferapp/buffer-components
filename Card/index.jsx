@@ -1,7 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { classNames } from '../lib/utils';
-import styles from './style.css';
+import {
+  calculateStyles,
+} from '../lib/utils';
+import {
+  fontSizeMini,
+  lineHeight,
+} from '../style/font';
+import {
+  outerSpace,
+  white,
+  mystic,
+  geyser,
+  torchRed,
+  offWhite,
+} from '../style/color';
+import {
+  borderWidth,
+  borderRadius,
+} from '../style/border';
+import {
+  transitionAnimationTime,
+  transitionAnimationType,
+} from '../style/animation';
+import {
+  boxShadowLevelOne,
+} from '../style/dropShadow';
 
 const Card = ({
   children,
@@ -17,20 +41,60 @@ const Card = ({
   onMouseLeave,
   reducedPadding,
 }) => {
-  const classes = classNames(styles, 'card', {
-    'double-padding': doublePadding,
+  const style = calculateStyles({
+    default: {
+      padding: '1.5rem',
+      fontSize: fontSizeMini,
+      lineHeight,
+      color: outerSpace,
+      backgroundColor: white,
+      border: `${borderWidth} solid ${mystic}`,
+      borderRadius,
+      transition: `box-shadow ${transitionAnimationTime} ${transitionAnimationType}`,
+    },
+    doublePadding: {
+      padding: '3rem',
+    },
+    empty: {
+      borderColor: geyser,
+      borderStyle: 'dashed',
+    },
+    failed: {
+      borderColor: torchRed,
+    },
+    faded: {
+      opacity: 0.5,
+    },
+    noBorder: {
+      border: 0,
+    },
+    noPadding: {
+      padding: 0,
+    },
+    hovered: {
+      boxShadow: boxShadowLevelOne,
+    },
+    // TODO: rename this to `backgroundColor` or similar
+    color: {
+      backgroundColor: offWhite,
+    },
+    reducedPadding: {
+      padding: '1rem',
+    },
+  }, {
+    doublePadding,
     empty,
-    faded,
     failed,
+    faded,
+    noBorder,
+    noPadding,
     hovered,
-    'reduced-padding': reducedPadding,
-    'no-border': noBorder,
-    'no-padding': noPadding,
-    offWhite: color === 'off-white',
+    color,
+    reducedPadding,
   });
   return (
     <div
-      className={classes}
+      style={style}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >

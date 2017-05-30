@@ -33,24 +33,15 @@ First, you'll need React installed (0.14 or newer):
 npm i react react-dom -SE
 ```
 
-In addition to your Babel configuration (not documented), you'll need some Webpack plugins:
+In addition to your Babel configuration (not documented), you'll need the style-loader Webpack plugin:
 
 ```sh
-npm i css-loader \
-      style-loader \
-      postcss-loader \
-      postcss-import \
-      postcss-custom-properties \
-      postcss-hexrgba -SDE
+npm i style-loader -SDE
 ```
 
 Your Webpack config should use the proper config, here is an example:
 
 ```js
-const PostCSSImport = require('postcss-import');
-const PostCSSCustomProperties = require('postcss-custom-properties');
-const PostCSShexrgba = require('postcss-hexrgba');
-
 module.exports = {
   module: {
     loaders: [
@@ -58,17 +49,10 @@ module.exports = {
         test: /\.css$/,
         loaders: [
           'style-loader',
-          `css-loader?modules&importLoaders=1&localIdentName=[name]_[local]_[hash:base64:5]`,
-          'postcss-loader',
         ],
       },
     ],
   },
-  postcss: [
-    PostCSSImport,
-    PostCSSCustomProperties,
-    PostCSShexrgba,
-  ],
 };
 ```
 
@@ -123,9 +107,8 @@ Note: only commit these if you have manually inspected them with a story
 ```
 src/ # root
 +-- MyComponent/ # component root
-  `-- index.js # component logic
+  `-- index.js # component display logic
   `-- story.js # storybook entry
-  `-- style.css # component style
 ```
 
 ## Versioning
@@ -134,7 +117,7 @@ src/ # root
 major.minor.patch
 ```
 
-### Considered patche release
+### Considered patch release
 
 Can upgrade without changes to the codebase
 
@@ -235,40 +218,28 @@ populate **index.js** with the new component
 
 ```js
 import React from 'react';
+import { calculateStyles } from '../lib/utils';
 
-const NewComponent = () => <div>NewComponent</div>;
-
-export default NewComponent;
-```
-
-6. Style the component
-
-```
-src/
-+-- NewComponent/
- `-- story.js
- `-- index.js
- `-- style.css
-```
-
-populate **style.css** with the component style
-
-```js
-import React from 'react';
-import styles from './style.css';
-import { classNames } from '../lib/utils';
-
-const NewComponent = () => {
-  const classes = classNames(styles, 'new-component');
-  return (
-    <div classNames={classes}>NewComponent</div>
-  );
-};
+const NewComponent = ({ hovered }) =>
+  <div
+    style={calculateStyles({
+      default:{
+        background: 'green',
+      },
+      hovered: {
+        background: 'red',
+      }
+    },{
+      hovered, // key matches above style key and is activated when value is true
+    })}
+  >
+    NewComponent
+  </div>;
 
 export default NewComponent;
 ```
 
-7. Run the test for the first time
+6. Run the test for the first time
 
 It's important to note that this creates a snapshot of the component. All tests ran in the future will be tested against this snapshot to ensure they haven't changed.
 
@@ -276,7 +247,7 @@ It's important to note that this creates a snapshot of the component. All tests 
 npm t
 ```
 
-8. Commit it!
+7. Commit it!
 
 ```sh
 git add .

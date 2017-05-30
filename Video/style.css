@@ -1,5 +1,0 @@
-@import '../variables.css';
-
-.rounded {
-  border-radius: var(--border-radius);
-}

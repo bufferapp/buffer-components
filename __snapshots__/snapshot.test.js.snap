@@ -1,39 +1,278 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snapshots Button Default 1`] = `
+exports[`Snapshots Button default 1`] = `
 <span>
   <button
-    className="button"
     disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Click Me
+  </button>
+</span>
+`;
+
+exports[`Snapshots Button warning button 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "2rem",
+        "color": "#323b43",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Warning
+  </button>
+</span>
+`;
+
+exports[`Snapshots Button with icon and text 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "background": "none",
+        "backgroundColor": "unset",
+        "border": "none",
+        "borderRadius": "unset",
+        "color": "unset",
+        "cursor": "pointer",
+        "display": "unset",
+        "fontFamily": "unset",
+        "fontSize": "unset",
+        "fontWeight": "unset",
+        "margin": "unset",
+        "outline": "none",
+        "padding": 0,
+        "transition": "unset",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      style={
+        Object {
+          "fill": "#59626a",
+          "height": "1rem",
+          "width": "1rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <g
+        className="shuttleGray"
+      >
+        <path
+          d="M7,9 L1.00292933,9 C0.449026756,9 -8.8817842e-16,8.55613518 -8.8817842e-16,8 L-8.8817842e-16,8 C-8.8817842e-16,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z"
+          transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000)"
+        />
+      </g>
+    </svg>
+    Close
+  </button>
+</span>
+`;
+
+exports[`Snapshots Button with icon only 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "background": "none",
+        "backgroundColor": "unset",
+        "border": "none",
+        "borderRadius": "unset",
+        "color": "unset",
+        "cursor": "pointer",
+        "display": "unset",
+        "fontFamily": "unset",
+        "fontSize": "unset",
+        "fontWeight": "unset",
+        "margin": "unset",
+        "outline": "none",
+        "padding": 0,
+        "transition": "unset",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      style={
+        Object {
+          "fill": "#59626a",
+          "height": "1rem",
+          "width": "1rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <g
+        className="shuttleGray"
+      >
+        <path
+          d="M7,9 L1.00292933,9 C0.449026756,9 -8.8817842e-16,8.55613518 -8.8817842e-16,8 L-8.8817842e-16,8 C-8.8817842e-16,7.44771525 0.437881351,7 1.00292933,7 L7,7 L7,1.00292933 C7,0.449026756 7.44386482,0 8,0 L8,0 C8.55228475,0 9,0.437881351 9,1.00292933 L9,7 L14.9970707,7 C15.5509732,7 16,7.44386482 16,8 L16,8 C16,8.55228475 15.5621186,9 14.9970707,9 L9,9 L9,14.9970707 C9,15.5509732 8.55613518,16 8,16 L8,16 C7.44771525,16 7,15.5621186 7,14.9970707 L7,9 Z"
+          transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000)"
+        />
+      </g>
+    </svg>
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless Default 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button borderless 1`] = `
+exports[`Snapshots ButtonStateless borderless 1`] = `
 <span>
   <button
-    className="button borderless"
     disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": 0,
+        "borderRadius": "2rem",
+        "color": "#168eea",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button disabled 1`] = `
+exports[`Snapshots ButtonStateless disabled 1`] = `
 <span>
   <div>
     <p>
       Default
     </p>
     <button
-      className="button"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -43,9 +282,30 @@ exports[`Snapshots Button disabled 1`] = `
       Borderless
     </p>
     <button
-      className="button borderless"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": 0,
+          "borderRadius": "2rem",
+          "color": "#168eea",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -55,9 +315,30 @@ exports[`Snapshots Button disabled 1`] = `
       Large
     </p>
     <button
-      className="button large"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -67,9 +348,31 @@ exports[`Snapshots Button disabled 1`] = `
       Secondary
     </p>
     <button
-      className="button secondary"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#168eea",
+          "borderRadius": "2rem",
+          "color": "#168eea",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -79,9 +382,30 @@ exports[`Snapshots Button disabled 1`] = `
       Small
     </p>
     <button
-      className="button small"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.25rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -91,9 +415,31 @@ exports[`Snapshots Button disabled 1`] = `
       Tertiary
     </p>
     <button
-      className="button tertiary"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ced7df",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -103,9 +449,31 @@ exports[`Snapshots Button disabled 1`] = `
       Warning
     </p>
     <button
-      className="button warning"
       disabled={true}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ff1e1e",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       Button text
     </button>
@@ -113,17 +481,80 @@ exports[`Snapshots Button disabled 1`] = `
       Click Events Should Not Fire
     </p>
     <button
-      className="button"
       disabled={true}
+      onBlur={undefined}
       onClick={[Function]}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
     >
       No Events :(
+    </button>
+    <p>
+      No Style
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={[Function]}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Use this as an a11y friendly click target
+      </span>
     </button>
   </div>
 </span>
 `;
 
-exports[`Snapshots Button fillContainer 1`] = `
+exports[`Snapshots ButtonStateless fillContainer 1`] = `
 <span>
   <div
     style={
@@ -133,9 +564,30 @@ exports[`Snapshots Button fillContainer 1`] = `
     }
   >
     <button
-      className="button fill-container"
       disabled={undefined}
+      onBlur={undefined}
       onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+          "width": "100%",
+        }
+      }
     >
       Max WIDTH
     </button>
@@ -143,27 +595,421 @@ exports[`Snapshots Button fillContainer 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button large 1`] = `
+exports[`Snapshots ButtonStateless focused 1`] = `
 <span>
   <button
-    className="button large"
     disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#168eea",
+        "borderRadius": "2rem",
+        "boxShadow": "0 0 0.25rem #168eea",
+        "color": "#168eea",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Focused Button
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless hovered 1`] = `
+<span>
+  <div>
+    <p>
+      Default
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#137ac9",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Borderless
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": 0,
+          "borderRadius": "2rem",
+          "color": "#137ac9",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Large
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#137ac9",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Secondary
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#137ac9",
+          "borderRadius": "2rem",
+          "color": "#137ac9",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Small
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#137ac9",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.25rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Tertiary
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ced7df",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Warning
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ff1e1e",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ff1e1e",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <p>
+      Disabled
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={[Function]}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#168eea",
+          "border": "0.063rem solid transparent",
+          "borderRadius": "2rem",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      No Events :(
+    </button>
+    <p>
+      No Style
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "0.8rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Use this as an a11y friendly click target
+      </span>
+    </button>
+  </div>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless large 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button noStyle 1`] = `
+exports[`Snapshots ButtonStateless noStyle 1`] = `
 <span>
   <button
-    className="no-style"
     disabled={undefined}
+    onBlur={undefined}
     onClick={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "background": "none",
+        "backgroundColor": "unset",
+        "border": "none",
+        "borderRadius": "unset",
+        "color": "unset",
+        "cursor": "pointer",
+        "display": "unset",
+        "fontFamily": "unset",
+        "fontSize": "unset",
+        "fontWeight": "unset",
+        "margin": "unset",
+        "outline": "none",
+        "padding": 0,
+        "transition": "unset",
+      }
+    }
   >
     <span
-      className="text small"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+        }
+      }
     >
       Use this as an a11y friendly click target
     </span>
@@ -171,60 +1017,227 @@ exports[`Snapshots Button noStyle 1`] = `
 </span>
 `;
 
-exports[`Snapshots Button onClick event 1`] = `
+exports[`Snapshots ButtonStateless onClick event 1`] = `
 <span>
   <button
-    className="button"
     disabled={undefined}
+    onBlur={undefined}
     onClick={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Click Me
   </button>
 </span>
 `;
 
-exports[`Snapshots Button secondary 1`] = `
+exports[`Snapshots ButtonStateless onFocus + onBlur 1`] = `
 <span>
   <button
-    className="button secondary"
     disabled={undefined}
+    onBlur={[Function]}
     onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Focus Me!
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Mouse Enter + Mouse Leave
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless secondary 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#168eea",
+        "borderRadius": "2rem",
+        "color": "#168eea",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button small 1`] = `
+exports[`Snapshots ButtonStateless small 1`] = `
 <span>
   <button
-    className="button small"
     disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#168eea",
+        "border": "0.063rem solid transparent",
+        "borderRadius": "2rem",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.25rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button tertiary 1`] = `
+exports[`Snapshots ButtonStateless tertiary 1`] = `
 <span>
   <button
-    className="button tertiary"
     disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#ced7df",
+        "borderRadius": "2rem",
+        "color": "#323b43",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
 </span>
 `;
 
-exports[`Snapshots Button warning 1`] = `
+exports[`Snapshots ButtonStateless warning 1`] = `
 <span>
   <button
-    className="button warning"
     disabled={undefined}
+    onBlur={undefined}
     onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "2rem",
+        "color": "#323b43",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
   >
     Button text
   </button>
@@ -234,22 +1247,49 @@ exports[`Snapshots Button warning 1`] = `
 exports[`Snapshots Card default 1`] = `
 <span>
   <div
-    className="card"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -261,22 +1301,49 @@ exports[`Snapshots Card default 1`] = `
 exports[`Snapshots Card doublePadding 1`] = `
 <span>
   <div
-    className="card double-padding"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "3rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -288,22 +1355,52 @@ exports[`Snapshots Card doublePadding 1`] = `
 exports[`Snapshots Card empty + hovered 1`] = `
 <span>
   <div
-    className="card empty hovered"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "borderStyle": "dashed",
+        "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -315,9 +1412,22 @@ exports[`Snapshots Card empty + hovered 1`] = `
 exports[`Snapshots Card empty 1`] = `
 <span>
   <div
-    className="card empty"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "borderStyle": "dashed",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     Nothing to see here! 👻
   </div>
@@ -327,22 +1437,50 @@ exports[`Snapshots Card empty 1`] = `
 exports[`Snapshots Card faded 1`] = `
 <span>
   <div
-    className="card faded"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "opacity": 0.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -354,22 +1492,50 @@ exports[`Snapshots Card faded 1`] = `
 exports[`Snapshots Card failed 1`] = `
 <span>
   <div
-    className="card failed"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -381,22 +1547,50 @@ exports[`Snapshots Card failed 1`] = `
 exports[`Snapshots Card hovered 1`] = `
 <span>
   <div
-    className="card hovered"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -408,22 +1602,49 @@ exports[`Snapshots Card hovered 1`] = `
 exports[`Snapshots Card noBorder 1`] = `
 <span>
   <div
-    className="card no-border"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": 0,
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -435,22 +1656,49 @@ exports[`Snapshots Card noBorder 1`] = `
 exports[`Snapshots Card noPadding 1`] = `
 <span>
   <div
-    className="card no-padding"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": 0,
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -462,22 +1710,49 @@ exports[`Snapshots Card noPadding 1`] = `
 exports[`Snapshots Card off-white background color 1`] = `
 <span>
   <div
-    className="card offWhite"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fcfcfc",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -489,22 +1764,49 @@ exports[`Snapshots Card off-white background color 1`] = `
 exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
 <span>
   <div
-    className="card"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1.5rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -516,22 +1818,49 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
 exports[`Snapshots Card reducedPadding 1`] = `
 <span>
   <div
-    className="card reduced-padding"
     onMouseEnter={undefined}
     onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#323b43",
+        "fontSize": "0.9rem",
+        "lineHeight": 1.5,
+        "padding": "1rem",
+        "transition": "box-shadow 0.1s linear",
+      }
+    }
   >
     What is a Product Designer? An awesome story by 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       @jgadapee
     </a>
      over on Medium! 
     <a
-      className="link"
       href="#"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       http://buff.ly/1LTbUqv
@@ -543,8 +1872,14 @@ exports[`Snapshots Card reducedPadding 1`] = `
 exports[`Snapshots Icon addMediaIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -581,8 +1916,14 @@ exports[`Snapshots Icon addMediaIcon 1`] = `
 exports[`Snapshots Icon analyticsIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -612,8 +1953,14 @@ exports[`Snapshots Icon analyticsIcon 1`] = `
 exports[`Snapshots Icon arrowDownIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -635,8 +1982,14 @@ exports[`Snapshots Icon arrowDownIcon 1`] = `
 exports[`Snapshots Icon arrowLeftIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -658,8 +2011,14 @@ exports[`Snapshots Icon arrowLeftIcon 1`] = `
 exports[`Snapshots Icon arrowLongDownIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -681,8 +2040,14 @@ exports[`Snapshots Icon arrowLongDownIcon 1`] = `
 exports[`Snapshots Icon arrowLongLeftIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -704,8 +2069,14 @@ exports[`Snapshots Icon arrowLongLeftIcon 1`] = `
 exports[`Snapshots Icon arrowLongRightIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -727,8 +2098,14 @@ exports[`Snapshots Icon arrowLongRightIcon 1`] = `
 exports[`Snapshots Icon arrowLongUpIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -749,8 +2126,14 @@ exports[`Snapshots Icon arrowLongUpIcon 1`] = `
 exports[`Snapshots Icon arrowRightIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -771,8 +2154,14 @@ exports[`Snapshots Icon arrowRightIcon 1`] = `
 exports[`Snapshots Icon arrowSolidDownIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -793,8 +2182,14 @@ exports[`Snapshots Icon arrowSolidDownIcon 1`] = `
 exports[`Snapshots Icon arrowSolidLeftIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -815,8 +2210,14 @@ exports[`Snapshots Icon arrowSolidLeftIcon 1`] = `
 exports[`Snapshots Icon arrowSolidRightIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -837,8 +2238,14 @@ exports[`Snapshots Icon arrowSolidRightIcon 1`] = `
 exports[`Snapshots Icon arrowSolidUpIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -859,8 +2266,14 @@ exports[`Snapshots Icon arrowSolidUpIcon 1`] = `
 exports[`Snapshots Icon arrowUpIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -882,8 +2295,14 @@ exports[`Snapshots Icon arrowUpIcon 1`] = `
 exports[`Snapshots Icon awesomeIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -904,8 +2323,14 @@ exports[`Snapshots Icon awesomeIcon 1`] = `
 exports[`Snapshots Icon bufferBottomIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -926,8 +2351,14 @@ exports[`Snapshots Icon bufferBottomIcon 1`] = `
 exports[`Snapshots Icon bufferIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -948,8 +2379,14 @@ exports[`Snapshots Icon bufferIcon 1`] = `
 exports[`Snapshots Icon bufferMiddleIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -970,8 +2407,14 @@ exports[`Snapshots Icon bufferMiddleIcon 1`] = `
 exports[`Snapshots Icon bufferTopIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -992,8 +2435,14 @@ exports[`Snapshots Icon bufferTopIcon 1`] = `
 exports[`Snapshots Icon calendarIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1014,8 +2463,14 @@ exports[`Snapshots Icon calendarIcon 1`] = `
 exports[`Snapshots Icon checkmarkIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1037,8 +2492,14 @@ exports[`Snapshots Icon checkmarkIcon 1`] = `
 exports[`Snapshots Icon circleAppdotnetIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1065,8 +2526,14 @@ exports[`Snapshots Icon circleAppdotnetIcon 1`] = `
 exports[`Snapshots Icon circleCheckmarkIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1087,8 +2554,14 @@ exports[`Snapshots Icon circleCheckmarkIcon 1`] = `
 exports[`Snapshots Icon circleFacebookIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1113,8 +2586,14 @@ exports[`Snapshots Icon circleFacebookIcon 1`] = `
 exports[`Snapshots Icon circleGooglePlusIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1139,8 +2618,14 @@ exports[`Snapshots Icon circleGooglePlusIcon 1`] = `
 exports[`Snapshots Icon circleInstagramIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1180,8 +2665,14 @@ exports[`Snapshots Icon circleInstagramIcon 1`] = `
 exports[`Snapshots Icon circleLinkedInIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1206,8 +2697,14 @@ exports[`Snapshots Icon circleLinkedInIcon 1`] = `
 exports[`Snapshots Icon circleMinusIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1228,8 +2725,14 @@ exports[`Snapshots Icon circleMinusIcon 1`] = `
 exports[`Snapshots Icon circlePinterestIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1254,8 +2757,14 @@ exports[`Snapshots Icon circlePinterestIcon 1`] = `
 exports[`Snapshots Icon circlePlayIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1280,8 +2789,14 @@ exports[`Snapshots Icon circlePlayIcon 1`] = `
 exports[`Snapshots Icon circlePlusIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1306,8 +2821,14 @@ exports[`Snapshots Icon circlePlusIcon 1`] = `
 exports[`Snapshots Icon circleTwitterIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1332,8 +2853,14 @@ exports[`Snapshots Icon circleTwitterIcon 1`] = `
 exports[`Snapshots Icon circleXIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1362,8 +2889,14 @@ exports[`Snapshots Icon circleXIcon 1`] = `
 exports[`Snapshots Icon clickIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1384,8 +2917,14 @@ exports[`Snapshots Icon clickIcon 1`] = `
 exports[`Snapshots Icon clockIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1421,8 +2960,14 @@ exports[`Snapshots Icon clockIcon 1`] = `
 exports[`Snapshots Icon closeIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1444,8 +2989,14 @@ exports[`Snapshots Icon closeIcon 1`] = `
 exports[`Snapshots Icon commentIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1466,8 +3017,14 @@ exports[`Snapshots Icon commentIcon 1`] = `
 exports[`Snapshots Icon contentIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1488,8 +3045,14 @@ exports[`Snapshots Icon contentIcon 1`] = `
 exports[`Snapshots Icon contentLibraryIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1510,8 +3073,14 @@ exports[`Snapshots Icon contentLibraryIcon 1`] = `
 exports[`Snapshots Icon curiousBlue 1`] = `
 <span>
   <svg
-    className="icon curiousBlue"
     height="100%"
+    style={
+      Object {
+        "fill": "#168eea",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1548,8 +3117,14 @@ exports[`Snapshots Icon curiousBlue 1`] = `
 exports[`Snapshots Icon dragIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1571,8 +3146,14 @@ exports[`Snapshots Icon dragIcon 1`] = `
 exports[`Snapshots Icon editIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1593,8 +3174,14 @@ exports[`Snapshots Icon editIcon 1`] = `
 exports[`Snapshots Icon exclamationIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1620,8 +3207,14 @@ exports[`Snapshots Icon exclamationIcon 1`] = `
 exports[`Snapshots Icon exportIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1642,8 +3235,14 @@ exports[`Snapshots Icon exportIcon 1`] = `
 exports[`Snapshots Icon facebookIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1664,8 +3263,14 @@ exports[`Snapshots Icon facebookIcon 1`] = `
 exports[`Snapshots Icon gifIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1686,8 +3291,14 @@ exports[`Snapshots Icon gifIcon 1`] = `
 exports[`Snapshots Icon googleIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1708,8 +3319,14 @@ exports[`Snapshots Icon googleIcon 1`] = `
 exports[`Snapshots Icon imageIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1730,8 +3347,14 @@ exports[`Snapshots Icon imageIcon 1`] = `
 exports[`Snapshots Icon instagramIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1758,8 +3381,14 @@ exports[`Snapshots Icon instagramIcon 1`] = `
 exports[`Snapshots Icon large 1`] = `
 <span>
   <svg
-    className="icon large shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "2rem",
+        "width": "2rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1796,8 +3425,14 @@ exports[`Snapshots Icon large 1`] = `
 exports[`Snapshots Icon likeIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1818,8 +3453,14 @@ exports[`Snapshots Icon likeIcon 1`] = `
 exports[`Snapshots Icon linkIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1840,8 +3481,14 @@ exports[`Snapshots Icon linkIcon 1`] = `
 exports[`Snapshots Icon linkedInIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1862,8 +3509,14 @@ exports[`Snapshots Icon linkedInIcon 1`] = `
 exports[`Snapshots Icon lockIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1884,8 +3537,14 @@ exports[`Snapshots Icon lockIcon 1`] = `
 exports[`Snapshots Icon moreIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1912,8 +3571,14 @@ exports[`Snapshots Icon moreIcon 1`] = `
 exports[`Snapshots Icon newTabIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1950,8 +3615,14 @@ exports[`Snapshots Icon newTabIcon 1`] = `
 exports[`Snapshots Icon pabloIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1972,8 +3643,14 @@ exports[`Snapshots Icon pabloIcon 1`] = `
 exports[`Snapshots Icon personIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -1994,8 +3671,14 @@ exports[`Snapshots Icon personIcon 1`] = `
 exports[`Snapshots Icon personsIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2019,8 +3702,14 @@ exports[`Snapshots Icon personsIcon 1`] = `
 exports[`Snapshots Icon pinterestIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2041,8 +3730,14 @@ exports[`Snapshots Icon pinterestIcon 1`] = `
 exports[`Snapshots Icon plusIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2063,8 +3758,14 @@ exports[`Snapshots Icon plusIcon 1`] = `
 exports[`Snapshots Icon pricingIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2085,8 +3786,14 @@ exports[`Snapshots Icon pricingIcon 1`] = `
 exports[`Snapshots Icon profileGroupIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2107,8 +3814,14 @@ exports[`Snapshots Icon profileGroupIcon 1`] = `
 exports[`Snapshots Icon questionIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2132,8 +3845,14 @@ exports[`Snapshots Icon questionIcon 1`] = `
 exports[`Snapshots Icon queueIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2154,8 +3873,14 @@ exports[`Snapshots Icon queueIcon 1`] = `
 exports[`Snapshots Icon refreshIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2176,8 +3901,14 @@ exports[`Snapshots Icon refreshIcon 1`] = `
 exports[`Snapshots Icon respondIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2205,8 +3936,14 @@ exports[`Snapshots Icon respondIcon 1`] = `
 exports[`Snapshots Icon retweetIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2227,8 +3964,14 @@ exports[`Snapshots Icon retweetIcon 1`] = `
 exports[`Snapshots Icon searchIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2249,8 +3992,14 @@ exports[`Snapshots Icon searchIcon 1`] = `
 exports[`Snapshots Icon settingsIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2271,8 +4020,14 @@ exports[`Snapshots Icon settingsIcon 1`] = `
 exports[`Snapshots Icon shamrock 1`] = `
 <span>
   <svg
-    className="icon shamrock"
     height="100%"
+    style={
+      Object {
+        "fill": "#2fd566",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2309,8 +4064,14 @@ exports[`Snapshots Icon shamrock 1`] = `
 exports[`Snapshots Icon shuffleIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2341,8 +4102,14 @@ exports[`Snapshots Icon shuffleIcon 1`] = `
 exports[`Snapshots Icon small 1`] = `
 <span>
   <svg
-    className="icon small shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "0.75rem",
+        "width": "0.75rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2379,8 +4146,14 @@ exports[`Snapshots Icon small 1`] = `
 exports[`Snapshots Icon supportIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2401,8 +4174,14 @@ exports[`Snapshots Icon supportIcon 1`] = `
 exports[`Snapshots Icon twitterIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2423,8 +4202,14 @@ exports[`Snapshots Icon twitterIcon 1`] = `
 exports[`Snapshots Icon videoIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2445,8 +4230,14 @@ exports[`Snapshots Icon videoIcon 1`] = `
 exports[`Snapshots Icon viewIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2467,8 +4258,14 @@ exports[`Snapshots Icon viewIcon 1`] = `
 exports[`Snapshots Icon warningIcon 1`] = `
 <span>
   <svg
-    className="icon shuttleGray"
     height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
     version="1.1"
     viewBox="0 0 16 16"
     width="100%"
@@ -2489,10 +4286,25 @@ exports[`Snapshots Icon warningIcon 1`] = `
 exports[`Snapshots IdTag Default 1`] = `
 <span>
   <span
-    className="label"
+    style={
+      Object {
+        "backgroundColor": "#000",
+        "borderRadius": "0.126rem",
+        "letterSpacing": "0.1rem",
+        "opacity": "0.65",
+        "padding": "0.1rem 0.4rem 0.1rem 0.4rem",
+      }
+    }
   >
     <span
-      className="text white"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
     >
       GIF
     </span>
@@ -2504,7 +4316,6 @@ exports[`Snapshots Image Default 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2525,7 +4336,6 @@ exports[`Snapshots Image MH=10em 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2546,7 +4356,6 @@ exports[`Snapshots Image MW=10em 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2567,7 +4376,6 @@ exports[`Snapshots Image MinH=14em 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -2588,7 +4396,6 @@ exports[`Snapshots Image MinW=14em 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -2609,7 +4416,6 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2630,7 +4436,6 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2651,7 +4456,6 @@ exports[`Snapshots Image W=100% 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2672,10 +4476,10 @@ exports[`Snapshots Image border: circle 1`] = `
 <span>
   <img
     alt="Image"
-    className="circle"
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
+        "borderRadius": "50%",
         "height": undefined,
         "maxHeight": undefined,
         "maxWidth": undefined,
@@ -2693,10 +4497,10 @@ exports[`Snapshots Image border: rounded 1`] = `
 <span>
   <img
     alt="Image"
-    className="rounded"
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
+        "borderRadius": "0.126rem",
         "height": undefined,
         "maxHeight": undefined,
         "maxWidth": undefined,
@@ -2714,7 +4518,6 @@ exports[`Snapshots Image small image 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/50/50/cats/"
     style={
       Object {
@@ -2735,7 +4538,6 @@ exports[`Snapshots Image tall image 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/400/1000/cats/"
     style={
       Object {
@@ -2756,7 +4558,6 @@ exports[`Snapshots Image verticalAlignBottom 1`] = `
 <span>
   <img
     alt="Image"
-    className="verticalAlignBottom"
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -2766,6 +4567,7 @@ exports[`Snapshots Image verticalAlignBottom 1`] = `
         "minHeight": undefined,
         "minWidth": undefined,
         "objectFit": undefined,
+        "verticalAlign": "bottom",
         "width": undefined,
       }
     }
@@ -2777,7 +4579,6 @@ exports[`Snapshots Image wide image 1`] = `
 <span>
   <img
     alt="Image"
-    className=""
     src="http://lorempixel.com/1000/400/cats/"
     style={
       Object {
@@ -2798,10 +4599,80 @@ exports[`Snapshots Input default 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="text"
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input focused 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={undefined}
+      onChange={[Function]}
+      onFocus={undefined}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#168eea",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="text"
+      value="user123"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots Input onFocus + onBlur 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="text"
       value="user123"
     />
@@ -2813,27 +4684,63 @@ exports[`Snapshots Input with error 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Username
       </span>
     </div>
     <input
-      className="input input-error"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#ff1e1e",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="text"
       value="user123"
     />
     <div
-      className="error-label"
+      style={
+        Object {
+          "marginTop": "1rem",
+        }
+      }
     >
       <span
-        className="text red"
+        style={
+          Object {
+            "color": "#ff1e1e",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         unknown user
       </span>
@@ -2846,19 +4753,43 @@ exports[`Snapshots Input with label 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Username
       </span>
     </div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="text"
       value="user123"
     />
@@ -2870,19 +4801,43 @@ exports[`Snapshots Input with placeholder 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Username
       </span>
     </div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={undefined}
+      onFocus={undefined}
       placeholder="ex: kitteh1234"
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="text"
       value={undefined}
     />
@@ -2894,10 +4849,23 @@ exports[`Snapshots Input with submitting = true 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={true}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="text"
       value="user123"
     />
@@ -2909,10 +4877,23 @@ exports[`Snapshots Input with type = email 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value="test@test.com"
     />
@@ -2924,10 +4905,23 @@ exports[`Snapshots Input with type = password 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="password"
       value="user123"
     />
@@ -6068,10 +8062,22 @@ exports[`Snapshots InputDate with error 1`] = `
       </div>
     </div>
     <div
-      className="error-label"
+      style={
+        Object {
+          "marginTop": "1rem",
+          "textAlign": "center",
+        }
+      }
     >
       <span
-        className="text red"
+        style={
+          Object {
+            "color": "#ff1e1e",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         a date must be selected
       </span>
@@ -6868,10 +8874,80 @@ exports[`Snapshots InputEmail default 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail focused 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={undefined}
+      onChange={[Function]}
+      onFocus={undefined}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#168eea",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="email"
+      value="test@test.com"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputEmail onFocus + onBlur 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value="test@test.com"
     />
@@ -6883,27 +8959,63 @@ exports[`Snapshots InputEmail with error 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Email
       </span>
     </div>
     <input
-      className="input input-error"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#ff1e1e",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value="test@test.com"
     />
     <div
-      className="error-label"
+      style={
+        Object {
+          "marginTop": "1rem",
+        }
+      }
     >
       <span
-        className="text red"
+        style={
+          Object {
+            "color": "#ff1e1e",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         unknown email address
       </span>
@@ -6916,19 +9028,43 @@ exports[`Snapshots InputEmail with label 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Email
       </span>
     </div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value="test@test.com"
     />
@@ -6940,19 +9076,43 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Email
       </span>
     </div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={undefined}
+      onFocus={undefined}
       placeholder="ex: test@test.com"
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value={undefined}
     />
@@ -6964,10 +9124,23 @@ exports[`Snapshots InputEmail with submitting = true 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={true}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="email"
       value="test@test.com"
     />
@@ -6979,10 +9152,80 @@ exports[`Snapshots InputPassword default 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword focused 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={undefined}
+      onChange={[Function]}
+      onFocus={undefined}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#168eea",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
+      type="password"
+      value="password"
+    />
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputPassword onFocus + onBlur 1`] = `
+<span>
+  <div>
+    <input
+      disabled={undefined}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="password"
       value="password"
     />
@@ -6994,27 +9237,63 @@ exports[`Snapshots InputPassword with error 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Password
       </span>
     </div>
     <input
-      className="input input-error"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderColor": "#ff1e1e",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="password"
       value="password"
     />
     <div
-      className="error-label"
+      style={
+        Object {
+          "marginTop": "1rem",
+        }
+      }
     >
       <span
-        className="text red"
+        style={
+          Object {
+            "color": "#ff1e1e",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         invalid password
       </span>
@@ -7027,19 +9306,43 @@ exports[`Snapshots InputPassword with label 1`] = `
 <span>
   <div>
     <div
-      className="label"
+      style={
+        Object {
+          "marginBottom": "1rem",
+        }
+      }
     >
       <span
-        className="text"
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
       >
         Password
       </span>
     </div>
     <input
-      className="input"
       disabled={undefined}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="password"
       value="password"
     />
@@ -7051,10 +9354,23 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
 <span>
   <div>
     <input
-      className="input"
       disabled={true}
+      onBlur={undefined}
       onChange={[Function]}
+      onFocus={undefined}
       placeholder={undefined}
+      style={
+        Object {
+          "border": "0.063rem solid #ced7df",
+          "borderRadius": "0.126rem",
+          "boxSizing": "border-box",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "outline": 0,
+          "padding": "0.5rem",
+          "width": "100%",
+        }
+      }
       type="password"
       value="password"
     />
@@ -7064,11 +9380,23 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
 
 exports[`Snapshots InputTime default 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={0}
     >
       <option
@@ -7133,9 +9461,14 @@ exports[`Snapshots InputTime default 1`] = `
       </option>
     </select>
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={0}
     >
       <option
@@ -7442,30 +9775,514 @@ exports[`Snapshots InputTime default 1`] = `
     <select
       disabled={undefined}
       onChange={[Function]}
-      value="am"
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value="AM"
     >
       <option
-        value="am"
+        value="AM"
       >
-        am
+        AM
       </option>
       <option
-        value="pm"
+        value="PM"
       >
-        pm
+        PM
       </option>
     </select>
   </div>
 </span>
 `;
 
-exports[`Snapshots InputTime with 24 hour selection 1`] = `
+exports[`Snapshots InputTime noStyle 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "-moz-appearance": "none",
+        "-webkit-appearance": "none",
+        "background": "transparent",
+        "border": 0,
+        "display": "inline-flex",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": "0.25rem",
+        "marginTop": 0,
+        "padding": 0,
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        12
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+    </select>
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+      <option
+        value={24}
+      >
+        24
+      </option>
+      <option
+        value={25}
+      >
+        25
+      </option>
+      <option
+        value={26}
+      >
+        26
+      </option>
+      <option
+        value={27}
+      >
+        27
+      </option>
+      <option
+        value={28}
+      >
+        28
+      </option>
+      <option
+        value={29}
+      >
+        29
+      </option>
+      <option
+        value={30}
+      >
+        30
+      </option>
+      <option
+        value={31}
+      >
+        31
+      </option>
+      <option
+        value={32}
+      >
+        32
+      </option>
+      <option
+        value={33}
+      >
+        33
+      </option>
+      <option
+        value={34}
+      >
+        34
+      </option>
+      <option
+        value={35}
+      >
+        35
+      </option>
+      <option
+        value={36}
+      >
+        36
+      </option>
+      <option
+        value={37}
+      >
+        37
+      </option>
+      <option
+        value={38}
+      >
+        38
+      </option>
+      <option
+        value={39}
+      >
+        39
+      </option>
+      <option
+        value={40}
+      >
+        40
+      </option>
+      <option
+        value={41}
+      >
+        41
+      </option>
+      <option
+        value={42}
+      >
+        42
+      </option>
+      <option
+        value={43}
+      >
+        43
+      </option>
+      <option
+        value={44}
+      >
+        44
+      </option>
+      <option
+        value={45}
+      >
+        45
+      </option>
+      <option
+        value={46}
+      >
+        46
+      </option>
+      <option
+        value={47}
+      >
+        47
+      </option>
+      <option
+        value={48}
+      >
+        48
+      </option>
+      <option
+        value={49}
+      >
+        49
+      </option>
+      <option
+        value={50}
+      >
+        50
+      </option>
+      <option
+        value={51}
+      >
+        51
+      </option>
+      <option
+        value={52}
+      >
+        52
+      </option>
+      <option
+        value={53}
+      >
+        53
+      </option>
+      <option
+        value={54}
+      >
+        54
+      </option>
+      <option
+        value={55}
+      >
+        55
+      </option>
+      <option
+        value={56}
+      >
+        56
+      </option>
+      <option
+        value={57}
+      >
+        57
+      </option>
+      <option
+        value={58}
+      >
+        58
+      </option>
+      <option
+        value={59}
+      >
+        59
+      </option>
+    </select>
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "margin": 0,
+          "marginRight": "0.25rem",
+          "padding": 0,
+        }
+      }
+      value="AM"
+    >
+      <option
+        value="AM"
+      >
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputTime noStyle with 24 hour selection 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "-moz-appearance": "none",
+        "-webkit-appearance": "none",
+        "background": "transparent",
+        "border": 0,
+        "display": "inline-flex",
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": "0.25rem",
+        "marginTop": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
       value={0}
     >
       <option
@@ -7590,9 +10407,480 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
       </option>
     </select>
     <select
-      className={undefined}
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "background": "transparent",
+          "border": 0,
+          "display": "inline-flex",
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": "0.25rem",
+          "marginTop": 0,
+          "padding": 0,
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+      <option
+        value={24}
+      >
+        24
+      </option>
+      <option
+        value={25}
+      >
+        25
+      </option>
+      <option
+        value={26}
+      >
+        26
+      </option>
+      <option
+        value={27}
+      >
+        27
+      </option>
+      <option
+        value={28}
+      >
+        28
+      </option>
+      <option
+        value={29}
+      >
+        29
+      </option>
+      <option
+        value={30}
+      >
+        30
+      </option>
+      <option
+        value={31}
+      >
+        31
+      </option>
+      <option
+        value={32}
+      >
+        32
+      </option>
+      <option
+        value={33}
+      >
+        33
+      </option>
+      <option
+        value={34}
+      >
+        34
+      </option>
+      <option
+        value={35}
+      >
+        35
+      </option>
+      <option
+        value={36}
+      >
+        36
+      </option>
+      <option
+        value={37}
+      >
+        37
+      </option>
+      <option
+        value={38}
+      >
+        38
+      </option>
+      <option
+        value={39}
+      >
+        39
+      </option>
+      <option
+        value={40}
+      >
+        40
+      </option>
+      <option
+        value={41}
+      >
+        41
+      </option>
+      <option
+        value={42}
+      >
+        42
+      </option>
+      <option
+        value={43}
+      >
+        43
+      </option>
+      <option
+        value={44}
+      >
+        44
+      </option>
+      <option
+        value={45}
+      >
+        45
+      </option>
+      <option
+        value={46}
+      >
+        46
+      </option>
+      <option
+        value={47}
+      >
+        47
+      </option>
+      <option
+        value={48}
+      >
+        48
+      </option>
+      <option
+        value={49}
+      >
+        49
+      </option>
+      <option
+        value={50}
+      >
+        50
+      </option>
+      <option
+        value={51}
+      >
+        51
+      </option>
+      <option
+        value={52}
+      >
+        52
+      </option>
+      <option
+        value={53}
+      >
+        53
+      </option>
+      <option
+        value={54}
+      >
+        54
+      </option>
+      <option
+        value={55}
+      >
+        55
+      </option>
+      <option
+        value={56}
+      >
+        56
+      </option>
+      <option
+        value={57}
+      >
+        57
+      </option>
+      <option
+        value={58}
+      >
+        58
+      </option>
+      <option
+        value={59}
+      >
+        59
+      </option>
+    </select>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputTime with 24 hour selection 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+    </select>
+    <select
+      disabled={undefined}
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={0}
     >
       <option
@@ -7902,11 +11190,23 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
 
 exports[`Snapshots InputTime with afternoon value set 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={11}
     >
       <option
@@ -7971,9 +11271,14 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       </option>
     </select>
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={32}
     >
       <option
@@ -8280,17 +11585,23 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
     <select
       disabled={undefined}
       onChange={[Function]}
-      value="am"
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value="AM"
     >
       <option
-        value="am"
+        value="AM"
       >
-        am
+        AM
       </option>
       <option
-        value="pm"
+        value="PM"
       >
-        pm
+        PM
       </option>
     </select>
   </div>
@@ -8299,11 +11610,23 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
 
 exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={16}
     >
       <option
@@ -8428,9 +11751,14 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
       </option>
     </select>
     <select
-      className={undefined}
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={33}
     >
       <option
@@ -8740,11 +12068,23 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
 
 exports[`Snapshots InputTime with form submitting 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={true}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={16}
     >
       <option
@@ -8809,9 +12149,14 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       </option>
     </select>
     <select
-      className="select-with-margin"
       disabled={true}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={33}
     >
       <option
@@ -9118,17 +12463,23 @@ exports[`Snapshots InputTime with form submitting 1`] = `
     <select
       disabled={true}
       onChange={[Function]}
-      value="pm"
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value="PM"
     >
       <option
-        value="am"
+        value="AM"
       >
-        am
+        AM
       </option>
       <option
-        value="pm"
+        value="PM"
       >
-        pm
+        PM
       </option>
     </select>
   </div>
@@ -9137,11 +12488,23 @@ exports[`Snapshots InputTime with form submitting 1`] = `
 
 exports[`Snapshots InputTime with value set 1`] = `
 <span>
-  <div>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={10}
     >
       <option
@@ -9206,9 +12569,14 @@ exports[`Snapshots InputTime with value set 1`] = `
       </option>
     </select>
     <select
-      className="select-with-margin"
       disabled={undefined}
       onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
       value={32}
     >
       <option
@@ -9515,81 +12883,295 @@ exports[`Snapshots InputTime with value set 1`] = `
     <select
       disabled={undefined}
       onChange={[Function]}
-      value="am"
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value="AM"
     >
       <option
-        value="am"
+        value="AM"
       >
-        am
+        AM
       </option>
       <option
-        value="pm"
+        value="PM"
       >
-        pm
+        PM
       </option>
     </select>
   </div>
 </span>
 `;
 
-exports[`Snapshots Link Default 1`] = `
+exports[`Snapshots Link default 1`] = `
 <span>
-  <div>
-    <a
-      className="link"
-      href="https://twitter.com"
-      target="_self"
-    >
-      Twitter
-    </a>
-    <br />
-    <a
-      className="link"
-      href="https://buffer.com"
-      target="_self"
-    >
-      Buffer
-    </a>
-  </div>
-</span>
-`;
-
-exports[`Snapshots Link newTab 1`] = `
-<span>
-  <div>
-    <a
-      className="link"
-      href="https://twitter.com"
-      target="_blank"
-    >
-      Twitter
-    </a>
-    <br />
-    <a
-      className="link"
-      href="https://buffer.com"
-      target="_blank"
-    >
-      Buffer
-    </a>
-  </div>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
 </span>
 `;
 
 exports[`Snapshots Link unstyled 1`] = `
 <span>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
+exports[`Snapshots LinkStateless default 1`] = `
+<span>
   <div>
     <a
-      className="link unstyled"
       href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       Twitter
     </a>
     <br />
     <a
-      className="link unstyled"
       href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
+      target="_self"
+    >
+      Buffer
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots LinkStateless focused 1`] = `
+<span>
+  <a
+    href="https://twitter.com"
+    onBlur={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "boxShadow": "0 0 0.25rem #168eea",
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
+exports[`Snapshots LinkStateless hovered 1`] = `
+<span>
+  <div>
+    <a
+      href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#137ac9",
+        }
+      }
+      target="_self"
+    >
+      Twitter
+    </a>
+    <br />
+    <a
+      href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#137ac9",
+        }
+      }
+      target="_self"
+    >
+      Buffer
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots LinkStateless newTab 1`] = `
+<span>
+  <div>
+    <a
+      href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
+      target="_blank"
+    >
+      Twitter
+    </a>
+    <br />
+    <a
+      href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
+      target="_blank"
+    >
+      Buffer
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots LinkStateless onFocus + onBlur 1`] = `
+<span>
+  <a
+    href="https://twitter.com"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "color": "#168eea",
+      }
+    }
+    target="_self"
+  >
+    Twitter
+  </a>
+</span>
+`;
+
+exports[`Snapshots LinkStateless onMouseEnter + onMouseLeave 1`] = `
+<span>
+  <div>
+    <a
+      href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
+      target="_self"
+    >
+      Twitter
+    </a>
+    <br />
+    <a
+      href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
+      target="_self"
+    >
+      Buffer
+    </a>
+  </div>
+</span>
+`;
+
+exports[`Snapshots LinkStateless unstyled 1`] = `
+<span>
+  <div>
+    <a
+      href="https://twitter.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+          "textDecoration": "none",
+        }
+      }
+      target="_self"
+    >
+      Twitter
+    </a>
+    <br />
+    <a
+      href="https://buffer.com"
+      onBlur={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "color": "#168eea",
+          "textDecoration": "none",
+        }
+      }
       target="_self"
     >
       Buffer
@@ -9601,12 +13183,27 @@ exports[`Snapshots Link unstyled 1`] = `
 exports[`Snapshots LinkifiedText default 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a 
     <a
-      className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       blog.twitter.com/2011/05/twitte…
@@ -9619,7 +13216,14 @@ exports[`Snapshots LinkifiedText default 1`] = `
 exports[`Snapshots LinkifiedText empty string 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   />
 </span>
 `;
@@ -9627,12 +13231,27 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
 exports[`Snapshots LinkifiedText newTab 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a 
     <a
-      className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_blank"
     >
       blog.twitter.com/2011/05/twitte…
@@ -9645,7 +13264,14 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
 exports[`Snapshots LinkifiedText no links 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a b
   </span>
@@ -9655,12 +13281,27 @@ exports[`Snapshots LinkifiedText no links 1`] = `
 exports[`Snapshots LinkifiedText size: small 1`] = `
 <span>
   <span
-    className="text small"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a 
     <a
-      className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       blog.twitter.com/2011/05/twitte…
@@ -9673,20 +13314,43 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
 exports[`Snapshots LinkifiedText two links 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a 
     <a
-      className="link"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       blog.twitter.com/2011/05/twitte…
     </a>
      b 
     <a
-      className="link"
       href="https://buffer.com"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+        }
+      }
       target="_self"
     >
       buffer.com
@@ -9699,12 +13363,28 @@ exports[`Snapshots LinkifiedText two links 1`] = `
 exports[`Snapshots LinkifiedText unstyled 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     a 
     <a
-      className="link unstyled"
       href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "color": "#168eea",
+          "textDecoration": "none",
+        }
+      }
       target="_self"
     >
       blog.twitter.com/2011/05/twitte…
@@ -9717,22 +13397,77 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
 exports[`Snapshots List default 1`] = `
 <span>
   <ul
-    className="ul"
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
   >
     <li
-      className="li"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
     >
       apples
     </li>
     <li
-      className="li"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
     >
       bananas
     </li>
     <li
-      className="li"
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
     >
       oranges
+    </li>
+  </ul>
+</span>
+`;
+
+exports[`Snapshots List with ids 1`] = `
+<span>
+  <ul
+    style={
+      Object {
+        "listStyleType": "none",
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+  >
+    <li
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
+    >
+      <code>
+        1
+      </code>
+    </li>
+    <li
+      style={
+        Object {
+          "listStyle": "none",
+        }
+      }
+    >
+      <code>
+        2
+      </code>
     </li>
   </ul>
 </span>
@@ -9741,7 +13476,11 @@ exports[`Snapshots List default 1`] = `
 exports[`Snapshots ListItem default 1`] = `
 <span>
   <li
-    className="li"
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
   >
     Bananas
   </li>
@@ -9751,74 +13490,61 @@ exports[`Snapshots ListItem default 1`] = `
 exports[`Snapshots Loader default 1`] = `
 <span>
   <div
-    className="loader"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
   >
     <div
-      className="icon"
+      style={
+        Object {
+          "height": "1rem",
+          "margin": "0 auto 1rem auto",
+          "position": "relative",
+          "width": "1rem",
+        }
+      }
     >
-      <div
-        className="top"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+      <span>
+        <div
+          style={
+            Object {
+              "height": "1rem",
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "all 1000ms ease-in-out",
+              "width": "1rem",
+            }
+          }
         >
-          <g
-            className="shuttleGray"
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "1rem",
+                "width": "1rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <path
-              d="M1.10241622,4.34038738 L7.75166358,7.40469806 C7.88821853,7.46764349 8.11178147,7.46764349 8.24833642,7.40469806 L14.8975838,4.34038738 C15.0341387,4.27744195 15.0341387,4.17446518 14.8975838,4.11151975 L8.24833642,1.04720908 C8.11178147,0.984263641 7.88821853,0.984263641 7.75166358,1.04720908 L1.10241622,4.11151975 C0.965861261,4.17446518 0.965861261,4.27744195 1.10241622,4.34038738"
-            />
-          </g>
-        </svg>
-      </div>
-      <div
-        className="middle"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M14.8975838,7.88556618 L13.3049713,7.1516585 C13.1684163,7.08871306 12.9449081,7.08871306 12.8082985,7.1516585 L8.24833642,9.25308448 C8.11178147,9.31602991 7.88821853,9.31602991 7.75166358,9.25308448 L3.19170155,7.1516585 C3.0550919,7.08871306 2.83158366,7.08871306 2.6950287,7.1516585 L1.10241622,7.88556618 C0.965861261,7.94851162 0.965861261,8.05154307 1.10241622,8.1144885 L7.75166358,11.1787445 C7.88821853,11.2416899 8.11178147,11.2416899 8.24833642,11.1787445 L14.8975838,8.1144885 C15.0341387,8.05154307 15.0341387,7.94851162 14.8975838,7.88556618"
-            />
-          </g>
-        </svg>
-      </div>
-      <div
-        className="bottom"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M14.8975838,11.6596673 L13.3049713,10.9257049 C13.1684163,10.8627595 12.9449081,10.8627595 12.8082985,10.9257049 L8.24833642,13.0271856 C8.11178147,13.090131 7.88821853,13.090131 7.75166358,13.0271856 L3.19170155,10.9257049 C3.0550919,10.8627595 2.83158366,10.8627595 2.6950287,10.9257049 L1.10241622,11.6596673 C0.965861261,11.7226127 0.965861261,11.8255895 1.10241622,11.8885349 L7.75166358,14.9528456 C7.88821853,15.015791 8.11178147,15.015791 8.24833642,14.9528456 L14.8975838,11.8885349 C15.0341387,11.8255895 15.0341387,11.7226127 14.8975838,11.6596673"
-            />
-          </g>
-        </svg>
-      </div>
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M1.10241622,4.34038738 L7.75166358,7.40469806 C7.88821853,7.46764349 8.11178147,7.46764349 8.24833642,7.40469806 L14.8975838,4.34038738 C15.0341387,4.27744195 15.0341387,4.17446518 14.8975838,4.11151975 L8.24833642,1.04720908 C8.11178147,0.984263641 7.88821853,0.984263641 7.75166358,1.04720908 L1.10241622,4.11151975 C0.965861261,4.17446518 0.965861261,4.27744195 1.10241622,4.34038738"
+              />
+            </g>
+          </svg>
+        </div>
+      </span>
     </div>
   </div>
 </span>
@@ -9827,77 +13553,71 @@ exports[`Snapshots Loader default 1`] = `
 exports[`Snapshots Loader withText 1`] = `
 <span>
   <div
-    className="loader"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
   >
     <div
-      className="icon"
+      style={
+        Object {
+          "height": "1rem",
+          "margin": "0 auto 1rem auto",
+          "position": "relative",
+          "width": "1rem",
+        }
+      }
     >
-      <div
-        className="top"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
+      <span>
+        <div
+          style={
+            Object {
+              "height": "1rem",
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "all 1000ms ease-in-out",
+              "width": "1rem",
+            }
+          }
         >
-          <g
-            className="shuttleGray"
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "1rem",
+                "width": "1rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
           >
-            <path
-              d="M1.10241622,4.34038738 L7.75166358,7.40469806 C7.88821853,7.46764349 8.11178147,7.46764349 8.24833642,7.40469806 L14.8975838,4.34038738 C15.0341387,4.27744195 15.0341387,4.17446518 14.8975838,4.11151975 L8.24833642,1.04720908 C8.11178147,0.984263641 7.88821853,0.984263641 7.75166358,1.04720908 L1.10241622,4.11151975 C0.965861261,4.17446518 0.965861261,4.27744195 1.10241622,4.34038738"
-            />
-          </g>
-        </svg>
-      </div>
-      <div
-        className="middle"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M14.8975838,7.88556618 L13.3049713,7.1516585 C13.1684163,7.08871306 12.9449081,7.08871306 12.8082985,7.1516585 L8.24833642,9.25308448 C8.11178147,9.31602991 7.88821853,9.31602991 7.75166358,9.25308448 L3.19170155,7.1516585 C3.0550919,7.08871306 2.83158366,7.08871306 2.6950287,7.1516585 L1.10241622,7.88556618 C0.965861261,7.94851162 0.965861261,8.05154307 1.10241622,8.1144885 L7.75166358,11.1787445 C7.88821853,11.2416899 8.11178147,11.2416899 8.24833642,11.1787445 L14.8975838,8.1144885 C15.0341387,8.05154307 15.0341387,7.94851162 14.8975838,7.88556618"
-            />
-          </g>
-        </svg>
-      </div>
-      <div
-        className="bottom"
-      >
-        <svg
-          className="icon shuttleGray"
-          height="100%"
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="shuttleGray"
-          >
-            <path
-              d="M14.8975838,11.6596673 L13.3049713,10.9257049 C13.1684163,10.8627595 12.9449081,10.8627595 12.8082985,10.9257049 L8.24833642,13.0271856 C8.11178147,13.090131 7.88821853,13.090131 7.75166358,13.0271856 L3.19170155,10.9257049 C3.0550919,10.8627595 2.83158366,10.8627595 2.6950287,10.9257049 L1.10241622,11.6596673 C0.965861261,11.7226127 0.965861261,11.8255895 1.10241622,11.8885349 L7.75166358,14.9528456 C7.88821853,15.015791 8.11178147,15.015791 8.24833642,14.9528456 L14.8975838,11.8885349 C15.0341387,11.8255895 15.0341387,11.7226127 14.8975838,11.6596673"
-            />
-          </g>
-        </svg>
-      </div>
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M1.10241622,4.34038738 L7.75166358,7.40469806 C7.88821853,7.46764349 8.11178147,7.46764349 8.24833642,7.40469806 L14.8975838,4.34038738 C15.0341387,4.27744195 15.0341387,4.17446518 14.8975838,4.11151975 L8.24833642,1.04720908 C8.11178147,0.984263641 7.88821853,0.984263641 7.75166358,1.04720908 L1.10241622,4.11151975 C0.965861261,4.17446518 0.965861261,4.27744195 1.10241622,4.34038738"
+              />
+            </g>
+          </svg>
+        </div>
+      </span>
     </div>
     <span
-      className="text"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
     >
       Some neat loading text!
     </span>
@@ -9907,22 +13627,30 @@ exports[`Snapshots Loader withText 1`] = `
 
 exports[`Snapshots MultipleImages border=rounded 1`] = `
 <div
-  className="multipleImages rounded"
   style={
     Object {
+      "borderRadius": "0.126rem",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "20rem",
+      "overflow": "hidden",
       "width": "20rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -9932,19 +13660,24 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -9954,19 +13687,24 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -9976,19 +13714,24 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -9998,6 +13741,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10008,22 +13752,29 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
 
 exports[`Snapshots MultipleImages fourImages 1`] = `
 <div
-  className="multipleImages"
   style={
     Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "20rem",
+      "overflow": "hidden",
       "width": "20rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10033,19 +13784,24 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10055,19 +13811,24 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10077,19 +13838,24 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10099,6 +13865,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10109,26 +13876,29 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
 
 exports[`Snapshots MultipleImages oneImage 1`] = `
 <div
-  className="multipleImages"
   style={
     Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "20rem",
+      "overflow": "hidden",
       "width": "20rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="20rem"
     style={
       Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
         "height": "100%",
       }
     }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10138,6 +13908,7 @@ exports[`Snapshots MultipleImages oneImage 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10148,22 +13919,29 @@ exports[`Snapshots MultipleImages oneImage 1`] = `
 
 exports[`Snapshots MultipleImages threeImages 1`] = `
 <div
-  className="multipleImages"
   style={
     Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "20rem",
+      "overflow": "hidden",
       "width": "20rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10173,19 +13951,24 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10195,19 +13978,24 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10217,6 +14005,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10227,26 +14016,29 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
 
 exports[`Snapshots MultipleImages twoImages 1`] = `
 <div
-  className="multipleImages"
   style={
     Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "20rem",
+      "overflow": "hidden",
       "width": "20rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="20rem"
     style={
       Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
         "height": "100%",
       }
     }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10256,23 +14048,24 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="20rem"
     style={
       Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
         "height": "100%",
       }
     }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10282,6 +14075,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10292,22 +14086,29 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
 
 exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
 <div
-  className="multipleImages"
   style={
     Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
       "height": "30rem",
+      "overflow": "hidden",
       "width": "30rem",
     }
   }
 >
   <div
-    className="imageWrapper"
     height="30rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10317,19 +14118,24 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="30rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10339,19 +14145,24 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="30rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10361,19 +14172,24 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
     />
   </div>
   <div
-    className="imageWrapper"
     height="30rem"
-    style={undefined}
+    style={
+      Object {
+        "flexBasis": "50%",
+        "flexGrow": 1,
+        "height": "50%",
+      }
+    }
   >
     <img
       alt="Image"
-      className="verticalAlignBottom"
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10383,6 +14199,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
           "minHeight": undefined,
           "minWidth": undefined,
           "objectFit": "cover",
+          "verticalAlign": "bottom",
           "width": "100%",
         }
       }
@@ -10394,14 +14211,37 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
 exports[`Snapshots NavBar Default 1`] = `
 <span>
   <div
-    className="navbar"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottom": "0.063rem solid #ced7df",
+        "boxSizing": "border-box",
+        "display": "flex",
+        "marginBottom": "2rem",
+        "padding": "1rem",
+        "width": "100%",
+      }
+    }
   >
     <span
-      className="app-icon"
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#59626a",
+          "display": "flex",
+          "marginRight": "0.5rem",
+        }
+      }
     >
       <svg
-        className="icon shuttleGray"
         height="100%"
+        style={
+          Object {
+            "fill": "#59626a",
+            "height": "1rem",
+            "width": "1rem",
+          }
+        }
         version="1.1"
         viewBox="0 0 16 16"
         width="100%"
@@ -10418,12 +14258,26 @@ exports[`Snapshots NavBar Default 1`] = `
       </svg>
     </span>
     <span
-      className="text bold"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+        }
+      }
     >
       Buffer
     </span>
     <span
-      className="text"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
     >
       
     </span>
@@ -10434,14 +14288,37 @@ exports[`Snapshots NavBar Default 1`] = `
 exports[`Snapshots NavBar Subtitle 1`] = `
 <span>
   <div
-    className="navbar"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottom": "0.063rem solid #ced7df",
+        "boxSizing": "border-box",
+        "display": "flex",
+        "marginBottom": "2rem",
+        "padding": "1rem",
+        "width": "100%",
+      }
+    }
   >
     <span
-      className="app-icon"
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#59626a",
+          "display": "flex",
+          "marginRight": "0.5rem",
+        }
+      }
     >
       <svg
-        className="icon shuttleGray"
         height="100%"
+        style={
+          Object {
+            "fill": "#59626a",
+            "height": "1rem",
+            "width": "1rem",
+          }
+        }
         version="1.1"
         viewBox="0 0 16 16"
         width="100%"
@@ -10458,12 +14335,26 @@ exports[`Snapshots NavBar Subtitle 1`] = `
       </svg>
     </span>
     <span
-      className="text bold"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 600,
+        }
+      }
     >
       Buffer
     </span>
     <span
-      className="text"
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
     >
        NavBar
     </span>
@@ -10482,7 +14373,6 @@ exports[`Snapshots Overlay default 1`] = `
   >
     <img
       alt="Image"
-      className=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10497,11 +14387,17 @@ exports[`Snapshots Overlay default 1`] = `
       }
     />
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10520,7 +14416,6 @@ exports[`Snapshots Overlay transparent=true 1`] = `
   >
     <img
       alt="Image"
-      className=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -10535,11 +14430,17 @@ exports[`Snapshots Overlay transparent=true 1`] = `
       }
     />
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10551,30 +14452,48 @@ exports[`Snapshots Popover bottom = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": "10rem",
           "left": undefined,
+          "position": "absolute",
           "right": undefined,
           "top": undefined,
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10586,30 +14505,48 @@ exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": "10rem",
           "left": undefined,
+          "position": "absolute",
           "right": "10rem",
           "top": undefined,
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10621,30 +14558,49 @@ exports[`Snapshots Popover default 1`] = `
 <span>
   <span>
     <div
-      className="popover center"
       style={
         Object {
           "bottom": undefined,
-          "left": undefined,
+          "left": "50%",
+          "position": "absolute",
           "right": undefined,
-          "top": undefined,
+          "top": "50%",
+          "transform": "translate(-50%, -50%)",
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10656,30 +14612,48 @@ exports[`Snapshots Popover left = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": undefined,
           "left": "10rem",
+          "position": "absolute",
           "right": undefined,
           "top": undefined,
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10691,30 +14665,48 @@ exports[`Snapshots Popover right = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": undefined,
           "left": undefined,
+          "position": "absolute",
           "right": "10rem",
           "top": undefined,
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10726,30 +14718,48 @@ exports[`Snapshots Popover top = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": undefined,
           "left": undefined,
+          "position": "absolute",
           "right": undefined,
           "top": "10rem",
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10761,30 +14771,48 @@ exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
 <span>
   <span>
     <div
-      className="popover"
       style={
         Object {
           "bottom": undefined,
           "left": "10rem",
+          "position": "absolute",
           "right": undefined,
           "top": "10rem",
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 1,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10796,30 +14824,49 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
 <span>
   <span>
     <div
-      className="popover center"
       style={
         Object {
           "bottom": undefined,
-          "left": undefined,
+          "left": "50%",
+          "position": "absolute",
           "right": undefined,
-          "top": undefined,
+          "top": "50%",
+          "transform": "translate(-50%, -50%)",
+          "zIndex": 3000,
         }
       }
     >
       <div
-        className="card"
         onMouseEnter={undefined}
         onMouseLeave={undefined}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#323b43",
+            "fontSize": "0.9rem",
+            "lineHeight": 1.5,
+            "padding": "1.5rem",
+            "transition": "box-shadow 0.1s linear",
+          }
+        }
       >
         Popover
       </div>
     </div>
     <div
-      className="overlay"
       onClick={[Function]}
       style={
         Object {
+          "backgroundColor": "rgba(50, 59, 67, 0.8)",
+          "bottom": 0,
+          "left": 0,
           "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 2000,
         }
       }
     />
@@ -10827,117 +14874,330 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
 </span>
 `;
 
-exports[`Snapshots Text Black 1`] = `
+exports[`Snapshots SectionHeader default 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottom": "0.063rem solid #e6ebef",
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": "1rem",
+        "paddingTop": "1rem",
+      }
+    }
+  />
+</span>
+`;
+
+exports[`Snapshots SectionHeader with content 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottom": "0.063rem solid #e6ebef",
+        "display": "flex",
+        "flexDirection": "row",
+        "paddingBottom": "1rem",
+        "paddingTop": "1rem",
+      }
+    }
+  >
+    A section title
+  </div>
+</span>
+`;
+
+exports[`Snapshots Select default 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <select
+      style={
+        Object {
+          "-moz-appearance": "none",
+          "-webkit-appearance": "none",
+          "appearance": "none",
+          "background": "transparent",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.8rem",
+          "height": "2rem",
+          "paddingLeft": "0.5rem",
+          "paddingRight": "0.5rem",
+          "zIndex": 4000,
+        }
+      }
+    >
+      <option>
+        London
+      </option>
+      <option>
+        New York
+      </option>
+      <option>
+        San Francisco
+      </option>
+      <option>
+        Tokyo
+      </option>
+      <option>
+        Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+      </option>
+    </select>
+    <span
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "marginLeft": "-1.5rem",
+          "zIndex": 0,
+        }
+      }
+    >
+      <svg
+        height="100%"
+        style={
+          Object {
+            "fill": "#59626a",
+            "height": "1rem",
+            "width": "1rem",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+            transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+          />
+        </g>
+      </svg>
+    </span>
+  </div>
+</span>
+`;
+
+exports[`Snapshots Text black 1`] = `
 <span>
   <span
-    className="text black"
+    style={
+      Object {
+        "color": "#000",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Blue 1`] = `
+exports[`Snapshots Text bold 1`] = `
 <span>
   <span
-    className="text blue"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 600,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Bold 1`] = `
+exports[`Snapshots Text curiousBlue 1`] = `
 <span>
   <span
-    className="text bold"
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Default 1`] = `
+exports[`Snapshots Text default 1`] = `
 <span>
   <span
-    className="text"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text ExtraSmall 1`] = `
+exports[`Snapshots Text extra small 1`] = `
 <span>
   <span
-    className="text extraSmall"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.7rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Gray 1`] = `
+exports[`Snapshots Text large 1`] = `
 <span>
   <span
-    className="text gray"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "2rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Large 1`] = `
+exports[`Snapshots Text mini 1`] = `
 <span>
   <span
-    className="text large"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.9rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Mini 1`] = `
+exports[`Snapshots Text outerSpace 1`] = `
 <span>
   <span
-    className="text mini"
+    style={
+      Object {
+        "color": "#323b43",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Red 1`] = `
+exports[`Snapshots Text shuttleGray 1`] = `
 <span>
   <span
-    className="text red"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Small 1`] = `
+exports[`Snapshots Text small 1`] = `
 <span>
   <span
-    className="text small"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text Thin 1`] = `
+exports[`Snapshots Text thin 1`] = `
 <span>
   <span
-    className="text thin"
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 300,
+      }
+    }
   >
     The quick brown fox jumps over the lazy dog
   </span>
 </span>
 `;
 
-exports[`Snapshots Text White 1`] = `
+exports[`Snapshots Text torchRed 1`] = `
+<span>
+  <span
+    style={
+      Object {
+        "color": "#ff1e1e",
+        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    The quick brown fox jumps over the lazy dog
+  </span>
+</span>
+`;
+
+exports[`Snapshots Text white 1`] = `
 <span>
   <div
     style={
@@ -10947,7 +15207,14 @@ exports[`Snapshots Text White 1`] = `
     }
   >
     <span
-      className="text white"
+      style={
+        Object {
+          "color": "#fff",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
     >
       The quick brown fox jumps over the lazy dog
     </span>
@@ -10958,16 +15225,16 @@ exports[`Snapshots Text White 1`] = `
 exports[`Snapshots Video Default 1`] = `
 <span>
   <video
-    className=""
     controls={true}
     height={undefined}
+    style={Object {}}
     width={undefined}
   >
     <source
       src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
       type="video/mp4"
     />
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;
@@ -10975,16 +15242,16 @@ exports[`Snapshots Video Default 1`] = `
 exports[`Snapshots Video No Controls 1`] = `
 <span>
   <video
-    className=""
     controls={false}
     height={undefined}
+    style={Object {}}
     width={undefined}
   >
     <source
       src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
       type="video/mp4"
     />
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;
@@ -10992,12 +15259,12 @@ exports[`Snapshots Video No Controls 1`] = `
 exports[`Snapshots Video No Video 1`] = `
 <span>
   <video
-    className=""
     controls={true}
     height={undefined}
+    style={Object {}}
     width={undefined}
   >
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;
@@ -11005,16 +15272,16 @@ exports[`Snapshots Video No Video 1`] = `
 exports[`Snapshots Video W=100% 1`] = `
 <span>
   <video
-    className=""
     controls={true}
     height={undefined}
+    style={Object {}}
     width="100%"
   >
     <source
       src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
       type="video/mp4"
     />
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;
@@ -11022,16 +15289,16 @@ exports[`Snapshots Video W=100% 1`] = `
 exports[`Snapshots Video W=200px H=100px 1`] = `
 <span>
   <video
-    className=""
     controls={true}
     height="100px"
+    style={Object {}}
     width="200px"
   >
     <source
       src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
       type="video/mp4"
     />
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;
@@ -11039,16 +15306,20 @@ exports[`Snapshots Video W=200px H=100px 1`] = `
 exports[`Snapshots Video rounded border 1`] = `
 <span>
   <video
-    className="rounded"
     controls={true}
     height={undefined}
+    style={
+      Object {
+        "borderRadius": "0.126rem",
+      }
+    }
     width={undefined}
   >
     <source
       src="https://buffer-media-uploads.s3.amazonaws.com/52bc7a190a0e32ec4c000020/57bf2d1c6896977343f80535/output/87be589cc006a816411e8799ad3e67d9.original.mp4"
       type="video/mp4"
     />
-    "Your Browser Does Not Support Video"
+    Your Browser Does Not Support Video
   </video>
 </span>
 `;

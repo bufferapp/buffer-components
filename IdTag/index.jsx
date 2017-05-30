@@ -1,20 +1,32 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../Text';
-import styles from './style.css';
+import {
+  black,
+} from '../style/color';
+import {
+  borderRadius,
+} from '../style/border';
+
+const style = {
+  padding: '0.1rem 0.4rem 0.1rem 0.4rem',
+  backgroundColor: black,
+  borderRadius,
+  opacity: '0.65',
+  letterSpacing: '0.1rem',
+};
 
 const IdTag = ({
   children,
-}) => {
-  return (
-    <span className={styles.label}>
-      <Text color={'white'}>{children}</Text>
-    </span>
-  );
-};
+}) =>
+  <span
+    style={style}
+  >
+    <Text color={'white'}>{children}</Text>
+  </span>;
 
 IdTag.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string.isRequired,
 };
 
 export default IdTag;

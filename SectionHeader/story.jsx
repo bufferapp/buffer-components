@@ -3,13 +3,15 @@ import {
   storiesOf,
 } from '@kadira/storybook';
 import { checkA11y } from 'storybook-addon-a11y';
-import Link from './index';
+import SectionHeader from './index';
 
-storiesOf('Link')
+storiesOf('SectionHeader')
   .addDecorator(checkA11y)
   .add('default', () => (
-    <Link href={'https://twitter.com'}>Twitter</Link>
+    <SectionHeader />
   ))
-  .add('unstyled', () => (
-    <Link href={'https://twitter.com'} unstyled>Twitter</Link>
+  .add('with content', () => (
+    <SectionHeader>
+      A section title
+    </SectionHeader>
   ));

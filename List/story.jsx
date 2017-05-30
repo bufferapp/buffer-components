@@ -7,4 +7,18 @@ storiesOf('List')
   .addDecorator(checkA11y)
   .add('default', () => (
     <List items={['apples', 'bananas', 'oranges']} />
+  ))
+  .add('with ids', () => (
+    <List
+      items={[
+        {
+          id: 1,
+          component: <code>1</code>,
+        },
+        {
+          id: 2,
+          component: <code>2</code>,
+        },
+      ]}
+    />
   ));
