@@ -29,6 +29,8 @@ storiesOf('ButtonStateless')
       <Button disabled small>Button text</Button><br /><br />
       <p>Tertiary</p>
       <Button disabled tertiary>Button text</Button><br /><br />
+      <p>Quaternary</p>
+      <Button disabled quaternary>Button text</Button><br /><br />
       <p>Warning</p>
       <Button disabled warning>Button text</Button>
       <p>Click Events Should Not Fire</p>
@@ -62,6 +64,8 @@ storiesOf('ButtonStateless')
       <Button hovered small>Button text</Button><br /><br />
       <p>Tertiary</p>
       <Button hovered tertiary>Button text</Button><br /><br />
+      <p>Quaternary</p>
+      <Button hovered quaternary>Button text</Button><br /><br />
       <p>Warning</p>
       <Button hovered warning>Button text</Button>
       <p>Disabled</p>
@@ -92,6 +96,9 @@ storiesOf('ButtonStateless')
   ))
   .add('tertiary', () => (
     <Button tertiary>Button text</Button>
+  ))
+  .add('quaternary', () => (
+    <Button quaternary>Button text</Button>
   ))
   .add('warning', () => (
     <Button warning>Button text</Button>
