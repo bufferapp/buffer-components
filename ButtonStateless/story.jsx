@@ -29,6 +29,8 @@ storiesOf('ButtonStateless')
       <Button disabled small>Button text</Button><br /><br />
       <p>Tertiary</p>
       <Button disabled tertiary>Button text</Button><br /><br />
+      <p>Quaternary</p>
+      <Button disabled quaternary>Button text</Button><br /><br />
       <p>Warning</p>
       <Button disabled warning>Button text</Button>
       <p>Click Events Should Not Fire</p>
