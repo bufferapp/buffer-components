@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.11 (May 31, 2017)
+
+- Add `quaternary` config to `ButtonStateless` component
+
 ## 0.5.10 (May 26, 2017)
 
 - Add `noStyle` config to `InputTimes`
