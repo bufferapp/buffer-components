@@ -446,6 +446,40 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
     <br />
     <br />
     <p>
+      Quaternary
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#fcfcfc",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ced7df",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
       Warning
     </p>
     <button
