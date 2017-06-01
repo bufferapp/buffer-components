@@ -17,6 +17,15 @@ storiesOf('InputTime')
       }}
     />
   ))
+  .add('disabled', () => (
+    <InputTime
+      disabled
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+    />
+  ))
   .add('noStyle', () => (
     <InputTime
       input={{
