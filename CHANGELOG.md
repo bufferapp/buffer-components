@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.12 (June 1, 2017)
+
+- Add `disabled` config to `InputTime` component
+
 ## 0.5.11 (May 31, 2017)
 
 - Add `quaternary` config to `ButtonStateless` component
