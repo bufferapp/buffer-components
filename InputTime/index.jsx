@@ -131,7 +131,7 @@ const InputTime = ({
 };
 
 InputTime.propTypes = {
-  disabled: PropTypes.bool.isRequired,
+  disabled: PropTypes.bool,
   input: PropTypes.shape({
     onChange: PropTypes.func.isRequired,
     value: PropTypes.oneOfType([
@@ -150,7 +150,6 @@ InputTime.propTypes = {
 };
 
 InputTime.defaultProps = {
-  disabled: false,
   meta: {},
 };
 
