@@ -127,6 +127,7 @@ const Button = ({
     },
     noStyle: {
       display: 'unset',
+      lineHeight: 0,
       margin: 'unset',
       padding: 0,
       fontFamily: 'unset',
