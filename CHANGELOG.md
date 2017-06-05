@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.13 (June 5, 2017)
+
+- Add a `lineHeight: 0` rule to our `noStyle` config on ButtonStateless
+
 ## 0.5.12 (June 1, 2017)
 
 - Add `disabled` config to `InputTime` component
