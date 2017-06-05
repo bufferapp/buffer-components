@@ -37,6 +37,7 @@ import CircleXIcon from './Icons/CircleXIcon';
 import ClickIcon from './Icons/ClickIcon';
 import ClockIcon from './Icons/ClockIcon';
 import CloseIcon from './Icons/CloseIcon';
+import CloseSmallIcon from './Icons/CloseSmallIcon';
 import CommentIcon from './Icons/CommentIcon';
 import ContentLibraryIcon from './Icons/ContentLibraryIcon';
 import ContentIcon from './Icons/ContentIcon';
@@ -55,6 +56,8 @@ import LinkedInIcon from './Icons/LinkedInIcon';
 import LockIcon from './Icons/LockIcon';
 import MoreIcon from './Icons/MoreIcon';
 import NewTabIcon from './Icons/NewTabIcon';
+import NotificationCloseIcon from './Icons/NotificationCloseIcon';
+import NotificationIcon from './Icons/NotificationIcon';
 import PabloIcon from './Icons/PabloIcon';
 import PersonIcon from './Icons/PersonIcon';
 import PersonsIcon from './Icons/PersonsIcon';
@@ -198,6 +201,9 @@ storiesOf('Icon')
   .add('closeIcon', () => (
     <CloseIcon />
   ))
+  .add('closeSmallIcon', () => (
+    <CloseSmallIcon />
+  ))
   .add('commentIcon', () => (
     <CommentIcon />
   ))
@@ -251,6 +257,12 @@ storiesOf('Icon')
   ))
   .add('newTabIcon', () => (
     <NewTabIcon />
+  ))
+  .add('notificationIcon', () => (
+    <NotificationIcon />
+  ))
+  .add('notificationCloseIcon', () => (
+    <NotificationCloseIcon />
   ))
   .add('pabloIcon', () => (
     <PabloIcon />
