@@ -2,6 +2,10 @@
 
 ## 0.5.16 (June 5, 2017)
 
+- Change `InputDate` selected date color to universal blue
+
+## 0.5.16 (June 5, 2017)
+
 - Remove browser prefix strings as keys and replaces them with preferred keys
 
 ## 0.5.15 (June 5, 2017)
