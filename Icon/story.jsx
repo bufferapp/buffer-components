@@ -56,6 +56,8 @@ import LinkedInIcon from './Icons/LinkedInIcon';
 import LockIcon from './Icons/LockIcon';
 import MoreIcon from './Icons/MoreIcon';
 import NewTabIcon from './Icons/NewTabIcon';
+import NotificationCloseIcon from './Icons/NotificationCloseIcon';
+import NotificationIcon from './Icons/NotificationIcon';
 import PabloIcon from './Icons/PabloIcon';
 import PersonIcon from './Icons/PersonIcon';
 import PersonsIcon from './Icons/PersonsIcon';
@@ -255,6 +257,12 @@ storiesOf('Icon')
   ))
   .add('newTabIcon', () => (
     <NewTabIcon />
+  ))
+  .add('notificationIcon', () => (
+    <NotificationIcon />
+  ))
+  .add('notificationCloseIcon', () => (
+    <NotificationCloseIcon />
   ))
   .add('pabloIcon', () => (
     <PabloIcon />
