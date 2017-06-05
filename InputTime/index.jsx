@@ -24,8 +24,8 @@ const renderAmPm = ({
       background: 'transparent',
       margin: 0,
       padding: 0,
-      '-webkit-appearance': 'none',
-      '-moz-appearance': 'none',
+      WebkitAppearance: 'none',
+      MozAppearance: 'none',
     },
   }, {
     noStyle,
