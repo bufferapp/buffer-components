@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.14 (June 5, 2017)
+
+- Add `CloseSmallIcon`, `Notification`, and `NotificationClose` components
+- Update `WarningIcon` component
+
 ## 0.5.13 (June 5, 2017)
 
 - Add a `lineHeight: 0` rule to our `noStyle` config on ButtonStateless
