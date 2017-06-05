@@ -37,6 +37,7 @@ import CircleXIcon from './Icons/CircleXIcon';
 import ClickIcon from './Icons/ClickIcon';
 import ClockIcon from './Icons/ClockIcon';
 import CloseIcon from './Icons/CloseIcon';
+import CloseSmallIcon from './Icons/CloseSmallIcon';
 import CommentIcon from './Icons/CommentIcon';
 import ContentLibraryIcon from './Icons/ContentLibraryIcon';
 import ContentIcon from './Icons/ContentIcon';
@@ -197,6 +198,9 @@ storiesOf('Icon')
   ))
   .add('closeIcon', () => (
     <CloseIcon />
+  ))
+  .add('closeSmallIcon', () => (
+    <CloseSmallIcon />
   ))
   .add('commentIcon', () => (
     <CommentIcon />
