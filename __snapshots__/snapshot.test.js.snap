@@ -9987,7 +9987,6 @@ exports[`Snapshots InputTime default 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -10407,7 +10406,6 @@ exports[`Snapshots InputTime disabled 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -10855,7 +10853,6 @@ exports[`Snapshots InputTime noStyle 1`] = `
           "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
-          "display": "inline-flex",
           "margin": 0,
           "marginRight": "0.25rem",
           "padding": 0,
@@ -12217,7 +12214,6 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -13095,7 +13091,6 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -13515,7 +13510,6 @@ exports[`Snapshots InputTime with value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
