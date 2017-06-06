@@ -16,7 +16,6 @@ const renderAmPm = ({
 }) => {
   const style = calculateStyles({
     default: {
-      display: 'inline-flex',
       marginRight: '0.25rem',
     },
     noStyle: {
