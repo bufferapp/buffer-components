@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.5.16 (June 5, 2017)
+## 0.5.18 (June 7, 2017)
+
+- Make first day of week configurable in `InputDate`
+
+## 0.5.17 (June 5, 2017)
 
 - Change `InputDate` selected date color to universal blue
 
