@@ -17,7 +17,7 @@ exports[`Snapshots Button default 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -50,7 +50,7 @@ exports[`Snapshots Button warning button 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -197,7 +197,7 @@ exports[`Snapshots ButtonStateless Default 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -229,7 +229,7 @@ exports[`Snapshots ButtonStateless borderless 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -265,7 +265,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -298,7 +298,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#168eea",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -331,7 +331,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
           "margin": "0",
@@ -365,7 +365,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#168eea",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -398,7 +398,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -432,7 +432,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -466,7 +466,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -500,7 +500,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -531,7 +531,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -578,7 +578,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "0.8rem",
             "fontWeight": 400,
           }
@@ -615,7 +615,7 @@ exports[`Snapshots ButtonStateless fillContainer 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -651,7 +651,7 @@ exports[`Snapshots ButtonStateless focused 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -687,7 +687,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -720,7 +720,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#137ac9",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -753,7 +753,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
           "margin": "0",
@@ -787,7 +787,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#137ac9",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -820,7 +820,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -854,7 +854,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -888,7 +888,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -922,7 +922,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -953,7 +953,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -1000,7 +1000,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "0.8rem",
             "fontWeight": 400,
           }
@@ -1030,7 +1030,7 @@ exports[`Snapshots ButtonStateless large 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1078,7 +1078,7 @@ exports[`Snapshots ButtonStateless noStyle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
         }
@@ -1107,7 +1107,7 @@ exports[`Snapshots ButtonStateless onClick event 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1139,7 +1139,7 @@ exports[`Snapshots ButtonStateless onFocus + onBlur 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1171,7 +1171,7 @@ exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1204,7 +1204,7 @@ exports[`Snapshots ButtonStateless quaternary 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1237,7 +1237,7 @@ exports[`Snapshots ButtonStateless secondary 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1269,7 +1269,7 @@ exports[`Snapshots ButtonStateless small 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1302,7 +1302,7 @@ exports[`Snapshots ButtonStateless tertiary 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1335,7 +1335,7 @@ exports[`Snapshots ButtonStateless warning 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -4510,7 +4510,7 @@ exports[`Snapshots IdTag Default 1`] = `
       style={
         Object {
           "color": "#fff",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -4819,7 +4819,7 @@ exports[`Snapshots Input default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4848,7 +4848,7 @@ exports[`Snapshots Input focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4876,7 +4876,7 @@ exports[`Snapshots Input onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4904,7 +4904,7 @@ exports[`Snapshots Input with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4925,7 +4925,7 @@ exports[`Snapshots Input with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4946,7 +4946,7 @@ exports[`Snapshots Input with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4973,7 +4973,7 @@ exports[`Snapshots Input with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4993,7 +4993,7 @@ exports[`Snapshots Input with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -5021,7 +5021,7 @@ exports[`Snapshots Input with placeholder 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -5041,7 +5041,7 @@ exports[`Snapshots Input with placeholder 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -5069,7 +5069,7 @@ exports[`Snapshots Input with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -5097,7 +5097,7 @@ exports[`Snapshots Input with type = email 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -5125,7 +5125,7 @@ exports[`Snapshots Input with type = password 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -8283,7 +8283,7 @@ exports[`Snapshots InputDate with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9878,7 +9878,7 @@ exports[`Snapshots InputEmail default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9907,7 +9907,7 @@ exports[`Snapshots InputEmail focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9935,7 +9935,7 @@ exports[`Snapshots InputEmail onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9963,7 +9963,7 @@ exports[`Snapshots InputEmail with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9984,7 +9984,7 @@ exports[`Snapshots InputEmail with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10005,7 +10005,7 @@ exports[`Snapshots InputEmail with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10032,7 +10032,7 @@ exports[`Snapshots InputEmail with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10052,7 +10052,7 @@ exports[`Snapshots InputEmail with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10080,7 +10080,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10100,7 +10100,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10128,7 +10128,7 @@ exports[`Snapshots InputEmail with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10156,7 +10156,7 @@ exports[`Snapshots InputPassword default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10185,7 +10185,7 @@ exports[`Snapshots InputPassword focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10213,7 +10213,7 @@ exports[`Snapshots InputPassword onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10241,7 +10241,7 @@ exports[`Snapshots InputPassword with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10262,7 +10262,7 @@ exports[`Snapshots InputPassword with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10283,7 +10283,7 @@ exports[`Snapshots InputPassword with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10310,7 +10310,7 @@ exports[`Snapshots InputPassword with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -10330,7 +10330,7 @@ exports[`Snapshots InputPassword with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10358,7 +10358,7 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -10771,7 +10771,6 @@ exports[`Snapshots InputTime default 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11191,7 +11190,6 @@ exports[`Snapshots InputTime disabled 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -11639,7 +11637,6 @@ exports[`Snapshots InputTime noStyle 1`] = `
           "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
-          "display": "inline-flex",
           "margin": 0,
           "marginRight": "0.25rem",
           "padding": 0,
@@ -13001,7 +12998,6 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -13879,7 +13875,6 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -14299,7 +14294,6 @@ exports[`Snapshots InputTime with value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -14600,7 +14594,7 @@ exports[`Snapshots LinkifiedText default 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -14633,7 +14627,7 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -14648,7 +14642,7 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -14681,7 +14675,7 @@ exports[`Snapshots LinkifiedText no links 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -14698,7 +14692,7 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
       }
@@ -14731,7 +14725,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -14780,7 +14774,7 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15027,7 +15021,7 @@ exports[`Snapshots Loader withText 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -15675,7 +15669,7 @@ exports[`Snapshots NavBar Default 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 600,
         }
@@ -15687,7 +15681,7 @@ exports[`Snapshots NavBar Default 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -15752,7 +15746,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 600,
         }
@@ -15764,7 +15758,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -16413,7 +16407,7 @@ exports[`Snapshots Text black 1`] = `
     style={
       Object {
         "color": "#000",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16430,7 +16424,7 @@ exports[`Snapshots Text bold 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 600,
       }
@@ -16447,7 +16441,7 @@ exports[`Snapshots Text curiousBlue 1`] = `
     style={
       Object {
         "color": "#168eea",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16464,7 +16458,7 @@ exports[`Snapshots Text default 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16481,7 +16475,7 @@ exports[`Snapshots Text extra small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.7rem",
         "fontWeight": 400,
       }
@@ -16498,7 +16492,7 @@ exports[`Snapshots Text large 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "2rem",
         "fontWeight": 400,
       }
@@ -16515,7 +16509,7 @@ exports[`Snapshots Text mini 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.9rem",
         "fontWeight": 400,
       }
@@ -16532,7 +16526,7 @@ exports[`Snapshots Text outerSpace 1`] = `
     style={
       Object {
         "color": "#323b43",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16549,7 +16543,7 @@ exports[`Snapshots Text shuttleGray 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16566,7 +16560,7 @@ exports[`Snapshots Text small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
       }
@@ -16583,7 +16577,7 @@ exports[`Snapshots Text thin 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 300,
       }
@@ -16600,7 +16594,7 @@ exports[`Snapshots Text torchRed 1`] = `
     style={
       Object {
         "color": "#ff1e1e",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -16624,7 +16618,7 @@ exports[`Snapshots Text white 1`] = `
       style={
         Object {
           "color": "#fff",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }

@@ -16,7 +16,6 @@ const renderAmPm = ({
 }) => {
   const style = calculateStyles({
     default: {
-      display: 'inline-flex',
       marginRight: '0.25rem',
     },
     noStyle: {
@@ -108,12 +107,12 @@ const InputTime = ({
           select24Hours || value.hours < 12 ? 0 : 12,
           select24Hours || value.hours > 11 ? 23 : 11,
         ).map(hour =>
-          (<option
+          <option
             key={hour}
             value={hour}
           >
             {leftPadTimeUnit(displayHour(hour, select24Hours))}
-          </option>))
+          </option>)
         }
       </select>
       <select
