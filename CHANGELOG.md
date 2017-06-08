@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.20 (June 8, 2017)
+
+- Change the `lineHeight` CSS property on the `ButtonStateless` component to `'unset'` to fix Safari bug
+
 ## 0.5.19 (June 8, 2017)
 
 - Remove `inline-flex` from `InputTime`'s `default` style
