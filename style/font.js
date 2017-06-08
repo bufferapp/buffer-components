@@ -1,4 +1,4 @@
-export const fontFamily = '"Open Sans" sans-serif';
+export const fontFamily = '"Open Sans", sans-serif';
 
 export const fontSize = '1rem';
 export const fontSizeLarge = '2rem';
