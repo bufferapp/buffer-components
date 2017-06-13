@@ -100,4 +100,10 @@ storiesOf('Image')
       src={'http://lorempixel.com/400/400/cats/'}
       border={'rounded'}
     />
+  ))
+  .add('alt', () => (
+    <Image
+      src={'nah'}
+      alt={'alt text'}
+    />
   ));

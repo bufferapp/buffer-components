@@ -91,7 +91,7 @@ Image.propTypes = {
 };
 
 Image.defaultProps = {
-  alt: 'Image',
+  alt: '',
 };
 
 export default Image;
