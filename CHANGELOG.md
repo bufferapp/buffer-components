@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.22 (June 13, 2017)
+
+- Remove setting font-family with global CSS rule and set fontFamily on components that need it
+
 ## 0.5.21 (June 13, 2017)
 
 - Set default `alt` text to empty string
