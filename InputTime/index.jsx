@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { calculateStyles } from '../lib/utils';
 
 // generate array of numbers (inclusive)
