@@ -4525,7 +4525,7 @@ exports[`Snapshots IdTag Default 1`] = `
 exports[`Snapshots Image Default 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4545,7 +4545,7 @@ exports[`Snapshots Image Default 1`] = `
 exports[`Snapshots Image MH=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4565,7 +4565,7 @@ exports[`Snapshots Image MH=10em 1`] = `
 exports[`Snapshots Image MW=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4585,7 +4585,7 @@ exports[`Snapshots Image MW=10em 1`] = `
 exports[`Snapshots Image MinH=14em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -4605,7 +4605,7 @@ exports[`Snapshots Image MinH=14em 1`] = `
 exports[`Snapshots Image MinW=14em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -4625,7 +4625,7 @@ exports[`Snapshots Image MinW=14em 1`] = `
 exports[`Snapshots Image W=10em H=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4645,7 +4645,7 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
 exports[`Snapshots Image W=40px H=40px 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4665,7 +4665,7 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
 exports[`Snapshots Image W=100% 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4682,10 +4682,30 @@ exports[`Snapshots Image W=100% 1`] = `
 </span>
 `;
 
+exports[`Snapshots Image alt 1`] = `
+<span>
+  <img
+    alt="alt text"
+    src="nah"
+    style={
+      Object {
+        "height": undefined,
+        "maxHeight": undefined,
+        "maxWidth": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "objectFit": undefined,
+        "width": undefined,
+      }
+    }
+  />
+</span>
+`;
+
 exports[`Snapshots Image border: circle 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4706,7 +4726,7 @@ exports[`Snapshots Image border: circle 1`] = `
 exports[`Snapshots Image border: rounded 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4727,7 +4747,7 @@ exports[`Snapshots Image border: rounded 1`] = `
 exports[`Snapshots Image small image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/50/50/cats/"
     style={
       Object {
@@ -4747,7 +4767,7 @@ exports[`Snapshots Image small image 1`] = `
 exports[`Snapshots Image tall image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/1000/cats/"
     style={
       Object {
@@ -4767,7 +4787,7 @@ exports[`Snapshots Image tall image 1`] = `
 exports[`Snapshots Image verticalAlignBottom 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4788,7 +4808,7 @@ exports[`Snapshots Image verticalAlignBottom 1`] = `
 exports[`Snapshots Image wide image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/1000/400/cats/"
     style={
       Object {
@@ -15058,7 +15078,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15085,7 +15105,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15112,7 +15132,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15139,7 +15159,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15182,7 +15202,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15209,7 +15229,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15236,7 +15256,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15263,7 +15283,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15306,7 +15326,7 @@ exports[`Snapshots MultipleImages oneImage 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15349,7 +15369,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15376,7 +15396,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15403,7 +15423,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15446,7 +15466,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15473,7 +15493,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15516,7 +15536,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15543,7 +15563,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15570,7 +15590,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15597,7 +15617,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15780,7 +15800,7 @@ exports[`Snapshots Overlay default 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -15823,7 +15843,7 @@ exports[`Snapshots Overlay transparent=true 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
