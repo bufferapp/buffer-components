@@ -12618,65 +12618,65 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           "marginRight": "0.25rem",
         }
       }
-      value={11}
+      value={15}
     >
       <option
-        value={0}
+        value={12}
       >
         12
       </option>
       <option
-        value={1}
+        value={13}
       >
         01
       </option>
       <option
-        value={2}
+        value={14}
       >
         02
       </option>
       <option
-        value={3}
+        value={15}
       >
         03
       </option>
       <option
-        value={4}
+        value={16}
       >
         04
       </option>
       <option
-        value={5}
+        value={17}
       >
         05
       </option>
       <option
-        value={6}
+        value={18}
       >
         06
       </option>
       <option
-        value={7}
+        value={19}
       >
         07
       </option>
       <option
-        value={8}
+        value={20}
       >
         08
       </option>
       <option
-        value={9}
+        value={21}
       >
         09
       </option>
       <option
-        value={10}
+        value={22}
       >
         10
       </option>
       <option
-        value={11}
+        value={23}
       >
         11
       </option>
@@ -13001,7 +13001,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           "marginRight": "0.25rem",
         }
       }
-      value="AM"
+      value="PM"
     >
       <option
         value="AM"
