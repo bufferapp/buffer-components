@@ -7,10 +7,12 @@ import {
   curiousBlue,
   denim,
 } from '../style/color';
-
 import {
   focusedStyle,
 } from '../style/focused';
+import {
+  fontFamily,
+} from '../style/font';
 
 const Link = ({
   children,
@@ -27,6 +29,7 @@ const Link = ({
   const style = calculateStyles({
     default: {
       color: curiousBlue,
+      fontFamily,
     },
     hovered: {
       color: denim,
