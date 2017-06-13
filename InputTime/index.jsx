@@ -36,8 +36,8 @@ const renderAmPm = ({
       onChange={e => onChange({
         ...value,
         hours: e.target.value === 'AM'
-        ? value.hours - 12
-        : value.hours + 12,
+        ? parseInt(value.hours, 10) - 12
+        : parseInt(value.hours, 10) + 12,
       })}
       style={style}
       value={value.hours < 12 ? 'AM' : 'PM'}

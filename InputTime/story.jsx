@@ -70,7 +70,7 @@ storiesOf('InputTime')
       input={{
         onChange: action('on-change'),
         value: {
-          hours: 11,
+          hours: 15,
           minutes: 32,
         },
       }}
