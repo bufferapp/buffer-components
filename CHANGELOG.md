@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.21 (June 13, 2017)
+
+- Set default `alt` text to empty string
+
 ## 0.5.20 (June 8, 2017)
 
 - Change the `lineHeight` CSS property on the `ButtonStateless` component to `'unset'` to fix Safari bug
