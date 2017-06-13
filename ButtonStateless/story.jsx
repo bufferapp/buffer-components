@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-  storiesOf,
-  action,
-} from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import Button from './index';
 import Text from '../Text';
