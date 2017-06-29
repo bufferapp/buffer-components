@@ -1,3 +1,9 @@
+🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧
+
+## This Repo Has Been Moved To A Package Of [Buffer Publish](https://github.com/bufferapp/buffer-publish)
+
+Buffer Components Package: https://github.com/bufferapp/buffer-publish/tree/master/packages/components
+
 # Buffer Components
 
 [![Build Status](https://travis-ci.org/bufferapp/buffer-components.svg?branch=master)](https://travis-ci.org/bufferapp/buffer-components)
