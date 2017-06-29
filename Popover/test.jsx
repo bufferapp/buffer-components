@@ -4,13 +4,10 @@ import Popover from './index';
 import Card from '../Card/index';
 
 describe('Popover', () => {
-  it('should pass accessibility audit', (done) => {
-    testComponentA11y(
-      <Popover>
-        <Card>Popover</Card>
-      </Popover>, [], (results) => {
-        expect(results.violations.length).toBe(0);
-        done();
-      });
-  });
+  it('should pass accessibility audit', () => testComponentA11y(
+    <Popover>
+      <Card>Popover</Card>
+    </Popover>,
+    )
+    .then(results => expect(results.violations.length).toBe(0)));
 });

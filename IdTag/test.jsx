@@ -3,14 +3,13 @@ import { testComponentA11y } from '../lib/a11yTestHelper';
 import IdTag from './index';
 
 describe('IdTag', () => {
-  it('should pass accessibility audit', (done) => {
+  it('should pass accessibility audit', () => {
     const children = 'GIF';
-    testComponentA11y(
+    return testComponentA11y(
       <IdTag>
         {children}
-      </IdTag>, [], (results) => {
-        expect(results.violations.length).toBe(0);
-        done();
-      });
+      </IdTag>,
+      )
+      .then(results => expect(results.violations.length).toBe(0));
   });
 });

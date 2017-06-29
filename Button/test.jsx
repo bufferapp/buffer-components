@@ -1,9 +1,14 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import ButtonStateless from '../ButtonStateless';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import Button from './index';
 
 describe('Button', () => {
+  it('should pass accessibility audit', () => testComponentA11y(
+    <Button>A Button</Button>,
+    )
+    .then(results => expect(results.violations.length).toBe(0)));
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
     const wrapper = mount(
       <Button>A Button</Button>,
