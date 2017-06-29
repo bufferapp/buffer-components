@@ -2,8 +2,13 @@ import React from 'react';
 import { mount } from 'enzyme';
 import LinkStateless from '../LinkStateless';
 import Link from './index';
+import testComponentA11y from '../lib/a11yTestHelper';
 
 describe('Link', () => {
+  it('should pass accessibility audit', () => testComponentA11y(
+    <Link href={'localhost:8000'}>A Link</Link>,
+    )
+    .then(results => expect(results.violations.length).toBe(0)));
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
     const wrapper = mount(
       <Link href={'localhost:8000'}>A Link</Link>,
