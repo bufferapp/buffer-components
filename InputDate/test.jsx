@@ -1,6 +1,5 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { testComponentA11y } from '../lib/a11yTestHelper';
 import InputDate from './index';
 
 describe('InputDate', () => {

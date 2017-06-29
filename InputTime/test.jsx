@@ -1,19 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { testComponentA11y } from '../lib/a11yTestHelper';
 import InputTime from './index';
 
 describe('InputTime', () => {
-  it('should pass accessibility audit', () => {
-    const onChange = jest.fn();
-    return testComponentA11y(<InputTime
-      input={{
-        onChange,
-      }}
-    />,
-    )
-    .then(results => expect(results.violations.length).toBe(0));
-  });
   it('should trigger onChange when hour is selected', () => {
     const onChange = jest.fn();
     const wrapper = mount(

@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import LinkStateless from '../LinkStateless';
 import Link from './index';
-import { testComponentA11y } from '../lib/a11yTestHelper';
+import testComponentA11y from '../lib/a11yTestHelper';
 
 describe('Link', () => {
   it('should pass accessibility audit', () => testComponentA11y(

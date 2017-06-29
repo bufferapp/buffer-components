@@ -1,5 +1,5 @@
 import React from 'react';
-import { testComponentA11y } from '../lib/a11yTestHelper';
+import testComponentA11y from '../lib/a11yTestHelper';
 import SectionHeader from './index';
 
 describe('SectionHeader', () => {
