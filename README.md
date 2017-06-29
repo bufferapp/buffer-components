@@ -194,7 +194,7 @@ populate **story.js** with a default story
 ```js
 // story.js
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import NewComponent from './index';
 
 storiesOf('Card')

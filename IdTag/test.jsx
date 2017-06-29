@@ -1,11 +1,11 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import IdTag from './index';
 
 describe('IdTag', () => {
   it('should pass accessibility audit', (done) => {
     const children = 'GIF';
-    a11yTestHelper.testComponent(
+    testComponentA11y(
       <IdTag>
         {children}
       </IdTag>, [], (results) => {

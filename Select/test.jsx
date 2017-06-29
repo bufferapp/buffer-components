@@ -1,5 +1,5 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import Select from './index';
 
 describe('Select', () => {
@@ -11,7 +11,7 @@ describe('Select', () => {
       'Tokyo',
       'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', // http://www.fun-with-words.com/longest_place_names.html
     ];
-    a11yTestHelper.testComponent(
+    testComponentA11y(
       <Select options={options} />, [], (results) => {
         expect(results.violations.length).toBe(0);
         done();

@@ -1,5 +1,5 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import InputEmail from './index';
 
 describe('InputEmail', () => {
@@ -9,7 +9,7 @@ describe('InputEmail', () => {
       value: 'test@test.com',
       onChange,
     };
-    a11yTestHelper.testComponent(
+    testComponentA11y(
       <InputEmail input={input} label={'Email'} />, [], (results) => {
         expect(results.violations.length).toBe(0);
         done();

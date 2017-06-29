@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-  storiesOf,
-  action,
-} from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import InputTime from './index';
 
@@ -11,6 +9,15 @@ storiesOf('InputTime')
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputTime
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+    />
+  ))
+  .add('disabled', () => (
+    <InputTime
+      disabled
       input={{
         onChange: action('on-change'),
         value: '',

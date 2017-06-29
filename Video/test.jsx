@@ -1,10 +1,10 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import Video from './index';
 
 describe('Video', () => {
   it('should pass accessibility audit', (done) => {
-    a11yTestHelper.testComponent(
+    testComponentA11y(
       <Video
         sources={[
           {

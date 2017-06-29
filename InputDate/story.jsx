@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-  storiesOf,
-  action,
-} from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import InputDate from './index';
 
@@ -83,5 +81,18 @@ storiesOf('InputDate')
       meta={{
         submitting: true,
       }}
+    />
+  ))
+  .add('with start of week monday', () => (
+    <InputDate
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      initialMonthYear={{
+        month: 7,
+        year: 2015,
+      }}
+      firstDayOfWeek={1}
     />
   ));

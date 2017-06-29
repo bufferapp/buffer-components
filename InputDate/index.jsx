@@ -44,6 +44,7 @@ const InputDate = ({
     touched,
     submitting,
   },
+  firstDayOfWeek,
 }) =>
   <div>
     <DayPicker
@@ -60,6 +61,7 @@ const InputDate = ({
         }
       }}
       selectedDays={!value ? null : new Date(value.year, value.month, value.day)}
+      firstDayOfWeek={firstDayOfWeek}
     />
     {renderError({
       error,
@@ -92,10 +94,12 @@ InputDate.propTypes = {
     touched: PropTypes.bool,
     submitting: PropTypes.bool,
   }),
+  firstDayOfWeek: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6]),
 };
 
 InputDate.defaultProps = {
   meta: {},
+  firstDayOfWeek: 0,
 };
 
 export default InputDate;

@@ -17,7 +17,7 @@ exports[`Snapshots Button default 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -50,7 +50,7 @@ exports[`Snapshots Button warning button 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -86,6 +86,7 @@ exports[`Snapshots Button with icon and text 1`] = `
         "fontFamily": "unset",
         "fontSize": "unset",
         "fontWeight": "unset",
+        "lineHeight": "unset",
         "margin": "unset",
         "outline": "none",
         "padding": 0,
@@ -117,7 +118,18 @@ exports[`Snapshots Button with icon and text 1`] = `
         />
       </g>
     </svg>
-    Close
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Close
+    </span>
   </button>
 </span>
 `;
@@ -143,6 +155,7 @@ exports[`Snapshots Button with icon only 1`] = `
         "fontFamily": "unset",
         "fontSize": "unset",
         "fontWeight": "unset",
+        "lineHeight": "unset",
         "margin": "unset",
         "outline": "none",
         "padding": 0,
@@ -195,7 +208,7 @@ exports[`Snapshots ButtonStateless Default 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -227,7 +240,7 @@ exports[`Snapshots ButtonStateless borderless 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -263,7 +276,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -296,7 +309,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#168eea",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -329,7 +342,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
           "margin": "0",
@@ -363,7 +376,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#168eea",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -396,7 +409,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -430,7 +443,41 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "opacity": 0.3,
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Quaternary
+    </p>
+    <button
+      disabled={true}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#fcfcfc",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ced7df",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -464,7 +511,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -495,7 +542,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -530,6 +577,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
+          "lineHeight": "unset",
           "margin": "unset",
           "outline": "none",
           "padding": 0,
@@ -541,7 +589,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "0.8rem",
             "fontWeight": 400,
           }
@@ -578,7 +626,7 @@ exports[`Snapshots ButtonStateless fillContainer 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -614,7 +662,7 @@ exports[`Snapshots ButtonStateless focused 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -650,7 +698,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -683,7 +731,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#137ac9",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -716,7 +764,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
           "margin": "0",
@@ -750,7 +798,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#137ac9",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -783,7 +831,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -817,7 +865,41 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#323b43",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
+          "fontSize": "0.8rem",
+          "fontWeight": 400,
+          "margin": "0",
+          "outline": "none",
+          "padding": "0.5rem 2rem",
+          "textDecoration": "none",
+          "transition": "background-color 0.1s linear",
+        }
+      }
+    >
+      Button text
+    </button>
+    <br />
+    <br />
+    <p>
+      Quaternary
+    </p>
+    <button
+      disabled={undefined}
+      onBlur={undefined}
+      onClick={undefined}
+      onFocus={undefined}
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+      style={
+        Object {
+          "backgroundColor": "#fcfcfc",
+          "border": "0.063rem solid transparent",
+          "borderColor": "#ced7df",
+          "borderRadius": "2rem",
+          "color": "#323b43",
+          "cursor": "pointer",
+          "display": "inline-block",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -851,7 +933,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -882,7 +964,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "color": "#fff",
           "cursor": "pointer",
           "display": "inline-block",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
           "margin": "0",
@@ -917,6 +999,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
+          "lineHeight": "unset",
           "margin": "unset",
           "outline": "none",
           "padding": 0,
@@ -928,7 +1011,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "0.8rem",
             "fontWeight": 400,
           }
@@ -958,7 +1041,7 @@ exports[`Snapshots ButtonStateless large 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
         "margin": "0",
@@ -994,6 +1077,7 @@ exports[`Snapshots ButtonStateless noStyle 1`] = `
         "fontFamily": "unset",
         "fontSize": "unset",
         "fontWeight": "unset",
+        "lineHeight": "unset",
         "margin": "unset",
         "outline": "none",
         "padding": 0,
@@ -1005,7 +1089,7 @@ exports[`Snapshots ButtonStateless noStyle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "0.8rem",
           "fontWeight": 400,
         }
@@ -1034,7 +1118,7 @@ exports[`Snapshots ButtonStateless onClick event 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1066,7 +1150,7 @@ exports[`Snapshots ButtonStateless onFocus + onBlur 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1098,7 +1182,7 @@ exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1109,6 +1193,39 @@ exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
     }
   >
     Mouse Enter + Mouse Leave
+  </button>
+</span>
+`;
+
+exports[`Snapshots ButtonStateless quaternary 1`] = `
+<span>
+  <button
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={
+      Object {
+        "backgroundColor": "#fcfcfc",
+        "border": "0.063rem solid transparent",
+        "borderColor": "#ced7df",
+        "borderRadius": "2rem",
+        "color": "#323b43",
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
+        "fontSize": "0.8rem",
+        "fontWeight": 400,
+        "margin": "0",
+        "outline": "none",
+        "padding": "0.5rem 2rem",
+        "transition": "background-color 0.1s linear",
+      }
+    }
+  >
+    Button text
   </button>
 </span>
 `;
@@ -1131,7 +1248,7 @@ exports[`Snapshots ButtonStateless secondary 1`] = `
         "color": "#168eea",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1163,7 +1280,7 @@ exports[`Snapshots ButtonStateless small 1`] = `
         "color": "#fff",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1196,7 +1313,7 @@ exports[`Snapshots ButtonStateless tertiary 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1229,7 +1346,7 @@ exports[`Snapshots ButtonStateless warning 1`] = `
         "color": "#323b43",
         "cursor": "pointer",
         "display": "inline-block",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
         "margin": "0",
@@ -1272,6 +1389,7 @@ exports[`Snapshots Card default 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1288,6 +1406,7 @@ exports[`Snapshots Card default 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1326,6 +1445,7 @@ exports[`Snapshots Card doublePadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1342,6 +1462,7 @@ exports[`Snapshots Card doublePadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1383,6 +1504,7 @@ exports[`Snapshots Card empty + hovered 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1399,6 +1521,7 @@ exports[`Snapshots Card empty + hovered 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1463,6 +1586,7 @@ exports[`Snapshots Card faded 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1479,6 +1603,7 @@ exports[`Snapshots Card faded 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1518,6 +1643,7 @@ exports[`Snapshots Card failed 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1534,6 +1660,7 @@ exports[`Snapshots Card failed 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1573,6 +1700,7 @@ exports[`Snapshots Card hovered 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1589,6 +1717,7 @@ exports[`Snapshots Card hovered 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1627,6 +1756,7 @@ exports[`Snapshots Card noBorder 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1643,6 +1773,7 @@ exports[`Snapshots Card noBorder 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1681,6 +1812,7 @@ exports[`Snapshots Card noPadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1697,6 +1829,7 @@ exports[`Snapshots Card noPadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1735,6 +1868,7 @@ exports[`Snapshots Card off-white background color 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1751,6 +1885,7 @@ exports[`Snapshots Card off-white background color 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1789,6 +1924,7 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1805,6 +1941,7 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1843,6 +1980,7 @@ exports[`Snapshots Card reducedPadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -1859,6 +1997,7 @@ exports[`Snapshots Card reducedPadding 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -2986,6 +3125,47 @@ exports[`Snapshots Icon closeIcon 1`] = `
 </span>
 `;
 
+exports[`Snapshots Icon closeSmallIcon 1`] = `
+<span>
+  <svg
+    height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
+    version="1.1"
+    viewBox="0 0 16 16"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <g
+      className="shuttleGray"
+    >
+      <rect
+        height="12"
+        rx="0.5"
+        transform="translate(5.046194, 5.000000) rotate(45.000000) translate(-5.046194, -5.000000)"
+        width="1"
+        x="4.54619413"
+        y="-1"
+      />
+      <rect
+        height="12"
+        rx="0.5"
+        transform="translate(5.046194, 5.000000) scale(-1, 1) rotate(45.000000) translate(-5.046194, -5.000000)"
+        width="1"
+        x="4.54619413"
+        y="-1"
+      />
+    </g>
+  </svg>
+</span>
+`;
+
 exports[`Snapshots Icon commentIcon 1`] = `
 <span>
   <svg
@@ -3606,6 +3786,69 @@ exports[`Snapshots Icon newTabIcon 1`] = `
         width="6.66666667"
         x="9.33333333"
         y="3"
+      />
+    </g>
+  </svg>
+</span>
+`;
+
+exports[`Snapshots Icon notificationCloseIcon 1`] = `
+<span>
+  <svg
+    height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
+    version="1.1"
+    viewBox="0 0 16 16"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <g
+      className="shuttleGray"
+    >
+      <path
+        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z"
+      />
+      <path
+        d="M7.5925592,8.6925592 L4.2925592,8.6925592 L4.2925592,8.6925592 C3.98880259,8.6925592 3.7425592,8.44631584 3.7425592,8.1425592 L3.7425592,8.1425592 L3.7425592,8.1425592 C3.7425592,7.83880259 3.98880259,7.59255921 4.2925592,7.59255921 L7.5925592,7.59255921 L7.5925592,4.29255921 L7.5925592,4.29255921 C7.5925592,3.98880259 7.83880259,3.74255921 8.1425592,3.74255921 L8.1425592,3.74255921 L8.1425592,3.74255921 C8.44631584,3.74255921 8.6925592,3.98880259 8.6925592,4.29255921 L8.6925592,7.59255921 L11.9925592,7.59255921 L11.9925592,7.59255921 C12.2963158,7.59255921 12.5425592,7.83880259 12.5425592,8.1425592 L12.5425592,8.1425592 L12.5425592,8.1425592 C12.5425592,8.44631584 12.2963158,8.6925592 11.9925592,8.6925592 L8.6925592,8.6925592 L8.6925592,11.9925592 L8.6925592,11.9925592 C8.6925592,12.2963158 8.44631584,12.5425592 8.1425592,12.5425592 L8.1425592,12.5425592 L8.1425592,12.5425592 C7.83880259,12.5425592 7.5925592,12.2963158 7.5925592,11.9925592 L7.5925592,8.6925592 Z"
+        transform="translate(8.142559, 8.142559) rotate(45.000000) translate(-8.142559, -8.142559)"
+      />
+    </g>
+  </svg>
+</span>
+`;
+
+exports[`Snapshots Icon notificationIcon 1`] = `
+<span>
+  <svg
+    height="100%"
+    style={
+      Object {
+        "fill": "#59626a",
+        "height": "1rem",
+        "width": "1rem",
+      }
+    }
+    version="1.1"
+    viewBox="0 0 16 16"
+    width="100%"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+  >
+    <g
+      className="shuttleGray"
+    >
+      <path
+        d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z"
+      />
+      <path
+        d="M8,12 C7.5581722,12 7.2,11.6418278 7.2,11.2 C7.2,10.7581722 7.5581722,10.4 8,10.4 C8.44182776,10.4 8.8,10.7581722 8.8,11.2 C8.8,11.6418278 8.44182776,12 8,12 Z M7.37183622,4 L8.62816376,4 L8.62816376,4 C8.71652936,4 8.78816376,4.07163444 8.78816376,4.16 C8.78816376,4.16380346 8.78802816,4.16760573 8.7877572,4.17139953 L8.41061432,9.45139952 L8.41061432,9.45139952 C8.40463368,9.5351284 8.33496312,9.6 8.25102096,9.6 L7.74897907,9.6 L7.74897907,9.6 C7.66503689,9.6 7.59536631,9.5351284 7.58938568,9.45139952 L7.21224282,4.17139953 L7.21224282,4.17139953 C7.20594704,4.08325853 7.27229569,4.00670239 7.36043669,4.00040661 C7.36423049,4.00013562 7.36803274,4 7.37183622,4 L7.37183622,4 Z"
       />
     </g>
   </svg>
@@ -4276,7 +4519,7 @@ exports[`Snapshots Icon warningIcon 1`] = `
       className="shuttleGray"
     >
       <path
-        d="M6.99633104,1.71524291 C7.55171489,0.764541799 8.44871889,0.758634169 9.00755388,1.71524291 L15.7626776,13.2786034 C16.3180615,14.2293045 15.8747362,15 14.7741359,15 L1.22974897,15 C0.128408626,15 -0.317627694,14.2352121 0.241207295,13.2786034 L6.99633104,1.71524291 Z M8.02680792,13.0088141 C8.64812827,13.0088141 9.15180792,12.5073541 9.15180792,11.888772 C9.15180792,11.2701898 8.64812827,10.7687299 8.02680792,10.7687299 C7.40548758,10.7687299 6.90180792,11.2701898 6.90180792,11.888772 C6.90180792,12.5073541 7.40548758,13.0088141 8.02680792,13.0088141 Z M6.71456248,6.30790166 L7.15684372,9.24344898 C7.21829921,9.65134666 7.60329524,9.97796483 8.01750881,9.97796483 C8.43461019,9.97796483 8.81705525,9.64911088 8.87817389,9.24344898 L9.32045514,6.30790166 C9.42852876,5.59058607 8.92447576,5 8.19293243,5 L7.84208518,5 C7.11021227,5 6.60573274,5.58556752 6.71456248,6.30790166 Z"
+        d="M7.28522294,0.582295182 C7.68011914,-0.193881453 8.32015168,-0.194315304 8.71526856,0.582295182 L15.8443277,14.5946078 C16.2392239,15.3707845 15.8563826,16 14.9948436,16 L1.00564792,16 C0.141594621,16 -0.238953082,15.3712184 0.156163853,14.5946078 L7.28522294,0.582295182 Z M8.00063465,13.6403459 C8.4327265,13.6403459 8.78300622,13.2881948 8.78300622,12.8537945 C8.78300622,12.4193942 8.4327265,12.0672431 8.00063465,12.0672431 C7.56854277,12.0672431 7.21826309,12.4193942 7.21826309,12.8537945 C7.21826309,13.2881948 7.56854277,13.6403459 8.00063465,13.6403459 Z M7.3863128,5.77483204 C7.38259314,5.77483204 7.37887467,5.77496538 7.37516447,5.77523181 C7.2889657,5.78142176 7.22407908,5.85669092 7.23023613,5.94335021 L7.59906844,11.1345893 C7.60491729,11.2169107 7.67305263,11.2806917 7.75514511,11.2806917 L8.24612423,11.2806917 C8.32821668,11.2806917 8.39635201,11.2169107 8.40220086,11.1345893 L8.77103319,5.94335021 C8.77129818,5.93962018 8.77143079,5.93588184 8.77143079,5.93214231 C8.77143079,5.84526225 8.7013749,5.77483204 8.61495648,5.77483204 L7.3863128,5.77483204 Z"
       />
     </g>
   </svg>
@@ -4300,7 +4543,7 @@ exports[`Snapshots IdTag Default 1`] = `
       style={
         Object {
           "color": "#fff",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -4315,7 +4558,7 @@ exports[`Snapshots IdTag Default 1`] = `
 exports[`Snapshots Image Default 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4335,7 +4578,7 @@ exports[`Snapshots Image Default 1`] = `
 exports[`Snapshots Image MH=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4355,7 +4598,7 @@ exports[`Snapshots Image MH=10em 1`] = `
 exports[`Snapshots Image MW=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4375,7 +4618,7 @@ exports[`Snapshots Image MW=10em 1`] = `
 exports[`Snapshots Image MinH=14em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -4395,7 +4638,7 @@ exports[`Snapshots Image MinH=14em 1`] = `
 exports[`Snapshots Image MinW=14em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/100/100/cats/"
     style={
       Object {
@@ -4415,7 +4658,7 @@ exports[`Snapshots Image MinW=14em 1`] = `
 exports[`Snapshots Image W=10em H=10em 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4435,7 +4678,7 @@ exports[`Snapshots Image W=10em H=10em 1`] = `
 exports[`Snapshots Image W=40px H=40px 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4455,7 +4698,7 @@ exports[`Snapshots Image W=40px H=40px 1`] = `
 exports[`Snapshots Image W=100% 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4472,10 +4715,30 @@ exports[`Snapshots Image W=100% 1`] = `
 </span>
 `;
 
+exports[`Snapshots Image alt 1`] = `
+<span>
+  <img
+    alt="alt text"
+    src="nah"
+    style={
+      Object {
+        "height": undefined,
+        "maxHeight": undefined,
+        "maxWidth": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "objectFit": undefined,
+        "width": undefined,
+      }
+    }
+  />
+</span>
+`;
+
 exports[`Snapshots Image border: circle 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4496,7 +4759,7 @@ exports[`Snapshots Image border: circle 1`] = `
 exports[`Snapshots Image border: rounded 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4517,7 +4780,7 @@ exports[`Snapshots Image border: rounded 1`] = `
 exports[`Snapshots Image small image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/50/50/cats/"
     style={
       Object {
@@ -4537,7 +4800,7 @@ exports[`Snapshots Image small image 1`] = `
 exports[`Snapshots Image tall image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/1000/cats/"
     style={
       Object {
@@ -4557,7 +4820,7 @@ exports[`Snapshots Image tall image 1`] = `
 exports[`Snapshots Image verticalAlignBottom 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/400/400/cats/"
     style={
       Object {
@@ -4578,7 +4841,7 @@ exports[`Snapshots Image verticalAlignBottom 1`] = `
 exports[`Snapshots Image wide image 1`] = `
 <span>
   <img
-    alt="Image"
+    alt=""
     src="http://lorempixel.com/1000/400/cats/"
     style={
       Object {
@@ -4609,7 +4872,7 @@ exports[`Snapshots Input default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4638,7 +4901,7 @@ exports[`Snapshots Input focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4666,7 +4929,7 @@ exports[`Snapshots Input onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4694,7 +4957,7 @@ exports[`Snapshots Input with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4715,7 +4978,7 @@ exports[`Snapshots Input with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4736,7 +4999,7 @@ exports[`Snapshots Input with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4763,7 +5026,7 @@ exports[`Snapshots Input with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4783,7 +5046,7 @@ exports[`Snapshots Input with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4811,7 +5074,7 @@ exports[`Snapshots Input with placeholder 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -4831,7 +5094,7 @@ exports[`Snapshots Input with placeholder 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4859,7 +5122,7 @@ exports[`Snapshots Input with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4887,7 +5150,7 @@ exports[`Snapshots Input with type = email 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -4915,7 +5178,7 @@ exports[`Snapshots Input with type = password 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -8073,7 +8336,7 @@ exports[`Snapshots InputDate with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -8081,6 +8344,790 @@ exports[`Snapshots InputDate with error 1`] = `
       >
         a date must be selected
       </span>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputDate with start of week monday 1`] = `
+<span>
+  <div>
+    <div
+      className="DayPicker"
+      lang="en"
+      onBlur={undefined}
+      onFocus={undefined}
+      onKeyDown={[Function]}
+      role="application"
+      tabIndex={0}
+    >
+      <div
+        className="DayPicker-NavBar"
+      >
+        <span
+          aria-label="Previous Month"
+          className="DayPicker-NavButton DayPicker-NavButton--prev"
+          onClick={[Function]}
+          role="button"
+        />
+        <span
+          aria-label="Next Month"
+          className="DayPicker-NavButton DayPicker-NavButton--next"
+          onClick={[Function]}
+          role="button"
+        />
+      </div>
+      <div
+        className="DayPicker-Month"
+        role="grid"
+      >
+        <div
+          className="DayPicker-Caption"
+          onClick={undefined}
+          role="heading"
+        >
+          August 2015
+        </div>
+        <div
+          className="DayPicker-Weekdays"
+          role="rowgroup"
+        >
+          <div
+            className="DayPicker-WeekdaysRow"
+            role="row"
+          >
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Monday"
+              >
+                Mo
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Tuesday"
+              >
+                Tu
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Wednesday"
+              >
+                We
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Thursday"
+              >
+                Th
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Friday"
+              >
+                Fr
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Saturday"
+              >
+                Sa
+              </abbr>
+            </div>
+            <div
+              className="DayPicker-Weekday"
+              role="columnheader"
+            >
+              <abbr
+                title="Sunday"
+              >
+                Su
+              </abbr>
+            </div>
+          </div>
+        </div>
+        <div
+          className="DayPicker-Body"
+          role="rowgroup"
+        >
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled="false"
+              aria-label="Sat Aug 01 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={0}
+            >
+              1
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sun Aug 02 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              2
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled="false"
+              aria-label="Mon Aug 03 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              3
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Tue Aug 04 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              4
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Wed Aug 05 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              5
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Thu Aug 06 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              6
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Fri Aug 07 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              7
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sat Aug 08 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              8
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sun Aug 09 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              9
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled="false"
+              aria-label="Mon Aug 10 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              10
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Tue Aug 11 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              11
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Wed Aug 12 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              12
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Thu Aug 13 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              13
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Fri Aug 14 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              14
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sat Aug 15 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              15
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sun Aug 16 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              16
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled="false"
+              aria-label="Mon Aug 17 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              17
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Tue Aug 18 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              18
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Wed Aug 19 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              19
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Thu Aug 20 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              20
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Fri Aug 21 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              21
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sat Aug 22 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              22
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sun Aug 23 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              23
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled="false"
+              aria-label="Mon Aug 24 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              24
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Tue Aug 25 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              25
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Wed Aug 26 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              26
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Thu Aug 27 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              27
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Fri Aug 28 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              28
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sat Aug 29 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              29
+            </div>
+            <div
+              aria-disabled="false"
+              aria-label="Sun Aug 30 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              30
+            </div>
+          </div>
+          <div
+            className="DayPicker-Week"
+            role="row"
+          >
+            <div
+              aria-disabled="false"
+              aria-label="Mon Aug 31 2015"
+              aria-selected="false"
+              className="DayPicker-Day"
+              onClick={[Function]}
+              onFocus={undefined}
+              onKeyDown={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              onTouchEnd={undefined}
+              onTouchStart={undefined}
+              role="gridcell"
+              style={undefined}
+              tabIndex={-1}
+            >
+              31
+            </div>
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+            <div
+              aria-disabled={true}
+              className="DayPicker-Day DayPicker-Day--outside"
+              role="gridcell"
+              style={undefined}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </span>
@@ -8884,7 +9931,7 @@ exports[`Snapshots InputEmail default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -8913,7 +9960,7 @@ exports[`Snapshots InputEmail focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -8941,7 +9988,7 @@ exports[`Snapshots InputEmail onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -8969,7 +10016,7 @@ exports[`Snapshots InputEmail with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -8990,7 +10037,7 @@ exports[`Snapshots InputEmail with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9011,7 +10058,7 @@ exports[`Snapshots InputEmail with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9038,7 +10085,7 @@ exports[`Snapshots InputEmail with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9058,7 +10105,7 @@ exports[`Snapshots InputEmail with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9086,7 +10133,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9106,7 +10153,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9134,7 +10181,7 @@ exports[`Snapshots InputEmail with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9162,7 +10209,7 @@ exports[`Snapshots InputPassword default 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9191,7 +10238,7 @@ exports[`Snapshots InputPassword focused 1`] = `
           "borderColor": "#168eea",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9219,7 +10266,7 @@ exports[`Snapshots InputPassword onFocus + onBlur 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9247,7 +10294,7 @@ exports[`Snapshots InputPassword with error 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9268,7 +10315,7 @@ exports[`Snapshots InputPassword with error 1`] = `
           "borderColor": "#ff1e1e",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9289,7 +10336,7 @@ exports[`Snapshots InputPassword with error 1`] = `
         style={
           Object {
             "color": "#ff1e1e",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9316,7 +10363,7 @@ exports[`Snapshots InputPassword with label 1`] = `
         style={
           Object {
             "color": "#59626a",
-            "fontFamily": "\\"Open Sans\\" sans-serif",
+            "fontFamily": "\\"Open Sans\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
           }
@@ -9336,7 +10383,7 @@ exports[`Snapshots InputPassword with label 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9364,7 +10411,7 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
           "border": "0.063rem solid #ced7df",
           "borderRadius": "0.126rem",
           "boxSizing": "border-box",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "outline": 0,
           "padding": "0.5rem",
@@ -9777,7 +10824,425 @@ exports[`Snapshots InputTime default 1`] = `
       onChange={[Function]}
       style={
         Object {
+          "marginRight": "0.25rem",
+        }
+      }
+      value="AM"
+    >
+      <option
+        value="AM"
+      >
+        AM
+      </option>
+      <option
+        value="PM"
+      >
+        PM
+      </option>
+    </select>
+  </div>
+</span>
+`;
+
+exports[`Snapshots InputTime disabled 1`] = `
+<span>
+  <div
+    style={
+      Object {
+        "display": "inline-flex",
+        "marginRight": "0.25rem",
+      }
+    }
+  >
+    <select
+      disabled={true}
+      onChange={[Function]}
+      style={
+        Object {
           "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        12
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+    </select>
+    <select
+      disabled={true}
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "inline-flex",
+          "marginRight": "0.25rem",
+        }
+      }
+      value={0}
+    >
+      <option
+        value={0}
+      >
+        00
+      </option>
+      <option
+        value={1}
+      >
+        01
+      </option>
+      <option
+        value={2}
+      >
+        02
+      </option>
+      <option
+        value={3}
+      >
+        03
+      </option>
+      <option
+        value={4}
+      >
+        04
+      </option>
+      <option
+        value={5}
+      >
+        05
+      </option>
+      <option
+        value={6}
+      >
+        06
+      </option>
+      <option
+        value={7}
+      >
+        07
+      </option>
+      <option
+        value={8}
+      >
+        08
+      </option>
+      <option
+        value={9}
+      >
+        09
+      </option>
+      <option
+        value={10}
+      >
+        10
+      </option>
+      <option
+        value={11}
+      >
+        11
+      </option>
+      <option
+        value={12}
+      >
+        12
+      </option>
+      <option
+        value={13}
+      >
+        13
+      </option>
+      <option
+        value={14}
+      >
+        14
+      </option>
+      <option
+        value={15}
+      >
+        15
+      </option>
+      <option
+        value={16}
+      >
+        16
+      </option>
+      <option
+        value={17}
+      >
+        17
+      </option>
+      <option
+        value={18}
+      >
+        18
+      </option>
+      <option
+        value={19}
+      >
+        19
+      </option>
+      <option
+        value={20}
+      >
+        20
+      </option>
+      <option
+        value={21}
+      >
+        21
+      </option>
+      <option
+        value={22}
+      >
+        22
+      </option>
+      <option
+        value={23}
+      >
+        23
+      </option>
+      <option
+        value={24}
+      >
+        24
+      </option>
+      <option
+        value={25}
+      >
+        25
+      </option>
+      <option
+        value={26}
+      >
+        26
+      </option>
+      <option
+        value={27}
+      >
+        27
+      </option>
+      <option
+        value={28}
+      >
+        28
+      </option>
+      <option
+        value={29}
+      >
+        29
+      </option>
+      <option
+        value={30}
+      >
+        30
+      </option>
+      <option
+        value={31}
+      >
+        31
+      </option>
+      <option
+        value={32}
+      >
+        32
+      </option>
+      <option
+        value={33}
+      >
+        33
+      </option>
+      <option
+        value={34}
+      >
+        34
+      </option>
+      <option
+        value={35}
+      >
+        35
+      </option>
+      <option
+        value={36}
+      >
+        36
+      </option>
+      <option
+        value={37}
+      >
+        37
+      </option>
+      <option
+        value={38}
+      >
+        38
+      </option>
+      <option
+        value={39}
+      >
+        39
+      </option>
+      <option
+        value={40}
+      >
+        40
+      </option>
+      <option
+        value={41}
+      >
+        41
+      </option>
+      <option
+        value={42}
+      >
+        42
+      </option>
+      <option
+        value={43}
+      >
+        43
+      </option>
+      <option
+        value={44}
+      >
+        44
+      </option>
+      <option
+        value={45}
+      >
+        45
+      </option>
+      <option
+        value={46}
+      >
+        46
+      </option>
+      <option
+        value={47}
+      >
+        47
+      </option>
+      <option
+        value={48}
+      >
+        48
+      </option>
+      <option
+        value={49}
+      >
+        49
+      </option>
+      <option
+        value={50}
+      >
+        50
+      </option>
+      <option
+        value={51}
+      >
+        51
+      </option>
+      <option
+        value={52}
+      >
+        52
+      </option>
+      <option
+        value={53}
+      >
+        53
+      </option>
+      <option
+        value={54}
+      >
+        54
+      </option>
+      <option
+        value={55}
+      >
+        55
+      </option>
+      <option
+        value={56}
+      >
+        56
+      </option>
+      <option
+        value={57}
+      >
+        57
+      </option>
+      <option
+        value={58}
+      >
+        58
+      </option>
+      <option
+        value={59}
+      >
+        59
+      </option>
+    </select>
+    <select
+      disabled={true}
+      onChange={[Function]}
+      style={
+        Object {
           "marginRight": "0.25rem",
         }
       }
@@ -9803,8 +11268,8 @@ exports[`Snapshots InputTime noStyle 1`] = `
   <div
     style={
       Object {
-        "-moz-appearance": "none",
-        "-webkit-appearance": "none",
+        "MozAppearance": "none",
+        "WebkitAppearance": "none",
         "background": "transparent",
         "border": 0,
         "display": "inline-flex",
@@ -9821,8 +11286,8 @@ exports[`Snapshots InputTime noStyle 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "-moz-appearance": "none",
-          "-webkit-appearance": "none",
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
           "display": "inline-flex",
@@ -9901,8 +11366,8 @@ exports[`Snapshots InputTime noStyle 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "-moz-appearance": "none",
-          "-webkit-appearance": "none",
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
           "display": "inline-flex",
@@ -10221,11 +11686,10 @@ exports[`Snapshots InputTime noStyle 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "-moz-appearance": "none",
-          "-webkit-appearance": "none",
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
-          "display": "inline-flex",
           "margin": 0,
           "marginRight": "0.25rem",
           "padding": 0,
@@ -10253,8 +11717,8 @@ exports[`Snapshots InputTime noStyle with 24 hour selection 1`] = `
   <div
     style={
       Object {
-        "-moz-appearance": "none",
-        "-webkit-appearance": "none",
+        "MozAppearance": "none",
+        "WebkitAppearance": "none",
         "background": "transparent",
         "border": 0,
         "display": "inline-flex",
@@ -10271,8 +11735,8 @@ exports[`Snapshots InputTime noStyle with 24 hour selection 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "-moz-appearance": "none",
-          "-webkit-appearance": "none",
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
           "display": "inline-flex",
@@ -10411,8 +11875,8 @@ exports[`Snapshots InputTime noStyle with 24 hour selection 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "-moz-appearance": "none",
-          "-webkit-appearance": "none",
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
           "background": "transparent",
           "border": 0,
           "display": "inline-flex",
@@ -11587,7 +13051,6 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -12465,7 +13928,6 @@ exports[`Snapshots InputTime with form submitting 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -12885,7 +14347,6 @@ exports[`Snapshots InputTime with value set 1`] = `
       onChange={[Function]}
       style={
         Object {
-          "display": "inline-flex",
           "marginRight": "0.25rem",
         }
       }
@@ -12917,6 +14378,7 @@ exports[`Snapshots Link default 1`] = `
     style={
       Object {
         "color": "#168eea",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
       }
     }
     target="_self"
@@ -12937,6 +14399,7 @@ exports[`Snapshots Link unstyled 1`] = `
     style={
       Object {
         "color": "#168eea",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "textDecoration": "none",
       }
     }
@@ -12959,6 +14422,7 @@ exports[`Snapshots LinkStateless default 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -12975,6 +14439,7 @@ exports[`Snapshots LinkStateless default 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -12997,6 +14462,7 @@ exports[`Snapshots LinkStateless focused 1`] = `
       Object {
         "boxShadow": "0 0 0.25rem #168eea",
         "color": "#168eea",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
       }
     }
     target="_self"
@@ -13018,6 +14484,7 @@ exports[`Snapshots LinkStateless hovered 1`] = `
       style={
         Object {
           "color": "#137ac9",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13034,6 +14501,7 @@ exports[`Snapshots LinkStateless hovered 1`] = `
       style={
         Object {
           "color": "#137ac9",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13056,6 +14524,7 @@ exports[`Snapshots LinkStateless newTab 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_blank"
@@ -13072,6 +14541,7 @@ exports[`Snapshots LinkStateless newTab 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_blank"
@@ -13093,6 +14563,7 @@ exports[`Snapshots LinkStateless onFocus + onBlur 1`] = `
     style={
       Object {
         "color": "#168eea",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
       }
     }
     target="_self"
@@ -13114,6 +14585,7 @@ exports[`Snapshots LinkStateless onMouseEnter + onMouseLeave 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13130,6 +14602,7 @@ exports[`Snapshots LinkStateless onMouseEnter + onMouseLeave 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13152,6 +14625,7 @@ exports[`Snapshots LinkStateless unstyled 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "textDecoration": "none",
         }
       }
@@ -13169,6 +14643,7 @@ exports[`Snapshots LinkStateless unstyled 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "textDecoration": "none",
         }
       }
@@ -13186,7 +14661,7 @@ exports[`Snapshots LinkifiedText default 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13202,6 +14677,7 @@ exports[`Snapshots LinkifiedText default 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13219,7 +14695,7 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13234,7 +14710,7 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13250,6 +14726,7 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_blank"
@@ -13267,7 +14744,7 @@ exports[`Snapshots LinkifiedText no links 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13284,7 +14761,7 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
       }
@@ -13300,6 +14777,7 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13317,7 +14795,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13333,6 +14811,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13349,6 +14828,7 @@ exports[`Snapshots LinkifiedText two links 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
         }
       }
       target="_self"
@@ -13366,7 +14846,7 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -13382,6 +14862,7 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
       style={
         Object {
           "color": "#168eea",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "textDecoration": "none",
         }
       }
@@ -13613,7 +15094,7 @@ exports[`Snapshots Loader withText 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -13650,7 +15131,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13677,7 +15158,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13704,7 +15185,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13731,7 +15212,7 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13774,7 +15255,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13801,7 +15282,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13828,7 +15309,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13855,7 +15336,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13898,7 +15379,7 @@ exports[`Snapshots MultipleImages oneImage 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13941,7 +15422,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13968,7 +15449,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -13995,7 +15476,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14038,7 +15519,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14065,7 +15546,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14108,7 +15589,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14135,7 +15616,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14162,7 +15643,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14189,7 +15670,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14261,7 +15742,7 @@ exports[`Snapshots NavBar Default 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 600,
         }
@@ -14273,7 +15754,7 @@ exports[`Snapshots NavBar Default 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -14338,7 +15819,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 600,
         }
@@ -14350,7 +15831,7 @@ exports[`Snapshots NavBar Subtitle 1`] = `
       style={
         Object {
           "color": "#59626a",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }
@@ -14372,7 +15853,7 @@ exports[`Snapshots Overlay default 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14415,7 +15896,7 @@ exports[`Snapshots Overlay transparent=true 1`] = `
     }
   >
     <img
-      alt="Image"
+      alt=""
       src="http://lorempixel.com/400/400/cats/"
       style={
         Object {
@@ -14999,7 +16480,7 @@ exports[`Snapshots Text black 1`] = `
     style={
       Object {
         "color": "#000",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15016,7 +16497,7 @@ exports[`Snapshots Text bold 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 600,
       }
@@ -15033,7 +16514,7 @@ exports[`Snapshots Text curiousBlue 1`] = `
     style={
       Object {
         "color": "#168eea",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15050,7 +16531,7 @@ exports[`Snapshots Text default 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15067,7 +16548,7 @@ exports[`Snapshots Text extra small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.7rem",
         "fontWeight": 400,
       }
@@ -15084,7 +16565,7 @@ exports[`Snapshots Text large 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "2rem",
         "fontWeight": 400,
       }
@@ -15101,7 +16582,7 @@ exports[`Snapshots Text mini 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.9rem",
         "fontWeight": 400,
       }
@@ -15118,7 +16599,7 @@ exports[`Snapshots Text outerSpace 1`] = `
     style={
       Object {
         "color": "#323b43",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15135,7 +16616,7 @@ exports[`Snapshots Text shuttleGray 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15152,7 +16633,7 @@ exports[`Snapshots Text small 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "0.8rem",
         "fontWeight": 400,
       }
@@ -15169,7 +16650,7 @@ exports[`Snapshots Text thin 1`] = `
     style={
       Object {
         "color": "#59626a",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 300,
       }
@@ -15186,7 +16667,7 @@ exports[`Snapshots Text torchRed 1`] = `
     style={
       Object {
         "color": "#ff1e1e",
-        "fontFamily": "\\"Open Sans\\" sans-serif",
+        "fontFamily": "\\"Open Sans\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
       }
@@ -15210,7 +16691,7 @@ exports[`Snapshots Text white 1`] = `
       style={
         Object {
           "color": "#fff",
-          "fontFamily": "\\"Open Sans\\" sans-serif",
+          "fontFamily": "\\"Open Sans\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
         }

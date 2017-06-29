@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { calculateStyles } from '../lib/utils';
 
 // generate array of numbers (inclusive)
@@ -8,6 +9,7 @@ const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 /* eslint-disable react/prop-types */
 
 const renderAmPm = ({
+  disabled,
   noStyle,
   onChange,
   submitting,
@@ -15,7 +17,6 @@ const renderAmPm = ({
 }) => {
   const style = calculateStyles({
     default: {
-      display: 'inline-flex',
       marginRight: '0.25rem',
     },
     noStyle: {
@@ -23,8 +24,8 @@ const renderAmPm = ({
       background: 'transparent',
       margin: 0,
       padding: 0,
-      '-webkit-appearance': 'none',
-      '-moz-appearance': 'none',
+      WebkitAppearance: 'none',
+      MozAppearance: 'none',
     },
   }, {
     noStyle,
@@ -32,7 +33,7 @@ const renderAmPm = ({
 
   return (
     <select
-      disabled={submitting}
+      disabled={disabled || submitting}
       onChange={e => onChange({
         ...value,
         hours: e.target.value === 'AM'
@@ -61,6 +62,7 @@ const displayHour = (hour, select24Hours) => {
 };
 
 const InputTime = ({
+  disabled,
   input: {
     value,
     onChange,
@@ -84,8 +86,8 @@ const InputTime = ({
       marginBottom: 0,
       marginLeft: 0,
       padding: 0,
-      '-webkit-appearance': 'none',
-      '-moz-appearance': 'none',
+      WebkitAppearance: 'none',
+      MozAppearance: 'none',
     },
   }, {
     noStyle,
@@ -97,7 +99,7 @@ const InputTime = ({
   return (
     <div style={style}>
       <select
-        disabled={submitting}
+        disabled={disabled || submitting}
         onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
         style={style}
         value={value.hours}
@@ -106,16 +108,16 @@ const InputTime = ({
           select24Hours || value.hours < 12 ? 0 : 12,
           select24Hours || value.hours > 11 ? 23 : 11,
         ).map(hour =>
-          (<option
+          <option
             key={hour}
             value={hour}
           >
             {leftPadTimeUnit(displayHour(hour, select24Hours))}
-          </option>))
+          </option>)
         }
       </select>
       <select
-        disabled={submitting}
+        disabled={disabled || submitting}
         onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
         style={style}
         value={value.minutes}
@@ -123,12 +125,13 @@ const InputTime = ({
         {genArray(0, 59).map(min =>
           <option key={min} value={min}>{leftPadTimeUnit(min)}</option>)}
       </select>
-      { select24Hours ? null : renderAmPm({ noStyle, onChange, submitting, value }) }
+      { select24Hours ? null : renderAmPm({ disabled, noStyle, onChange, submitting, value }) }
     </div>
   );
 };
 
 InputTime.propTypes = {
+  disabled: PropTypes.bool,
   input: PropTypes.shape({
     onChange: PropTypes.func.isRequired,
     value: PropTypes.oneOfType([

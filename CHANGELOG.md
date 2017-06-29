@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.5.22 (June 13, 2017)
+
+- Remove setting font-family with global CSS rule and set fontFamily on components that need it
+
+## 0.5.21 (June 13, 2017)
+
+- Set default `alt` text to empty string
+
+## 0.5.20 (June 8, 2017)
+
+- Change the `lineHeight` CSS property on the `ButtonStateless` component to `'unset'` to fix Safari bug
+
+## 0.5.19 (June 8, 2017)
+
+- Remove `inline-flex` from `InputTime`'s `default` style
+- Add missing `,` in our `fontFamily` value
+
+## 0.5.18 (June 7, 2017)
+
+- Make first day of week configurable in `InputDate`
+
+## 0.5.17 (June 5, 2017)
+
+- Change `InputDate` selected date color to universal blue
+
+## 0.5.16 (June 5, 2017)
+
+- Remove browser prefix strings as keys and replaces them with preferred keys
+
+## 0.5.15 (June 5, 2017)
+
+- Add `CloseSmallIcon`, `Notification`, and `NotificationClose` to `Icon/index.js`
+
+## 0.5.14 (June 5, 2017)
+
+- Add `CloseSmallIcon`, `Notification`, and `NotificationClose` components
+- Update `WarningIcon` component
+
+## 0.5.13 (June 5, 2017)
+
+- Add a `lineHeight: 0` rule to our `noStyle` config on ButtonStateless
+
+## 0.5.12 (June 1, 2017)
+
+- Add `disabled` config to `InputTime` component
+
+## 0.5.11 (May 31, 2017)
+
+- Add `quaternary` config to `ButtonStateless` component
+
 ## 0.5.10 (May 26, 2017)
 
 - Add `noStyle` config to `InputTimes`

@@ -1,12 +1,12 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
 import { mount } from 'enzyme';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import InputDate from './index';
 
 describe('InputDate', () => {
   it('should pass accessibility audit', (done) => {
     const onChange = jest.fn();
-    a11yTestHelper.testComponent(<InputDate
+    testComponentA11y(<InputDate
       input={{
         value: '',
         onChange,

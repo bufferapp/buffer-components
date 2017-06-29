@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import Image from './index';
 
@@ -99,5 +99,11 @@ storiesOf('Image')
     <Image
       src={'http://lorempixel.com/400/400/cats/'}
       border={'rounded'}
+    />
+  ))
+  .add('alt', () => (
+    <Image
+      src={'nah'}
+      alt={'alt text'}
     />
   ));

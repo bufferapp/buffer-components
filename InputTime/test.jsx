@@ -1,12 +1,12 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import InputTime from './index';
 
 describe('InputTime', () => {
   it('should pass accessibility audit', (done) => {
     const onChange = jest.fn();
-    a11yTestHelper.testComponent(<InputTime
+    testComponentA11y(<InputTime
       input={{
         onChange,
       }}

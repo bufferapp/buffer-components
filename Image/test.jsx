@@ -1,10 +1,10 @@
 import React from 'react';
-import a11yTestHelper from '../lib/a11yTestHelper';
+import { testComponentA11y } from '../lib/a11yTestHelper';
 import Image from './index';
 
 describe('Image', () => {
   it('should pass accessibility audit', (done) => {
-    a11yTestHelper.testComponent(
+    testComponentA11y(
       <Image
         src={'http://lorempixel.com/400/400/cats/'}
         height={'14em'}

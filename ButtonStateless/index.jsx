@@ -11,6 +11,7 @@ import {
   white,
   curiousBlue,
   geyser,
+  offWhite,
   outerSpace,
   transparent,
   torchRed,
@@ -40,6 +41,7 @@ const Button = ({
   secondary,
   small,
   tertiary,
+  quaternary,
   warning,
   noStyle,
 }) => {
@@ -102,6 +104,15 @@ const Button = ({
       color: outerSpace,
       backgroundColor: transparent,
     },
+    quaternary: {
+      color: outerSpace,
+      backgroundColor: offWhite,
+      borderColor: geyser,
+    },
+    quaternaryHovered: {
+      color: outerSpace,
+      backgroundColor: offWhite,
+    },
     warning: {
       color: outerSpace,
       backgroundColor: transparent,
@@ -116,6 +127,7 @@ const Button = ({
     },
     noStyle: {
       display: 'unset',
+      lineHeight: 'unset',
       margin: 'unset',
       padding: 0,
       fontFamily: 'unset',
@@ -143,6 +155,8 @@ const Button = ({
     small,
     tertiary,
     tertiaryHovered: tertiary && hovered && !disabled,
+    quaternary,
+    quaternaryHovered: quaternary && hovered && !disabled,
     warning,
     warningHovered: warning && hovered && !disabled,
     fillContainer,
@@ -181,6 +195,7 @@ Button.propTypes = {
   secondary: PropTypes.bool,
   small: PropTypes.bool,
   tertiary: PropTypes.bool,
+  quaternary: PropTypes.bool,
   warning: PropTypes.bool,
 };
 
