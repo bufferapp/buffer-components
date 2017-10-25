@@ -1,8 +1,6 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
+  - "8"
+cache: yarn
 notifications:
-  slack: buffer:1BH6SijgzfGrsX3b2I8PHyET
-  on_success: never
-  on_failure: always
+  email: false
