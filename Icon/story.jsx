@@ -68,7 +68,7 @@ import ProfileGroupIcon from './Icons/ProfileGroupIcon';
 import QuestionIcon from './Icons/QuestionIcon';
 import QueueIcon from './Icons/QueueIcon';
 import RefreshIcon from './Icons/RefreshIcon';
-import RespondIcon from './Icons/RespondIcon';
+import ReplyIcon from './Icons/ReplyIcon';
 import RetweetIcon from './Icons/RetweetIcon';
 import SearchIcon from './Icons/SearchIcon';
 import SettingsIcon from './Icons/SettingsIcon';
@@ -294,8 +294,8 @@ storiesOf('Icon')
   .add('refreshIcon', () => (
     <RefreshIcon />
   ))
-  .add('respondIcon', () => (
-    <RespondIcon />
+  .add('replyIcon', () => (
+    <ReplyIcon />
   ))
   .add('retweetIcon', () => (
     <RetweetIcon />

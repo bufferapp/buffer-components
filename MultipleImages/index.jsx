@@ -41,6 +41,7 @@ const MultipleImages = ({ border,
     flexBasis: '50%',
     height: getImageWrapperHeight(urls),
   };
+
   return (
     <div style={multipleImagesStyle}>
       {
@@ -56,6 +57,7 @@ const MultipleImages = ({ border,
               src={url}
               verticalAlignBottom
               width={'100%'}
+              pad
             />
           </div>,
         )

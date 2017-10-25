@@ -81,4 +81,18 @@ storiesOf('LinkifiedText')
     >
       {'a http://t.co/0JG5Mcq b'}
     </LinkifiedText>
+  ))
+  .add('black text, unstyled link', () => (
+    <LinkifiedText
+      links={[{
+        rawString: 'http://t.co/0JG5Mcq',
+        displayString: 'blog.twitter.com/2011/05/twitte…',
+        url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
+        indices: [2, 21],
+      }]}
+      color={'black'}
+      unstyled
+    >
+      {'a http://t.co/0JG5Mcq b'}
+    </LinkifiedText>
   ));

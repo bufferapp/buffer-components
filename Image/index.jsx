@@ -11,11 +11,14 @@ const Image = ({ src,
   height,
   maxHeight,
   maxWidth,
+  marginTop,
+  marginBottom,
   minHeight,
   minWidth,
   border,
   objectFit,
   verticalAlignBottom,
+  pad,
 }) => {
   const style = calculateStyles({
     default: {
@@ -26,6 +29,8 @@ const Image = ({ src,
       minHeight,
       minWidth,
       objectFit,
+      marginTop,
+      marginBottom,
     },
     circle: {
       borderRadius: '50%',
@@ -36,10 +41,14 @@ const Image = ({ src,
     verticalAlignBottom: {
       verticalAlign: 'bottom',
     },
+    pad: {
+      border: '0.2rem solid white',
+    },
   }, {
     circle: border === 'circle',
     rounded: border === 'rounded',
     verticalAlignBottom,
+    pad,
   });
 
   return (
@@ -56,6 +65,14 @@ Image.propTypes = {
   alt: PropTypes.string,
   border: PropTypes.oneOf(['circle', 'rounded']),
   height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  marginTop: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  marginBottom: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.number,
   ]),
@@ -88,10 +105,12 @@ Image.propTypes = {
     PropTypes.string,
     PropTypes.number,
   ]),
+  pad: PropTypes.bool,
 };
 
 Image.defaultProps = {
   alt: '',
+  pad: false,
 };
 
 export default Image;

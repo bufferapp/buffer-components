@@ -24,22 +24,22 @@ storiesOf('InputTime')
       }}
     />
   ))
-  .add('noStyle', () => (
+  .add('minimal', () => (
     <InputTime
       input={{
         onChange: action('on-change'),
         value: '',
       }}
-      noStyle
+      minimal
     />
   ))
-  .add('noStyle with 24 hour selection', () => (
+  .add('minimal with 24 hour selection', () => (
     <InputTime
       input={{
         onChange: action('on-change'),
         value: '',
       }}
-      noStyle
+      minimal
       select24Hours
     />
   ))
@@ -98,5 +98,24 @@ storiesOf('InputTime')
       meta={{
         submitting: true,
       }}
+    />
+  ))
+  .add('displayTimeColon', () => (
+    <InputTime
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      displayTimeColon
+    />
+  ))
+  .add('displayTimeColon minimal', () => (
+    <InputTime
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      displayTimeColon
+      minimal
     />
   ));

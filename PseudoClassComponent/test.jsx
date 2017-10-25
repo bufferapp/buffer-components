@@ -1,7 +1,10 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { mount, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import ButtonStateless from '../ButtonStateless';
 import PseudoClassComponent from './index';
+
+configure({ adapter: new Adapter() });
 
 describe('PseudoClassComponent', () => {
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
@@ -13,10 +16,12 @@ describe('PseudoClassComponent', () => {
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('mouseEnter');
-    expect(button.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().hovered)
       .toBe(true);
     button.simulate('mouseLeave');
-    expect(button.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().hovered)
       .toBe(false);
   });
 
@@ -29,10 +34,12 @@ describe('PseudoClassComponent', () => {
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('focus');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(true);
     button.simulate('blur');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(false);
   });
 });

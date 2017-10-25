@@ -44,6 +44,7 @@ const Button = ({
   quaternary,
   warning,
   noStyle,
+  label,
 }) => {
   const style = calculateStyles({
     default: {
@@ -172,6 +173,7 @@ const Button = ({
       onFocus={onFocus}
       onBlur={onBlur}
       disabled={disabled}
+      aria-label={label || null}
     >
       {children}
     </button>
@@ -197,6 +199,7 @@ Button.propTypes = {
   tertiary: PropTypes.bool,
   quaternary: PropTypes.bool,
   warning: PropTypes.bool,
+  label: PropTypes.string,
 };
 
 export default Button;

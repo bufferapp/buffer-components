@@ -39,6 +39,9 @@ storiesOf('Text')
   .add('large', () => (
     <Text size={'large'}>{text}</Text>
   ))
+  .add('extra-large', () => (
+    <Text size={'extra-large'}>{text}</Text>
+  ))
   .add('mini', () => (
     <Text size={'mini'}>{text}</Text>
   ))

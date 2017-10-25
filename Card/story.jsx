@@ -47,4 +47,10 @@ storiesOf('Card')
   ))
   .add('reducedPadding', () => (
     <Card reducedPadding>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
+  .add('shadowHeight=1', () => (
+    <Card shadowHeight={1}>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
+  ))
+  .add('shadowHeight=2', () => (
+    <Card shadowHeight={2}>What is a Product Designer? An awesome story by <Link href={'#'}>@jgadapee</Link> over on Medium! <Link href={'#'}>http://buff.ly/1LTbUqv</Link></Card>
   ));

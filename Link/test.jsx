@@ -1,8 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { mount, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import LinkStateless from '../LinkStateless';
 import Link from './index';
 import testComponentA11y from '../lib/a11yTestHelper';
+
+configure({ adapter: new Adapter() });
 
 describe('Link', () => {
   it('should pass accessibility audit', () => testComponentA11y(
@@ -16,10 +19,12 @@ describe('Link', () => {
     const link = wrapper
       .find(LinkStateless);
     link.simulate('mouseEnter');
-    expect(link.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().hovered)
       .toBe(true);
     link.simulate('mouseLeave');
-    expect(link.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().hovered)
       .toBe(false);
   });
 
@@ -30,10 +35,12 @@ describe('Link', () => {
     const link = wrapper
       .find(LinkStateless);
     link.simulate('focus');
-    expect(link.props().focused)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().focused)
       .toBe(true);
     link.simulate('blur');
-    expect(link.props().focused)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().focused)
       .toBe(false);
   });
 
@@ -50,10 +57,12 @@ describe('Link', () => {
     const link = wrapper
       .find(LinkStateless);
     link.simulate('focus');
-    expect(link.props().focused)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().focused)
       .toBe(true);
     link.simulate('blur');
-    expect(link.props().focused)
+    wrapper.update();
+    expect(wrapper.find(LinkStateless).props().focused)
       .toBe(false);
   });
 });

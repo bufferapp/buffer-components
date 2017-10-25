@@ -101,6 +101,12 @@ storiesOf('Image')
       border={'rounded'}
     />
   ))
+  .add('pad', () => (
+    <Image
+      src={'http://lorempixel.com/400/400/cats/'}
+      pad
+    />
+  ))
   .add('alt', () => (
     <Image
       src={'nah'}

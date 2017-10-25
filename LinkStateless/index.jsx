@@ -25,23 +25,32 @@ const Link = ({
   onMouseLeave,
   onFocus,
   onBlur,
+  onClick,
+  padding,
+  block,
 }) => {
   const style = calculateStyles({
     default: {
       color: curiousBlue,
       fontFamily,
+      padding,
     },
     hovered: {
       color: denim,
     },
     unstyled: {
       textDecoration: 'none',
+      outline: 'none',
     },
-    focused: focusedStyle,
+    block: {
+      display: 'block',
+    },
+    focused: unstyled ? '' : focusedStyle,
   }, {
     hovered,
     unstyled,
     focused,
+    block,
   });
 
   return (
@@ -53,6 +62,7 @@ const Link = ({
       onMouseLeave={onMouseLeave}
       onFocus={onFocus}
       onBlur={onBlur}
+      onClick={onClick}
     >
       {children}
     </a>
@@ -70,6 +80,14 @@ Link.propTypes = {
   onMouseLeave: PropTypes.func,
   onFocus: PropTypes.func,
   onBlur: PropTypes.func,
+  onClick: PropTypes.func,
+  padding: PropTypes.string,
+  block: PropTypes.bool,
+};
+
+Link.defaultProps = {
+  padding: '0',
+  block: false,
 };
 
 export default Link;

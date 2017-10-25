@@ -9,6 +9,7 @@ import {
 } from '../style/font';
 import {
   outerSpace,
+  outerSpaceLight,
   white,
   mystic,
   geyser,
@@ -25,6 +26,7 @@ import {
 } from '../style/animation';
 import {
   boxShadowLevelOne,
+  boxShadowLevelTwo,
 } from '../style/dropShadow';
 
 const Card = ({
@@ -40,6 +42,8 @@ const Card = ({
   onMouseEnter,
   onMouseLeave,
   reducedPadding,
+  shadowHeight,
+  draggingPlaceholder,
 }) => {
   const style = calculateStyles({
     default: {
@@ -66,7 +70,7 @@ const Card = ({
       opacity: 0.5,
     },
     noBorder: {
-      border: 0,
+      border: `${borderWidth} solid transparent`,
     },
     noPadding: {
       padding: 0,
@@ -81,6 +85,15 @@ const Card = ({
     reducedPadding: {
       padding: '1rem',
     },
+    shadowHeightOne: {
+      boxShadow: boxShadowLevelOne,
+    },
+    shadowHeightTwo: {
+      boxShadow: boxShadowLevelTwo,
+    },
+    draggingPlaceholder: {
+      border: `${borderWidth} dashed ${outerSpaceLight}`,
+    },
   }, {
     doublePadding,
     empty,
@@ -91,6 +104,9 @@ const Card = ({
     hovered,
     color,
     reducedPadding,
+    shadowHeightOne: shadowHeight === 1,
+    shadowHeightTwo: shadowHeight === 2,
+    draggingPlaceholder,
   });
   return (
     <div
@@ -116,6 +132,13 @@ Card.propTypes = {
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,
   reducedPadding: PropTypes.bool,
+  shadowHeight: PropTypes.oneOf([0, 1, 2]),
+  draggingPlaceholder: PropTypes.bool,
+};
+
+Card.defaultProps = {
+  shadowHeight: 0,
+  draggingPlaceholder: false,
 };
 
 export default Card;

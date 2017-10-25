@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../Text';
 import Link from '../Link';
-
+import colors from '../style/color';
 
 const linkDataToElement = (options, link, key) =>
   <Link
@@ -48,17 +48,19 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
 
 const LinkifiedText = ({
   children,
+  color,
   links,
   newTab,
   size,
   unstyled,
 }) => {
   const options = { unstyled, newTab };
-  return <Text size={size}>{calulateLinkifiedText(options, links, children)}</Text>;
+  return <Text size={size} color={color}>{calulateLinkifiedText(options, links, children)}</Text>;
 };
 
 LinkifiedText.propTypes = {
   children: PropTypes.string,
+  color: PropTypes.oneOf(Object.keys(colors)),
   links: PropTypes.arrayOf(
     PropTypes.shape({
       rawString: PropTypes.string,

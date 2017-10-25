@@ -1,2 +1,3 @@
-export const transitionAnimationTime = '0.1s';
+export const transitionTimeMilliseconds = 200;
+export const transitionAnimationTime = `${transitionTimeMilliseconds / 1000}s`;
 export const transitionAnimationType = 'linear';

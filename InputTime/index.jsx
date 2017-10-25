@@ -1,38 +1,133 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Select from '../Select';
+import Text from '../Text';
 import { calculateStyles } from '../lib/utils';
+import PseudoClassComponent from '../PseudoClassComponent';
 
-// generate array of numbers (inclusive)
-const genArray = (start, end) => [...Array(end + 1).keys()].slice(start);
+// generate array of numbers (inclusive) - IE 11 compatible
+const genArray = (start, end) =>
+  Array.apply(null, { length: end + 1 }) // eslint-disable-line prefer-spread
+  .map(Number.call, Number).slice(start);
 const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 
 /* eslint-disable react/prop-types */
+const selectWrapperStyle = ({
+  minimal,
+  marginLeft = 0,
+  marginRight = 0,
+}) => calculateStyles({
+  default: {
+    position: 'relative',
+    flex: 1,
+    marginLeft,
+    marginRight,
+  },
+  minimal: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+}, {
+  minimal,
+});
 
-const renderAmPm = ({
+const SelectWrapperStateless = ({
+  children,
+  minimal,
+  marginLeft,
+  marginRight,
+  hovered,
+  focused,
+  onMouseEnter,
+  onMouseLeave,
+  onFocus,
+  onBlur,
+}) =>
+  <div
+    onMouseEnter={onMouseEnter}
+    onMouseLeave={onMouseLeave}
+    onFocus={onFocus}
+    onBlur={onBlur}
+    style={selectWrapperStyle({
+      minimal,
+      marginLeft,
+      marginRight,
+      hovered,
+      focused,
+    })}
+  >
+    {children}
+  </div>;
+
+class SelectWrapper extends PseudoClassComponent {
+  render() {
+    const { children, ...rest } = this.props;
+    let hoveredChildren = children;
+    // string as children isn't clonable
+    if (React.isValidElement(children)) {
+      hoveredChildren = React.cloneElement(
+        children,
+        {
+          hovered: this.state.hovered,
+          color:
+            this.props.minimal &&
+            this.state.hovered &&
+            !this.state.focused ? 'curiousBlue' : undefined,
+        },
+      );
+    }
+    return (
+      <SelectWrapperStateless
+        {...rest}
+        hovered={this.state.hovered}
+        onMouseEnter={() => this.handleMouseEnter()}
+        onMouseLeave={() => this.handleMouseLeave()}
+        onFocus={() => this.handleFocus()}
+        onBlur={() => this.handleBlur()}
+      >
+        {hoveredChildren}
+      </SelectWrapperStateless>
+    );
+  }
+}
+
+const timeColonWrapperStyle = ({
+  minimal,
+}) => calculateStyles({
+  default: {
+    display: 'flex',
+    alignItems: 'center',
+    flex: 0,
+    marginLeft: '0.1rem',
+    marginRight: '0.1rem',
+  },
+  minimal: {
+    marginLeft: 0,
+    marginRight: 0,
+  },
+}, {
+  minimal,
+});
+
+const TimeColonWrapper = ({
+  children,
+  minimal,
+}) =>
+  <div
+    style={timeColonWrapperStyle({ minimal })}
+  >
+    {children}
+  </div>;
+
+const AmPm = ({
   disabled,
-  noStyle,
+  minimal,
   onChange,
   submitting,
   value,
-}) => {
-  const style = calculateStyles({
-    default: {
-      marginRight: '0.25rem',
-    },
-    noStyle: {
-      border: 0,
-      background: 'transparent',
-      margin: 0,
-      padding: 0,
-      WebkitAppearance: 'none',
-      MozAppearance: 'none',
-    },
-  }, {
-    noStyle,
-  });
-
-  return (
-    <select
+}) =>
+  <SelectWrapper minimal={minimal}>
+    <Select
       disabled={disabled || submitting}
       onChange={e => onChange({
         ...value,
@@ -40,14 +135,13 @@ const renderAmPm = ({
         ? value.hours - 12
         : value.hours + 12,
       })}
-      style={style}
+      noStyle={minimal}
       value={value.hours < 12 ? 'AM' : 'PM'}
-    >
-      <option value="AM">AM</option>
-      <option value="PM">PM</option>
-    </select>
-  );
-};
+      options={[{ value: 'AM', name: 'AM' }, { value: 'PM', name: 'PM' }]}
+      centerText={minimal}
+      rangeSelector={!minimal}
+    />
+  </SelectWrapper>;
 
 /* eslint-enable react/prop-types */
 
@@ -61,6 +155,24 @@ const displayHour = (hour, select24Hours) => {
   return modHour === 0 ? 12 : modHour;
 };
 
+const generateHours = (select24Hours, value) => {
+  const timeArray = genArray(
+    select24Hours || value.hours < 12 ? 0 : 12,
+    select24Hours || value.hours > 11 ? 23 : 11,
+  );
+  return timeArray.map((hour) => {
+    const displaytime = leftPadTimeUnit(displayHour(hour, select24Hours)).toString();
+    return { value: hour, name: displaytime };
+  });
+};
+
+const generateMinutes = () => (
+  genArray(0, 59).map((min) => {
+    const displayMin = leftPadTimeUnit(min).toString();
+    return { value: min, name: displayMin };
+  })
+);
+
 const InputTime = ({
   disabled,
   input: {
@@ -70,62 +182,61 @@ const InputTime = ({
   meta: {
     submitting,
   },
-  noStyle,
+  minimal,
   select24Hours,
+  displayTimeColon,
 }) => {
-  const style = calculateStyles({
-    default: {
-      display: 'inline-flex',
-      marginRight: '0.25rem',
-    },
-    noStyle: {
-      border: 0,
-      background: 'transparent',
-      marginTop: 0,
-      marginRight: '0.25rem',
-      marginBottom: 0,
-      marginLeft: 0,
-      padding: 0,
-      WebkitAppearance: 'none',
-      MozAppearance: 'none',
-    },
-  }, {
-    noStyle,
-  });
+  const style = {
+    width: '100%',
+    display: 'flex',
+  };
 
   if (!value) {
     value = { hours: 0, minutes: 0 };
   }
   return (
     <div style={style}>
-      <select
-        disabled={disabled || submitting}
-        onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
-        style={style}
-        value={value.hours}
+      <SelectWrapper minimal={minimal}>
+        <Select
+          disabled={disabled || submitting}
+          onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
+          value={value.hours}
+          options={generateHours(select24Hours, value)}
+          label={'Hour'}
+          noStyle={minimal}
+          centerText={minimal}
+          rangeSelector={!minimal}
+        />
+      </SelectWrapper>
+      { displayTimeColon ?
+        <TimeColonWrapper
+          minimal={minimal}
+        >
+          <Text size={'small'}>:</Text>
+        </TimeColonWrapper>
+        : null }
+      <SelectWrapper
+        minimal={minimal}
+        marginLeft={minimal || displayTimeColon ? 0 : '0.25rem'}
+        marginRight={!minimal ? '0.25rem' : undefined}
       >
-        {genArray(
-          select24Hours || value.hours < 12 ? 0 : 12,
-          select24Hours || value.hours > 11 ? 23 : 11,
-        ).map(hour =>
-          <option
-            key={hour}
-            value={hour}
-          >
-            {leftPadTimeUnit(displayHour(hour, select24Hours))}
-          </option>)
-        }
-      </select>
-      <select
-        disabled={disabled || submitting}
-        onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
-        style={style}
-        value={value.minutes}
-      >
-        {genArray(0, 59).map(min =>
-          <option key={min} value={min}>{leftPadTimeUnit(min)}</option>)}
-      </select>
-      { select24Hours ? null : renderAmPm({ disabled, noStyle, onChange, submitting, value }) }
+        <Select
+          disabled={disabled || submitting}
+          onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
+          value={value.minutes}
+          options={generateMinutes()}
+          label={'Minute'}
+          noStyle={minimal}
+          centerText={minimal}
+          rangeSelector={!minimal}
+        />
+      </SelectWrapper>
+      {
+        select24Hours ?
+        null
+        :
+        AmPm({ disabled, minimal, onChange, submitting, value })
+      }
     </div>
   );
 };
@@ -133,7 +244,7 @@ const InputTime = ({
 InputTime.propTypes = {
   disabled: PropTypes.bool,
   input: PropTypes.shape({
-    onChange: PropTypes.func.isRequired,
+    onChange: PropTypes.func,
     value: PropTypes.oneOfType([
       PropTypes.shape({
         hours: PropTypes.number.isRequired,
@@ -145,8 +256,9 @@ InputTime.propTypes = {
   meta: PropTypes.shape({
     submitting: PropTypes.bool,
   }),
-  noStyle: PropTypes.bool,
+  minimal: PropTypes.bool,
   select24Hours: PropTypes.bool,
+  displayTimeColon: PropTypes.bool,
 };
 
 InputTime.defaultProps = {

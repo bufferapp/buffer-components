@@ -7,6 +7,7 @@ import {
   fontFamily,
   fontSize,
   fontSizeLarge,
+  fontSizeExtraLarge,
   fontSizeMini,
   fontSizeSmall,
   fontSizeExtraSmall,
@@ -36,6 +37,9 @@ const Text = ({ children, size, weight, color }) => {
     large: {
       fontSize: fontSizeLarge,
     },
+    extraLarge: {
+      fontSize: fontSizeExtraLarge,
+    },
     mini: {
       fontSize: fontSizeMini,
     },
@@ -47,6 +51,7 @@ const Text = ({ children, size, weight, color }) => {
     thin: weight === 'thin',
     extraSmall: size === 'extra-small',
     large: size === 'large',
+    extraLarge: size === 'extra-large',
     mini: size === 'mini',
     small: size === 'small',
   });
@@ -57,34 +62,9 @@ const Text = ({ children, size, weight, color }) => {
 
 Text.propTypes = {
   children: PropTypes.node,
-  size: PropTypes.oneOf(['extra-small', 'large', 'mini', 'small']),
+  size: PropTypes.oneOf(['extra-small', 'large', 'extra-large', 'mini', 'small']),
   weight: PropTypes.oneOf(['bold', 'thin']),
-  color: PropTypes.oneOf([
-    'appdotnet',
-    'aquaHaze',
-    'black',
-    'curiousBlue',
-    'curiousBlueLight',
-    'curiousBlueUltraLight',
-    'denim',
-    'facebook',
-    'geyser',
-    'googleplus',
-    'linkedin',
-    'mystic',
-    'nevada',
-    'outerSpace',
-    'outerSpaceLight',
-    'outerSpaceUltraLight',
-    'pinterest',
-    'saffron',
-    'shamrock',
-    'shuttleGray',
-    'toryBlue',
-    'torchRed',
-    'twitter',
-    'white',
-  ]),
+  color: PropTypes.oneOf(Object.keys(colors)),
 };
 
 Text.defaultProps = {

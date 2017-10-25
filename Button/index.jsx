@@ -2,12 +2,14 @@ import React from 'react';
 import ButtonStateless from '../ButtonStateless';
 import PseudoClassComponent from '../PseudoClassComponent';
 
+const isNativeComponent = component => typeof component.type === 'string';
+
 class Button extends PseudoClassComponent {
   render() {
     const { children, ...rest } = this.props;
     let hoveredChildren = children;
     // string as children isn't clonable
-    if (React.isValidElement(children)) {
+    if (React.isValidElement(children) && !isNativeComponent(children)) {
       hoveredChildren = React.cloneElement(
         children,
         { hovered: this.state.hovered },

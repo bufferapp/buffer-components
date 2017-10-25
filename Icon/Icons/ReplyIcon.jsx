@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../../Icon';
 
-const RespondIcon = ({ color, size }) =>
+const ReplyIcon = ({ color, size }) =>
   <Icon color={color} size={size}>
     <g transform="translate(8.066952, 8.472268) rotate(-45.000000) translate(-8.066952, -8.472268) translate(0.066952, 1.972268)">
       <path d="M0.0215566657,3.31257555 C0.0215566657,3.03718605 0.238778853,2.81393875 0.523178151,2.81393875 L10.4217198,2.81393875 L10.4217197,0.427889852 C10.4217197,0.149934187 10.5821386,0.0844435872 10.7695555,0.271180514 L15.63441,5.11838601 C15.8265144,5.3097935 15.7566205,5.46495993 15.4870722,5.46495993 L0.516730268,5.46495988 C0.243253439,5.46495988 0.0215566657,5.23893531 0.0215566657,4.96632308 L0.0215566657,3.31257555 Z" />
@@ -9,8 +9,8 @@ const RespondIcon = ({ color, size }) =>
     </g>
   </Icon>;
 
-RespondIcon.propTypes = {
+ReplyIcon.propTypes = {
   ...Icon.propTypes,
 };
 
-export default RespondIcon;
+export default ReplyIcon;

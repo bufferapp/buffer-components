@@ -1,5 +1,5 @@
 import React from 'react';
-import { Keyframes, Frame } from 'react-keyframes';
+import { Keyframes, Frame } from '@bufferapp/react-keyframes';
 import PropTypes from 'prop-types';
 import { BufferTopIcon, BufferMiddleIcon, BufferBottomIcon } from '../Icon/Icons';
 import Text from '../Text';

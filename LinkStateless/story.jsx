@@ -69,4 +69,11 @@ storiesOf('LinkStateless')
     >
       Twitter
     </LinkStateless>
+  ))
+  .add('onClick', () => (
+    <LinkStateless
+      onClick={action('on-click')}
+    >
+      Twitter
+    </LinkStateless>
   ));

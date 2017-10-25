@@ -1,8 +1,11 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { mount, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import ButtonStateless from '../ButtonStateless';
 import testComponentA11y from '../lib/a11yTestHelper';
 import Button from './index';
+
+configure({ adapter: new Adapter() });
 
 describe('Button', () => {
   it('should pass accessibility audit', () => testComponentA11y(
@@ -16,10 +19,12 @@ describe('Button', () => {
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('mouseEnter');
-    expect(button.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().hovered)
       .toBe(true);
     button.simulate('mouseLeave');
-    expect(button.props().hovered)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().hovered)
       .toBe(false);
   });
 
@@ -30,10 +35,12 @@ describe('Button', () => {
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('focus');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(true);
     button.simulate('blur');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(false);
   });
 
@@ -50,10 +57,12 @@ describe('Button', () => {
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('focus');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(true);
     button.simulate('blur');
-    expect(button.props().focused)
+    wrapper.update();
+    expect(wrapper.find(ButtonStateless).props().focused)
       .toBe(false);
   });
 });

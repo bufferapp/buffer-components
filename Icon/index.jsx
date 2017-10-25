@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { calculateStyles } from '../lib/utils';
+import { calculateStyles, parseColor } from '../lib/utils';
 import colors from '../style/color';
 
 const Icon = ({
   children,
   color,
-  size,
+  size
 }) => {
   const style = calculateStyles({
     default: {
@@ -14,7 +14,7 @@ const Icon = ({
       height: '1rem',
     },
     color: {
-      fill: colors[color],
+      fill: parseColor(color),
     },
     small: {
       width: '0.75rem',
@@ -24,10 +24,15 @@ const Icon = ({
       width: '2rem',
       height: '2rem',
     },
+    customSize: {
+      width: size ? (size.width || size.height) : '1rem',
+      height: size ? (size.height || size.width) : '1rem',
+    }
   }, {
     color,
     small: size === 'small',
     large: size === 'large',
+    customSize: size && (size.width || size.height)
   });
   return (
     <svg
@@ -52,33 +57,14 @@ Icon.defaultProps = {
 
 Icon.propTypes = {
   children: PropTypes.node,
-  color: PropTypes.oneOf([
-    'appdotnet',
-    'aquaHaze',
-    'black',
-    'curiousBlue',
-    'curiousBlueLight',
-    'curiousBlueUltraLight',
-    'denim',
-    'facebook',
-    'geyser',
-    'googleplus',
-    'linkedin',
-    'mystic',
-    'nevada',
-    'outerSpace',
-    'outerSpaceLight',
-    'outerSpaceUltraLight',
-    'pinterest',
-    'saffron',
-    'shamrock',
-    'shuttleGray',
-    'toryBlue',
-    'torchRed',
-    'twitter',
-    'white',
+  color: PropTypes.oneOf(Object.keys(colors)),
+  size: PropTypes.oneOfType([
+    PropTypes.oneOf(['small', 'large']),
+    PropTypes.shape({
+      width: PropTypes.string,
+      height: PropTypes.string
+    })
   ]),
-  size: PropTypes.oneOf(['large', 'small']),
 };
 
 export default Icon;

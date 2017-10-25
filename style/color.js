@@ -7,12 +7,14 @@ export const toryBlue = '#0f63a4';
 export const appdotnet = '#4a484c';
 export const facebook = '#3b5998';
 export const googleplus = '#dd4b39';
+export const instagram = '#e53c5f';
 export const linkedin = '#007bb6';
 export const pinterest = '#bd081c';
 export const twitter = '#55acee';
 
 export const aquaHaze = '#f4f7f9';
 export const geyser = '#ced7df';
+export const fillColor = '#eaeff2';
 export const mystic = '#e6ebef';
 export const nevada = '#666c72';
 export const outerSpace = '#323b43';
@@ -30,6 +32,14 @@ export const shamrock = '#2fd566';
 export const saffron = '#f1cb3a';
 export const torchRed = '#ff1e1e';
 
+// TODO: Do we need to keep these colors here?
+// Should they have cuter names?
+export const sidebarBackgroundBlue = '#192534';
+export const sidebarIcon = '#7088A5';
+export const darkPopover = '#2E435E';
+
+export const baliHai = '#8D969E';
+
 const colors = {
   curiousBlue,
   curiousBlueLight,
@@ -39,6 +49,7 @@ const colors = {
   appdotnet,
   facebook,
   googleplus,
+  instagram,
   linkedin,
   pinterest,
   twitter,
@@ -58,6 +69,10 @@ const colors = {
   shamrock,
   saffron,
   torchRed,
+  sidebarBackgroundBlue,
+  sidebarIcon,
+  darkPopover,
+  baliHai,
 };
 
 export default colors;
