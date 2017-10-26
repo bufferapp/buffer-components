@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "start-storybook -p 9001",
+    "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint . --ignore-pattern coverage .storybook node_modules",
     "test": "yarn run lint && jest",
     "test-update": "jest -u",
@@ -32,6 +33,7 @@
   "devDependencies": {
     "@storybook/addon-storyshots": "3.2.13",
     "@storybook/react": "3.2.13",
+    "@storybook/storybook-deployer": "2.0.0",
     "babel-eslint": "8.0.1",
     "enzyme": "3.1.0",
     "enzyme-adapter-react-16": "1.0.2",
