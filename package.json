@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shared set of UI Components",
   "main": "index.js",
   "scripts": {
@@ -53,6 +53,7 @@
     "react-day-picker": "6.2.1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "tag": "1.X"
   }
 }
