@@ -17,6 +17,7 @@ export const geyser = '#ced7df';
 export const fillColor = '#eaeff2';
 export const mystic = '#e6ebef';
 export const nevada = '#666c72';
+export const lightSlate = '#8A9097';
 export const outerSpace = '#323b43';
 export const outerSpaceUltraDark = 'rgba(50, 59, 67, 0.8)';
 export const outerSpaceLight = 'rgba(50, 59, 67, 0.3)';
@@ -57,6 +58,7 @@ const colors = {
   geyser,
   mystic,
   nevada,
+  lightSlate,
   outerSpace,
   outerSpaceUltraDark,
   outerSpaceLight,

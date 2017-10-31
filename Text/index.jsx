@@ -11,9 +11,15 @@ import {
   fontSizeMini,
   fontSizeSmall,
   fontSizeExtraSmall,
-  fontWeight,
-  fontWeightBold,
   fontWeightThin,
+  fontWeightExtraLight,
+  fontWeightLight,
+  fontWeight,
+  fontWeightMedium,
+  fontWeightSemiBold,
+  fontWeightBold,
+  fontWeightExtraBold,
+  fontWeightBlack,
 } from '../style/font';
 import colors from '../style/color';
 
@@ -25,12 +31,32 @@ const Text = ({ children, size, weight, color }) => {
       fontWeight,
       color: colors[color],
     },
-    bold: {
-      fontWeight: fontWeightBold,
+    // Weights
+    extraLight: {
+      fontWeight: fontWeightExtraLight,
+    },
+    light: {
+      fontWeight: fontWeightLight,
     },
     thin: {
       fontWeight: fontWeightThin,
     },
+    medium: {
+      fontWeight: fontWeightMedium,
+    },
+    semiBold: {
+      fontWeight: fontWeightSemiBold,
+    },
+    bold: {
+      fontWeight: fontWeightBold,
+    },
+    extraBold: {
+      fontWeight: fontWeightExtraBold,
+    },
+    black: {
+      fontWeight: fontWeightBlack,
+    },
+    // Sizes
     extraSmall: {
       fontSize: fontSizeExtraSmall,
     },
@@ -47,8 +73,16 @@ const Text = ({ children, size, weight, color }) => {
       fontSize: fontSizeSmall,
     },
   }, {
-    bold: weight === 'bold',
+    // Weights
+    extraLight: weight === 'extra-light',
+    light: weight === 'light',
     thin: weight === 'thin',
+    medium: weight === 'medium',
+    semiBold: weight === 'semi-bold',
+    bold: weight === 'bold',
+    extraBold: weight === 'extra-bold',
+    black: weight === 'black',
+    // Sizes
     extraSmall: size === 'extra-small',
     large: size === 'large',
     extraLarge: size === 'extra-large',
@@ -63,7 +97,7 @@ const Text = ({ children, size, weight, color }) => {
 Text.propTypes = {
   children: PropTypes.node,
   size: PropTypes.oneOf(['extra-small', 'large', 'extra-large', 'mini', 'small']),
-  weight: PropTypes.oneOf(['bold', 'thin']),
+  weight: PropTypes.oneOf(['extra-light', 'light', 'thin', 'medium', 'semi-bold', 'bold', 'extra-bold', 'black']),
   color: PropTypes.oneOf(Object.keys(colors)),
 };
 
