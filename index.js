@@ -2,6 +2,7 @@
 export Button from './Button';
 export Card from './Card';
 export Divider from './Divider';
+export HoverableText from './HoverableText';
 export Icon from './Icon';
 export IconArrowPopover from './IconArrowPopover';
 export Input from './Input';
