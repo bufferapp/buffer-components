@@ -12,6 +12,7 @@ import {
 } from '../style/focused';
 import {
   fontFamily,
+  fontSizeExtraSmall,
 } from '../style/font';
 
 const Link = ({
@@ -28,6 +29,7 @@ const Link = ({
   onClick,
   padding,
   block,
+  extraSmall,
 }) => {
   const style = calculateStyles({
     default: {
@@ -45,12 +47,16 @@ const Link = ({
     block: {
       display: 'block',
     },
+    extraSmall: {
+      fontSize: fontSizeExtraSmall,
+    },
     focused: unstyled ? '' : focusedStyle,
   }, {
     hovered,
     unstyled,
     focused,
     block,
+    extraSmall,
   });
 
   return (
@@ -83,6 +89,7 @@ Link.propTypes = {
   onClick: PropTypes.func,
   padding: PropTypes.string,
   block: PropTypes.bool,
+  extraSmall: PropTypes.bool,
 };
 
 Link.defaultProps = {
