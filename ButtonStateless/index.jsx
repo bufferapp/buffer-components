@@ -172,6 +172,7 @@ const Button = ({
     fillContainer,
     noStyle,
     focused,
+    linkStyle,
   });
   return (
     <button
@@ -209,6 +210,7 @@ Button.propTypes = {
   quaternary: PropTypes.bool,
   warning: PropTypes.bool,
   label: PropTypes.string,
+  linkStyle: PropTypes.bool,
 };
 
 export default Button;
