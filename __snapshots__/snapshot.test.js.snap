@@ -22866,6 +22866,203 @@ exports[`Snapshots Select with value set 1`] = `
 </div>
 `;
 
+exports[`Snapshots Tab default 1`] = `
+<a
+  href="#"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#168eea",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "outline": "none",
+      "padding": "0",
+      "textDecoration": "none",
+    }
+  }
+  target="_self"
+>
+  <span
+    style={
+      Object {
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "0.75rem 1rem",
+      }
+    }
+  >
+    <span
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Tab
+      </span>
+    </span>
+  </span>
+</a>
+`;
+
+exports[`Snapshots Tab selected 1`] = `
+<a
+  href="#"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#168eea",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "outline": "none",
+      "padding": "0",
+      "textDecoration": "none",
+    }
+  }
+  target="_self"
+>
+  <span
+    style={
+      Object {
+        "backgroundColor": "rgba(22, 142, 234, .1)",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "0.75rem 1rem",
+      }
+    }
+  >
+    <span
+      onMouseEnter={undefined}
+      onMouseLeave={undefined}
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 700,
+          }
+        }
+      >
+        Tab
+      </span>
+    </span>
+  </span>
+</a>
+`;
+
+exports[`Snapshots Tabs default 1`] = `
+<div>
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "outline": "none",
+        "padding": "0",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    <span
+      style={
+        Object {
+          "backgroundColor": "rgba(22, 142, 234, .1)",
+          "borderRadius": "4px",
+          "display": "inline-block",
+          "padding": "0.75rem 1rem",
+        }
+      }
+    >
+      <span
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <span
+          style={
+            Object {
+              "color": "#59626a",
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontSize": "1rem",
+              "fontWeight": 700,
+            }
+          }
+        >
+          Tab 1
+        </span>
+      </span>
+    </span>
+  </a>
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "outline": "none",
+        "padding": "0",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    <span
+      style={
+        Object {
+          "borderRadius": "4px",
+          "display": "inline-block",
+          "padding": "0.75rem 1rem",
+        }
+      }
+    >
+      <span
+        onMouseEnter={undefined}
+        onMouseLeave={undefined}
+      >
+        <span
+          style={
+            Object {
+              "color": "#59626a",
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            }
+          }
+        >
+          Tab 2
+        </span>
+      </span>
+    </span>
+  </a>
+</div>
+`;
+
 exports[`Snapshots Text black 1`] = `
 <span
   style={
