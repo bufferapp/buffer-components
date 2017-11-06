@@ -28,5 +28,7 @@ export ArrowPopover from './ArrowPopover';
 export Popover from './Popover';
 export SectionHeader from './SectionHeader';
 export Select from './Select';
+export Tab from './Tab';
+export Tabs from './Tabs';
 export Text from './Text';
 export PseudoClassComponent from './PseudoClassComponent';
