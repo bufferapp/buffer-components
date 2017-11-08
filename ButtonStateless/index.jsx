@@ -145,10 +145,11 @@ const Button = ({
     },
     linkStyle: {
       background: 'none',
+      backgroundColor: 'unset',
       border: 'none',
       color: curiousBlue,
       padding: 0,
-      display: 'inline-block',
+      display: 'block',
       margin: '0 auto',
     },
     focused: {
@@ -156,7 +157,7 @@ const Button = ({
     },
   }, {
     disabled: disabled && !noStyle,
-    hovered: hovered && !noStyle && !disabled,
+    hovered: hovered && !noStyle && !linkStyle && !disabled,
     borderless,
     borderlessHovered: borderless && hovered && !disabled,
     large,
