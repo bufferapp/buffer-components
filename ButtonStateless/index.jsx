@@ -158,7 +158,7 @@ const Button = ({
     },
   }, {
     disabled: disabled && !noStyle,
-    hovered: hovered && !noStyle && !linkStyle && !disabled,
+    hovered: hovered && !noStyle && !disabled,
     borderless,
     borderlessHovered: borderless && hovered && !disabled,
     large,
