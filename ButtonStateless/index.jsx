@@ -151,6 +151,7 @@ const Button = ({
       padding: 0,
       display: 'block',
       margin: '0 auto',
+      borderRadius: 'unset',
     },
     focused: {
       boxShadow: `0 0 0.25rem ${curiousBlue}`,
