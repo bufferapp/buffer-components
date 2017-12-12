@@ -139,4 +139,7 @@ storiesOf('ButtonStateless')
     >
       Focus Me!
     </Button>
+  ))
+  .add('linkStyle', () => (
+    <Button linkStyle>LinkStyle Button</Button>
   ));
