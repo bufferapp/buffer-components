@@ -1332,6 +1332,38 @@ exports[`Snapshots ButtonStateless large 1`] = `
 </button>
 `;
 
+exports[`Snapshots ButtonStateless linkStyle 1`] = `
+<button
+  aria-label={null}
+  disabled={undefined}
+  onBlur={undefined}
+  onClick={undefined}
+  onFocus={undefined}
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "#168eea",
+      "cursor": "pointer",
+      "display": "block",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "0.75rem",
+      "fontWeight": 400,
+      "margin": "0 auto",
+      "outline": "none",
+      "padding": 0,
+      "transition": "background-color 0.2s linear",
+    }
+  }
+>
+  LinkStyle Button
+</button>
+`;
+
 exports[`Snapshots ButtonStateless noStyle 1`] = `
 <button
   aria-label={null}

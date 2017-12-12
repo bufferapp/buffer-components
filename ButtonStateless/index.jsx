@@ -45,6 +45,7 @@ const Button = ({
   warning,
   noStyle,
   label,
+  linkStyle,
 }) => {
   const style = calculateStyles({
     default: {
@@ -142,6 +143,16 @@ const Button = ({
       outline: 'none',
       transition: 'unset',
     },
+    linkStyle: {
+      background: 'none',
+      backgroundColor: 'unset',
+      border: 'none',
+      color: curiousBlue,
+      padding: 0,
+      display: 'block',
+      margin: '0 auto',
+      borderRadius: 'unset',
+    },
     focused: {
       boxShadow: `0 0 0.25rem ${curiousBlue}`,
     },
@@ -163,6 +174,7 @@ const Button = ({
     fillContainer,
     noStyle,
     focused,
+    linkStyle,
   });
   return (
     <button
@@ -200,6 +212,7 @@ Button.propTypes = {
   quaternary: PropTypes.bool,
   warning: PropTypes.bool,
   label: PropTypes.string,
+  linkStyle: PropTypes.bool,
 };
 
 export default Button;
