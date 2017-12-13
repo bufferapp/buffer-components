@@ -5,7 +5,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import Button from './index';
 import Text from '../Text';
 
-storiesOf('ButtonStateless')
+storiesOf('ButtonStateless', module)
   .addDecorator(checkA11y)
   .add('Default', () => (
     <Button>Button text</Button>

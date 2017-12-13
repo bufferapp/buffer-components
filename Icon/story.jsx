@@ -79,7 +79,7 @@ import VideoIcon from './Icons/VideoIcon';
 import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
 
-storiesOf('Icon')
+storiesOf('Icon', module)
   .addDecorator(checkA11y)
   .add('large', () => (
     <AddMediaIcon size={'large'} />

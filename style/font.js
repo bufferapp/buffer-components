@@ -5,7 +5,7 @@ export const fontSizeLarge = '1.25rem';
 export const fontSizeExtraLarge = '2rem';
 export const fontSizeSmall = '0.75rem';
 export const fontSizeExtraSmall = '0.5rem';
-export const fontSizeMini = '0.5rem'; // TODO: Can we get rid of this one?
+export const fontSizeMini = '0.9rem';
 
 // https://www.w3.org/TR/css-fonts-3/#font-weight-prop
 export const fontWeightThin = 100;

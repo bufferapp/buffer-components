@@ -4,7 +4,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import ArrowPopover from './index';
 import Text from '../Text';
 
-storiesOf('ArrowPopover')
+storiesOf('ArrowPopover', module)
 .addDecorator(checkA11y)
 .add('default tooltip', () => (
   <div style={{ display: 'inline-block', margin: '5rem', position: 'relative', overflow: 'visible' }}>

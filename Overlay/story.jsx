@@ -5,7 +5,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import Overlay from './index';
 import Image from '../Image';
 
-storiesOf('Overlay')
+storiesOf('Overlay', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <div style={{ textAlign: 'center' }}>

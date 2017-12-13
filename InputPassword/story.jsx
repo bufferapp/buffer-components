@@ -9,7 +9,7 @@ const input = {
   onChange: action('on-change'),
 };
 
-storiesOf('InputPassword')
+storiesOf('InputPassword', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputPassword input={input} />

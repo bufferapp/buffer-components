@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import MultipleImages from './index';
 
-storiesOf('MultipleImages')
+storiesOf('MultipleImages', module)
   .add('fourImages', () => (
     <MultipleImages
       width={'20rem'}

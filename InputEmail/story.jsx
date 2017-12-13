@@ -9,7 +9,7 @@ const input = {
   onChange: action('on-change'),
 };
 
-storiesOf('InputEmail')
+storiesOf('InputEmail', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputEmail input={input} />

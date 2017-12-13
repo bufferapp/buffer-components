@@ -12,7 +12,7 @@ const options = [
   { name: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', value: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch' }, // http://www.fun-with-words.com/longest_place_names.html
 ];
 
-storiesOf('Select')
+storiesOf('Select', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Select

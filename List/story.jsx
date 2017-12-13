@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import List from './index';
 
-storiesOf('List')
+storiesOf('List', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <List items={['apples', 'bananas', 'oranges']} />

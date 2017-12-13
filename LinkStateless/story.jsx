@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import LinkStateless from './index';
 
-storiesOf('LinkStateless')
+storiesOf('LinkStateless', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <div>

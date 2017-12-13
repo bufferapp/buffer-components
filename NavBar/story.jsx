@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import NavBar from './index';
 
-storiesOf('NavBar')
+storiesOf('NavBar', module)
   .addDecorator(checkA11y)
   .add('Default', () => (
     <NavBar />
