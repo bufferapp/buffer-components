@@ -1,6 +1,11 @@
 # Changelog
 
-## 2.1.2 (June 13, 2017)
+## 2.1.3 (December 13, 2017)
+
+- Reset font `mini` to `0.9rem` and remove `0.5rem` duplicate
+- Pass `module` into `storiesOf` to remove `missing module` warning
+
+## 2.1.2 (December 12, 2017)
 
 - Add `linkStyle` config to `ButtonStateless`
 
