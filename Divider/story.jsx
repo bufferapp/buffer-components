@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { checkA11y } from 'storybook-addon-a11y';
 import Divider from './index';
 
-storiesOf('Divider')
+storiesOf('Divider', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Divider />

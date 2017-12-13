@@ -6,7 +6,7 @@ import Button from './index';
 import CloseIcon from '../Icon/Icons/CloseIcon';
 import Text from '../Text';
 
-storiesOf('Button')
+storiesOf('Button', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Button onClick={action('on-click')}>Click Me</Button>

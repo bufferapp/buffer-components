@@ -5,7 +5,7 @@ import IdTag from './index';
 
 const children = 'GIF';
 
-storiesOf('IdTag')
+storiesOf('IdTag', module)
   .addDecorator(checkA11y)
   .add('Default', () => (
     <IdTag>{children}</IdTag>

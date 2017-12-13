@@ -8,7 +8,7 @@ import Tabs from './index';
 import Tab from '../Tab';
 
 
-storiesOf('Tabs')
+storiesOf('Tabs', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Tabs

@@ -5,7 +5,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import InputDate from './index';
 
 
-storiesOf('InputDate')
+storiesOf('InputDate', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputDate

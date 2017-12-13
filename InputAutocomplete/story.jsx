@@ -5,7 +5,7 @@ import { action } from '@storybook/addon-actions';
 import InputAutocomplete from './index';
 import { sortItems, getTimezones } from './utils';
 
-storiesOf('InputAutocomplete')
+storiesOf('InputAutocomplete', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputAutocomplete

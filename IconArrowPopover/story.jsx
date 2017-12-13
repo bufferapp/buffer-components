@@ -4,7 +4,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import IconArrowPopover from './index';
 import { QuestionIcon } from '../Icon/Icons';
 
-storiesOf('IconArrowPopover')
+storiesOf('IconArrowPopover', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <IconArrowPopover icon={<QuestionIcon />} shadow position="below" oneLine={false} width="320px" label="Posting Schedule">

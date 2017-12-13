@@ -6,7 +6,7 @@ import {
 import { checkA11y } from 'storybook-addon-a11y';
 import Tab from './index';
 
-storiesOf('Tab')
+storiesOf('Tab', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Tab

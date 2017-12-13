@@ -5,7 +5,7 @@ import { checkA11y } from 'storybook-addon-a11y';
 import InputWeekday from './index';
 
 
-storiesOf('InputWeekday')
+storiesOf('InputWeekday', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <InputWeekday
