@@ -1,10 +1,6 @@
 # Changelog
 
-## 2.1.3 (Dec 13, 2017)
-
-- Reset font `mini` to `0.9rem`. Removes duplication.
-
-## 2.1.2 (Dec 12, 2017)
+## 2.1.2 (June 13, 2017)
 
 - Add `linkStyle` config to `ButtonStateless`
 
