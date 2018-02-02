@@ -10,16 +10,16 @@ const InputEmail = ({
   onFocus,
   onBlur,
 }) =>
-  <Input
+  (<Input
     input={input}
     label={label}
     meta={meta}
     placeholder={placeholder}
-    type={'email'}
+    type="email"
     focused={focused}
     onFocus={onFocus}
     onBlur={onBlur}
-  />;
+  />);
 
 InputEmail.propTypes = {
   ...Input.commonPropTypes,

@@ -6,7 +6,7 @@ import colors from '../style/color';
 const Icon = ({
   children,
   color,
-  size
+  size,
 }) => {
   const style = calculateStyles({
     default: {
@@ -27,12 +27,12 @@ const Icon = ({
     customSize: {
       width: size ? (size.width || size.height) : '1rem',
       height: size ? (size.height || size.width) : '1rem',
-    }
+    },
   }, {
     color,
     small: size === 'small',
     large: size === 'large',
-    customSize: size && (size.width || size.height)
+    customSize: size && (size.width || size.height),
   });
   return (
     <svg
@@ -62,8 +62,8 @@ Icon.propTypes = {
     PropTypes.oneOf(['small', 'large']),
     PropTypes.shape({
       width: PropTypes.string,
-      height: PropTypes.string
-    })
+      height: PropTypes.string,
+    }),
   ]),
 };
 

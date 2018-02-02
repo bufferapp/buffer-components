@@ -20,7 +20,7 @@ storiesOf('HoverableText', module)
     <HoverableText
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
-      size={'small'}
+      size="small"
     >
       Hoverable Text!
     </HoverableText>
@@ -29,7 +29,7 @@ storiesOf('HoverableText', module)
     <HoverableText
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
-      color={'torchRed'}
+      color="torchRed"
     >
       Hoverable Text!
     </HoverableText>
@@ -38,7 +38,7 @@ storiesOf('HoverableText', module)
     <HoverableText
       onMouseEnter={action('on-mouse-enter')}
       onMouseLeave={action('on-mouse-leave')}
-      hoverColor={'curiousBlue'}
+      hoverColor="curiousBlue"
       hovered
     >
       Hoverable Text!

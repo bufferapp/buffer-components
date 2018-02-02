@@ -10,7 +10,7 @@ storiesOf('Tab', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Tab
-      tabId={'tabId'}
+      tabId="tabId"
       onClick={action('tab-click')}
     >
       Tab
@@ -18,7 +18,7 @@ storiesOf('Tab', module)
   ))
   .add('selected', () => (
     <Tab
-      tabId={'selectedTabId'}
+      tabId="selectedTabId"
       onClick={action('tab-click')}
       selected
     >

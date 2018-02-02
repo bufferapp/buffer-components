@@ -15,11 +15,11 @@ storiesOf('InputEmail', module)
     <InputEmail input={input} />
   ))
   .add('with label', () => (
-    <InputEmail input={input} label={'Email'} />
+    <InputEmail input={input} label="Email" />
   ))
   .add('with error', () => (
     <InputEmail
-      label={'Email'}
+      label="Email"
       input={input}
       meta={{
         error: 'unknown email address',
@@ -29,8 +29,8 @@ storiesOf('InputEmail', module)
   ))
   .add('with placeholder', () => (
     <InputEmail
-      label={'Email'}
-      placeholder={'ex: test@test.com'}
+      label="Email"
+      placeholder="ex: test@test.com"
     />
   ))
   .add('with submitting = true', () => (

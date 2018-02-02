@@ -9,13 +9,13 @@ storiesOf('Overlay', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <div style={{ textAlign: 'center' }}>
-      <Image src={'http://lorempixel.com/400/400/cats/'} />
+      <Image src="http://lorempixel.com/400/400/cats/" />
       <Overlay onClick={action('overlay-click')} />
     </div>
   ))
   .add('transparent=true', () => (
     <div style={{ textAlign: 'center' }}>
-      <Image src={'http://lorempixel.com/400/400/cats/'} />
+      <Image src="http://lorempixel.com/400/400/cats/" />
       <Overlay onClick={action('overlay-click')} transparent />
     </div>
   ));

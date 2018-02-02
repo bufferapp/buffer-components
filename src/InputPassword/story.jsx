@@ -15,11 +15,11 @@ storiesOf('InputPassword', module)
     <InputPassword input={input} />
   ))
   .add('with label', () => (
-    <InputPassword input={input} label={'Password'} />
+    <InputPassword input={input} label="Password" />
   ))
   .add('with error', () => (
     <InputPassword
-      label={'Password'}
+      label="Password"
       input={input}
       meta={{
         error: 'invalid password',

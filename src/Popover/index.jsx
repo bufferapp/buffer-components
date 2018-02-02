@@ -16,7 +16,7 @@ const Popover = ({
   right,
   onOverlayClick,
   transparentOverlay,
-}) =>
+}) => (
   <span>
     <div
       style={calculateStyles({
@@ -43,7 +43,8 @@ const Popover = ({
       onClick={onOverlayClick}
       transparent={transparentOverlay}
     />
-  </span>;
+  </span>
+);
 
 Popover.propTypes = {
   children: PropTypes.node,

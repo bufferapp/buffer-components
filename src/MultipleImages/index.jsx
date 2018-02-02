@@ -16,7 +16,8 @@ const getImageWrapperHeight = (arrayOfImageUrls) => {
   return '50%';
 };
 
-const MultipleImages = ({ border,
+const MultipleImages = ({
+  border,
   height,
   urls,
   width,
@@ -45,22 +46,21 @@ const MultipleImages = ({ border,
   return (
     <div style={multipleImagesStyle}>
       {
-        urls.map(url =>
+        urls.map(url => (
           <div
             style={imageStyle}
             height={height}
             key={uuid()}
           >
             <Image
-              height={'100%'}
-              objectFit={'cover'}
+              height="100%"
+              objectFit="cover"
               src={url}
               verticalAlignBottom
-              width={'100%'}
+              width="100%"
               pad
             />
-          </div>,
-        )
+          </div>))
       }
     </div>
   );

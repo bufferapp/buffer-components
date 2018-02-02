@@ -9,15 +9,15 @@ const InputPassword = ({
   onFocus,
   onBlur,
 }) =>
-  <Input
+  (<Input
     input={input}
     label={label}
     meta={meta}
-    type={'password'}
+    type="password"
     focused={focused}
     onFocus={onFocus}
     onBlur={onBlur}
-  />;
+  />);
 
 InputPassword.propTypes = {
   ...Input.commonPropTypes,

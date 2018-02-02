@@ -9,5 +9,5 @@ storiesOf('NavBar', module)
     <NavBar />
   ))
   .add('Subtitle', () => (
-    <NavBar subtitle={'NavBar'} />
+    <NavBar subtitle="NavBar" />
   ));

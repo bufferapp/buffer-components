@@ -4,7 +4,7 @@ import Text from '../Text';
 import Link from '../Link';
 import colors from '../style/color';
 
-const linkDataToElement = (options, link, key) =>
+const linkDataToElement = (options, link, key) => (
   <Link
     href={link.url}
     key={key}
@@ -12,7 +12,8 @@ const linkDataToElement = (options, link, key) =>
     newTab={options.newTab}
   >
     {link.displayString}
-  </Link>;
+  </Link>
+);
 
 const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
   // nothing left to calculate, return all the caluculated pairs
@@ -61,14 +62,12 @@ const LinkifiedText = ({
 LinkifiedText.propTypes = {
   children: PropTypes.string,
   color: PropTypes.oneOf(Object.keys(colors)),
-  links: PropTypes.arrayOf(
-    PropTypes.shape({
-      rawString: PropTypes.string,
-      displayString: PropTypes.string,
-      expandedUrl: PropTypes.string,
-      indices: PropTypes.arrayOf(PropTypes.number),
-    }),
-  ),
+  links: PropTypes.arrayOf(PropTypes.shape({
+    rawString: PropTypes.string,
+    displayString: PropTypes.string,
+    expandedUrl: PropTypes.string,
+    indices: PropTypes.arrayOf(PropTypes.number),
+  })),
   newTab: PropTypes.bool,
   size: PropTypes.string,
   unstyled: PropTypes.bool,
@@ -76,6 +75,7 @@ LinkifiedText.propTypes = {
 
 LinkifiedText.defaultProps = {
   links: [],
+  children: '',
 };
 
 export default LinkifiedText;

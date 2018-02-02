@@ -23,14 +23,14 @@ storiesOf('Select', module)
   .add('with value set', () => (
     <Select
       options={options}
-      value={'Tokyo'}
+      value="Tokyo"
       onChange={action('on-change')}
     />
   ))
   .add('noStyle', () => (
     <Select
       options={options}
-      value={'Tokyo'}
+      value="Tokyo"
       onChange={action('on-change')}
       noStyle
     />
@@ -95,8 +95,8 @@ storiesOf('Select', module)
   .add('with text color', () => (
     <Select
       options={options}
-      value={'Tokyo'}
+      value="Tokyo"
       onChange={action('on-change')}
-      color={'curiousBlue'}
+      color="curiousBlue"
     />
   ));

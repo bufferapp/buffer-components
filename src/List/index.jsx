@@ -8,14 +8,15 @@ const style = {
   listStyleType: 'none',
 };
 
-const List = ({ items }) =>
+const List = ({ items }) => (
   <ul style={style}>
-    {items.map((item, i) =>
+    {items.map((item, i) => (
       <ListItem key={item.id ? item.id : i}>
         {item.component ? item.component : item}
-      </ListItem>)
+      </ListItem>))
     }
-  </ul>;
+  </ul>
+);
 
 List.propTypes = {
   items: PropTypes.oneOfType([

@@ -1,0 +1,5 @@
+/coverage
+/.storybook
+/node_modules
+/lib
+style.css

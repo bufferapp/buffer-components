@@ -5,8 +5,8 @@ import MultipleImages from './index';
 storiesOf('MultipleImages', module)
   .add('fourImages', () => (
     <MultipleImages
-      width={'20rem'}
-      height={'20rem'}
+      width="20rem"
+      height="20rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
@@ -17,8 +17,8 @@ storiesOf('MultipleImages', module)
   ))
   .add('threeImages', () => (
     <MultipleImages
-      width={'20rem'}
-      height={'20rem'}
+      width="20rem"
+      height="20rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
@@ -28,8 +28,8 @@ storiesOf('MultipleImages', module)
   ))
   .add('twoImages', () => (
     <MultipleImages
-      width={'20rem'}
-      height={'20rem'}
+      width="20rem"
+      height="20rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
@@ -38,8 +38,8 @@ storiesOf('MultipleImages', module)
   ))
   .add('oneImage', () => (
     <MultipleImages
-      width={'20rem'}
-      height={'20rem'}
+      width="20rem"
+      height="20rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
       ]}
@@ -47,8 +47,8 @@ storiesOf('MultipleImages', module)
   ))
   .add('width=30rem, height=30rem', () => (
     <MultipleImages
-      width={'30rem'}
-      height={'30rem'}
+      width="30rem"
+      height="30rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',
@@ -59,9 +59,9 @@ storiesOf('MultipleImages', module)
   ))
   .add('border=rounded', () => (
     <MultipleImages
-      border={'rounded'}
-      width={'20rem'}
-      height={'20rem'}
+      border="rounded"
+      width="20rem"
+      height="20rem"
       urls={[
         'http://lorempixel.com/400/400/cats/',
         'http://lorempixel.com/400/400/cats/',

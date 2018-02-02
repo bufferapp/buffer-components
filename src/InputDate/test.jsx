@@ -8,18 +8,16 @@ configure({ adapter: new Adapter() });
 describe('InputDate', () => {
   it('should trigger onChange when active day is clicked', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputDate
-        input={{
+    const wrapper = mount(<InputDate
+      input={{
           value: '',
           onChange,
         }}
-        initialMonthYear={{
+      initialMonthYear={{
           month: 21,
           year: 7,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('.DayPicker-Day')
       .not('.DayPicker-Day--disabled')
@@ -31,23 +29,21 @@ describe('InputDate', () => {
   });
   it('should NOT trigger onChange when inactive day is clicked', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputDate
-        input={{
+    const wrapper = mount(<InputDate
+      input={{
           value: '',
           onChange,
         }}
-        disableBefore={{
+      disableBefore={{
           day: 21,
           month: 7,
           year: 2015,
         }}
-        initialMonthYear={{
+      initialMonthYear={{
           month: 21,
           year: 7,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('.DayPicker-Day--disabled')
       .not('.DayPicker-Day--outside')

@@ -18,10 +18,10 @@ storiesOf('LinkifiedText', module)
     </LinkifiedText>
   ))
   .add('empty string', () => (
-    <LinkifiedText>{''}</LinkifiedText>
+    <LinkifiedText />
   ))
   .add('no links', () => (
-    <LinkifiedText>{'a b'}</LinkifiedText>
+    <LinkifiedText>a b</LinkifiedText>
   ))
   .add('size: small', () => (
     <LinkifiedText
@@ -31,7 +31,7 @@ storiesOf('LinkifiedText', module)
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
-      size={'small'}
+      size="small"
     >
       {'a http://t.co/0JG5Mcq b'}
     </LinkifiedText>
@@ -90,7 +90,7 @@ storiesOf('LinkifiedText', module)
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
-      color={'black'}
+      color="black"
       unstyled
     >
       {'a http://t.co/0JG5Mcq b'}

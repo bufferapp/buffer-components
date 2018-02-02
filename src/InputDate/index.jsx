@@ -14,7 +14,7 @@ const renderError = ({ error, touched }) => (
         textAlign: 'center',
       }}
     >
-      <Text color={'torchRed'}>{ error }</Text>
+      <Text color="torchRed">{ error }</Text>
     </div>
   ) : null
 );
@@ -45,7 +45,7 @@ const InputDate = ({
     submitting,
   },
   firstDayOfWeek,
-}) =>
+}) => (
   <div>
     <DayPicker
       className={submitting ? 'disabled' : undefined}
@@ -67,7 +67,8 @@ const InputDate = ({
       error,
       touched,
     })}
-  </div>;
+  </div>
+);
 
 InputDate.propTypes = {
   input: PropTypes.shape({

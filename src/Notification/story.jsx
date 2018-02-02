@@ -29,7 +29,7 @@ storiesOf('Notification', module)
   ))
   .add('error', () => (
     <Notification
-      type={'error'}
+      type="error"
       onCloseClick={action('on-close-click')}
     >
       {'Oh No! There was an error doing the thing!'}

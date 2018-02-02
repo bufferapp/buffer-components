@@ -8,13 +8,11 @@ configure({ adapter: new Adapter() });
 describe('InputTime', () => {
   it('should trigger onChange when hour is selected', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputTime
-        input={{
+    const wrapper = mount(<InputTime
+      input={{
           onChange,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('select')
       .first()
@@ -27,13 +25,11 @@ describe('InputTime', () => {
   });
   it('should trigger onChange when minute is selected', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputTime
-        input={{
+    const wrapper = mount(<InputTime
+      input={{
           onChange,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('select')
       .at(1)
@@ -46,13 +42,11 @@ describe('InputTime', () => {
   });
   it('should trigger onChange when pm is selected', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputTime
-        input={{
+    const wrapper = mount(<InputTime
+      input={{
           onChange,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('select')
       .last()
@@ -66,17 +60,15 @@ describe('InputTime', () => {
 
   it('should trigger onChange when am is selected', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputTime
-        input={{
+    const wrapper = mount(<InputTime
+      input={{
           value: {
             hours: 14,
             minutes: 0,
           },
           onChange,
         }}
-      />,
-    );
+    />);
     wrapper
       .find('select')
       .last()

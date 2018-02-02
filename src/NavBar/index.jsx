@@ -28,7 +28,7 @@ const appIconStyle = {
   color: shuttleGray,
 };
 
-const NavBar = ({ title, subtitle }) =>
+const NavBar = ({ title, subtitle }) => (
   <div
     style={navbarStyle}
   >
@@ -37,9 +37,10 @@ const NavBar = ({ title, subtitle }) =>
     >
       <BufferIcon />
     </span>
-    <Text weight={'bold'}>{title}</Text>
+    <Text weight="bold">{title}</Text>
     <Text>{subtitle ? `\u00a0${subtitle}` : ''}</Text>
-  </div>;
+  </div>
+);
 
 NavBar.propTypes = {
   subtitle: PropTypes.string,

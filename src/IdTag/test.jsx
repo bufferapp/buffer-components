@@ -9,7 +9,7 @@ describe('IdTag', () => {
       <IdTag>
         {children}
       </IdTag>,
-      )
+    )
       .then(results => expect(results.violations.length).toBe(0));
   });
 });

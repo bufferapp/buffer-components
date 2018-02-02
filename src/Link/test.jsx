@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from 'react';
 import { mount, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
@@ -8,14 +9,10 @@ import testComponentA11y from '../lib/a11yTestHelper';
 configure({ adapter: new Adapter() });
 
 describe('Link', () => {
-  it('should pass accessibility audit', () => testComponentA11y(
-    <Link href={'localhost:8000'}>A Link</Link>,
-    )
+  it('should pass accessibility audit', () => testComponentA11y(<Link href="localhost:8000">A Link</Link>)
     .then(results => expect(results.violations.length).toBe(0)));
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
-    const wrapper = mount(
-      <Link href={'localhost:8000'}>A Link</Link>,
-    );
+    const wrapper = mount(<Link href="localhost:8000">A Link</Link>);
     const link = wrapper
       .find(LinkStateless);
     link.simulate('mouseEnter');
@@ -29,9 +26,7 @@ describe('Link', () => {
   });
 
   it('should toggle focused prop when focus and blur are triggered', () => {
-    const wrapper = mount(
-      <Link href={'localhost:8000'}>A Link</Link>,
-    );
+    const wrapper = mount(<Link href="localhost:8000">A Link</Link>);
     const link = wrapper
       .find(LinkStateless);
     link.simulate('focus');

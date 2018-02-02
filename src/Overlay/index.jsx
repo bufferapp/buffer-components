@@ -1,3 +1,5 @@
+/* eslint jsx-a11y/no-static-element-interactions: 0 */
+/* eslint jsx-a11y/click-events-have-key-events: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -8,8 +10,7 @@ import {
 } from '../style/zIndex';
 
 const Overlay = ({ onClick, transparent }) =>
-  // eslint-disable-next-line jsx-a11y/no-static-element-interactions
-  <div
+  (<div
     onClick={onClick}
     style={{
       position: 'absolute',
@@ -21,7 +22,7 @@ const Overlay = ({ onClick, transparent }) =>
       zIndex: overlay,
       opacity: transparent ? 0 : 1,
     }}
-  />;
+  />);
 
 Overlay.propTypes = {
   onClick: PropTypes.func,

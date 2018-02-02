@@ -6,13 +6,6 @@ const style = {
   display: 'flex',
 };
 
-const chooseDaysStyle = {
-  marginTop: 0,
-  marginRight: '1rem',
-  marginBottom: 0,
-  marginLeft: 0,
-};
-
 const scheduleTypes = [
   { name: 'Every Day', value: 'everyday' },
   { name: 'Weekdays', value: 'weekdays' },
@@ -41,7 +34,7 @@ const InputWeekday = ({
       onChange={e => onChange({ ...value, day: e.target.value })}
       options={scheduleTypes}
       value={value.day}
-      label={'choose days'}
+      label="choose days"
     />
   </div>
 );

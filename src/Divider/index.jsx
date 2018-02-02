@@ -10,7 +10,7 @@ const Divider = ({
   marginTop,
   marginBottom,
 }) =>
-  <hr
+  (<hr
     style={{
       border: 'none',
       height: `${borderWidth}`,
@@ -20,7 +20,7 @@ const Divider = ({
       marginTop,
       marginBottom,
     }}
-  />;
+  />);
 
 Divider.propTypes = {
   color: PropTypes.oneOf(Object.keys(colors)),

@@ -8,14 +8,10 @@ import Button from './index';
 configure({ adapter: new Adapter() });
 
 describe('Button', () => {
-  it('should pass accessibility audit', () => testComponentA11y(
-    <Button>A Button</Button>,
-    )
+  it('should pass accessibility audit', () => testComponentA11y(<Button>A Button</Button>)
     .then(results => expect(results.violations.length).toBe(0)));
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
-    const wrapper = mount(
-      <Button>A Button</Button>,
-    );
+    const wrapper = mount(<Button>A Button</Button>);
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('mouseEnter');
@@ -29,9 +25,7 @@ describe('Button', () => {
   });
 
   it('should toggle focused prop when focus and blur are triggered', () => {
-    const wrapper = mount(
-      <Button>A Button</Button>,
-    );
+    const wrapper = mount(<Button>A Button</Button>);
     const button = wrapper
       .find(ButtonStateless);
     button.simulate('focus');

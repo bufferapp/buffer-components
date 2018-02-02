@@ -15,24 +15,28 @@ const NotificationIcon = ({
   if (type === 'error') {
     return (
       <WarningIcon
-        color={'torchRed'}
-        size={'large'}
+        color="torchRed"
+        size="large"
       />
     );
   }
   return (
     <CircleCheckmarkIcon
-      color={'shamrock'}
-      size={'large'}
+      color="shamrock"
+      size="large"
     />
   );
+};
+
+NotificationIcon.propTypes = {
+  type: PropTypes.oneOf(['success', 'error']),
 };
 
 const Notification = ({
   children,
   onCloseClick,
   type,
-}) =>
+}) => (
   <Card
     noPadding
     noBorder
@@ -59,7 +63,7 @@ const Notification = ({
         }}
       >
         <Text
-          size={'mini'}
+          size="mini"
         >
           {children}
         </Text>
@@ -77,7 +81,8 @@ const Notification = ({
         </Button>
       </div>
     </div>
-  </Card>;
+  </Card>
+);
 
 Notification.propTypes = {
   children: PropTypes.node.isRequired,

@@ -82,16 +82,16 @@ import WarningIcon from './Icons/WarningIcon';
 storiesOf('Icon', module)
   .addDecorator(checkA11y)
   .add('large', () => (
-    <AddMediaIcon size={'large'} />
+    <AddMediaIcon size="large" />
   ))
   .add('small', () => (
-    <AddMediaIcon size={'small'} />
+    <AddMediaIcon size="small" />
   ))
   .add('curiousBlue', () => (
-    <AddMediaIcon color={'curiousBlue'} />
+    <AddMediaIcon color="curiousBlue" />
   ))
   .add('shamrock', () => (
-    <AddMediaIcon color={'shamrock'} />
+    <AddMediaIcon color="shamrock" />
   ))
   .add('addMediaIcon', () => (
     <AddMediaIcon />

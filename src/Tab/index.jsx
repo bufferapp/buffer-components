@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/anchor-is-valid: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
 import HoverableText from '../HoverableText';
@@ -29,7 +30,7 @@ const Tab = ({
   });
   return (
     <Link
-      href={'#'}
+      href="#"
       unstyled
       onClick={(e) => {
         e.preventDefault();

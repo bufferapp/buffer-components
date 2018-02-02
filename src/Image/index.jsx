@@ -5,7 +5,8 @@ import {
   borderRadius,
 } from '../style/border';
 
-const Image = ({ src,
+const Image = ({
+  src,
   alt,
   width,
   height,

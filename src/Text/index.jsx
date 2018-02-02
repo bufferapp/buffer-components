@@ -23,7 +23,9 @@ import {
 } from '../style/font';
 import colors from '../style/color';
 
-const Text = ({ children, size, weight, color }) => {
+const Text = ({
+  children, size, weight, color,
+}) => {
   const style = calculateStyles({
     default: {
       fontFamily,

@@ -15,7 +15,7 @@ storiesOf('Popover', module)
   .add('left = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      left={'10rem'}
+      left="10rem"
     >
       <Card>Popover</Card>
     </Popover>
@@ -23,7 +23,7 @@ storiesOf('Popover', module)
   .add('top = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      top={'10rem'}
+      top="10rem"
     >
       <Card>Popover</Card>
     </Popover>
@@ -31,8 +31,8 @@ storiesOf('Popover', module)
   .add('top = 10rem left = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      top={'10rem'}
-      left={'10rem'}
+      top="10rem"
+      left="10rem"
     >
       <Card>Popover</Card>
     </Popover>
@@ -48,7 +48,7 @@ storiesOf('Popover', module)
   .add('right = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      right={'10rem'}
+      right="10rem"
     >
       <Card>Popover</Card>
     </Popover>
@@ -56,7 +56,7 @@ storiesOf('Popover', module)
   .add('bottom = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      bottom={'10rem'}
+      bottom="10rem"
     >
       <Card>Popover</Card>
     </Popover>
@@ -64,8 +64,8 @@ storiesOf('Popover', module)
   .add('bottom = 10rem right = 10rem', () => (
     <Popover
       onOverlayClick={action('overlay-click')}
-      bottom={'10rem'}
-      right={'10rem'}
+      bottom="10rem"
+      right="10rem"
     >
       <Card>Popover</Card>
     </Popover>

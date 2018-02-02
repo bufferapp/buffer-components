@@ -12,10 +12,10 @@ storiesOf('Tabs', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Tabs
-      selectedTabId={'tabId'}
+      selectedTabId="tabId"
       onTabClick={action('tab-click')}
     >
-      <Tab tabId={'tabId'}>Tab 1</Tab>
-      <Tab tabId={'tabId2'}>Tab 2</Tab>
+      <Tab tabId="tabId">Tab 1</Tab>
+      <Tab tabId="tabId2">Tab 2</Tab>
     </Tabs>
   ));

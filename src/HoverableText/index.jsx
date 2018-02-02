@@ -1,3 +1,4 @@
+/* eslint react/no-typos: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../Text';
@@ -11,7 +12,7 @@ const HoverableText = ({
   weight,
   onMouseEnter,
   onMouseLeave,
-}) =>
+}) => (
   <span
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
@@ -23,11 +24,12 @@ const HoverableText = ({
     >
       {children}
     </Text>
-  </span>;
+  </span>
+);
 
 HoverableText.propTypes = {
   ...Text.propTypes,
-  hovered: PropTypes.bool.isRequired,
+  hovered: PropTypes.bool,
   hoverColor: Text.propTypes.color,
   onMouseEnter: PropTypes.func,
   onMouseLeave: PropTypes.func,

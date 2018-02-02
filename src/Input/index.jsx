@@ -37,7 +37,7 @@ const renderLabel = ({ label }) => (
 const renderError = ({ error, touched }) => (
   error && touched ? (
     <div style={errorStyle}>
-      <Text color={'torchRed'}>{ error }</Text>
+      <Text color="torchRed">{ error }</Text>
     </div>
   ) : null
 );

@@ -44,7 +44,7 @@ storiesOf('ButtonStateless', module)
         onClick={action('button-click--should-not-happen')}
         noStyle
       >
-        <Text size={'small'}>Use this as an a11y friendly click target</Text>
+        <Text size="small">Use this as an a11y friendly click target</Text>
       </Button>
     </div>
   ))
@@ -79,7 +79,7 @@ storiesOf('ButtonStateless', module)
         noStyle
         hovered
       >
-        <Text size={'small'}>Use this as an a11y friendly click target</Text>
+        <Text size="small">Use this as an a11y friendly click target</Text>
       </Button>
     </div>
   ))
@@ -118,7 +118,7 @@ storiesOf('ButtonStateless', module)
       onClick={action('button-click')}
       noStyle
     >
-      <Text size={'small'}>Use this as an a11y friendly click target</Text>
+      <Text size="small">Use this as an a11y friendly click target</Text>
     </Button>
   ))
   .add('onMouseEnter + onMouseLeave', () => (

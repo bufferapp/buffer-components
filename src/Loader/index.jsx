@@ -29,7 +29,7 @@ const hiddenIconStyle = {
 
 /* eslint-disable react/prop-types */
 
-const generateKeyFrames = ({ component, delay = 0 }) =>
+const generateKeyFrames = ({ component, delay = 0 }) => (
   <Keyframes delay={delay} loop>
     <Frame
       duration={1000}
@@ -49,11 +49,12 @@ const generateKeyFrames = ({ component, delay = 0 }) =>
         {component}
       </div>
     </Frame>
-  </Keyframes>;
+  </Keyframes>
+);
 
 /* eslint-enable react/prop-types */
 
-const Loader = ({ children }) =>
+const Loader = ({ children }) => (
   <div
     style={{
       textAlign: 'center',
@@ -80,7 +81,8 @@ const Loader = ({ children }) =>
       })}
     </div>
     { renderText(children) }
-  </div>;
+  </div>
+);
 
 Loader.propTypes = {
   children: PropTypes.node,

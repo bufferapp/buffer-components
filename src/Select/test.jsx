@@ -12,6 +12,6 @@ describe('Select', () => {
       { name: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', value: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch' }, // http://www.fun-with-words.com/longest_place_names.html
     ];
     return testComponentA11y(<Select options={options} />)
-    .then(results => expect(results.violations.length).toBe(0));
+      .then(results => expect(results.violations.length).toBe(0));
   });
 });

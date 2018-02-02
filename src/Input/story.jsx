@@ -15,11 +15,11 @@ storiesOf('Input', module)
     <Input input={input} />
   ))
   .add('with label', () => (
-    <Input input={input} label={'Username'} />
+    <Input input={input} label="Username" />
   ))
   .add('with error', () => (
     <Input
-      label={'Username'}
+      label="Username"
       input={input}
       meta={{
         error: 'unknown user',
@@ -29,14 +29,14 @@ storiesOf('Input', module)
   ))
   .add('with placeholder', () => (
     <Input
-      label={'Username'}
-      placeholder={'ex: kitteh1234'}
+      label="Username"
+      placeholder="ex: kitteh1234"
     />
   ))
   .add('with type = password', () => (
     <Input
       input={input}
-      type={'password'}
+      type="password"
     />
   ))
   .add('with type = email', () => (
@@ -45,7 +45,7 @@ storiesOf('Input', module)
         value: 'test@test.com',
         onChange: action('on-change'),
       }}
-      type={'email'}
+      type="email"
     />
   ))
   .add('with submitting = true', () => (

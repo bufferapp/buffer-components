@@ -8,36 +8,36 @@ storiesOf('LinkStateless', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <div>
-      <LinkStateless href={'https://twitter.com'}>Twitter</LinkStateless>
+      <LinkStateless href="https://twitter.com">Twitter</LinkStateless>
       <br />
-      <LinkStateless href={'https://buffer.com'}>Buffer</LinkStateless>
+      <LinkStateless href="https://buffer.com">Buffer</LinkStateless>
     </div>
   ))
   .add('unstyled', () => (
     <div>
-      <LinkStateless href={'https://twitter.com'} unstyled>Twitter</LinkStateless>
+      <LinkStateless href="https://twitter.com" unstyled>Twitter</LinkStateless>
       <br />
-      <LinkStateless href={'https://buffer.com'} unstyled>Buffer</LinkStateless>
+      <LinkStateless href="https://buffer.com" unstyled>Buffer</LinkStateless>
     </div>
   ))
   .add('newTab', () => (
     <div>
-      <LinkStateless href={'https://twitter.com'} newTab>Twitter</LinkStateless>
+      <LinkStateless href="https://twitter.com" newTab>Twitter</LinkStateless>
       <br />
-      <LinkStateless href={'https://buffer.com'} newTab>Buffer</LinkStateless>
+      <LinkStateless href="https://buffer.com" newTab>Buffer</LinkStateless>
     </div>
   ))
   .add('hovered', () => (
     <div>
-      <LinkStateless href={'https://twitter.com'} hovered>Twitter</LinkStateless>
+      <LinkStateless href="https://twitter.com" hovered>Twitter</LinkStateless>
       <br />
-      <LinkStateless href={'https://buffer.com'} hovered>Buffer</LinkStateless>
+      <LinkStateless href="https://buffer.com" hovered>Buffer</LinkStateless>
     </div>
   ))
   .add('onMouseEnter + onMouseLeave', () => (
     <div>
       <LinkStateless
-        href={'https://twitter.com'}
+        href="https://twitter.com"
         onMouseEnter={action('on-mouse-enter')}
         onMouseLeave={action('on-mouse-leave')}
       >
@@ -45,7 +45,7 @@ storiesOf('LinkStateless', module)
       </LinkStateless>
       <br />
       <LinkStateless
-        href={'https://buffer.com'}
+        href="https://buffer.com"
         onMouseEnter={action('on-mouse-enter')}
         onMouseLeave={action('on-mouse-leave')}
       >
@@ -55,7 +55,7 @@ storiesOf('LinkStateless', module)
   ))
   .add('focused', () => (
     <LinkStateless
-      href={'https://twitter.com'}
+      href="https://twitter.com"
       focused
     >
       Twitter
@@ -63,7 +63,7 @@ storiesOf('LinkStateless', module)
   ))
   .add('onFocus + onBlur', () => (
     <LinkStateless
-      href={'https://twitter.com'}
+      href="https://twitter.com"
       onFocus={action('on-focus')}
       onBlur={action('on-blur')}
     >

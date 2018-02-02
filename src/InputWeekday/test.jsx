@@ -8,14 +8,12 @@ configure({ adapter: new Adapter() });
 describe('InputWeekday', () => {
   it('should trigger onChange when day is selected', () => {
     const onChange = jest.fn();
-    const wrapper = mount(
-      <InputWeekday
-        input={{
+    const wrapper = mount(<InputWeekday
+      input={{
           onChange,
           value: '',
         }}
-      />,
-    );
+    />);
     wrapper
       .find('select')
       .first()

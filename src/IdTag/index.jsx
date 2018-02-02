@@ -18,12 +18,13 @@ const style = {
 
 const IdTag = ({
   children,
-}) =>
+}) => (
   <span
     style={style}
   >
-    <Text color={'white'}>{children}</Text>
-  </span>;
+    <Text color="white">{children}</Text>
+  </span>
+);
 
 IdTag.propTypes = {
   children: PropTypes.string.isRequired,

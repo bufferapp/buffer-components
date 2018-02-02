@@ -1,3 +1,5 @@
+// TODO: theres some defaults that need to be adjusted in this file
+/* eslint-disable */
 import React from 'react';
 import uuid from 'uuid';
 import Autocomplete from 'react-autocomplete';
@@ -44,11 +46,13 @@ const InputAutocomplete = ({
       isHighlighted,
     });
     return (
-      <div style={style}><Text
-        key={uuid()}
-      >
-        {label}
-      </Text></div>
+      <div style={style}>
+        <Text
+          key={uuid()}
+        >
+          {label}
+        </Text>
+      </div>
     );
   };
 

@@ -8,7 +8,7 @@ import PseudoClassComponent from '../PseudoClassComponent';
 // generate array of numbers (inclusive) - IE 11 compatible
 const genArray = (start, end) =>
   Array.apply(null, { length: end + 1 }) // eslint-disable-line prefer-spread
-  .map(Number.call, Number).slice(start);
+    .map(Number.call, Number).slice(start);
 const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
 
 /* eslint-disable react/prop-types */
@@ -42,7 +42,7 @@ const SelectWrapperStateless = ({
   onMouseLeave,
   onFocus,
   onBlur,
-}) =>
+}) => (
   <div
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
@@ -57,7 +57,8 @@ const SelectWrapperStateless = ({
     })}
   >
     {children}
-  </div>;
+  </div>
+);
 
 class SelectWrapper extends PseudoClassComponent {
   render() {
@@ -112,12 +113,13 @@ const timeColonWrapperStyle = ({
 const TimeColonWrapper = ({
   children,
   minimal,
-}) =>
+}) => (
   <div
     style={timeColonWrapperStyle({ minimal })}
   >
     {children}
-  </div>;
+  </div>
+);
 
 const AmPm = ({
   disabled,
@@ -125,7 +127,7 @@ const AmPm = ({
   onChange,
   submitting,
   value,
-}) =>
+}) => (
   <SelectWrapper minimal={minimal}>
     <Select
       disabled={disabled || submitting}
@@ -141,7 +143,8 @@ const AmPm = ({
       centerText={minimal}
       rangeSelector={!minimal}
     />
-  </SelectWrapper>;
+  </SelectWrapper>
+);
 
 /* eslint-enable react/prop-types */
 
@@ -202,7 +205,7 @@ const InputTime = ({
           onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
           value={value.hours}
           options={generateHours(select24Hours, value)}
-          label={'Hour'}
+          label="Hour"
           noStyle={minimal}
           centerText={minimal}
           rangeSelector={!minimal}
@@ -212,7 +215,7 @@ const InputTime = ({
         <TimeColonWrapper
           minimal={minimal}
         >
-          <Text size={'small'}>:</Text>
+          <Text size="small">:</Text>
         </TimeColonWrapper>
         : null }
       <SelectWrapper
@@ -225,7 +228,7 @@ const InputTime = ({
           onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
           value={value.minutes}
           options={generateMinutes()}
-          label={'Minute'}
+          label="Minute"
           noStyle={minimal}
           centerText={minimal}
           rangeSelector={!minimal}
@@ -235,7 +238,9 @@ const InputTime = ({
         select24Hours ?
         null
         :
-        AmPm({ disabled, minimal, onChange, submitting, value })
+        AmPm({
+ disabled, minimal, onChange, submitting, value,
+})
       }
     </div>
   );

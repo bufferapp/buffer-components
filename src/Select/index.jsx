@@ -4,7 +4,6 @@ import { calculateStyles } from '../lib/utils';
 import colors, {
   transparent,
   mystic,
-  shuttleGray,
 } from '../style/color';
 import {
   fontSizeSmall,
@@ -30,7 +29,7 @@ const selectWrapperStyle = {
   position: 'relative',
 };
 
-const RangeIcon = () =>
+const RangeIcon = () => (
   <div
     style={{
       position: 'absolute',
@@ -54,7 +53,7 @@ const RangeIcon = () =>
         fontFamily: 'none',
       }}
     >
-      <ArrowUpIcon size={'small'} />
+      <ArrowUpIcon size="small" />
     </div>
     <div
       style={{
@@ -62,14 +61,15 @@ const RangeIcon = () =>
         fontFamily: 'none',
       }}
     >
-      <ArrowDownIcon size={'small'} />
+      <ArrowDownIcon size="small" />
     </div>
-  </div>;
+  </div>);
 
-const DefaultIcon = () =>
+const DefaultIcon = () => (
   <div style={defaultIconStyle}>
     <ArrowDownIcon />
-  </div>;
+  </div>
+);
 
 /* eslint-disable react/prop-types */
 const SelectIcon = ({ noStyle, rangeSelector }) => {
@@ -146,11 +146,10 @@ const Select = ({
         value={value}
       >
         {
-          options.map(option =>
+          options.map(option => (
             <option key={option.value.toString()} value={option.value}>
               {option.name}
-            </option>,
-            )
+            </option>))
         }
       </select>
       <SelectIcon
