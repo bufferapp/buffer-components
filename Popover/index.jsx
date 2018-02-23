@@ -16,6 +16,9 @@ const Popover = ({
   right,
   onOverlayClick,
   transparentOverlay,
+  hidden = false,
+  showCloseButton = false,
+  onCloseClick,
 }) =>
   <span>
     <div
@@ -27,22 +30,30 @@ const Popover = ({
           bottom,
           right,
           zIndex: modal,
+
         },
         center: {
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
         },
+        hidden: {
+          display: 'none',
+        },
       }, {
         center: !(left || top || bottom || right),
+        hidden,
       })}
     >
+      {showCloseButton && <button onClick={onCloseClick}>X</button>}
       {children}
     </div>
-    <Overlay
-      onClick={onOverlayClick}
-      transparent={transparentOverlay}
-    />
+    {!hidden &&
+      <Overlay
+        onClick={onOverlayClick}
+        transparent={transparentOverlay}
+        showCloseButton={showCloseButton}
+      />}
   </span>;
 
 Popover.propTypes = {
@@ -53,6 +64,9 @@ Popover.propTypes = {
   right: PropTypes.string,
   onOverlayClick: PropTypes.func,
   transparentOverlay: PropTypes.bool,
+  hidden: PropTypes.bool,
+  showCloseButton: PropTypes.bool,
+  onCloseClick: PropTypes.func,
 };
 
 export default Popover;
