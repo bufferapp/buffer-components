@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+//import { checkA11y } from 'storybook-addon-a11y';
 import AddMediaIcon from './Icons/AddMediaIcon';
 import AnalyticsIcon from './Icons/AnalyticsIcon';
 import ArrowDownIcon from './Icons/ArrowDownIcon';
@@ -50,6 +50,7 @@ import GifIcon from './Icons/GifIcon';
 import GoogleIcon from './Icons/GoogleIcon';
 import ImageIcon from './Icons/ImageIcon';
 import InstagramIcon from './Icons/InstagramIcon';
+import InstagramReminderIcon from './Icons/InstagramReminderIcon';
 import LikeIcon from './Icons/LikeIcon';
 import LinkIcon from './Icons/LinkIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
@@ -80,7 +81,7 @@ import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
 
 storiesOf('Icon')
-  .addDecorator(checkA11y)
+  //.addDecorator(checkA11y)
   .add('large', () => (
     <AddMediaIcon size={'large'} />
   ))
@@ -239,6 +240,9 @@ storiesOf('Icon')
   ))
   .add('instagramIcon', () => (
     <InstagramIcon />
+  ))
+  .add('instagramReminderIcon', () => (
+    <InstagramReminderIcon size={'small'}/>
   ))
   .add('likeIcon', () => (
     <LikeIcon />
