@@ -50,6 +50,7 @@ import GifIcon from './Icons/GifIcon';
 import GoogleIcon from './Icons/GoogleIcon';
 import ImageIcon from './Icons/ImageIcon';
 import InstagramIcon from './Icons/InstagramIcon';
+import InstagramReminderIcon from './Icons/InstagramReminderIcon';
 import LikeIcon from './Icons/LikeIcon';
 import LinkIcon from './Icons/LinkIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
@@ -239,6 +240,9 @@ storiesOf('Icon')
   ))
   .add('instagramIcon', () => (
     <InstagramIcon />
+  ))
+  .add('instagramReminderIcon', () => (
+    <InstagramReminderIcon size={'small'}/>
   ))
   .add('likeIcon', () => (
     <LikeIcon />

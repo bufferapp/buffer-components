@@ -49,6 +49,7 @@ export GifIcon from './GifIcon';
 export GoogleIcon from './GoogleIcon';
 export ImageIcon from './ImageIcon';
 export InstagramIcon from './InstagramIcon';
+export InstagramReminderIcon from './InstagramReminderIcon';
 export LikeIcon from './LikeIcon';
 export LinkIcon from './LinkIcon';
 export LinkedInIcon from './LinkedInIcon';
