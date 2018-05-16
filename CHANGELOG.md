@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.4 (May 16, 2018)
+
+- Use flexbox to center the `Popover` to avoid blurry rendering from the transform.
+
 ## 2.1.3 (December 13, 2017)
 
 - Reset font `mini` to `0.9rem` and remove `0.5rem` duplicate
