@@ -16,40 +16,47 @@ const Popover = ({
   right,
   onOverlayClick,
   transparentOverlay,
+  hidden,
 }) =>
-  <span>
-    <div
-      style={calculateStyles({
-        default: {
-          position: 'absolute',
-          left,
-          top,
-          bottom,
-          right,
-          zIndex: modal,
-        },
-        center: {
-          top: '0',
-          left: '0',
-          position: 'absolute',
-          display: 'flex',
-          flexDirection: 'column',
-          height: '100vh',
-          width: '100vw',
-          justifyContent: 'center',
-          alignItems: 'center',
-        },
-      }, {
-        center: !(left || top || bottom || right),
-      })}
-    >
-      {children}
+  (!hidden &&
+    <div style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      height: '100vh',
+      width: '100vw',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}>
+      <div
+        style={calculateStyles({
+          default: {
+            position: 'absolute',
+            left,
+            top,
+            bottom,
+            right,
+            zIndex: modal,
+          },
+          center: {
+            // top: '50%',
+            // left: '50%',
+            // marginLeft: '-25%',
+          },
+        }, {
+          center: !(left || top || bottom || right),
+        })}
+      >
+        {children}
+      </div>
+      <Overlay
+        onClick={onOverlayClick}
+        transparent={transparentOverlay}
+      />
     </div>
-    <Overlay
-      onClick={onOverlayClick}
-      transparent={transparentOverlay}
-    />
-  </span>;
+  );
 
 Popover.propTypes = {
   children: PropTypes.node,
@@ -59,6 +66,11 @@ Popover.propTypes = {
   right: PropTypes.string,
   onOverlayClick: PropTypes.func,
   transparentOverlay: PropTypes.bool,
+  hidden: PropTypes.bool,
+};
+
+Popover.defaultProps = {
+  hidden: false,
 };
 
 export default Popover;
