@@ -29,9 +29,15 @@ const Popover = ({
           zIndex: modal,
         },
         center: {
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
+          top: '0',
+          left: '0',
+          position: 'absolute',
+          display: 'flex',
+          flexDirection: 'column',
+          height: '100vh',
+          width: '100vw',
+          justifyContent: 'center',
+          alignItems: 'center',
         },
       }, {
         center: !(left || top || bottom || right),
