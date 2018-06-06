@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.5 (June 6, 2018)
+
+- Clean up `Popover` component styling.
+
 ## 2.1.4 (May 16, 2018)
 
 - Use flexbox to center the `Popover` to avoid blurry rendering from the transform.

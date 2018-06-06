@@ -21733,7 +21733,21 @@ exports[`Snapshots Overlay transparent=true 1`] = `
 `;
 
 exports[`Snapshots Popover bottom = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -21780,11 +21794,25 @@ exports[`Snapshots Popover bottom = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -21831,20 +21859,33 @@ exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover default 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
         "bottom": undefined,
-        "left": "50%",
+        "left": undefined,
         "position": "absolute",
         "right": undefined,
-        "top": "50%",
-        "transform": "translate(-50%, -50%)",
+        "top": undefined,
         "zIndex": 3000,
       }
     }
@@ -21883,11 +21924,25 @@ exports[`Snapshots Popover default 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover left = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -21934,11 +21989,25 @@ exports[`Snapshots Popover left = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover right = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -21985,11 +22054,25 @@ exports[`Snapshots Popover right = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover top = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -22036,11 +22119,25 @@ exports[`Snapshots Popover top = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
@@ -22087,20 +22184,33 @@ exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots Popover transparent Overlay 1`] = `
-<span>
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
   <div
     style={
       Object {
         "bottom": undefined,
-        "left": "50%",
+        "left": undefined,
         "position": "absolute",
         "right": undefined,
-        "top": "50%",
-        "transform": "translate(-50%, -50%)",
+        "top": undefined,
         "zIndex": 3000,
       }
     }
@@ -22139,7 +22249,7 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
       }
     }
   />
-</span>
+</div>
 `;
 
 exports[`Snapshots SectionHeader default 1`] = `

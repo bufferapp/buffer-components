@@ -8,6 +8,18 @@ import {
   modal,
 } from '../style/zIndex';
 
+const popoverWrapperStyle = {
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  display: 'flex',
+  flexDirection: 'column',
+  height: '100vh',
+  width: '100vw',
+  justifyContent: 'center',
+  alignItems: 'center',
+};
+
 const Popover = ({
   children,
   left,
@@ -16,8 +28,8 @@ const Popover = ({
   right,
   onOverlayClick,
   transparentOverlay,
-}) =>
-  <span>
+}) => (
+  <div style={popoverWrapperStyle}>
     <div
       style={calculateStyles({
         default: {
@@ -28,19 +40,6 @@ const Popover = ({
           right,
           zIndex: modal,
         },
-        center: {
-          top: '0',
-          left: '0',
-          position: 'absolute',
-          display: 'flex',
-          flexDirection: 'column',
-          height: '100vh',
-          width: '100vw',
-          justifyContent: 'center',
-          alignItems: 'center',
-        },
-      }, {
-        center: !(left || top || bottom || right),
       })}
     >
       {children}
@@ -49,10 +48,11 @@ const Popover = ({
       onClick={onOverlayClick}
       transparent={transparentOverlay}
     />
-  </span>;
+  </div>
+);
 
 Popover.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
   left: PropTypes.string,
   top: PropTypes.string,
   bottom: PropTypes.string,
