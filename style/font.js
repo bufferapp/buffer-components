@@ -1,11 +1,13 @@
 export const fontFamily = '"Roboto", sans-serif';
 
+export const fontSizeExtraExtraSmall = '0.5rem';
+export const fontSizeExtraSmall = '0.75rem';
+export const fontSizeSmall = '0.875rem';
 export const fontSize = '1rem';
 export const fontSizeLarge = '1.25rem';
-export const fontSizeExtraLarge = '2rem';
-export const fontSizeSmall = '0.75rem';
-export const fontSizeExtraSmall = '0.5rem';
-export const fontSizeMini = '0.5rem'; // TODO: Can we get rid of this one?
+export const fontSizeExtraLarge = '1.5rem';
+export const fontSizeExtraExtraLarge = '1.75rem';
+export const fontSizeHuge = '2rem';
 
 // https://www.w3.org/TR/css-fonts-3/#font-weight-prop
 export const fontWeightThin = 100;

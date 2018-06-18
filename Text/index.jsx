@@ -5,12 +5,14 @@ import {
 } from '../lib/utils';
 import {
   fontFamily,
+  fontSizeExtraExtraSmall,
+  fontSizeExtraSmall,
+  fontSizeSmall,
   fontSize,
   fontSizeLarge,
   fontSizeExtraLarge,
-  fontSizeMini,
-  fontSizeSmall,
-  fontSizeExtraSmall,
+  fontSizeExtraExtraLarge,
+  fontSizeHuge,
   fontWeightThin,
   fontWeightExtraLight,
   fontWeightLight,
@@ -57,8 +59,14 @@ const Text = ({ children, size, weight, color }) => {
       fontWeight: fontWeightBlack,
     },
     // Sizes
+    extraExtraSmall: {
+      fontSize: fontSizeExtraExtraSmall,
+    },
     extraSmall: {
       fontSize: fontSizeExtraSmall,
+    },
+    small: {
+      fontSize: fontSizeSmall,
     },
     large: {
       fontSize: fontSizeLarge,
@@ -66,11 +74,11 @@ const Text = ({ children, size, weight, color }) => {
     extraLarge: {
       fontSize: fontSizeExtraLarge,
     },
-    mini: {
-      fontSize: fontSizeMini,
+    extraExtraLarge: {
+      fontSize: fontSizeExtraExtraLarge,
     },
-    small: {
-      fontSize: fontSizeSmall,
+    huge: {
+      fontSize: fontSizeHuge,
     },
   }, {
     // Weights
@@ -83,11 +91,13 @@ const Text = ({ children, size, weight, color }) => {
     extraBold: weight === 'extra-bold',
     black: weight === 'black',
     // Sizes
+    extraExtraSmall: size === 'extra-extra-small',
     extraSmall: size === 'extra-small',
+    small: size === 'small',
     large: size === 'large',
     extraLarge: size === 'extra-large',
-    mini: size === 'mini',
-    small: size === 'small',
+    extraExtraLarge: size === 'extra-extra-large',
+    huge: size === 'huge',
   });
   return (
     <span style={style}>{children}</span>
@@ -96,7 +106,7 @@ const Text = ({ children, size, weight, color }) => {
 
 Text.propTypes = {
   children: PropTypes.node,
-  size: PropTypes.oneOf(['extra-small', 'large', 'extra-large', 'mini', 'small']),
+  size: PropTypes.oneOf(['extra-extra-small', 'extra-small', 'small', 'large', 'extra-large', 'extra-extra-large', 'huge']),
   weight: PropTypes.oneOf(['extra-light', 'light', 'thin', 'medium', 'semi-bold', 'bold', 'extra-bold', 'black']),
   color: PropTypes.oneOf(Object.keys(colors)),
 };

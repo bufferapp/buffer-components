@@ -4,7 +4,7 @@ import {
   calculateStyles,
 } from '../lib/utils';
 import {
-  fontSizeMini,
+  fontSizeExtraSmall,
   lineHeight,
 } from '../style/font';
 import {
@@ -48,7 +48,7 @@ const Card = ({
   const style = calculateStyles({
     default: {
       padding: '1.5rem',
-      fontSize: fontSizeMini,
+      fontSize: fontSizeExtraSmall,
       lineHeight,
       color: outerSpace,
       backgroundColor: white,
