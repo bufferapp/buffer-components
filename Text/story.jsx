@@ -5,7 +5,7 @@ import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';
 
-storiesOf('Text')
+storiesOf('Text', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Text>{text}</Text>

@@ -5511,7 +5511,7 @@ exports[`Snapshots Input with error 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -5553,7 +5553,7 @@ exports[`Snapshots Input with error 1`] = `
   <div
     style={
       Object {
-        "marginTop": "1rem",
+        "marginTop": "0.5rem",
       }
     }
   >
@@ -5578,7 +5578,7 @@ exports[`Snapshots Input with label 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -5624,7 +5624,7 @@ exports[`Snapshots Input with placeholder 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -10990,7 +10990,7 @@ exports[`Snapshots InputEmail with error 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -11032,7 +11032,7 @@ exports[`Snapshots InputEmail with error 1`] = `
   <div
     style={
       Object {
-        "marginTop": "1rem",
+        "marginTop": "0.5rem",
       }
     }
   >
@@ -11057,7 +11057,7 @@ exports[`Snapshots InputEmail with label 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -11103,7 +11103,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -11254,7 +11254,7 @@ exports[`Snapshots InputPassword with error 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >
@@ -11296,7 +11296,7 @@ exports[`Snapshots InputPassword with error 1`] = `
   <div
     style={
       Object {
-        "marginTop": "1rem",
+        "marginTop": "0.5rem",
       }
     }
   >
@@ -11321,7 +11321,7 @@ exports[`Snapshots InputPassword with label 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "1rem",
+        "marginBottom": "0.5rem",
       }
     }
   >

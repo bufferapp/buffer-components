@@ -28,7 +28,10 @@
     "verbose": true,
     "moduleNameMapper": {
       "\\.(css|less)$": "identity-obj-proxy"
-    }
+    },
+    "setupFiles": [
+      "<rootDir>/testSetup.js"
+    ]
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "3.2.13",
@@ -52,6 +55,7 @@
   },
   "dependencies": {
     "@bufferapp/react-keyframes": "0.2.5",
+    "raf": "3.4.0",
     "react-autocomplete": "1.7.2",
     "react-day-picker": "6.2.1"
   },

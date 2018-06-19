@@ -19,11 +19,11 @@ import Text from '../Text';
 /* eslint-disable react/prop-types */
 
 const labelStyle = {
-  marginBottom: '1rem',
+  marginBottom: '0.5rem',
 };
 
 const errorStyle = {
-  marginTop: '1rem',
+  marginTop: '0.5rem',
 };
 
 const renderLabel = ({ label }) => (
