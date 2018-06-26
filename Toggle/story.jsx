@@ -7,4 +7,7 @@ storiesOf('Toggle', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Toggle />
+  ))
+  .add('enabled', () => (
+    <Toggle enabled />
   ));
