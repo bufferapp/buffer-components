@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.0 (June 26, 2018)
+
+- Add `InputStateless` and modify `Input` so that the focus styling works
+- Fix font stylying and sizing of `Select`
+
 ## 2.1.5 (June 6, 2018)
 
 - Clean up `Popover` component styling.
