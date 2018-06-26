@@ -34,14 +34,4 @@ storiesOf('InputPassword', module)
         submitting: true,
       }}
     />
-  ))
-  .add('focused', () => (
-    <InputPassword input={input} focused />
-  ))
-  .add('onFocus + onBlur', () => (
-    <InputPassword
-      input={input}
-      onFocus={action('on-focus')}
-      onBlur={action('on-blur')}
-    />
   ));
