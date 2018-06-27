@@ -23478,6 +23478,378 @@ exports[`Snapshots Text white 1`] = `
 </div>
 `;
 
+exports[`Snapshots Toggle custom disabledText 1`] = `
+<button
+  aria-label={null}
+  disabled={undefined}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Off
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "0%",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle custom enabledText 1`] = `
+<button
+  aria-label={null}
+  disabled={undefined}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      On
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#168eea",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "calc(100% - 1rem)",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle default 1`] = `
+<button
+  aria-label={null}
+  disabled={undefined}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Disabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "0%",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle enabled 1`] = `
+<button
+  aria-label={null}
+  disabled={undefined}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Enabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#168eea",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "calc(100% - 1rem)",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
 exports[`Snapshots Video Default 1`] = `
 <video
   controls={true}
