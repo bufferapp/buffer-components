@@ -33,8 +33,8 @@ const Toggle = ({ enabled }) => (
           right: 0,
           borderRadius: '2rem',
           background: enabled ? curiousBlue : offWhite,
-          border: `${borderWidth} solid ${outerSpaceLight}`,
-          transition: `background ${transitionAnimationTime} ${transitionAnimationType}`,
+          border: `${borderWidth} solid ${enabled ? curiousBlue : outerSpaceLight}`,
+          transition: `background ${transitionAnimationTime} ${transitionAnimationType}, border ${transitionAnimationTime} ${transitionAnimationType}`,
         }}
       />
       <div
@@ -46,8 +46,8 @@ const Toggle = ({ enabled }) => (
           left: enabled ? 'calc(100% - 1rem)' : '0%',
           borderRadius: '50%',
           background: offWhite,
-          border: `${borderWidth} solid ${outerSpaceLight}`,
-          transition: `left ${transitionAnimationTime} ${transitionAnimationType}`,
+          border: `${borderWidth} solid ${enabled ? curiousBlue : outerSpaceLight}`,
+          transition: `left ${transitionAnimationTime} ${transitionAnimationType}, border ${transitionAnimationTime} ${transitionAnimationType}`,
         }}
       />
     </div>
