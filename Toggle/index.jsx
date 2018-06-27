@@ -6,14 +6,19 @@ import { outerSpaceLight, offWhite, curiousBlue } from '../style/color';
 import { borderWidth } from '../style/border';
 import { transitionAnimationTime, transitionAnimationType } from '../style/animation';
 
-const Toggle = ({ enabled }) => (
-  <Button noStyle>
+const Toggle = ({
+  enabled,
+  onClick,
+  enabledText,
+  disabledText,
+}) => (
+  <Button noStyle onClick={onClick}>
     <div
       style={{
         display: 'flex',
       }}
     >
-      <Text>{enabled ? 'Enabled' : 'Disabled'}</Text>
+      <Text>{enabled ? enabledText : disabledText}</Text>
       <div
         style={{
           position: 'relative',
@@ -55,10 +60,15 @@ const Toggle = ({ enabled }) => (
 
 Toggle.propTypes = {
   enabled: PropTypes.bool,
+  onClick: PropTypes.func.isRequired,
+  enabledText: PropTypes.string,
+  disabledText: PropTypes.string,
 };
 
 Toggle.defaultProps = {
   enabled: false,
+  enabledText: 'Enabled',
+  disabledText: 'Disabled',
 };
 
 export default Toggle;
