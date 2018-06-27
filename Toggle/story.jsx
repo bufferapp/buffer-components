@@ -9,12 +9,18 @@ storiesOf('Toggle', module)
   .add('default', () => (
     <Toggle onClick={action('onClick')} />
   ))
-  .add('enabled', () => (
-    <Toggle onClick={action('onClick')} enabled />
+  .add('on', () => (
+    <Toggle onClick={action('onClick')} on />
   ))
-  .add('custom disabledText', () => (
-    <Toggle onClick={action('onClick')} disabledText="Off" />
+  .add('custom offText', () => (
+    <Toggle onClick={action('onClick')} offText="Off" />
   ))
-  .add('custom enabledText', () => (
-    <Toggle onClick={action('onClick')} enabledText="On" enabled />
+  .add('custom onText', () => (
+    <Toggle onClick={action('onClick')} onText="On" on />
+  ))
+  .add('disabled', () => (
+    <Toggle onClick={action('onClick')} disabled />
+  ))
+  .add('disabled + on', () => (
+    <Toggle onClick={action('onClick')} disabled on />
   ));

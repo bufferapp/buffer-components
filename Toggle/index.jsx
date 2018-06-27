@@ -7,18 +7,20 @@ import { borderWidth } from '../style/border';
 import { transitionAnimationTime, transitionAnimationType } from '../style/animation';
 
 const Toggle = ({
-  enabled,
+  on,
   onClick,
-  enabledText,
-  disabledText,
+  onText,
+  offText,
+  disabled,
 }) => (
-  <Button noStyle onClick={onClick}>
+  <Button noStyle onClick={onClick} disabled={disabled}>
     <div
       style={{
         display: 'flex',
+        opacity: disabled ? 0.5 : undefined,
       }}
     >
-      <Text>{enabled ? enabledText : disabledText}</Text>
+      <Text>{on ? onText : offText}</Text>
       <div
         style={{
           position: 'relative',
@@ -35,8 +37,8 @@ const Toggle = ({
             bottom: 0,
             right: 0,
             borderRadius: '2rem',
-            background: enabled ? curiousBlue : offWhite,
-            border: `${borderWidth} solid ${enabled ? curiousBlue : outerSpaceLight}`,
+            background: on ? curiousBlue : offWhite,
+            border: `${borderWidth} solid ${on ? curiousBlue : outerSpaceLight}`,
             transition: `background ${transitionAnimationTime} ${transitionAnimationType}, border ${transitionAnimationTime} ${transitionAnimationType}`,
           }}
         />
@@ -46,10 +48,10 @@ const Toggle = ({
             height: '1rem',
             width: '1rem',
             top: 0,
-            left: enabled ? 'calc(100% - 1rem)' : '0%',
+            left: on ? 'calc(100% - 1rem)' : '0%',
             borderRadius: '50%',
             background: offWhite,
-            border: `${borderWidth} solid ${enabled ? curiousBlue : outerSpaceLight}`,
+            border: `${borderWidth} solid ${on ? curiousBlue : outerSpaceLight}`,
             transition: `left ${transitionAnimationTime} ${transitionAnimationType}, border ${transitionAnimationTime} ${transitionAnimationType}`,
           }}
         />
@@ -59,16 +61,18 @@ const Toggle = ({
 );
 
 Toggle.propTypes = {
-  enabled: PropTypes.bool,
+  on: PropTypes.bool,
   onClick: PropTypes.func.isRequired,
-  enabledText: PropTypes.string,
-  disabledText: PropTypes.string,
+  onText: PropTypes.string,
+  offText: PropTypes.string,
+  disabled: PropTypes.bool,
 };
 
 Toggle.defaultProps = {
-  enabled: false,
-  enabledText: 'Enabled',
-  disabledText: 'Disabled',
+  on: false,
+  onText: 'Enabled',
+  offText: 'Disabled',
+  disabled: false,
 };
 
 export default Toggle;
