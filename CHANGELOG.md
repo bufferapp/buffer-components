@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 (June 27, 2018)
+
+- Fix `Input` to not use/require `children`.
+
 ## 2.2.0 (June 26, 2018)
 
 - Add `InputStateless` and modify `Input` so that the focus styling works
