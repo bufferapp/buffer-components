@@ -32,4 +32,5 @@ export Select from './Select';
 export Tab from './Tab';
 export Tabs from './Tabs';
 export Text from './Text';
+export Toggle from './Toggle';
 export PseudoClassComponent from './PseudoClassComponent';
