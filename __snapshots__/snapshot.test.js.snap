@@ -11408,7 +11408,7 @@ exports[`Snapshots InputTime default 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -11602,7 +11602,7 @@ exports[`Snapshots InputTime default 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -12036,7 +12036,7 @@ exports[`Snapshots InputTime default 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -12192,7 +12192,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -12386,7 +12386,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -12820,7 +12820,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -12976,7 +12976,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -13194,7 +13194,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -13628,7 +13628,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -15420,7 +15420,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -15674,7 +15674,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -16120,7 +16120,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -16314,7 +16314,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -16748,7 +16748,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -16904,7 +16904,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -17158,7 +17158,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -17604,7 +17604,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -17798,7 +17798,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -18232,7 +18232,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -18388,7 +18388,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -18582,7 +18582,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -19016,7 +19016,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "fontSize": "1rem",
             "height": "2.3rem",
             "outline": "none",
-            "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+            "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
           }
@@ -19157,7 +19157,7 @@ exports[`Snapshots InputWeekday default 1`] = `
           "fontSize": "1rem",
           "height": "2.3rem",
           "outline": "none",
-          "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+          "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
       }
@@ -19285,7 +19285,7 @@ exports[`Snapshots InputWeekday with form submitting 1`] = `
           "fontSize": "1rem",
           "height": "2.3rem",
           "outline": "none",
-          "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+          "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
       }
@@ -19413,7 +19413,7 @@ exports[`Snapshots InputWeekday with value set 1`] = `
           "fontSize": "1rem",
           "height": "2.3rem",
           "outline": "none",
-          "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+          "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
       }
@@ -22396,7 +22396,7 @@ exports[`Snapshots Select default 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
     }
@@ -22552,7 +22552,7 @@ exports[`Snapshots Select rangeSelector 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "paddingRight": "1rem",
         "width": "100%",
       }
@@ -22684,7 +22684,7 @@ exports[`Snapshots Select rangeSelector centerText 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "paddingLeft": 0,
         "paddingRight": "1rem",
         "textAlignLast": "center",
@@ -22818,7 +22818,7 @@ exports[`Snapshots Select short numbers 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
     }
@@ -22898,7 +22898,7 @@ exports[`Snapshots Select with text color 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
     }
@@ -22993,7 +22993,7 @@ exports[`Snapshots Select with value set 1`] = `
         "fontSize": "1rem",
         "height": "2.3rem",
         "outline": "none",
-        "padding": "0.5rem 1.5rem 0.5rem 0.5rem",
+        "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
     }
