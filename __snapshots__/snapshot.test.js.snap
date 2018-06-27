@@ -5431,225 +5431,16 @@ exports[`Snapshots Input default 1`] = `
 <div>
   <input
     disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-</div>
-`;
-
-exports[`Snapshots Input focused 1`] = `
-<div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderColor": "#168eea",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-</div>
-`;
-
-exports[`Snapshots Input onFocus + onBlur 1`] = `
-<div>
-  <input
-    disabled={undefined}
     onBlur={[Function]}
-    onChange={[Function]}
-    onFocus={[Function]}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-</div>
-`;
-
-exports[`Snapshots Input with error 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "marginBottom": "0.5rem",
-      }
-    }
-  >
-    <span
-      style={
-        Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        }
-      }
-    >
-      Username
-    </span>
-  </div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderColor": "#ff1e1e",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-  <div
-    style={
-      Object {
-        "marginTop": "0.5rem",
-      }
-    }
-  >
-    <span
-      style={
-        Object {
-          "color": "#ff1e1e",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        }
-      }
-    >
-      unknown user
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Snapshots Input with label 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "marginBottom": "0.5rem",
-      }
-    }
-  >
-    <span
-      style={
-        Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        }
-      }
-    >
-      Username
-    </span>
-  </div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-</div>
-`;
-
-exports[`Snapshots Input with placeholder 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "marginBottom": "0.5rem",
-      }
-    }
-  >
-    <span
-      style={
-        Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        }
-      }
-    >
-      Username
-    </span>
-  </div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
     onChange={undefined}
-    onFocus={undefined}
-    placeholder="ex: kitteh1234"
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -5661,84 +5452,6 @@ exports[`Snapshots Input with placeholder 1`] = `
     }
     type="text"
     value={undefined}
-  />
-</div>
-`;
-
-exports[`Snapshots Input with submitting = true 1`] = `
-<div>
-  <input
-    disabled={true}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="text"
-    value="user123"
-  />
-</div>
-`;
-
-exports[`Snapshots Input with type = email 1`] = `
-<div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="email"
-    value="test@test.com"
-  />
-</div>
-`;
-
-exports[`Snapshots Input with type = password 1`] = `
-<div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="password"
-    value="user123"
   />
 </div>
 `;
@@ -10910,66 +10623,16 @@ exports[`Snapshots InputEmail default 1`] = `
 <div>
   <input
     disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="email"
-    value="test@test.com"
-  />
-</div>
-`;
-
-exports[`Snapshots InputEmail focused 1`] = `
-<div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderColor": "#168eea",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="email"
-    value="test@test.com"
-  />
-</div>
-`;
-
-exports[`Snapshots InputEmail onFocus + onBlur 1`] = `
-<div>
-  <input
-    disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -10990,7 +10653,7 @@ exports[`Snapshots InputEmail with error 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "0.5rem",
+        "marginBottom": "0.25rem",
       }
     }
   >
@@ -10999,8 +10662,8 @@ exports[`Snapshots InputEmail with error 1`] = `
         Object {
           "color": "#59626a",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
         }
       }
     >
@@ -11009,9 +10672,11 @@ exports[`Snapshots InputEmail with error 1`] = `
   </div>
   <input
     disabled={undefined}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
@@ -11032,7 +10697,7 @@ exports[`Snapshots InputEmail with error 1`] = `
   <div
     style={
       Object {
-        "marginTop": "0.5rem",
+        "marginTop": "0.25rem",
       }
     }
   >
@@ -11041,7 +10706,7 @@ exports[`Snapshots InputEmail with error 1`] = `
         Object {
           "color": "#ff1e1e",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
+          "fontSize": "0.75rem",
           "fontWeight": 400,
         }
       }
@@ -11057,7 +10722,7 @@ exports[`Snapshots InputEmail with label 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "0.5rem",
+        "marginBottom": "0.25rem",
       }
     }
   >
@@ -11066,8 +10731,8 @@ exports[`Snapshots InputEmail with label 1`] = `
         Object {
           "color": "#59626a",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
         }
       }
     >
@@ -11076,13 +10741,16 @@ exports[`Snapshots InputEmail with label 1`] = `
   </div>
   <input
     disabled={undefined}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11103,7 +10771,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "0.5rem",
+        "marginBottom": "0.25rem",
       }
     }
   >
@@ -11112,8 +10780,8 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
         Object {
           "color": "#59626a",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
         }
       }
     >
@@ -11122,13 +10790,16 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
   </div>
   <input
     disabled={undefined}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={undefined}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder="ex: test@test.com"
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11148,13 +10819,16 @@ exports[`Snapshots InputEmail with submitting = true 1`] = `
 <div>
   <input
     disabled={true}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11174,66 +10848,16 @@ exports[`Snapshots InputPassword default 1`] = `
 <div>
   <input
     disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="password"
-    value="password"
-  />
-</div>
-`;
-
-exports[`Snapshots InputPassword focused 1`] = `
-<div>
-  <input
-    disabled={undefined}
-    onBlur={undefined}
-    onChange={[Function]}
-    onFocus={undefined}
-    placeholder={undefined}
-    style={
-      Object {
-        "border": "0.063rem solid #ced7df",
-        "borderColor": "#168eea",
-        "borderRadius": "0.126rem",
-        "boxSizing": "border-box",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "1rem",
-        "outline": 0,
-        "padding": "0.5rem",
-        "width": "100%",
-      }
-    }
-    type="password"
-    value="password"
-  />
-</div>
-`;
-
-exports[`Snapshots InputPassword onFocus + onBlur 1`] = `
-<div>
-  <input
-    disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
     onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11254,7 +10878,7 @@ exports[`Snapshots InputPassword with error 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "0.5rem",
+        "marginBottom": "0.25rem",
       }
     }
   >
@@ -11263,8 +10887,8 @@ exports[`Snapshots InputPassword with error 1`] = `
         Object {
           "color": "#59626a",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
         }
       }
     >
@@ -11273,9 +10897,11 @@ exports[`Snapshots InputPassword with error 1`] = `
   </div>
   <input
     disabled={undefined}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
@@ -11296,7 +10922,7 @@ exports[`Snapshots InputPassword with error 1`] = `
   <div
     style={
       Object {
-        "marginTop": "0.5rem",
+        "marginTop": "0.25rem",
       }
     }
   >
@@ -11305,7 +10931,7 @@ exports[`Snapshots InputPassword with error 1`] = `
         Object {
           "color": "#ff1e1e",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
+          "fontSize": "0.75rem",
           "fontWeight": 400,
         }
       }
@@ -11321,7 +10947,7 @@ exports[`Snapshots InputPassword with label 1`] = `
   <div
     style={
       Object {
-        "marginBottom": "0.5rem",
+        "marginBottom": "0.25rem",
       }
     }
   >
@@ -11330,8 +10956,8 @@ exports[`Snapshots InputPassword with label 1`] = `
         Object {
           "color": "#59626a",
           "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
         }
       }
     >
@@ -11340,13 +10966,16 @@ exports[`Snapshots InputPassword with label 1`] = `
   </div>
   <input
     disabled={undefined}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11366,13 +10995,16 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
 <div>
   <input
     disabled={true}
-    onBlur={undefined}
+    onBlur={[Function]}
     onChange={[Function]}
-    onFocus={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
     placeholder={undefined}
     style={
       Object {
         "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
         "borderRadius": "0.126rem",
         "boxSizing": "border-box",
         "fontFamily": "\\"Roboto\\", sans-serif",
@@ -11384,6 +11016,347 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
     }
     type="password"
     value="password"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless default 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless focused 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#168eea",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless onFocus + onBlur 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with error 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+  <div
+    style={
+      Object {
+        "marginTop": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff1e1e",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      unknown user
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputStateless with label 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with placeholder 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder="ex: kitteh1234"
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with submitting = true 1`] = `
+<div>
+  <input
+    disabled={true}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = email 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="email"
+    value="test@test.com"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = password 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="password"
+    value="user123"
   />
 </div>
 `;
@@ -11431,8 +11404,10 @@ exports[`Snapshots InputTime default 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -11511,7 +11486,7 @@ exports[`Snapshots InputTime default 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -11524,7 +11499,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -11557,7 +11532,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -11623,8 +11598,10 @@ exports[`Snapshots InputTime default 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -11943,7 +11920,7 @@ exports[`Snapshots InputTime default 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -11956,7 +11933,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -11989,7 +11966,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12055,8 +12032,10 @@ exports[`Snapshots InputTime default 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -12085,7 +12064,7 @@ exports[`Snapshots InputTime default 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -12098,7 +12077,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12131,7 +12110,7 @@ exports[`Snapshots InputTime default 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12209,8 +12188,10 @@ exports[`Snapshots InputTime disabled 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -12289,7 +12270,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -12302,7 +12283,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12335,7 +12316,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12401,8 +12382,10 @@ exports[`Snapshots InputTime disabled 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -12721,7 +12704,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -12734,7 +12717,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12767,7 +12750,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12833,8 +12816,10 @@ exports[`Snapshots InputTime disabled 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -12863,7 +12848,7 @@ exports[`Snapshots InputTime disabled 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -12876,7 +12861,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12909,7 +12894,7 @@ exports[`Snapshots InputTime disabled 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -12987,8 +12972,10 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -13067,7 +13054,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -13080,7 +13067,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13113,7 +13100,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13203,8 +13190,10 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -13523,7 +13512,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -13536,7 +13525,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13569,7 +13558,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13635,8 +13624,10 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -13665,7 +13656,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -13678,7 +13669,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13711,7 +13702,7 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -13791,9 +13782,11 @@ exports[`Snapshots InputTime displayTimeColon minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -13925,9 +13918,11 @@ exports[`Snapshots InputTime displayTimeColon minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -14275,9 +14270,11 @@ exports[`Snapshots InputTime displayTimeColon minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -14347,9 +14344,11 @@ exports[`Snapshots InputTime minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -14457,9 +14456,11 @@ exports[`Snapshots InputTime minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -14807,9 +14808,11 @@ exports[`Snapshots InputTime minimal 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -14879,9 +14882,11 @@ exports[`Snapshots InputTime minimal with 24 hour selection 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -15049,9 +15054,11 @@ exports[`Snapshots InputTime minimal with 24 hour selection 1`] = `
             "border": 0,
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
             "height": "auto",
             "margin": 0,
+            "outline": "none",
             "padding": 0,
             "paddingLeft": 0,
             "textAlignLast": "center",
@@ -15409,8 +15416,10 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -15549,7 +15558,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -15562,7 +15571,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -15595,7 +15604,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -15661,8 +15670,10 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -15981,7 +15992,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -15994,7 +16005,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16027,7 +16038,7 @@ exports[`Snapshots InputTime with 24 hour selection 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16105,8 +16116,10 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -16185,7 +16198,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -16198,7 +16211,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16231,7 +16244,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16297,8 +16310,10 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -16617,7 +16632,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -16630,7 +16645,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16663,7 +16678,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16729,8 +16744,10 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -16759,7 +16776,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -16772,7 +16789,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16805,7 +16822,7 @@ exports[`Snapshots InputTime with afternoon value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -16883,8 +16900,10 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -17023,7 +17042,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -17036,7 +17055,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17069,7 +17088,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17135,8 +17154,10 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -17455,7 +17476,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -17468,7 +17489,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17501,7 +17522,7 @@ exports[`Snapshots InputTime with afternoon value set and 24 hour selection 1`] 
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17579,8 +17600,10 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -17659,7 +17682,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -17672,7 +17695,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17705,7 +17728,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -17771,8 +17794,10 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -18091,7 +18116,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -18104,7 +18129,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18137,7 +18162,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18203,8 +18228,10 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -18233,7 +18260,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -18246,7 +18273,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18279,7 +18306,7 @@ exports[`Snapshots InputTime with form submitting 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18357,8 +18384,10 @@ exports[`Snapshots InputTime with value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -18437,7 +18466,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -18450,7 +18479,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18483,7 +18512,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18549,8 +18578,10 @@ exports[`Snapshots InputTime with value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -18869,7 +18900,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -18882,7 +18913,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18915,7 +18946,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -18981,8 +19012,10 @@ exports[`Snapshots InputTime with value set 1`] = `
             "border": "0.063rem solid #e6ebef",
             "borderRadius": "0.126rem",
             "color": "#59626a",
-            "fontSize": "0.75rem",
-            "height": "2rem",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "height": "2.3rem",
+            "outline": "none",
             "padding": "0 1.5rem 0 0.5rem",
             "paddingRight": "1rem",
             "width": "100%",
@@ -19011,7 +19044,7 @@ exports[`Snapshots InputTime with value set 1`] = `
             "borderRadiusTopRight": "0.126rem",
             "display": "flex",
             "flexDirection": "column",
-            "height": "1.874rem",
+            "height": "2.174rem",
             "pointerEvents": "none",
             "position": "absolute",
             "right": "0.063rem",
@@ -19024,7 +19057,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -19057,7 +19090,7 @@ exports[`Snapshots InputTime with value set 1`] = `
           style={
             Object {
               "fontFamily": "none",
-              "height": "0.937rem",
+              "height": "1.087rem",
             }
           }
         >
@@ -19120,8 +19153,10 @@ exports[`Snapshots InputWeekday default 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#59626a",
-          "fontSize": "0.75rem",
-          "height": "2rem",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "height": "2.3rem",
+          "outline": "none",
           "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
@@ -19246,8 +19281,10 @@ exports[`Snapshots InputWeekday with form submitting 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#59626a",
-          "fontSize": "0.75rem",
-          "height": "2rem",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "height": "2.3rem",
+          "outline": "none",
           "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
@@ -19372,8 +19409,10 @@ exports[`Snapshots InputWeekday with value set 1`] = `
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
           "color": "#59626a",
-          "fontSize": "0.75rem",
-          "height": "2rem",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "height": "2.3rem",
+          "outline": "none",
           "padding": "0 1.5rem 0 0.5rem",
           "width": "100%",
         }
@@ -22305,9 +22344,11 @@ exports[`Snapshots Select center text 1`] = `
         "border": 0,
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
         "height": "auto",
         "margin": 0,
+        "outline": "none",
         "padding": 0,
         "paddingLeft": 0,
         "textAlignLast": "center",
@@ -22351,8 +22392,10 @@ exports[`Snapshots Select default 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
@@ -22444,9 +22487,11 @@ exports[`Snapshots Select noStyle 1`] = `
         "border": 0,
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
         "height": "auto",
         "margin": 0,
+        "outline": "none",
         "padding": 0,
         "width": "100%",
       }
@@ -22503,8 +22548,10 @@ exports[`Snapshots Select rangeSelector 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "paddingRight": "1rem",
         "width": "100%",
@@ -22533,7 +22580,7 @@ exports[`Snapshots Select rangeSelector 1`] = `
         "borderRadiusTopRight": "0.126rem",
         "display": "flex",
         "flexDirection": "column",
-        "height": "1.874rem",
+        "height": "2.174rem",
         "pointerEvents": "none",
         "position": "absolute",
         "right": "0.063rem",
@@ -22546,7 +22593,7 @@ exports[`Snapshots Select rangeSelector 1`] = `
       style={
         Object {
           "fontFamily": "none",
-          "height": "0.937rem",
+          "height": "1.087rem",
         }
       }
     >
@@ -22579,7 +22626,7 @@ exports[`Snapshots Select rangeSelector 1`] = `
       style={
         Object {
           "fontFamily": "none",
-          "height": "0.937rem",
+          "height": "1.087rem",
         }
       }
     >
@@ -22633,8 +22680,10 @@ exports[`Snapshots Select rangeSelector centerText 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "paddingLeft": 0,
         "paddingRight": "1rem",
@@ -22665,7 +22714,7 @@ exports[`Snapshots Select rangeSelector centerText 1`] = `
         "borderRadiusTopRight": "0.126rem",
         "display": "flex",
         "flexDirection": "column",
-        "height": "1.874rem",
+        "height": "2.174rem",
         "pointerEvents": "none",
         "position": "absolute",
         "right": "0.063rem",
@@ -22678,7 +22727,7 @@ exports[`Snapshots Select rangeSelector centerText 1`] = `
       style={
         Object {
           "fontFamily": "none",
-          "height": "0.937rem",
+          "height": "1.087rem",
         }
       }
     >
@@ -22711,7 +22760,7 @@ exports[`Snapshots Select rangeSelector centerText 1`] = `
       style={
         Object {
           "fontFamily": "none",
-          "height": "0.937rem",
+          "height": "1.087rem",
         }
       }
     >
@@ -22765,8 +22814,10 @@ exports[`Snapshots Select short numbers 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
@@ -22843,8 +22894,10 @@ exports[`Snapshots Select with text color 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#168eea",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
@@ -22936,8 +22989,10 @@ exports[`Snapshots Select with value set 1`] = `
         "border": "0.063rem solid #e6ebef",
         "borderRadius": "0.126rem",
         "color": "#59626a",
-        "fontSize": "0.75rem",
-        "height": "2rem",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
         "width": "100%",
       }
