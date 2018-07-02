@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import Card from './index';
 import Link from '../Link';
-import { denim } from '../style/color';
+import { denim, yellowLight, yellowUltraLight } from '../style/color';
 
 storiesOf('Card', module)
   .addDecorator(checkA11y)
@@ -89,6 +89,12 @@ storiesOf('Card', module)
   ))
   .add('borderColor=denim', () => (
     <Card borderColor={denim}>
+      What is a Product Designer? An awesome story by <Link href="#">@jgadapee</Link> over on
+      Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
+    </Card>
+  ))
+  .add('borderColor=yellowLight, background=yellowUltraLight', () => (
+    <Card borderColor={yellowLight} background={yellowUltraLight}>
       What is a Product Designer? An awesome story by <Link href="#">@jgadapee</Link> over on
       Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
     </Card>
