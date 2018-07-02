@@ -1660,6 +1660,122 @@ exports[`Snapshots ButtonStateless warning 1`] = `
 </button>
 `;
 
+exports[`Snapshots Card borderColor=denim 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "border": "0.063rem solid #e6ebef",
+      "borderColor": "#137ac9",
+      "borderRadius": "0.126rem",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card borderColor=yellowLight, backgroundColor=yellowUltraLight 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#FFF4DA",
+      "border": "0.063rem solid #e6ebef",
+      "borderColor": "#FCDFA0",
+      "borderRadius": "0.126rem",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
 exports[`Snapshots Card default 1`] = `
 <div
   onMouseEnter={undefined}
@@ -1669,7 +1785,63 @@ exports[`Snapshots Card default 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card denim backgroundColor color 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#137ac9",
+      "border": "0.063rem solid #e6ebef",
+      "borderRadius": "0.126rem",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1727,7 +1899,6 @@ exports[`Snapshots Card doublePadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "3rem",
@@ -1788,7 +1959,6 @@ exports[`Snapshots Card empty + hovered 1`] = `
       "borderRadius": "0.126rem",
       "borderStyle": "dashed",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1848,7 +2018,6 @@ exports[`Snapshots Card empty 1`] = `
       "borderColor": "#ced7df",
       "borderRadius": "0.126rem",
       "borderStyle": "dashed",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1869,7 +2038,6 @@ exports[`Snapshots Card faded 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "opacity": 0.5,
@@ -1929,7 +2097,6 @@ exports[`Snapshots Card failed 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderColor": "#ff1e1e",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1988,7 +2155,6 @@ exports[`Snapshots Card hovered 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2046,7 +2212,6 @@ exports[`Snapshots Card noBorder 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2104,68 +2269,9 @@ exports[`Snapshots Card noPadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
-      "transition": "box-shadow 0.2s linear",
-    }
-  }
->
-  What is a Product Designer? An awesome story by 
-  <a
-    href="#"
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "color": "#168eea",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "padding": "0",
-      }
-    }
-    target="_self"
-  >
-    @jgadapee
-  </a>
-   over on Medium! 
-  <a
-    href="#"
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "color": "#168eea",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "padding": "0",
-      }
-    }
-    target="_self"
-  >
-    http://buff.ly/1LTbUqv
-  </a>
-</div>
-`;
-
-exports[`Snapshots Card off-white background color 1`] = `
-<div
-  onMouseEnter={undefined}
-  onMouseLeave={undefined}
-  style={
-    Object {
-      "backgroundColor": "#fcfcfc",
-      "border": "0.063rem solid #e6ebef",
-      "borderRadius": "0.126rem",
-      "color": "#323b43",
-      "fontSize": "0.9rem",
-      "lineHeight": 1.5,
-      "padding": "1.5rem",
       "transition": "box-shadow 0.2s linear",
     }
   }
@@ -2220,7 +2326,6 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2278,7 +2383,6 @@ exports[`Snapshots Card reducedPadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1rem",
@@ -2337,7 +2441,6 @@ exports[`Snapshots Card shadowHeight=1 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2396,7 +2499,6 @@ exports[`Snapshots Card shadowHeight=2 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -21127,7 +21229,6 @@ exports[`Snapshots Notification default 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21269,7 +21370,6 @@ exports[`Snapshots Notification error 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21411,7 +21511,6 @@ exports[`Snapshots Notification handle close click 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21553,7 +21652,6 @@ exports[`Snapshots Notification long text 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21807,7 +21905,6 @@ exports[`Snapshots Popover bottom = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -21872,7 +21969,6 @@ exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -21937,7 +22033,6 @@ exports[`Snapshots Popover default 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22002,7 +22097,6 @@ exports[`Snapshots Popover left = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22067,7 +22161,6 @@ exports[`Snapshots Popover right = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22132,7 +22225,6 @@ exports[`Snapshots Popover top = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22197,7 +22289,6 @@ exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22262,7 +22353,6 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -23478,10 +23568,10 @@ exports[`Snapshots Text white 1`] = `
 </div>
 `;
 
-exports[`Snapshots Toggle custom disabledText 1`] = `
+exports[`Snapshots Toggle custom offText 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23511,6 +23601,7 @@ exports[`Snapshots Toggle custom disabledText 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23571,10 +23662,10 @@ exports[`Snapshots Toggle custom disabledText 1`] = `
 </button>
 `;
 
-exports[`Snapshots Toggle custom enabledText 1`] = `
+exports[`Snapshots Toggle custom onText 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23604,6 +23695,7 @@ exports[`Snapshots Toggle custom enabledText 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23667,7 +23759,7 @@ exports[`Snapshots Toggle custom enabledText 1`] = `
 exports[`Snapshots Toggle default 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23697,6 +23789,7 @@ exports[`Snapshots Toggle default 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23757,10 +23850,10 @@ exports[`Snapshots Toggle default 1`] = `
 </button>
 `;
 
-exports[`Snapshots Toggle enabled 1`] = `
+exports[`Snapshots Toggle disabled + on 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={true}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23790,6 +23883,195 @@ exports[`Snapshots Toggle enabled 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": 0.5,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Enabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#168eea",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "calc(100% - 1rem)",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle disabled 1`] = `
+<button
+  aria-label={null}
+  disabled={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": 0.5,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Disabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "0%",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle on 1`] = `
+<button
+  aria-label={null}
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": undefined,
       }
     }
   >

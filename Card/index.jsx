@@ -1,37 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  calculateStyles,
-} from '../lib/utils';
-import {
-  fontSizeMini,
-  lineHeight,
-} from '../style/font';
-import {
-  outerSpace,
-  outerSpaceLight,
-  white,
-  mystic,
-  geyser,
-  torchRed,
-  offWhite,
-} from '../style/color';
-import {
-  borderWidth,
-  borderRadius,
-} from '../style/border';
-import {
-  transitionAnimationTime,
-  transitionAnimationType,
-} from '../style/animation';
-import {
-  boxShadowLevelOne,
-  boxShadowLevelTwo,
-} from '../style/dropShadow';
+import { calculateStyles } from '../lib/utils';
+import { fontSizeMini, lineHeight } from '../style/font';
+import { outerSpaceLight, white, mystic, geyser, torchRed } from '../style/color';
+import { borderWidth, borderRadius } from '../style/border';
+import { transitionAnimationTime, transitionAnimationType } from '../style/animation';
+import { boxShadowLevelOne, boxShadowLevelTwo } from '../style/dropShadow';
 
 const Card = ({
   children,
-  color,
+  backgroundColor,
+  borderColor,
   doublePadding,
   empty,
   faded,
@@ -45,75 +24,76 @@ const Card = ({
   shadowHeight,
   draggingPlaceholder,
 }) => {
-  const style = calculateStyles({
-    default: {
-      padding: '1.5rem',
-      fontSize: fontSizeMini,
-      lineHeight,
-      color: outerSpace,
-      backgroundColor: white,
-      border: `${borderWidth} solid ${mystic}`,
-      borderRadius,
-      transition: `box-shadow ${transitionAnimationTime} ${transitionAnimationType}`,
+  const style = calculateStyles(
+    {
+      default: {
+        padding: '1.5rem',
+        fontSize: fontSizeMini,
+        lineHeight,
+        backgroundColor: white,
+        border: `${borderWidth} solid ${mystic}`,
+        borderRadius,
+        transition: `box-shadow ${transitionAnimationTime} ${transitionAnimationType}`,
+      },
+      doublePadding: {
+        padding: '3rem',
+      },
+      empty: {
+        borderColor: geyser,
+        borderStyle: 'dashed',
+      },
+      failed: {
+        borderColor: torchRed,
+      },
+      faded: {
+        opacity: 0.5,
+      },
+      noBorder: {
+        border: `${borderWidth} solid transparent`,
+      },
+      noPadding: {
+        padding: 0,
+      },
+      hovered: {
+        boxShadow: boxShadowLevelOne,
+      },
+      backgroundColor: {
+        backgroundColor,
+      },
+      borderColor: {
+        borderColor,
+      },
+      reducedPadding: {
+        padding: '1rem',
+      },
+      shadowHeightOne: {
+        boxShadow: boxShadowLevelOne,
+      },
+      shadowHeightTwo: {
+        boxShadow: boxShadowLevelTwo,
+      },
+      draggingPlaceholder: {
+        border: `${borderWidth} dashed ${outerSpaceLight}`,
+      },
     },
-    doublePadding: {
-      padding: '3rem',
+    {
+      doublePadding,
+      empty,
+      failed,
+      faded,
+      noBorder,
+      noPadding,
+      hovered,
+      backgroundColor,
+      borderColor,
+      reducedPadding,
+      shadowHeightOne: shadowHeight === 1,
+      shadowHeightTwo: shadowHeight === 2,
+      draggingPlaceholder,
     },
-    empty: {
-      borderColor: geyser,
-      borderStyle: 'dashed',
-    },
-    failed: {
-      borderColor: torchRed,
-    },
-    faded: {
-      opacity: 0.5,
-    },
-    noBorder: {
-      border: `${borderWidth} solid transparent`,
-    },
-    noPadding: {
-      padding: 0,
-    },
-    hovered: {
-      boxShadow: boxShadowLevelOne,
-    },
-    // TODO: rename this to `backgroundColor` or similar
-    color: {
-      backgroundColor: offWhite,
-    },
-    reducedPadding: {
-      padding: '1rem',
-    },
-    shadowHeightOne: {
-      boxShadow: boxShadowLevelOne,
-    },
-    shadowHeightTwo: {
-      boxShadow: boxShadowLevelTwo,
-    },
-    draggingPlaceholder: {
-      border: `${borderWidth} dashed ${outerSpaceLight}`,
-    },
-  }, {
-    doublePadding,
-    empty,
-    failed,
-    faded,
-    noBorder,
-    noPadding,
-    hovered,
-    color,
-    reducedPadding,
-    shadowHeightOne: shadowHeight === 1,
-    shadowHeightTwo: shadowHeight === 2,
-    draggingPlaceholder,
-  });
+  );
   return (
-    <div
-      style={style}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-    >
+    <div style={style} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       {children}
     </div>
   );
@@ -121,7 +101,8 @@ const Card = ({
 
 Card.propTypes = {
   children: PropTypes.node,
-  color: PropTypes.oneOf(['off-white']),
+  backgroundColor: PropTypes.string,
+  borderColor: PropTypes.string,
   doublePadding: PropTypes.bool,
   empty: PropTypes.bool,
   faded: PropTypes.bool,
