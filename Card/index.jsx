@@ -9,7 +9,7 @@ import { boxShadowLevelOne, boxShadowLevelTwo } from '../style/dropShadow';
 
 const Card = ({
   children,
-  background,
+  backgroundColor,
   borderColor,
   doublePadding,
   empty,
@@ -30,7 +30,7 @@ const Card = ({
         padding: '1.5rem',
         fontSize: fontSizeMini,
         lineHeight,
-        background: white,
+        backgroundColor: white,
         border: `${borderWidth} solid ${mystic}`,
         borderRadius,
         transition: `box-shadow ${transitionAnimationTime} ${transitionAnimationType}`,
@@ -57,8 +57,8 @@ const Card = ({
       hovered: {
         boxShadow: boxShadowLevelOne,
       },
-      background: {
-        background,
+      backgroundColor: {
+        backgroundColor,
       },
       borderColor: {
         borderColor,
@@ -84,7 +84,7 @@ const Card = ({
       noBorder,
       noPadding,
       hovered,
-      background,
+      backgroundColor,
       borderColor,
       reducedPadding,
       shadowHeightOne: shadowHeight === 1,
@@ -101,7 +101,7 @@ const Card = ({
 
 Card.propTypes = {
   children: PropTypes.node,
-  background: PropTypes.string,
+  backgroundColor: PropTypes.string,
   borderColor: PropTypes.string,
   doublePadding: PropTypes.bool,
   empty: PropTypes.bool,

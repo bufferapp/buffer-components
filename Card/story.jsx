@@ -63,8 +63,8 @@ storiesOf('Card', module)
       Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
     </Card>
   ))
-  .add('denim background color', () => (
-    <Card background={denim}>
+  .add('denim backgroundColor color', () => (
+    <Card backgroundColor={denim}>
       What is a Product Designer? An awesome story by <Link href="#">@jgadapee</Link> over on
       Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
     </Card>
@@ -93,8 +93,8 @@ storiesOf('Card', module)
       Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
     </Card>
   ))
-  .add('borderColor=yellowLight, background=yellowUltraLight', () => (
-    <Card borderColor={yellowLight} background={yellowUltraLight}>
+  .add('borderColor=yellowLight, backgroundColor=yellowUltraLight', () => (
+    <Card borderColor={yellowLight} backgroundColor={yellowUltraLight}>
       What is a Product Designer? An awesome story by <Link href="#">@jgadapee</Link> over on
       Medium! <Link href="#">http://buff.ly/1LTbUqv</Link>
     </Card>
