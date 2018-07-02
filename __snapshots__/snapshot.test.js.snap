@@ -5558,6 +5558,35 @@ exports[`Snapshots Input default 1`] = `
 </div>
 `;
 
+exports[`Snapshots Input type=textarea 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
 exports[`Snapshots InputAutocomplete default 1`] = `
 <div>
   <div
@@ -11459,6 +11488,514 @@ exports[`Snapshots InputStateless with type = password 1`] = `
     }
     type="password"
     value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & focused 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#168eea",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & onFocus + onBlur 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with error 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+  <div
+    style={
+      Object {
+        "marginTop": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff1e1e",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      unknown user
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with label 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with placeholder 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder="ex: kitteh1234"
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with submitting = true 1`] = `
+<div>
+  <textarea
+    disabled={true}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea default 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with error 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+  <div
+    style={
+      Object {
+        "marginTop": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff1e1e",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      text is tooooo long
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputTextarea with label 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with placeholder 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder="write a novel"
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with submitting = true 1`] = `
+<div>
+  <textarea
+    disabled={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
   />
 </div>
 `;
