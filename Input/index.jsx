@@ -11,7 +11,12 @@ class Input extends PseudoClassComponent {
         focused={this.state.focused}
         onMouseEnter={() => this.handleMouseEnter()}
         onMouseLeave={() => this.handleMouseLeave()}
-        onFocus={() => this.handleFocus()}
+        onFocus={() => {
+          this.handleFocus();
+          if (this.props.onFocus) {
+            this.props.onFocus();
+          }
+        }}
         onBlur={() => this.handleBlur()}
       />
     );
