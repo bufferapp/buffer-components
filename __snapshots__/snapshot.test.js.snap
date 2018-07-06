@@ -5587,6 +5587,35 @@ exports[`Snapshots Input type=textarea 1`] = `
 </div>
 `;
 
+exports[`Snapshots Input with custom onFocus handler 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value={undefined}
+  />
+</div>
+`;
+
 exports[`Snapshots InputAutocomplete default 1`] = `
 <div>
   <div
