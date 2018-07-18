@@ -8,6 +8,8 @@ import colors, {
 import {
   fontSize,
   fontFamily,
+  fontSizeMini,
+  fontSizeSmall,
 } from '../style/font';
 import {
   borderRadius,
@@ -99,6 +101,7 @@ const Select = ({
   rangeSelector,
   color,
   hovered,
+  size,
 }) => {
   const selectStyle = calculateStyles({
     default: {
@@ -133,11 +136,21 @@ const Select = ({
     hovered: {
       cursor: 'pointer',
     },
+    // Sizes
+    mini: {
+      fontSize: fontSizeMini,
+    },
+    small: {
+      fontSize: fontSizeSmall,
+    },
   }, {
     noStyle,
     centerText,
     rangeSelector,
     hovered,
+    // Sizes
+    mini: size === 'mini',
+    small: size === 'small',
   });
 
   return (
@@ -188,6 +201,7 @@ Select.propTypes = {
   rangeSelector: PropTypes.bool,
   color: PropTypes.oneOf(Object.keys(colors)),
   hovered: PropTypes.bool,
+  size: PropTypes.oneOf(['mini', 'small']),
 };
 
 Select.defaultProps = {
