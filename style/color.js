@@ -41,6 +41,9 @@ export const darkPopover = '#2E435E';
 
 export const baliHai = '#8D969E';
 
+export const yellowLight = '#FCDFA0';
+export const yellowUltraLight = '#FFF4DA';
+
 const colors = {
   curiousBlue,
   curiousBlueLight,
@@ -75,6 +78,8 @@ const colors = {
   sidebarIcon,
   darkPopover,
   baliHai,
+  yellowLight,
+  yellowUltraLight,
 };
 
 export default colors;

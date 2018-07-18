@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.0 (July 6, 2018)
+
+- Fix `Input` to allow custom `onFocus` handler.
+
 ## 2.2.1 (June 27, 2018)
 
 - Fix `Input` to not use/require `children`.

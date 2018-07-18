@@ -6,6 +6,6 @@ import Input from './index';
 
 storiesOf('Input', module)
   .addDecorator(checkA11y)
-  .add('default', () => (
-    <Input />
-  ));
+  .add('default', () => <Input />)
+  .add('with custom onFocus handler', () => <Input onFocus={action('onFocus')} />)
+  .add('type=textarea', () => <Input type="textarea" />);

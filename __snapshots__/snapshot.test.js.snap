@@ -1660,6 +1660,122 @@ exports[`Snapshots ButtonStateless warning 1`] = `
 </button>
 `;
 
+exports[`Snapshots Card borderColor=denim 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "border": "0.063rem solid #e6ebef",
+      "borderColor": "#137ac9",
+      "borderRadius": "0.126rem",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card borderColor=yellowLight, backgroundColor=yellowUltraLight 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#FFF4DA",
+      "border": "0.063rem solid #e6ebef",
+      "borderColor": "#FCDFA0",
+      "borderRadius": "0.126rem",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
 exports[`Snapshots Card default 1`] = `
 <div
   onMouseEnter={undefined}
@@ -1669,7 +1785,63 @@ exports[`Snapshots Card default 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
+      "fontSize": "0.9rem",
+      "lineHeight": 1.5,
+      "padding": "1.5rem",
+      "transition": "box-shadow 0.2s linear",
+    }
+  }
+>
+  What is a Product Designer? An awesome story by 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @jgadapee
+  </a>
+   over on Medium! 
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    http://buff.ly/1LTbUqv
+  </a>
+</div>
+`;
+
+exports[`Snapshots Card denim backgroundColor color 1`] = `
+<div
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  style={
+    Object {
+      "backgroundColor": "#137ac9",
+      "border": "0.063rem solid #e6ebef",
+      "borderRadius": "0.126rem",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1727,7 +1899,6 @@ exports[`Snapshots Card doublePadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "3rem",
@@ -1788,7 +1959,6 @@ exports[`Snapshots Card empty + hovered 1`] = `
       "borderRadius": "0.126rem",
       "borderStyle": "dashed",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1848,7 +2018,6 @@ exports[`Snapshots Card empty 1`] = `
       "borderColor": "#ced7df",
       "borderRadius": "0.126rem",
       "borderStyle": "dashed",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1869,7 +2038,6 @@ exports[`Snapshots Card faded 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "opacity": 0.5,
@@ -1929,7 +2097,6 @@ exports[`Snapshots Card failed 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderColor": "#ff1e1e",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -1988,7 +2155,6 @@ exports[`Snapshots Card hovered 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2046,7 +2212,6 @@ exports[`Snapshots Card noBorder 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2104,68 +2269,9 @@ exports[`Snapshots Card noPadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
-      "transition": "box-shadow 0.2s linear",
-    }
-  }
->
-  What is a Product Designer? An awesome story by 
-  <a
-    href="#"
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "color": "#168eea",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "padding": "0",
-      }
-    }
-    target="_self"
-  >
-    @jgadapee
-  </a>
-   over on Medium! 
-  <a
-    href="#"
-    onBlur={[Function]}
-    onClick={undefined}
-    onFocus={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    style={
-      Object {
-        "color": "#168eea",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "padding": "0",
-      }
-    }
-    target="_self"
-  >
-    http://buff.ly/1LTbUqv
-  </a>
-</div>
-`;
-
-exports[`Snapshots Card off-white background color 1`] = `
-<div
-  onMouseEnter={undefined}
-  onMouseLeave={undefined}
-  style={
-    Object {
-      "backgroundColor": "#fcfcfc",
-      "border": "0.063rem solid #e6ebef",
-      "borderRadius": "0.126rem",
-      "color": "#323b43",
-      "fontSize": "0.9rem",
-      "lineHeight": 1.5,
-      "padding": "1.5rem",
       "transition": "box-shadow 0.2s linear",
     }
   }
@@ -2220,7 +2326,6 @@ exports[`Snapshots Card onMouseEnter + onMouseLeave 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2278,7 +2383,6 @@ exports[`Snapshots Card reducedPadding 1`] = `
       "backgroundColor": "#fff",
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1rem",
@@ -2337,7 +2441,6 @@ exports[`Snapshots Card shadowHeight=1 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 2px rgba(50, 59, 67, 0.3)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -2396,7 +2499,6 @@ exports[`Snapshots Card shadowHeight=2 1`] = `
       "border": "0.063rem solid #e6ebef",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": "1.5rem",
@@ -5428,6 +5530,64 @@ exports[`Snapshots Image wide image 1`] = `
 `;
 
 exports[`Snapshots Input default 1`] = `
+<div>
+  <input
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="text"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots Input type=textarea 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots Input with custom onFocus handler 1`] = `
 <div>
   <input
     disabled={undefined}
@@ -11357,6 +11517,514 @@ exports[`Snapshots InputStateless with type = password 1`] = `
     }
     type="password"
     value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & focused 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#168eea",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & onFocus + onBlur 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with error 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+  <div
+    style={
+      Object {
+        "marginTop": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff1e1e",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      unknown user
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with label 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with placeholder 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Username
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={undefined}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder="ex: kitteh1234"
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea & with submitting = true 1`] = `
+<div>
+  <textarea
+    disabled={true}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputStateless with type = textarea 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={undefined}
+    onChange={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="user123"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea default 1`] = `
+<div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with error 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ff1e1e",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+  <div
+    style={
+      Object {
+        "marginTop": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#ff1e1e",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      text is tooooo long
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputTextarea with label 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with placeholder 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "marginBottom": "0.25rem",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 600,
+        }
+      }
+    >
+      Text Area
+    </span>
+  </div>
+  <textarea
+    disabled={undefined}
+    onBlur={[Function]}
+    onChange={undefined}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder="write a novel"
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value={undefined}
+  />
+</div>
+`;
+
+exports[`Snapshots InputTextarea with submitting = true 1`] = `
+<div>
+  <textarea
+    disabled={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    placeholder={undefined}
+    style={
+      Object {
+        "border": "0.063rem solid #ced7df",
+        "borderColor": "#ced7df",
+        "borderRadius": "0.126rem",
+        "boxSizing": "border-box",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "outline": 0,
+        "padding": "0.5rem",
+        "width": "100%",
+      }
+    }
+    type="textarea"
+    value="this is some longer text, that is probably longer than a standard input"
   />
 </div>
 `;
@@ -21127,7 +21795,6 @@ exports[`Snapshots Notification default 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21269,7 +21936,6 @@ exports[`Snapshots Notification error 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21411,7 +22077,6 @@ exports[`Snapshots Notification handle close click 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21553,7 +22218,6 @@ exports[`Snapshots Notification long text 1`] = `
       "border": "0.063rem solid transparent",
       "borderRadius": "0.126rem",
       "boxShadow": "0 1px 4px rgba(50, 59, 67, 0.8)",
-      "color": "#323b43",
       "fontSize": "0.9rem",
       "lineHeight": 1.5,
       "padding": 0,
@@ -21807,7 +22471,6 @@ exports[`Snapshots Popover bottom = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -21872,7 +22535,6 @@ exports[`Snapshots Popover bottom = 10rem right = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -21937,7 +22599,6 @@ exports[`Snapshots Popover default 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22002,7 +22663,6 @@ exports[`Snapshots Popover left = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22067,7 +22727,6 @@ exports[`Snapshots Popover right = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22132,7 +22791,6 @@ exports[`Snapshots Popover top = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22197,7 +22855,6 @@ exports[`Snapshots Popover top = 10rem left = 10rem 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22262,7 +22919,6 @@ exports[`Snapshots Popover transparent Overlay 1`] = `
           "backgroundColor": "#fff",
           "border": "0.063rem solid #e6ebef",
           "borderRadius": "0.126rem",
-          "color": "#323b43",
           "fontSize": "0.9rem",
           "lineHeight": 1.5,
           "padding": "1.5rem",
@@ -22394,6 +23050,101 @@ exports[`Snapshots Select default 1`] = `
         "color": "#59626a",
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
+        "height": "2.3rem",
+        "outline": "none",
+        "padding": "0 1.5rem 0 0.5rem",
+        "width": "100%",
+      }
+    }
+    value={undefined}
+  >
+    <option
+      value="London"
+    >
+      London
+    </option>
+    <option
+      value="New York"
+    >
+      New York
+    </option>
+    <option
+      value="San Francisco"
+    >
+      San Francisco
+    </option>
+    <option
+      value="Tokyo"
+    >
+      Tokyo
+    </option>
+    <option
+      value="Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+    >
+      Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+    </option>
+  </select>
+  <div
+    style={
+      Object {
+        "pointerEvents": "none",
+        "position": "absolute",
+        "right": "0.5rem",
+        "top": "0.5rem",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      style={
+        Object {
+          "fill": "#59626a",
+          "height": "1rem",
+          "width": "1rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <g
+        className="shuttleGray"
+      >
+        <path
+          d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+          transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Select mini 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <select
+    aria-label={null}
+    disabled={false}
+    onChange={[Function]}
+    style={
+      Object {
+        "MozAppearance": "none",
+        "WebkitAppearance": "none",
+        "appearance": "none",
+        "background": "transparent",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#59626a",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.9rem",
         "height": "2.3rem",
         "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
@@ -22833,6 +23584,101 @@ exports[`Snapshots Select short numbers 1`] = `
       value={2}
     >
       2
+    </option>
+  </select>
+  <div
+    style={
+      Object {
+        "pointerEvents": "none",
+        "position": "absolute",
+        "right": "0.5rem",
+        "top": "0.5rem",
+      }
+    }
+  >
+    <svg
+      height="100%"
+      style={
+        Object {
+          "fill": "#59626a",
+          "height": "1rem",
+          "width": "1rem",
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="100%"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <g
+        className="shuttleGray"
+      >
+        <path
+          d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+          transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+        />
+      </g>
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Select small 1`] = `
+<div
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <select
+    aria-label={null}
+    disabled={false}
+    onChange={[Function]}
+    style={
+      Object {
+        "MozAppearance": "none",
+        "WebkitAppearance": "none",
+        "appearance": "none",
+        "background": "transparent",
+        "border": "0.063rem solid #e6ebef",
+        "borderRadius": "0.126rem",
+        "color": "#59626a",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.75rem",
+        "height": "2.3rem",
+        "outline": "none",
+        "padding": "0 1.5rem 0 0.5rem",
+        "width": "100%",
+      }
+    }
+    value={undefined}
+  >
+    <option
+      value="London"
+    >
+      London
+    </option>
+    <option
+      value="New York"
+    >
+      New York
+    </option>
+    <option
+      value="San Francisco"
+    >
+      San Francisco
+    </option>
+    <option
+      value="Tokyo"
+    >
+      Tokyo
+    </option>
+    <option
+      value="Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
+    >
+      Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
     </option>
   </select>
   <div
@@ -23478,10 +24324,10 @@ exports[`Snapshots Text white 1`] = `
 </div>
 `;
 
-exports[`Snapshots Toggle custom disabledText 1`] = `
+exports[`Snapshots Toggle custom offText 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23511,6 +24357,7 @@ exports[`Snapshots Toggle custom disabledText 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23571,10 +24418,10 @@ exports[`Snapshots Toggle custom disabledText 1`] = `
 </button>
 `;
 
-exports[`Snapshots Toggle custom enabledText 1`] = `
+exports[`Snapshots Toggle custom onText 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23604,6 +24451,7 @@ exports[`Snapshots Toggle custom enabledText 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23667,7 +24515,7 @@ exports[`Snapshots Toggle custom enabledText 1`] = `
 exports[`Snapshots Toggle default 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23697,6 +24545,7 @@ exports[`Snapshots Toggle default 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": undefined,
       }
     }
   >
@@ -23757,10 +24606,10 @@ exports[`Snapshots Toggle default 1`] = `
 </button>
 `;
 
-exports[`Snapshots Toggle enabled 1`] = `
+exports[`Snapshots Toggle disabled + on 1`] = `
 <button
   aria-label={null}
-  disabled={undefined}
+  disabled={true}
   onBlur={[Function]}
   onClick={[Function]}
   onFocus={[Function]}
@@ -23790,6 +24639,195 @@ exports[`Snapshots Toggle enabled 1`] = `
     style={
       Object {
         "display": "flex",
+        "opacity": 0.5,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Enabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#168eea",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid #168eea",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "calc(100% - 1rem)",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle disabled 1`] = `
+<button
+  aria-label={null}
+  disabled={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": 0.5,
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Disabled
+    </span>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "0%",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle on 1`] = `
+<button
+  aria-label={null}
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": undefined,
       }
     }
   >
