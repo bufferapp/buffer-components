@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.3.1 (July 18, 2018)
+- Add font `mini` and `small` to `Select`component
+
 ## 2.3.0 (July 6, 2018)
 
 - Fix `Input` to allow custom `onFocus` handler.
