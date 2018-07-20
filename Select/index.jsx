@@ -8,7 +8,6 @@ import colors, {
 import {
   fontSize,
   fontFamily,
-  fontSizeMini,
   fontSizeSmall,
 } from '../style/font';
 import {
@@ -137,9 +136,6 @@ const Select = ({
       cursor: 'pointer',
     },
     // Sizes
-    mini: {
-      fontSize: fontSizeMini,
-    },
     small: {
       fontSize: fontSizeSmall,
     },
@@ -149,7 +145,6 @@ const Select = ({
     rangeSelector,
     hovered,
     // Sizes
-    mini: size === 'mini',
     small: size === 'small',
   });
 
@@ -201,7 +196,7 @@ Select.propTypes = {
   rangeSelector: PropTypes.bool,
   color: PropTypes.oneOf(Object.keys(colors)),
   hovered: PropTypes.bool,
-  size: PropTypes.oneOf(['mini', 'small']),
+  size: PropTypes.oneOf(['small']),
 };
 
 Select.defaultProps = {

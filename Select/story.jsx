@@ -100,13 +100,6 @@ storiesOf('Select', module)
       color={'curiousBlue'}
     />
   ))
-  .add('mini', () => (
-    <Select
-      options={options}
-      onChange={action('on-change')}
-      size={'mini'}
-    />
-  ))
   .add('small', () => (
     <Select
       options={options}
