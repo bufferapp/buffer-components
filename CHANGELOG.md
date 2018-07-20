@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.2 (July 20, 2018)
+- Add font `small` to `InputWeekday` and `InputTime` components
+- Remove font `mini` from `Select`component
+
 ## 2.3.1 (July 18, 2018)
 - Add font `mini` and `small` to `Select`component
 
