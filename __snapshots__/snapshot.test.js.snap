@@ -16041,6 +16041,790 @@ exports[`Snapshots InputTime minimal with 24 hour selection 1`] = `
 </div>
 `;
 
+exports[`Snapshots InputTime small 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "position": "relative",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <select
+        aria-label="Hour"
+        disabled={false}
+        onChange={[Function]}
+        style={
+          Object {
+            "MozAppearance": "none",
+            "WebkitAppearance": "none",
+            "appearance": "none",
+            "background": "transparent",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "0.75rem",
+            "height": "2.3rem",
+            "outline": "none",
+            "padding": "0 1.5rem 0 0.5rem",
+            "paddingRight": "1rem",
+            "width": "100%",
+          }
+        }
+        value={0}
+      >
+        <option
+          value={0}
+        >
+          12
+        </option>
+        <option
+          value={1}
+        >
+          01
+        </option>
+        <option
+          value={2}
+        >
+          02
+        </option>
+        <option
+          value={3}
+        >
+          03
+        </option>
+        <option
+          value={4}
+        >
+          04
+        </option>
+        <option
+          value={5}
+        >
+          05
+        </option>
+        <option
+          value={6}
+        >
+          06
+        </option>
+        <option
+          value={7}
+        >
+          07
+        </option>
+        <option
+          value={8}
+        >
+          08
+        </option>
+        <option
+          value={9}
+        >
+          09
+        </option>
+        <option
+          value={10}
+        >
+          10
+        </option>
+        <option
+          value={11}
+        >
+          11
+        </option>
+      </select>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fcfcfc",
+            "borderLeft": "0.063rem solid #e6ebef",
+            "borderRadiusBottomRight": "0.126rem",
+            "borderRadiusTopRight": "0.126rem",
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "2.174rem",
+            "pointerEvents": "none",
+            "position": "absolute",
+            "right": "0.063rem",
+            "top": "0.063rem",
+            "width": "1rem",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,3.83437656 C4.5159485,3.44536915 4.51510793,2.81708404 4.90996552,2.42499924 L4.90996552,2.42499924 C5.30208929,2.03562905 5.93536183,2.03785674 6.32490003,2.4304594 L11.2750374,7.41953907 C11.6643604,7.81192483 11.6645756,8.44590538 11.2750374,8.83605572 L6.32490003,13.7939721 C5.93557705,14.1839068 5.3048231,14.1848577 4.90996552,13.7899895 L4.90996552,13.7899895 C4.51784174,13.3978552 4.51273549,12.7696997 4.9163418,12.369326 L8.84038203,8.47671472 C9.03897712,8.27971024 9.04484713,7.96519423 8.84038203,7.76113877 L4.90573685,3.83437656 Z"
+                transform="translate(8.089966, 8.109997) scale(-1, -1) rotate(-270.000000) translate(-8.089966, -8.109997) "
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+                transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": "0.25rem",
+        "marginRight": "0.25rem",
+        "position": "relative",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <select
+        aria-label="Minute"
+        disabled={false}
+        onChange={[Function]}
+        style={
+          Object {
+            "MozAppearance": "none",
+            "WebkitAppearance": "none",
+            "appearance": "none",
+            "background": "transparent",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "0.75rem",
+            "height": "2.3rem",
+            "outline": "none",
+            "padding": "0 1.5rem 0 0.5rem",
+            "paddingRight": "1rem",
+            "width": "100%",
+          }
+        }
+        value={0}
+      >
+        <option
+          value={0}
+        >
+          00
+        </option>
+        <option
+          value={1}
+        >
+          01
+        </option>
+        <option
+          value={2}
+        >
+          02
+        </option>
+        <option
+          value={3}
+        >
+          03
+        </option>
+        <option
+          value={4}
+        >
+          04
+        </option>
+        <option
+          value={5}
+        >
+          05
+        </option>
+        <option
+          value={6}
+        >
+          06
+        </option>
+        <option
+          value={7}
+        >
+          07
+        </option>
+        <option
+          value={8}
+        >
+          08
+        </option>
+        <option
+          value={9}
+        >
+          09
+        </option>
+        <option
+          value={10}
+        >
+          10
+        </option>
+        <option
+          value={11}
+        >
+          11
+        </option>
+        <option
+          value={12}
+        >
+          12
+        </option>
+        <option
+          value={13}
+        >
+          13
+        </option>
+        <option
+          value={14}
+        >
+          14
+        </option>
+        <option
+          value={15}
+        >
+          15
+        </option>
+        <option
+          value={16}
+        >
+          16
+        </option>
+        <option
+          value={17}
+        >
+          17
+        </option>
+        <option
+          value={18}
+        >
+          18
+        </option>
+        <option
+          value={19}
+        >
+          19
+        </option>
+        <option
+          value={20}
+        >
+          20
+        </option>
+        <option
+          value={21}
+        >
+          21
+        </option>
+        <option
+          value={22}
+        >
+          22
+        </option>
+        <option
+          value={23}
+        >
+          23
+        </option>
+        <option
+          value={24}
+        >
+          24
+        </option>
+        <option
+          value={25}
+        >
+          25
+        </option>
+        <option
+          value={26}
+        >
+          26
+        </option>
+        <option
+          value={27}
+        >
+          27
+        </option>
+        <option
+          value={28}
+        >
+          28
+        </option>
+        <option
+          value={29}
+        >
+          29
+        </option>
+        <option
+          value={30}
+        >
+          30
+        </option>
+        <option
+          value={31}
+        >
+          31
+        </option>
+        <option
+          value={32}
+        >
+          32
+        </option>
+        <option
+          value={33}
+        >
+          33
+        </option>
+        <option
+          value={34}
+        >
+          34
+        </option>
+        <option
+          value={35}
+        >
+          35
+        </option>
+        <option
+          value={36}
+        >
+          36
+        </option>
+        <option
+          value={37}
+        >
+          37
+        </option>
+        <option
+          value={38}
+        >
+          38
+        </option>
+        <option
+          value={39}
+        >
+          39
+        </option>
+        <option
+          value={40}
+        >
+          40
+        </option>
+        <option
+          value={41}
+        >
+          41
+        </option>
+        <option
+          value={42}
+        >
+          42
+        </option>
+        <option
+          value={43}
+        >
+          43
+        </option>
+        <option
+          value={44}
+        >
+          44
+        </option>
+        <option
+          value={45}
+        >
+          45
+        </option>
+        <option
+          value={46}
+        >
+          46
+        </option>
+        <option
+          value={47}
+        >
+          47
+        </option>
+        <option
+          value={48}
+        >
+          48
+        </option>
+        <option
+          value={49}
+        >
+          49
+        </option>
+        <option
+          value={50}
+        >
+          50
+        </option>
+        <option
+          value={51}
+        >
+          51
+        </option>
+        <option
+          value={52}
+        >
+          52
+        </option>
+        <option
+          value={53}
+        >
+          53
+        </option>
+        <option
+          value={54}
+        >
+          54
+        </option>
+        <option
+          value={55}
+        >
+          55
+        </option>
+        <option
+          value={56}
+        >
+          56
+        </option>
+        <option
+          value={57}
+        >
+          57
+        </option>
+        <option
+          value={58}
+        >
+          58
+        </option>
+        <option
+          value={59}
+        >
+          59
+        </option>
+      </select>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fcfcfc",
+            "borderLeft": "0.063rem solid #e6ebef",
+            "borderRadiusBottomRight": "0.126rem",
+            "borderRadiusTopRight": "0.126rem",
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "2.174rem",
+            "pointerEvents": "none",
+            "position": "absolute",
+            "right": "0.063rem",
+            "top": "0.063rem",
+            "width": "1rem",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,3.83437656 C4.5159485,3.44536915 4.51510793,2.81708404 4.90996552,2.42499924 L4.90996552,2.42499924 C5.30208929,2.03562905 5.93536183,2.03785674 6.32490003,2.4304594 L11.2750374,7.41953907 C11.6643604,7.81192483 11.6645756,8.44590538 11.2750374,8.83605572 L6.32490003,13.7939721 C5.93557705,14.1839068 5.3048231,14.1848577 4.90996552,13.7899895 L4.90996552,13.7899895 C4.51784174,13.3978552 4.51273549,12.7696997 4.9163418,12.369326 L8.84038203,8.47671472 C9.03897712,8.27971024 9.04484713,7.96519423 8.84038203,7.76113877 L4.90573685,3.83437656 Z"
+                transform="translate(8.089966, 8.109997) scale(-1, -1) rotate(-270.000000) translate(-8.089966, -8.109997) "
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+                transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "position": "relative",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <select
+        aria-label={null}
+        disabled={false}
+        onChange={[Function]}
+        style={
+          Object {
+            "MozAppearance": "none",
+            "WebkitAppearance": "none",
+            "appearance": "none",
+            "background": "transparent",
+            "border": "0.063rem solid #e6ebef",
+            "borderRadius": "0.126rem",
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "0.75rem",
+            "height": "2.3rem",
+            "outline": "none",
+            "padding": "0 1.5rem 0 0.5rem",
+            "paddingRight": "1rem",
+            "width": "100%",
+          }
+        }
+        value="AM"
+      >
+        <option
+          value="AM"
+        >
+          AM
+        </option>
+        <option
+          value="PM"
+        >
+          PM
+        </option>
+      </select>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fcfcfc",
+            "borderLeft": "0.063rem solid #e6ebef",
+            "borderRadiusBottomRight": "0.126rem",
+            "borderRadiusTopRight": "0.126rem",
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "2.174rem",
+            "pointerEvents": "none",
+            "position": "absolute",
+            "right": "0.063rem",
+            "top": "0.063rem",
+            "width": "1rem",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,3.83437656 C4.5159485,3.44536915 4.51510793,2.81708404 4.90996552,2.42499924 L4.90996552,2.42499924 C5.30208929,2.03562905 5.93536183,2.03785674 6.32490003,2.4304594 L11.2750374,7.41953907 C11.6643604,7.81192483 11.6645756,8.44590538 11.2750374,8.83605572 L6.32490003,13.7939721 C5.93557705,14.1839068 5.3048231,14.1848577 4.90996552,13.7899895 L4.90996552,13.7899895 C4.51784174,13.3978552 4.51273549,12.7696997 4.9163418,12.369326 L8.84038203,8.47671472 C9.03897712,8.27971024 9.04484713,7.96519423 8.84038203,7.76113877 L4.90573685,3.83437656 Z"
+                transform="translate(8.089966, 8.109997) scale(-1, -1) rotate(-270.000000) translate(-8.089966, -8.109997) "
+              />
+            </g>
+          </svg>
+        </div>
+        <div
+          style={
+            Object {
+              "fontFamily": "none",
+              "height": "1.087rem",
+            }
+          }
+        >
+          <svg
+            height="100%"
+            style={
+              Object {
+                "fill": "#59626a",
+                "height": "0.75rem",
+                "width": "0.75rem",
+              }
+            }
+            version="1.1"
+            viewBox="0 0 16 16"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              className="shuttleGray"
+            >
+              <path
+                d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+                transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Snapshots InputTime with 24 hour selection 1`] = `
 <div
   style={
@@ -19921,6 +20705,134 @@ exports[`Snapshots InputWeekday default 1`] = `
 </div>
 `;
 
+exports[`Snapshots InputWeekday small 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <select
+      aria-label="choose days"
+      disabled={false}
+      onChange={[Function]}
+      style={
+        Object {
+          "MozAppearance": "none",
+          "WebkitAppearance": "none",
+          "appearance": "none",
+          "background": "transparent",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "color": "#59626a",
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontSize": "0.75rem",
+          "height": "2.3rem",
+          "outline": "none",
+          "padding": "0 1.5rem 0 0.5rem",
+          "width": "100%",
+        }
+      }
+      value={undefined}
+    >
+      <option
+        value="everyday"
+      >
+        Every Day
+      </option>
+      <option
+        value="weekdays"
+      >
+        Weekdays
+      </option>
+      <option
+        value="weekends"
+      >
+        Weekends
+      </option>
+      <option
+        value="mon"
+      >
+        Monday
+      </option>
+      <option
+        value="tue"
+      >
+        Tuesday
+      </option>
+      <option
+        value="wed"
+      >
+        Wednesday
+      </option>
+      <option
+        value="thu"
+      >
+        Thursday
+      </option>
+      <option
+        value="fri"
+      >
+        Friday
+      </option>
+      <option
+        value="sat"
+      >
+        Saturday
+      </option>
+      <option
+        value="sun"
+      >
+        Sunday
+      </option>
+    </select>
+    <div
+      style={
+        Object {
+          "pointerEvents": "none",
+          "position": "absolute",
+          "right": "0.5rem",
+          "top": "0.5rem",
+        }
+      }
+    >
+      <svg
+        height="100%"
+        style={
+          Object {
+            "fill": "#59626a",
+            "height": "1rem",
+            "width": "1rem",
+          }
+        }
+        version="1.1"
+        viewBox="0 0 16 16"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          className="shuttleGray"
+        >
+          <path
+            d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
+            transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
+          />
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Snapshots InputWeekday with form submitting 1`] = `
 <div
   style={
@@ -23050,101 +23962,6 @@ exports[`Snapshots Select default 1`] = `
         "color": "#59626a",
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
-        "height": "2.3rem",
-        "outline": "none",
-        "padding": "0 1.5rem 0 0.5rem",
-        "width": "100%",
-      }
-    }
-    value={undefined}
-  >
-    <option
-      value="London"
-    >
-      London
-    </option>
-    <option
-      value="New York"
-    >
-      New York
-    </option>
-    <option
-      value="San Francisco"
-    >
-      San Francisco
-    </option>
-    <option
-      value="Tokyo"
-    >
-      Tokyo
-    </option>
-    <option
-      value="Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
-    >
-      Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
-    </option>
-  </select>
-  <div
-    style={
-      Object {
-        "pointerEvents": "none",
-        "position": "absolute",
-        "right": "0.5rem",
-        "top": "0.5rem",
-      }
-    }
-  >
-    <svg
-      height="100%"
-      style={
-        Object {
-          "fill": "#59626a",
-          "height": "1rem",
-          "width": "1rem",
-        }
-      }
-      version="1.1"
-      viewBox="0 0 16 16"
-      width="100%"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-    >
-      <g
-        className="shuttleGray"
-      >
-        <path
-          d="M4.90573685,4.61438297 C4.5159485,4.22537555 4.51510793,3.59709045 4.90996552,3.20500565 L4.90996552,3.20500565 C5.30208929,2.81563546 5.93536183,2.81786315 6.32490003,3.21046581 L11.2750374,8.19954548 C11.6643604,8.59193123 11.6645756,9.22591178 11.2750374,9.61606213 L6.32490003,14.5739785 C5.93557705,14.9639132 5.3048231,14.9648641 4.90996552,14.5699959 L4.90996552,14.5699959 C4.51784174,14.1778616 4.51273549,13.5497061 4.9163418,13.1493324 L8.84038203,9.25672113 C9.03897712,9.05971665 9.04484713,8.74520064 8.84038203,8.54114518 L4.90573685,4.61438297 Z"
-          transform="translate(8.089966, 8.890003) scale(-1, 1) rotate(-270.000000) translate(-8.089966, -8.890003) "
-        />
-      </g>
-    </svg>
-  </div>
-</div>
-`;
-
-exports[`Snapshots Select mini 1`] = `
-<div
-  style={
-    Object {
-      "position": "relative",
-    }
-  }
->
-  <select
-    aria-label={null}
-    disabled={false}
-    onChange={[Function]}
-    style={
-      Object {
-        "MozAppearance": "none",
-        "WebkitAppearance": "none",
-        "appearance": "none",
-        "background": "transparent",
-        "border": "0.063rem solid #e6ebef",
-        "borderRadius": "0.126rem",
-        "color": "#59626a",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "0.9rem",
         "height": "2.3rem",
         "outline": "none",
         "padding": "0 1.5rem 0 0.5rem",
