@@ -54,6 +54,7 @@ import LikeIcon from './Icons/LikeIcon';
 import LinkIcon from './Icons/LinkIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
 import LockIcon from './Icons/LockIcon';
+import MessageIcon from './Icons/MessageIcon';
 import MoreIcon from './Icons/MoreIcon';
 import NewTabIcon from './Icons/NewTabIcon';
 import NotificationCloseIcon from './Icons/NotificationCloseIcon';
@@ -251,6 +252,9 @@ storiesOf('Icon', module)
   ))
   .add('lockIcon', () => (
     <LockIcon />
+  ))
+  .add('messageIcon', () => (
+    <MessageIcon />
   ))
   .add('moreIcon', () => (
     <MoreIcon />

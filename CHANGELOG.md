@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.3.3 (August 7, 2018)
+- Add MessageIcon
+
 ## 2.3.2 (July 20, 2018)
 - Add font `small` to `InputWeekday` and `InputTime` components
 - Remove font `mini` from `Select`component
