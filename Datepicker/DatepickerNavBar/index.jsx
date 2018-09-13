@@ -18,6 +18,12 @@ const NavBar = ({
   onNavigationClick,
 }) => {
   const styles = {
+    navbar: {
+      position: 'absolute',
+      left: 'unset',
+      right: 0,
+      width: '2.5rem',
+    },
     left: {
       float: 'left',
     },
@@ -42,7 +48,7 @@ const NavBar = ({
   const disablePreviousButton = (moment(month).isAfter(firstMonthToDisplay, 'month')) ? false : true;
 
   return (
-    <div className={className}>
+    <div style={styles.navbar}>
       <div style={styles.left}>
         <Button noStyle disabled={disablePreviousButton ? true : false} onClick={onPrev}>
             <span style={styles.align}>
@@ -52,7 +58,9 @@ const NavBar = ({
       </div>
       <div style={styles.right}>
         <Button noStyle onClick={onNext}>
-          <ArrowRightIcon color={'black'} />
+          <span style={styles.align}>
+            <ArrowRightIcon color={'black'} />
+          </span>
         </Button>
       </div>
     </div>
