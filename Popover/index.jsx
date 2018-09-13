@@ -8,17 +8,6 @@ import {
   modal,
 } from '../style/zIndex';
 
-const popoverWrapperStyle = {
-  position: 'absolute',
-  top: 0,
-  left: 0,
-  display: 'flex',
-  flexDirection: 'column',
-  height: '100vh',
-  width: '100vw',
-  justifyContent: 'center',
-  alignItems: 'center',
-};
 
 const Popover = ({
   children,
@@ -26,30 +15,44 @@ const Popover = ({
   top,
   bottom,
   right,
+  width,
   onOverlayClick,
   transparentOverlay,
-}) => (
-  <div style={popoverWrapperStyle}>
-    <div
-      style={calculateStyles({
-        default: {
-          position: 'absolute',
-          left,
-          top,
-          bottom,
-          right,
-          zIndex: modal,
-        },
-      })}
-    >
-      {children}
+}) => {
+  const popoverWrapperStyle = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    height: '100vh',
+    width: `${width || '100vw'}`,
+    justifyContent: 'center',
+    alignItems: 'center',
+  };
+  return (
+    <div style={popoverWrapperStyle}>
+      <div
+        style={calculateStyles({
+          default: {
+            position: 'absolute',
+            left,
+            top,
+            bottom,
+            right,
+            zIndex: modal,
+          },
+        })}
+      >
+        {children}
+      </div>
+      <Overlay
+        onClick={onOverlayClick}
+        transparent={transparentOverlay}
+      />
     </div>
-    <Overlay
-      onClick={onOverlayClick}
-      transparent={transparentOverlay}
-    />
-  </div>
-);
+  );
+};
 
 Popover.propTypes = {
   children: PropTypes.node.isRequired,
@@ -57,6 +60,7 @@ Popover.propTypes = {
   top: PropTypes.string,
   bottom: PropTypes.string,
   right: PropTypes.string,
+  width: PropTypes.string,
   onOverlayClick: PropTypes.func,
   transparentOverlay: PropTypes.bool,
 };
