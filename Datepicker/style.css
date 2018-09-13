@@ -60,18 +60,6 @@
       display: table-row;
     }
 
-      :global(.DayPicker-Weekday) {
-        display: table-cell;
-        padding: .5rem;
-        font-size: .875em;
-        text-align: center;
-        color: #8b9898;
-      }
-
-      :global(.DayPicker-Weekday abbr) {
-        text-decoration: none;
-      }
-
   :global(.DayPicker-Body) {
     display: table-row-group;
   }
