@@ -40,12 +40,6 @@
   user-select: none;
 }
 
-  :global(.DayPicker-Caption) {
-    display: table-caption;
-    height: 1.5rem;
-    text-align: center;
-  }
-
   :global(.DayPicker:focus .DayPicker-Caption) {
     outline: 1px dotted var(--datetimepicker-inner-border-color);
     margin: -4px 0;

@@ -5,6 +5,7 @@ import './style.css';
 import Text from '../Text';
 import NavBar from './DatepickerNavBar';
 import Weekday from './DatepickerWeekday';
+import Caption from './DatepickerCaption';
 import moment from 'moment';
 
 /* eslint-disable react/prop-types */
@@ -48,11 +49,14 @@ const Datepicker = ({
   firstMonthToDisplay,
   onNavigationClick,
   weekdayLenght,
+  date,
+
 }) =>
   <div>
     <DayPicker
       navbarElement={<NavBar firstMonthToDisplay={firstMonthToDisplay} onNavigationClick={onNavigationClick}/>}
       weekdayElement={<Weekday weekdayLenght={weekdayLenght} />}
+      captionElement={<Caption date={date}/>}
       className={submitting ? 'disabled' : undefined}
       disabledDays={disabledDays({ disableBefore, submitting })}
       initialMonth={new Date(initialMonthYear.year, initialMonthYear.month)}
@@ -103,6 +107,7 @@ Datepicker.propTypes = {
   firstMonthToDisplay: PropTypes.instanceOf(Date),
   onNavigationClick: PropTypes.func,
   weekdayLenght: PropTypes.oneOf(['short', 'medium', 'long']),
+  date: PropTypes.instanceOf(Date),
 };
 
 Datepicker.defaultProps = {
