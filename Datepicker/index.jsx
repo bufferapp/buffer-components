@@ -50,6 +50,7 @@ const Datepicker = ({
   onNavigationClick,
   weekdayLenght,
   date,
+  renderDay,
 
 }) =>
   <div>
@@ -57,6 +58,7 @@ const Datepicker = ({
       navbarElement={<NavBar firstMonthToDisplay={firstMonthToDisplay} onNavigationClick={onNavigationClick}/>}
       weekdayElement={<Weekday weekdayLenght={weekdayLenght} />}
       captionElement={<Caption date={date}/>}
+      renderDay={renderDay}
       className={submitting ? 'disabled' : undefined}
       disabledDays={disabledDays({ disableBefore, submitting })}
       initialMonth={new Date(initialMonthYear.year, initialMonthYear.month)}
@@ -71,6 +73,7 @@ const Datepicker = ({
       }}
       selectedDays={!value ? null : new Date(value.year, value.month, value.day)}
       firstDayOfWeek={firstDayOfWeek}
+      showOutsideDays
     />
     {renderError({
       error,
@@ -108,6 +111,7 @@ Datepicker.propTypes = {
   onNavigationClick: PropTypes.func,
   weekdayLenght: PropTypes.oneOf(['short', 'medium', 'long']),
   date: PropTypes.instanceOf(Date),
+  renderDay: PropTypes.func,
 };
 
 Datepicker.defaultProps = {
