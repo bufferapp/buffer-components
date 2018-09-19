@@ -3,96 +3,41 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import Datepicker from './index';
+import moment from 'moment';
 
+
+const date = [
+  moment('2015-07-01').toDate(),
+  moment('2015-08-01').toDate(),
+];
+
+const daySelected = moment('2015-07-22').toDate();
 
 storiesOf('Datepicker', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Datepicker
-      input={{
-        value: '',
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
+      firstMonthToDisplay={date[0]}
+      initialMonth={date[0]}
+    />
+  ))
+  .add('display one month in the past', () => (
+    <Datepicker
+      firstMonthToDisplay={date[0]}
+      initialMonth={date[1]}
     />
   ))
   .add('with day selected', () => (
     <Datepicker
-      input={{
-        value: {
-          day: 21,
-          month: 7,
-          year: 2015,
-        },
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
-    />
-  ))
-  .add('with disabled days', () => (
-    <Datepicker
-      input={{
-        value: '',
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
-      disableBefore={{
-        day: 21,
-        month: 7,
-        year: 2015,
-      }}
-    />
-  ))
-  .add('with error', () => (
-    <Datepicker
-      input={{
-        value: '',
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
-      meta={{
-        error: 'a date must be selected',
-        touched: true,
-      }}
-    />
-  ))
-  .add('with submitting', () => (
-    <Datepicker
-      input={{
-        value: '',
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
-      meta={{
-        submitting: true,
-      }}
+      firstMonthToDisplay={date[0]}
+      initialMonth={date[0]}
+      selectedDays={daySelected}
     />
   ))
   .add('with start of week monday', () => (
     <Datepicker
-      input={{
-        value: '',
-        onChange: action('on-change'),
-      }}
-      initialMonthYear={{
-        month: 7,
-        year: 2015,
-      }}
+      firstMonthToDisplay={date[0]}
+      initialMonth={date[0]}
       firstDayOfWeek={1}
     />
   ));
