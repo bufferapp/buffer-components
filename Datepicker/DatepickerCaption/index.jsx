@@ -9,7 +9,6 @@ const Caption = ({
 }) => {
   const styles = {
     caption: {
-      display: 'table-caption',
       height: '1.5rem',
       textAlign: 'left',
       paddingLeft: '0.5rem',

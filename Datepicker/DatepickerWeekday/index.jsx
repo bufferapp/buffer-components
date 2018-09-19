@@ -12,8 +12,9 @@ const WeekDay = ({
   const styles = {
     weekday: {
       display: 'table-cell',
-      padding: '.5rem',
+      padding: '.5rem 0',
       textAlign: 'center',
+      width: '3rem',
     },
   };
 

@@ -42,7 +42,7 @@ const NavBar = ({
 
   const onPrev = () => {
     onPreviousClick();
-    onNavigationClick(prevMonth);
+    onNavigationClick(previousMonth);
   };
 
   const disablePreviousButton = (moment(month).isAfter(firstMonthToDisplay, 'month')) ? false : true;
