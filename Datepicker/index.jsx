@@ -22,6 +22,7 @@ const datepickerStyles = {
   position: 'relative',
   userSelect: 'none',
   fontFamily: fontFamily,
+  minWidth: '336px',
 };
 
 const modifierStyles = {
