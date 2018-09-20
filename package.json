@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "2.3.3",
+  "version": "2.3.3-beta.1",
   "description": "A shared set of UI Components",
   "main": "index.js",
   "scripts": {
