@@ -11,7 +11,7 @@ const date = [
   moment('2018-10-02'),
 ];
 
-storiesOf('Datepicker NavBar', module)
+storiesOf('InputDate NavBar', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <NavBar

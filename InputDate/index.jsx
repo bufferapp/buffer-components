@@ -10,9 +10,9 @@ import {
   outerSpace,
 } from '../style/color';
 import DayPicker from 'react-day-picker';
-import NavBar from '../Datepicker/DatepickerNavBar';
-import Weekday from '../Datepicker/DatepickerWeekday';
-import Caption from '../Datepicker/DatepickerCaption';
+import NavBar from './InputDateNavBar';
+import Weekday from './InputDateWeekday';
+import Caption from './InputDateCaption';
 import Text from '../Text';
 import moment from 'moment';
 
@@ -80,12 +80,16 @@ const renderError = ({ error, touched }) => (
   ) : null
 );
 
-const disabledDays = ({ disableBefore, submitting }) => {
+const disabledDays = ({ disableBefore, submitting }, initialMonth) => {
   if (submitting) {
     return () => true;
   } else if (disableBefore) {
     return {
       before: new Date(disableBefore.year, disableBefore.month, disableBefore.day),
+    };
+  } else {
+    return {
+      before: initialMonth,
     };
   }
 };
@@ -110,6 +114,10 @@ const InputDate = ({
   onNavigationClick,
   weekdayLenght,
   date,
+  renderDay,
+  onDayClick,
+  selectedDays,
+  initialMonth,
 }) =>
   <div style={datepickerStyles}>
     <DayPicker
@@ -117,21 +125,15 @@ const InputDate = ({
       weekdayElement={<Weekday weekdayLenght={weekdayLenght} />}
       captionElement={<Caption date={date}/>}
       className={submitting ? 'disabled' : undefined}
-      disabledDays={disabledDays({ disableBefore, submitting })}
-      initialMonth={new Date(initialMonthYear.year, initialMonthYear.month)}
+      disabledDays={disabledDays({ disableBefore, submitting }, initialMonth)}
+      fromMonth={firstMonthToDisplay}
+      initialMonth={initialMonthYear? new Date(initialMonthYear.year, initialMonthYear.month) : initialMonth}
+      renderDay={renderDay}
       modifiers={modifiers}
       modifiersStyles={modifierStyles}
       showOutsideDays
-      onDayClick={(day, { disabled }) => {
-        if (!disabled) {
-          onChange({
-            day: day.getDate(),
-            month: day.getMonth(),
-            year: day.getFullYear(),
-          });
-        }
-      }}
-      selectedDays={!value ? null : new Date(value.year, value.month, value.day)}
+      onDayClick={(day, { disabled }) => {onDayClick}}
+      selectedDays={selectedDays}
       firstDayOfWeek={firstDayOfWeek}
     />
     {renderError({
@@ -167,9 +169,12 @@ InputDate.propTypes = {
   }),
   firstDayOfWeek: PropTypes.oneOf([0, 1, 2, 3, 4, 5, 6]),
   firstMonthToDisplay: PropTypes.instanceOf(Date),
+  initialMonth: PropTypes.instanceOf(Date),
   onNavigationClick: PropTypes.func,
   weekdayLenght: PropTypes.oneOf(['short', 'medium', 'long']),
   date: PropTypes.instanceOf(Date),
+  renderDay: PropTypes.func,
+  onDayClick: PropTypes.func,
 };
 
 InputDate.defaultProps = {

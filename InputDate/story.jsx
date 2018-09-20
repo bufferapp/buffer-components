@@ -3,7 +3,13 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { checkA11y } from 'storybook-addon-a11y';
 import InputDate from './index';
+import moment from 'moment';
 
+const daySelected = moment('2015-08-22').toDate();
+const date = [
+  moment('2015-07-01').toDate(),
+  moment('2015-08-01').toDate(),
+];
 
 storiesOf('InputDate', module)
   .addDecorator(checkA11y)
@@ -17,6 +23,16 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+    />
+  ))
+  .add('display one month in past', () => (
+    <InputDate
+      input={{
+        value: '',
+        onChange: action('on-change'),
+      }}
+      firstMonthToDisplay={date[0]}
+      initialMonth={date[1]}
     />
   ))
   .add('with day selected', () => (
@@ -33,6 +49,7 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+      selectedDays={daySelected}
     />
   ))
   .add('with disabled days', () => (
