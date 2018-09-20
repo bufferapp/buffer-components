@@ -132,7 +132,16 @@ const InputDate = ({
       modifiers={modifiers}
       modifiersStyles={modifierStyles}
       showOutsideDays
-      onDayClick={(day, { disabled }) => {onDayClick}}
+      onDayClick={(day, { disabled }) => {
+        if (!disabled) {
+          onChange({
+            day: day.getDate(),
+            month: day.getMonth(),
+            year: day.getFullYear(),
+          });
+        }
+        onDayClick()
+      }}
       selectedDays={selectedDays}
       firstDayOfWeek={firstDayOfWeek}
     />
@@ -183,6 +192,7 @@ InputDate.defaultProps = {
   firstMonthToDisplay: moment().toDate(),
   onNavigationClick: () => {},
   weekdayLenght: 'short',
+  onDayClick: () => {},
 };
 
 export default InputDate;
