@@ -1,10 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import DayPicker from 'react-day-picker';
-import Select from '../../Select';
 import { ArrowRightIcon, ArrowLeftIcon } from '../../Icon/Icons';
 import Button from '../../Button';
 import moment from 'moment';
+
+const styles = {
+  navbar: {
+    position: 'absolute',
+    left: 'unset',
+    right: 0,
+    width: '2.5rem',
+  },
+  left: {
+    float: 'left',
+  },
+  right: {
+    float: 'right',
+  },
+  align: {
+    verticalAlign: 'middle',
+  },
+};
 
 const NavBar = ({
   month,
@@ -12,28 +29,9 @@ const NavBar = ({
   previousMonth,
   onPreviousClick,
   onNextClick,
-  className,
-  localeUtils,
   firstMonthToDisplay,
   onNavigationClick,
 }) => {
-  const styles = {
-    navbar: {
-      position: 'absolute',
-      left: 'unset',
-      right: 0,
-      width: '2.5rem',
-    },
-    left: {
-      float: 'left',
-    },
-    right: {
-      float: 'right',
-    },
-    align: {
-      verticalAlign: 'middle',
-    },
-  };
 
   const onNext = () => {
     onNextClick();
