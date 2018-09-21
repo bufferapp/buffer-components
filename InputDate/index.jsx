@@ -87,10 +87,9 @@ const disabledDays = ({ disableBefore, submitting }, initialMonth) => {
     return {
       before: new Date(disableBefore.year, disableBefore.month, disableBefore.day),
     };
-  } else {
-    return {
-      before: initialMonth,
-    };
+  }
+  return {
+    before: initialMonth,
   }
 };
 
@@ -139,8 +138,8 @@ const InputDate = ({
             month: day.getMonth(),
             year: day.getFullYear(),
           });
+          onDayClick(day);
         }
-        onDayClick()
       }}
       selectedDays={selectedDays}
       firstDayOfWeek={firstDayOfWeek}
@@ -187,6 +186,10 @@ InputDate.propTypes = {
 };
 
 InputDate.defaultProps = {
+  input: {
+    value: '',
+    onChange: () => {},
+  },
   meta: {},
   firstDayOfWeek: 0,
   firstMonthToDisplay: moment().toDate(),
