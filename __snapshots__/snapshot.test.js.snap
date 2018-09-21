@@ -18,7 +18,6 @@ exports[`Snapshots ArrowPopover default tooltip 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -72,7 +71,6 @@ exports[`Snapshots ArrowPopover default tooltip 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -100,7 +98,6 @@ exports[`Snapshots ArrowPopover larger popover: above 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -156,7 +153,6 @@ exports[`Snapshots ArrowPopover larger popover: above 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -196,7 +192,6 @@ exports[`Snapshots ArrowPopover larger popover: below 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -251,7 +246,6 @@ exports[`Snapshots ArrowPopover larger popover: below 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -398,7 +392,6 @@ exports[`Snapshots Button with icon and text 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -871,7 +864,6 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -1300,7 +1292,6 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -1409,7 +1400,6 @@ exports[`Snapshots ButtonStateless noStyle 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "0.75rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -2638,7 +2628,6 @@ exports[`Snapshots HoverableText color = torchRed 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -2659,7 +2648,6 @@ exports[`Snapshots HoverableText default 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -2680,7 +2668,6 @@ exports[`Snapshots HoverableText hovered + hoverColor = curiousBlue 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -2701,7 +2688,6 @@ exports[`Snapshots HoverableText onMouseEnter + onMouseLeave 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -2722,7 +2708,6 @@ exports[`Snapshots HoverableText size = small 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "0.75rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -5209,7 +5194,6 @@ exports[`Snapshots IconArrowPopover default 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -5241,7 +5225,6 @@ exports[`Snapshots IdTag Default 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -9127,7 +9110,6 @@ exports[`Snapshots InputDate with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -10870,7 +10852,6 @@ exports[`Snapshots InputEmail with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -10915,7 +10896,6 @@ exports[`Snapshots InputEmail with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -10941,7 +10921,6 @@ exports[`Snapshots InputEmail with label 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -10991,7 +10970,6 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11099,7 +11077,6 @@ exports[`Snapshots InputPassword with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11144,7 +11121,6 @@ exports[`Snapshots InputPassword with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -11170,7 +11146,6 @@ exports[`Snapshots InputPassword with label 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11336,7 +11311,6 @@ exports[`Snapshots InputStateless with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11381,7 +11355,6 @@ exports[`Snapshots InputStateless with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -11407,7 +11380,6 @@ exports[`Snapshots InputStateless with label 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11457,7 +11429,6 @@ exports[`Snapshots InputStateless with placeholder 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11652,7 +11623,6 @@ exports[`Snapshots InputStateless with type = textarea & with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11697,7 +11667,6 @@ exports[`Snapshots InputStateless with type = textarea & with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -11723,7 +11692,6 @@ exports[`Snapshots InputStateless with type = textarea & with label 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11773,7 +11741,6 @@ exports[`Snapshots InputStateless with type = textarea & with placeholder 1`] = 
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11910,7 +11877,6 @@ exports[`Snapshots InputTextarea with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -11955,7 +11921,6 @@ exports[`Snapshots InputTextarea with error 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -11981,7 +11946,6 @@ exports[`Snapshots InputTextarea with label 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -12031,7 +11995,6 @@ exports[`Snapshots InputTextarea with placeholder 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 600,
-          "whiteSpace": "",
         }
       }
     >
@@ -13883,7 +13846,6 @@ exports[`Snapshots InputTime displayTimeColon 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -14610,7 +14572,6 @@ exports[`Snapshots InputTime displayTimeColon minimal 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "0.75rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -21509,7 +21470,6 @@ exports[`Snapshots LinkifiedText black text, unstyled link 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21546,7 +21506,6 @@ exports[`Snapshots LinkifiedText default 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21581,7 +21540,6 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 />
@@ -21637,7 +21595,6 @@ exports[`Snapshots LinkifiedText newTab 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21672,7 +21629,6 @@ exports[`Snapshots LinkifiedText no links 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21688,7 +21644,6 @@ exports[`Snapshots LinkifiedText size: small 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "0.75rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21723,7 +21678,6 @@ exports[`Snapshots LinkifiedText two links 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -21777,7 +21731,6 @@ exports[`Snapshots LinkifiedText unstyled 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -22019,7 +21972,6 @@ exports[`Snapshots Loader withText 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -22720,7 +22672,6 @@ exports[`Snapshots NavBar Default 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 700,
-        "whiteSpace": "",
       }
     }
   >
@@ -22733,7 +22684,6 @@ exports[`Snapshots NavBar Default 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -22797,7 +22747,6 @@ exports[`Snapshots NavBar Subtitle 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 700,
-        "whiteSpace": "",
       }
     }
   >
@@ -22810,7 +22759,6 @@ exports[`Snapshots NavBar Subtitle 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -22889,7 +22837,6 @@ exports[`Snapshots Notification default 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "0.9rem",
             "fontWeight": 400,
-            "whiteSpace": "",
           }
         }
       >
@@ -23031,7 +22978,6 @@ exports[`Snapshots Notification error 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "0.9rem",
             "fontWeight": 400,
-            "whiteSpace": "",
           }
         }
       >
@@ -23173,7 +23119,6 @@ exports[`Snapshots Notification handle close click 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "0.9rem",
             "fontWeight": 400,
-            "whiteSpace": "",
           }
         }
       >
@@ -23315,7 +23260,6 @@ exports[`Snapshots Notification long text 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "0.9rem",
             "fontWeight": 400,
-            "whiteSpace": "",
           }
         }
       >
@@ -24891,7 +24835,6 @@ exports[`Snapshots Tab default 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 400,
-            "whiteSpace": "",
           }
         }
       >
@@ -24942,7 +24885,6 @@ exports[`Snapshots Tab selected 1`] = `
             "fontFamily": "\\"Roboto\\", sans-serif",
             "fontSize": "1rem",
             "fontWeight": 700,
-            "whiteSpace": "",
           }
         }
       >
@@ -24994,7 +24936,6 @@ exports[`Snapshots Tabs default 1`] = `
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
               "fontWeight": 700,
-              "whiteSpace": "",
             }
           }
         >
@@ -25041,7 +24982,6 @@ exports[`Snapshots Tabs default 1`] = `
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
               "fontWeight": 400,
-              "whiteSpace": "",
             }
           }
         >
@@ -25061,7 +25001,6 @@ exports[`Snapshots Text black 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25077,7 +25016,6 @@ exports[`Snapshots Text bold 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 700,
-      "whiteSpace": "",
     }
   }
 >
@@ -25093,7 +25031,6 @@ exports[`Snapshots Text curiousBlue 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25109,7 +25046,6 @@ exports[`Snapshots Text default 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25125,7 +25061,6 @@ exports[`Snapshots Text extra small 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "0.5rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25141,7 +25076,6 @@ exports[`Snapshots Text extra-large 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "2rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25157,7 +25091,6 @@ exports[`Snapshots Text large 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1.25rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25173,7 +25106,6 @@ exports[`Snapshots Text mini 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "0.9rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25231,7 +25163,6 @@ exports[`Snapshots Text outerSpace 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25310,7 +25241,6 @@ exports[`Snapshots Text shuttleGray 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25326,7 +25256,6 @@ exports[`Snapshots Text small 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "0.75rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25342,7 +25271,6 @@ exports[`Snapshots Text thin 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 100,
-      "whiteSpace": "",
     }
   }
 >
@@ -25358,7 +25286,6 @@ exports[`Snapshots Text torchRed 1`] = `
       "fontFamily": "\\"Roboto\\", sans-serif",
       "fontSize": "1rem",
       "fontWeight": 400,
-      "whiteSpace": "",
     }
   }
 >
@@ -25381,7 +25308,6 @@ exports[`Snapshots Text white 1`] = `
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontSize": "1rem",
         "fontWeight": 400,
-        "whiteSpace": "",
       }
     }
   >
@@ -25434,7 +25360,6 @@ exports[`Snapshots Toggle custom offText 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -25529,7 +25454,6 @@ exports[`Snapshots Toggle custom onText 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -25624,7 +25548,6 @@ exports[`Snapshots Toggle default 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -25719,7 +25642,6 @@ exports[`Snapshots Toggle disabled + on 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -25814,7 +25736,6 @@ exports[`Snapshots Toggle disabled 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >
@@ -25909,7 +25830,6 @@ exports[`Snapshots Toggle on 1`] = `
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1rem",
           "fontWeight": 400,
-          "whiteSpace": "",
         }
       }
     >

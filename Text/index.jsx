@@ -38,7 +38,6 @@ const Text = ({ children, size, weight, color, whitespace }) => {
       fontSize,
       fontWeight,
       color: colors[color],
-      whiteSpace: '',
     },
     // Weights
     extraLight: {
