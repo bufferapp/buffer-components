@@ -21545,6 +21545,48 @@ exports[`Snapshots LinkifiedText empty string 1`] = `
 />
 `;
 
+exports[`Snapshots LinkifiedText long text respecting whitespace  1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "pre-wrap",
+    }
+  }
+>
+  some long text goes here
+
+- item 1
+- item 2
+
+more text here
+</span>
+`;
+
+exports[`Snapshots LinkifiedText long text with normal whitespace handling 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "normal",
+    }
+  }
+>
+  some long text goes here
+
+- item 1
+- item 2
+
+more text here
+</span>
+`;
+
 exports[`Snapshots LinkifiedText newTab 1`] = `
 <span
   style={
@@ -25071,6 +25113,48 @@ exports[`Snapshots Text mini 1`] = `
 </span>
 `;
 
+exports[`Snapshots Text noWrap 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "nowrap",
+    }
+  }
+>
+  Test this out
+
+- lots of stuff
+- some things
+
+long with spaces
+</span>
+`;
+
+exports[`Snapshots Text normal 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "normal",
+    }
+  }
+>
+  Test this out
+
+- lots of stuff
+- some things
+
+long with spaces
+</span>
+`;
+
 exports[`Snapshots Text outerSpace 1`] = `
 <span
   style={
@@ -25083,6 +25167,69 @@ exports[`Snapshots Text outerSpace 1`] = `
   }
 >
   The quick brown fox jumps over the lazy dog
+</span>
+`;
+
+exports[`Snapshots Text pre 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "pre",
+    }
+  }
+>
+  Test this out
+
+- lots of stuff
+- some things
+
+long with spaces
+</span>
+`;
+
+exports[`Snapshots Text preLine 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "pre-line",
+    }
+  }
+>
+  Test this out
+
+- lots of stuff
+- some things
+
+long with spaces
+</span>
+`;
+
+exports[`Snapshots Text preWrap 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "pre-wrap",
+    }
+  }
+>
+  Test this out
+
+- lots of stuff
+- some things
+
+long with spaces
 </span>
 `;
 
