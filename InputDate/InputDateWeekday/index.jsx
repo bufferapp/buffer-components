@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Text from '../../Text';
 
 const WeekDay = ({
-  weekdayLenght,
+  weekdayLength,
   weekday,
   className,
   localeUtils,
@@ -20,8 +20,8 @@ const WeekDay = ({
 
   const weekdaysList = localeUtils.formatWeekdayLong(weekday, locale);
 
-  const getWeekdayName = (weekdaysList, weekdayLenght) => {
-    switch(weekdayLenght) {
+  const getWeekdayName = (weekdaysList, weekdayLength) => {
+    switch(weekdayLength) {
       case 'short':
         return weekdaysList.slice(0, 1);
         break;
@@ -39,18 +39,18 @@ const WeekDay = ({
   return (
     <div style={styles.weekday} title={weekdaysList}>
       <Text color={'lightSlate'} size={'small'}>
-        {getWeekdayName(weekdaysList, weekdayLenght)}
+        {getWeekdayName(weekdaysList, weekdayLength)}
       </Text>
     </div>
   );
 };
 
 WeekDay.propTypes = {
-  weekdayLenght: PropTypes.oneOf(['short', 'medium', 'long']),
+  weekdayLength: PropTypes.oneOf(['short', 'medium', 'long']),
 };
 
 WeekDay.defaultProps = {
-  weekdayLenght: 'short',
+  weekdayLength: 'short',
 };
 
 export default WeekDay;

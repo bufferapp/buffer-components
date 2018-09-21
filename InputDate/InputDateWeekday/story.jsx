@@ -13,8 +13,8 @@ storiesOf('InputDate Weekdays', module)
     <Weekday localeUtils={localeUtils} locale={'en'} weekday={0}/>
   ))
   .add('Medium Weekday', () => (
-    <Weekday localeUtils={localeUtils} weekdayLenght={'medium'} locale={'en'} weekday={0}/>
+    <Weekday localeUtils={localeUtils} weekdayLength={'medium'} locale={'en'} weekday={0}/>
   ))
   .add('Long Weekday', () => (
-    <Weekday localeUtils={localeUtils} weekdayLenght={'long'} locale={'en'} weekday={0}/>
+    <Weekday localeUtils={localeUtils} weekdayLength={'long'} locale={'en'} weekday={0}/>
   ));

@@ -111,7 +111,7 @@ const InputDate = ({
   firstDayOfWeek,
   firstMonthToDisplay,
   onNavigationClick,
-  weekdayLenght,
+  weekdayLength,
   date,
   renderDay,
   onDayClick,
@@ -121,7 +121,7 @@ const InputDate = ({
   <div style={datepickerStyles}>
     <DayPicker
       navbarElement={<NavBar firstMonthToDisplay={firstMonthToDisplay} onNavigationClick={onNavigationClick}/>}
-      weekdayElement={<Weekday weekdayLenght={weekdayLenght} />}
+      weekdayElement={<Weekday weekdayLength={weekdayLength} />}
       captionElement={<Caption date={date}/>}
       className={submitting ? 'disabled' : undefined}
       disabledDays={disabledDays({ disableBefore, submitting }, initialMonth)}
@@ -179,7 +179,7 @@ InputDate.propTypes = {
   firstMonthToDisplay: PropTypes.instanceOf(Date),
   initialMonth: PropTypes.instanceOf(Date),
   onNavigationClick: PropTypes.func,
-  weekdayLenght: PropTypes.oneOf(['short', 'medium', 'long']),
+  weekdayLength: PropTypes.oneOf(['short', 'medium', 'long']),
   date: PropTypes.instanceOf(Date),
   renderDay: PropTypes.func,
   onDayClick: PropTypes.func,
@@ -194,7 +194,7 @@ InputDate.defaultProps = {
   firstDayOfWeek: 0,
   firstMonthToDisplay: moment().toDate(),
   onNavigationClick: () => {},
-  weekdayLenght: 'short',
+  weekdayLength: 'short',
   onDayClick: () => {},
 };
 
