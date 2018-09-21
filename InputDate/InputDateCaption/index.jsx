@@ -3,18 +3,17 @@ import PropTypes from 'prop-types';
 import Text from '../../Text';
 import moment from 'moment';
 
+const styles = {
+  caption: {
+    height: '1.5rem',
+    textAlign: 'left',
+    paddingLeft: '0.5rem',
+  },
+};
+
 const Caption = ({
-  localeUtils,
   date,
 }) => {
-  const styles = {
-    caption: {
-      height: '1.5rem',
-      textAlign: 'left',
-      paddingLeft: '0.5rem',
-    },
-  };
-
   const month = moment(date).format('MMMM YYYY');
 
   return (
@@ -28,9 +27,6 @@ const Caption = ({
 
 Caption.propTypes = {
   date: PropTypes.instanceOf(Date),
-};
-
-Caption.defaultProps = {
 };
 
 export default Caption;
