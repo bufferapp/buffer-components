@@ -95,4 +95,18 @@ storiesOf('LinkifiedText', module)
     >
       {'a http://t.co/0JG5Mcq b'}
     </LinkifiedText>
+  ))
+  .add('long text with normal whitespace handling', () => (
+    <LinkifiedText
+      whitespace='normal'
+    >
+      {'some long text goes here\n\n- item 1\n- item 2\n\nmore text here'}
+    </LinkifiedText>
+  ))
+  .add('long text respecting whitespace ', () => (
+    <LinkifiedText
+      whitespace='pre-wrap'
+    >
+      {'some long text goes here\n\n- item 1\n- item 2\n\nmore text here'}
+    </LinkifiedText>
   ));

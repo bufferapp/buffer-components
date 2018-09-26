@@ -53,9 +53,18 @@ const LinkifiedText = ({
   newTab,
   size,
   unstyled,
+  whitespace,
 }) => {
   const options = { unstyled, newTab };
-  return <Text size={size} color={color}>{calulateLinkifiedText(options, links, children)}</Text>;
+  return (
+    <Text
+      whitespace={whitespace}
+      size={size}
+      color={color}
+    >
+      {calulateLinkifiedText(options, links, children)}
+    </Text>
+  );
 };
 
 LinkifiedText.propTypes = {
@@ -72,6 +81,7 @@ LinkifiedText.propTypes = {
   newTab: PropTypes.bool,
   size: PropTypes.string,
   unstyled: PropTypes.bool,
+  whitespace: PropTypes.string,
 };
 
 LinkifiedText.defaultProps = {
