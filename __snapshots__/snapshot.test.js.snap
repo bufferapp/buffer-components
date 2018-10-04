@@ -20998,6 +20998,46 @@ exports[`Snapshots Loader withText 1`] = `
 </div>
 `;
 
+exports[`Snapshots LoadingAnimation default 1`] = `
+<img
+  alt=""
+  src="https://s3.amazonaws.com/buffer-publish/images/black-loading-gif-small.gif"
+  style={
+    Object {
+      "height": undefined,
+      "marginBottom": undefined,
+      "marginTop": "5rem",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
+      "objectFit": undefined,
+      "width": "45px",
+    }
+  }
+/>
+`;
+
+exports[`Snapshots LoadingAnimation withMarginTop 1`] = `
+<img
+  alt=""
+  src="https://s3.amazonaws.com/buffer-publish/images/black-loading-gif-small.gif"
+  style={
+    Object {
+      "height": undefined,
+      "marginBottom": undefined,
+      "marginTop": "1rem",
+      "maxHeight": undefined,
+      "maxWidth": undefined,
+      "minHeight": undefined,
+      "minWidth": undefined,
+      "objectFit": undefined,
+      "width": "45px",
+    }
+  }
+/>
+`;
+
 exports[`Snapshots MultipleImages border=rounded 1`] = `
 <div
   style={

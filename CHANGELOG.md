@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.3.1 (October 4, 2018)
+
+- Add `marginTop` property to `loadingAnimation`.
+- (Internal) Add `loadingAnimation` to Storybook.
+
 ## 2.3.0 (July 6, 2018)
 
 - Fix `Input` to allow custom `onFocus` handler.
