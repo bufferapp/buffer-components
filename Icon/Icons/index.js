@@ -53,6 +53,7 @@ export LikeIcon from './LikeIcon';
 export LinkIcon from './LinkIcon';
 export LinkedInIcon from './LinkedInIcon';
 export LockIcon from './LockIcon';
+export MessageIcon from './MessageIcon';
 export MoreIcon from './MoreIcon';
 export NotificationIcon from './NotificationIcon';
 export NotificationCloseIcon from './NotificationCloseIcon';

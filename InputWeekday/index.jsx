@@ -34,6 +34,7 @@ const InputWeekday = ({
   meta: {
     submitting,
   },
+  fontSize,
 }) => (
   <div style={style}>
     <Select
@@ -42,6 +43,7 @@ const InputWeekday = ({
       options={scheduleTypes}
       value={value.day}
       label={'choose days'}
+      size={fontSize}
     />
   </div>
 );
@@ -59,6 +61,7 @@ InputWeekday.propTypes = {
   meta: PropTypes.shape({
     submitting: PropTypes.bool,
   }),
+  fontSize: PropTypes.oneOf(['small']),
 };
 
 InputWeekday.defaultProps = {

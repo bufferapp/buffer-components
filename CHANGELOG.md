@@ -1,9 +1,23 @@
 # Changelog
 
-## 2.3.1 (October 4, 2018)
 
+## 2.3.6 (October 4, 2018)
 - Add `marginTop` property to `loadingAnimation`.
 - (Internal) Add `loadingAnimation` to Storybook.
+
+## 2.3.5
+
+## 2.3.4
+
+## 2.3.3 (August 7, 2018)
+- Add MessageIcon
+
+## 2.3.2 (July 20, 2018)
+- Add font `small` to `InputWeekday` and `InputTime` components
+- Remove font `mini` from `Select`component
+
+## 2.3.1 (July 18, 2018)
+- Add font `mini` and `small` to `Select`component
 
 ## 2.3.0 (July 6, 2018)
 

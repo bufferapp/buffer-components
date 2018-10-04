@@ -99,4 +99,11 @@ storiesOf('Select', module)
       onChange={action('on-change')}
       color={'curiousBlue'}
     />
+  ))
+  .add('small', () => (
+    <Select
+      options={options}
+      onChange={action('on-change')}
+      size={'small'}
+    />
   ));
