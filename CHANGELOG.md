@@ -1,5 +1,7 @@
 # Changelog
 
+## 2.3.7 (October 4, 2018)
+- Add `CircleInstReminderIcon` component.
 
 ## 2.3.6 (October 4, 2018)
 - Add `marginTop` property to `loadingAnimation`.
