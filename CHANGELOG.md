@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.3.8 (October 8, 2018)
+- Fix missing export of `CircleInstReminderIcon` component.
+
 ## 2.3.7 (October 4, 2018)
 - Add `CircleInstReminderIcon` component.
 
