@@ -3,7 +3,7 @@ import {
   storiesOf,
   action,
 } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { checkA11y } from '@storybook/addon-a11y';
 import Tabs from './index';
 import Tab from '../Tab';
 

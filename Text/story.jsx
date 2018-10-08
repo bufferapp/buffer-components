@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { checkA11y } from '@storybook/addon-a11y';
 import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';

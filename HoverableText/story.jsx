@@ -3,7 +3,7 @@ import {
   action,
   storiesOf,
 } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { checkA11y } from '@storybook/addon-a11y';
 import HoverableText from './index';
 
 storiesOf('HoverableText', module)
