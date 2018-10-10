@@ -95,7 +95,6 @@ const disabledDays = ({ disableBefore, submitting }, initialMonth) => {
 
 /* eslint-enable react/prop-types */
 
-
 const InputDate = ({
   disableBefore,
   input: {
@@ -141,7 +140,7 @@ const InputDate = ({
           onDayClick(day);
         }
       }}
-      selectedDays={selectedDays}
+      selectedDays={selectedDays ? selectedDays : (!value ? null : new Date(value.year, value.month, value.day))}
       firstDayOfWeek={firstDayOfWeek}
     />
     {renderError({
