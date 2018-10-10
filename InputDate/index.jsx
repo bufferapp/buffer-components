@@ -124,7 +124,9 @@ const InputDate = ({
       captionElement={<Caption date={date}/>}
       className={submitting ? 'disabled' : undefined}
       disabledDays={disabledDays({ disableBefore, submitting }, initialMonth)}
+      // First month the user can navigate to, default to current month:
       fromMonth={firstMonthToDisplay}
+      // Month showed when open the calendar:
       initialMonth={initialMonthYear? new Date(initialMonthYear.year, initialMonthYear.month) : initialMonth}
       renderDay={renderDay}
       modifiers={modifiers}
@@ -164,7 +166,7 @@ InputDate.propTypes = {
   initialMonthYear: PropTypes.shape({
     month: PropTypes.number,
     year: PropTypes.number,
-  }).isRequired,
+  }),
   disableBefore: PropTypes.shape({
     month: PropTypes.number,
     year: PropTypes.number,

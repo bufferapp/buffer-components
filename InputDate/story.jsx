@@ -23,6 +23,7 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+      firstMonthToDisplay={date[1]}
     />
   ))
   .add('display one month in past', () => (
@@ -49,6 +50,7 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+      firstMonthToDisplay={date[1]}
       selectedDays={daySelected}
     />
   ))
@@ -67,6 +69,7 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+      firstMonthToDisplay={date[1]}
     />
   ))
   .add('with error', () => (
@@ -83,6 +86,7 @@ storiesOf('InputDate', module)
         error: 'a date must be selected',
         touched: true,
       }}
+      firstMonthToDisplay={date[1]}
     />
   ))
   .add('with submitting', () => (
@@ -98,6 +102,7 @@ storiesOf('InputDate', module)
       meta={{
         submitting: true,
       }}
+      firstMonthToDisplay={date[1]}
     />
   ))
   .add('with start of week monday', () => (
@@ -110,6 +115,7 @@ storiesOf('InputDate', module)
         month: 7,
         year: 2015,
       }}
+      firstMonthToDisplay={date[1]}
       firstDayOfWeek={1}
     />
   ));

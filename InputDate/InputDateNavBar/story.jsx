@@ -15,12 +15,12 @@ storiesOf('InputDateNavBar', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <NavBar
-      firstMonthtoDisplay={date[0]}
+      firstMonthToDisplay={date[0]}
       month={date[1]}/>
   ))
   .add('navigation disabled', () => (
     <NavBar
-      firstMonthtoDisplay={date[0]}
+      firstMonthToDisplay={date[0]}
       month={date[0]}
     />
   ));

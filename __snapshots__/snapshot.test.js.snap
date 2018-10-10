@@ -5761,414 +5761,6 @@ exports[`Snapshots InputAutocomplete empty items 1`] = `
 </div>
 `;
 
-exports[`Snapshots InputDate Caption default 1`] = `
-<div
-  style={
-    Object {
-      "height": "1.5rem",
-      "paddingLeft": "0.5rem",
-      "textAlign": "left",
-    }
-  }
->
-  <span
-    style={
-      Object {
-        "color": "#000",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "0.9rem",
-        "fontWeight": 700,
-      }
-    }
-  >
-    September 2018
-  </span>
-</div>
-`;
-
-exports[`Snapshots InputDate NavBar default 1`] = `
-<div
-  style={
-    Object {
-      "left": "unset",
-      "position": "absolute",
-      "right": 0,
-      "width": "2.5rem",
-    }
-  }
->
-  <div
-    style={
-      Object {
-        "float": "left",
-      }
-    }
-  >
-    <button
-      aria-label={null}
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "unset",
-          "cursor": "pointer",
-          "display": "unset",
-          "fontFamily": "unset",
-          "fontSize": "unset",
-          "fontWeight": "unset",
-          "lineHeight": "unset",
-          "margin": "unset",
-          "outline": "none",
-          "padding": 0,
-          "transition": "unset",
-        }
-      }
-    >
-      <span
-        style={
-          Object {
-            "verticalAlign": "middle",
-          }
-        }
-      >
-        <svg
-          height="100%"
-          style={
-            Object {
-              "fill": "#000",
-              "height": "1rem",
-              "width": "1rem",
-            }
-          }
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="black"
-          >
-            <path
-              d="M4.92576783,3.81434559 C4.53597948,3.42533817 4.5351389,2.79705307 4.92999649,2.40496826 L4.92999649,2.40496826 C5.32212026,2.01559807 5.95539281,2.01782576 6.34493101,2.41042843 L11.2950684,7.3995081 C11.6843914,7.79189385 11.6846066,8.4258744 11.2950684,8.81602474 L6.34493101,13.7739411 C5.95560803,14.1638759 5.32485408,14.1648267 4.92999649,13.7699585 L4.92999649,13.7699585 C4.53787272,13.3778242 4.53276646,12.7496688 4.93637278,12.3492951 L8.860413,8.45668374 C9.05900809,8.25967927 9.06487811,7.94516326 8.860413,7.74110779 L4.92576783,3.81434559 Z"
-              transform="translate(8.109997, 8.089966) scale(-1, 1) translate(-8.109997, -8.089966) "
-            />
-          </g>
-        </svg>
-      </span>
-    </button>
-  </div>
-  <div
-    style={
-      Object {
-        "float": "right",
-      }
-    }
-  >
-    <button
-      aria-label={null}
-      disabled={undefined}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "unset",
-          "cursor": "pointer",
-          "display": "unset",
-          "fontFamily": "unset",
-          "fontSize": "unset",
-          "fontWeight": "unset",
-          "lineHeight": "unset",
-          "margin": "unset",
-          "outline": "none",
-          "padding": 0,
-          "transition": "unset",
-        }
-      }
-    >
-      <span
-        style={
-          Object {
-            "verticalAlign": "middle",
-          }
-        }
-      >
-        <svg
-          height="100%"
-          style={
-            Object {
-              "fill": "#000",
-              "height": "1rem",
-              "width": "1rem",
-            }
-          }
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="black"
-          >
-            <path
-              d="M4.70577424,3.81434559 C4.31598589,3.42533817 4.31514531,2.79705307 4.7100029,2.40496826 L4.7100029,2.40496826 C5.10212667,2.01559807 5.73539922,2.01782576 6.12493742,2.41042843 L11.0750748,7.3995081 C11.4643978,7.79189385 11.464613,8.4258744 11.0750748,8.81602474 L6.12493742,13.7739411 C5.73561443,14.1638759 5.10486049,14.1648267 4.7100029,13.7699585 L4.7100029,13.7699585 C4.31787913,13.3778242 4.31277287,12.7496688 4.71637919,12.3492951 L8.64041941,8.45668374 C8.8390145,8.25967927 8.84488452,7.94516326 8.64041941,7.74110779 L4.70577424,3.81434559 Z"
-            />
-          </g>
-        </svg>
-      </span>
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Snapshots InputDate NavBar navigation disabled 1`] = `
-<div
-  style={
-    Object {
-      "left": "unset",
-      "position": "absolute",
-      "right": 0,
-      "width": "2.5rem",
-    }
-  }
->
-  <div
-    style={
-      Object {
-        "float": "left",
-      }
-    }
-  >
-    <button
-      aria-label={null}
-      disabled={true}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "unset",
-          "cursor": "pointer",
-          "display": "unset",
-          "fontFamily": "unset",
-          "fontSize": "unset",
-          "fontWeight": "unset",
-          "lineHeight": "unset",
-          "margin": "unset",
-          "outline": "none",
-          "padding": 0,
-          "transition": "unset",
-        }
-      }
-    >
-      <span
-        style={
-          Object {
-            "verticalAlign": "middle",
-          }
-        }
-      >
-        <svg
-          height="100%"
-          style={
-            Object {
-              "fill": "#ced7df",
-              "height": "1rem",
-              "width": "1rem",
-            }
-          }
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="geyser"
-          >
-            <path
-              d="M4.92576783,3.81434559 C4.53597948,3.42533817 4.5351389,2.79705307 4.92999649,2.40496826 L4.92999649,2.40496826 C5.32212026,2.01559807 5.95539281,2.01782576 6.34493101,2.41042843 L11.2950684,7.3995081 C11.6843914,7.79189385 11.6846066,8.4258744 11.2950684,8.81602474 L6.34493101,13.7739411 C5.95560803,14.1638759 5.32485408,14.1648267 4.92999649,13.7699585 L4.92999649,13.7699585 C4.53787272,13.3778242 4.53276646,12.7496688 4.93637278,12.3492951 L8.860413,8.45668374 C9.05900809,8.25967927 9.06487811,7.94516326 8.860413,7.74110779 L4.92576783,3.81434559 Z"
-              transform="translate(8.109997, 8.089966) scale(-1, 1) translate(-8.109997, -8.089966) "
-            />
-          </g>
-        </svg>
-      </span>
-    </button>
-  </div>
-  <div
-    style={
-      Object {
-        "float": "right",
-      }
-    }
-  >
-    <button
-      aria-label={null}
-      disabled={undefined}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      style={
-        Object {
-          "background": "none",
-          "backgroundColor": "unset",
-          "border": "none",
-          "borderRadius": "unset",
-          "color": "unset",
-          "cursor": "pointer",
-          "display": "unset",
-          "fontFamily": "unset",
-          "fontSize": "unset",
-          "fontWeight": "unset",
-          "lineHeight": "unset",
-          "margin": "unset",
-          "outline": "none",
-          "padding": 0,
-          "transition": "unset",
-        }
-      }
-    >
-      <span
-        style={
-          Object {
-            "verticalAlign": "middle",
-          }
-        }
-      >
-        <svg
-          height="100%"
-          style={
-            Object {
-              "fill": "#000",
-              "height": "1rem",
-              "width": "1rem",
-            }
-          }
-          version="1.1"
-          viewBox="0 0 16 16"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-        >
-          <g
-            className="black"
-          >
-            <path
-              d="M4.70577424,3.81434559 C4.31598589,3.42533817 4.31514531,2.79705307 4.7100029,2.40496826 L4.7100029,2.40496826 C5.10212667,2.01559807 5.73539922,2.01782576 6.12493742,2.41042843 L11.0750748,7.3995081 C11.4643978,7.79189385 11.464613,8.4258744 11.0750748,8.81602474 L6.12493742,13.7739411 C5.73561443,14.1638759 5.10486049,14.1648267 4.7100029,13.7699585 L4.7100029,13.7699585 C4.31787913,13.3778242 4.31277287,12.7496688 4.71637919,12.3492951 L8.64041941,8.45668374 C8.8390145,8.25967927 8.84488452,7.94516326 8.64041941,7.74110779 L4.70577424,3.81434559 Z"
-            />
-          </g>
-        </svg>
-      </span>
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Snapshots InputDate Weekdays Long Weekday 1`] = `
-<div
-  style={
-    Object {
-      "display": "table-cell",
-      "padding": ".5rem 0",
-      "textAlign": "center",
-      "width": "3rem",
-    }
-  }
-  title="Sunday"
->
-  <span
-    style={
-      Object {
-        "color": "#8A9097",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "0.75rem",
-        "fontWeight": 400,
-      }
-    }
-  >
-    Sunday
-  </span>
-</div>
-`;
-
-exports[`Snapshots InputDate Weekdays Medium Weekday 1`] = `
-<div
-  style={
-    Object {
-      "display": "table-cell",
-      "padding": ".5rem 0",
-      "textAlign": "center",
-      "width": "3rem",
-    }
-  }
-  title="Sunday"
->
-  <span
-    style={
-      Object {
-        "color": "#8A9097",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "0.75rem",
-        "fontWeight": 400,
-      }
-    }
-  >
-    Su
-  </span>
-</div>
-`;
-
-exports[`Snapshots InputDate Weekdays Short Weekday 1`] = `
-<div
-  style={
-    Object {
-      "display": "table-cell",
-      "padding": ".5rem 0",
-      "textAlign": "center",
-      "width": "3rem",
-    }
-  }
-  title="Sunday"
->
-  <span
-    style={
-      Object {
-        "color": "#8A9097",
-        "fontFamily": "\\"Roboto\\", sans-serif",
-        "fontSize": "0.75rem",
-        "fontWeight": 400,
-      }
-    }
-  >
-    S
-  </span>
-</div>
-`;
-
 exports[`Snapshots InputDate default 1`] = `
 <div
   style={
@@ -19507,6 +19099,414 @@ exports[`Snapshots InputDate with submitting 1`] = `
       </div>
     </div>
   </div>
+</div>
+`;
+
+exports[`Snapshots InputDateCaption default 1`] = `
+<div
+  style={
+    Object {
+      "height": "1.5rem",
+      "paddingLeft": "0.5rem",
+      "textAlign": "left",
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "color": "#000",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.9rem",
+        "fontWeight": 700,
+      }
+    }
+  >
+    July 2015
+  </span>
+</div>
+`;
+
+exports[`Snapshots InputDateNavBar default 1`] = `
+<div
+  style={
+    Object {
+      "left": "unset",
+      "position": "absolute",
+      "right": 0,
+      "width": "2.5rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "float": "left",
+      }
+    }
+  >
+    <button
+      aria-label={null}
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "lineHeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <svg
+          height="100%"
+          style={
+            Object {
+              "fill": "#000",
+              "height": "1rem",
+              "width": "1rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            className="black"
+          >
+            <path
+              d="M4.92576783,3.81434559 C4.53597948,3.42533817 4.5351389,2.79705307 4.92999649,2.40496826 L4.92999649,2.40496826 C5.32212026,2.01559807 5.95539281,2.01782576 6.34493101,2.41042843 L11.2950684,7.3995081 C11.6843914,7.79189385 11.6846066,8.4258744 11.2950684,8.81602474 L6.34493101,13.7739411 C5.95560803,14.1638759 5.32485408,14.1648267 4.92999649,13.7699585 L4.92999649,13.7699585 C4.53787272,13.3778242 4.53276646,12.7496688 4.93637278,12.3492951 L8.860413,8.45668374 C9.05900809,8.25967927 9.06487811,7.94516326 8.860413,7.74110779 L4.92576783,3.81434559 Z"
+              transform="translate(8.109997, 8.089966) scale(-1, 1) translate(-8.109997, -8.089966) "
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+  >
+    <button
+      aria-label={null}
+      disabled={undefined}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "lineHeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <svg
+          height="100%"
+          style={
+            Object {
+              "fill": "#000",
+              "height": "1rem",
+              "width": "1rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            className="black"
+          >
+            <path
+              d="M4.70577424,3.81434559 C4.31598589,3.42533817 4.31514531,2.79705307 4.7100029,2.40496826 L4.7100029,2.40496826 C5.10212667,2.01559807 5.73539922,2.01782576 6.12493742,2.41042843 L11.0750748,7.3995081 C11.4643978,7.79189385 11.464613,8.4258744 11.0750748,8.81602474 L6.12493742,13.7739411 C5.73561443,14.1638759 5.10486049,14.1648267 4.7100029,13.7699585 L4.7100029,13.7699585 C4.31787913,13.3778242 4.31277287,12.7496688 4.71637919,12.3492951 L8.64041941,8.45668374 C8.8390145,8.25967927 8.84488452,7.94516326 8.64041941,7.74110779 L4.70577424,3.81434559 Z"
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputDateNavBar navigation disabled 1`] = `
+<div
+  style={
+    Object {
+      "left": "unset",
+      "position": "absolute",
+      "right": 0,
+      "width": "2.5rem",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "float": "left",
+      }
+    }
+  >
+    <button
+      aria-label={null}
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "lineHeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <svg
+          height="100%"
+          style={
+            Object {
+              "fill": "#ced7df",
+              "height": "1rem",
+              "width": "1rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            className="geyser"
+          >
+            <path
+              d="M4.92576783,3.81434559 C4.53597948,3.42533817 4.5351389,2.79705307 4.92999649,2.40496826 L4.92999649,2.40496826 C5.32212026,2.01559807 5.95539281,2.01782576 6.34493101,2.41042843 L11.2950684,7.3995081 C11.6843914,7.79189385 11.6846066,8.4258744 11.2950684,8.81602474 L6.34493101,13.7739411 C5.95560803,14.1638759 5.32485408,14.1648267 4.92999649,13.7699585 L4.92999649,13.7699585 C4.53787272,13.3778242 4.53276646,12.7496688 4.93637278,12.3492951 L8.860413,8.45668374 C9.05900809,8.25967927 9.06487811,7.94516326 8.860413,7.74110779 L4.92576783,3.81434559 Z"
+              transform="translate(8.109997, 8.089966) scale(-1, 1) translate(-8.109997, -8.089966) "
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "right",
+      }
+    }
+  >
+    <button
+      aria-label={null}
+      disabled={undefined}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      style={
+        Object {
+          "background": "none",
+          "backgroundColor": "unset",
+          "border": "none",
+          "borderRadius": "unset",
+          "color": "unset",
+          "cursor": "pointer",
+          "display": "unset",
+          "fontFamily": "unset",
+          "fontSize": "unset",
+          "fontWeight": "unset",
+          "lineHeight": "unset",
+          "margin": "unset",
+          "outline": "none",
+          "padding": 0,
+          "transition": "unset",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "verticalAlign": "middle",
+          }
+        }
+      >
+        <svg
+          height="100%"
+          style={
+            Object {
+              "fill": "#000",
+              "height": "1rem",
+              "width": "1rem",
+            }
+          }
+          version="1.1"
+          viewBox="0 0 16 16"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            className="black"
+          >
+            <path
+              d="M4.70577424,3.81434559 C4.31598589,3.42533817 4.31514531,2.79705307 4.7100029,2.40496826 L4.7100029,2.40496826 C5.10212667,2.01559807 5.73539922,2.01782576 6.12493742,2.41042843 L11.0750748,7.3995081 C11.4643978,7.79189385 11.464613,8.4258744 11.0750748,8.81602474 L6.12493742,13.7739411 C5.73561443,14.1638759 5.10486049,14.1648267 4.7100029,13.7699585 L4.7100029,13.7699585 C4.31787913,13.3778242 4.31277287,12.7496688 4.71637919,12.3492951 L8.64041941,8.45668374 C8.8390145,8.25967927 8.84488452,7.94516326 8.64041941,7.74110779 L4.70577424,3.81434559 Z"
+            />
+          </g>
+        </svg>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots InputDateWeekdays Long Weekday 1`] = `
+<div
+  style={
+    Object {
+      "display": "table-cell",
+      "padding": ".5rem 0",
+      "textAlign": "center",
+      "width": "3rem",
+    }
+  }
+  title="Sunday"
+>
+  <span
+    style={
+      Object {
+        "color": "#8A9097",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Sunday
+  </span>
+</div>
+`;
+
+exports[`Snapshots InputDateWeekdays Medium Weekday 1`] = `
+<div
+  style={
+    Object {
+      "display": "table-cell",
+      "padding": ".5rem 0",
+      "textAlign": "center",
+      "width": "3rem",
+    }
+  }
+  title="Sunday"
+>
+  <span
+    style={
+      Object {
+        "color": "#8A9097",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Su
+  </span>
+</div>
+`;
+
+exports[`Snapshots InputDateWeekdays Short Weekday 1`] = `
+<div
+  style={
+    Object {
+      "display": "table-cell",
+      "padding": ".5rem 0",
+      "textAlign": "center",
+      "width": "3rem",
+    }
+  }
+  title="Sunday"
+>
+  <span
+    style={
+      Object {
+        "color": "#8A9097",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    S
+  </span>
 </div>
 `;
 
