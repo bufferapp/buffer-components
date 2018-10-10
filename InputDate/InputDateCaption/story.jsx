@@ -7,7 +7,7 @@ import moment from 'moment';
 
 const date = moment('2015-07-01').toDate();
 
-storiesOf('InputDate Caption', module)
+storiesOf('InputDateCaption', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Caption date={date}/>

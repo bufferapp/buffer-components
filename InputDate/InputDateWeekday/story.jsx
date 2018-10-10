@@ -7,7 +7,7 @@ import DayPicker from 'react-day-picker';
 
 const localeUtils = DayPicker.LocaleUtils;
 
-storiesOf('InputDate Weekdays', module)
+storiesOf('InputDateWeekdays', module)
   .addDecorator(checkA11y)
   .add('Short Weekday', () => (
     <Weekday localeUtils={localeUtils} locale={'en'} weekday={0}/>
