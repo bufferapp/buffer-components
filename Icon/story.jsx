@@ -27,6 +27,7 @@ import CircleCheckmarkIcon from './Icons/CircleCheckmarkIcon';
 import CircleFacebookIcon from './Icons/CircleFacebookIcon';
 import CircleGooglePlusIcon from './Icons/CircleGooglePlusIcon';
 import CircleInstagramIcon from './Icons/CircleInstagramIcon';
+import CircleInstReminderIcon from './Icons/CircleInstReminderIcon';
 import CircleLinkedInIcon from './Icons/CircleLinkedInIcon';
 import CircleMinusIcon from './Icons/CircleMinusIcon';
 import CirclePinterestIcon from './Icons/CirclePinterestIcon';
@@ -171,6 +172,9 @@ storiesOf('Icon', module)
   ))
   .add('circleInstagramIcon', () => (
     <CircleInstagramIcon />
+  ))
+  .add('circleInstReminderIcon', () => (
+    <CircleInstReminderIcon />
   ))
   .add('circleLinkedInIcon', () => (
     <CircleLinkedInIcon />

@@ -21,9 +21,17 @@ import {
   fontWeightExtraBold,
   fontWeightBlack,
 } from '../style/font';
+import {
+  whiteSpaces,
+  normal,
+  pre,
+  preLine,
+  preWrap,
+  noWrap,
+} from '../style/whiteSpaces';
 import colors from '../style/color';
 
-const Text = ({ children, size, weight, color }) => {
+const Text = ({ children, size, weight, color, whitespace }) => {
   const style = calculateStyles({
     default: {
       fontFamily,
@@ -72,6 +80,21 @@ const Text = ({ children, size, weight, color }) => {
     small: {
       fontSize: fontSizeSmall,
     },
+    preWrap: {
+      whiteSpace: preWrap,
+    },
+    normal: {
+      whiteSpace: normal,
+    },
+    preLine: {
+      whiteSpace: preLine,
+    },
+    pre: {
+      whiteSpace: pre,
+    },
+    noWrap: {
+      whiteSpace: noWrap,
+    },
   }, {
     // Weights
     extraLight: weight === 'extra-light',
@@ -88,6 +111,12 @@ const Text = ({ children, size, weight, color }) => {
     extraLarge: size === 'extra-large',
     mini: size === 'mini',
     small: size === 'small',
+    // White-Space
+    preWrap: whitespace === preWrap,
+    normal: whitespace === normal,
+    preLine: whitespace === preLine,
+    pre: whitespace === pre,
+    noWrap: whitespace === noWrap,
   });
   return (
     <span style={style}>{children}</span>
@@ -99,6 +128,7 @@ Text.propTypes = {
   size: PropTypes.oneOf(['extra-small', 'large', 'extra-large', 'mini', 'small']),
   weight: PropTypes.oneOf(['extra-light', 'light', 'thin', 'medium', 'semi-bold', 'bold', 'extra-bold', 'black']),
   color: PropTypes.oneOf(Object.keys(colors)),
+  whitespace: PropTypes.oneOf(whiteSpaces),
 };
 
 Text.defaultProps = {

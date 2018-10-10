@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.3.8 (October 8, 2018)
+- Fix missing export of `CircleInstReminderIcon` component.
+
+## 2.3.7 (October 4, 2018)
+- Add `CircleInstReminderIcon` component.
+
+## 2.3.6 (October 4, 2018)
+- Add `marginTop` property to `loadingAnimation`.
+- (Internal) Add `loadingAnimation` to Storybook.
+
+## 2.3.5
+
+## 2.3.4
+
 ## 2.3.3 (August 7, 2018)
 - Add MessageIcon
 

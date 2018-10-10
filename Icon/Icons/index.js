@@ -26,6 +26,7 @@ export CircleCheckmarkIcon from './CircleCheckmarkIcon';
 export CircleFacebookIcon from './CircleFacebookIcon';
 export CircleGooglePlusIcon from './CircleGooglePlusIcon';
 export CircleInstagramIcon from './CircleInstagramIcon';
+export CircleInstReminderIcon from './CircleInstReminderIcon';
 export CircleLinkedInIcon from './CircleLinkedInIcon';
 export CircleMinusIcon from './CircleMinusIcon';
 export CirclePinterestIcon from './CirclePinterestIcon';
