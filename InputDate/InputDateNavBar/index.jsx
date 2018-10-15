@@ -48,14 +48,14 @@ const NavBar = ({
   return (
     <div style={styles.navbar}>
       <div style={styles.left}>
-        <Button noStyle disabled={disablePreviousButton ? true : false} onClick={onPrev}>
+        <Button type={'button'} noStyle disabled={disablePreviousButton ? true : false} onClick={onPrev}>
             <span style={styles.align}>
               <ArrowLeftIcon color={disablePreviousButton ? 'geyser' : 'black'}/>
             </span>
         </Button>
       </div>
       <div style={styles.right}>
-        <Button noStyle onClick={onNext}>
+        <Button type={'button'} noStyle onClick={onNext}>
           <span style={styles.align}>
             <ArrowRightIcon color={'black'} />
           </span>
