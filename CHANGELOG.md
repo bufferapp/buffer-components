@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.0.0 (October 15, 2018)
+- Add `InputDateCaption`, `InputDateNavBar` and `InputDateWeekday`components.
+- Remove `InputDate` css file.
+- Add new props to `InputDate` and upgrade `react-day-picker` version.
+
 ## 2.3.8 (October 8, 2018)
 - Fix missing export of `CircleInstReminderIcon` component.
 
