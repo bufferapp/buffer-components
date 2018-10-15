@@ -46,6 +46,7 @@ const Button = ({
   noStyle,
   label,
   linkStyle,
+  type,
 }) => {
   const style = calculateStyles({
     default: {
@@ -186,6 +187,7 @@ const Button = ({
       onBlur={onBlur}
       disabled={disabled}
       aria-label={label || null}
+      type={type}
     >
       {children}
     </button>
@@ -213,6 +215,7 @@ Button.propTypes = {
   warning: PropTypes.bool,
   label: PropTypes.string,
   linkStyle: PropTypes.bool,
+  type: PropTypes.oneOf(['button', 'submit', 'reset']),
 };
 
 export default Button;

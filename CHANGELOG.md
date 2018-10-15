@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1 (October 15, 2018)
+- Add `type` prop to `Button` component.
+- Add `type='button'` to `InputDateNavBar` buttons. 
+
 ## 3.0.0 (October 15, 2018)
 - Add `InputDateCaption`, `InputDateNavBar` and `InputDateWeekday`components.
 - Remove `InputDate` css file.

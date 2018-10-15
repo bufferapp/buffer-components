@@ -295,6 +295,7 @@ exports[`Snapshots Button default 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Click Me
 </button>
@@ -327,6 +328,7 @@ exports[`Snapshots Button warning button 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Warning
 </button>
@@ -360,6 +362,7 @@ exports[`Snapshots Button with icon and text 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <svg
     height="100%"
@@ -428,6 +431,7 @@ exports[`Snapshots Button with icon only 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <svg
     height="100%"
@@ -482,6 +486,7 @@ exports[`Snapshots ButtonStateless Default 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -513,6 +518,7 @@ exports[`Snapshots ButtonStateless borderless 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -549,6 +555,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -583,6 +590,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -617,6 +625,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -652,6 +661,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -686,6 +696,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -721,6 +732,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -756,6 +768,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -791,6 +804,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -823,6 +837,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     No Events :(
   </button>
@@ -856,6 +871,7 @@ exports[`Snapshots ButtonStateless disabled 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       style={
@@ -907,6 +923,7 @@ exports[`Snapshots ButtonStateless fillContainer 1`] = `
         "width": "100%",
       }
     }
+    type={undefined}
   >
     Max WIDTH
   </button>
@@ -941,6 +958,7 @@ exports[`Snapshots ButtonStateless focused 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Focused Button
 </button>
@@ -977,6 +995,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1011,6 +1030,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1045,6 +1065,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1080,6 +1101,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1114,6 +1136,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1149,6 +1172,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1184,6 +1208,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1219,6 +1244,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     Button text
   </button>
@@ -1251,6 +1277,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "background-color 0.2s linear",
       }
     }
+    type={undefined}
   >
     No Events :(
   </button>
@@ -1284,6 +1311,7 @@ exports[`Snapshots ButtonStateless hovered 1`] = `
         "transition": "unset",
       }
     }
+    type={undefined}
   >
     <span
       style={
@@ -1327,6 +1355,7 @@ exports[`Snapshots ButtonStateless large 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -1359,6 +1388,7 @@ exports[`Snapshots ButtonStateless linkStyle 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   LinkStyle Button
 </button>
@@ -1392,6 +1422,7 @@ exports[`Snapshots ButtonStateless noStyle 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <span
     style={
@@ -1434,6 +1465,7 @@ exports[`Snapshots ButtonStateless onClick event 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Click Me
 </button>
@@ -1465,6 +1497,7 @@ exports[`Snapshots ButtonStateless onFocus + onBlur 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Focus Me!
 </button>
@@ -1496,6 +1529,7 @@ exports[`Snapshots ButtonStateless onMouseEnter + onMouseLeave 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Mouse Enter + Mouse Leave
 </button>
@@ -1528,6 +1562,7 @@ exports[`Snapshots ButtonStateless quaternary 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -1560,6 +1595,7 @@ exports[`Snapshots ButtonStateless secondary 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -1591,6 +1627,7 @@ exports[`Snapshots ButtonStateless small 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -1623,6 +1660,7 @@ exports[`Snapshots ButtonStateless tertiary 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -1655,6 +1693,7 @@ exports[`Snapshots ButtonStateless warning 1`] = `
       "transition": "background-color 0.2s linear",
     }
   }
+  type={undefined}
 >
   Button text
 </button>
@@ -5830,6 +5869,7 @@ exports[`Snapshots InputDate default 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -5899,6 +5939,7 @@ exports[`Snapshots InputDate default 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -7722,6 +7763,7 @@ exports[`Snapshots InputDate display one month in past 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -7791,6 +7833,7 @@ exports[`Snapshots InputDate display one month in past 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -9620,6 +9663,7 @@ exports[`Snapshots InputDate with day selected 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -9689,6 +9733,7 @@ exports[`Snapshots InputDate with day selected 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -11513,6 +11558,7 @@ exports[`Snapshots InputDate with disabled days 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -11582,6 +11628,7 @@ exports[`Snapshots InputDate with disabled days 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -13431,6 +13478,7 @@ exports[`Snapshots InputDate with error 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -13500,6 +13548,7 @@ exports[`Snapshots InputDate with error 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -15345,6 +15394,7 @@ exports[`Snapshots InputDate with start of week monday 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -15414,6 +15464,7 @@ exports[`Snapshots InputDate with start of week monday 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -17237,6 +17288,7 @@ exports[`Snapshots InputDate with submitting 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -17306,6 +17358,7 @@ exports[`Snapshots InputDate with submitting 1`] = `
                 "transition": "unset",
               }
             }
+            type="button"
           >
             <span
               style={
@@ -19172,6 +19225,7 @@ exports[`Snapshots InputDateNavBar default 1`] = `
           "transition": "unset",
         }
       }
+      type="button"
     >
       <span
         style={
@@ -19241,6 +19295,7 @@ exports[`Snapshots InputDateNavBar default 1`] = `
           "transition": "unset",
         }
       }
+      type="button"
     >
       <span
         style={
@@ -19323,6 +19378,7 @@ exports[`Snapshots InputDateNavBar navigation disabled 1`] = `
           "transition": "unset",
         }
       }
+      type="button"
     >
       <span
         style={
@@ -19392,6 +19448,7 @@ exports[`Snapshots InputDateNavBar navigation disabled 1`] = `
           "transition": "unset",
         }
       }
+      type="button"
     >
       <span
         style={
@@ -31620,6 +31677,7 @@ exports[`Snapshots Notification default 1`] = `
             "transition": "unset",
           }
         }
+        type={undefined}
       >
         <svg
           height="100%"
@@ -31761,6 +31819,7 @@ exports[`Snapshots Notification error 1`] = `
             "transition": "unset",
           }
         }
+        type={undefined}
       >
         <svg
           height="100%"
@@ -31902,6 +31961,7 @@ exports[`Snapshots Notification handle close click 1`] = `
             "transition": "unset",
           }
         }
+        type={undefined}
       >
         <svg
           height="100%"
@@ -32043,6 +32103,7 @@ exports[`Snapshots Notification long text 1`] = `
             "transition": "unset",
           }
         }
+        type={undefined}
       >
         <svg
           height="100%"
@@ -34087,6 +34148,7 @@ exports[`Snapshots Toggle custom offText 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
@@ -34181,6 +34243,7 @@ exports[`Snapshots Toggle custom onText 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
@@ -34275,6 +34338,7 @@ exports[`Snapshots Toggle default 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
@@ -34369,6 +34433,7 @@ exports[`Snapshots Toggle disabled + on 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
@@ -34463,6 +34528,7 @@ exports[`Snapshots Toggle disabled 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
@@ -34557,6 +34623,7 @@ exports[`Snapshots Toggle on 1`] = `
       "transition": "unset",
     }
   }
+  type={undefined}
 >
   <div
     style={
