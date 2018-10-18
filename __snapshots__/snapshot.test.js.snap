@@ -10962,18 +10962,18 @@ exports[`Snapshots InputDate with day selected 1`] = `
                 style={
                   Object {
                     "backgroundColor": "#323b43",
-                    "border": "none",
+                    "border": "0.5px solid #eff1f1",
                     "boxSizing": "border-box",
                     "color": "#fff",
                     "cursor": "pointer",
                     "display": "inline-block",
                     "fontSize": "0.9rem",
-                    "outline": "none",
+                    "outline": "0.5px solid #eff1f1",
                     "overflow": "hidden",
                     "padding": ".6rem 0rem",
                     "textAlign": "center",
                     "verticalAlign": "middle",
-                    "width": "3rem",
+                    "width": "calc(100% / 7)",
                   }
                 }
                 tabIndex={-1}

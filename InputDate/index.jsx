@@ -57,8 +57,7 @@ const modifierStyles = {
   selected: {
     color: white,
     backgroundColor: outerSpace,
-    border: 'none',
-    outline: 'none',
+    width: 'calc(100% / 7)',
   }
 };
 

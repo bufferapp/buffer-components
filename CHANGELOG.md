@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.2 (October 18, 2018)
+- Fix `selectDay` style on `InputDate` component.
+
 ## 3.0.1 (October 15, 2018)
 - Add `type` prop to `Button` component.
 - Add `type='button'` to `InputDateNavBar` buttons. 
