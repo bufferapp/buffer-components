@@ -9,6 +9,9 @@ storiesOf('Toggle', module)
   .add('default', () => (
     <Toggle onClick={action('onClick')} />
   ))
+  .add('small', () => (
+    <Toggle onClick={action('onClick')} size="small" />
+  ))
   .add('on', () => (
     <Toggle onClick={action('onClick')} on />
   ))
