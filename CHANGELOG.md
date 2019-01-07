@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.3 (January 7, 2019)
+- Add `size` prop to `Toggle` component.
+
 ## 3.0.2 (October 18, 2018)
 - Fix `selectDay` style on `InputDate` component.
 
