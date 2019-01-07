@@ -34158,18 +34158,26 @@ exports[`Snapshots Toggle custom offText 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      Off
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Off
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34253,18 +34261,26 @@ exports[`Snapshots Toggle custom onText 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      On
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        On
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34348,18 +34364,26 @@ exports[`Snapshots Toggle default 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      Disabled
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Disabled
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34443,18 +34467,26 @@ exports[`Snapshots Toggle disabled + on 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      Enabled
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Enabled
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34538,18 +34570,26 @@ exports[`Snapshots Toggle disabled 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      Disabled
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Disabled
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34633,18 +34673,26 @@ exports[`Snapshots Toggle on 1`] = `
       }
     }
   >
-    <span
+    <div
       style={
         Object {
-          "color": "#59626a",
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontSize": "1rem",
-          "fontWeight": 400,
+          "height": "1rem",
         }
       }
     >
-      Enabled
-    </span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Enabled
+      </span>
+    </div>
     <div
       style={
         Object {
@@ -34678,6 +34726,109 @@ exports[`Snapshots Toggle on 1`] = `
             "borderRadius": "50%",
             "height": "1rem",
             "left": "calc(100% - 1rem)",
+            "position": "absolute",
+            "top": 0,
+            "transition": "left 0.2s linear, border 0.2s linear",
+            "width": "1rem",
+          }
+        }
+      />
+    </div>
+  </div>
+</button>
+`;
+
+exports[`Snapshots Toggle small 1`] = `
+<button
+  aria-label={null}
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "none",
+      "backgroundColor": "unset",
+      "border": "none",
+      "borderRadius": "unset",
+      "color": "unset",
+      "cursor": "pointer",
+      "display": "unset",
+      "fontFamily": "unset",
+      "fontSize": "unset",
+      "fontWeight": "unset",
+      "lineHeight": "unset",
+      "margin": "unset",
+      "outline": "none",
+      "padding": 0,
+      "transition": "unset",
+    }
+  }
+  type={undefined}
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "1rem",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Disabled
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "height": "1rem",
+          "marginLeft": "0.5rem",
+          "position": "relative",
+          "width": "2rem",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "2rem",
+            "bottom": 0,
+            "left": 1,
+            "position": "absolute",
+            "right": 0,
+            "top": 1,
+            "transition": "background 0.2s linear, border 0.2s linear",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "background": "#fcfcfc",
+            "border": "0.063rem solid rgba(50, 59, 67, 0.3)",
+            "borderRadius": "50%",
+            "height": "1rem",
+            "left": "0%",
             "position": "absolute",
             "top": 0,
             "transition": "left 0.2s linear, border 0.2s linear",

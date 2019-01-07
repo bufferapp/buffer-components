@@ -12,6 +12,7 @@ const Toggle = ({
   onText,
   offText,
   disabled,
+  size,
 }) => (
   <Button noStyle onClick={onClick} disabled={disabled}>
     <div
@@ -20,7 +21,17 @@ const Toggle = ({
         opacity: disabled ? 0.5 : undefined,
       }}
     >
-      <Text>{on ? onText : offText}</Text>
+      <div
+        style={{
+          height: '1rem',
+        }}
+      >
+        <Text
+          size={size}
+        >
+          {on ? onText : offText}
+        </Text>
+      </div>
       <div
         style={{
           position: 'relative',
@@ -66,6 +77,7 @@ Toggle.propTypes = {
   onText: PropTypes.string,
   offText: PropTypes.string,
   disabled: PropTypes.bool,
+  size: PropTypes.oneOf(['extra-small', 'large', 'extra-large', 'mini', 'small']),
 };
 
 Toggle.defaultProps = {
