@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.1.0 (February 8, 2019)
+- Ensure computed `font-size` for `fontSizeMini` lands on a whole pixel value (previously computed to `14.4px`).
+
 ## 3.0.3 (January 7, 2019)
 - Add `size` prop to `Toggle` component.
 
@@ -8,7 +11,7 @@
 
 ## 3.0.1 (October 15, 2018)
 - Add `type` prop to `Button` component.
-- Add `type='button'` to `InputDateNavBar` buttons. 
+- Add `type='button'` to `InputDateNavBar` buttons.
 
 ## 3.0.0 (October 15, 2018)
 - Add `InputDateCaption`, `InputDateNavBar` and `InputDateWeekday`components.
