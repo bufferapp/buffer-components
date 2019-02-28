@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1 (February 28, 2019)
+- Add `disable` prop to `InputAutocomplete` component.
+- Add `mini` fontSize prop to `Select` component.
+
 ## 3.1.0 (February 8, 2019)
 - Ensure computed `font-size` for `fontSizeMini` lands on a whole pixel value (previously computed to `14.4px`).
 
