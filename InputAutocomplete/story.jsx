@@ -32,4 +32,18 @@ storiesOf('InputAutocomplete', module)
       onFocusHandler={action('onFocusHandler')}
       onBlurHandler={action('onBlurHandler')}
     />
+  ))
+  .add('disabled', () => (
+    <InputAutocomplete
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      disabled
+      items={[]}
+      onSelect={action('select-item')}
+      sortItems={sortItems}
+      onFocusHandler={action('onFocusHandler')}
+      onBlurHandler={action('onBlurHandler')}
+    />
   ));
