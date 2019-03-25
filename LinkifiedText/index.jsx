@@ -16,12 +16,12 @@ const linkDataToElement = (options, link, key) =>
 
 const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
   // nothing left to calculate, return all the caluculated pairs
-  if (curString.length === 0) {
+  if ((curString && curString.length === 0) || !curString) {
     calculatedElements.reverse();
     return calculatedElements;
   }
   // consume whats left of the string
-  if (links.length === 0) {
+  if ((links && links.length === 0) || !links) {
     calculatedElements.push(curString);
     return calulateLinkifiedText(options, links, '', calculatedElements);
   }
