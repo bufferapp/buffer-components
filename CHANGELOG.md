@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.2.1 (May 7, 2019)
+- Adding a `border` style to `MultipleImages` component and changing the `border-radius` style.
+
+## 3.2.0 (March 25, 2019)
+- Fixing blank screen for new publish users.
+
 ## 3.1.1 (February 28, 2019)
 - Add `disable` prop to `InputAutocomplete` component.
 - Add `mini` fontSize prop to `Select` component.
