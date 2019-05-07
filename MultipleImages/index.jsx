@@ -29,9 +29,10 @@ const MultipleImages = ({ border,
       flexDirection: 'row',
       flexWrap: 'wrap',
       overflow: 'hidden',
+      border: '1px solid #B8B8B8',
     },
     rounded: {
-      borderRadius,
+      borderRadius: '4px',
     },
   }, {
     rounded: border === 'rounded',
