@@ -4,9 +4,6 @@ import uuid from 'uuid';
 import {
   calculateStyles,
 } from '../lib/utils';
-import {
-  borderRadius,
-} from '../style/border';
 import Image from '../Image';
 
 const getImageWrapperHeight = (arrayOfImageUrls) => {
@@ -16,7 +13,8 @@ const getImageWrapperHeight = (arrayOfImageUrls) => {
   return '50%';
 };
 
-const MultipleImages = ({ border,
+const MultipleImages = ({
+  border,
   height,
   urls,
   width,
