@@ -30826,7 +30826,8 @@ exports[`Snapshots MultipleImages border=rounded 1`] = `
 <div
   style={
     Object {
-      "borderRadius": "0.126rem",
+      "border": "1px solid #B8B8B8",
+      "borderRadius": "4px",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -30963,6 +30964,7 @@ exports[`Snapshots MultipleImages fourImages 1`] = `
 <div
   style={
     Object {
+      "border": "1px solid #B8B8B8",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -31099,6 +31101,7 @@ exports[`Snapshots MultipleImages oneImage 1`] = `
 <div
   style={
     Object {
+      "border": "1px solid #B8B8B8",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -31145,6 +31148,7 @@ exports[`Snapshots MultipleImages threeImages 1`] = `
 <div
   style={
     Object {
+      "border": "1px solid #B8B8B8",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -31251,6 +31255,7 @@ exports[`Snapshots MultipleImages twoImages 1`] = `
 <div
   style={
     Object {
+      "border": "1px solid #B8B8B8",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -31327,6 +31332,7 @@ exports[`Snapshots MultipleImages width=30rem, height=30rem 1`] = `
 <div
   style={
     Object {
+      "border": "1px solid #B8B8B8",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
