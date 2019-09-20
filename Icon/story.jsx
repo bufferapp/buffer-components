@@ -33,6 +33,7 @@ import CirclePinterestIcon from './Icons/CirclePinterestIcon';
 import CirclePlayIcon from './Icons/CirclePlayIcon';
 import CirclePlusIcon from './Icons/CirclePlusIcon';
 import CircleTwitterIcon from './Icons/CircleTwitterIcon';
+import CircleShopifyIcon from './Icons/CircleShopifyIcon';
 import CircleXIcon from './Icons/CircleXIcon';
 import ClickIcon from './Icons/ClickIcon';
 import ClockIcon from './Icons/ClockIcon';
@@ -72,6 +73,7 @@ import ReplyIcon from './Icons/ReplyIcon';
 import RetweetIcon from './Icons/RetweetIcon';
 import SearchIcon from './Icons/SearchIcon';
 import SettingsIcon from './Icons/SettingsIcon';
+import ShopifyIcon from './Icons/ShopifyIcon';
 import ShuffleIcon from './Icons/ShuffleIcon';
 import SupportIcon from './Icons/SupportIcon';
 import TwitterIcon from './Icons/TwitterIcon';
@@ -189,6 +191,9 @@ storiesOf('Icon', module)
   .add('circleTwitterIcon', () => (
     <CircleTwitterIcon />
   ))
+  .add('circleShopifyIcon', () => (
+    <CircleShopifyIcon />
+  ))
   .add('circleXIcon', () => (
     <CircleXIcon />
   ))
@@ -305,6 +310,9 @@ storiesOf('Icon', module)
   ))
   .add('settingsIcon', () => (
     <SettingsIcon />
+  ))
+  .add('shopifyIcon', () => (
+    <ShopifyIcon />
   ))
   .add('shuffleIcon', () => (
     <ShuffleIcon />

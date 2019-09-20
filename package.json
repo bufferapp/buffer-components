@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "A shared set of UI Components",
   "main": "index.js",
   "scripts": {
@@ -52,8 +52,12 @@
   },
   "dependencies": {
     "@bufferapp/react-keyframes": "0.2.5",
+    "fsevents": "^2.0.7",
     "react-autocomplete": "1.7.2",
     "react-day-picker": "6.2.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.0.7"
   },
   "publishConfig": {
     "access": "public"
