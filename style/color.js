@@ -11,6 +11,8 @@ export const instagram = '#e53c5f';
 export const linkedin = '#007bb6';
 export const pinterest = '#bd081c';
 export const twitter = '#55acee';
+export const shopify = '#95bf47';
+export const shopifyShade = '#5e8e3e';
 
 export const aquaHaze = '#f4f7f9';
 export const geyser = '#ced7df';
