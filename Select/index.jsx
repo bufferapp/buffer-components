@@ -4,10 +4,12 @@ import { calculateStyles } from '../lib/utils';
 import colors, {
   transparent,
   mystic,
-  shuttleGray,
 } from '../style/color';
 import {
+  fontSize,
+  fontFamily,
   fontSizeSmall,
+  fontSizeMini,
 } from '../style/font';
 import {
   borderRadius,
@@ -17,7 +19,7 @@ import {
 import ArrowDownIcon from '../Icon/Icons/ArrowDownIcon';
 import ArrowUpIcon from '../Icon/Icons/ArrowUpIcon';
 
-const height = 2;
+const height = 2.3;
 
 const defaultIconStyle = {
   position: 'absolute',
@@ -30,7 +32,7 @@ const selectWrapperStyle = {
   position: 'relative',
 };
 
-const RangeIcon = () =>
+const RangeIcon = () => (
   <div
     style={{
       position: 'absolute',
@@ -54,7 +56,7 @@ const RangeIcon = () =>
         fontFamily: 'none',
       }}
     >
-      <ArrowUpIcon size={'small'} />
+      <ArrowUpIcon size="small" />
     </div>
     <div
       style={{
@@ -62,14 +64,16 @@ const RangeIcon = () =>
         fontFamily: 'none',
       }}
     >
-      <ArrowDownIcon size={'small'} />
+      <ArrowDownIcon size="small" />
     </div>
-  </div>;
+  </div>
+);
 
-const DefaultIcon = () =>
+const DefaultIcon = () => (
   <div style={defaultIconStyle}>
     <ArrowDownIcon />
-  </div>;
+  </div>
+);
 
 /* eslint-disable react/prop-types */
 const SelectIcon = ({ noStyle, rangeSelector }) => {
@@ -97,12 +101,14 @@ const Select = ({
   rangeSelector,
   color,
   hovered,
+  size,
 }) => {
   const selectStyle = calculateStyles({
     default: {
       height: `${height}rem`,
       padding: '0 1.5rem 0 0.5rem',
-      fontSize: fontSizeSmall,
+      fontFamily,
+      fontSize,
       background: transparent,
       border: `${borderWidth} solid ${mystic}`,
       borderRadius,
@@ -111,6 +117,7 @@ const Select = ({
       MozAppearance: 'none',
       width: '100%',
       color: colors[color],
+      outline: 'none',
     },
     noStyle: {
       height: 'auto',
@@ -129,11 +136,21 @@ const Select = ({
     hovered: {
       cursor: 'pointer',
     },
+    // Sizes
+    small: {
+      fontSize: fontSizeSmall,
+    },
+    mini: {
+      fontSize: fontSizeMini,
+    },
   }, {
     noStyle,
     centerText,
     rangeSelector,
     hovered,
+    // Sizes
+    small: size === 'small',
+    mini: size === 'mini',
   });
 
   return (
@@ -146,11 +163,11 @@ const Select = ({
         value={value}
       >
         {
-          options.map(option =>
+          options.map(option => (
             <option key={option.value.toString()} value={option.value}>
               {option.name}
-            </option>,
-            )
+            </option>
+          ))
         }
       </select>
       <SelectIcon
@@ -184,6 +201,7 @@ Select.propTypes = {
   rangeSelector: PropTypes.bool,
   color: PropTypes.oneOf(Object.keys(colors)),
   hovered: PropTypes.bool,
+  size: PropTypes.oneOf(['small', 'mini']),
 };
 
 Select.defaultProps = {

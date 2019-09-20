@@ -16,6 +16,8 @@ storiesOf('InputAutocomplete', module)
       items={getTimezones()}
       onSelect={action('select-item')}
       sortItems={sortItems}
+      onFocusHandler={action('onFocusHandler')}
+      onBlurHandler={action('onBlurHandler')}
     />
   ))
   .add('empty items', () => (
@@ -27,5 +29,21 @@ storiesOf('InputAutocomplete', module)
       items={[]}
       onSelect={action('select-item')}
       sortItems={sortItems}
+      onFocusHandler={action('onFocusHandler')}
+      onBlurHandler={action('onBlurHandler')}
+    />
+  ))
+  .add('disabled', () => (
+    <InputAutocomplete
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      disabled
+      items={[]}
+      onSelect={action('select-item')}
+      sortItems={sortItems}
+      onFocusHandler={action('onFocusHandler')}
+      onBlurHandler={action('onBlurHandler')}
     />
   ));

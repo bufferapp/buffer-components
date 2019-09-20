@@ -1,14 +1,12 @@
 import React from 'react';
 import Input from '../Input';
+import InputStateless from '../InputStateless';
 
 const InputEmail = ({
   input,
   label,
   meta,
   placeholder,
-  focused,
-  onFocus,
-  onBlur,
 }) =>
   <Input
     input={input}
@@ -16,13 +14,10 @@ const InputEmail = ({
     meta={meta}
     placeholder={placeholder}
     type={'email'}
-    focused={focused}
-    onFocus={onFocus}
-    onBlur={onBlur}
   />;
 
 InputEmail.propTypes = {
-  ...Input.commonPropTypes,
+  ...InputStateless.commonPropTypes,
 };
 
 export default InputEmail;

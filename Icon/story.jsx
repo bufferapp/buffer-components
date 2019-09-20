@@ -27,6 +27,7 @@ import CircleCheckmarkIcon from './Icons/CircleCheckmarkIcon';
 import CircleFacebookIcon from './Icons/CircleFacebookIcon';
 import CircleGooglePlusIcon from './Icons/CircleGooglePlusIcon';
 import CircleInstagramIcon from './Icons/CircleInstagramIcon';
+import CircleInstReminderIcon from './Icons/CircleInstReminderIcon';
 import CircleLinkedInIcon from './Icons/CircleLinkedInIcon';
 import CircleMinusIcon from './Icons/CircleMinusIcon';
 import CirclePinterestIcon from './Icons/CirclePinterestIcon';
@@ -55,6 +56,7 @@ import LikeIcon from './Icons/LikeIcon';
 import LinkIcon from './Icons/LinkIcon';
 import LinkedInIcon from './Icons/LinkedInIcon';
 import LockIcon from './Icons/LockIcon';
+import MessageIcon from './Icons/MessageIcon';
 import MoreIcon from './Icons/MoreIcon';
 import NewTabIcon from './Icons/NewTabIcon';
 import NotificationCloseIcon from './Icons/NotificationCloseIcon';
@@ -173,6 +175,9 @@ storiesOf('Icon', module)
   .add('circleInstagramIcon', () => (
     <CircleInstagramIcon />
   ))
+  .add('circleInstReminderIcon', () => (
+    <CircleInstReminderIcon />
+  ))
   .add('circleLinkedInIcon', () => (
     <CircleLinkedInIcon />
   ))
@@ -256,6 +261,9 @@ storiesOf('Icon', module)
   ))
   .add('lockIcon', () => (
     <LockIcon />
+  ))
+  .add('messageIcon', () => (
+    <MessageIcon />
   ))
   .add('moreIcon', () => (
     <MoreIcon />

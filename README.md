@@ -197,7 +197,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import NewComponent from './index';
 
-storiesOf('Card')
+storiesOf('Card', module)
   .add('Default', () => (
     <NewComponent />
   ));

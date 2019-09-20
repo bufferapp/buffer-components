@@ -4,8 +4,9 @@ import { checkA11y } from 'storybook-addon-a11y';
 import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';
+const longText = 'Test this out\n\n- lots of stuff\n- some things\n\nlong with spaces';
 
-storiesOf('Text')
+storiesOf('Text', module)
   .addDecorator(checkA11y)
   .add('default', () => (
     <Text>{text}</Text>
@@ -50,4 +51,19 @@ storiesOf('Text')
   ))
   .add('thin', () => (
     <Text weight={'thin'}>{text}</Text>
+  ))
+  .add('normal', () => (
+    <Text whitespace={'normal'}>{longText}</Text>
+  ))
+  .add('noWrap', () => (
+      <Text whitespace={'nowrap'}>{longText}</Text>
+  ))
+  .add('pre', () => (
+      <Text whitespace={'pre'}>{longText}</Text>
+  ))
+  .add('preLine', () => (
+    <Text whitespace={'pre-line'}>{longText}</Text>
+  ))
+  .add('preWrap', () => (
+    <Text whitespace={'pre-wrap'}>{longText}</Text>
   ));

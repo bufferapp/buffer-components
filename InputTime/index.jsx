@@ -125,6 +125,7 @@ const AmPm = ({
   onChange,
   submitting,
   value,
+  fontSize,
 }) =>
   <SelectWrapper minimal={minimal}>
     <Select
@@ -140,6 +141,7 @@ const AmPm = ({
       options={[{ value: 'AM', name: 'AM' }, { value: 'PM', name: 'PM' }]}
       centerText={minimal}
       rangeSelector={!minimal}
+      size={fontSize}
     />
   </SelectWrapper>;
 
@@ -185,6 +187,7 @@ const InputTime = ({
   minimal,
   select24Hours,
   displayTimeColon,
+  fontSize,
 }) => {
   const style = {
     width: '100%',
@@ -206,6 +209,7 @@ const InputTime = ({
           noStyle={minimal}
           centerText={minimal}
           rangeSelector={!minimal}
+          size={fontSize}
         />
       </SelectWrapper>
       { displayTimeColon ?
@@ -229,13 +233,14 @@ const InputTime = ({
           noStyle={minimal}
           centerText={minimal}
           rangeSelector={!minimal}
+          size={fontSize}
         />
       </SelectWrapper>
       {
         select24Hours ?
         null
         :
-        AmPm({ disabled, minimal, onChange, submitting, value })
+        AmPm({ disabled, minimal, onChange, submitting, value, fontSize })
       }
     </div>
   );
@@ -259,6 +264,7 @@ InputTime.propTypes = {
   minimal: PropTypes.bool,
   select24Hours: PropTypes.bool,
   displayTimeColon: PropTypes.bool,
+  fontSize: PropTypes.oneOf(['small']),
 };
 
 InputTime.defaultProps = {

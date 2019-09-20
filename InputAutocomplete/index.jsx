@@ -25,6 +25,7 @@ const InputAutocomplete = ({
   placeholder,
   onFocusHandler,
   onBlurHandler,
+  disabled,
 }) => {
   const renderItem = ({ label }, isHighlighted) => {
     const style = calculateStyles({
@@ -44,11 +45,13 @@ const InputAutocomplete = ({
       isHighlighted,
     });
     return (
-      <div style={style}><Text
-        key={uuid()}
-      >
-        {label}
-      </Text></div>
+      <div style={style}>
+        <Text
+          key={uuid()}
+        >
+          {label}
+        </Text>
+      </div>
     );
   };
 
@@ -97,6 +100,7 @@ const InputAutocomplete = ({
           placeholder,
           onFocus: onFocusHandler,
           onBlur: onBlurHandler,
+          disabled,
         }}
         items={items}
         getItemValue={item => item.label}
@@ -128,12 +132,14 @@ InputAutocomplete.propTypes = {
   onFocusHandler: PropTypes.func.isRequired,
   placeholder: PropTypes.string,
   onBlurHandler: PropTypes.func.isRequired,
+  disabled: PropTypes.bool,
 };
 
 InputAutocomplete.defaultProps = {
   value: '',
   items: [],
   placeholder: '',
+  disabled: false,
 };
 
 export default InputAutocomplete;

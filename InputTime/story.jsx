@@ -118,4 +118,13 @@ storiesOf('InputTime', module)
       displayTimeColon
       minimal
     />
+  ))
+  .add('small', () => (
+    <InputTime
+      input={{
+        onChange: action('on-change'),
+        value: '',
+      }}
+      fontSize={'small'}
+    />
   ));

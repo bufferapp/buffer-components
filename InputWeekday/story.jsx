@@ -37,4 +37,13 @@ storiesOf('InputWeekday', module)
         submitting: true,
       }}
     />
+  ))
+  .add('small', () => (
+    <InputWeekday
+      input={{
+        onChange: action('on-change'),
+        value: ''
+      }}
+      fontSize={'small'}
+    />
   ));

@@ -16,12 +16,12 @@ const linkDataToElement = (options, link, key) =>
 
 const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
   // nothing left to calculate, return all the caluculated pairs
-  if (curString.length === 0) {
+  if ((curString && curString.length === 0) || !curString) {
     calculatedElements.reverse();
     return calculatedElements;
   }
   // consume whats left of the string
-  if (links.length === 0) {
+  if ((links && links.length === 0) || !links) {
     calculatedElements.push(curString);
     return calulateLinkifiedText(options, links, '', calculatedElements);
   }
@@ -53,9 +53,18 @@ const LinkifiedText = ({
   newTab,
   size,
   unstyled,
+  whitespace,
 }) => {
   const options = { unstyled, newTab };
-  return <Text size={size} color={color}>{calulateLinkifiedText(options, links, children)}</Text>;
+  return (
+    <Text
+      whitespace={whitespace}
+      size={size}
+      color={color}
+    >
+      {calulateLinkifiedText(options, links, children)}
+    </Text>
+  );
 };
 
 LinkifiedText.propTypes = {
@@ -72,6 +81,7 @@ LinkifiedText.propTypes = {
   newTab: PropTypes.bool,
   size: PropTypes.string,
   unstyled: PropTypes.bool,
+  whitespace: PropTypes.string,
 };
 
 LinkifiedText.defaultProps = {

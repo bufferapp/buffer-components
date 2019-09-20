@@ -1,6 +1,7 @@
 npm-debug.log*
 *.map
 
+.idea/
 node_modules
 .npm
 /coverage

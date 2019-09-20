@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 
 export default class PseudoClassComponent extends Component {
   static propTypes = {
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node,
+  }
+  static defaultProps = {
+    children: null,
   }
   constructor() {
     super();

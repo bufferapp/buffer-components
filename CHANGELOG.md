@@ -1,7 +1,80 @@
 # Changelog
 
-## 2.1.4 (September 20, 2019)
+## 3.2.2 (September 20, 2019)
 - Added Shopify icons (normal and circle)
+
+## 3.2.1 (May 7, 2019)
+- Adding a `border` style to `MultipleImages` component and changing the `border-radius` style.
+
+## 3.2.0 (March 25, 2019)
+- Fixing blank screen for new publish users.
+
+## 3.1.1 (February 28, 2019)
+- Add `disable` prop to `InputAutocomplete` component.
+- Add `mini` fontSize prop to `Select` component.
+
+## 3.1.0 (February 8, 2019)
+- Ensure computed `font-size` for `fontSizeMini` lands on a whole pixel value (previously computed to `14.4px`).
+
+## 3.0.3 (January 7, 2019)
+- Add `size` prop to `Toggle` component.
+
+## 3.0.2 (October 18, 2018)
+- Fix `selectDay` style on `InputDate` component.
+
+## 3.0.1 (October 15, 2018)
+- Add `type` prop to `Button` component.
+- Add `type='button'` to `InputDateNavBar` buttons.
+
+## 3.0.0 (October 15, 2018)
+- Add `InputDateCaption`, `InputDateNavBar` and `InputDateWeekday`components.
+- Remove `InputDate` css file.
+- Add new props to `InputDate` and upgrade `react-day-picker` version.
+
+## 2.3.8 (October 8, 2018)
+- Fix missing export of `CircleInstReminderIcon` component.
+
+## 2.3.7 (October 4, 2018)
+- Add `CircleInstReminderIcon` component.
+
+## 2.3.6 (October 4, 2018)
+- Add `marginTop` property to `loadingAnimation`.
+- (Internal) Add `loadingAnimation` to Storybook.
+
+## 2.3.5
+
+## 2.3.4
+
+## 2.3.3 (August 7, 2018)
+- Add MessageIcon
+
+## 2.3.2 (July 20, 2018)
+- Add font `small` to `InputWeekday` and `InputTime` components
+- Remove font `mini` from `Select`component
+
+## 2.3.1 (July 18, 2018)
+- Add font `mini` and `small` to `Select`component
+
+## 2.3.0 (July 6, 2018)
+
+- Fix `Input` to allow custom `onFocus` handler.
+
+## 2.2.1 (June 27, 2018)
+
+- Fix `Input` to not use/require `children`.
+
+## 2.2.0 (June 26, 2018)
+
+- Add `InputStateless` and modify `Input` so that the focus styling works
+- Fix font stylying and sizing of `Select`
+
+## 2.1.5 (June 6, 2018)
+
+- Clean up `Popover` component styling.
+
+## 2.1.4 (May 16, 2018)
+
+- Use flexbox to center the `Popover` to avoid blurry rendering from the transform.
 
 ## 2.1.3 (December 13, 2017)
 
