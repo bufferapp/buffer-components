@@ -1,12 +1,12 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Popover from './index';
 import Card from '../Card';
 
 storiesOf('Popover', module)
-  .addDecorator(checkA11y)
+  .addDecorator()
   .add('default', () => (
     <Popover onOverlayClick={action('overlay-click')}>
       <Card>Popover</Card>

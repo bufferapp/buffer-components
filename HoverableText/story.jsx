@@ -3,11 +3,11 @@ import {
   action,
   storiesOf,
 } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import HoverableText from './index';
 
 storiesOf('HoverableText', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <HoverableText
       onMouseEnter={action('on-mouse-enter')}

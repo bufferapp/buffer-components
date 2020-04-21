@@ -3,13 +3,13 @@ import {
   storiesOf,
   action,
 } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Tabs from './index';
 import Tab from '../Tab';
 
 
 storiesOf('Tabs', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Tabs
       selectedTabId={'tabId'}
