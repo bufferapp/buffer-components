@@ -37494,6 +37494,106 @@ exports[`Storyshots Divider top margin: 5rem 1`] = `
 />
 `;
 
+exports[`Storyshots HoverableText color = torchRed 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    style={
+      Object {
+        "color": "#ff1e1e",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Hoverable Text!
+  </span>
+</span>
+`;
+
+exports[`Storyshots HoverableText default 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Hoverable Text!
+  </span>
+</span>
+`;
+
+exports[`Storyshots HoverableText hovered + hoverColor = curiousBlue 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Hoverable Text!
+  </span>
+</span>
+`;
+
+exports[`Storyshots HoverableText onMouseEnter + onMouseLeave 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "1rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Hoverable Text!
+  </span>
+</span>
+`;
+
+exports[`Storyshots HoverableText size = small 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <span
+    style={
+      Object {
+        "color": "#59626a",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontSize": "0.75rem",
+        "fontWeight": 400,
+      }
+    }
+  >
+    Hoverable Text!
+  </span>
+</span>
+`;
+
 exports[`Storyshots Icon addMediaIcon 1`] = `
 <svg
   height="100%"
@@ -64768,6 +64868,502 @@ exports[`Storyshots Overlay transparent=true 1`] = `
 </div>
 `;
 
+exports[`Storyshots Popover bottom = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": "10rem",
+        "left": undefined,
+        "position": "absolute",
+        "right": undefined,
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover bottom = 10rem right = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": "10rem",
+        "left": undefined,
+        "position": "absolute",
+        "right": "10rem",
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover default 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": undefined,
+        "position": "absolute",
+        "right": undefined,
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover left = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": "10rem",
+        "position": "absolute",
+        "right": undefined,
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover right = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": undefined,
+        "position": "absolute",
+        "right": "10rem",
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover top = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": undefined,
+        "position": "absolute",
+        "right": undefined,
+        "top": "10rem",
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover top = 10rem left = 10rem 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": "10rem",
+        "position": "absolute",
+        "right": undefined,
+        "top": "10rem",
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Storyshots Popover transparent Overlay 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "top": 0,
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "bottom": undefined,
+        "left": undefined,
+        "position": "absolute",
+        "right": undefined,
+        "top": undefined,
+        "zIndex": 3000,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "border": "0.063rem solid #e6ebef",
+          "borderRadius": "0.126rem",
+          "fontSize": "0.875rem",
+          "lineHeight": 1.5,
+          "padding": "1.5rem",
+          "transition": "box-shadow 0.2s linear",
+        }
+      }
+    >
+      Popover
+    </div>
+  </div>
+  <div
+    onClick={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(50, 59, 67, 0.8)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 2000,
+      }
+    }
+  />
+</div>
+`;
+
 exports[`Storyshots SectionHeader default 1`] = `
 <div
   style={
@@ -65724,6 +66320,191 @@ exports[`Storyshots Select with value set 1`] = `
       </g>
     </svg>
   </div>
+</div>
+`;
+
+exports[`Storyshots Tab default 1`] = `
+<a
+  href="#"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#168eea",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "outline": "none",
+      "padding": "0",
+      "textDecoration": "none",
+    }
+  }
+  target="_self"
+>
+  <span
+    style={
+      Object {
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "0.75rem 1rem",
+      }
+    }
+  >
+    <span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          }
+        }
+      >
+        Tab
+      </span>
+    </span>
+  </span>
+</a>
+`;
+
+exports[`Storyshots Tab selected 1`] = `
+<a
+  href="#"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#168eea",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "outline": "none",
+      "padding": "0",
+      "textDecoration": "none",
+    }
+  }
+  target="_self"
+>
+  <span
+    style={
+      Object {
+        "backgroundColor": "rgba(22, 142, 234, .1)",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "0.75rem 1rem",
+      }
+    }
+  >
+    <span>
+      <span
+        style={
+          Object {
+            "color": "#59626a",
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontSize": "1rem",
+            "fontWeight": 700,
+          }
+        }
+      >
+        Tab
+      </span>
+    </span>
+  </span>
+</a>
+`;
+
+exports[`Storyshots Tabs default 1`] = `
+<div>
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "outline": "none",
+        "padding": "0",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    <span
+      style={
+        Object {
+          "backgroundColor": "rgba(22, 142, 234, .1)",
+          "borderRadius": "4px",
+          "display": "inline-block",
+          "padding": "0.75rem 1rem",
+        }
+      }
+    >
+      <span>
+        <span
+          style={
+            Object {
+              "color": "#59626a",
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontSize": "1rem",
+              "fontWeight": 700,
+            }
+          }
+        >
+          Tab 1
+        </span>
+      </span>
+    </span>
+  </a>
+  <a
+    href="#"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "outline": "none",
+        "padding": "0",
+        "textDecoration": "none",
+      }
+    }
+    target="_self"
+  >
+    <span
+      style={
+        Object {
+          "borderRadius": "4px",
+          "display": "inline-block",
+          "padding": "0.75rem 1rem",
+        }
+      }
+    >
+      <span>
+        <span
+          style={
+            Object {
+              "color": "#59626a",
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            }
+          }
+        >
+          Tab 2
+        </span>
+      </span>
+    </span>
+  </a>
 </div>
 `;
 
