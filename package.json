@@ -7,7 +7,7 @@
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint . --ignore-pattern coverage .storybook node_modules",
-    "test": "yarn run lint && jest",
+    "test": "jest",
     "test-update": "jest -u",
     "test-watch": "jest --watch"
   },

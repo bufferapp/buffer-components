@@ -6,7 +6,7 @@ import Popover from './index';
 import Card from '../Card';
 
 storiesOf('Popover', module)
-  .addDecorator()
+  .addDecorator(withA11y)
   .add('default', () => (
     <Popover onOverlayClick={action('overlay-click')}>
       <Card>Popover</Card>
