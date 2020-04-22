@@ -116,7 +116,7 @@ Card.propTypes = {
   reducedPadding: PropTypes.bool,
   shadowHeight: PropTypes.oneOf([0, 1, 2]),
   draggingPlaceholder: PropTypes.bool,
-  className: PropTypes.bool,
+  className: PropTypes.string,
 };
 
 Card.defaultProps = {

@@ -129,6 +129,7 @@ Text.propTypes = {
   weight: PropTypes.oneOf(['extra-light', 'light', 'thin', 'medium', 'semi-bold', 'bold', 'extra-bold', 'black']),
   color: PropTypes.oneOf(Object.keys(colors)),
   whitespace: PropTypes.oneOf(whiteSpaces),
+  className: PropTypes.string,
 };
 
 Text.defaultProps = {

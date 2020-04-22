@@ -29,7 +29,7 @@ const IdTag = ({
 
 IdTag.propTypes = {
   children: PropTypes.string.isRequired,
-  className: PropTypes.bool,
+  className: PropTypes.string,
 };
 
 export default IdTag;
