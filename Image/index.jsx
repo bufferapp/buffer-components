@@ -5,7 +5,8 @@ import {
   borderRadius,
 } from '../style/border';
 
-const Image = ({ src,
+const Image = ({
+  src,
   alt,
   width,
   height,
@@ -19,6 +20,7 @@ const Image = ({ src,
   objectFit,
   verticalAlignBottom,
   pad,
+  className,
 }) => {
   const style = calculateStyles({
     default: {
@@ -56,6 +58,7 @@ const Image = ({ src,
       src={src}
       alt={alt}
       style={style}
+      className={className}
     />
   );
 };
@@ -106,6 +109,7 @@ Image.propTypes = {
     PropTypes.number,
   ]),
   pad: PropTypes.bool,
+  className: PropTypes.string,
 };
 
 Image.defaultProps = {

@@ -23,6 +23,7 @@ const Card = ({
   reducedPadding,
   shadowHeight,
   draggingPlaceholder,
+  className,
 }) => {
   const style = calculateStyles(
     {
@@ -93,7 +94,7 @@ const Card = ({
     },
   );
   return (
-    <div style={style} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+    <div style={style} className={className} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       {children}
     </div>
   );
@@ -115,6 +116,7 @@ Card.propTypes = {
   reducedPadding: PropTypes.bool,
   shadowHeight: PropTypes.oneOf([0, 1, 2]),
   draggingPlaceholder: PropTypes.bool,
+  className: PropTypes.bool,
 };
 
 Card.defaultProps = {

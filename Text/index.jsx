@@ -31,7 +31,7 @@ import {
 } from '../style/whiteSpaces';
 import colors from '../style/color';
 
-const Text = ({ children, size, weight, color, whitespace }) => {
+const Text = ({ children, size, weight, color, whitespace, className }) => {
   const style = calculateStyles({
     default: {
       fontFamily,
@@ -119,7 +119,7 @@ const Text = ({ children, size, weight, color, whitespace }) => {
     noWrap: whitespace === noWrap,
   });
   return (
-    <span style={style}>{children}</span>
+    <span style={style} className={className}>{children}</span>
   );
 };
 
