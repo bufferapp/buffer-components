@@ -47,6 +47,7 @@ const InputStateless = ({
   onBlur,
   onMouseEnter,
   onMouseLeave,
+  ariaLabel,
 }) => {
   const style = calculateStyles(
     {
@@ -88,6 +89,7 @@ const InputStateless = ({
           onBlur={onBlur}
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
+          aria-label={ariaLabel}
         />
       ) : (
         <input
@@ -101,6 +103,7 @@ const InputStateless = ({
           onBlur={onBlur}
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}
+          aria-label={ariaLabel}
         />
       )}
       {renderError(meta)}
