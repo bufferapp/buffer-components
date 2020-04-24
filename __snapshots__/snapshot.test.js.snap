@@ -5696,6 +5696,7 @@ exports[`Snapshots Image wide image 1`] = `
 exports[`Snapshots Input default 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={undefined}
@@ -5725,6 +5726,7 @@ exports[`Snapshots Input default 1`] = `
 exports[`Snapshots Input type=textarea 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={undefined}
@@ -5754,6 +5756,7 @@ exports[`Snapshots Input type=textarea 1`] = `
 exports[`Snapshots Input with custom onFocus handler 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={undefined}
@@ -19670,6 +19673,7 @@ exports[`Snapshots InputDateWeekdays Short Weekday 1`] = `
 exports[`Snapshots InputEmail default 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -19719,6 +19723,7 @@ exports[`Snapshots InputEmail with error 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -19788,6 +19793,7 @@ exports[`Snapshots InputEmail with label 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -19837,6 +19843,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={undefined}
@@ -19866,6 +19873,7 @@ exports[`Snapshots InputEmail with placeholder 1`] = `
 exports[`Snapshots InputEmail with submitting = true 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={true}
     onBlur={[Function]}
     onChange={[Function]}
@@ -19895,6 +19903,7 @@ exports[`Snapshots InputEmail with submitting = true 1`] = `
 exports[`Snapshots InputPassword default 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -19944,6 +19953,7 @@ exports[`Snapshots InputPassword with error 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20013,6 +20023,7 @@ exports[`Snapshots InputPassword with label 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20042,6 +20053,7 @@ exports[`Snapshots InputPassword with label 1`] = `
 exports[`Snapshots InputPassword with submitting = true 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={true}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20071,6 +20083,7 @@ exports[`Snapshots InputPassword with submitting = true 1`] = `
 exports[`Snapshots InputStateless default 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20100,6 +20113,7 @@ exports[`Snapshots InputStateless default 1`] = `
 exports[`Snapshots InputStateless focused 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20129,6 +20143,7 @@ exports[`Snapshots InputStateless focused 1`] = `
 exports[`Snapshots InputStateless onFocus + onBlur 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20178,6 +20193,7 @@ exports[`Snapshots InputStateless with error 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20247,6 +20263,7 @@ exports[`Snapshots InputStateless with label 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20296,6 +20313,7 @@ exports[`Snapshots InputStateless with placeholder 1`] = `
     </span>
   </div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={undefined}
@@ -20325,6 +20343,7 @@ exports[`Snapshots InputStateless with placeholder 1`] = `
 exports[`Snapshots InputStateless with submitting = true 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={true}
     onBlur={undefined}
     onChange={[Function]}
@@ -20354,6 +20373,7 @@ exports[`Snapshots InputStateless with submitting = true 1`] = `
 exports[`Snapshots InputStateless with type = email 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20383,6 +20403,7 @@ exports[`Snapshots InputStateless with type = email 1`] = `
 exports[`Snapshots InputStateless with type = password 1`] = `
 <div>
   <input
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20412,6 +20433,7 @@ exports[`Snapshots InputStateless with type = password 1`] = `
 exports[`Snapshots InputStateless with type = textarea & focused 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20441,6 +20463,7 @@ exports[`Snapshots InputStateless with type = textarea & focused 1`] = `
 exports[`Snapshots InputStateless with type = textarea & onFocus + onBlur 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20490,6 +20513,7 @@ exports[`Snapshots InputStateless with type = textarea & with error 1`] = `
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20559,6 +20583,7 @@ exports[`Snapshots InputStateless with type = textarea & with label 1`] = `
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20608,6 +20633,7 @@ exports[`Snapshots InputStateless with type = textarea & with placeholder 1`] = 
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={undefined}
@@ -20637,6 +20663,7 @@ exports[`Snapshots InputStateless with type = textarea & with placeholder 1`] = 
 exports[`Snapshots InputStateless with type = textarea & with submitting = true 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={true}
     onBlur={undefined}
     onChange={[Function]}
@@ -20666,6 +20693,7 @@ exports[`Snapshots InputStateless with type = textarea & with submitting = true 
 exports[`Snapshots InputStateless with type = textarea 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={undefined}
     onChange={[Function]}
@@ -20695,6 +20723,7 @@ exports[`Snapshots InputStateless with type = textarea 1`] = `
 exports[`Snapshots InputTextarea default 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20744,6 +20773,7 @@ exports[`Snapshots InputTextarea with error 1`] = `
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20813,6 +20843,7 @@ exports[`Snapshots InputTextarea with label 1`] = `
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={[Function]}
@@ -20862,6 +20893,7 @@ exports[`Snapshots InputTextarea with placeholder 1`] = `
     </span>
   </div>
   <textarea
+    aria-label={undefined}
     disabled={undefined}
     onBlur={[Function]}
     onChange={undefined}
@@ -20891,6 +20923,7 @@ exports[`Snapshots InputTextarea with placeholder 1`] = `
 exports[`Snapshots InputTextarea with submitting = true 1`] = `
 <div>
   <textarea
+    aria-label={undefined}
     disabled={true}
     onBlur={[Function]}
     onChange={[Function]}
