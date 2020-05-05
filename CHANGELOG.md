@@ -1,7 +1,10 @@
 # Changelog
 
+## 3.2.3 (May 5, 2020)
+- Fix vulnerabilities.
+
 ## 3.2.2 (September 20, 2019)
-- Added Shopify icons (normal and circle)
+- Added Shopify icons (normal and circle).
 
 ## 3.2.1 (May 7, 2019)
 - Adding a `border` style to `MultipleImages` component and changing the `border-radius` style.
