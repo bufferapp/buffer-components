@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.3.0 (May 5, 2020)
+- Add className to `Text`, `Image`, `IdTag`, `Card`, `Link` components.
+
 ## 3.2.3 (May 5, 2020)
 - Fix vulnerabilities.
 
