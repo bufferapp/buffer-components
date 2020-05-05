@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import InputTextarea from './index';
 
 const input = {
@@ -10,7 +10,7 @@ const input = {
 };
 
 storiesOf('InputTextarea', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => <InputTextarea input={input} />)
   .add('with label', () => <InputTextarea input={input} label="Text Area" />)
   .add('with error', () => (

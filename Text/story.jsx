@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Text from './index';
 
 const text = 'The quick brown fox jumps over the lazy dog';
 const longText = 'Test this out\n\n- lots of stuff\n- some things\n\nlong with spaces';
 
 storiesOf('Text', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Text>{text}</Text>
   ))
