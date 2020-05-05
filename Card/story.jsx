@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Card from './index';
 import Link from '../Link';
 import { denim, yellowLight, yellowUltraLight } from '../style/color';
 
 storiesOf('Card', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Card>
       What is a Product Designer? An awesome story by <Link href="#">@jgadapee</Link> over on

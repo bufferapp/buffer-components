@@ -1,15 +1,15 @@
 import React from 'react';
 import {
   storiesOf,
-  action,
 } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { action } from '@storybook/addon-actions';
+import { withA11y } from '@storybook/addon-a11y';
 import Tabs from './index';
 import Tab from '../Tab';
 
 
 storiesOf('Tabs', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Tabs
       selectedTabId={'tabId'}

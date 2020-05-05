@@ -1,11 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Toggle from './index';
 
 storiesOf('Toggle', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Toggle onClick={action('onClick')} />
   ))

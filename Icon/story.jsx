@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import AddMediaIcon from './Icons/AddMediaIcon';
 import AnalyticsIcon from './Icons/AnalyticsIcon';
 import ArrowDownIcon from './Icons/ArrowDownIcon';
@@ -84,7 +84,7 @@ import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
 
 storiesOf('Icon', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('large', () => (
     <AddMediaIcon size={'large'} />
   ))

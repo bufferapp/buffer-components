@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Select from './index';
 
 const options = [
@@ -13,7 +13,7 @@ const options = [
 ];
 
 storiesOf('Select', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Select
       options={options}

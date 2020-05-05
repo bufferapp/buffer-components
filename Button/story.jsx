@@ -1,13 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { checkA11y } from 'storybook-addon-a11y';
+import { withA11y } from '@storybook/addon-a11y';
 import Button from './index';
 import CloseIcon from '../Icon/Icons/CloseIcon';
 import Text from '../Text';
 
 storiesOf('Button', module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add('default', () => (
     <Button onClick={action('on-click')}>Click Me</Button>
   ))
