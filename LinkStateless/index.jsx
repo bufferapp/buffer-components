@@ -28,6 +28,7 @@ const Link = ({
   onClick,
   padding,
   block,
+  className,
 }) => {
   const style = calculateStyles({
     default: {
@@ -63,6 +64,7 @@ const Link = ({
       onFocus={onFocus}
       onBlur={onBlur}
       onClick={onClick}
+      className={className}
     >
       {children}
     </a>
@@ -83,6 +85,7 @@ Link.propTypes = {
   onClick: PropTypes.func,
   padding: PropTypes.string,
   block: PropTypes.bool,
+  className: PropTypes.string,
 };
 
 Link.defaultProps = {

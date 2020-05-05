@@ -31,7 +31,7 @@ import {
 } from '../style/whiteSpaces';
 import colors from '../style/color';
 
-const Text = ({ children, size, weight, color, whitespace }) => {
+const Text = ({ children, size, weight, color, whitespace, className }) => {
   const style = calculateStyles({
     default: {
       fontFamily,
@@ -119,7 +119,7 @@ const Text = ({ children, size, weight, color, whitespace }) => {
     noWrap: whitespace === noWrap,
   });
   return (
-    <span style={style}>{children}</span>
+    <span style={style} className={className}>{children}</span>
   );
 };
 
@@ -129,6 +129,7 @@ Text.propTypes = {
   weight: PropTypes.oneOf(['extra-light', 'light', 'thin', 'medium', 'semi-bold', 'bold', 'extra-bold', 'black']),
   color: PropTypes.oneOf(Object.keys(colors)),
   whitespace: PropTypes.oneOf(whiteSpaces),
+  className: PropTypes.string,
 };
 
 Text.defaultProps = {
