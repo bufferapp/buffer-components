@@ -33,6 +33,7 @@ import CircleMinusIcon from './Icons/CircleMinusIcon';
 import CirclePinterestIcon from './Icons/CirclePinterestIcon';
 import CirclePlayIcon from './Icons/CirclePlayIcon';
 import CirclePlusIcon from './Icons/CirclePlusIcon';
+import CircleTiktokIcon from './Icons/CircleTiktokIcon';
 import CircleTwitterIcon from './Icons/CircleTwitterIcon';
 import CircleShopifyIcon from './Icons/CircleShopifyIcon';
 import CircleXIcon from './Icons/CircleXIcon';
@@ -78,6 +79,7 @@ import SettingsIcon from './Icons/SettingsIcon';
 import ShopifyIcon from './Icons/ShopifyIcon';
 import ShuffleIcon from './Icons/ShuffleIcon';
 import SupportIcon from './Icons/SupportIcon';
+import TiktokIcon from './Icons/TiktokIcon';
 import TwitterIcon from './Icons/TwitterIcon';
 import VideoIcon from './Icons/VideoIcon';
 import ViewIcon from './Icons/ViewIcon';
@@ -86,16 +88,16 @@ import WarningIcon from './Icons/WarningIcon';
 storiesOf('Icon', module)
   .addDecorator(withA11y)
   .add('large', () => (
-    <AddMediaIcon size={'large'} />
+    <AddMediaIcon size="large" />
   ))
   .add('small', () => (
-    <AddMediaIcon size={'small'} />
+    <AddMediaIcon size="small" />
   ))
   .add('curiousBlue', () => (
-    <AddMediaIcon color={'curiousBlue'} />
+    <AddMediaIcon color="curiousBlue" />
   ))
   .add('shamrock', () => (
-    <AddMediaIcon color={'shamrock'} />
+    <AddMediaIcon color="shamrock" />
   ))
   .add('addMediaIcon', () => (
     <AddMediaIcon />
@@ -192,6 +194,9 @@ storiesOf('Icon', module)
   ))
   .add('circlePlusIcon', () => (
     <CirclePlusIcon />
+  ))
+  .add('circleTiktokIcon', () => (
+    <CircleTiktokIcon />
   ))
   .add('circleTwitterIcon', () => (
     <CircleTwitterIcon />
@@ -327,6 +332,9 @@ storiesOf('Icon', module)
   ))
   .add('supportIcon', () => (
     <SupportIcon />
+  ))
+  .add('tiktokIcon', () => (
+    <TiktokIcon />
   ))
   .add('twitterIcon', () => (
     <TwitterIcon />

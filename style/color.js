@@ -11,6 +11,7 @@ export const instagram = '#e53c5f';
 export const linkedin = '#007bb6';
 export const pinterest = '#bd081c';
 export const twitter = '#55acee';
+export const tiktok = '#000000';
 export const shopify = '#95bf47';
 export const shopifyShade = '#5e8e3e';
 
@@ -59,6 +60,7 @@ const colors = {
   linkedin,
   pinterest,
   twitter,
+  tiktok,
   aquaHaze,
   geyser,
   mystic,
