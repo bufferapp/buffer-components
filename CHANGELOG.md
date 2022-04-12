@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.3.1 (April 6, 2022)
+- Add TiktokIcon and CircleTiktokIcon.
+
 ## 3.3.0 (May 5, 2020)
 - Add className to `Text`, `Image`, `IdTag`, `Card`, `Link` components.
 
