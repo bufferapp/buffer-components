@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.3.2 (May 30, 2022)
+- Add GoogleBusinessIcon and CircleGoogleBusinessIcon.
+
 ## 3.3.1 (April 6, 2022)
 - Add TiktokIcon and CircleTiktokIcon.
 

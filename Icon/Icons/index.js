@@ -35,6 +35,8 @@ export CirclePlusIcon from './CirclePlusIcon';
 export CircleTiktokIcon from './CircleTiktokIcon';
 export CircleTwitterIcon from './CircleTwitterIcon';
 export CircleShopifyIcon from './CircleShopifyIcon';
+export GoogleBusinessIcon from './GoogleBusinessIcon';
+export CircleGoogleBusinessIcon from './CircleGoogleBusinessIcon';
 export CircleXIcon from './CircleXIcon';
 export ClickIcon from './ClickIcon';
 export ClockIcon from './ClockIcon';
