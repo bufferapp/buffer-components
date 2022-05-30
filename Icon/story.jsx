@@ -84,6 +84,8 @@ import TwitterIcon from './Icons/TwitterIcon';
 import VideoIcon from './Icons/VideoIcon';
 import ViewIcon from './Icons/ViewIcon';
 import WarningIcon from './Icons/WarningIcon';
+import CircleGoogleBusinessIcon from './Icons/CircleGoogleBusinessIcon';
+import GoogleBusinessIcon from './Icons/GoogleBusinessIcon';
 
 storiesOf('Icon', module)
   .addDecorator(withA11y)
@@ -191,6 +193,12 @@ storiesOf('Icon', module)
   ))
   .add('circlePlayIcon', () => (
     <CirclePlayIcon />
+  ))
+  .add('circleGoogleBusinessIcon', () => (
+    <CircleGoogleBusinessIcon />
+  ))
+  .add('googleBusinessIcon', () => (
+    <GoogleBusinessIcon />
   ))
   .add('circlePlusIcon', () => (
     <CirclePlusIcon />
