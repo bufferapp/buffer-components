@@ -340,13 +340,14 @@ exports[`Storyshots Button with icon and text 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -407,13 +408,14 @@ exports[`Storyshots Button with icon only 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -775,13 +777,14 @@ exports[`Storyshots ButtonStateless disabled 1`] = `
     onClick={[Function]}
     style={
       Object {
+        "alignItems": "center",
         "background": "none",
         "backgroundColor": "unset",
         "border": "none",
         "borderRadius": "unset",
         "color": "unset",
         "cursor": "pointer",
-        "display": "unset",
+        "display": "flex",
         "fontFamily": "unset",
         "fontSize": "unset",
         "fontWeight": "unset",
@@ -1133,13 +1136,14 @@ exports[`Storyshots ButtonStateless hovered 1`] = `
     aria-label={null}
     style={
       Object {
+        "alignItems": "center",
         "background": "none",
         "backgroundColor": "unset",
         "border": "none",
         "borderRadius": "unset",
         "color": "unset",
         "cursor": "pointer",
-        "display": "unset",
+        "display": "flex",
         "fontFamily": "unset",
         "fontSize": "unset",
         "fontWeight": "unset",
@@ -1224,13 +1228,14 @@ exports[`Storyshots ButtonStateless noStyle 1`] = `
   onClick={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -5757,13 +5762,14 @@ exports[`Storyshots InputDate default 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -5826,13 +5832,14 @@ exports[`Storyshots InputDate default 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -7354,13 +7361,14 @@ exports[`Storyshots InputDate display one month in past 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -7423,13 +7431,14 @@ exports[`Storyshots InputDate display one month in past 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -8957,13 +8966,14 @@ exports[`Storyshots InputDate with day selected 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -9026,13 +9036,14 @@ exports[`Storyshots InputDate with day selected 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -10555,13 +10566,14 @@ exports[`Storyshots InputDate with disabled days 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -10624,13 +10636,14 @@ exports[`Storyshots InputDate with disabled days 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -12178,13 +12191,14 @@ exports[`Storyshots InputDate with error 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -12247,13 +12261,14 @@ exports[`Storyshots InputDate with error 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -13797,13 +13812,14 @@ exports[`Storyshots InputDate with start of week monday 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -13866,13 +13882,14 @@ exports[`Storyshots InputDate with start of week monday 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -15394,13 +15411,14 @@ exports[`Storyshots InputDate with submitting 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -15463,13 +15481,14 @@ exports[`Storyshots InputDate with submitting 1`] = `
             onMouseLeave={[Function]}
             style={
               Object {
+                "alignItems": "center",
                 "background": "none",
                 "backgroundColor": "unset",
                 "border": "none",
                 "borderRadius": "unset",
                 "color": "unset",
                 "cursor": "pointer",
-                "display": "unset",
+                "display": "flex",
                 "fontFamily": "unset",
                 "fontSize": "unset",
                 "fontWeight": "unset",
@@ -17036,13 +17055,14 @@ exports[`Storyshots InputDateNavBar default 1`] = `
       onMouseLeave={[Function]}
       style={
         Object {
+          "alignItems": "center",
           "background": "none",
           "backgroundColor": "unset",
           "border": "none",
           "borderRadius": "unset",
           "color": "unset",
           "cursor": "pointer",
-          "display": "unset",
+          "display": "flex",
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
@@ -17105,13 +17125,14 @@ exports[`Storyshots InputDateNavBar default 1`] = `
       onMouseLeave={[Function]}
       style={
         Object {
+          "alignItems": "center",
           "background": "none",
           "backgroundColor": "unset",
           "border": "none",
           "borderRadius": "unset",
           "color": "unset",
           "cursor": "pointer",
-          "display": "unset",
+          "display": "flex",
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
@@ -17188,13 +17209,14 @@ exports[`Storyshots InputDateNavBar navigation disabled 1`] = `
       onMouseLeave={[Function]}
       style={
         Object {
+          "alignItems": "center",
           "background": "none",
           "backgroundColor": "unset",
           "border": "none",
           "borderRadius": "unset",
           "color": "unset",
           "cursor": "pointer",
-          "display": "unset",
+          "display": "flex",
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
@@ -17257,13 +17279,14 @@ exports[`Storyshots InputDateNavBar navigation disabled 1`] = `
       onMouseLeave={[Function]}
       style={
         Object {
+          "alignItems": "center",
           "background": "none",
           "backgroundColor": "unset",
           "border": "none",
           "borderRadius": "unset",
           "color": "unset",
           "cursor": "pointer",
-          "display": "unset",
+          "display": "flex",
           "fontFamily": "unset",
           "fontSize": "unset",
           "fontWeight": "unset",
@@ -28170,13 +28193,14 @@ exports[`Storyshots Notification default 1`] = `
         onMouseLeave={[Function]}
         style={
           Object {
+            "alignItems": "center",
             "background": "none",
             "backgroundColor": "unset",
             "border": "none",
             "borderRadius": "unset",
             "color": "unset",
             "cursor": "pointer",
-            "display": "unset",
+            "display": "flex",
             "fontFamily": "unset",
             "fontSize": "unset",
             "fontWeight": "unset",
@@ -28308,13 +28332,14 @@ exports[`Storyshots Notification error 1`] = `
         onMouseLeave={[Function]}
         style={
           Object {
+            "alignItems": "center",
             "background": "none",
             "backgroundColor": "unset",
             "border": "none",
             "borderRadius": "unset",
             "color": "unset",
             "cursor": "pointer",
-            "display": "unset",
+            "display": "flex",
             "fontFamily": "unset",
             "fontSize": "unset",
             "fontWeight": "unset",
@@ -28446,13 +28471,14 @@ exports[`Storyshots Notification handle close click 1`] = `
         onMouseLeave={[Function]}
         style={
           Object {
+            "alignItems": "center",
             "background": "none",
             "backgroundColor": "unset",
             "border": "none",
             "borderRadius": "unset",
             "color": "unset",
             "cursor": "pointer",
-            "display": "unset",
+            "display": "flex",
             "fontFamily": "unset",
             "fontSize": "unset",
             "fontWeight": "unset",
@@ -28584,13 +28610,14 @@ exports[`Storyshots Notification long text 1`] = `
         onMouseLeave={[Function]}
         style={
           Object {
+            "alignItems": "center",
             "background": "none",
             "backgroundColor": "unset",
             "border": "none",
             "borderRadius": "unset",
             "color": "unset",
             "cursor": "pointer",
-            "display": "unset",
+            "display": "flex",
             "fontFamily": "unset",
             "fontSize": "unset",
             "fontWeight": "unset",
@@ -30692,13 +30719,14 @@ exports[`Storyshots Toggle custom offText 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -30794,13 +30822,14 @@ exports[`Storyshots Toggle custom onText 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -30896,13 +30925,14 @@ exports[`Storyshots Toggle default 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -30998,13 +31028,14 @@ exports[`Storyshots Toggle disabled + on 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -31100,13 +31131,14 @@ exports[`Storyshots Toggle disabled 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -31202,13 +31234,14 @@ exports[`Storyshots Toggle on 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
@@ -31304,13 +31337,14 @@ exports[`Storyshots Toggle small 1`] = `
   onMouseLeave={[Function]}
   style={
     Object {
+      "alignItems": "center",
       "background": "none",
       "backgroundColor": "unset",
       "border": "none",
       "borderRadius": "unset",
       "color": "unset",
       "cursor": "pointer",
-      "display": "unset",
+      "display": "flex",
       "fontFamily": "unset",
       "fontSize": "unset",
       "fontWeight": "unset",
