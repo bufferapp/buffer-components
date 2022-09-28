@@ -27,6 +27,7 @@ export const outerSpaceUltraDark = 'rgba(50, 59, 67, 0.8)';
 export const outerSpaceLight = 'rgba(50, 59, 67, 0.3)';
 export const outerSpaceUltraLight = 'rgba(50, 59, 67, 0.1)';
 export const shuttleGray = '#59626a';
+export const grayLight = '#e0e0e0';
 
 export const black = '#000';
 export const white = '#fff';
@@ -86,6 +87,7 @@ const colors = {
   baliHai,
   yellowLight,
   yellowUltraLight,
+  grayLight,
 };
 
 export default colors;
