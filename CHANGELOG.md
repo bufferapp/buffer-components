@@ -1,4 +1,6 @@
 # Changelog
+## 3.5.0 (September 28, 2022)
+- Add new grayLight color.
 
 ## 3.4.0 (June 9, 2022)
 - Fix CircleGoogleBusinessIcon.
