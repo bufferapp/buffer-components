@@ -31,7 +31,7 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
     calculatedElements.push(curString.substring(lastLink.indices[1]));
     return calulateLinkifiedText(
       options,
-      links,
+      links.slice(0, -1),
       curString.substring(0, lastLink.indices[1]),
       calculatedElements,
     );
