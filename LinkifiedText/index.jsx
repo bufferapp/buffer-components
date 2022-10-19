@@ -27,7 +27,7 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
   }
   const lastLink = links[links.length - 1];
   // link is outside of bounds
-  if (curString.length < lastLink.indices[0]) {
+  if (curString.length <= lastLink.indices[0]) {
     return calulateLinkifiedText(
       options,
       links.slice(0, -1),
