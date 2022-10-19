@@ -109,4 +109,16 @@ storiesOf('LinkifiedText', module)
     >
       {'some long text goes here\n\n- item 1\n- item 2\n\nmore text here'}
     </LinkifiedText>
+  ))
+  .add('text with incorrect links ', () => (
+    <LinkifiedText
+      links={[{
+        rawString: 'http://t.co/0JG5Mcq',
+        displayString: 'blog.twitter.com/2011/05/twitte…',
+        url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
+        indices: [30, 49],
+      }]}
+    >
+      Text without link
+    </LinkifiedText>
   ));
