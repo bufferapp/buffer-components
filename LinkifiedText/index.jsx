@@ -26,12 +26,21 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
     return calulateLinkifiedText(options, links, '', calculatedElements);
   }
   const lastLink = links[links.length - 1];
+  // link is outside of bounds
+  if (curString.length < lastLink.indices[0]) {
+    return calulateLinkifiedText(
+      options,
+      links.slice(0, -1),
+      curString,
+      calculatedElements,
+    );
+  }
   // text at the end that's not a link
   if (curString.length !== lastLink.indices[1]) {
     calculatedElements.push(curString.substring(lastLink.indices[1]));
     return calulateLinkifiedText(
       options,
-      links.slice(0, -1),
+      links,
       curString.substring(0, lastLink.indices[1]),
       calculatedElements,
     );
