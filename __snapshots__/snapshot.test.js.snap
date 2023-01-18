@@ -3128,6 +3128,36 @@ exports[`Storyshots Icon circleFacebookIcon 1`] = `
 </svg>
 `;
 
+exports[`Storyshots Icon circleGoogleBusinessIcon 1`] = `
+<svg
+  height="100%"
+  style={
+    Object {
+      "fill": "#59626a",
+      "height": "1rem",
+      "width": "1rem",
+    }
+  }
+  version="1.1"
+  viewBox="0 0 16 16"
+  width="100%"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    className="shuttleGray"
+  >
+    <g
+      fillRule="evenodd"
+    >
+      <path
+        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11 7.6C11.552 7.6 12 7.148 12 6.6L11.444 4.432C11.444 4.432 11.328 4 10.92 4H5.08C4.672 4 4.556 4.432 4.556 4.432L4 6.6C4 7.148 4.448 7.6 5 7.6C5.552 7.6 6 7.148 6 6.6C6 7.148 6.448 7.6 7 7.6C7.552 7.6 8 7.148 8 6.6C8 7.148 8.448 7.6 9 7.6C9.552 7.6 10 7.148 10 6.6C10 7.148 10.448 7.6 11 7.6ZM11.6 11.2V8.08C11.416 8.156 11.212 8.2 11 8.2C10.624 8.2 10.272 8.068 10 7.848C9.728 8.068 9.38 8.2 9 8.2C8.624 8.2 8.276 8.068 8 7.848C7.728 8.068 7.38 8.2 7 8.2C6.624 8.2 6.276 8.068 6 7.848C5.728 8.068 5.38 8.2 5 8.2C4.788 8.2 4.584 8.156 4.4 8.08V11.2C4.4 11.64 4.76 12 5.2 12H10.8C11.24 12 11.6 11.64 11.6 11.2ZM10.78 9.88C10.8 9.968 10.8 10.052 10.8 10.132C10.8 10.4 10.68 10.688 10.492 10.88C10.284 11.084 10 11.2 9.68 11.2H9.672C9.34 11.2 9.016 11.064 8.784 10.836C8.556 10.616 8.432 10.32 8.432 10C8.432 9.684 8.564 9.38 8.8 9.148C9.028 8.924 9.332 8.8 9.656 8.8H9.66C9.972 8.8 10.268 8.916 10.492 9.124L10.556 9.18L10.22 9.52L10.164 9.468C9.876 9.2 9.42 9.2 9.144 9.48C8.86 9.768 8.86 10.228 9.136 10.512C9.28 10.652 9.476 10.736 9.676 10.736C9.868 10.736 10.048 10.664 10.18 10.532C10.248 10.46 10.28 10.372 10.304 10.284H9.58V9.816H10.768L10.78 9.88Z"
+      />
+    </g>
+  </g>
+</svg>
+`;
+
 exports[`Storyshots Icon circleGooglePlusIcon 1`] = `
 <svg
   height="100%"
@@ -3922,6 +3952,32 @@ exports[`Storyshots Icon gifIcon 1`] = `
   >
     <path
       d="M3.15491775,7.6017025 L5.87242145,7.6017025 L5.87242145,11.1531987 C5.43199623,11.2968835 5.0173468,11.3976176 4.6284607,11.4554039 C4.23957461,11.5131902 3.84210462,11.5420829 3.43603882,11.5420829 C2.40213282,11.5420829 1.61265903,11.238319 1.06759379,10.6307821 C0.522528537,10.0232451 0.25,9.15099765 0.25,8.01401341 C0.25,6.90826499 0.566258044,6.04616899 1.19878362,5.42769954 C1.8313092,4.80923009 2.70824199,4.5 3.82960832,4.5 C4.53241452,4.5 5.21022188,4.64055913 5.86305075,4.92168161 L5.38045957,6.08364871 C4.88068628,5.83376206 4.36061749,5.70882061 3.82023762,5.70882061 C3.19239742,5.70882061 2.68950808,5.91965931 2.31155453,6.34134302 C1.93360098,6.76302674 1.74462704,7.32994857 1.74462704,8.04212551 C1.74462704,8.78553829 1.89689943,9.353241 2.20144878,9.74525068 C2.50599813,10.1372604 2.94875939,10.3332623 3.52974584,10.3332623 C3.8327334,10.3332623 4.14040172,10.3020269 4.45276003,10.2395552 L4.45276003,8.81052311 L3.15491775,8.81052311 L3.15491775,7.6017025 Z M8.03601252,11.4483758 L8.03601252,4.59839238 L9.48847139,4.59839238 L9.48847139,11.4483758 L8.03601252,11.4483758 Z M13.1748016,11.4483758 L11.7457695,11.4483758 L11.7457695,4.59839238 L15.6720938,4.59839238 L15.6720938,5.78847158 L13.1748016,5.78847158 L13.1748016,7.55484899 L15.4987358,7.55484899 L15.4987358,8.74024284 L13.1748016,8.74024284 L13.1748016,11.4483758 Z"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Storyshots Icon googleBusinessIcon 1`] = `
+<svg
+  height="100%"
+  style={
+    Object {
+      "fill": "#59626a",
+      "height": "1rem",
+      "width": "1rem",
+    }
+  }
+  version="1.1"
+  viewBox="0 0 16 16"
+  width="100%"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    className="shuttleGray"
+  >
+    <path
+      d="M14 4.55c0 .959-.784 1.75-1.75 1.75s-1.75-.791-1.75-1.75c0 .959-.784 1.75-1.75 1.75S7 5.509 7 4.55c0 .959-.784 1.75-1.75 1.75S3.5 5.509 3.5 4.55c0 .959-.784 1.75-1.75 1.75S0 5.509 0 4.55L.973.756S1.176 0 1.89 0h10.22c.714 0 .917.756.917.756L14 4.55zm-.7 2.59v5.46c0 .77-.63 1.4-1.4 1.4H2.1c-.77 0-1.4-.63-1.4-1.4V7.14a2.773 2.773 0 002.8-.406 2.802 2.802 0 001.75.616c.665 0 1.274-.231 1.75-.616a2.802 2.802 0 001.75.616c.665 0 1.274-.231 1.75-.616a2.787 2.787 0 001.75.616c.371 0 .728-.077 1.05-.21zm-1.4 3.591c0-.14 0-.287-.035-.441l-.021-.112H9.765v.819h1.267a.98.98 0 01-.217.434 1.238 1.238 0 01-.882.357c-.35 0-.693-.147-.945-.392a1.293 1.293 0 01.014-1.806c.483-.49 1.281-.49 1.785-.021l.098.091.588-.595-.112-.098A2.134 2.134 0 009.905 8.4h-.007c-.567 0-1.099.217-1.498.609a2.092 2.092 0 00-.644 1.491c0 .56.217 1.078.616 1.463a2.24 2.24 0 001.554.637h.014a2 2 0 001.421-.56c.329-.336.539-.84.539-1.309z"
     />
   </g>
 </svg>
@@ -27823,6 +27879,7 @@ exports[`Storyshots LinkifiedText black text, unstyled link 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -27858,6 +27915,7 @@ exports[`Storyshots LinkifiedText default 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -27946,6 +28004,7 @@ exports[`Storyshots LinkifiedText newTab 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -27994,6 +28053,7 @@ exports[`Storyshots LinkifiedText size: small 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28014,6 +28074,74 @@ exports[`Storyshots LinkifiedText size: small 1`] = `
 </span>
 `;
 
+exports[`Storyshots LinkifiedText text with hashtags and mentions 1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+      "whiteSpace": "pre-wrap",
+    }
+  }
+>
+  This is a text with a 
+  <a
+    className="hashtag"
+    href="https://mastodonbooks.net/tags/hashtah"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    #hashtah
+  </a>
+   and a mention 
+  <a
+    className=""
+    href="https://mastodonbooks.net/@buffer"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "color": "#168eea",
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "padding": "0",
+      }
+    }
+    target="_self"
+  >
+    @buffer
+  </a>
+</span>
+`;
+
+exports[`Storyshots LinkifiedText text with incorrect links  1`] = `
+<span
+  style={
+    Object {
+      "color": "#59626a",
+      "fontFamily": "\\"Roboto\\", sans-serif",
+      "fontSize": "1rem",
+      "fontWeight": 400,
+    }
+  }
+>
+  Text without link
+</span>
+`;
+
 exports[`Storyshots LinkifiedText two links 1`] = `
 <span
   style={
@@ -28027,6 +28155,7 @@ exports[`Storyshots LinkifiedText two links 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28045,6 +28174,7 @@ exports[`Storyshots LinkifiedText two links 1`] = `
   </a>
    b 
   <a
+    className=""
     href="https://buffer.com"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28078,6 +28208,7 @@ exports[`Storyshots LinkifiedText unstyled 1`] = `
 >
   a 
   <a
+    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
