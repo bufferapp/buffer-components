@@ -10,7 +10,7 @@ const linkDataToElement = (options, link, key) => (
     key={key}
     unstyled={options.unstyled}
     newTab={options.newTab}
-    className={link.className ? link.className : ''}
+    className={link.className}
   >
     {link.displayString}
   </Link>
