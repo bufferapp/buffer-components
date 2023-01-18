@@ -129,7 +129,8 @@ const Button = ({
       width: '100%',
     },
     noStyle: {
-      display: 'unset',
+      display: 'flex',
+      alignItems: 'center',
       lineHeight: 'unset',
       margin: 'unset',
       padding: 0,

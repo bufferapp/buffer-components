@@ -186,7 +186,6 @@ const InputTime = ({
   },
   minimal,
   select24Hours,
-  displayTimeColon,
   fontSize,
 }) => {
   const style = {
@@ -212,16 +211,14 @@ const InputTime = ({
           size={fontSize}
         />
       </SelectWrapper>
-      { displayTimeColon ?
         <TimeColonWrapper
           minimal={minimal}
         >
           <Text size={'small'}>:</Text>
         </TimeColonWrapper>
-        : null }
       <SelectWrapper
         minimal={minimal}
-        marginLeft={minimal || displayTimeColon ? 0 : '0.25rem'}
+        marginLeft={minimal}
         marginRight={!minimal ? '0.25rem' : undefined}
       >
         <Select
@@ -263,7 +260,6 @@ InputTime.propTypes = {
   }),
   minimal: PropTypes.bool,
   select24Hours: PropTypes.bool,
-  displayTimeColon: PropTypes.bool,
   fontSize: PropTypes.oneOf(['small']),
 };
 
