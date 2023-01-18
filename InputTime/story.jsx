@@ -100,25 +100,6 @@ storiesOf('InputTime', module)
       }}
     />
   ))
-  .add('displayTimeColon', () => (
-    <InputTime
-      input={{
-        onChange: action('on-change'),
-        value: '',
-      }}
-      displayTimeColon
-    />
-  ))
-  .add('displayTimeColon minimal', () => (
-    <InputTime
-      input={{
-        onChange: action('on-change'),
-        value: '',
-      }}
-      displayTimeColon
-      minimal
-    />
-  ))
   .add('small', () => (
     <InputTime
       input={{
