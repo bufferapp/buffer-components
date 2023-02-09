@@ -4,15 +4,17 @@ import Text from '../Text';
 import Link from '../Link';
 import colors from '../style/color';
 
-const linkDataToElement = (options, link, key) =>
+const linkDataToElement = (options, link, key) => (
   <Link
     href={link.url}
     key={key}
     unstyled={options.unstyled}
     newTab={options.newTab}
+    className={link.className}
   >
     {link.displayString}
-  </Link>;
+  </Link>
+);
 
 const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
   // nothing left to calculate, return all the caluculated pairs
