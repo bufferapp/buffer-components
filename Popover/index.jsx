@@ -16,6 +16,8 @@ const Popover = ({
   bottom,
   right,
   width,
+  height,
+  maxHeight,
   onOverlayClick,
   transparentOverlay,
 }) => {
@@ -40,6 +42,8 @@ const Popover = ({
             top,
             bottom,
             right,
+            height,
+            maxHeight,
             zIndex: modal,
           },
         })}
@@ -61,6 +65,8 @@ Popover.propTypes = {
   bottom: PropTypes.string,
   right: PropTypes.string,
   width: PropTypes.string,
+  height: PropTypes.string,
+  maxHeight: PropTypes.string,
   onOverlayClick: PropTypes.func,
   transparentOverlay: PropTypes.bool,
 };
