@@ -3158,6 +3158,36 @@ exports[`Storyshots Icon circleGoogleBusinessIcon 1`] = `
 </svg>
 `;
 
+exports[`Storyshots Icon circleGoogleBusinessIcon 1`] = `
+<svg
+  height="100%"
+  style={
+    Object {
+      "fill": "#59626a",
+      "height": "1rem",
+      "width": "1rem",
+    }
+  }
+  version="1.1"
+  viewBox="0 0 16 16"
+  width="100%"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    className="shuttleGray"
+  >
+    <g
+      fillRule="evenodd"
+    >
+      <path
+        d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM11 7.6C11.552 7.6 12 7.148 12 6.6L11.444 4.432C11.444 4.432 11.328 4 10.92 4H5.08C4.672 4 4.556 4.432 4.556 4.432L4 6.6C4 7.148 4.448 7.6 5 7.6C5.552 7.6 6 7.148 6 6.6C6 7.148 6.448 7.6 7 7.6C7.552 7.6 8 7.148 8 6.6C8 7.148 8.448 7.6 9 7.6C9.552 7.6 10 7.148 10 6.6C10 7.148 10.448 7.6 11 7.6ZM11.6 11.2V8.08C11.416 8.156 11.212 8.2 11 8.2C10.624 8.2 10.272 8.068 10 7.848C9.728 8.068 9.38 8.2 9 8.2C8.624 8.2 8.276 8.068 8 7.848C7.728 8.068 7.38 8.2 7 8.2C6.624 8.2 6.276 8.068 6 7.848C5.728 8.068 5.38 8.2 5 8.2C4.788 8.2 4.584 8.156 4.4 8.08V11.2C4.4 11.64 4.76 12 5.2 12H10.8C11.24 12 11.6 11.64 11.6 11.2ZM10.78 9.88C10.8 9.968 10.8 10.052 10.8 10.132C10.8 10.4 10.68 10.688 10.492 10.88C10.284 11.084 10 11.2 9.68 11.2H9.672C9.34 11.2 9.016 11.064 8.784 10.836C8.556 10.616 8.432 10.32 8.432 10C8.432 9.684 8.564 9.38 8.8 9.148C9.028 8.924 9.332 8.8 9.656 8.8H9.66C9.972 8.8 10.268 8.916 10.492 9.124L10.556 9.18L10.22 9.52L10.164 9.468C9.876 9.2 9.42 9.2 9.144 9.48C8.86 9.768 8.86 10.228 9.136 10.512C9.28 10.652 9.476 10.736 9.676 10.736C9.868 10.736 10.048 10.664 10.18 10.532C10.248 10.46 10.28 10.372 10.304 10.284H9.58V9.816H10.768L10.78 9.88Z"
+      />
+    </g>
+  </g>
+</svg>
+`;
+
 exports[`Storyshots Icon circleGooglePlusIcon 1`] = `
 <svg
   height="100%"
@@ -27879,7 +27909,6 @@ exports[`Storyshots LinkifiedText black text, unstyled link 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -27915,7 +27944,6 @@ exports[`Storyshots LinkifiedText default 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28004,7 +28032,6 @@ exports[`Storyshots LinkifiedText newTab 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28053,7 +28080,6 @@ exports[`Storyshots LinkifiedText size: small 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28107,7 +28133,6 @@ exports[`Storyshots LinkifiedText text with hashtags and mentions 1`] = `
   </a>
    and a mention 
   <a
-    className=""
     href="https://mastodonbooks.net/@buffer"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28155,7 +28180,6 @@ exports[`Storyshots LinkifiedText two links 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28174,7 +28198,6 @@ exports[`Storyshots LinkifiedText two links 1`] = `
   </a>
    b 
   <a
-    className=""
     href="https://buffer.com"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -28208,7 +28231,6 @@ exports[`Storyshots LinkifiedText unstyled 1`] = `
 >
   a 
   <a
-    className=""
     href="http://blog.twitter.com/2011/05/twitter-for-mac-update.html"
     onBlur={[Function]}
     onFocus={[Function]}
@@ -29943,7 +29965,9 @@ exports[`Storyshots Popover bottom = 10rem 1`] = `
     style={
       Object {
         "bottom": "10rem",
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": undefined,
@@ -30005,7 +30029,9 @@ exports[`Storyshots Popover bottom = 10rem right = 10rem 1`] = `
     style={
       Object {
         "bottom": "10rem",
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": "10rem",
         "top": undefined,
@@ -30067,7 +30093,9 @@ exports[`Storyshots Popover default 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": undefined,
@@ -30129,7 +30157,9 @@ exports[`Storyshots Popover left = 10rem 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": "10rem",
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": undefined,
@@ -30191,7 +30221,9 @@ exports[`Storyshots Popover right = 10rem 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": "10rem",
         "top": undefined,
@@ -30253,7 +30285,9 @@ exports[`Storyshots Popover top = 10rem 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": "10rem",
@@ -30315,7 +30349,9 @@ exports[`Storyshots Popover top = 10rem left = 10rem 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": "10rem",
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": "10rem",
@@ -30377,7 +30413,9 @@ exports[`Storyshots Popover transparent Overlay 1`] = `
     style={
       Object {
         "bottom": undefined,
+        "height": undefined,
         "left": undefined,
+        "maxHeight": undefined,
         "position": "absolute",
         "right": undefined,
         "top": undefined,
