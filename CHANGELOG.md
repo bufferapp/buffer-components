@@ -1,4 +1,6 @@
 # Changelog
+## 3.6.0 (February 9, 2023)
+- Add new properties `height` and `maxHeight` for Popover.
 ## 3.5.0 (September 28, 2022)
 - Add new grayLight color.
 
