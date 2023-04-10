@@ -3,6 +3,7 @@
   "version": "3.6.3",
   "description": "A shared set of UI Components",
   "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
@@ -40,6 +41,7 @@
     "@babel/core": "^7.21.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.9.4",
     "@storybook/addon-a11y": "5.1.11",
