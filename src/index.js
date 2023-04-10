@@ -34,5 +34,5 @@ export { default as Tabs } from './Tabs';
 export { default as Text } from './Text';
 export { default as Toggle } from './Toggle';
 export { default as PseudoClassComponent } from './PseudoClassComponent';
-export * from './lib/utils'
-export * from './style/animation'
+export * from './lib/utils';
+export * from './style/animation';
