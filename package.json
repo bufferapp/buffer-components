@@ -1,15 +1,17 @@
 {
   "name": "@bufferapp/components",
-  "version": "3.6.3",
+  "version": "4.0.0",
   "description": "A shared set of UI Components",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "start": "start-storybook -p 9001",
     "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint . --ignore-pattern coverage .storybook node_modules",
     "test": "jest",
     "test-update": "jest -u",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -35,10 +37,12 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
+    "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.9.4",
     "@storybook/addon-a11y": "5.1.11",
     "@storybook/addon-actions": "5.1.11",
