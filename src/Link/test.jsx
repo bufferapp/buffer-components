@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import LinkStateless from '../LinkStateless';
 import Link from './index';
 import testComponentA11y from '../lib/a11yTestHelper';
