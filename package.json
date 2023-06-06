@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "4.0.0",
+  "version": "4.0.0-beta.7a4943c",
   "description": "A shared set of UI Components",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
@@ -11,7 +11,8 @@
     "test": "jest",
     "test-update": "jest -u",
     "test-watch": "jest --watch",
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "publish:beta": "./scripts/publishBeta.sh"
   },
   "repository": {
     "type": "git",
