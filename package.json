@@ -1,6 +1,6 @@
 {
   "name": "@bufferapp/components",
-  "version": "4.0.0-beta.7a4943c",
+  "version": "4.0.0-beta.ed0da6d",
   "description": "A shared set of UI Components",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
