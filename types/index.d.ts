@@ -1,1 +1,14 @@
 declare module '@bufferapp/components';
+declare module '@bufferapp/components/Image';
+declare module '@bufferapp/components/style/animation';
+declare module '@bufferapp/components/style/border';
+declare module '@bufferapp/components/style/color';
+declare module '@bufferapp/components/style/font';
+declare module '@bufferapp/components/PseudoClassComponent';
+declare module '@bufferapp/components/lib/utils';
+declare module '@bufferapp/components/Icon';
+declare module '@bufferapp/components/Icon/Icons';
+declare module '@bufferapp/components/Icon/Icons/*';
+declare module '@bufferapp/components/Select';
+declare module '@bufferapp/components/Text';
+declare module '@bufferapp/components/Loader';
