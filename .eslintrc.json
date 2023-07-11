@@ -5,7 +5,8 @@
     "react"
   ],
   "env": {
-    "jest": true
+    "jest": true,
+    "browser": true
   },
   "rules": {
     "consistent-return": 0,
