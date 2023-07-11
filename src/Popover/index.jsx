@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Overlay from '../Overlay';
 import {
@@ -32,6 +32,21 @@ const Popover = ({
     justifyContent: 'center',
     alignItems: 'center',
   };
+
+  const onKeyDown = (event) => {
+    if (event.key === 'Escape') {
+      onOverlayClick();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('keydown', onKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', onKeyDown);
+    };
+  }, []);
+
   return (
     <div style={popoverWrapperStyle}>
       <div
