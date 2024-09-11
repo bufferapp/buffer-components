@@ -12,8 +12,9 @@ const Toggle = ({
   onText,
   offText,
   disabled,
-  size,
-}) => (
+  size
+}: any) => (
+  // @ts-expect-error TS(2322): Type '{ children: Element; noStyle: true; onClick:... Remove this comment to see the full error message
   <Button noStyle onClick={onClick} disabled={disabled}>
     <div
       style={{

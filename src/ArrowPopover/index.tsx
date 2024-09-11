@@ -23,8 +23,8 @@ const ArrowPopover = ({
   shadow,
   width,
   isTooltip,
-  id,
-}) => {
+  id
+}: any) => {
   const offsetTop = position === 'above' ? -offset.top : offset.top;
   const style = calculateStyles({
     default: {

@@ -10,8 +10,8 @@ import {
 } from '../Icon/Icons';
 
 const NotificationIcon = ({
-  type,
-}) => {
+  type
+}: any) => {
   if (type === 'error') {
     return (
       <WarningIcon
@@ -31,8 +31,8 @@ const NotificationIcon = ({
 const Notification = ({
   children,
   onCloseClick,
-  type,
-}) =>
+  type
+}: any) =>
   <Card
     noPadding
     noBorder
@@ -70,6 +70,7 @@ const Notification = ({
         }}
       >
         <Button
+          // @ts-expect-error TS(2322): Type '{ children: Element; onClick: any; noStyle: ... Remove this comment to see the full error message
           onClick={onCloseClick}
           noStyle
         >

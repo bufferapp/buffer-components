@@ -19,8 +19,8 @@ const Popover = ({
   height,
   maxHeight,
   onOverlayClick,
-  transparentOverlay,
-}) => {
+  transparentOverlay
+}: any) => {
   const popoverWrapperStyle = {
     position: 'absolute',
     top: 0,
@@ -33,7 +33,7 @@ const Popover = ({
     alignItems: 'center',
   };
 
-  const onKeyDown = (event) => {
+  const onKeyDown = (event: any) => {
     if (event.key === 'Escape') {
       onOverlayClick();
     }
@@ -48,8 +48,10 @@ const Popover = ({
   }, []);
 
   return (
+    // @ts-expect-error TS(2322): Type '{ position: string; top: number; left: numbe... Remove this comment to see the full error message
     <div style={popoverWrapperStyle}>
       <div
+        // @ts-expect-error TS(2554): Expected 2 arguments, but got 1.
         style={calculateStyles({
           default: {
             position: 'absolute',

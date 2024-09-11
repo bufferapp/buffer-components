@@ -1,7 +1,10 @@
 import React from 'react';
 import Icon from '../index';
 
-const CircleXIcon = ({ color, size }) =>
+const CircleXIcon = ({
+  color,
+  size
+}: any) =>
   <Icon color={color} size={size}>
     <g fillRule="evenodd">
       <g transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000) ">

@@ -23,8 +23,8 @@ const Card = ({
   reducedPadding,
   shadowHeight,
   draggingPlaceholder,
-  className,
-}) => {
+  className
+}: any) => {
   const style = calculateStyles(
     {
       default: {

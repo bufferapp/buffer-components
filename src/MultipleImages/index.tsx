@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+// @ts-expect-error TS(2307): Cannot find module 'uuid' or its corresponding typ... Remove this comment to see the full error message
 import uuid from 'uuid';
 import {
   calculateStyles,
 } from '../lib/utils';
 import Image from '../Image';
 
-const getImageWrapperHeight = (arrayOfImageUrls) => {
+const getImageWrapperHeight = (arrayOfImageUrls: any) => {
   if (arrayOfImageUrls.length <= 2) {
     return '100%';
   }
@@ -17,8 +18,8 @@ const MultipleImages = ({
   border,
   height,
   urls,
-  width,
-}) => {
+  width
+}: any) => {
   const multipleImagesStyle = calculateStyles({
     default: {
       height,
@@ -44,21 +45,21 @@ const MultipleImages = ({
   return (
     <div style={multipleImagesStyle}>
       {
-        urls.map(url =>
-          <div
-            style={imageStyle}
-            height={height}
-            key={uuid()}
-          >
-            <Image
-              height={'100%'}
-              objectFit={'cover'}
-              src={url}
-              verticalAlignBottom
-              width={'100%'}
-              pad
-            />
-          </div>,
+        urls.map((url: any) => <div
+          style={imageStyle}
+          // @ts-expect-error TS(2322): Type '{ children: Element; style: { flexGrow: numb... Remove this comment to see the full error message
+          height={height}
+          key={uuid()}
+        >
+          <Image
+            height={'100%'}
+            objectFit={'cover'}
+            src={url}
+            verticalAlignBottom
+            width={'100%'}
+            pad
+          />
+        </div>,
         )
       }
     </div>

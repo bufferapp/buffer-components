@@ -28,8 +28,8 @@ const Link = ({
   onClick,
   padding,
   block,
-  className,
-}) => {
+  className
+}: any) => {
   const style = calculateStyles({
     default: {
       color: curiousBlue,

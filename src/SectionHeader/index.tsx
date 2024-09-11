@@ -16,7 +16,10 @@ const sectionHeaderStyle = {
   borderBottom: `${borderWidth} solid ${mystic}`,
 };
 
-const SectionHeader = ({ children }) => (
+const SectionHeader = ({
+  children
+}: any) => (
+  // @ts-expect-error TS(2322): Type '{ display: string; paddingTop: string; paddi... Remove this comment to see the full error message
   <div style={sectionHeaderStyle}>
     {children}
   </div>

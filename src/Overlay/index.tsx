@@ -7,7 +7,10 @@ import {
   overlay,
 } from '../style/zIndex';
 
-const Overlay = ({ onClick, transparent }) =>
+const Overlay = ({
+  onClick,
+  transparent
+}: any) =>
   // eslint-disable-next-line jsx-a11y/no-static-element-interactions
   <div
     onClick={onClick}

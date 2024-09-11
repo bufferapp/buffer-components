@@ -46,8 +46,8 @@ const Button = ({
   noStyle,
   label,
   linkStyle,
-  type,
-}) => {
+  type
+}: any) => {
   const style = calculateStyles({
     default: {
       display: 'inline-block',

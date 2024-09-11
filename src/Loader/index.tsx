@@ -1,10 +1,11 @@
 import React from 'react';
+// @ts-expect-error TS(7016): Could not find a declaration file for module '@buf... Remove this comment to see the full error message
 import { Keyframes, Frame } from '@bufferapp/react-keyframes';
 import PropTypes from 'prop-types';
 import { BufferTopIcon, BufferMiddleIcon, BufferBottomIcon } from '../Icon/Icons';
 import Text from '../Text';
 
-const renderText = (children) => {
+const renderText = (children: any) => {
   if (children) {
     return (
       <Text>{children}</Text>
@@ -29,12 +30,16 @@ const hiddenIconStyle = {
 
 /* eslint-disable react/prop-types */
 
-const generateKeyFrames = ({ component, delay = 0 }) =>
+const generateKeyFrames = ({
+  component,
+  delay = 0
+}: any) =>
   <Keyframes delay={delay} loop>
     <Frame
       duration={1000}
     >
       <div
+        // @ts-expect-error TS(2322): Type '{ opacity: number; position: string; top: nu... Remove this comment to see the full error message
         style={hiddenIconStyle}
       >
         {component}
@@ -44,6 +49,7 @@ const generateKeyFrames = ({ component, delay = 0 }) =>
       duration={1000}
     >
       <div
+        // @ts-expect-error TS(2322): Type '{ position: string; top: number; left: numbe... Remove this comment to see the full error message
         style={iconStyle}
       >
         {component}
@@ -53,7 +59,9 @@ const generateKeyFrames = ({ component, delay = 0 }) =>
 
 /* eslint-enable react/prop-types */
 
-const Loader = ({ children }) =>
+const Loader = ({
+  children
+}: any) =>
   <div
     style={{
       textAlign: 'center',

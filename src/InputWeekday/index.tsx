@@ -31,11 +31,13 @@ const InputWeekday = ({
     value,
     onChange,
   },
+
   meta: {
     submitting,
   },
-  fontSize,
-}) => (
+
+  fontSize
+}: any) => (
   <div style={style}>
     <Select
       disabled={submitting}

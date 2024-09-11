@@ -65,7 +65,10 @@ const modifiers = {
   cell: { daysOfWeek: [0, 1, 2, 3, 4, 5, 6] },
 };
 
-const renderError = ({ error, touched }) => (
+const renderError = ({
+  error,
+  touched
+}: any) => (
   error && touched ? (
     <div
       style={{
@@ -79,7 +82,10 @@ const renderError = ({ error, touched }) => (
   ) : null
 );
 
-const disabledDays = ({ disableBefore, submitting }, initialMonth) => {
+const disabledDays = ({
+  disableBefore,
+  submitting
+}: any, initialMonth: any) => {
   if (submitting) {
     return () => true;
   } else if (disableBefore) {
@@ -96,16 +102,20 @@ const disabledDays = ({ disableBefore, submitting }, initialMonth) => {
 
 const InputDate = ({
   disableBefore,
+
   input: {
     value,
     onChange,
   },
+
   initialMonthYear,
+
   meta: {
     error,
     touched,
     submitting,
   },
+
   firstDayOfWeek,
   firstMonthToDisplay,
   onNavigationClick,
@@ -114,8 +124,9 @@ const InputDate = ({
   renderDay,
   onDayClick,
   selectedDays,
-  initialMonth,
-}) =>
+  initialMonth
+}: any) =>
+  // @ts-expect-error TS(2322): Type '{ display: string; flexWrap: string; justify... Remove this comment to see the full error message
   <div style={datepickerStyles}>
     <DayPicker
       navbarElement={<NavBar firstMonthToDisplay={firstMonthToDisplay} onNavigationClick={onNavigationClick}/>}

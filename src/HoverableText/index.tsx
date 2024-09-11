@@ -10,8 +10,8 @@ const HoverableText = ({
   size,
   weight,
   onMouseEnter,
-  onMouseLeave,
-}) =>
+  onMouseLeave
+}: any) =>
   <span
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}

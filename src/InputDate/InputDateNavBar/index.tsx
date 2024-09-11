@@ -30,8 +30,8 @@ const NavBar = ({
   onPreviousClick,
   onNextClick,
   firstMonthToDisplay,
-  onNavigationClick,
-}) => {
+  onNavigationClick
+}: any) => {
 
   const onNext = () => {
     onNextClick();
@@ -46,15 +46,20 @@ const NavBar = ({
   const disablePreviousButton = (moment(month).isAfter(firstMonthToDisplay, 'month')) ? false : true;
 
   return (
+    // @ts-expect-error TS(2322): Type '{ position: string; left: string; right: num... Remove this comment to see the full error message
     <div style={styles.navbar}>
+      // @ts-expect-error TS(2322): Type '{ float: string; }' is not assignable to typ... Remove this comment to see the full error message
       <div style={styles.left}>
+        // @ts-expect-error TS(2322): Type '{ children: Element; type: string; noStyle: ... Remove this comment to see the full error message
         <Button type={'button'} noStyle disabled={disablePreviousButton ? true : false} onClick={onPrev}>
             <span style={styles.align}>
               <ArrowLeftIcon color={disablePreviousButton ? 'geyser' : 'black'}/>
             </span>
         </Button>
       </div>
+      // @ts-expect-error TS(2322): Type '{ float: string; }' is not assignable to typ... Remove this comment to see the full error message
       <div style={styles.right}>
+        // @ts-expect-error TS(2322): Type '{ children: Element; type: string; noStyle: ... Remove this comment to see the full error message
         <Button type={'button'} noStyle onClick={onNext}>
           <span style={styles.align}>
             <ArrowRightIcon color={'black'} />

@@ -12,6 +12,7 @@ describe('Select', () => {
       { name: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', value: 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch' }, // http://www.fun-with-words.com/longest_place_names.html
     ];
     return testComponentA11y(<Select options={options} />)
+    // @ts-expect-error TS(2571): Object is of type 'unknown'.
     .then(results => expect(results.violations.length).toBe(0));
   });
 });

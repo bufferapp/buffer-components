@@ -1,7 +1,10 @@
 import React from 'react';
 import Icon from '../index';
 
-const ArrowSolidRightIcon = ({ color, size }) =>
+const ArrowSolidRightIcon = ({
+  color,
+  size
+}: any) =>
   <Icon color={color} size={size}>
     <polygon points="0 0 0 16 8 8" />
   </Icon>;

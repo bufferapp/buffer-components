@@ -6,17 +6,18 @@ import { calculateStyles } from '../lib/utils';
 import PseudoClassComponent from '../PseudoClassComponent';
 
 // generate array of numbers (inclusive) - IE 11 compatible
-const genArray = (start, end) =>
+const genArray = (start: any, end: any) =>
+  // @ts-expect-error TS(2345): Argument of type '{ length: any; }' is not assigna... Remove this comment to see the full error message
   Array.apply(null, { length: end + 1 }) // eslint-disable-line prefer-spread
   .map(Number.call, Number).slice(start);
-const leftPadTimeUnit = timeUnit => (timeUnit < 10 ? `0${timeUnit}` : timeUnit);
+const leftPadTimeUnit = (timeUnit: any) => timeUnit < 10 ? `0${timeUnit}` : timeUnit;
 
 /* eslint-disable react/prop-types */
 const selectWrapperStyle = ({
   minimal,
   marginLeft = 0,
-  marginRight = 0,
-}) => calculateStyles({
+  marginRight = 0
+}: any) => calculateStyles({
   default: {
     position: 'relative',
     flex: 1,
@@ -41,8 +42,8 @@ const SelectWrapperStateless = ({
   onMouseEnter,
   onMouseLeave,
   onFocus,
-  onBlur,
-}) =>
+  onBlur
+}: any) =>
   <div
     onMouseEnter={onMouseEnter}
     onMouseLeave={onMouseLeave}
@@ -60,7 +61,9 @@ const SelectWrapperStateless = ({
   </div>;
 
 class SelectWrapper extends PseudoClassComponent {
+  // @ts-expect-error TS(2416): Property 'render' in type 'SelectWrapper' is not a... Remove this comment to see the full error message
   render() {
+    // @ts-expect-error TS(2339): Property 'children' does not exist on type 'Readon... Remove this comment to see the full error message
     const { children, ...rest } = this.props;
     let hoveredChildren = children;
     // string as children isn't clonable
@@ -68,10 +71,14 @@ class SelectWrapper extends PseudoClassComponent {
       hoveredChildren = React.cloneElement(
         children,
         {
+          // @ts-expect-error TS(2769): No overload matches this call.
           hovered: this.state.hovered,
           color:
+            // @ts-expect-error TS(2339): Property 'minimal' does not exist on type 'Readonl... Remove this comment to see the full error message
             this.props.minimal &&
+            // @ts-expect-error TS(2339): Property 'hovered' does not exist on type 'Readonl... Remove this comment to see the full error message
             this.state.hovered &&
+            // @ts-expect-error TS(2339): Property 'focused' does not exist on type 'Readonl... Remove this comment to see the full error message
             !this.state.focused ? 'curiousBlue' : undefined,
         },
       );
@@ -79,6 +86,7 @@ class SelectWrapper extends PseudoClassComponent {
     return (
       <SelectWrapperStateless
         {...rest}
+        // @ts-expect-error TS(2339): Property 'hovered' does not exist on type 'Readonl... Remove this comment to see the full error message
         hovered={this.state.hovered}
         onMouseEnter={() => this.handleMouseEnter()}
         onMouseLeave={() => this.handleMouseLeave()}
@@ -92,8 +100,8 @@ class SelectWrapper extends PseudoClassComponent {
 }
 
 const timeColonWrapperStyle = ({
-  minimal,
-}) => calculateStyles({
+  minimal
+}: any) => calculateStyles({
   default: {
     display: 'flex',
     alignItems: 'center',
@@ -111,8 +119,8 @@ const timeColonWrapperStyle = ({
 
 const TimeColonWrapper = ({
   children,
-  minimal,
-}) =>
+  minimal
+}: any) =>
   <div
     style={timeColonWrapperStyle({ minimal })}
   >
@@ -125,8 +133,9 @@ const AmPm = ({
   onChange,
   submitting,
   value,
-  fontSize,
-}) =>
+  fontSize
+}: any) =>
+  // @ts-expect-error TS(2322): Type '{ children: Element; minimal: any; }' is not... Remove this comment to see the full error message
   <SelectWrapper minimal={minimal}>
     <Select
       disabled={disabled || submitting}
@@ -147,7 +156,7 @@ const AmPm = ({
 
 /* eslint-enable react/prop-types */
 
-const displayHour = (hour, select24Hours) => {
+const displayHour = (hour: any, select24Hours: any) => {
   if (select24Hours) {
     return hour;
   } else if (hour === 0) {
@@ -157,7 +166,7 @@ const displayHour = (hour, select24Hours) => {
   return modHour === 0 ? 12 : modHour;
 };
 
-const generateHours = (select24Hours, value) => {
+const generateHours = (select24Hours: any, value: any) => {
   const timeArray = genArray(
     select24Hours || value.hours < 12 ? 0 : 12,
     select24Hours || value.hours > 11 ? 23 : 11,
@@ -177,18 +186,21 @@ const generateMinutes = () => (
 
 const InputTime = ({
   disabled,
+
   input: {
     value,
     onChange,
   },
+
   meta: {
     submitting,
   },
+
   minimal,
   select24Hours,
   displayTimeColon,
-  fontSize,
-}) => {
+  fontSize
+}: any) => {
   const style = {
     width: '100%',
     display: 'flex',
@@ -199,11 +211,13 @@ const InputTime = ({
   }
   return (
     <div style={style}>
+      // @ts-expect-error TS(2322): Type '{ children: Element; minimal: any; }' is not... Remove this comment to see the full error message
       <SelectWrapper minimal={minimal}>
         <Select
           disabled={disabled || submitting}
           onChange={e => onChange({ ...value, hours: parseInt(e.target.value, 10) })}
           value={value.hours}
+          // @ts-expect-error TS(2322): Type '{ value: unknown; name: any; }[]' is not ass... Remove this comment to see the full error message
           options={generateHours(select24Hours, value)}
           label={'Hour'}
           noStyle={minimal}
@@ -220,6 +234,7 @@ const InputTime = ({
         </TimeColonWrapper>
         : null }
       <SelectWrapper
+        // @ts-expect-error TS(2322): Type '{ children: Element; minimal: any; marginLef... Remove this comment to see the full error message
         minimal={minimal}
         marginLeft={minimal || displayTimeColon ? 0 : '0.25rem'}
         marginRight={!minimal ? '0.25rem' : undefined}
@@ -228,6 +243,7 @@ const InputTime = ({
           disabled={disabled || submitting}
           onChange={e => onChange({ ...value, minutes: parseInt(e.target.value, 10) })}
           value={value.minutes}
+          // @ts-expect-error TS(2322): Type '{ value: unknown; name: any; }[]' is not ass... Remove this comment to see the full error message
           options={generateMinutes()}
           label={'Minute'}
           noStyle={minimal}

@@ -1,5 +1,7 @@
 import React from 'react';
+// @ts-expect-error TS(2307): Cannot find module '@storybook/react' or its corre... Remove this comment to see the full error message
 import { storiesOf } from '@storybook/react';
+// @ts-expect-error TS(2307): Cannot find module '@storybook/addon-a11y' or its ... Remove this comment to see the full error message
 import { withA11y } from '@storybook/addon-a11y';
 import LinkifiedText from './index';
 
@@ -10,6 +12,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
@@ -28,6 +31,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
@@ -42,12 +46,14 @@ storiesOf('LinkifiedText', module)
         {
           rawString: 'http://t.co/0JG5Mcq',
           displayString: 'blog.twitter.com/2011/05/twitte…',
+          // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
           url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
           indices: [2, 21],
         },
         {
           rawString: 'https://buffer.com',
           displayString: 'buffer.com',
+          // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
           url: 'https://buffer.com',
           indices: [24, 42],
         },
@@ -61,6 +67,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
@@ -74,6 +81,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
@@ -87,6 +95,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [2, 21],
       }]}
@@ -121,6 +130,7 @@ storiesOf('LinkifiedText', module)
               30,
             ],
             rawString: '#hashtah',
+            // @ts-expect-error TS(2322): Type '{ displayString: string; indices: number[]; ... Remove this comment to see the full error message
             url: 'https://mastodonbooks.net/tags/hashtah',
             className: 'hashtag',
           },
@@ -131,6 +141,7 @@ storiesOf('LinkifiedText', module)
               52,
             ],
             rawString: '@buffer',
+            // @ts-expect-error TS(2322): Type '{ displayString: string; indices: number[]; ... Remove this comment to see the full error message
             url: 'https://mastodonbooks.net/@buffer',
           },
         ]
@@ -145,6 +156,7 @@ storiesOf('LinkifiedText', module)
       links={[{
         rawString: 'http://t.co/0JG5Mcq',
         displayString: 'blog.twitter.com/2011/05/twitte…',
+        // @ts-expect-error TS(2322): Type '{ rawString: string; displayString: string; ... Remove this comment to see the full error message
         url: 'http://blog.twitter.com/2011/05/twitter-for-mac-update.html',
         indices: [30, 49],
       }]}

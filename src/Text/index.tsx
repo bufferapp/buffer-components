@@ -31,12 +31,20 @@ import {
 } from '../style/whiteSpaces';
 import colors from '../style/color';
 
-const Text = ({ children, size, weight, color, whitespace, className }) => {
+const Text = ({
+  children,
+  size,
+  weight,
+  color,
+  whitespace,
+  className
+}: any) => {
   const style = calculateStyles({
     default: {
       fontFamily,
       fontSize,
       fontWeight,
+      // @ts-expect-error TS(7053): Element implicitly has an 'any' type because expre... Remove this comment to see the full error message
       color: colors[color],
     },
     // Weights

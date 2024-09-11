@@ -18,8 +18,8 @@ const style = {
 
 const IdTag = ({
   children,
-  className,
-}) =>
+  className
+}: any) =>
   <span
     style={style}
     className={className}

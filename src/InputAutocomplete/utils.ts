@@ -9,7 +9,7 @@
  * location (or there is no match) will be sorted alphabetically - For example,
  * a search for "or" would return "North Carolina" above "North Dakota".
  */
-export function sortItems(a, b, value) {
+export function sortItems(a: any, b: any, value: any) {
   const aLower = a.label.toLowerCase();
   const bLower = b.label.toLowerCase();
   const valueLower = value.toLowerCase();

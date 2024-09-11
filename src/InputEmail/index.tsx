@@ -6,9 +6,10 @@ const InputEmail = ({
   input,
   label,
   meta,
-  placeholder,
-}) =>
+  placeholder
+}: any) =>
   <Input
+    // @ts-expect-error TS(2322): Type '{ input: any; label: any; meta: any; placeho... Remove this comment to see the full error message
     input={input}
     label={label}
     meta={meta}

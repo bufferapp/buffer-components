@@ -1,7 +1,10 @@
 import React from 'react';
 import Icon from '../index';
 
-const CircleInstagramIcon = ({ color, size }) =>
+const CircleInstagramIcon = ({
+  color,
+  size
+}: any) =>
   <Icon color={color} size={size}>
     <circle cx="8" cy="8" r="8" />
     <g transform="translate(3.000000, 3.000000)">

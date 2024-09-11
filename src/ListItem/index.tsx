@@ -5,7 +5,9 @@ const style = {
   listStyle: 'none',
 };
 
-const ListItem = ({ children }) =>
+const ListItem = ({
+  children
+}: any) =>
   <li style={style}>{children}</li>;
 
 ListItem.propTypes = {

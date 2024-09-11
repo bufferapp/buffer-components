@@ -4,7 +4,13 @@ import { calculateStyles } from '../lib/utils';
 import { borderRadius } from '../style/border';
 
 
-const Video = ({ sources, controls, width, height, border }) => {
+const Video = ({
+  sources,
+  controls,
+  width,
+  height,
+  border
+}: any) => {
   const style = calculateStyles({
     default: {},
     rounded: {
@@ -20,7 +26,7 @@ const Video = ({ sources, controls, width, height, border }) => {
       width={width}
       height={height}
     >
-      {sources.map((source, i) =>
+      {sources.map((source: any, i: any) =>
         <source
           key={i}
           src={source.src}

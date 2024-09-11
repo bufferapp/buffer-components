@@ -8,9 +8,11 @@ const style = {
   listStyleType: 'none',
 };
 
-const List = ({ items }) =>
+const List = ({
+  items
+}: any) =>
   <ul style={style}>
-    {items.map((item, i) =>
+    {items.map((item: any, i: any) =>
       <ListItem key={item.id ? item.id : i}>
         {item.component ? item.component : item}
       </ListItem>)

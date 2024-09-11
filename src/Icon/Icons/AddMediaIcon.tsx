@@ -1,8 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Icon from '../index';
 
-const AddMediaIcon = ({ color, size }) =>
+const AddMediaIcon = ({
+  color,
+  size
+}: any) =>
   <Icon color={color} size={size}>
     <g transform="translate(0.000000, 0.500000)">
       <ellipse cx="3.5" cy="7.5" rx="1" ry="1" />

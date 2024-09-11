@@ -20,8 +20,8 @@ const Image = ({
   objectFit,
   verticalAlignBottom,
   pad,
-  className,
-}) => {
+  className
+}: any) => {
   const style = calculateStyles({
     default: {
       height,

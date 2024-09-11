@@ -7,7 +7,7 @@ const Icon = ({
   children,
   color,
   size
-}) => {
+}: any) => {
   const style = calculateStyles({
     default: {
       width: '1rem',

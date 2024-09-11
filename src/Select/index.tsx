@@ -44,6 +44,7 @@ const RangeIcon = () => (
       height: `${height - (borderWidthNumber * 2)}rem`,
       backgroundColor: '#fcfcfc',
       borderLeft: `${borderWidth} solid ${mystic}`,
+      // @ts-expect-error TS(2322): Type '{ position: "absolute"; top: string; right: ... Remove this comment to see the full error message
       borderRadiusTopRight: borderRadius,
       borderRadiusBottomRight: borderRadius,
       width: '1rem',
@@ -70,13 +71,17 @@ const RangeIcon = () => (
 );
 
 const DefaultIcon = () => (
+  // @ts-expect-error TS(2322): Type '{ position: string; top: string; right: stri... Remove this comment to see the full error message
   <div style={defaultIconStyle}>
     <ArrowDownIcon />
   </div>
 );
 
 /* eslint-disable react/prop-types */
-const SelectIcon = ({ noStyle, rangeSelector }) => {
+const SelectIcon = ({
+  noStyle,
+  rangeSelector
+}: any) => {
   if (noStyle) {
     return null;
   } else if (rangeSelector) {
@@ -101,8 +106,8 @@ const Select = ({
   rangeSelector,
   color,
   hovered,
-  size,
-}) => {
+  size
+}: any) => {
   const selectStyle = calculateStyles({
     default: {
       height: `${height}rem`,
@@ -116,6 +121,7 @@ const Select = ({
       WebkitAppearance: 'none',
       MozAppearance: 'none',
       width: '100%',
+      // @ts-expect-error TS(7053): Element implicitly has an 'any' type because expre... Remove this comment to see the full error message
       color: colors[color],
       outline: 'none',
     },
@@ -154,6 +160,7 @@ const Select = ({
   });
 
   return (
+    // @ts-expect-error TS(2322): Type '{ position: string; }' is not assignable to ... Remove this comment to see the full error message
     <div style={selectWrapperStyle}>
       <select
         style={selectStyle}
@@ -163,11 +170,9 @@ const Select = ({
         value={value}
       >
         {
-          options.map(option => (
-            <option key={option.value.toString()} value={option.value}>
-              {option.name}
-            </option>
-          ))
+          options.map((option: any) => <option key={option.value.toString()} value={option.value}>
+            {option.name}
+          </option>)
         }
       </select>
       <SelectIcon

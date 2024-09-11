@@ -1,6 +1,9 @@
 import React from 'react';
+// @ts-expect-error TS(2307): Cannot find module '@storybook/react' or its corre... Remove this comment to see the full error message
 import { storiesOf } from '@storybook/react';
+// @ts-expect-error TS(2307): Cannot find module '@storybook/addon-actions' or i... Remove this comment to see the full error message
 import { action } from '@storybook/addon-actions';
+// @ts-expect-error TS(2307): Cannot find module '@storybook/addon-a11y' or its ... Remove this comment to see the full error message
 import { withA11y } from '@storybook/addon-a11y';
 import InputDate from './index';
 import moment from 'moment';
@@ -51,6 +54,7 @@ storiesOf('InputDate', module)
         year: 2015,
       }}
       firstMonthToDisplay={date[1]}
+      // @ts-expect-error TS(2322): Type '{ input: { value: { day: number; month: numb... Remove this comment to see the full error message
       selectedDays={daySelected}
     />
   ))
@@ -65,6 +69,7 @@ storiesOf('InputDate', module)
         year: 2015,
       }}
       disableBefore={{
+        // @ts-expect-error TS(2322): Type '{ day: number; month: number; year: number; ... Remove this comment to see the full error message
         day: 21,
         month: 7,
         year: 2015,

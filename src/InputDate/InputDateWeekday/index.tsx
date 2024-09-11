@@ -7,8 +7,8 @@ const WeekDay = ({
   weekday,
   className,
   localeUtils,
-  locale,
-}) => {
+  locale
+}: any) => {
   const styles = {
     weekday: {
       display: 'table-cell',
@@ -20,7 +20,7 @@ const WeekDay = ({
 
   const weekdaysList = localeUtils.formatWeekdayLong(weekday, locale);
 
-  const getWeekdayName = (weekdaysList, weekdayLength) => {
+  const getWeekdayName = (weekdaysList: any, weekdayLength: any) => {
     switch(weekdayLength) {
       case 'short':
         return weekdaysList.slice(0, 1);
@@ -37,6 +37,7 @@ const WeekDay = ({
   };
 
   return (
+    // @ts-expect-error TS(2322): Type '{ display: string; padding: string; textAlig... Remove this comment to see the full error message
     <div style={styles.weekday} title={weekdaysList}>
       <Text color={'lightSlate'} size={'small'}>
         {getWeekdayName(weekdaysList, weekdayLength)}

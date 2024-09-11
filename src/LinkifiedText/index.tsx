@@ -4,8 +4,9 @@ import Text from '../Text';
 import Link from '../Link';
 import colors from '../style/color';
 
-const linkDataToElement = (options, link, key) => (
+const linkDataToElement = (options: any, link: any, key: any) => (
   <Link
+    // @ts-expect-error TS(2322): Type '{ children: any; href: any; key: any; unstyl... Remove this comment to see the full error message
     href={link.url}
     key={key}
     unstyled={options.unstyled}
@@ -16,7 +17,8 @@ const linkDataToElement = (options, link, key) => (
   </Link>
 );
 
-const calulateLinkifiedText = (options, links, curString, calculatedElements = []) => {
+// @ts-expect-error TS(7023): 'calulateLinkifiedText' implicitly has return type... Remove this comment to see the full error message
+const calulateLinkifiedText = (options: any, links: any, curString: any, calculatedElements = []) => {
   // nothing left to calculate, return all the caluculated pairs
   if ((curString && curString.length === 0) || !curString) {
     calculatedElements.reverse();
@@ -24,6 +26,7 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
   }
   // consume whats left of the string
   if ((links && links.length === 0) || !links) {
+    // @ts-expect-error TS(2345): Argument of type 'any' is not assignable to parame... Remove this comment to see the full error message
     calculatedElements.push(curString);
     return calulateLinkifiedText(options, links, '', calculatedElements);
   }
@@ -39,6 +42,7 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
   }
   // text at the end that's not a link
   if (curString.length !== lastLink.indices[1]) {
+    // @ts-expect-error TS(2345): Argument of type 'any' is not assignable to parame... Remove this comment to see the full error message
     calculatedElements.push(curString.substring(lastLink.indices[1]));
     return calulateLinkifiedText(
       options,
@@ -48,6 +52,7 @@ const calulateLinkifiedText = (options, links, curString, calculatedElements = [
     );
   }
   // found a link!
+  // @ts-expect-error TS(2345): Argument of type 'Element' is not assignable to pa... Remove this comment to see the full error message
   calculatedElements.push(linkDataToElement(options, lastLink, calculatedElements.length));
   return calulateLinkifiedText(
     options,
@@ -64,8 +69,8 @@ const LinkifiedText = ({
   newTab,
   size,
   unstyled,
-  whitespace,
-}) => {
+  whitespace
+}: any) => {
   const options = { unstyled, newTab };
   return (
     <Text

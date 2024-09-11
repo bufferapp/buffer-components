@@ -1,5 +1,7 @@
 import React from 'react';
+// @ts-expect-error TS(2307): Cannot find module 'enzyme' or its corresponding t... Remove this comment to see the full error message
 import { mount, configure } from 'enzyme';
+// @ts-expect-error TS(2307): Cannot find module 'enzyme-adapter-react-16' or it... Remove this comment to see the full error message
 import Adapter from 'enzyme-adapter-react-16';
 import LinkStateless from '../LinkStateless';
 import Link from './index';
@@ -9,11 +11,14 @@ configure({ adapter: new Adapter() });
 
 describe('Link', () => {
   it('should pass accessibility audit', () => testComponentA11y(
+    // @ts-expect-error TS(2322): Type '{ children: string; href: string; }' is not ... Remove this comment to see the full error message
     <Link href={'localhost:8000'}>A Link</Link>,
     )
+    // @ts-expect-error TS(2571): Object is of type 'unknown'.
     .then(results => expect(results.violations.length).toBe(0)));
   it('should toggle hovered prop when mouseEnter and mouseLeave are triggered', () => {
     const wrapper = mount(
+      // @ts-expect-error TS(2322): Type '{ children: string; href: string; }' is not ... Remove this comment to see the full error message
       <Link href={'localhost:8000'}>A Link</Link>,
     );
     const link = wrapper
@@ -30,6 +35,7 @@ describe('Link', () => {
 
   it('should toggle focused prop when focus and blur are triggered', () => {
     const wrapper = mount(
+      // @ts-expect-error TS(2322): Type '{ children: string; href: string; }' is not ... Remove this comment to see the full error message
       <Link href={'localhost:8000'}>A Link</Link>,
     );
     const link = wrapper
@@ -46,7 +52,10 @@ describe('Link', () => {
 
   it('should toggle focused prop when focus and blur are triggered', () => {
     /* eslint-disable react/prop-types */
-    const HoverableFocusableThing = ({ hovered, focused }) =>
+    const HoverableFocusableThing = ({
+      hovered,
+      focused
+    }: any) =>
       <div>{hovered} - {focused}</div>;
     /* eslint-enable react/prop-types */
     const wrapper = mount(

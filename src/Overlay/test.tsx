@@ -10,5 +10,6 @@ describe('Overlay', () => {
       <Overlay transparent />
     </div>,
     )
+    // @ts-expect-error TS(2571): Object is of type 'unknown'.
     .then(results => expect(results.violations.length).toBe(0)));
 });

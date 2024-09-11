@@ -28,8 +28,12 @@ const appIconStyle = {
   color: shuttleGray,
 };
 
-const NavBar = ({ title, subtitle }) =>
+const NavBar = ({
+  title,
+  subtitle
+}: any) =>
   <div
+    // @ts-expect-error TS(2322): Type '{ display: string; marginBottom: string; pad... Remove this comment to see the full error message
     style={navbarStyle}
   >
     <span

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Tabs = ({
   children,
   selectedTabId,
-  onTabClick,
-}) => (
+  onTabClick
+}: any) => (
   <div>
     {React.Children.map(children, tab => React.cloneElement(tab, {
       selected: selectedTabId === tab.props.tabId,

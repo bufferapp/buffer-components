@@ -16,7 +16,9 @@ const errorStyle = {
   marginTop: '0.25rem',
 };
 
-const renderLabel = ({ label }) =>
+const renderLabel = ({
+  label
+}: any) =>
   (label ? (
     <div style={labelStyle}>
       <Text size="small" weight="semi-bold">
@@ -25,7 +27,10 @@ const renderLabel = ({ label }) =>
     </div>
   ) : null);
 
-const renderError = ({ error, touched }) =>
+const renderError = ({
+  error,
+  touched
+}: any) =>
   (error && touched ? (
     <div style={errorStyle}>
       <Text size="small" color="torchRed">
@@ -46,8 +51,8 @@ const InputStateless = ({
   onFocus,
   onBlur,
   onMouseEnter,
-  onMouseLeave,
-}) => {
+  onMouseLeave
+}: any) => {
   const style = calculateStyles(
     {
       default: {
@@ -83,6 +88,7 @@ const InputStateless = ({
           value={input.value}
           onChange={input.onChange}
           placeholder={placeholder}
+          // @ts-expect-error TS(2322): Type '{ style: {}; disabled: any; value: any; onCh... Remove this comment to see the full error message
           type={type}
           onFocus={onFocus}
           onBlur={onBlur}

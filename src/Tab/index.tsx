@@ -13,8 +13,8 @@ const Tab = ({
   children,
   selected,
   tabId,
-  onClick,
-}) => {
+  onClick
+}: any) => {
   const style = calculateStyles({
     default: {
       display: 'inline-block',
@@ -29,9 +29,10 @@ const Tab = ({
   });
   return (
     <Link
+      // @ts-expect-error TS(2322): Type '{ children: Element; href: string; unstyled:... Remove this comment to see the full error message
       href={'#'}
       unstyled
-      onClick={(e) => {
+      onClick={(e: any) => {
         e.preventDefault();
         onClick(tabId);
       }}

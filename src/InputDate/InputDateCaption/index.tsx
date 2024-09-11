@@ -12,11 +12,12 @@ const styles = {
 };
 
 const Caption = ({
-  date,
-}) => {
+  date
+}: any) => {
   const month = moment(date).format('MMMM YYYY');
 
   return (
+    // @ts-expect-error TS(2322): Type '{ height: string; textAlign: string; padding... Remove this comment to see the full error message
     <div style={styles.caption}>
       <Text color={'black'} weight={'bold'} size={'mini'}>
         {month}

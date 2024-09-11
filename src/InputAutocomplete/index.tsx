@@ -1,5 +1,7 @@
 import React from 'react';
+// @ts-expect-error TS(2307): Cannot find module 'uuid' or its corresponding typ... Remove this comment to see the full error message
 import uuid from 'uuid';
+// @ts-expect-error TS(7016): Could not find a declaration file for module 'reac... Remove this comment to see the full error message
 import Autocomplete from 'react-autocomplete';
 import PropTypes from 'prop-types';
 import Text from '../Text';
@@ -11,7 +13,7 @@ import {
   white,
 } from '../style/color';
 
-const matchValueToItem = (item, value) =>
+const matchValueToItem = (item: any, value: any) =>
   item.label.toLowerCase().indexOf(value.toLowerCase()) !== -1;
 
 const InputAutocomplete = ({
@@ -19,15 +21,18 @@ const InputAutocomplete = ({
     value,
     onChange,
   },
+
   onSelect,
   items,
   sortItems,
   placeholder,
   onFocusHandler,
   onBlurHandler,
-  disabled,
-}) => {
-  const renderItem = ({ label }, isHighlighted) => {
+  disabled
+}: any) => {
+  const renderItem = ({
+    label
+  }: any, isHighlighted: any) => {
     const style = calculateStyles({
       default: {
         padding: '2px 6px',
@@ -103,11 +108,11 @@ const InputAutocomplete = ({
           disabled,
         }}
         items={items}
-        getItemValue={item => item.label}
+        getItemValue={(item: any) => item.label}
         shouldItemRender={matchValueToItem}
         sortItems={sortItems}
         onChange={onChange}
-        onSelect={(val, obj) => {
+        onSelect={(val: any, obj: any) => {
           value = val;
           onSelect(obj);
         }}
