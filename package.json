@@ -2,8 +2,10 @@
   "name": "@bufferapp/components",
   "version": "5.0.0",
   "description": "Buffer's legacy UI Components library.",
-  "main": "lib/index.js",
-  "scripts": {},
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest"
+  },
   "license": "MIT",
   "homepage": "https://github.com/bufferapp/buffer-components#readme",
   "devDependencies": {
