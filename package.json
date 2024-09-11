@@ -1,82 +1,28 @@
 {
   "name": "@bufferapp/components",
-  "version": "4.3.0",
-  "description": "A shared set of UI Components",
+  "version": "5.0.0",
+  "description": "Buffer's legacy UI Components library.",
   "main": "lib/index.js",
-  "types": "types/index.d.ts",
-  "scripts": {
-    "start": "start-storybook -p 9001",
-    "deploy-storybook": "storybook-to-ghpages",
-    "lint": "eslint . --ignore-pattern coverage .storybook node_modules",
-    "test": "jest",
-    "test-update": "jest -u",
-    "test-watch": "jest --watch",
-    "build": "babel src -d lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bufferapp/buffer-components.git"
-  },
-  "author": "Harrison Harnisch <hharnisc@gmail.com> (https://hharnisc.github.io)",
+  "scripts": {},
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bufferapp/buffer-components/issues"
-  },
   "homepage": "https://github.com/bufferapp/buffer-components#readme",
-  "peerDependencies": {
-    "react": ">= 0.14.0"
-  },
-  "jest": {
-    "verbose": true,
-    "moduleNameMapper": {
-      "\\.(css|less)$": "identity-obj-proxy"
-    },
-    "setupFiles": [
-      "<rootDir>/.jest/require-context.js",
-      "<rootDir>/testSetup.js"
-    ]
-  },
   "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.4",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-export-default-from": "^7.8.3",
-    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-react": "^7.9.4",
-    "@storybook/addon-a11y": "5.1.11",
-    "@storybook/addon-actions": "5.1.11",
-    "@storybook/addon-storyshots": "5.1.11",
-    "@storybook/react": "5.1.11",
-    "@storybook/storybook-deployer": "^2.8.5",
-    "axe-core": "^2.6.1",
-    "babel-eslint": "10.0.3",
-    "babel-jest": "^25.4.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-require-context-hook": "^1.0.0",
-    "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.14.0",
-    "eslint": "6.4.0",
-    "eslint-config-airbnb": "18.1.0",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.19.0",
-    "eslint-plugin-react-hooks": "2.5.0",
-    "identity-obj-proxy": "3.0.0",
-    "jest": "24.9.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-test-renderer": "16.8.6",
-    "ts-migrate": "^0.1.35"
+    "@types/node": "18.15.3",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "ts-migrate": "^0.1.35",
+    "typescript": "4.7.2",
+    "vite": "5.2.8",
+    "vite-plugin-turbosnap": "~1.0.3",
+    "vitest": "^0.34.6"
   },
   "dependencies": {
     "@bufferapp/react-keyframes": "0.2.5",
     "moment": "^2.22.2",
     "raf": "3.4.0",
+    "react": "18.2.0",
     "react-autocomplete": "1.7.2",
-    "react-day-picker": "7.2.3"
-  },
-  "publishConfig": {
-    "access": "public"
+    "react-day-picker": "7.2.3",
+    "react-dom": "18.2.0"
   }
 }
