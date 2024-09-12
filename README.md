@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/bufferapp/buffer-components.svg?branch=master)](https://travis-ci.org/bufferapp/buffer-components)
 
+🚧 Legacy Buffer Components [DEPRECATED]
+
+🚧 Many of these components are still used across Buffer and its products, however they are all deprecated/unmaintained. Please use Popcorn for the latest and greatest components based on Radix/UI.
+
 A shared set of UI Components using React and CSS Modules.
 
 Demo: https://bufferapp.github.io/buffer-components/
